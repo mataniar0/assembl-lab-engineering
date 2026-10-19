@@ -12,14 +12,16 @@ Final automated checks: 61 P01 + 25 source + 15 import = 101 passed, zero final 
 Initial failures and repairs are retained in the validation record; independent automated
 QA is recorded separately and does not replace engineering-lead approval.
 
-## CTB-002 — DESIGN_REVIEW_PENDING / DESIGN_ONLY
+## CTB-002 — B SELECTED_FOR_COORDINATED_DESIGN / DESIGN_ONLY
 
 Issue #5: three spacer joint studies and a versioned SOFT_CURVE mortise proposal.
-Recommended B_THROUGH_ADHESIVE has one reinforced P02B at35 and three identical P02
+Engineering lead selected B_THROUGH_ADHESIVE as DESIGN_ONLY working concept.
+See `parts/P02/CTB-002-SELECTION.md` for decision/limitations.
+B_THROUGH_ADHESIVE has one reinforced P02B at35 and three identical P02
 at90/200/390. Candidate BOM P02×9 +P02B×3 +P01×6. Original P01 files/exterior unchanged.
 Local rigid CAD final/swept checks pass for B; this does not prove adhesive, material,
 physical fit, retention or whole-table assembly. A explicitly BLOCKED; C alternative
-requires review. PC-CTB002-01 proposes245→200 only in candidate data, pending CTB006
+requires review. PC-CTB002-01 adopts Z200 as provisional downstream candidate, pending CTB006
 ring coordination. Ring remains OPEN; no ring-specific holes. All B01–B13 preserved.
 See [CTB002 comparison](reports/CTB-002-DESIGN-REVIEW.md),
 [interface matrix](reports/CTB-002-INTERFACE-MATRIX.md) and
@@ -82,8 +84,8 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 ## Next gate
 
 Engineering lead selected SOFT_CURVE; CTB-002 now proposes coordinated candidate P01
-mortises and four spacers. Lead review of B joinery, provisional200 height and CTB006
-ring agreement is pending. Original P01 and frozen system parameters remain unchanged.
+mortises and four spacers. Lead review selected B joinery as a CAD working concept and provisional Z200.
+CTB006 ring agreement is pending, and the B adhesive/outward retention is unproven. Original P01 and frozen system parameters remain unchanged.
 See `parts/P01/P01-SELECTION.md` and CTB002 reports.
 Y reach, ring/spacer coordination, fit, locking, assembly, stability and all B01–B13
 records remain open. Complete G1 joinery, integration and production are not approved.
