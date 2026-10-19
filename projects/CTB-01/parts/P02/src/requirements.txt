@@ -1,0 +1,5 @@
+-r ../../P01/src/requirements.txt
+manifold3d==3.3.2
+trimesh==4.11.2
+# Trimesh face-color GLB export uses scipy.sparse.
+scipy==1.17.1

@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CTB002 candidate parameters",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "selected_master",
+    "working_concept",
+    "station_z_mm",
+    "reference_z_mm",
+    "spacer_thickness_mm",
+    "slot_allowance_each_side_mm",
+    "slot_corner_radius_mm",
+    "convex_corner_radius_mm",
+    "root_corner_radius_mm",
+    "minimum_cheek_land_hypothesis_mm",
+    "sheet_margin_mm",
+    "raster_dpi",
+    "ring_band_z_mm",
+    "bypass_t_mm",
+    "insertion_start_offset_t_mm",
+    "key_slide_r_mm",
+    "key_head_extra_length_t_mm",
+    "parts",
+    "actual_stock_thickness_mm",
+    "measured_kerf_mm"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "CTB-002-study-v1"
+    },
+    "status": {
+      "const": "DESIGN_ONLY"
+    },
+    "selected_master": {
+      "const": "SOFT_CURVE"
+    },
+    "working_concept": {
+      "const": "B_THROUGH_ADHESIVE"
+    },
+    "station_z_mm": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "reference_z_mm": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "spacer_thickness_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "slot_allowance_each_side_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "slot_corner_radius_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "convex_corner_radius_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "root_corner_radius_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "minimum_cheek_land_hypothesis_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "sheet_margin_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "raster_dpi": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "ring_band_z_mm": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "bypass_t_mm": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "insertion_start_offset_t_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "key_slide_r_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "key_head_extra_length_t_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "parts": {
+      "type": "object",
+      "required": [
+        "P02",
+        "P02B"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "P02": {
+          "type": "object",
+          "required": [
+            "body_radial_width_mm",
+            "tab_radial_width_mm",
+            "key_neck_radial_width_mm",
+            "key_head_radial_width_mm",
+            "asymmetric_tab_width_mm",
+            "asymmetric_radial_offset_mm"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "body_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "tab_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "key_neck_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "key_head_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "asymmetric_tab_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "asymmetric_radial_offset_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        },
+        "P02B": {
+          "type": "object",
+          "required": [
+            "body_radial_width_mm",
+            "tab_radial_width_mm",
+            "key_neck_radial_width_mm",
+            "key_head_radial_width_mm",
+            "asymmetric_tab_width_mm",
+            "asymmetric_radial_offset_mm"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "body_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "tab_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "key_neck_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "key_head_radial_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "asymmetric_tab_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "asymmetric_radial_offset_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        }
+      }
+    },
+    "actual_stock_thickness_mm": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "measured_kerf_mm": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+A_KEYED_HEAD BLOCKED_NOT_SELECTED min land 1.7168688580729667 sweep BLOCKED
+B_THROUGH_ADHESIVE CAD_WORKING_PROPOSAL min land 8.000374136237456 sweep PASS_CAD_LOCAL_SWEEP
+C_ASYMMETRIC CAD_ALTERNATIVE min land 6.661427300791643 sweep PASS_CAD_LOCAL_SWEEP
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P02/src/generate.py", line 238, in <module>
+    if __name__=='__main__':generate()
+                            ^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P02/src/generate.py", line 230, in generate
+    assembly_views(d,b,assembly(d['working_concept'],d,b))
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P02/src/generate.py", line 100, in assembly_views
+    (out/'one-leg-DESIGN_ONLY.glb').write_bytes(scene.export(file_type='glb'))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/scene/scene.py", line 1046, in export
+    return export.export_scene(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/exchange/export.py", line 262, in export_scene
+    data = export_glb(scene, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/exchange/gltf/__init__.py", line 212, in export_glb
+    tree, buffer_items = _create_gltf_structure(
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/exchange/gltf/__init__.py", line 690, in _create_gltf_structure
+    _append_mesh(
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/exchange/gltf/__init__.py", line 859, in _append_mesh
+    vertex_colors = mesh.visual.vertex_colors
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/visual/color.py", line 222, in vertex_colors
+    return self._get_colors(name="vertex")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/visual/color.py", line 338, in _get_colors
+    colors = face_to_vertex_color(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/visual/color.py", line 851, in face_to_vertex_color
+    vertex = mesh.faces_sparse.dot(rgba.astype(np.float64))
+             ^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/caching.py", line 139, in get_cached
+    value = function(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/base.py", line 395, in faces_sparse
+    return geometry.index_sparse(columns=len(self.vertices), indices=self.faces)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/geometry.py", line 462, in index_sparse
+    return scipy.sparse.coo_matrix((data, (row, col)), shape=shape, dtype=data.dtype)
+           ^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-002/lib/python3.12/site-packages/trimesh/exceptions.py", line 35, in __getattribute__
+    raise exc_type(*exc_args)
+ModuleNotFoundError: No module named 'scipy'

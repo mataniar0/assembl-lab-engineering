@@ -1,0 +1,4 @@
+part_id,quantity_per_leg,quantity_table,nominal_thickness_mm,version,status,note
+P01-SOFT_CURVE-mortise-study-v1,2,6,6,CTB-002-study-v1,DESIGN_ONLY,Identical candidate cheeks; original P01 exterior and files preserved
+P02,3,9,6,CTB-002-study-v1,DESIGN_ONLY,Identical B_THROUGH_ADHESIVE standard spacers at90/200/390
+P02B,1,3,6,CTB-002-study-v1,DESIGN_ONLY,Single-piece wider lower spacer at35; no strength rating

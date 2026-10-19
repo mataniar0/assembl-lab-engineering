@@ -1,0 +1,69 @@
+test_A_KEYED_HEAD_PNG_real_geometry_and_scale (__main__.SpacerTests.test_A_KEYED_HEAD_PNG_real_geometry_and_scale) ... ok
+test_A_KEYED_HEAD_double_C_web_or_single_B_slot (__main__.SpacerTests.test_A_KEYED_HEAD_double_C_web_or_single_B_slot) ... ok
+test_A_KEYED_HEAD_dxf_svg_equality (__main__.SpacerTests.test_A_KEYED_HEAD_dxf_svg_equality) ... ok
+test_A_KEYED_HEAD_exported_part_paths (__main__.SpacerTests.test_A_KEYED_HEAD_exported_part_paths) ... ok
+test_A_KEYED_HEAD_land_screen (__main__.SpacerTests.test_A_KEYED_HEAD_land_screen) ... ok
+test_A_KEYED_HEAD_local_sweep_or_explicit_blocker (__main__.SpacerTests.test_A_KEYED_HEAD_local_sweep_or_explicit_blocker) ... ok
+test_A_KEYED_HEAD_mortises_closed_and_external_unchanged (__main__.SpacerTests.test_A_KEYED_HEAD_mortises_closed_and_external_unchanged) ... ok
+test_A_KEYED_HEAD_nominal_solid_collision_free (__main__.SpacerTests.test_A_KEYED_HEAD_nominal_solid_collision_free) ... ok
+test_A_KEYED_HEAD_sheet_envelope_and_radius_screen (__main__.SpacerTests.test_A_KEYED_HEAD_sheet_envelope_and_radius_screen) ... ok
+test_A_KEYED_HEAD_source_rebuild_matches_export (__main__.SpacerTests.test_A_KEYED_HEAD_source_rebuild_matches_export) ... ok
+test_A_KEYED_HEAD_three_standard_parts_identical (__main__.SpacerTests.test_A_KEYED_HEAD_three_standard_parts_identical) ... ok
+test_BOM_exact_twelve_and_six (__main__.SpacerTests.test_BOM_exact_twelve_and_six) ... ok
+test_B_THROUGH_ADHESIVE_PNG_real_geometry_and_scale (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_PNG_real_geometry_and_scale) ... ok
+test_B_THROUGH_ADHESIVE_double_C_web_or_single_B_slot (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_double_C_web_or_single_B_slot) ... ok
+test_B_THROUGH_ADHESIVE_dxf_svg_equality (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_dxf_svg_equality) ... ok
+test_B_THROUGH_ADHESIVE_exported_part_paths (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_exported_part_paths) ... ok
+test_B_THROUGH_ADHESIVE_land_screen (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_land_screen) ... ok
+test_B_THROUGH_ADHESIVE_local_sweep_or_explicit_blocker (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_local_sweep_or_explicit_blocker) ... ok
+test_B_THROUGH_ADHESIVE_mortises_closed_and_external_unchanged (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_mortises_closed_and_external_unchanged) ... ok
+test_B_THROUGH_ADHESIVE_nominal_solid_collision_free (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_nominal_solid_collision_free) ... ok
+test_B_THROUGH_ADHESIVE_sheet_envelope_and_radius_screen (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_sheet_envelope_and_radius_screen) ... ok
+test_B_THROUGH_ADHESIVE_source_rebuild_matches_export (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_source_rebuild_matches_export) ... ok
+test_B_THROUGH_ADHESIVE_three_standard_parts_identical (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_three_standard_parts_identical) ... ok
+test_C_ASYMMETRIC_PNG_real_geometry_and_scale (__main__.SpacerTests.test_C_ASYMMETRIC_PNG_real_geometry_and_scale) ... ok
+test_C_ASYMMETRIC_double_C_web_or_single_B_slot (__main__.SpacerTests.test_C_ASYMMETRIC_double_C_web_or_single_B_slot) ... ok
+test_C_ASYMMETRIC_dxf_svg_equality (__main__.SpacerTests.test_C_ASYMMETRIC_dxf_svg_equality) ... ok
+test_C_ASYMMETRIC_exported_part_paths (__main__.SpacerTests.test_C_ASYMMETRIC_exported_part_paths) ... ok
+test_C_ASYMMETRIC_land_screen (__main__.SpacerTests.test_C_ASYMMETRIC_land_screen) ... FAIL
+test_C_ASYMMETRIC_local_sweep_or_explicit_blocker (__main__.SpacerTests.test_C_ASYMMETRIC_local_sweep_or_explicit_blocker) ... ok
+test_C_ASYMMETRIC_mortises_closed_and_external_unchanged (__main__.SpacerTests.test_C_ASYMMETRIC_mortises_closed_and_external_unchanged) ... ok
+test_C_ASYMMETRIC_nominal_solid_collision_free (__main__.SpacerTests.test_C_ASYMMETRIC_nominal_solid_collision_free) ... ok
+test_C_ASYMMETRIC_sheet_envelope_and_radius_screen (__main__.SpacerTests.test_C_ASYMMETRIC_sheet_envelope_and_radius_screen) ... ok
+test_C_ASYMMETRIC_source_rebuild_matches_export (__main__.SpacerTests.test_C_ASYMMETRIC_source_rebuild_matches_export) ... ok
+test_C_ASYMMETRIC_three_standard_parts_identical (__main__.SpacerTests.test_C_ASYMMETRIC_three_standard_parts_identical) ... ok
+test_negative_forced_spacer_overlap (__main__.SpacerTests.test_negative_forced_spacer_overlap) ... ok
+test_negative_missing_C_spare_hole_breaks_interchangeability (__main__.SpacerTests.test_negative_missing_C_spare_hole_breaks_interchangeability) ... ok
+test_negative_reverse_insertion_collides (__main__.SpacerTests.test_negative_reverse_insertion_collides) ... ok
+test_negative_shifted_mortises_fail (__main__.SpacerTests.test_negative_shifted_mortises_fail) ... ok
+test_negative_thick_stock_causes_collision (__main__.SpacerTests.test_negative_thick_stock_causes_collision) ... ok
+test_negative_zero_web_rejected (__main__.SpacerTests.test_negative_zero_web_rejected) ... ok
+test_no_extra_key_parts_or_measured_claims (__main__.SpacerTests.test_no_extra_key_parts_or_measured_claims) ... ok
+test_no_slots_in_ring_Y_tongue_foot (__main__.SpacerTests.test_no_slots_in_ring_Y_tongue_foot) ... ok
+test_original_upstream_bytes_unchanged (__main__.SpacerTests.test_original_upstream_bytes_unchanged) ... FAIL
+test_reinforcement_by_geometry_only (__main__.SpacerTests.test_reinforcement_by_geometry_only) ... ok
+test_ring_relocation_and_bypass_quantified (__main__.SpacerTests.test_ring_relocation_and_bypass_quantified) ... ok
+test_schema_rejects_zero_thickness (__main__.SpacerTests.test_schema_rejects_zero_thickness) ... ok
+test_six_identical_cheeks_and_nominal_gap (__main__.SpacerTests.test_six_identical_cheeks_and_nominal_gap) ... ok
+test_working_GLTF_six_watertight_parts (__main__.SpacerTests.test_working_GLTF_six_watertight_parts) ... ok
+
+======================================================================
+FAIL: test_C_ASYMMETRIC_land_screen (__main__.SpacerTests.test_C_ASYMMETRIC_land_screen)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P02/tests/test_spacers.py", line 181, in land_screen
+    self.assertGreaterEqual(min(x['minimum_hole_to_external_contour_mm'] for x in report),6)
+AssertionError: 5.312927032431288 not greater than or equal to 6
+
+======================================================================
+FAIL: test_original_upstream_bytes_unchanged (__main__.SpacerTests.test_original_upstream_bytes_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P02/tests/test_spacers.py", line 52, in test_original_upstream_bytes_unchanged
+    self.assertGreater(len(hashes),50)
+AssertionError: 47 not greater than 50
+
+----------------------------------------------------------------------
+Ran 48 tests in 4.074s
+
+FAILED (failures=2)
