@@ -1,0 +1,34 @@
+[
+  {
+    "hypothetical_stock_mm": 5.6,
+    "actual_gap_at_fixed_centres_mm": 15.4,
+    "shoulder_gap_each_side_mm": 0.20000000000000018,
+    "maximum_material_intersection_mm3": 0,
+    "measured": false,
+    "physical_fit_status": "UNVERIFIED"
+  },
+  {
+    "hypothetical_stock_mm": 6.0,
+    "actual_gap_at_fixed_centres_mm": 15.0,
+    "shoulder_gap_each_side_mm": 0,
+    "maximum_material_intersection_mm3": 0,
+    "measured": false,
+    "physical_fit_status": "UNVERIFIED"
+  },
+  {
+    "hypothetical_stock_mm": 6.4,
+    "actual_gap_at_fixed_centres_mm": 14.6,
+    "shoulder_gap_each_side_mm": 0,
+    "maximum_material_intersection_mm3": 19.393832126013635,
+    "measured": false,
+    "physical_fit_status": "UNVERIFIED"
+  },
+  {
+    "hypothetical_stock_mm": 6.8,
+    "actual_gap_at_fixed_centres_mm": 14.2,
+    "shoulder_gap_each_side_mm": 0,
+    "maximum_material_intersection_mm3": 103.15628762396233,
+    "measured": false,
+    "physical_fit_status": "UNVERIFIED"
+  }
+]

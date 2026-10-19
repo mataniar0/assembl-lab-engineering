@@ -1,4 +1,4 @@
-# CTB-01 status — CTB-001 design selection
+# CTB-01 status — CTB-002 design review
 
 **BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
 **CTB-001 / P01: SOFT_CURVE SELECTED_FOR_DOWNSTREAM_COMPONENT_DESIGN — DESIGN_ONLY.**
@@ -11,6 +11,22 @@ See [design review](reports/CTB-001-DESIGN-REVIEW.md),
 Final automated checks: 61 P01 + 25 source + 15 import = 101 passed, zero final failures.
 Initial failures and repairs are retained in the validation record; independent automated
 QA is recorded separately and does not replace engineering-lead approval.
+
+## CTB-002 — DESIGN_REVIEW_PENDING / DESIGN_ONLY
+
+Issue #5: three spacer joint studies and a versioned SOFT_CURVE mortise proposal.
+Recommended B_THROUGH_ADHESIVE has one reinforced P02B at35 and three identical P02
+at90/200/390. Candidate BOM P02×9 +P02B×3 +P01×6. Original P01 files/exterior unchanged.
+Local rigid CAD final/swept checks pass for B; this does not prove adhesive, material,
+physical fit, retention or whole-table assembly. A explicitly BLOCKED; C alternative
+requires review. PC-CTB002-01 proposes245→200 only in candidate data, pending CTB006
+ring coordination. Ring remains OPEN; no ring-specific holes. All B01–B13 preserved.
+See [CTB002 comparison](reports/CTB-002-DESIGN-REVIEW.md),
+[interface matrix](reports/CTB-002-INTERFACE-MATRIX.md) and
+[validation/failures](reports/CTB-002-VALIDATION.md).
+Final automated suites52 P02 +61 P01 +25 baseline +15 import =153 passed;
+independent CAD-kernel QA is recorded in CTB002-INDEPENDENT-QA.
+No final G1 joinery or physical cutting approval. No automatic merge.
 
 ## Authoritative baseline
 
@@ -49,12 +65,14 @@ references; no obsolete CAD is present in active sources or imported by this tas
 The four historical ZIPs named in MANIFEST.json were not supplied; their hashes and
 mechanical contents have not been independently verified in this task.
 
-## Validation and discrepancies
+## CTB-000 baseline validation history and source discrepancies
 
 See `reports/CTB-000-DELIVERY.md`, the complete test logs and source SHA-256 inventory.
 Source validator: 25/25 PASS. Additional import consistency checks: 15/15 PASS.
-No frozen or provisional parameters were changed. No physical verification, load rating,
-fit/bending test, stability test, 3D collision check or actual nesting is claimed.
+Original CTB-000 frozen and provisional data remain unchanged. CTB-002 separately proposes
+spacer245→200 only in versioned candidate data, pending CTB006 coordination. Local
+one-leg nominal CAD collision/insertion proof is documented above; full-table3D integration,
+physical fit/bending, load/stability and actual nesting remain unverified.
 
 The supplied SVG/PNG retain a v0.1 title inside a v0.2 package and a schematic forked
 side silhouette. These are source presentation discrepancies, not authoritative leg CAD.
@@ -63,9 +81,10 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 
 ## Next gate
 
-Engineering lead selected SOFT_CURVE for design coordination; downstream CTB-002 may
-propose **P01 joint modifications** without silently modifying this baseline or frozen
-system parameters. See `parts/P01/P01-SELECTION.md`.
+Engineering lead selected SOFT_CURVE; CTB-002 now proposes coordinated candidate P01
+mortises and four spacers. Lead review of B joinery, provisional200 height and CTB006
+ring agreement is pending. Original P01 and frozen system parameters remain unchanged.
+See `parts/P01/P01-SELECTION.md` and CTB002 reports.
 Y reach, ring/spacer coordination, fit, locking, assembly, stability and all B01–B13
 records remain open. Complete G1 joinery, integration and production are not approved.
 Production remains blocked through independent assembly QA and physical tests.

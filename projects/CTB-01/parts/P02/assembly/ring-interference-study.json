@@ -1,0 +1,109 @@
+{
+  "status": "CONDITIONAL_CTB006_REVIEW",
+  "recommended": "RELOCATE_200",
+  "ring_geometry_unknown": true,
+  "reservation_rt_z_bounds_mm": [
+    74.24021260869564,
+    149.05465954838712,
+    -13.5,
+    13.5,
+    225,
+    265
+  ],
+  "spacer_reservation_overlap_mm3": {
+    "REFERENCE_245_CONFLICT": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 3993.3774870025536,
+      "S4": 0
+    },
+    "RELOCATE_200": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0
+    },
+    "BYPASS_OUTSIDE_KEEP_245": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0
+    }
+  },
+  "relocation_plate_z_clearance_mm": 22.0,
+  "relocation_slot_z_clearance_mm": 21.80000000000001,
+  "bypass_gap_to_outer_cheek_t_mm": 5.0,
+  "old_sections": [
+    {
+      "z_mm": 35,
+      "common_section_r_mm": [
+        213.20381178461537,
+        255.23744689230767
+      ]
+    },
+    {
+      "z_mm": 90,
+      "common_section_r_mm": [
+        176.87827136923076,
+        223.36057335741936
+      ]
+    },
+    {
+      "z_mm": 245,
+      "common_section_r_mm": [
+        86.59867804903224,
+        137.4366137878261
+      ]
+    },
+    {
+      "z_mm": 390,
+      "common_section_r_mm": [
+        35.0,
+        90.0
+      ]
+    }
+  ],
+  "new_sections": [
+    {
+      "id": "S1",
+      "part": "P02B",
+      "z_mm": 35,
+      "r_mm": 234.22062933846152,
+      "common_section_r_mm": [
+        213.20381178461537,
+        255.23744689230767
+      ]
+    },
+    {
+      "id": "S2",
+      "part": "P02",
+      "z_mm": 90,
+      "r_mm": 200.11942236332504,
+      "common_section_r_mm": [
+        176.87827136923076,
+        223.36057335741936
+      ]
+    },
+    {
+      "id": "S3",
+      "part": "P02",
+      "z_mm": 200,
+      "r_mm": 136.03855443870967,
+      "common_section_r_mm": [
+        111.17192709032257,
+        160.90518178709678
+      ]
+    },
+    {
+      "id": "S4",
+      "part": "P02",
+      "z_mm": 390,
+      "r_mm": 62.5,
+      "common_section_r_mm": [
+        35.0,
+        90.0
+      ]
+    }
+  ],
+  "limits": "Bypass is only a local outside reservation; actual ring connections/strength and whole ring route not designed. No ring-specific holes."
+}

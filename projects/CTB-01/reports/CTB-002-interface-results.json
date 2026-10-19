@@ -1,0 +1,41 @@
+{
+  "release": "DESIGN_ONLY",
+  "baseline_statuses_unchanged": true,
+  "IF-01": {
+    "status": "PENDING_PHYSICAL",
+    "CAD_status": "PASS_CAD_LOCAL_B_ONLY",
+    "evidence": "6 local solids;15 final intersections and15 continuous sweep intersections zero; exactly4 spacers and identical candidate cheeks",
+    "pending": "lead G1; measured stock/kerf, adhesive/capture/strength verification"
+  },
+  "IF-09": {
+    "status": "BLOCKED",
+    "proposed_change": "PC-CTB002-01:245\u2192200; no ring-specific holes",
+    "evidence": "22mm plate/21.8mm slot Z gap to conservative225..265 reservation",
+    "pending": "CTB006 ring route/attachment approval; B05 remains"
+  },
+  "IF-02": {
+    "status": "BLOCKED",
+    "evidence": "13.7mm Z gap from upper candidate mortise to Y reference cutout envelope",
+    "pending": "Y r94/r90 mismatch B04; no final Y solid tested"
+  },
+  "IF-03": {
+    "status": "PENDING_PHYSICAL",
+    "evidence": "selected P01 upper tongue/skin region unchanged",
+    "pending": "actual bottom skin fit/kerf"
+  },
+  "IF-04": {
+    "status": "BLOCKED",
+    "evidence": "upper tongue unchanged",
+    "pending": "disc slot/retention/insertion B01/B02"
+  },
+  "IF-05": {
+    "status": "BLOCKED",
+    "evidence": "upper tongue unchanged",
+    "pending": "disc slot/retention/insertion B01/B02"
+  },
+  "IF-14": {
+    "status": "PENDING_PHYSICAL",
+    "evidence": "foot/landing geometry unchanged; lowest hole above31.8",
+    "pending": "B07/B11 load/floor/stability/strength"
+  }
+}

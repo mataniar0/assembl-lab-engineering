@@ -1,0 +1,207 @@
+{
+  "kernel": "CadQuery2.7 / OpenCASCADE7.8.1",
+  "input": "actual exported SVG loops; JSON placements only",
+  "solids": {
+    "P01_1": {
+      "valid": true,
+      "volume_mm3": 143257.09272579913
+    },
+    "P01_2": {
+      "valid": true,
+      "volume_mm3": 143257.09272579913
+    },
+    "S1": {
+      "valid": true,
+      "volume_mm3": 5325.377487021922
+    },
+    "S2": {
+      "valid": true,
+      "volume_mm3": 3993.377487021924
+    },
+    "S3": {
+      "valid": true,
+      "volume_mm3": 3993.3774870219245
+    },
+    "S4": {
+      "valid": true,
+      "volume_mm3": 3993.377487021923
+    }
+  },
+  "final_intersections_mm3": [
+    {
+      "a": "P01_1",
+      "b": "P01_2",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_1",
+      "b": "S1",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_1",
+      "b": "S2",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_1",
+      "b": "S3",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_1",
+      "b": "S4",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_2",
+      "b": "S1",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_2",
+      "b": "S2",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_2",
+      "b": "S3",
+      "volume": 0.0
+    },
+    {
+      "a": "P01_2",
+      "b": "S4",
+      "volume": 0.0
+    },
+    {
+      "a": "S1",
+      "b": "S2",
+      "volume": 0.0
+    },
+    {
+      "a": "S1",
+      "b": "S3",
+      "volume": 0.0
+    },
+    {
+      "a": "S1",
+      "b": "S4",
+      "volume": 0.0
+    },
+    {
+      "a": "S2",
+      "b": "S3",
+      "volume": 0.0
+    },
+    {
+      "a": "S2",
+      "b": "S4",
+      "volume": 0.0
+    },
+    {
+      "a": "S3",
+      "b": "S4",
+      "volume": 0.0
+    }
+  ],
+  "continuous_sweep_intersections_mm3": [
+    {
+      "moving": "S1",
+      "fixed": "P01_1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S2",
+      "fixed": "P01_1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S2",
+      "fixed": "S1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S3",
+      "fixed": "P01_1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S3",
+      "fixed": "S1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S3",
+      "fixed": "S2",
+      "volume": 0.0
+    },
+    {
+      "moving": "S4",
+      "fixed": "P01_1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S4",
+      "fixed": "S1",
+      "volume": 0.0
+    },
+    {
+      "moving": "S4",
+      "fixed": "S2",
+      "volume": 0.0
+    },
+    {
+      "moving": "S4",
+      "fixed": "S3",
+      "volume": 0.0
+    },
+    {
+      "moving": "P01_2",
+      "fixed": "P01_1",
+      "volume": 0.0
+    },
+    {
+      "moving": "P01_2",
+      "fixed": "S1",
+      "volume": 0.0
+    },
+    {
+      "moving": "P01_2",
+      "fixed": "S2",
+      "volume": 0.0
+    },
+    {
+      "moving": "P01_2",
+      "fixed": "S3",
+      "volume": 0.0
+    },
+    {
+      "moving": "P01_2",
+      "fixed": "S4",
+      "volume": 0.0
+    }
+  ],
+  "negative_controls_mm3": {
+    "wrong_insertion": 561.6000000000009,
+    "shifted_slots": 136.47967357371277,
+    "6.8mm_spacer_nominal_cheek": 57.55732585815876
+  },
+  "lands": [
+    {
+      "station": "S1",
+      "hole_to_external_mm": 8.00037421097985
+    },
+    {
+      "station": "S2",
+      "hole_to_external_mm": 11.915839825096711
+    },
+    {
+      "station": "S3",
+      "hole_to_external_mm": 13.582199106578198
+    },
+    {
+      "station": "S4",
+      "hole_to_external_mm": 18.299999999999997
+    }
+  ]
+}
