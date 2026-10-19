@@ -30,12 +30,11 @@ Final automated suites52 P02 +61 P01 +25 baseline +15 import =153 passed;
 independent CAD-kernel QA is recorded in CTB002-INDEPENDENT-QA.
 No final G1 joinery or physical cutting approval. No automatic merge.
 
-## CTB-003 — DESIGN_REVIEW_PENDING / DESIGN_ONLY
+## CTB-003 — A_COMPACT_CLOSED SELECTED_FOR_DOWNSTREAM_COORDINATED_DESIGN / DESIGN_ONLY
 
-Issue #7: three single-piece CSH-3Y/P03 joint studies. A_COMPACT_CLOSED recommended;
-not selected/approved by lead. Local armtip85.5/maxXYradius85.769983 resolves94/90
-mismatch in candidate geometry, with4.5 mm local end margin. Official B04 remains
-unchanged pending review. A/B closed-hole prebuilt translation approaches BLOCK;
+Issue #7: three single-piece CSH-3Y/P03 joint studies. Engineering lead selected
+A_COMPACT_CLOSED as working DESIGN_ONLY solution, per `parts/P03/CTB-003-SELECTION.md`. Local armtip85.5/maxXYradius85.769983 resolves94/90
+mismatch in candidate geometry, with4.5 mm local end margin. Official B04 remains open pending integrated evidence. A/B closed-hole prebuilt translation approaches BLOCK;
 19-piece Y-first route has18 moving stages/171 continuous checks PASS per concept.
 C radial prebuilt route PASS requires open-edge cheek CR and has no reverse retainer.
 Only versioned P03 cheek copies change; all original P01/P02/CTB000 bytes preserved.
