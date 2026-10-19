@@ -1,7 +1,16 @@
-# CTB-01 status — CTB-000 v0.2 import
+# CTB-01 status — CTB-001 design selection
 
-**BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — G0 contract only, pending PR review.
-CTB-001 has NOT started. No component geometry, nesting or manufacturing files were created.
+**BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
+**CTB-001 / P01: SOFT_CURVE SELECTED_FOR_DOWNSTREAM_COMPONENT_DESIGN — DESIGN_ONLY.**
+Three parametric cheek candidates delivered under Issue #3; the engineering lead selected
+SOFT_CURVE for downstream coordinated design, per `parts/P01/P01-SELECTION.md`.
+This is not complete G1 joinery approval, nor permission for physical manufacture/nesting.
+See [design review](reports/CTB-001-DESIGN-REVIEW.md),
+[interface matrix](reports/CTB-001-INTERFACE-MATRIX.md) and
+[validation record](reports/CTB-001-VALIDATION.md).
+Final automated checks: 61 P01 + 25 source + 15 import = 101 passed, zero final failures.
+Initial failures and repairs are retained in the validation record; independent automated
+QA is recorded separately and does not replace engineering-lead approval.
 
 ## Authoritative baseline
 
@@ -54,6 +63,9 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 
 ## Next gate
 
-Project manager reviews this import PR; product owner retains design approval.
-No automatic merge. Further component tasks require separate authorization. Production
-remains blocked through component approval, integration, independent QA and physical tests.
+Engineering lead selected SOFT_CURVE for design coordination; downstream CTB-002 may
+propose **P01 joint modifications** without silently modifying this baseline or frozen
+system parameters. See `parts/P01/P01-SELECTION.md`.
+Y reach, ring/spacer coordination, fit, locking, assembly, stability and all B01–B13
+records remain open. Complete G1 joinery, integration and production are not approved.
+Production remains blocked through independent assembly QA and physical tests.

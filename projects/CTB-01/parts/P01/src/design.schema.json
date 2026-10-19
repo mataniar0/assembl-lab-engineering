@@ -1,0 +1,334 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "P01 common concept parameter schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "part_id",
+    "status",
+    "units",
+    "source_baseline",
+    "study",
+    "variants"
+  ],
+  "properties": {
+    "part_id": {
+      "const": "P01"
+    },
+    "status": {
+      "const": "DESIGN_ONLY"
+    },
+    "units": {
+      "const": "mm"
+    },
+    "source_baseline": {
+      "const": "CTB-000 v0.2"
+    },
+    "study": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chord_tolerance_mm",
+        "sheet_margin_mm",
+        "screening_min_body_width_mm",
+        "screening_erosion_radius_mm",
+        "foot_radial_limits_mm",
+        "foot_corner_radius_mm",
+        "tongue_tip_radius_mm",
+        "shoulder_radius_mm",
+        "shoulder_z_mm",
+        "rail_z_mm",
+        "spacer_reservation_half_height_mm",
+        "mid_ring_reservation_z_mm",
+        "Y_reservation_radial_limits_mm",
+        "lock_study_z_mm",
+        "raster_dpi"
+      ],
+      "properties": {
+        "chord_tolerance_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "sheet_margin_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "screening_min_body_width_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "screening_erosion_radius_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "foot_radial_limits_mm": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "foot_corner_radius_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "tongue_tip_radius_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "shoulder_radius_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "shoulder_z_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "rail_z_mm": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "spacer_reservation_half_height_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "mid_ring_reservation_z_mm": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "Y_reservation_radial_limits_mm": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "lock_study_z_mm": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "raster_dpi": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "variants": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "SOFT_CURVE",
+        "FLARED_CURVE",
+        "GEOMETRIC"
+      ],
+      "properties": {
+        "SOFT_CURVE": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "inner_r_mm",
+                "outer_r_mm"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "pchip_rails"
+                },
+                "inner_r_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "outer_r_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "body_fillet_radius_mm",
+                "body_vertices_rz_mm"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "filleted_polygon"
+                },
+                "body_fillet_radius_mm": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "body_vertices_rz_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  },
+                  "minItems": 6
+                }
+              }
+            }
+          ]
+        },
+        "FLARED_CURVE": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "inner_r_mm",
+                "outer_r_mm"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "pchip_rails"
+                },
+                "inner_r_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "outer_r_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "body_fillet_radius_mm",
+                "body_vertices_rz_mm"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "filleted_polygon"
+                },
+                "body_fillet_radius_mm": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "body_vertices_rz_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  },
+                  "minItems": 6
+                }
+              }
+            }
+          ]
+        },
+        "GEOMETRIC": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "inner_r_mm",
+                "outer_r_mm"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "pchip_rails"
+                },
+                "inner_r_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "outer_r_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "body_fillet_radius_mm",
+                "body_vertices_rz_mm"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "filleted_polygon"
+                },
+                "body_fillet_radius_mm": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "body_vertices_rz_mm": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  },
+                  "minItems": 6
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

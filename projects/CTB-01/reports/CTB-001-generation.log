@@ -1,0 +1,3 @@
+SOFT_CURVE: 228 vertices; area 24385.482 mm2; bounds (35.0, 0.0, 262.0, 488.0); valid=True
+FLARED_CURVE: 267 vertices; area 26543.387 mm2; bounds (35.0, 0.0, 270.0, 488.0); valid=True
+GEOMETRIC: 84 vertices; area 27869.477 mm2; bounds (35.0, -0.0, 262.0, 488.0); valid=True
