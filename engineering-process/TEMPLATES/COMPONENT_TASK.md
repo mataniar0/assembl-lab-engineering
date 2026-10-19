@@ -1,6 +1,6 @@
 # [PRODUCT-ID]-[TASK] — [Component] (DESIGN_ONLY)
 
-**Issue:** [link] · **Branch:** [branch] · **Input baseline SHA/version:** [ ]  
+**Issue:** [link] · **Branch:** [branch] · **Source SHA / contract version:** [ ]  
 **Component ID / quantity / units / material:** [ ]  
 **Scope:** single component [ ] / local subassembly [ ] / other [ ]
 **Responsible:** implementation agent [ ] · independent QA [ ]
