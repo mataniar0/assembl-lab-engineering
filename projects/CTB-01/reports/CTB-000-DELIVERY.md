@@ -45,7 +45,7 @@ From repository root, with Python 3.12 and jsonschema 4.26.0:
 ```sh
 python projects/CTB-01/specifications/CTB-000/validate_contract.py
 python tools/check_ctb_baseline.py
-git diff --check
+git diff origin/main --check -- . ":(exclude)projects/CTB-01/specifications/CTB-000/**"
 rg -n '900' projects/CTB-01/specifications/CTB-000 -g '!*.png'
 ```
 
@@ -56,7 +56,11 @@ byte integrity, inventory, versions, references, all 14 IF IDs and all 13 open i
 critical blockers, sheet orientation, image format checks and no legacy CAD import.
 Text audit: five 900 references, all explicitly historical/superseded; no active 900
 numeric settings. SVG/PNG were inspected; sheet label is H800 × W440.
-`git diff --check`: PASS. Original dimensions changed: **0**. Contract corrections: **0**.
+New-file whitespace check excluding the byte-preserved source directory: PASS.
+Full baseline diff reports 28 pre-existing source whitespace warnings: CRLF in the
+two CSVs (27 lines) and one Markdown hard line break in SPEC_HE.md. Preserved rather
+than normalizing authoritative source bytes. Original dimensions changed: **0**.
+Contract corrections: **0**.
 
 ## Failures, discrepancies and disposition
 
