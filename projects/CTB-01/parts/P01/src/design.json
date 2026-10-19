@@ -1,0 +1,38 @@
+{
+  "part_id": "P01", "status": "DESIGN_ONLY", "units": "mm",
+  "source_baseline": "CTB-000 v0.2",
+  "study": {
+    "chord_tolerance_mm": 0.02,
+    "sheet_margin_mm": 10,
+    "screening_min_body_width_mm": 24,
+    "screening_erosion_radius_mm": 6,
+    "foot_radial_limits_mm": [218, 262],
+    "foot_corner_radius_mm": 4,
+    "tongue_tip_radius_mm": 1,
+    "shoulder_radius_mm": 2,
+    "shoulder_z_mm": 448,
+    "rail_z_mm": [12, 90, 245, 360],
+    "spacer_reservation_half_height_mm": 8,
+    "mid_ring_reservation_z_mm": [225, 265],
+    "Y_reservation_radial_limits_mm": [58, 78.4],
+    "lock_study_z_mm": [486, 494],
+    "raster_dpi": 96
+  },
+  "variants": {
+    "SOFT_CURVE": {
+      "kind": "pchip_rails",
+      "inner_r_mm": [218, 175, 85, 35],
+      "outer_r_mm": [262, 225, 139, 90]
+    },
+    "FLARED_CURVE": {
+      "kind": "pchip_rails",
+      "inner_r_mm": [218, 210, 125, 35],
+      "outer_r_mm": [262, 270, 185, 90]
+    },
+    "GEOMETRIC": {
+      "kind": "filleted_polygon",
+      "body_fillet_radius_mm": 6,
+      "body_vertices_rz_mm": [[218,0],[262,0],[262,90],[170,260],[90,360],[90,448],[69,448],[69,488],[45,488],[45,448],[35,448],[35,360],[105,260],[195,90],[218,12]]
+    }
+  }
+}

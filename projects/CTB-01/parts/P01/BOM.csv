@@ -1,0 +1,2 @@
+part_family_id,description,quantity_per_table,nominal_material,nominal_thickness_mm,status,note
+P01,Identical parallel leg cheek,6,Birch plywood,6,DESIGN_ONLY,Choose ONE variant for all six cheeks; three alternatives are not cumulative quantities

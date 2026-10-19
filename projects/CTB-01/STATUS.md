@@ -1,7 +1,15 @@
-# CTB-01 status — CTB-000 v0.2 import
+# CTB-01 status — CTB-001 candidates
 
-**BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — G0 contract only, pending PR review.
-CTB-001 has NOT started. No component geometry, nesting or manufacturing files were created.
+**BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
+**CTB-001 / P01: AWAITING_DESIGN_SELECTION — DESIGN_ONLY.**
+Three parametric cheek candidates delivered under Issue #3; no candidate approved and
+no G1 lead decision yet. No dependent component or manufacturing/nesting release.
+See [design review](reports/CTB-001-DESIGN-REVIEW.md),
+[interface matrix](reports/CTB-001-INTERFACE-MATRIX.md) and
+[validation record](reports/CTB-001-VALIDATION.md).
+Final automated checks: 61 P01 + 25 source + 15 import = 101 passed, zero final failures.
+Initial failures and repairs are retained in the validation record; independent automated
+QA is recorded separately and does not replace engineering-lead approval.
 
 ## Authoritative baseline
 
@@ -54,6 +62,8 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 
 ## Next gate
 
-Project manager reviews this import PR; product owner retains design approval.
-No automatic merge. Further component tasks require separate authorization. Production
-remains blocked through component approval, integration, independent QA and physical tests.
+Independent component QA and engineering-lead G1 review must precede CTB-002.
+Choose one of the three P01 alternatives explicitly and record the decision; SOFT_CURVE
+is proposed only, not approved. Y reach, ring/spacer coordination, fit, locking, assembly,
+stability and all B01–B13 records remain open. No automatic merge. Production remains
+blocked through component approval, integration, independent QA and physical tests.

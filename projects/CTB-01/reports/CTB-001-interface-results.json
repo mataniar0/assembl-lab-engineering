@@ -1,0 +1,588 @@
+{
+  "status": "DESIGN_ONLY",
+  "baseline_IF_statuses_unchanged": true,
+  "variants": {
+    "SOFT_CURVE": {
+      "IF-01": {
+        "status": "BLOCKED",
+        "cad_evidence": "6 identical cheeks; 15 mm nominal gap, 27 mm outside section; 4 uncut reservations",
+        "pending": "CTB-002 slots and CTB-006 overlap agreement; B05 B10"
+      },
+      "IF-02": {
+        "status": "BLOCKED",
+        "cad_evidence": "4 mm Y overhang reproduced; two remedies in interface matrix",
+        "pending": "CTB-003 geometry/fit agreement; B04 B10"
+      },
+      "IF-03": {
+        "status": "PENDING_PHYSICAL",
+        "cad_evidence": "PASS_CAD_SECTION_ONLY: tongue r45..69 spans z450..456; nominal 0.2 radial and 0.1 tangential per-side allowance",
+        "pending": "actual plywood/kerf; bottom skin design CTB-007; B10"
+      },
+      "IF-04": {
+        "status": "BLOCKED",
+        "cad_evidence": {
+          "z_range_mm": [
+            456,
+            462
+          ],
+          "tongue_full_width_mm": 24,
+          "nominal_radial_disc_envelope_clearance_mm": 24.691750128452213,
+          "status": "PASS_CAD_SECTION_ONLY; SLOT_FIT_INSERTION_LOCKING_UNKNOWN"
+        },
+        "pending": "disc slots, insertion, fit and locking; CTB-004/008/009; B01 B02 B10"
+      },
+      "IF-05": {
+        "status": "BLOCKED",
+        "cad_evidence": {
+          "z_range_mm": [
+            480,
+            486
+          ],
+          "tongue_full_width_mm": 24,
+          "nominal_radial_disc_envelope_clearance_mm": 24.691750128452213,
+          "status": "PASS_CAD_SECTION_ONLY; SLOT_FIT_INSERTION_LOCKING_UNKNOWN"
+        },
+        "pending": "disc slots, insertion, fit and locking; CTB-004/008/009; B01 B02 B10"
+      },
+      "IF-09": {
+        "status": "BLOCKED",
+        "cad_evidence": "uncut z225..265 ring study overlaps z237..253 spacer reservation",
+        "pending": "ring position/shape unknown; no dependent design; CTB-002/006; B05"
+      },
+      "IF-14": {
+        "status": "PENDING_PHYSICAL",
+        "cad_evidence": {
+          "contacts_xy_mm": [
+            [
+              222.0,
+              -13.5
+            ],
+            [
+              258.0,
+              -13.5
+            ],
+            [
+              222.0,
+              -7.5
+            ],
+            [
+              258.0,
+              -7.5
+            ],
+            [
+              222.0,
+              7.5
+            ],
+            [
+              258.0,
+              7.5
+            ],
+            [
+              222.0,
+              13.5
+            ],
+            [
+              258.0,
+              13.5
+            ],
+            [
+              -99.308657,
+              199.00764
+            ],
+            [
+              -117.308657,
+              230.184554
+            ],
+            [
+              -104.504809,
+              196.00764
+            ],
+            [
+              -122.504809,
+              227.184554
+            ],
+            [
+              -117.495191,
+              188.50764
+            ],
+            [
+              -135.495191,
+              219.684554
+            ],
+            [
+              -122.691343,
+              185.50764
+            ],
+            [
+              -140.691343,
+              216.684554
+            ],
+            [
+              -122.691343,
+              -185.50764
+            ],
+            [
+              -140.691343,
+              -216.684554
+            ],
+            [
+              -117.495191,
+              -188.50764
+            ],
+            [
+              -135.495191,
+              -219.684554
+            ],
+            [
+              -104.504809,
+              -196.00764
+            ],
+            [
+              -122.504809,
+              -227.184554
+            ],
+            [
+              -99.308657,
+              -199.00764
+            ],
+            [
+              -117.308657,
+              -230.184554
+            ]
+          ],
+          "support_hull_xy_mm": [
+            [
+              -117.308657,
+              -230.184554
+            ],
+            [
+              -135.495191,
+              -219.684554
+            ],
+            [
+              -140.691343,
+              -216.684554
+            ],
+            [
+              -140.691343,
+              216.684554
+            ],
+            [
+              -135.495191,
+              219.684554
+            ],
+            [
+              -117.308657,
+              230.184554
+            ],
+            [
+              258.0,
+              13.5
+            ],
+            [
+              258.0,
+              -13.5
+            ],
+            [
+              -117.308657,
+              -230.184554
+            ]
+          ],
+          "hull_area_mm2": 101905.92273484805,
+          "origin_to_support_edge_min_mm": 140.69134288694042,
+          "foot_center_triangle_inradius_mm": 120,
+          "status": "PLANAR_PROJECTION_ONLY; LOAD_CASES_CENTRE_OF_MASS_FLOOR_COMPLIANCE_UNKNOWN"
+        },
+        "pending": "load cases, COM, real ground contact, tipping/strength tests; B07 B11"
+      }
+    },
+    "FLARED_CURVE": {
+      "IF-01": {
+        "status": "BLOCKED",
+        "cad_evidence": "6 identical cheeks; 15 mm nominal gap, 27 mm outside section; 4 uncut reservations",
+        "pending": "CTB-002 slots and CTB-006 overlap agreement; B05 B10"
+      },
+      "IF-02": {
+        "status": "BLOCKED",
+        "cad_evidence": "4 mm Y overhang reproduced; two remedies in interface matrix",
+        "pending": "CTB-003 geometry/fit agreement; B04 B10"
+      },
+      "IF-03": {
+        "status": "PENDING_PHYSICAL",
+        "cad_evidence": "PASS_CAD_SECTION_ONLY: tongue r45..69 spans z450..456; nominal 0.2 radial and 0.1 tangential per-side allowance",
+        "pending": "actual plywood/kerf; bottom skin design CTB-007; B10"
+      },
+      "IF-04": {
+        "status": "BLOCKED",
+        "cad_evidence": {
+          "z_range_mm": [
+            456,
+            462
+          ],
+          "tongue_full_width_mm": 24,
+          "nominal_radial_disc_envelope_clearance_mm": 24.691750128452213,
+          "status": "PASS_CAD_SECTION_ONLY; SLOT_FIT_INSERTION_LOCKING_UNKNOWN"
+        },
+        "pending": "disc slots, insertion, fit and locking; CTB-004/008/009; B01 B02 B10"
+      },
+      "IF-05": {
+        "status": "BLOCKED",
+        "cad_evidence": {
+          "z_range_mm": [
+            480,
+            486
+          ],
+          "tongue_full_width_mm": 24,
+          "nominal_radial_disc_envelope_clearance_mm": 24.691750128452213,
+          "status": "PASS_CAD_SECTION_ONLY; SLOT_FIT_INSERTION_LOCKING_UNKNOWN"
+        },
+        "pending": "disc slots, insertion, fit and locking; CTB-004/008/009; B01 B02 B10"
+      },
+      "IF-09": {
+        "status": "BLOCKED",
+        "cad_evidence": "uncut z225..265 ring study overlaps z237..253 spacer reservation",
+        "pending": "ring position/shape unknown; no dependent design; CTB-002/006; B05"
+      },
+      "IF-14": {
+        "status": "PENDING_PHYSICAL",
+        "cad_evidence": {
+          "contacts_xy_mm": [
+            [
+              222.0,
+              -13.5
+            ],
+            [
+              258.0,
+              -13.5
+            ],
+            [
+              222.0,
+              -7.5
+            ],
+            [
+              258.0,
+              -7.5
+            ],
+            [
+              222.0,
+              7.5
+            ],
+            [
+              258.0,
+              7.5
+            ],
+            [
+              222.0,
+              13.5
+            ],
+            [
+              258.0,
+              13.5
+            ],
+            [
+              -99.308657,
+              199.00764
+            ],
+            [
+              -117.308657,
+              230.184554
+            ],
+            [
+              -104.504809,
+              196.00764
+            ],
+            [
+              -122.504809,
+              227.184554
+            ],
+            [
+              -117.495191,
+              188.50764
+            ],
+            [
+              -135.495191,
+              219.684554
+            ],
+            [
+              -122.691343,
+              185.50764
+            ],
+            [
+              -140.691343,
+              216.684554
+            ],
+            [
+              -122.691343,
+              -185.50764
+            ],
+            [
+              -140.691343,
+              -216.684554
+            ],
+            [
+              -117.495191,
+              -188.50764
+            ],
+            [
+              -135.495191,
+              -219.684554
+            ],
+            [
+              -104.504809,
+              -196.00764
+            ],
+            [
+              -122.504809,
+              -227.184554
+            ],
+            [
+              -99.308657,
+              -199.00764
+            ],
+            [
+              -117.308657,
+              -230.184554
+            ]
+          ],
+          "support_hull_xy_mm": [
+            [
+              -117.308657,
+              -230.184554
+            ],
+            [
+              -135.495191,
+              -219.684554
+            ],
+            [
+              -140.691343,
+              -216.684554
+            ],
+            [
+              -140.691343,
+              216.684554
+            ],
+            [
+              -135.495191,
+              219.684554
+            ],
+            [
+              -117.308657,
+              230.184554
+            ],
+            [
+              258.0,
+              13.5
+            ],
+            [
+              258.0,
+              -13.5
+            ],
+            [
+              -117.308657,
+              -230.184554
+            ]
+          ],
+          "hull_area_mm2": 101905.92273484805,
+          "origin_to_support_edge_min_mm": 140.69134288694042,
+          "foot_center_triangle_inradius_mm": 120,
+          "status": "PLANAR_PROJECTION_ONLY; LOAD_CASES_CENTRE_OF_MASS_FLOOR_COMPLIANCE_UNKNOWN"
+        },
+        "pending": "load cases, COM, real ground contact, tipping/strength tests; B07 B11"
+      }
+    },
+    "GEOMETRIC": {
+      "IF-01": {
+        "status": "BLOCKED",
+        "cad_evidence": "6 identical cheeks; 15 mm nominal gap, 27 mm outside section; 4 uncut reservations",
+        "pending": "CTB-002 slots and CTB-006 overlap agreement; B05 B10"
+      },
+      "IF-02": {
+        "status": "BLOCKED",
+        "cad_evidence": "4 mm Y overhang reproduced; two remedies in interface matrix",
+        "pending": "CTB-003 geometry/fit agreement; B04 B10"
+      },
+      "IF-03": {
+        "status": "PENDING_PHYSICAL",
+        "cad_evidence": "PASS_CAD_SECTION_ONLY: tongue r45..69 spans z450..456; nominal 0.2 radial and 0.1 tangential per-side allowance",
+        "pending": "actual plywood/kerf; bottom skin design CTB-007; B10"
+      },
+      "IF-04": {
+        "status": "BLOCKED",
+        "cad_evidence": {
+          "z_range_mm": [
+            456,
+            462
+          ],
+          "tongue_full_width_mm": 24,
+          "nominal_radial_disc_envelope_clearance_mm": 24.691750128452213,
+          "status": "PASS_CAD_SECTION_ONLY; SLOT_FIT_INSERTION_LOCKING_UNKNOWN"
+        },
+        "pending": "disc slots, insertion, fit and locking; CTB-004/008/009; B01 B02 B10"
+      },
+      "IF-05": {
+        "status": "BLOCKED",
+        "cad_evidence": {
+          "z_range_mm": [
+            480,
+            486
+          ],
+          "tongue_full_width_mm": 24,
+          "nominal_radial_disc_envelope_clearance_mm": 24.691750128452213,
+          "status": "PASS_CAD_SECTION_ONLY; SLOT_FIT_INSERTION_LOCKING_UNKNOWN"
+        },
+        "pending": "disc slots, insertion, fit and locking; CTB-004/008/009; B01 B02 B10"
+      },
+      "IF-09": {
+        "status": "BLOCKED",
+        "cad_evidence": "uncut z225..265 ring study overlaps z237..253 spacer reservation",
+        "pending": "ring position/shape unknown; no dependent design; CTB-002/006; B05"
+      },
+      "IF-14": {
+        "status": "PENDING_PHYSICAL",
+        "cad_evidence": {
+          "contacts_xy_mm": [
+            [
+              222.0,
+              -13.5
+            ],
+            [
+              258.0,
+              -13.5
+            ],
+            [
+              222.0,
+              -7.5
+            ],
+            [
+              258.0,
+              -7.5
+            ],
+            [
+              222.0,
+              7.5
+            ],
+            [
+              258.0,
+              7.5
+            ],
+            [
+              222.0,
+              13.5
+            ],
+            [
+              258.0,
+              13.5
+            ],
+            [
+              -99.308657,
+              199.00764
+            ],
+            [
+              -117.308657,
+              230.184554
+            ],
+            [
+              -104.504809,
+              196.00764
+            ],
+            [
+              -122.504809,
+              227.184554
+            ],
+            [
+              -117.495191,
+              188.50764
+            ],
+            [
+              -135.495191,
+              219.684554
+            ],
+            [
+              -122.691343,
+              185.50764
+            ],
+            [
+              -140.691343,
+              216.684554
+            ],
+            [
+              -122.691343,
+              -185.50764
+            ],
+            [
+              -140.691343,
+              -216.684554
+            ],
+            [
+              -117.495191,
+              -188.50764
+            ],
+            [
+              -135.495191,
+              -219.684554
+            ],
+            [
+              -104.504809,
+              -196.00764
+            ],
+            [
+              -122.504809,
+              -227.184554
+            ],
+            [
+              -99.308657,
+              -199.00764
+            ],
+            [
+              -117.308657,
+              -230.184554
+            ]
+          ],
+          "support_hull_xy_mm": [
+            [
+              -117.308657,
+              -230.184554
+            ],
+            [
+              -135.495191,
+              -219.684554
+            ],
+            [
+              -140.691343,
+              -216.684554
+            ],
+            [
+              -140.691343,
+              216.684554
+            ],
+            [
+              -135.495191,
+              219.684554
+            ],
+            [
+              -117.308657,
+              230.184554
+            ],
+            [
+              258.0,
+              13.5
+            ],
+            [
+              258.0,
+              -13.5
+            ],
+            [
+              -117.308657,
+              -230.184554
+            ]
+          ],
+          "hull_area_mm2": 101905.92273484805,
+          "origin_to_support_edge_min_mm": 140.69134288694042,
+          "foot_center_triangle_inradius_mm": 120,
+          "status": "PLANAR_PROJECTION_ONLY; LOAD_CASES_CENTRE_OF_MASS_FLOOR_COMPLIANCE_UNKNOWN"
+        },
+        "pending": "load cases, COM, real ground contact, tipping/strength tests; B07 B11"
+      }
+    }
+  }
+}
