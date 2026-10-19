@@ -13,7 +13,7 @@
 # Engineering workflow
 
 - Work in the existing isolated checkout; do not create worktrees unless requested.
-- Use one dedicated branch and PR per task. Never merge automatically. Project manager reviews; product owner approves design decisions.
+- Use one dedicated branch and PR per task. Never merge automatically. Engineering lead reviews and may approve routine scoped design decisions under delegated authority; product owner approves consequential aesthetic, functional and safety-related decisions.
 - Sequence: interface baseline → individual component design → component approval (G1) → integration (G2) → independent CAD/manufacturing QA → supervised physical validation (G3) → product/manufacturing approval (G4).
 - Read `projects/CTB-01/specifications/CTB-000/` before CTB-01 work: SPEC_HE.md, DECISIONS.md, parameters, interfaces, parts, open issues and handoff. JSON parameters/interfaces are authoritative. List relevant IF IDs and dependencies before implementing a component; an OPEN dependency blocks dependent design.
 - Approved `frozen` parameters are immutable without an approved Change Request using the imported template. Document and propagate provisional interface changes before integration. Never infer approved dimensions from images.
@@ -23,7 +23,7 @@
 - Preserve global right-handed XYZ and local (r,t,z); lengths are mm. Separate frozen, derived and provisional data.
 - Quarantine legacy V-shaped LEG_A/LEG_B and tilted/multilayer CSH CAD as superseded reference only. Never put it into active component, assembly or manufacturing sources. No legacy CAD is imported by CTB-000.
 - Preserve IF-01..IF-14 and B01..B13 until formally resolved with evidence. Upper locking, assembly order and final leg geometry remain blockers.
-- CTB-000 import does not authorize starting CTB-001. Subsequent components need a separately authorized task.
+- Historically, CTB-000 import alone did not authorize CTB-001; it was later separately authorized and merged. Every future component needs its own scoped, authorized task.
 
 ## Validation
 
