@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CTB-000 master parameters baseline",
+  "type": "object",
+  "required": [
+    "project_id",
+    "milestone",
+    "version",
+    "document_status",
+    "units",
+    "coordinate_frame",
+    "frozen",
+    "derived",
+    "provisional",
+    "authoritative_source_policy"
+  ],
+  "properties": {
+    "project_id": {
+      "const": "CTB-01"
+    },
+    "milestone": {
+      "const": "CTB-000"
+    },
+    "version": {
+      "type": "string"
+    },
+    "document_status": {
+      "enum": [
+        "BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION"
+      ]
+    },
+    "units": {
+      "type": "object",
+      "required": [
+        "length",
+        "angle",
+        "coordinate"
+      ]
+    },
+    "coordinate_frame": {
+      "type": "object",
+      "required": [
+        "origin",
+        "x_axis",
+        "y_axis",
+        "z_axis",
+        "leg_orientations_deg",
+        "cheek_t_intervals_mm"
+      ]
+    },
+    "frozen": {
+      "type": "object",
+      "required": [
+        "table_outer_diameter_mm",
+        "table_height_mm",
+        "top_total_thickness_mm",
+        "leg_count",
+        "cheeks_per_leg",
+        "cheek_thickness_mm",
+        "leg_inner_gap_mm",
+        "spacers_per_leg",
+        "stock_sheet_mm",
+        "leg_angles_deg",
+        "leg_type",
+        "stock_sheet_height_mm",
+        "stock_sheet_width_mm",
+        "stock_sheet_orientation",
+        "stock_sheet_array_order"
+      ],
+      "properties": {
+        "table_outer_diameter_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "table_height_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "top_total_thickness_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "leg_count": {
+          "const": 3
+        },
+        "cheeks_per_leg": {
+          "const": 2
+        },
+        "spacers_per_leg": {
+          "const": 4
+        },
+        "cheek_thickness_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "leg_inner_gap_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "stock_sheet_mm": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "LEGACY COMPATIBILITY: [height_mm,width_mm] (portrait). Prefer the named dimension keys."
+        },
+        "leg_angles_deg": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "const": 0
+            },
+            {
+              "const": 120
+            },
+            {
+              "const": 240
+            }
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "stock_sheet_height_mm": {
+          "const": 800,
+          "description": "Upright stock cutting-sheet height in millimeters"
+        },
+        "stock_sheet_width_mm": {
+          "const": 440,
+          "description": "Upright stock cutting-sheet width in millimeters"
+        },
+        "stock_sheet_orientation": {
+          "const": "portrait_height_800_width_440"
+        },
+        "stock_sheet_array_order": {
+          "const": "[height_mm,width_mm]"
+        }
+      }
+    },
+    "derived": {
+      "type": "object",
+      "required": [
+        "tabletop_bottom_z_mm",
+        "core_height_mm",
+        "leg_outer_thickness_mm",
+        "rim_centerline_perimeter_mm",
+        "cheek_total_qty",
+        "spacer_total_qty"
+      ]
+    },
+    "provisional": {
+      "type": "object",
+      "required": [
+        "Y_connector_center_z_mm",
+        "anchor_disc_z_ranges_mm",
+        "ring_z_mm",
+        "rim_kerf_pitch_mm"
+      ]
+    },
+    "authoritative_source_policy": {
+      "type": "object",
+      "required": [
+        "decisions_in_this_baseline_override_legacy_V_leg_models",
+        "status_rule"
+      ]
+    }
+  }
+}
