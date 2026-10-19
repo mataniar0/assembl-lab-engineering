@@ -1,0 +1,64 @@
+{
+  "version": "CTB-003-study-v1",
+  "status": "DESIGN_ONLY",
+  "source_commit": "ecee5f0633a6d7c122087ba75c92eddad4cb0932",
+  "working_concept": "A_COMPACT_CLOSED",
+  "y_center_z_mm": 410,
+  "thickness_mm": 6,
+  "hub_radius_mm": 24,
+  "hub_circle_segments": 144,
+  "arm_core_width_mm": 14.6,
+  "maximum_global_radius_mm": 86,
+  "tab_tip_abs_t_mm": 13.5,
+  "slot_allowance_each_side_mm": 0.2,
+  "slot_radius_mm": 0.2,
+  "convex_radius_mm": 0.5,
+  "concave_radius_mm": 0.1,
+  "fillet_chord_mm": 0.005,
+  "minimum_cheek_land_hypothesis_mm": 6,
+  "minimum_arm_width_hypothesis_mm": 12,
+  "sheet_margin_mm": 10,
+  "raster_dpi": 96,
+  "cheek_insertion_t_mm": 40,
+  "module_radial_stroke_mm": 60,
+  "module_vertical_stroke_mm": 80,
+  "open_channel_inner_r_mm": 34,
+  "actual_stock_mm": null,
+  "measured_kerf_mm": null,
+  "variants": {
+    "A_COMPACT_CLOSED": {
+      "tabs_r_mm": [
+        [
+          58,
+          74
+        ]
+      ],
+      "cheek_joinery": "closed",
+      "arm_tip_local_r_mm": 85.5
+    },
+    "B_DUAL_CLOSED": {
+      "tabs_r_mm": [
+        [
+          52,
+          62
+        ],
+        [
+          72,
+          82
+        ]
+      ],
+      "cheek_joinery": "closed",
+      "arm_tip_local_r_mm": 85.5
+    },
+    "C_OPEN_REMOVABLE": {
+      "tabs_r_mm": [
+        [
+          54,
+          70
+        ]
+      ],
+      "cheek_joinery": "open_inner_CR_required",
+      "arm_tip_local_r_mm": 82
+    }
+  }
+}

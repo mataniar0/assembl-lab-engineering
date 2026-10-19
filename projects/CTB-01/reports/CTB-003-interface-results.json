@@ -1,0 +1,44 @@
+{
+  "release": "DESIGN_ONLY",
+  "official_baseline_statuses_unchanged": true,
+  "IF-01": {
+    "status": "PENDING_PHYSICAL",
+    "CAD": "PASS_CAD_SELECTED_B_SPACERS_UNCHANGED_IN_19_BODY_Y_FIRST_ROUTE",
+    "pending": "adhesive/outward retention, actual stock/kerf/load"
+  },
+  "IF-02": {
+    "status": "PENDING_PHYSICAL",
+    "CAD": "PASS_CAD_A: localtip85.5,maxXYradius85.769983,closedhole15.8land,Yfirst171continuouschecks",
+    "pending": "lead accepts coordinated P01hole/P03shortening; actual kerf/fit/material/retention"
+  },
+  "IF-03": {
+    "status": "PENDING_PHYSICAL",
+    "CAD": "upper tongue unchanged;Ytop413to underside450gap37",
+    "pending": "actual bottom skin and fit"
+  },
+  "IF-04": {
+    "status": "BLOCKED",
+    "CAD": "Yto lowerdisc envelopeZgap43",
+    "pending": "actual disc slots/retention/assembly"
+  },
+  "IF-05": {
+    "status": "BLOCKED",
+    "CAD": "Yto upperdisc envelopeZgap67",
+    "pending": "actual disc slots/retention/assembly"
+  },
+  "IF-09": {
+    "status": "BLOCKED",
+    "CAD": "ringband225..265separate;selectedS3at200unchanged",
+    "pending": "CTB006 actual ring geometry/route/joint"
+  },
+  "IF-13": {
+    "status": "BLOCKED",
+    "CAD": "localbaseYfirst19partsPASS;prebuiltclosedrouteBLOCKED;no tabletop/discs",
+    "pending": "whole system sequence and top locks, B01/B02"
+  },
+  "B04_evidence": {
+    "nominal_mismatch_resolved_in_candidate": true,
+    "official_issue_closed": false,
+    "lead_review_required": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "L3_S4": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.0126214902252414e-05
+  },
+  "L3_S3": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.1864613740227143e-05
+  },
+  "L3_S2": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.3632058068613021e-05
+  },
+  "L3_S1": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.5480775040681292e-05
+  },
+  "L3_P01_2": {
+    "mesh_vertices": 816,
+    "maximum_distance_to_exported_expected_vertex_mm": 2.8730596496761996e-05
+  },
+  "L3_P01_1": {
+    "mesh_vertices": 816,
+    "maximum_distance_to_exported_expected_vertex_mm": 2.8910646306125235e-05
+  },
+  "L2_S4": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.0126214870442027e-05
+  },
+  "L2_S3": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.1864613659121653e-05
+  },
+  "L2_S2": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.3632058136611742e-05
+  },
+  "L2_S1": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.5480774851149217e-05
+  },
+  "L2_P01_2": {
+    "mesh_vertices": 816,
+    "maximum_distance_to_exported_expected_vertex_mm": 2.8910646299062373e-05
+  },
+  "L2_P01_1": {
+    "mesh_vertices": 816,
+    "maximum_distance_to_exported_expected_vertex_mm": 2.8730596499485935e-05
+  },
+  "L1_S4": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 7.887488691566456e-06
+  },
+  "L1_S3": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.5073894091974935e-05
+  },
+  "L1_S2": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.4121965753839344e-05
+  },
+  "L1_S1": {
+    "mesh_vertices": 144,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.3411048436411024e-05
+  },
+  "L1_P01_2": {
+    "mesh_vertices": 816,
+    "maximum_distance_to_exported_expected_vertex_mm": 2.900243088162001e-05
+  },
+  "L1_P01_1": {
+    "mesh_vertices": 816,
+    "maximum_distance_to_exported_expected_vertex_mm": 2.900243088162001e-05
+  },
+  "P03": {
+    "mesh_vertices": 978,
+    "maximum_distance_to_exported_expected_vertex_mm": 1.4028411923790249e-05
+  }
+}
