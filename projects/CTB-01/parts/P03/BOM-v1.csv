@@ -1,0 +1,5 @@
+part_id,quantity,nominal_thickness_mm,status,note
+P03,1,6,DESIGN_ONLY,One single-piece central Y of the chosen concept; no hidden retainer
+P01-Y-mortise-study-v1,6,6,DESIGN_ONLY,Same candidate pattern duplicated with0/120/240 rotations
+P02,9,6,DESIGN_ONLY,Selected B profile unchanged;three per leg at90/200/390
+P02B,3,6,DESIGN_ONLY,Selected reinforced B profile unchanged;one per leg at35

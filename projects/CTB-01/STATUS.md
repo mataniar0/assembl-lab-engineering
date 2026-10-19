@@ -1,4 +1,4 @@
-# CTB-01 status — CTB-002 design review
+# CTB-01 status — CTB-003 design review
 
 **BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
 **CTB-001 / P01: SOFT_CURVE SELECTED_FOR_DOWNSTREAM_COMPONENT_DESIGN — DESIGN_ONLY.**
@@ -29,6 +29,22 @@ See [CTB002 comparison](reports/CTB-002-DESIGN-REVIEW.md),
 Final automated suites52 P02 +61 P01 +25 baseline +15 import =153 passed;
 independent CAD-kernel QA is recorded in CTB002-INDEPENDENT-QA.
 No final G1 joinery or physical cutting approval. No automatic merge.
+
+## CTB-003 — A_COMPACT_CLOSED SELECTED_FOR_DOWNSTREAM_COORDINATED_DESIGN / DESIGN_ONLY
+
+Issue #7: three single-piece CSH-3Y/P03 joint studies. Engineering lead selected
+A_COMPACT_CLOSED as working DESIGN_ONLY solution, per `parts/P03/CTB-003-SELECTION.md`. Local armtip85.5/maxXYradius85.769983 resolves94/90
+mismatch in candidate geometry, with4.5 mm local end margin. Official B04 remains open pending integrated evidence. A/B closed-hole prebuilt translation approaches BLOCK;
+19-piece Y-first route has18 moving stages/171 continuous checks PASS per concept.
+C radial prebuilt route PASS requires open-edge cheek CR and has no reverse retainer.
+Only versioned P03 cheek copies change; all original P01/P02/CTB000 bytes preserved.
+Selected spacer B and provisional35/90/200/390 unchanged, all4 spacers retained/leg.
+See [comparison](reports/CTB-003-DESIGN-REVIEW.md),
+[interface matrix](reports/CTB-003-INTERFACE-MATRIX.md),
+[validation/failures](reports/CTB-003-VALIDATION.md).
+Final suites51P03+52P02+61P01+25contract+15import=204 passed; separate automated QA
+is recorded in CTB-003-INDEPENDENT-QA.md. No human G1/whole-table G2, stock/kerf,
+physical strength/stability or cutting approval. No automatic merge.
 
 ## Authoritative baseline
 
@@ -85,7 +101,8 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 
 Engineering lead selected SOFT_CURVE; CTB-002 now proposes coordinated candidate P01
 mortises and four spacers. Lead review selected B joinery as a CAD working concept and provisional Z200.
-CTB006 ring agreement is pending, and the B adhesive/outward retention is unproven. Original P01 and frozen system parameters remain unchanged.
+CTB003 now proposes A Y-first coupling and candidate Y holes; lead review of those is pending.
+CTB006 ring agreement and B adhesive/outward retention remain unproven. Original P01/P02 and frozen system parameters remain unchanged.
 See `parts/P01/P01-SELECTION.md` and CTB002 reports.
 Y reach, ring/spacer coordination, fit, locking, assembly, stability and all B01–B13
 records remain open. Complete G1 joinery, integration and production are not approved.

@@ -1,0 +1,56 @@
+test_A_COMPACT_CLOSED_B04_envelope_and_engagement (__main__.ConnectorTests.test_A_COMPACT_CLOSED_B04_envelope_and_engagement) ... ok
+test_A_COMPACT_CLOSED_PNG_ink_geometry_units_and_sheet (__main__.ConnectorTests.test_A_COMPACT_CLOSED_PNG_ink_geometry_units_and_sheet) ... ok
+test_A_COMPACT_CLOSED_Y_first_continuous_all_eighteen_stages (__main__.ConnectorTests.test_A_COMPACT_CLOSED_Y_first_continuous_all_eighteen_stages) ... ok
+test_A_COMPACT_CLOSED_Y_one_piece_and_residual_necks (__main__.ConnectorTests.test_A_COMPACT_CLOSED_Y_one_piece_and_residual_necks) ... ok
+test_A_COMPACT_CLOSED_all_final_solid_intersections (__main__.ConnectorTests.test_A_COMPACT_CLOSED_all_final_solid_intersections) ... ok
+test_A_COMPACT_CLOSED_land_web_S4_and_upper_envelopes (__main__.ConnectorTests.test_A_COMPACT_CLOSED_land_web_S4_and_upper_envelopes) ... ok
+test_A_COMPACT_CLOSED_old_B_mortises_and_tongues_unchanged (__main__.ConnectorTests.test_A_COMPACT_CLOSED_old_B_mortises_and_tongues_unchanged) ... ok
+test_A_COMPACT_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass (__main__.ConnectorTests.test_A_COMPACT_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass) ... ok
+test_A_COMPACT_CLOSED_real_DXF_SVG_path_equality (__main__.ConnectorTests.test_A_COMPACT_CLOSED_real_DXF_SVG_path_equality) ... ok
+test_A_COMPACT_CLOSED_simultaneous_central_Y_paths_blocked (__main__.ConnectorTests.test_A_COMPACT_CLOSED_simultaneous_central_Y_paths_blocked) ... ok
+test_A_COMPACT_CLOSED_source_rebuild_and_layout_consistency (__main__.ConnectorTests.test_A_COMPACT_CLOSED_source_rebuild_and_layout_consistency) ... ok
+test_A_COMPACT_CLOSED_three_identical_arms_and_six_cheeks (__main__.ConnectorTests.test_A_COMPACT_CLOSED_three_identical_arms_and_six_cheeks) ... ok
+test_A_COMPACT_CLOSED_valid_unique_contours (__main__.ConnectorTests.test_A_COMPACT_CLOSED_valid_unique_contours) ... ok
+test_BOM_nineteen_no_hidden_parts (__main__.ConnectorTests.test_BOM_nineteen_no_hidden_parts) ... ok
+test_B_DUAL_CLOSED_B04_envelope_and_engagement (__main__.ConnectorTests.test_B_DUAL_CLOSED_B04_envelope_and_engagement) ... ok
+test_B_DUAL_CLOSED_PNG_ink_geometry_units_and_sheet (__main__.ConnectorTests.test_B_DUAL_CLOSED_PNG_ink_geometry_units_and_sheet) ... ok
+test_B_DUAL_CLOSED_Y_first_continuous_all_eighteen_stages (__main__.ConnectorTests.test_B_DUAL_CLOSED_Y_first_continuous_all_eighteen_stages) ... ok
+test_B_DUAL_CLOSED_Y_one_piece_and_residual_necks (__main__.ConnectorTests.test_B_DUAL_CLOSED_Y_one_piece_and_residual_necks) ... ok
+test_B_DUAL_CLOSED_all_final_solid_intersections (__main__.ConnectorTests.test_B_DUAL_CLOSED_all_final_solid_intersections) ... ok
+test_B_DUAL_CLOSED_land_web_S4_and_upper_envelopes (__main__.ConnectorTests.test_B_DUAL_CLOSED_land_web_S4_and_upper_envelopes) ... ok
+test_B_DUAL_CLOSED_old_B_mortises_and_tongues_unchanged (__main__.ConnectorTests.test_B_DUAL_CLOSED_old_B_mortises_and_tongues_unchanged) ... ok
+test_B_DUAL_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass (__main__.ConnectorTests.test_B_DUAL_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass) ... ok
+test_B_DUAL_CLOSED_real_DXF_SVG_path_equality (__main__.ConnectorTests.test_B_DUAL_CLOSED_real_DXF_SVG_path_equality) ... ok
+test_B_DUAL_CLOSED_simultaneous_central_Y_paths_blocked (__main__.ConnectorTests.test_B_DUAL_CLOSED_simultaneous_central_Y_paths_blocked) ... ok
+test_B_DUAL_CLOSED_source_rebuild_and_layout_consistency (__main__.ConnectorTests.test_B_DUAL_CLOSED_source_rebuild_and_layout_consistency) ... ok
+test_B_DUAL_CLOSED_three_identical_arms_and_six_cheeks (__main__.ConnectorTests.test_B_DUAL_CLOSED_three_identical_arms_and_six_cheeks) ... ok
+test_B_DUAL_CLOSED_valid_unique_contours (__main__.ConnectorTests.test_B_DUAL_CLOSED_valid_unique_contours) ... ok
+test_C_OPEN_REMOVABLE_B04_envelope_and_engagement (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_B04_envelope_and_engagement) ... ok
+test_C_OPEN_REMOVABLE_PNG_ink_geometry_units_and_sheet (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_PNG_ink_geometry_units_and_sheet) ... ok
+test_C_OPEN_REMOVABLE_Y_first_continuous_all_eighteen_stages (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_Y_first_continuous_all_eighteen_stages) ... ok
+test_C_OPEN_REMOVABLE_Y_one_piece_and_residual_necks (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_Y_one_piece_and_residual_necks) ... ok
+test_C_OPEN_REMOVABLE_all_final_solid_intersections (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_all_final_solid_intersections) ... ok
+test_C_OPEN_REMOVABLE_land_web_S4_and_upper_envelopes (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_land_web_S4_and_upper_envelopes) ... ok
+test_C_OPEN_REMOVABLE_old_B_mortises_and_tongues_unchanged (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_old_B_mortises_and_tongues_unchanged) ... ok
+test_C_OPEN_REMOVABLE_prebuilt_paths_have_real_obstruction_or_C_pass (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_prebuilt_paths_have_real_obstruction_or_C_pass) ... ok
+test_C_OPEN_REMOVABLE_real_DXF_SVG_path_equality (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_real_DXF_SVG_path_equality) ... ok
+test_C_OPEN_REMOVABLE_simultaneous_central_Y_paths_blocked (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_simultaneous_central_Y_paths_blocked) ... ok
+test_C_OPEN_REMOVABLE_source_rebuild_and_layout_consistency (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_source_rebuild_and_layout_consistency) ... ok
+test_C_OPEN_REMOVABLE_three_identical_arms_and_six_cheeks (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_three_identical_arms_and_six_cheeks) ... ok
+test_C_OPEN_REMOVABLE_valid_unique_contours (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_valid_unique_contours) ... ok
+test_actual_source_selections_and_frozen_inputs (__main__.ConnectorTests.test_actual_source_selections_and_frozen_inputs) ... ok
+test_all_three_joinery_geometries_differ (__main__.ConnectorTests.test_all_three_joinery_geometries_differ) ... ok
+test_full_GLTF_nineteen_watertight (__main__.ConnectorTests.test_full_GLTF_nineteen_watertight) ... ok
+test_negative_94_tip_fails_envelope (__main__.ConnectorTests.test_negative_94_tip_fails_envelope) ... ok
+test_negative_lost_arm_web (__main__.ConnectorTests.test_negative_lost_arm_web) ... ok
+test_negative_shifted_Y_holes_collides (__main__.ConnectorTests.test_negative_shifted_Y_holes_collides) ... ok
+test_negative_thick_Y_plate (__main__.ConnectorTests.test_negative_thick_Y_plate) ... ok
+test_negative_wrong_cheek_sweep_direction_collides (__main__.ConnectorTests.test_negative_wrong_cheek_sweep_direction_collides) ... ok
+test_negative_zero_thickness (__main__.ConnectorTests.test_negative_zero_thickness) ... ok
+test_no_physical_measurements_invented (__main__.ConnectorTests.test_no_physical_measurements_invented) ... ok
+test_upstream_full_byte_preservation (__main__.ConnectorTests.test_upstream_full_byte_preservation) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 8.712s
+
+OK
