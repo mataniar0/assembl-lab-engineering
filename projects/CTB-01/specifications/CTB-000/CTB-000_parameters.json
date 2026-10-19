@@ -1,0 +1,172 @@
+{
+  "project_id": "CTB-01",
+  "milestone": "CTB-000",
+  "version": "v0.2",
+  "document_status": "BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION",
+  "units": {
+    "length": "mm",
+    "angle": "deg",
+    "coordinate": "right_handed_xyz"
+  },
+  "coordinate_frame": {
+    "origin": "center of table projected onto floor",
+    "x_axis": "horizontal along leg L1 at theta=0",
+    "y_axis": "horizontal, +90 degrees counter-clockwise from +X when viewed from above",
+    "z_axis": "vertical upwards",
+    "z0": "floor plane",
+    "leg_orientations_deg": {
+      "L1": 0,
+      "L2": 120,
+      "L3": 240
+    },
+    "local_leg_basis": {
+      "r": "radial outward from table center",
+      "t": "tangential CCW from r",
+      "z": "up"
+    },
+    "cheek_center_t_offsets_mm": [
+      -10.5,
+      10.5
+    ],
+    "cheek_inner_clearance_mm": 15,
+    "cheek_t_intervals_mm": [
+      [
+        -13.5,
+        -7.5
+      ],
+      [
+        7.5,
+        13.5
+      ]
+    ],
+    "note": "Positions are nominal and do not represent allowable loaded tolerances."
+  },
+  "frozen": {
+    "table_outer_diameter_mm": 350,
+    "table_height_mm": 500,
+    "top_total_thickness_mm": 50,
+    "leg_count": 3,
+    "cheeks_per_leg": 2,
+    "cheek_thickness_mm": 6,
+    "leg_inner_gap_mm": 15,
+    "spacers_per_leg": 4,
+    "core_and_skin_plywood_nominal_mm": 6,
+    "rim_kerf_plywood_nominal_mm": 4,
+    "stock_sheet_mm": [
+      800,
+      440
+    ],
+    "leg_angles_deg": [
+      0,
+      120,
+      240
+    ],
+    "rim_finish": "filler_after_folding_and_gluing; smooth wood-like edge",
+    "leg_type": "two identical parallel flat cheeks with four internal spacers (not V-arranged cheeks)",
+    "stock_sheet_height_mm": 800,
+    "stock_sheet_width_mm": 440,
+    "stock_sheet_orientation": "portrait_height_800_width_440",
+    "stock_sheet_array_order": "[height_mm,width_mm]"
+  },
+  "derived": {
+    "tabletop_bottom_z_mm": 450,
+    "bottom_skin_z_mm": [
+      450,
+      456
+    ],
+    "core_z_mm": [
+      456,
+      494
+    ],
+    "top_skin_z_mm": [
+      494,
+      500
+    ],
+    "core_height_mm": 38,
+    "leg_outer_thickness_mm": 27,
+    "skin_diameter_if_rim_around_both_skins_mm": 342,
+    "rim_centerline_diameter_mm": 346,
+    "rim_centerline_perimeter_mm": 1086.991,
+    "cheek_total_qty": 6,
+    "spacer_total_qty": 12,
+    "minimum_unjoined_segment_count_for_max_800mm": 2
+  },
+  "provisional": {
+    "three_foot_contact_center_radius_mm": 240,
+    "upper_leg_vertical_region_z_mm": [
+      360,
+      450
+    ],
+    "Y_connector_center_z_mm": 410,
+    "Y_hub_radius_mm": 24,
+    "Y_arm_end_radius_mm": 94,
+    "Y_arm_nominal_width_mm": 14.6,
+    "Y_tabs_radial_limits_mm": [
+      58,
+      78
+    ],
+    "Y_cheek_interface_radial_limits_mm": [
+      35,
+      90
+    ],
+    "Y_cheek_cutout_mm": [
+      20.4,
+      6.2
+    ],
+    "spacer_reference_heights_z_mm": [
+      35,
+      90,
+      245,
+      390
+    ],
+    "spacer_reinforced_at_z_mm": 35,
+    "anchor_disc_diameter_mm": 190,
+    "anchor_disc_thickness_mm": 6,
+    "anchor_disc_z_ranges_mm": [
+      [
+        456,
+        462
+      ],
+      [
+        480,
+        486
+      ]
+    ],
+    "upper_cheek_tongue_z_range_mm": [
+      450,
+      488
+    ],
+    "upper_cheek_tongue_radial_interval_mm": [
+      45,
+      69
+    ],
+    "lower_skin_slot_radial_interval_mm": [
+      44.8,
+      69.2
+    ],
+    "lower_skin_slot_tangential_width_mm": 6.2,
+    "radial_web_count": 6,
+    "radial_web_range_mm": [
+      81,
+      169
+    ],
+    "radial_web_height_mm": 38,
+    "ring_form": "rounded-triangle preferred, not released",
+    "ring_z_mm": null,
+    "spacer_end_joint_geometry_mm": null,
+    "rim_kerf_pitch_mm": null,
+    "rim_kerf_slot_length_mm": null
+  },
+  "authoritative_source_policy": {
+    "decisions_in_this_baseline_override_legacy_V_leg_models": true,
+    "latest_parallel_leg_anchor_sources": [
+      "CTB01_CSH3Y_v0_1",
+      "CTB01_CSH3P_v0_1"
+    ],
+    "legacy_reference_only": [
+      "CTB01_VTP_R_CSH3_concept_v02 LEG_A/LEG_B and tilted CSH-3 hub"
+    ],
+    "status_rule": "PROVISIONAL is not fabrication release",
+    "conflicting_source_rule": "raise issue and stop corresponding interface design; do not silently assume"
+  }
+}

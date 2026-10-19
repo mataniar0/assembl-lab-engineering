@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 510" width="980" height="510">
+<rect width="980" height="510" fill="#ffffff"/><style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#303943}.tit{font-weight:bold;font-size:18px}.small{font-size:13px}.label{font-size:15px;font-weight:bold}.dim{font-size:13px;fill:#596c7a}</style>
+<text x="38" y="38" class="tit">CTB-000 • Coordinate &amp; Interface Baseline v0.1</text><text x="38" y="64" class="dim">Diagram is schematic, NOT dimensioned production CAD</text>
+<text x="150" y="105" class="label">TOP VIEW: 3 legs 120° apart</text>
+<circle cx="250" cy="285" r="128" fill="#f4ede2" stroke="#9d805e" stroke-width="2" stroke-dasharray="5 5"/>
+<circle cx="250" cy="285" r="69.5" fill="#d8b98d" fill-opacity=".65" stroke="#916f45" stroke-width="2"/>
+<circle cx="250" cy="285" r="30" fill="#b68a56" fill-opacity=".85"/>
+<g stroke="#8e6d44" stroke-width="16" stroke-linecap="round" opacity=".92">
+<line x1="276" y1="285" x2="438" y2="285"/><line x1="237" y1="307.5" x2="156" y2="448"/><line x1="237" y1="262.5" x2="156" y2="122"/></g>
+<line x1="250" y1="285" x2="453" y2="285" stroke="#244b67" stroke-width="1.5"/><text x="454" y="280" class="small">+X / L1 (0°)</text>
+<line x1="250" y1="285" x2="250" y2="100" stroke="#244b67" stroke-width="1.5"/><text x="258" y="122" class="small">+Y</text>
+<text x="97" y="126" class="small">L2 (120°)</text><text x="120" y="460" class="small">L3 (240°)</text>
+<text x="214" y="290" class="small" fill="#ffffff">CSH</text>
+<text x="118" y="478" class="dim">Dashed Ø350: tabletop footprint</text>
+<line x1="490" y1="97" x2="490" y2="473" stroke="#d1d9de"/>
+<text x="544" y="105" class="label">SIDE ELEVATION: z from floor</text>
+<rect x="546" y="171" width="305" height="11" fill="#e4c399" stroke="#92714a"/>
+<rect x="546" y="182" width="305" height="72" fill="#f4e7d5" stroke="#92714a"/>
+<rect x="546" y="254" width="305" height="11" fill="#e4c399" stroke="#92714a"/>
+<rect x="625" y="193" width="147" height="11" fill="#ae824e"/><rect x="625" y="234" width="147" height="11" fill="#ae824e"/>
+<rect x="683" y="221" width="28" height="110" fill="#bd9460" stroke="#8f6d47"/><path d="M683 331 L596 452 L624 452 L697 369 L769 452 L797 452 L711 331Z" fill="#d6ad7e" stroke="#8c6741"/>
+<line x1="855" y1="171" x2="892" y2="171" stroke="#71818d"/><text x="899" y="174" class="small">z=500</text>
+<line x1="855" y1="182" x2="892" y2="182" stroke="#71818d"/><text x="899" y="187" class="small">494</text>
+<line x1="855" y1="254" x2="892" y2="254" stroke="#71818d"/><text x="899" y="251" class="small">456</text>
+<line x1="855" y1="265" x2="892" y2="265" stroke="#71818d"/><text x="899" y="272" class="small">450</text>
+<line x1="855" y1="452" x2="892" y2="452" stroke="#71818d"/><text x="899" y="457" class="small">0 floor</text>
+<text x="546" y="131" class="small">CSH-3P: lower z456–462, upper z480–486 (provisional)</text>
+<text x="546" y="151" class="small">CSH-3Y: center z410 (provisional)</text>
+<text x="545" y="493" class="dim">Vertical graphic compressed (not at scale)</text>
+<text x="545" y="476" class="dim">Stock sheet: H800 x W440 mm, portrait (design contract)</text>
+</svg>

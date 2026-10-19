@@ -1,0 +1,13 @@
+﻿part_family_id,name,qty,plywood_nominal_mm,task,status,note
+P01,LEG_CHEEK,6,6,CTB-001,READY_TO_DESIGN,"six identical planar cheeks, must all share one drawing"
+P02,SPACER_STANDARD,9,6,CTB-002,READY_TO_DESIGN,"3 per leg, positions tentative; ring must not silently replace one"
+P02B,SPACER_REINFORCED,3,6,CTB-002,READY_TO_DESIGN,one per leg near z35; not load-rated
+P03,CSH-3Y,1,6,CTB-003,PROVISIONAL_CAD_EXISTS,3-arm Y connector; requires leg interface check
+P04L,CSH-3P_LOWER,1,6,CTB-004,PROVISIONAL_CAD_EXISTS,r95 disk at z456..462; distinct feature set not assumed identical
+P04U,CSH-3P_UPPER,1,6,CTB-004,PROVISIONAL_CAD_EXISTS,r95 disk at z480..486; must validate locks
+P05,RADIAL_WEB,6,6,CTB-005,PROVISIONAL_CAD_EXISTS,38 mm tall full-core webs; overlaps/notches check
+P06,RING_REINFORCEMENT,1,6,CTB-006,NOT_YET_DESIGNED,rounded triangular ring conceptual; material and quantity tentative
+P07B,BOTTOM_SKIN,1,6,CTB-007,PROVISIONAL_CAD_EXISTS,outer diameter 342 mm under chosen rim arrangement
+P07T,TOP_SKIN,1,6,CTB-007,PROVISIONAL_CAD_EXISTS,outer diameter 342 mm under chosen rim arrangement
+P07R,KERF4_RIM_SEGMENT,>=2,4,CTB-007,NOT_YET_DESIGNED,full height 50 mm; segment geometry must fit portrait sheet H800 x W440 mm
+P08,ANTI_PULL_OUT_LOCK,TBD,TBD,CTB-008,NOT_YET_DESIGNED,locking of six upper tongues pending

@@ -1,0 +1,46 @@
+{
+  "project": "CTB-01",
+  "milestone": "CTB-000",
+  "version": "v0.2",
+  "sources": [
+    {
+      "filename": "CTB01_CSH3Y_v0_1.zip",
+      "sha256": "57109835df452e27f8df328270125d17f06280b366ddafced9f3fb096331e5b9",
+      "bytes": 207105
+    },
+    {
+      "filename": "CTB01_CSH3P_v0_1.zip",
+      "sha256": "f14cab19111b5b144877dcc8f6047b20ffb557c5c9a521f86d92c61fba8aae64",
+      "bytes": 265602
+    },
+    {
+      "filename": "CTB01_VTP_R_CSH3_concept_v02.zip",
+      "sha256": "7092f296e7f193718cff4b6a21404c98e1dc47839cc58ce067f6f931f1a62c45",
+      "bytes": 385094
+    },
+    {
+      "filename": "VTP_R_KERF4_Trials_v0_1.zip",
+      "sha256": "e7ece93206e2c36b34eb88629804227dece3645ce81e91a87bb600994a70932a",
+      "bytes": 42204
+    }
+  ],
+  "files": [
+    "AGENT_HANDOFF_HE.md",
+    "CHANGELOG.md",
+    "CHANGE_REQUEST_TEMPLATE.md",
+    "CTB-000_interface_diagram.png",
+    "CTB-000_interface_diagram.svg",
+    "CTB-000_interfaces.json",
+    "CTB-000_open_issues.csv",
+    "CTB-000_parameters.json",
+    "CTB-000_parts.csv",
+    "CTB-000_schema.json",
+    "DECISIONS.md",
+    "MANIFEST.json",
+    "SOURCE_REGISTER.md",
+    "SPEC_HE.md",
+    "validate_contract.py"
+  ],
+  "remarks": "Static ICD data checks only; no physical mechanical verification.",
+  "change_request": "CR-001: cutting sheet height=800mm width=440mm portrait, replaces 900x440"
+}

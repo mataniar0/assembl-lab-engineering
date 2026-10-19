@@ -1,0 +1,14 @@
+﻿issue_id,severity,topic,description,owner,closure_condition
+B01,BLOCKER,TOP LOCK,Positive mechanical retention of six top tongues is undefined,CTB-004 / CTB-008,No structural assembly release
+B02,BLOCKER,ASSEMBLY ORDER,Unknown whether 3 prebuilt twin legs can be installed after Y hub and 2 slotted disks,CTB-003 / CTB-004 / CTB-009,Demonstrate a collision-free sequential assembly
+B03,BLOCKER,LEG GEOMETRY,No finalized complete parallel-leg cheek; V-leg CAD in v0.2 is obsolete,CTB-001,Produce single source of truth for six identical cheeks
+B04,HIGH,Y ARM ENVELOPE,Y arm ends at r94 but available cheek template extends only to r90,CTB-001 / CTB-003,Resolve 4mm overhang and mechanical joint reach
+B05,HIGH,RING INTERFACE,"Ring height, geometry and interface with the 4 spacers undecided",CTB-002 / CTB-006,Specify one engagement design and no clash
+B06,HIGH,HUB-RIB INTERFACE,Radial webs crossing two slotted disks require verified continuous joint geometry and assembly,CTB-004 / CTB-005,Demonstrate 3D intersections and assembly
+B07,HIGH,STABILITY,"Footprint radius240 mm gives support triangle inradius120mm, smaller than top radius175 mm; load case unknown",CTB-001 / CTB-009,Set design loads and test stability
+B08,HIGH,KERF WALL,Old 36mm trial strip patterns do not certify the selected 50mm full-height wall,CTB-007,Build 50mm coupons and test bend/joint/glue/filler
+B09,MEDIUM,RIM GEOMETRY,4mm rim surface; segment joints and allowance for curvature unverified,CTB-007,Design and calibrate 2+ segments
+B10,HIGH,FIT,Nominal 6.2mm hole for 6mm stock and 14.6mm arm in 15mm gap are not kerf-calibrated,CTB-001..007,Measure actual stock; fit coupon tests
+B11,HIGH,MATERIAL/LOAD,"No measured material properties, design load cases, adhesive or physical strength results",CTB-009 / physical trial,Do not present load rating
+B12,MEDIUM,SINGLE SOURCE,Old V-leg files and old 3-layer CSH design conflict with parallel-leg 2-disc scheme,CTB-000,Strictly quarantine superseded CAD
+B13,MEDIUM,CENTER HOLE,Visualizations depict Ø60 center opening but authoritative param file does not specify its size/need,CTB-004,Verify actual DXF and define opening only if functional
