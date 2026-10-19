@@ -1,3 +1,15 @@
+## Reusable product engineering procedure (for all projects)
+
+- When planning a **new ASSEMBL LAB physical product**, use [Engineering Playbook](engineering-process/PLAYBOOK_HE.md), [approval gates](engineering-process/GATES.md), and [QA policy](engineering-process/QUALITY_STANDARD.md). Begin with a new project-local BRIEF and G0 interface contract.
+- Codex reusable skill: `.agents/skills/assembl-lab-product-engineering/SKILL.md`; read/apply it for new-product, CAD/joinery, interfaces, QA and manufacturing-release tasks.
+- Every product's machine-bed dimensions, materials, loads and geometry **must be newly specified and checked**. Do not transplant CTB-01 values into a new project.
+- Each task: Issue → isolated branch → reproducible source and evidence → independent QA → PR → engineering lead review → approved merge or changes requested. Codex does not self-merge.
+- Engineering lead may autonomously approve routine well-scoped design studies under delegated authority if QA ≥90/100 and zero blockers for that claimed scope; escalate consequential product/safety choices.
+- Design-stage CAD can merge as `DESIGN_ONLY`; G3 measured physical fit, structural/stability assessment and G4 production authorization are independent gates, not inferred from CAD PASS.
+- Use templates under `engineering-process/TEMPLATES/`; record versions and unknowns. If independent QA is unavailable, mark `INDEPENDENT_QA_PENDING`.
+
+---
+
 # Engineering workflow
 
 - Work in the existing isolated checkout; do not create worktrees unless requested.
