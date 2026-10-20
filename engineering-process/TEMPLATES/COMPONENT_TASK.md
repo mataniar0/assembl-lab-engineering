@@ -36,8 +36,10 @@
 - [ ] Interactions with every declared IF accounted for.
 - [ ] Actual insertion/blocked paths correctly reported for claimed assembly scope.
 - [ ] No unmeasured material/kerf/load claim presented as PASS.
-- [ ] QA independent and reproducible; zero in-scope blockers.
+- [ ] QA independent and reproducible; zero in-scope critical blockers. Later-gate risks remain explicitly OPEN.
 - [ ] PR has status and evidence; no production approval.
 
 ## Stop conditions
-Missing G0, irreconcilable upstream mismatch, required geometry that fails assembly, unmeasured parameter assumed released, or need for unapproved aesthetic/function/structural change ⇒ `BLOCKED` and/or [Change Request](CHANGE_REQUEST.md).
+Missing G0 for dependent design, irreconcilable upstream mismatch, a failed assembly path required by the claimed scope, an unmeasured parameter assumed released, or need for unapproved aesthetic/function/structural change ⇒ `BLOCKED` and/or [Change Request](CHANGE_REQUEST.md).
+
+A blocked alternative or later-gate dependency does not block a clearly bounded `DESIGN_ONLY` study that neither depends on it nor claims it resolved; preserve the blocker and evidence under [gate hard-stop rules](../GATES.md). A study may propose a provisional change, but cannot alter frozen inputs before CR approval.

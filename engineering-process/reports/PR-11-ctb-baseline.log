@@ -1,0 +1,16 @@
+PASS manifest_inventory_15
+PASS source_bytes_unchanged
+PASS parameter_schema
+PASS baseline_versions
+PASS interface_inventory_14
+PASS open_issue_inventory_13
+PASS critical_blockers_retained
+PASS interface_party_references
+PASS all_parts_referenced
+PASS no_interface_approval_upgrade
+PASS portrait_sheet
+PASS no_active_900_numeric_setting
+PASS svg_parseable
+PASS png_signature
+PASS no_legacy_cad_import
+Summary: 15 / 15 import checks passed

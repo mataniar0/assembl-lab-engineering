@@ -36,3 +36,14 @@ Folders appear when needed; do not generate placeholder fake evidence. Project-s
 - `DESIGN_ONLY` CAD is not a real-world cut authorization.
 
 The CTB-01 specific setup stays under `projects/CTB-01/` and in root `AGENTS.md`; it is an example **not a new-product default**.
+
+## Validate the process documents
+
+From the repository root (Python 3.12, standard library only):
+
+```sh
+python engineering-process/tools/validate_playbook.py
+python -m unittest discover -s engineering-process/tests -v
+```
+
+The second command tests intentionally broken copies in temporary directories. Neither command substitutes for manual policy review or validates a filled project contract.

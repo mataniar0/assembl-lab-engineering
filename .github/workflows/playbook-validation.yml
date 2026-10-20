@@ -37,3 +37,5 @@ jobs:
           python-version: '3.12'
       - name: Validate documentation and skill
         run: python engineering-process/tools/validate_playbook.py
+      - name: Exercise validator negative controls
+        run: python -m unittest discover -s engineering-process/tests -v

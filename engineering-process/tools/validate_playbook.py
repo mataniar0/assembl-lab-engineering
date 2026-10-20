@@ -55,8 +55,15 @@ if frontmatter:
     f = frontmatter.group(1)
     assert_check(bool(re.search(r"(?m)^name:\s*assembl-lab-product-engineering\s*$", f)),
                  "Skill name missing/mismatched")
-    assert_check(bool(re.search(r"(?m)^description:\s*(\S|[>|])", f)),
-                 "Skill description missing")
+    # A YAML block indicator alone is not a usable description. Require actual
+    # text for both the scalar and the folded/literal forms used by Skills.
+    description = re.search(
+        r"(?m)^description:[ \t]*([^\n]*)(?:\n((?:[ \t]+[^\n]*(?:\n|$))*))?", f)
+    value = description.group(1).strip() if description else ""
+    if value in (">", ">-", ">+", "|", "|-", "|+"):
+        value = (description.group(2) or "").strip()
+    assert_check(value not in ("", "''", '\"\"', "null", "~")
+                 and not value.startswith("#"), "Skill description missing or empty")
 assert_check("Never merge your own PR" in skill,
              "Skill must prohibit implementer auto-merge")
 assert_check("NOT_RUN" in skill,
@@ -102,7 +109,10 @@ for p in docs:
                  f"Product-specific cutting dimensions leaked into generic docs: {p.relative_to(ROOT)}")
 
 # Validate relative Markdown hyperlinks in the playbook, README, templates and Skill.
-for p in docs:
+link_docs = docs + [ROOT / "README.md", ROOT / "AGENTS.md",
+                    ROOT / ".github/ISSUE_TEMPLATE/engineering-task.md",
+                    ROOT / ".github/pull_request_template.md"]
+for p in link_docs:
     if not p.exists():
         continue
     text = p.read_text(encoding="utf-8")
@@ -133,5 +143,5 @@ if errors:
     for error in errors:
         print("FAIL:", error)
     sys.exit(1)
-print("No missing required documents, broken links or known generic-policy contradictions.")
+print("Required documents, checked relative links and policy markers passed. Manual review is still required for policy consistency.")
 print("Scope: documentation integrity only; CAD/real-world validation NOT_RUN.")

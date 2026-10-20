@@ -18,6 +18,8 @@
 - Read `projects/CTB-01/specifications/CTB-000/` before CTB-01 work: SPEC_HE.md, DECISIONS.md, parameters, interfaces, parts, open issues and handoff. JSON parameters/interfaces are authoritative. List relevant IF IDs and dependencies before implementing a component; an OPEN dependency blocks dependent design.
 - Approved `frozen` parameters are immutable without an approved Change Request using the imported template. Document and propagate provisional interface changes before integration. Never infer approved dimensions from images.
 - Keep geometry and DXF/SVG/PNG exports DESIGN_ONLY until the relevant approvals and physical validation. Static checks, CAD fit, physical fit, bending, strength and stability are distinct evidence; never claim unperformed tests.
+## CTB-01-specific constraints (apply only to CTB-01)
+
 - CTB-01: Ø350 mm top, overall height 500 mm, top thickness 50 mm; three legs at 0°/120°/240°, each with two identical parallel 6 mm birch cheeks, 15 mm inner gap and four spacers. CSH-3Y hub, CSH-3P anchor disks, VTP-R KERF-4 FLEX 4 mm birch rim.
 - Cutting sheet is portrait: HEIGHT 800 × WIDTH 440 mm. Sheet X=0..440, Y=0..800. `stock_sheet_mm` is [height,width], not [width,height]. No actual nesting is approved by this baseline.
 - Preserve global right-handed XYZ and local (r,t,z); lengths are mm. Separate frozen, derived and provisional data.
