@@ -1,0 +1,1079 @@
+{
+  "scope": "Risk-based CTB006: actual exported geometry, focused integration; broad337 previous cases deliberately NOT_RUN",
+  "method": "Independent OpenCASCADE with exact boundary-prism translational sweeps; no implementation imports",
+  "upstream_27_static": {
+    "pairs": 351,
+    "maximum_overlap_mm3": 0.0
+  },
+  "upstream_Y_FIRST": {
+    "stages": [
+      {
+        "moving": "L1_P01_1",
+        "checks": 1,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S1",
+        "checks": 2,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S2",
+        "checks": 3,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S3",
+        "checks": 4,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S4",
+        "checks": 5,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_P01_2",
+        "checks": 6,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_P01_1",
+        "checks": 7,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S1",
+        "checks": 8,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S2",
+        "checks": 9,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S3",
+        "checks": 10,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S4",
+        "checks": 11,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_P01_2",
+        "checks": 12,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_P01_1",
+        "checks": 13,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S1",
+        "checks": 14,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S2",
+        "checks": 15,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S3",
+        "checks": 16,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S4",
+        "checks": 17,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_P01_2",
+        "checks": 18,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      }
+    ],
+    "checks": 171,
+    "maximum_overlap_mm3": 0.0
+  },
+  "physical_reference": {
+    "P01_sections_r_mm": {
+      "225": [
+        95.33432616129032,
+        149.05465954838712
+      ],
+      "230": [
+        92.67008796774194,
+        146.4581469032258
+      ],
+      "235": [
+        90.0574710967742,
+        143.9142987096774
+      ],
+      "240": [
+        87.49969993548386,
+        141.4269664516129
+      ],
+      "245": [
+        85.0,
+        139.0
+      ],
+      "250": [
+        82.45889308695652,
+        136.5321205652174
+      ],
+      "255": [
+        79.81121291304349,
+        133.95610047826088
+      ],
+      "260": [
+        77.06454095652174,
+        131.28197730434783
+      ],
+      "265": [
+        74.24021260869564,
+        128.52951869565217
+      ],
+      "242": [
+        86.49876067096774,
+        140.4550781935484
+      ],
+      "248": [
+        83.49018796521739,
+        137.53432542608695
+      ]
+    },
+    "current_spacer_stations": [
+      35,
+      90,
+      200,
+      390
+    ],
+    "ring_to_S3_vertical_face_gap_mm": 39,
+    "foot_r_mm": [
+      222.0,
+      258.0
+    ],
+    "ground_contact_each_cheek_mm2": 216.0,
+    "support_hull_xy_mm": [
+      [
+        -117.30865704891019,
+        -230.1845541763851
+      ],
+      [
+        -140.69134295109004,
+        -216.6845541763851
+      ],
+      [
+        -140.69134295108987,
+        216.68455417638518
+      ],
+      [
+        -117.30865704891002,
+        230.18455417638518
+      ],
+      [
+        258.0,
+        13.5
+      ],
+      [
+        258.0,
+        -13.5
+      ],
+      [
+        -117.30865704891019,
+        -230.1845541763851
+      ]
+    ],
+    "support_min_center_edge_distance_mm": 140.6913429510899,
+    "module_center_triangle_inradius_mm": 120,
+    "no_stability_or_load_claim": true
+  },
+  "protected": {
+    "baseline": "c27f722e16668e4ed32cee1c72f5a699b40e504e",
+    "files_byte_equal": 336
+  },
+  "variants": {
+    "A": {
+      "exports": {
+        "P06A.svg": {
+          "area_mm2": 7684.662935676011,
+          "bounds_mm": [
+            -70.516083,
+            -108.772196,
+            118.017646,
+            108.772196
+          ],
+          "cut_loops": 2,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P01-ring-interface-study-v1.svg": {
+          "area_mm2": 23691.93240540084,
+          "bounds_mm": [
+            35.0,
+            0.0,
+            262.0,
+            488.0
+          ],
+          "cut_loops": 7,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        }
+      },
+      "body_count": 28,
+      "static_pairs": 378,
+      "maximum_overlap_mm3": 0.0,
+      "original_selected_P01_without_CR_collision_mm3": {
+        "L1_P01_1": 431.34108495583325,
+        "L1_P01_2": 431.3410849558325,
+        "L2_P01_1": 431.34107211299084,
+        "L2_P01_2": 431.3410670204262,
+        "L3_P01_1": 431.3410670204218,
+        "L3_P01_2": 431.34107211299545
+      },
+      "actual_joint_center_r_mm": 112.017646,
+      "claimed_route": {
+        "stages": [
+          {
+            "moving": "P03_lower_from520",
+            "checks": 1,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_P01_1",
+            "checks": 2,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S1",
+            "checks": 3,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S2",
+            "checks": 4,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S3",
+            "checks": 5,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S4",
+            "checks": 6,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_P01_2",
+            "checks": 7,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_P01_1",
+            "checks": 8,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S1",
+            "checks": 9,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S2",
+            "checks": 10,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S3",
+            "checks": 11,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S4",
+            "checks": 12,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_P01_2",
+            "checks": 13,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_P01_1",
+            "checks": 14,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S1",
+            "checks": 15,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S2",
+            "checks": 16,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S3",
+            "checks": 17,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S4",
+            "checks": 18,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_P01_2",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "checks": 190,
+        "maximum_overlap_mm3": 0.0
+      },
+      "blocked_late_routes": [
+        {
+          "moving": "after_closed_base_from_above",
+          "checks": 27,
+          "maximum_overlap_mm3": 32295.671501024142,
+          "positive_pairs_mm3": {
+            "P03": 12497.236576859812,
+            "L1_P01_1": 28296.580422799823,
+            "L1_P01_2": 28296.580422799816,
+            "L1_S4": 3226.953151077051,
+            "L2_P01_1": 24530.895367528665,
+            "L2_P01_2": 24530.895037794675,
+            "L2_S4": 3226.953220208407,
+            "L3_P01_1": 24530.895037794595,
+            "L3_P01_2": 24530.89536752872,
+            "L3_S4": 3226.9532202084083,
+            "P04L": 32065.271566878942,
+            "P04U": 32295.671501024142,
+            "P05_1": 8349.314449959173,
+            "P05_3": 8349.314345143026,
+            "P05_5": 8349.31434514302
+          }
+        },
+        {
+          "moving": "after_closed_base_radial60",
+          "checks": 27,
+          "maximum_overlap_mm3": 1944.0040948510527,
+          "positive_pairs_mm3": {
+            "L1_P01_1": 1944.0040948510527,
+            "L1_P01_2": 1944.004094851052,
+            "L2_P01_1": 1188.4888830718135,
+            "L2_P01_2": 486.28852414813343,
+            "L3_P01_1": 486.2885241481267,
+            "L3_P01_2": 1188.4888830718128
+          }
+        }
+      ],
+      "hypothetical_Z245_S3_overlap_mm3": 2730.957093455613,
+      "actual_Z200_S3_maximum_overlap_mm3": 0.0,
+      "ring_family_min_Z_mm": 242.0,
+      "export_derived_geometric_lands": {
+        "arm_width_mm": 14.6,
+        "arm_to_each_inner_cheek_gap_mm": 0.20000000000000018,
+        "minimum_outer_radial_cheek_land_at_expanded_band_mm": 19.218967787826102
+      },
+      "restraint": {
+        "scope": "geometric obstruction only; keepers fixed; no force/6DOF claim",
+        "six_cheeks": [
+          {
+            "leg": 1,
+            "side": -1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47054247791576,
+            "radial_out_mm3": 136.47054247791587
+          },
+          {
+            "leg": 1,
+            "side": 1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47054247791553,
+            "radial_out_mm3": 136.47054247791579
+          },
+          {
+            "leg": 2,
+            "side": -1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47053236940732,
+            "radial_out_mm3": 136.4705396847617
+          },
+          {
+            "leg": 2,
+            "side": 1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47052086442238,
+            "radial_out_mm3": 136.47054110163893
+          },
+          {
+            "leg": 3,
+            "side": -1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47052086442147,
+            "radial_out_mm3": 136.47054110163924
+          },
+          {
+            "leg": 3,
+            "side": 1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47053236940673,
+            "radial_out_mm3": 136.4705396847631
+          }
+        ]
+      },
+      "keeper_ejection": null,
+      "glb": {
+        "nodes": 28,
+        "units": "GLTF_metres",
+        "maximum_bounds_delta_mm": 1.239776611328125e-05,
+        "maximum_relative_volume_delta": 2.959761119414317e-06
+      }
+    },
+    "B": {
+      "exports": {
+        "P06B1.svg": {
+          "area_mm2": 3205.8598653813806,
+          "bounds_mm": [
+            7.298498,
+            -36.108727,
+            118.017646,
+            36.108727
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P06B2.svg": {
+          "area_mm2": 3205.859888060333,
+          "bounds_mm": [
+            -70.516083,
+            -6.0,
+            20.847383,
+            108.772196
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P06B3.svg": {
+          "area_mm2": 3205.859890378878,
+          "bounds_mm": [
+            -70.516083,
+            -108.772196,
+            22.396269,
+            0.0
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P01-ring-interface-study-v1.svg": {
+          "area_mm2": 23281.92856712106,
+          "bounds_mm": [
+            35.0,
+            0.0,
+            262.0,
+            488.0
+          ],
+          "cut_loops": 6,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P06B-KEY.svg": {
+          "area_mm2": 199.62141680220788,
+          "bounds_mm": [
+            93.017646,
+            238.8,
+            105.817646,
+            257.6
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        }
+      },
+      "body_count": 36,
+      "static_pairs": 630,
+      "maximum_overlap_mm3": 0.0,
+      "original_selected_P01_without_CR_collision_mm3": {
+        "L1_P01_1": 431.34108495583337,
+        "L1_P01_2": 431.3410849558326,
+        "L2_P01_1": 431.34106966359826,
+        "L2_P01_2": 431.3410694698189,
+        "L3_P01_1": 431.341069469814,
+        "L3_P01_2": 431.3410696636032
+      },
+      "actual_joint_center_r_mm": 112.017646,
+      "claimed_route": {
+        "stages": [
+          {
+            "moving": "P06B1_entry40",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B1_lower6p4",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B2_entry40",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B2_lower6p4",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B3_entry40",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B3_lower6p4",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B_K1_N_entry40",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B_K1_P_entry40",
+            "checks": 31,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B_K2_N_entry40",
+            "checks": 32,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B_K2_P_entry40",
+            "checks": 33,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B_K3_N_entry40",
+            "checks": 34,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06B_K3_P_entry40",
+            "checks": 35,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "checks": 363,
+        "maximum_overlap_mm3": 0.0
+      },
+      "blocked_late_routes": [],
+      "hypothetical_Z245_S3_overlap_mm3": 2730.957093455613,
+      "actual_Z200_S3_maximum_overlap_mm3": 0.0,
+      "ring_family_min_Z_mm": 238.8,
+      "export_derived_geometric_lands": {
+        "arm_width_mm": 14.6,
+        "arm_to_each_inner_cheek_gap_mm": 0.20000000000000018,
+        "minimum_outer_radial_cheek_land_at_expanded_band_mm": 19.218967787826102,
+        "female_splice_radial_lands_mm": [
+          6.799999544262704,
+          6.799999166094608
+        ]
+      },
+      "restraint": {
+        "scope": "geometric obstruction only; keepers fixed; no force/6DOF claim",
+        "six_cheeks": [
+          {
+            "leg": 1,
+            "side": -1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47054247791618,
+            "radial_out_mm3": 136.54371104246425
+          },
+          {
+            "leg": 1,
+            "side": 1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47054247791561,
+            "radial_out_mm3": 136.54371104246422
+          },
+          {
+            "leg": 2,
+            "side": -1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47052992001483,
+            "radial_out_mm3": 136.54371104246513
+          },
+          {
+            "leg": 2,
+            "side": 1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.4705233138148,
+            "radial_out_mm3": 136.5437110424648
+          },
+          {
+            "leg": 3,
+            "side": -1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.47052331381403,
+            "radial_out_mm3": 136.54371104246428
+          },
+          {
+            "leg": 3,
+            "side": 1,
+            "outward_t_with_keys_mm3": 0.0,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.4705299200143,
+            "radial_out_mm3": 136.5437110424645
+          }
+        ]
+      },
+      "keeper_ejection": {
+        "moving": "P06B_K1_P_ejection",
+        "checks": 35,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "glb": {
+        "nodes": 36,
+        "units": "GLTF_metres",
+        "maximum_bounds_delta_mm": 1.239776611328125e-05,
+        "maximum_relative_volume_delta": 2.959761119414317e-06
+      }
+    },
+    "C": {
+      "exports": {
+        "P06C.svg": {
+          "area_mm2": 10018.08660991919,
+          "bounds_mm": [
+            -85.274413,
+            -121.334374,
+            125.017646,
+            121.334374
+          ],
+          "cut_loops": 8,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P01-ring-interface-study-v1.svg": {
+          "area_mm2": 23602.33240540084,
+          "bounds_mm": [
+            35.0,
+            0.0,
+            262.0,
+            488.0
+          ],
+          "cut_loops": 7,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P06C-KEY.svg": {
+          "area_mm2": 144.259431333848,
+          "bounds_mm": [
+            13.7,
+            235.0,
+            22.0,
+            256.0
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        }
+      },
+      "body_count": 34,
+      "static_pairs": 561,
+      "maximum_overlap_mm3": 0.0,
+      "original_selected_P01_without_CR_collision_mm3": {
+        "L1_P01_1": 936.0000000000002,
+        "L1_P01_2": 936.0000000000001,
+        "L2_P01_1": 935.9999810076666,
+        "L2_P01_2": 935.9999885766322,
+        "L3_P01_1": 935.9999885766306,
+        "L3_P01_2": 935.9999810076675
+      },
+      "actual_joint_center_r_mm": 112.017646,
+      "claimed_route": {
+        "stages": [
+          {
+            "moving": "P03_lower_from520",
+            "checks": 1,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_P01_1",
+            "checks": 2,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S1",
+            "checks": 3,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S2",
+            "checks": 4,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S3",
+            "checks": 5,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_S4",
+            "checks": 6,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L1_P01_2",
+            "checks": 7,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_P01_1",
+            "checks": 8,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S1",
+            "checks": 9,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S2",
+            "checks": 10,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S3",
+            "checks": 11,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_S4",
+            "checks": 12,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L2_P01_2",
+            "checks": 13,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_P01_1",
+            "checks": 14,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S1",
+            "checks": 15,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S2",
+            "checks": 16,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S3",
+            "checks": 17,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_S4",
+            "checks": 18,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "L3_P01_2",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06C_K1_N_down40",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06C_K1_P_down40",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06C_K2_N_down40",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06C_K2_P_down40",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06C_K3_N_down40",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P06C_K3_P_down40",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "checks": 325,
+        "maximum_overlap_mm3": 0.0
+      },
+      "blocked_late_routes": [
+        {
+          "moving": "after_closed_base_from_above",
+          "checks": 27,
+          "maximum_overlap_mm3": 31985.246557763818,
+          "positive_pairs_mm3": {
+            "P03": 9609.720077061645,
+            "L1_P01_1": 21971.095211585074,
+            "L1_P01_2": 21971.095211585067,
+            "L1_S4": 2504.383156792492,
+            "L2_P01_1": 18401.849367217084,
+            "L2_P01_2": 21971.09507434624,
+            "L2_S4": 2504.3831534473015,
+            "L3_P01_1": 21971.0950743462,
+            "L3_P01_2": 18401.849367217063,
+            "L3_S4": 2504.383153447302,
+            "P04L": 31754.84662361861,
+            "P04U": 31985.246557763818,
+            "P05_1": 9945.31444995918,
+            "P05_3": 9945.314379403026,
+            "P05_5": 9945.314379403017
+          }
+        },
+        {
+          "moving": "after_closed_base_radial60",
+          "checks": 27,
+          "maximum_overlap_mm3": 1944.0040948510532,
+          "positive_pairs_mm3": {
+            "L1_P01_1": 1944.0040948510532,
+            "L1_P01_2": 1944.0040948510532,
+            "L2_P01_1": 1440.734712267328,
+            "L2_P01_2": 1260.9015432237136,
+            "L3_P01_1": 1260.9015432237109,
+            "L3_P01_2": 1440.7347122673243
+          }
+        }
+      ],
+      "hypothetical_Z245_S3_overlap_mm3": 3809.793666577256,
+      "actual_Z200_S3_maximum_overlap_mm3": 0.0,
+      "ring_family_min_Z_mm": 235.0,
+      "export_derived_geometric_lands": {
+        "arm_width_mm": 14.6,
+        "arm_to_each_inner_cheek_gap_mm": 0.20000000000000018,
+        "minimum_outer_radial_cheek_land_at_expanded_band_mm": 12.218967787826102,
+        "outer_keyslot_lands_mm": [
+          6.199999999999999,
+          6.199999999999999
+        ],
+        "actual_key_horizontal_bearing_width_mm": 1.3000000000000007,
+        "bearing_boundary_area_per_key_mm2": 7.800000000000004
+      },
+      "restraint": {
+        "scope": "geometric obstruction only; keepers fixed; no force/6DOF claim",
+        "six_cheeks": [
+          {
+            "leg": 1,
+            "side": -1,
+            "outward_t_with_keys_mm3": 332.45829400154304,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.79999999999998,
+            "radial_out_mm3": 136.7999999999999
+          },
+          {
+            "leg": 1,
+            "side": 1,
+            "outward_t_with_keys_mm3": 332.45829400154093,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.79999999999998,
+            "radial_out_mm3": 136.7999999999999
+          },
+          {
+            "leg": 2,
+            "side": -1,
+            "outward_t_with_keys_mm3": 332.458294001543,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.79999399299328,
+            "radial_out_mm3": 136.79998973257858
+          },
+          {
+            "leg": 2,
+            "side": 1,
+            "outward_t_with_keys_mm3": 332.45829400154014,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.79998064589856,
+            "radial_out_mm3": 136.80000453204292
+          },
+          {
+            "leg": 3,
+            "side": -1,
+            "outward_t_with_keys_mm3": 332.45829400154327,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.79998064589836,
+            "radial_out_mm3": 136.80000453204352
+          },
+          {
+            "leg": 3,
+            "side": 1,
+            "outward_t_with_keys_mm3": 332.45829400154184,
+            "outward_t_without_keys_mm3": 0.0,
+            "radial_in_mm3": 136.79999399299308,
+            "radial_out_mm3": 136.79998973257887
+          }
+        ]
+      },
+      "keeper_ejection": {
+        "moving": "P06C_K1_P_ejection",
+        "checks": 33,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "glb": {
+        "nodes": 34,
+        "units": "GLTF_metres",
+        "maximum_bounds_delta_mm": 1.239776611328125e-05,
+        "maximum_relative_volume_delta": 2.959761119414317e-06
+      }
+    }
+  },
+  "export_SHA256": {
+    "projects/CTB-01/parts/P06/assembly/A-conditional-DESIGN_ONLY.glb": "d2b3a0e6e8e4f8ec3bd412cab8cc766a6c28c734cd538007dbafe9b0a21396bf",
+    "projects/CTB-01/parts/P06/assembly/A-sections.svg": "e03dd939140d372d25796af521cc8c89121b4dee9fb5942a29a1ed3a3a90c35f",
+    "projects/CTB-01/parts/P06/assembly/B-conditional-DESIGN_ONLY.glb": "7771ea5d9bcf14bdec8a8e1b5dbc61354cf4c8b77f3a1ce312d7c6ca962a2bd5",
+    "projects/CTB-01/parts/P06/assembly/B-sections.svg": "89948db564f43e946e1d79ff9866dc81e366243b0136a9307d32b2d6a4ad7ab2",
+    "projects/CTB-01/parts/P06/assembly/C-conditional-DESIGN_ONLY.glb": "b431467b7cc76fa241e2c8ed6486838fbbf21f134680b655cfa6240b871d5caf",
+    "projects/CTB-01/parts/P06/assembly/C-sections.svg": "59dbb6c5c7e467fff6c14f7db10318203ae93a42e3c757e3c7e5f9e7fab53c51",
+    "projects/CTB-01/parts/P06/proposals/A/P01-ring-interface-study-v1.dxf": "af5f424fedf9573bb99b6f0d9e2f345941dfb05fbe2a9d81237d056cdc2c6701",
+    "projects/CTB-01/parts/P06/proposals/A/P01-ring-interface-study-v1.svg": "9b5c365d07383b20e7ada9ff244b88e51aea5044275bf3b2e6061b9bf92445b5",
+    "projects/CTB-01/parts/P06/proposals/B/P01-ring-interface-study-v1.dxf": "22cb4eae8c9726489f9270aeae9c72bbf3a3069d204e69dc01a39f23eaaa9168",
+    "projects/CTB-01/parts/P06/proposals/B/P01-ring-interface-study-v1.svg": "ab17b362127aefae19702dfd87a64d3f5e003c4fe698f0b0e6d828c8545ddf83",
+    "projects/CTB-01/parts/P06/proposals/C/P01-ring-interface-study-v1.dxf": "4726fa6a13e2d43e0672a4c2fb44a6f4960bc9397346ed3d5aaba4a72b7aede1",
+    "projects/CTB-01/parts/P06/proposals/C/P01-ring-interface-study-v1.svg": "ac9c2df48e58ea9da82a3d85db30d2158d166d3c8e95cc834247e65bac42cab0",
+    "projects/CTB-01/parts/P06/variants/A/P06A.dxf": "fb6ff283d18e9ab81fab4a49508cd2cf074fa1e72ebb6b7a0ee01d34a61f19fe",
+    "projects/CTB-01/parts/P06/variants/A/P06A.svg": "137f130890ee73120ccf1daf05891434b86c867df81a141278c9593a83db4cfc",
+    "projects/CTB-01/parts/P06/variants/B/P06B-KEY.dxf": "1903105a6a542488e55caaa923c7c3ea6db35864076140fed8478446382273ad",
+    "projects/CTB-01/parts/P06/variants/B/P06B-KEY.svg": "6a7d8cf825d31e7d9a727b92908a5aa630cf086eb1dbdd8dd53203712360716e",
+    "projects/CTB-01/parts/P06/variants/B/P06B1.dxf": "4e5da3296177fd7b13c8c11349862b5397f5828b8ce6f4cdb2ada138d5f895a2",
+    "projects/CTB-01/parts/P06/variants/B/P06B1.svg": "4d0fb4d018eb7fc7f895d3cc7f260bc7e8447c55210f60fc225d069b33bd494a",
+    "projects/CTB-01/parts/P06/variants/B/P06B2.dxf": "ef62232d35e495c01c76db48785b819215e08ebd23d924d94b14ac3e1d3f5229",
+    "projects/CTB-01/parts/P06/variants/B/P06B2.svg": "b119f1a7c173fcf96c007842ef1ad6da968a9474a0421bb8a4256d35c3f8067b",
+    "projects/CTB-01/parts/P06/variants/B/P06B3.dxf": "191702577e97a7b7877d753d137d9a2b9f79bdbcf49ef4f7ab919978c55faf40",
+    "projects/CTB-01/parts/P06/variants/B/P06B3.svg": "4442b39cb7cff920e3d672a9c37f93a7a980dd8e38098ef32367197fc3a31730",
+    "projects/CTB-01/parts/P06/variants/C/P06C-KEY.dxf": "6fd6a51f80bda1668f63f10ea8685266abbc27bf404202ea57bb98e09385dfd4",
+    "projects/CTB-01/parts/P06/variants/C/P06C-KEY.svg": "f4dbe3ff2404012fd3e7f795cbd4d76674480b66a3ae82925ef62e96f5d28b43",
+    "projects/CTB-01/parts/P06/variants/C/P06C.dxf": "c41d8fbcfa446554e4c7157c2b3a32ac1bab138d027d79c2c0ab6d93f5837cf1",
+    "projects/CTB-01/parts/P06/variants/C/P06C.svg": "cf4b094366e0c533b33e506169351a139ddd296b67754aeb906739dcfca83d17"
+  },
+  "intermediate_sweep_numerical_artifacts": [
+    {
+      "removed_hole_areas_mm2": [
+        2.524354896707238e-28
+      ],
+      "area_delta_mm2": 2.524354896707238e-28,
+      "threshold_mm2": 1e-14
+    }
+  ]
+}

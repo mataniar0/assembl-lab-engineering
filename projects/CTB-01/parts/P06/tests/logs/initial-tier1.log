@@ -1,0 +1,60 @@
+test_b_splice_three_real_finite_connected_pieces (__main__.GlobalTests.test_b_splice_three_real_finite_connected_pieces) ... FAIL
+test_c_filleted_key_repair_retains_gap_and_outer_land (__main__.GlobalTests.test_c_filleted_key_repair_retains_gap_and_outer_land) ... ok
+test_c_missing_keeper_detected_as_free_outward_cheek_motion (__main__.GlobalTests.test_c_missing_keeper_detected_as_free_outward_cheek_motion) ... ok
+test_no_variant_claims_complete_retention (__main__.GlobalTests.test_no_variant_claims_complete_retention) ... ok
+test_schema_blocks_wrong_material_dimensions_measurements_neck_and_rotation (__main__.GlobalTests.test_schema_blocks_wrong_material_dimensions_measurements_neck_and_rotation) ... ok
+test_sections_derive_joint_from_actual_jointed_cheek (__main__.GlobalTests.test_sections_derive_joint_from_actual_jointed_cheek) ... ok
+test_A_all_six (__main__.VariantTests.test_A_all_six) ... ok
+test_A_bom_glb (__main__.VariantTests.test_A_bom_glb) ... ok
+test_A_contours (__main__.VariantTests.test_A_contours) ... ok
+test_A_exports (__main__.VariantTests.test_A_exports) ... ok
+test_A_missing_tab (__main__.VariantTests.test_A_missing_tab) ... ok
+test_A_motions (__main__.VariantTests.test_A_motions) ... ok
+test_A_negatives (__main__.VariantTests.test_A_negatives) ... ok
+test_A_nominal (__main__.VariantTests.test_A_nominal) ... ok
+test_A_overlays (__main__.VariantTests.test_A_overlays) ... ok
+test_A_physical_scale (__main__.VariantTests.test_A_physical_scale) ... ok
+test_A_stock_and_necks (__main__.VariantTests.test_A_stock_and_necks) ... ok
+test_A_vertical (__main__.VariantTests.test_A_vertical) ... ok
+test_B_all_six (__main__.VariantTests.test_B_all_six) ... ok
+test_B_bom_glb (__main__.VariantTests.test_B_bom_glb) ... ok
+test_B_contours (__main__.VariantTests.test_B_contours) ... ok
+test_B_exports (__main__.VariantTests.test_B_exports) ... ok
+test_B_missing_tab (__main__.VariantTests.test_B_missing_tab) ... ok
+test_B_motions (__main__.VariantTests.test_B_motions) ... ok
+test_B_negatives (__main__.VariantTests.test_B_negatives) ... ok
+test_B_nominal (__main__.VariantTests.test_B_nominal) ... ok
+test_B_overlays (__main__.VariantTests.test_B_overlays) ... ok
+test_B_physical_scale (__main__.VariantTests.test_B_physical_scale) ... ok
+test_B_stock_and_necks (__main__.VariantTests.test_B_stock_and_necks) ... ok
+test_B_vertical (__main__.VariantTests.test_B_vertical) ... ok
+test_C_all_six (__main__.VariantTests.test_C_all_six) ... ok
+test_C_bom_glb (__main__.VariantTests.test_C_bom_glb) ... ok
+test_C_contours (__main__.VariantTests.test_C_contours) ... ok
+test_C_exports (__main__.VariantTests.test_C_exports) ... ok
+test_C_missing_tab (__main__.VariantTests.test_C_missing_tab) ... ok
+test_C_motions (__main__.VariantTests.test_C_motions) ... ok
+test_C_negatives (__main__.VariantTests.test_C_negatives) ... ok
+test_C_nominal (__main__.VariantTests.test_C_nominal) ... ok
+test_C_overlays (__main__.VariantTests.test_C_overlays) ... ok
+test_C_physical_scale (__main__.VariantTests.test_C_physical_scale) ... ok
+test_C_stock_and_necks (__main__.VariantTests.test_C_stock_and_necks) ... ok
+test_C_vertical (__main__.VariantTests.test_C_vertical) ... ok
+
+======================================================================
+FAIL: test_b_splice_three_real_finite_connected_pieces (__main__.GlobalTests.test_b_splice_three_real_finite_connected_pieces)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P06/tests/test_ring.py", line 44, in test_b_splice_three_real_finite_connected_pieces
+    self.assertGreater(splice(D,D3,U,60).area,0);self.assertEqual(unary_union(list(parts.values())).geom_type,'MultiPolygon')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Polygon' != 'MultiPolygon'
+- Polygon
++ MultiPolygon
+? +++++
+
+
+----------------------------------------------------------------------
+Ran 42 tests in 23.606s
+
+FAILED (failures=1)

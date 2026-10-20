@@ -1,0 +1,8 @@
+concept,part_id,quantity,nominal_thickness_mm,role,release
+A,P06A,1,6,continuous triangular ring,DESIGN_ONLY
+B,P06B1,1,6,matched segment1,DESIGN_ONLY
+B,P06B2,1,6,matched segment2,DESIGN_ONLY
+B,P06B3,1,6,matched segment3,DESIGN_ONLY
+B,P06B-KEY,6,6,radial stop plug not self retained,DESIGN_ONLY
+C,P06C,1,6,continuous circular ring,DESIGN_ONLY
+C,P06C-KEY,6,6,vertical keeper not self retained,DESIGN_ONLY

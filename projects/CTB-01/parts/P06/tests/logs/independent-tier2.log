@@ -1,0 +1,13 @@
+test_IF01_all_four_spacers_and_mortises_unchanged (__main__.FocusedIntegration.test_IF01_all_four_spacers_and_mortises_unchanged) ... ok
+test_IF02_y_profile_and_current_mortises_consumed (__main__.FocusedIntegration.test_IF02_y_profile_and_current_mortises_consumed) ... ok
+test_IF09_proposed_cuts_preserve_original_only_in_P06 (__main__.FocusedIntegration.test_IF09_proposed_cuts_preserve_original_only_in_P06) ... ok
+test_IF14_actual_contact_hull_and_original_feet_preserved (__main__.FocusedIntegration.test_IF14_actual_contact_hull_and_original_feet_preserved) ... ok
+test_bounded_upper_interfaces_top_budget_and_authorities (__main__.FocusedIntegration.test_bounded_upper_interfaces_top_budget_and_authorities) ... ok
+test_protected_336_files_byte_equal_to_base (__main__.FocusedIntegration.test_protected_336_files_byte_equal_to_base) ... ok
+test_selected_27_body_consumption_matches_reviewed_glb (__main__.FocusedIntegration.test_selected_27_body_consumption_matches_reviewed_glb) ... ok
+test_selected_y_first_18_stages_171_exact_sweeps (__main__.FocusedIntegration.test_selected_y_first_18_stages_171_exact_sweeps) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 6.614s
+
+OK

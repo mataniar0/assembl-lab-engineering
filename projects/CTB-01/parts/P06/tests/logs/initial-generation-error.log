@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P06/src/generate.py", line 187, in <module>
+    if __name__=='__main__':generate()
+                            ^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P06/src/generate.py", line 177, in generate
+    summary[name]=proof;drawings(name,d,d3,u,solids,proof,out)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P06/src/generate.py", line 143, in drawings
+    lines.append(f"{i:02d} {s['moving']}: {s['status']} start{s['start_offset_mm']} -> end{s['end_offset_mm']}")
+                                                              ~^^^^^^^^^^^^^^^^^^^
+KeyError: 'start_offset_mm'

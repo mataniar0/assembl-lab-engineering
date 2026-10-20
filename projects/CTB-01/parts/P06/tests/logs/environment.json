@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "isolated_venv": "/workspace/.venvs/ctb-006",
+  "packages": {
+    "shapely": "2.1.2",
+    "manifold3d": "3.3.2",
+    "trimesh": "4.11.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "ezdxf": "1.4.4",
+    "matplotlib": "3.10.8",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0"
+  },
+  "baseline": "c27f722e16668e4ed32cee1c72f5a699b40e504e",
+  "clean_install": "python -m venv /workspace/.venvs/ctb-006; /workspace/.venvs/ctb-006/bin/pip install -r projects/CTB-01/parts/P06/src/requirements.txt",
+  "clean_command": "PYTHON=/workspace/.venvs/ctb-006/bin/python projects/CTB-01/parts/P06/tests/run_all.sh"
+}
