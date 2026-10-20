@@ -1,6 +1,7 @@
 # CTB-004 — independent automated CAD QA
 
 2026-10-20. Issue #9, branch `codex/ctb-004-anchor-disks`.
+Source PR: #12; reviewed geometry/evidence head `4c52d0fb04c6f7a7fd849c76bb3d7eb2cd85917a`.
 Reviewer: a separate Codex QA agent, distinct from the implementing agent.
 **Result: PASS for the documented nominal local design studies; engineering selection and
 physical/manufacturing approval remain pending.** This is not human G1 approval.
@@ -168,6 +169,53 @@ remain unverified. Zero nominal overlap supplies no adhesive strength or outward
 **Recommend independent engineering-lead review of this reproducible DESIGN_ONLY study.**
 No merge, positive lock approval, completed-table G2, G3 physical approval, production
 nesting or authorization to cut physically is provided.
+
+## QA score and gate disposition
+
+Applied the ASSEMBL LAB engineering skill, playbook, gates, QA policy and QA template from
+`origin/main` at `441d18b8fc9c2ad1a169fffc5556c12b5d2ce519`, which advanced through the
+separate ENG-001 process PR while this component branch retained its original baseline.
+This assessment updates reporting only; the audited geometry and test results are unchanged.
+Policy source: `engineering-process/QUALITY_STANDARD.md` at that main commit.
+
+The score applies to the **G1 DESIGN_ONLY disk alternatives and the precisely demonstrated
+21-real-body local CAD routes**, including conditional counterpart reservations. It does
+not score a finished P05, complete table, positive lock or physical product.
+
+| Area | Maximum | Awarded | Independent rationale |
+|---|---:|---:|---|
+| Contract and traceability | 20 | 20 | Frozen inputs and selected authority verified; 174 upstream files unchanged; provisional dimensions, IF dependencies and source provenance explicit. |
+| CAD geometry and export integrity | 25 | 25 | Actual SVG/DXF loops and finite solids independently reconstructed; connected material, hole topology, dimensions, stock envelopes and all 63 GLB instances checked. |
+| Interfaces and assembly evidence | 20 | 19 | Continuous real-body and matching-reservation routes pass with effective negative controls; remaining access evidence is limited to an assumed tool envelope rather than a specified retainer or fixture. That limitation remains an explicit downstream hold. |
+| Reproducibility, negative controls and regressions | 20 | 18 | All 275 unique cases independently rerun and alternate-kernel script reproduced; fresh core-generation logs reviewed. The alternate-kernel review reused an existing version-recorded QA venv rather than independently rebuilding that optional environment from scratch. |
+| Documentation, visuals and handoff | 15 | 14 | Separate lower/upper layouts, exact interfaces, blocked orders, failures and CTB-005 handoff are clear; some generated captions remain compact and would benefit from optional readability polish. |
+| **Total** | **100** | **96** | **Meets the ≥90 design-review threshold.** |
+
+Scores express evidence coverage within the stated scope; deductions do not convert a
+disclosed future dependency into a fabricated CAD failure.
+
+| Severity / scope | Finding | Disposition |
+|---|---|---|
+| In-scope CRITICAL | **0 unresolved**: no impossible required nominal route, invalid contour, frozen-value incompatibility or unsupported production claim found. | No critical blocker to engineering-lead review of this study. |
+| In-scope MAJOR | **0 unresolved**: no missing required regression, loss of reproducibility or known inaccurate final dimensional render found. | Previously observed harness/export-presentation defects were corrected and retested. |
+| In-scope MINOR | **1 optional readability item**: some automatically generated captions pack many dimensions into a line. | Optional caption refinement; exact SVG/DXF and dimension JSON remain available. No geometry correction required. |
+| Later-gate dependencies | B01/IF-12 retention, B02 whole-table order, B06/IF-06/08 finished web/load path, B10 measured fit and B11 physical loads remain unverified; B13 selection remains open. | Preserve these holds for the exact downstream claims they block; no issue is formally closed by the score. |
+
+**Score ≥90: YES. In-scope critical blockers zero: YES.**
+Independent QA recommendation: **APPROVE_DESIGN_ONLY for engineering-lead consideration**.
+The engineering lead still owns the actual selection/PR approval decision; this reviewer
+does not merge or authorize manufacturing.
+
+| Gate | Evidence status |
+|---|---|
+| G1 component decision | Independent CAD QA PASS; engineering-lead selection/approval **PENDING**. |
+| G2a local subassembly | Named nominal 21-body routes demonstrated; six prospective web solids remain labelled conditional reservations. No complete-table claim. |
+| G2b whole system | **NOT_RUN / BLOCKED** for the complete product: finished P05, ring, skins/wall, positive lock and coordinated integration are absent. |
+| G3 physical prototype | **NOT_RUN**: no actual plywood measurement, kerf coupon, adhesive/cure test, physical assembly, load, stability or independent physical assessment. |
+| G4 manufacturing release | **NOT_RUN**: no G3 approval, calibrated production files, reviewed production nesting or release authorization. |
+
+The 96/100 score and nominal CAD evidence do not establish measured fit, structural
+strength, stability, physical safety or production readiness.
 
 ## Reproduce the alternate-kernel audit
 

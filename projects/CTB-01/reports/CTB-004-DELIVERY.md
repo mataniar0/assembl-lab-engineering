@@ -67,3 +67,32 @@ draft, retaining network/secrets/repository configuration. Draft saving does not
 or apply it. Review/save the draft in environment settings and publish the environment
 if this prepared configuration should be used for future tasks; no fresh-task restoration
 claim is made. Existing optional CQ runtime supplied independent QA.
+
+## Acceptance and updated process compatibility
+
+Implementation agent `/root`; independent reviewer `/root/ctb004_qa`. Reviewed geometry
+head `58bccbb3b3c7a6bb95563b1f837ef065e6645c4d`; later commits edit delivery/process notes only.
+Scope: G1 candidate design with bounded G2a nominal assembly evidence; lead gate decision
+pending, **G3 NOT_RUN / G4 NOT_AUTHORIZED**.
+
+During submission, main advanced to `441d18b8fc9c2ad1a169fffc5556c12b5d2ce519` (ENG-001 PR #11),
+adding the reusable engineering playbook/skill and QA scoring policy. Its diff changes no
+CTB-000/P01/P02/P03 geometry. Read/applied that skill, playbook, gates, QA/delivery templates
+and PR checklist to this existing product study. The independent reviewer assigns **96/100**, with zero in-scope critical/major findings
+and one optional caption-readability item, in CTB-004-INDEPENDENT-QA.md. This does not
+select a concept or authorize merge.
+No rebase, merging into main or alteration of protected source was required for this
+compatible documentation-only target-branch advance. Reported275 tests are the actual
+component/baseline suites, not an unrun playbook suite counted as evidence.
+
+| Requirement | Result | Evidence |
+|---|---|---|
+| Three meaningful alternatives, both disks distinct, six tongues/six web interfaces each | PASS_CAD_CANDIDATE | variants/A,B,C; design review and exact loops |
+| Fixed layers, full6mm tongue engagement,18mm freegap,50mm external budget | PASS_CAD_DIMENSIONS | six-tongues.json; dimension JSONs;71 tests |
+| Feasible21-body lowering and matching38mm web reservations | PASS_CAD_LOCAL_CONDITIONAL | proofs.json; independent OCC evidence |
+| All prior sources preserved; correct single-part sheet margins and BOM | PASS |174 SHA checks; BOM-v1.csv;275suite logs |
+| QA independent, failures/repairs disclosed, reproducible source and exports | PASS_DESIGN_STUDY | QA report/score, validation and raw logs |
+| Lead selection/center opening decision | PENDING_REVIEW | P04/DECISIONS.md; no concept selected here |
+| Positive lock, complete load path and whole-table integration | BLOCKED_LATER_SCOPE | IF-08/12, B01/B02/B06 and handoff |
+| Real material/kerf/adhesive/load/physical tests | NOT_RUN | G3; stock and kerf null |
+| Actual nesting/cutting/manufacturing release | NOT_AUTHORIZED | G4; user instruction and review gate |
