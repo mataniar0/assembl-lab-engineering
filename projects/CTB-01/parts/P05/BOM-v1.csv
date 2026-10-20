@@ -1,0 +1,2 @@
+part_id,quantity,thickness_mm,material,release,instances
+P05,6,6,birch plywood nominal,DESIGN_ONLY,P05_1..P05_6 identical per alternative

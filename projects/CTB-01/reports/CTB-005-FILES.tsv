@@ -1,0 +1,105 @@
+path	role
+projects/CTB-01/STATUS.md	BOM / status / review / handoff / delivery
+projects/CTB-01/parts/P05/.gitignore	BOM / status / review / handoff / delivery
+projects/CTB-01/parts/P05/BOM-v1.csv	BOM / status / review / handoff / delivery
+projects/CTB-01/parts/P05/CTB-007-008-HANDOFF.md	BOM / status / review / handoff / delivery
+projects/CTB-01/parts/P05/DECISIONS.md	BOM / status / review / handoff / delivery
+projects/CTB-01/parts/P05/README.md	BOM / status / review / handoff / delivery
+projects/CTB-01/parts/P05/assembly/A-actual27-and-core.png	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/A-baseline-27-DESIGN_ONLY.glb	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/A-baseline-27-DESIGN_ONLY.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/A-exploded-and-order.png	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/B-actual27-and-core.png	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/B-baseline-27-BLOCKED.glb	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/B-baseline-27-BLOCKED.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/B-exploded-and-order.png	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/B-proposed-27-CR_REQUIRED.glb	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/B-proposed-27-CR_REQUIRED.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/C-actual27-and-core.png	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/C-baseline-27-DESIGN_ONLY.glb	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/C-baseline-27-DESIGN_ONLY.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/C-exploded-and-order.png	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/C-proposed-27-CR_REQUIRED.glb	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/C-proposed-27-CR_REQUIRED.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/proofs.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/assembly/upstream-y-first-recheck.json	27-body assembly / continuous sweeps / images
+projects/CTB-01/parts/P05/proposals/B/CHANGE-PROPOSAL.md	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04L-v2-proposal-dimensions.json	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04L-v2-proposal.dxf	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04L-v2-proposal.png	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04L-v2-proposal.svg	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04U-v2-proposal-dimensions.json	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04U-v2-proposal.dxf	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04U-v2-proposal.png	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/B/P04U-v2-proposal.svg	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/CHANGE-PROPOSAL.md	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04L-v2-proposal-dimensions.json	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04L-v2-proposal.dxf	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04L-v2-proposal.png	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04L-v2-proposal.svg	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04U-v1-reference-dimensions.json	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04U-v1-reference.dxf	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04U-v1-reference.png	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/proposals/C/P04U-v1-reference.svg	unapproved versioned P04-v2 proposal / reference
+projects/CTB-01/parts/P05/src/design.json	source / parameters / provenance
+projects/CTB-01/parts/P05/src/design.schema.json	source / parameters / provenance
+projects/CTB-01/parts/P05/src/generate.py	source / parameters / provenance
+projects/CTB-01/parts/P05/src/model.py	source / parameters / provenance
+projects/CTB-01/parts/P05/src/requirements-qa.txt	source / parameters / provenance
+projects/CTB-01/parts/P05/src/requirements.txt	source / parameters / provenance
+projects/CTB-01/parts/P05/src/upstream-sha256.json	source / parameters / provenance
+projects/CTB-01/parts/P05/tests/README.md	primary or independent tests / reproduction
+projects/CTB-01/parts/P05/tests/independent_occ_review.py	primary or independent tests / reproduction
+projects/CTB-01/parts/P05/tests/run_all.sh	primary or independent tests / reproduction
+projects/CTB-01/parts/P05/tests/test_ribs.py	primary or independent tests / reproduction
+projects/CTB-01/parts/P05/variants/A/P05-dimensions.json	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/P05.dxf	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/P05.png	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/P05.svg	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/README.md	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/connections-and-paths.json	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/sections-and-joints.png	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/A/sections-and-joints.svg	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/P05-dimensions.json	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/P05.dxf	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/P05.png	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/P05.svg	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/README.md	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/connections-and-paths.json	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/sections-and-joints.png	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/B/sections-and-joints.svg	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/P05-dimensions.json	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/P05.dxf	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/P05.png	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/P05.svg	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/README.md	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/connections-and-paths.json	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/sections-and-joints.png	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/parts/P05/variants/C/sections-and-joints.svg	actual P05 CAD / dimensions / sections / proof
+projects/CTB-01/reports/CTB-005-DELIVERY.md	BOM / status / review / handoff / delivery
+projects/CTB-01/reports/CTB-005-DESIGN-REVIEW.md	BOM / status / review / handoff / delivery
+projects/CTB-01/reports/CTB-005-FILES.tsv	BOM / status / review / handoff / delivery
+projects/CTB-01/reports/CTB-005-INDEPENDENT-QA.md	BOM / status / review / handoff / delivery
+projects/CTB-01/reports/CTB-005-INTERFACE-MATRIX.md	BOM / status / review / handoff / delivery
+projects/CTB-01/reports/CTB-005-VALIDATION.md	BOM / status / review / handoff / delivery
+projects/CTB-01/reports/CTB-005-logs/all-export-cut-audit.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/clean-full-run.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/environment.json	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/final-generation.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/final-p05.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/generation-initial.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-A-edge-spans.json	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-concept-preflight.json	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-contract.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-import.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-occ-results.json	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-occ.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-p01.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-p02.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-p03.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-p04.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-p05-final.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/independent-p05-initial-3-errors.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/preflight.log	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/runtime-metadata-probe.json	preserved execution / failure / QA evidence
+projects/CTB-01/reports/CTB-005-logs/tests-initial.log	preserved execution / failure / QA evidence
