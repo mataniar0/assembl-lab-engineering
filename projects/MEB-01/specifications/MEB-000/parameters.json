@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "project_id": "MEB-01",
+  "contract_id": "MEB-000",
+  "release_scope": "DESIGN_ONLY_G0_DRAFT",
+  "coordinate_system": {
+    "units": "mm",
+    "angle_units": "deg",
+    "origin": null,
+    "axes": null,
+    "orientation": "OPEN - to be defined from measured DXF",
+    "sheet_frame": "OPEN - do not reuse CTB-01 axes"
+  },
+  "values": [
+    {
+      "id": "INNER_LENGTH",
+      "value": 310,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "V8.2.2 README / 56-item legacy audit"
+    },
+    {
+      "id": "INNER_WIDTH",
+      "value": 65,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "V8.2.2 README / 56-item legacy audit"
+    },
+    {
+      "id": "INNER_HEIGHT",
+      "value": 65,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "V8.2.2 README / 56-item legacy audit"
+    },
+    {
+      "id": "STRUCTURAL_THICKNESS",
+      "value": 6,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "legacy per_part nominal filenames"
+    },
+    {
+      "id": "LID_SKIN_THICKNESS",
+      "value": 4,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "legacy per_part nominal filename"
+    },
+    {
+      "id": "HINGE_PIN_DIAMETER",
+      "value": 14,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "V8.2.2 audit + filename"
+    },
+    {
+      "id": "HINGE_BORE_DIAMETER",
+      "value": 14.6,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "V8.2.2 audit radial clearance .30"
+    },
+    {
+      "id": "HINGE_CAP_DIAMETER",
+      "value": 22,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "basis": "V8.2.2 filename"
+    },
+    {
+      "id": "LEGACY_SHEET_HEIGHT",
+      "value": 900,
+      "unit": "mm",
+      "status": "LEGACY_REPORTED",
+      "basis": "V8.2.2 audit 900x440"
+    },
+    {
+      "id": "LEGACY_SHEET_WIDTH",
+      "value": 440,
+      "unit": "mm",
+      "status": "LEGACY_REPORTED",
+      "basis": "V8.2.2 audit 900x440"
+    },
+    {
+      "id": "TARGET_SHEET_HEIGHT",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "historical user 800 mm target, contradicts legacy 900 mm sheet"
+    },
+    {
+      "id": "TARGET_SHEET_WIDTH",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "historical user 440 mm width / re-confirm with owner"
+    },
+    {
+      "id": "OUTSIDE_LENGTH",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "Reconstruct directly from DXF"
+    },
+    {
+      "id": "OUTSIDE_WIDTH",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "Reconstruct directly from DXF"
+    },
+    {
+      "id": "OUTSIDE_HEIGHT",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "Reconstruct directly from DXF"
+    },
+    {
+      "id": "OPENING_ANGLE_REQUIRED",
+      "value": null,
+      "unit": "deg",
+      "status": "OPEN",
+      "basis": "README 110 vs audit 120; resolve"
+    },
+    {
+      "id": "MEASURED_KERF",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "G3 physical evidence required"
+    },
+    {
+      "id": "MEASURED_6MM_STOCK",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "G3 physical evidence required"
+    },
+    {
+      "id": "MEASURED_4MM_STOCK",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "basis": "G3 physical evidence required"
+    }
+  ]
+}
