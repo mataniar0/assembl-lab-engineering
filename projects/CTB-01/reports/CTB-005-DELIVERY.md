@@ -5,6 +5,10 @@
 **G1 candidate / bounded G2a CAD evidence — DESIGN_ONLY / AWAITING_LEAD_SELECTION**.
 Implementation agent `/root`; independent reviewer `/root/ctb005_qa`.
 
+PR for review: https://github.com/mataniar0/assembl-lab-engineering/pull/14
+
+Audited geometry/evidence committed at `0097e3ff238fe09e67839d83e630d69aef609d50`; subsequent delivery-link edits change documentation only.
+
 - [Three-concept design review](CTB-005-DESIGN-REVIEW.md)
 - [Interface evidence and holds](CTB-005-INTERFACE-MATRIX.md)
 - [Tests, initial failures and corrections](CTB-005-VALIDATION.md)

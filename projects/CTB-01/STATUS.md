@@ -155,7 +155,7 @@ No actual P05/P07/P08, physical fitting, structural approval or cutting was impl
 
 ## CTB-005 — DESIGN_ONLY / AWAITING_LEAD_SELECTION
 
-Issue #13, branch `codex/ctb-005-radial-webs`, source6292a0e. Three real six-identical-rib
+Issue #13, PR #14 open for review (unmerged), branch `codex/ctb-005-radial-webs`, source6292a0e. Three real six-identical-rib
 concepts: A_RELIEVED_BOND, B_DOUBLE_RAIL and C_LOWER_CAPTURE_STEP. All259 CTB-000/P01–P04
 source/output files remain unchanged. Exactly P05×6 adds to the selected21 to make27 real
 bodies; skin/wall/tool/lock studies remain non-BOM reservations. Ø350/H500/top50, rib38 and
