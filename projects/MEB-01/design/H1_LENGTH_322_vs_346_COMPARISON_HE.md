@@ -1,6 +1,6 @@
 # MEB-01 — H1 length decision study: 322 mm vs 346 mm (2026-10-20)
 
-**Status:** `DESIGN_ONLY / DIMENSION_NOT_FROZEN`. Comparison performed directly by ChatGPT from local H1 v0.3 geometry source (`build_v03.py`), BOM, flat exports and rectangular stock-pack proposals. No Codex used. **The owner has requested comparison, not yet approved either length.**
+**Status:** `DESIGN_ONLY / EXTERIOR_DIMENSION_NOT_FROZEN / INTERIOR_MIN_310MM_OWNER_APPROVED`. Comparison performed directly by ChatGPT from local H1 v0.3 geometry source (`build_v03.py`), BOM, flat exports and rectangular stock-pack proposals. No Codex used. **After the comparison the owner required preserving minimum usable interior length 310mm (MEB-D-008). Neither exterior length is owner-approved yet.**
 
 ## Verified reference data (model-nominal, not measured physical geometry)
 - H1 v0.3 exterior X-envelope: **x=-5..341 mm**, total **346 mm** (outer facia extremes).
@@ -38,3 +38,11 @@ If compactness is a strong aesthetic constraint, model variant **C (322 outer, 3
 4. QA quality warning: an **older** generated `diagnostics_v03.json` says minimum moving gap `0` whereas later current-version `sweep_v03_summary.json` and 441-row CSV report `0.5mm`; timestamps indicate they were generated at different source revisions. Treat this as **stale/reproducibility discrepancy to clean** before citing uninterrupted motion verification outside the bounded current sweep. No QA independent review. Do not freeze/merge on stale logs.
 
 **Executor:** ChatGPT for comparison, 322 alternative concept and dimensions; Codex only if complex parametric restructuring clearly saves work; independent QA reviewer mandatory before acceptance. Prior V8.2.2 source untouched.
+
+## Owner decision update — 2026-10-20
+Owner stated **״לשמור על 310״**. Treat as **minimum 310 mm usable internal length**, including clearances for any installed end hardware and practical scroll accommodation; mere nominal open space measured between cheeks does not prove finished usability.
+
+- **B: 322 outer/288 nominal interior — ELIMINATED** under new frozen functional requirement.
+- **C: 322 outer/310 interior — NOT VALIDATED**, possible only through end-stack/pivot redesign; cannot be used until modeled and independently checked.
+- **A: 346 outer/312 nominal interior — recommended temporary working candidate**; prove actual usable inside length >=310 after all hinge/retention encroachments. **346 external is not frozen or owner-approved.**
+- Continue H1 lid/kerf design *conditionally* on working candidate A, do not silently lock exterior dimensions, and retain an explicit design review at next gate.
