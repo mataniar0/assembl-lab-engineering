@@ -1,0 +1,335 @@
+Cannot create cache home directory: '/home/agent/.cache/ezdxf', cache files will not be saved.
+See also issue https://github.com/mozman/ezdxf/issues/923.
+test_all_upstream_bytes_equal_reviewed_commit (__main__.GlobalTests.test_all_upstream_bytes_equal_reviewed_commit) ... ok
+test_bom_two_real_parts_and_no_hidden_hardware (__main__.GlobalTests.test_bom_two_real_parts_and_no_hidden_hardware) ... /workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py:72: ResourceWarning: unclosed file <_io.TextIOWrapper name='/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/BOM-v1.csv' mode='r' encoding='UTF-8'>
+  rows=list(csv.DictReader((PART/'BOM-v1.csv').open()));self.assertEqual(len(rows),2)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_clearance_is_not_measured_material_or_kerf (__main__.GlobalTests.test_clearance_is_not_measured_material_or_kerf) ... ok
+test_fifty_mm_budget_full_upper_engagement (__main__.GlobalTests.test_fifty_mm_budget_full_upper_engagement) ... ok
+test_prospective_web_handoff_counts_and_open_dependencies (__main__.GlobalTests.test_prospective_web_handoff_counts_and_open_dependencies) ... ok
+test_real_tongue_extraction_all_six_rotations_and_nose (__main__.GlobalTests.test_real_tongue_extraction_all_six_rotations_and_nose) ... ok
+test_selected_upstream_base_and_nineteen_real_bodies (__main__.GlobalTests.test_selected_upstream_base_and_nineteen_real_bodies) ... ok
+test_versioned_input_schema_rejects_wrong_gap_and_radius (__main__.GlobalTests.test_versioned_input_schema_rejects_wrong_gap_and_radius) ... ok
+test_A_P04L_center (__main__.LayerTests.test_A_P04L_center) ... FAIL
+test_A_P04L_dxf (__main__.LayerTests.test_A_P04L_dxf) ... FAIL
+test_A_P04L_lands (__main__.LayerTests.test_A_P04L_lands) ... ok
+test_A_P04L_planar (__main__.LayerTests.test_A_P04L_planar) ... FAIL
+test_A_P04L_png (__main__.LayerTests.test_A_P04L_png) ... FAIL
+test_A_P04L_svg (__main__.LayerTests.test_A_P04L_svg) ... ok
+test_A_P04L_tongue_alignment (__main__.LayerTests.test_A_P04L_tongue_alignment) ... ok
+test_A_P04U_center (__main__.LayerTests.test_A_P04U_center) ... FAIL
+test_A_P04U_dxf (__main__.LayerTests.test_A_P04U_dxf) ... FAIL
+test_A_P04U_lands (__main__.LayerTests.test_A_P04U_lands) ... ok
+test_A_P04U_planar (__main__.LayerTests.test_A_P04U_planar) ... FAIL
+test_A_P04U_png (__main__.LayerTests.test_A_P04U_png) ... FAIL
+test_A_P04U_svg (__main__.LayerTests.test_A_P04U_svg) ... ok
+test_A_P04U_tongue_alignment (__main__.LayerTests.test_A_P04U_tongue_alignment) ... ok
+test_B_P04L_center (__main__.LayerTests.test_B_P04L_center) ... FAIL
+test_B_P04L_dxf (__main__.LayerTests.test_B_P04L_dxf) ... ok
+test_B_P04L_lands (__main__.LayerTests.test_B_P04L_lands) ... ok
+test_B_P04L_planar (__main__.LayerTests.test_B_P04L_planar) ... FAIL
+test_B_P04L_png (__main__.LayerTests.test_B_P04L_png) ... FAIL
+test_B_P04L_svg (__main__.LayerTests.test_B_P04L_svg) ... ok
+test_B_P04L_tongue_alignment (__main__.LayerTests.test_B_P04L_tongue_alignment) ... ok
+test_B_P04U_center (__main__.LayerTests.test_B_P04U_center) ... FAIL
+test_B_P04U_dxf (__main__.LayerTests.test_B_P04U_dxf) ... ok
+test_B_P04U_lands (__main__.LayerTests.test_B_P04U_lands) ... ok
+test_B_P04U_planar (__main__.LayerTests.test_B_P04U_planar) ... FAIL
+test_B_P04U_png (__main__.LayerTests.test_B_P04U_png) ... FAIL
+test_B_P04U_svg (__main__.LayerTests.test_B_P04U_svg) ... ok
+test_B_P04U_tongue_alignment (__main__.LayerTests.test_B_P04U_tongue_alignment) ... ok
+test_C_P04L_center (__main__.LayerTests.test_C_P04L_center) ... FAIL
+test_C_P04L_dxf (__main__.LayerTests.test_C_P04L_dxf) ... FAIL
+test_C_P04L_lands (__main__.LayerTests.test_C_P04L_lands) ... ok
+test_C_P04L_planar (__main__.LayerTests.test_C_P04L_planar) ... FAIL
+test_C_P04L_png (__main__.LayerTests.test_C_P04L_png) ... FAIL
+test_C_P04L_svg (__main__.LayerTests.test_C_P04L_svg) ... ok
+test_C_P04L_tongue_alignment (__main__.LayerTests.test_C_P04L_tongue_alignment) ... ok
+test_C_P04U_center (__main__.LayerTests.test_C_P04U_center) ... FAIL
+test_C_P04U_dxf (__main__.LayerTests.test_C_P04U_dxf) ... FAIL
+test_C_P04U_lands (__main__.LayerTests.test_C_P04U_lands) ... ok
+test_C_P04U_planar (__main__.LayerTests.test_C_P04U_planar) ... FAIL
+test_C_P04U_png (__main__.LayerTests.test_C_P04U_png) ... FAIL
+test_C_P04U_svg (__main__.LayerTests.test_C_P04U_svg) ... ok
+test_C_P04U_tongue_alignment (__main__.LayerTests.test_C_P04U_tongue_alignment) ... ok
+test_A_disk_paths (__main__.VariantTests.test_A_disk_paths) ... ok
+test_A_final_solids (__main__.VariantTests.test_A_final_solids) ... ok
+test_A_glb (__main__.VariantTests.test_A_glb) ... ok
+test_A_mating (__main__.VariantTests.test_A_mating) ... ok
+test_A_negatives (__main__.VariantTests.test_A_negatives) ... ok
+test_A_rejected_orders (__main__.VariantTests.test_A_rejected_orders) ... ok
+test_A_witness_paths (__main__.VariantTests.test_A_witness_paths) ... ok
+test_B_disk_paths (__main__.VariantTests.test_B_disk_paths) ... ok
+test_B_final_solids (__main__.VariantTests.test_B_final_solids) ... ok
+test_B_glb (__main__.VariantTests.test_B_glb) ... ok
+test_B_mating (__main__.VariantTests.test_B_mating) ... ok
+test_B_negatives (__main__.VariantTests.test_B_negatives) ... ok
+test_B_rejected_orders (__main__.VariantTests.test_B_rejected_orders) ... ok
+test_B_witness_paths (__main__.VariantTests.test_B_witness_paths) ... ok
+test_C_disk_paths (__main__.VariantTests.test_C_disk_paths) ... ok
+test_C_final_solids (__main__.VariantTests.test_C_final_solids) ... ok
+test_C_glb (__main__.VariantTests.test_C_glb) ... ok
+test_C_mating (__main__.VariantTests.test_C_mating) ... ok
+test_C_negatives (__main__.VariantTests.test_C_negatives) ... ok
+test_C_rejected_orders (__main__.VariantTests.test_C_rejected_orders) ... ok
+test_C_witness_paths (__main__.VariantTests.test_C_witness_paths) ... ok
+
+======================================================================
+FAIL: test_A_P04L_center (__main__.LayerTests.test_A_P04L_center)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 170, in center
+    self.assertEqual(studies[0]['mode'],'NO_HOLE');self.assertEqual(studies[0]['removed_area_mm2'],0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -2.546585164964199e-11 != 0
+
+======================================================================
+FAIL: test_A_P04L_dxf (__main__.LayerTests.test_A_P04L_dxf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 140, in dxf
+    self.assertTrue(any(e.dxftype()=='TEXT' and '190.000 mm' in e.dxf.text for e in doc.modelspace()))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_A_P04L_planar (__main__.LayerTests.test_A_P04L_planar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 104, in planar
+    self.assertLess(poly.symmetric_difference(model).area,1e-4)
+AssertionError: 0.00019842245868028935 not less than 0.0001
+
+======================================================================
+FAIL: test_A_P04L_png (__main__.LayerTests.test_A_P04L_png)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 160, in png
+    pix=np.asarray(im.convert('RGB'));self.assertGreater(np.count_nonzero(pix.min(axis=2)<100),1000)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.int64(405) not greater than 1000
+
+======================================================================
+FAIL: test_A_P04U_center (__main__.LayerTests.test_A_P04U_center)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 170, in center
+    self.assertEqual(studies[0]['mode'],'NO_HOLE');self.assertEqual(studies[0]['removed_area_mm2'],0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -3.2741809263825417e-11 != 0
+
+======================================================================
+FAIL: test_A_P04U_dxf (__main__.LayerTests.test_A_P04U_dxf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 140, in dxf
+    self.assertTrue(any(e.dxftype()=='TEXT' and '190.000 mm' in e.dxf.text for e in doc.modelspace()))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_A_P04U_planar (__main__.LayerTests.test_A_P04U_planar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 104, in planar
+    self.assertLess(poly.symmetric_difference(model).area,1e-4)
+AssertionError: 0.00019669189293560575 not less than 0.0001
+
+======================================================================
+FAIL: test_A_P04U_png (__main__.LayerTests.test_A_P04U_png)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 160, in png
+    pix=np.asarray(im.convert('RGB'));self.assertGreater(np.count_nonzero(pix.min(axis=2)<100),1000)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.int64(403) not greater than 1000
+
+======================================================================
+FAIL: test_B_P04L_center (__main__.LayerTests.test_B_P04L_center)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 170, in center
+    self.assertEqual(studies[0]['mode'],'NO_HOLE');self.assertEqual(studies[0]['removed_area_mm2'],0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3.637978807091713e-12 != 0
+
+======================================================================
+FAIL: test_B_P04L_planar (__main__.LayerTests.test_B_P04L_planar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 104, in planar
+    self.assertLess(poly.symmetric_difference(model).area,1e-4)
+AssertionError: 0.0001968898465662017 not less than 0.0001
+
+======================================================================
+FAIL: test_B_P04L_png (__main__.LayerTests.test_B_P04L_png)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 160, in png
+    pix=np.asarray(im.convert('RGB'));self.assertGreater(np.count_nonzero(pix.min(axis=2)<100),1000)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.int64(425) not greater than 1000
+
+======================================================================
+FAIL: test_B_P04U_center (__main__.LayerTests.test_B_P04U_center)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 170, in center
+    self.assertEqual(studies[0]['mode'],'NO_HOLE');self.assertEqual(studies[0]['removed_area_mm2'],0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3.637978807091713e-12 != 0
+
+======================================================================
+FAIL: test_B_P04U_planar (__main__.LayerTests.test_B_P04U_planar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 104, in planar
+    self.assertLess(poly.symmetric_difference(model).area,1e-4)
+AssertionError: 0.00019109211035630528 not less than 0.0001
+
+======================================================================
+FAIL: test_B_P04U_png (__main__.LayerTests.test_B_P04U_png)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 160, in png
+    pix=np.asarray(im.convert('RGB'));self.assertGreater(np.count_nonzero(pix.min(axis=2)<100),1000)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.int64(424) not greater than 1000
+
+======================================================================
+FAIL: test_C_P04L_center (__main__.LayerTests.test_C_P04L_center)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 170, in center
+    self.assertEqual(studies[0]['mode'],'NO_HOLE');self.assertEqual(studies[0]['removed_area_mm2'],0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -1.8189894035458565e-11 != 0
+
+======================================================================
+FAIL: test_C_P04L_dxf (__main__.LayerTests.test_C_P04L_dxf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 140, in dxf
+    self.assertTrue(any(e.dxftype()=='TEXT' and '190.000 mm' in e.dxf.text for e in doc.modelspace()))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_C_P04L_planar (__main__.LayerTests.test_C_P04L_planar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 104, in planar
+    self.assertLess(poly.symmetric_difference(model).area,1e-4)
+AssertionError: 0.00019765615280103958 not less than 0.0001
+
+======================================================================
+FAIL: test_C_P04L_png (__main__.LayerTests.test_C_P04L_png)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 160, in png
+    pix=np.asarray(im.convert('RGB'));self.assertGreater(np.count_nonzero(pix.min(axis=2)<100),1000)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.int64(409) not greater than 1000
+
+======================================================================
+FAIL: test_C_P04U_center (__main__.LayerTests.test_C_P04U_center)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 170, in center
+    self.assertEqual(studies[0]['mode'],'NO_HOLE');self.assertEqual(studies[0]['removed_area_mm2'],0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -2.546585164964199e-11 != 0
+
+======================================================================
+FAIL: test_C_P04U_dxf (__main__.LayerTests.test_C_P04U_dxf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 140, in dxf
+    self.assertTrue(any(e.dxftype()=='TEXT' and '190.000 mm' in e.dxf.text for e in doc.modelspace()))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_C_P04U_planar (__main__.LayerTests.test_C_P04U_planar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 104, in planar
+    self.assertLess(poly.symmetric_difference(model).area,1e-4)
+AssertionError: 0.00020929361290697608 not less than 0.0001
+
+======================================================================
+FAIL: test_C_P04U_png (__main__.LayerTests.test_C_P04U_png)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 252, in <lambda>
+    setattr(LayerTests,f'test_{name}_{layer}_{function.__name__}',lambda self,n=name,l=layer,f=function:f(self,n,l))
+                                                                                                        ^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P04/tests/test_disks.py", line 160, in png
+    pix=np.asarray(im.convert('RGB'));self.assertGreater(np.count_nonzero(pix.min(axis=2)<100),1000)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.int64(410) not greater than 1000
+
+----------------------------------------------------------------------
+Ran 71 tests in 12.442s
+
+FAILED (failures=22)

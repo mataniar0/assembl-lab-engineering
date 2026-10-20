@@ -1,4 +1,4 @@
-# CTB-01 status — CTB-003 design review
+# CTB-01 status — CTB-004 anchor-disk study
 
 **BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
 **CTB-001 / P01: SOFT_CURVE SELECTED_FOR_DOWNSTREAM_COMPONENT_DESIGN — DESIGN_ONLY.**
@@ -101,9 +101,32 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 
 Engineering lead selected SOFT_CURVE; CTB-002 now proposes coordinated candidate P01
 mortises and four spacers. Lead review selected B joinery as a CAD working concept and provisional Z200.
-CTB003 now proposes A Y-first coupling and candidate Y holes; lead review of those is pending.
+CTB003 lead selection approved A_COMPACT_CLOSED and Y_FIRST for downstream DESIGN_ONLY studies, per parts/P03/CTB-003-SELECTION.md. CTB004 now proposes three anchor-disk concepts; lead selection is pending.
 CTB006 ring agreement and B adhesive/outward retention remain unproven. Original P01/P02 and frozen system parameters remain unchanged.
 See `parts/P01/P01-SELECTION.md` and CTB002 reports.
 Y reach, ring/spacer coordination, fit, locking, assembly, stability and all B01–B13
 records remain open. Complete G1 joinery, integration and production are not approved.
 Production remains blocked through independent assembly QA and physical tests.
+
+## CTB-004 — THREE_CANDIDATES_PENDING_LEAD_SELECTION / DESIGN_ONLY
+
+Issue #9, existing branch `codex/ctb-004-anchor-disks`: A_RIM_OPEN, B_CLOSED_RAIL and
+C_MIXED_ACCESS. Two distinct Ø190×6 disks, L456..462/U480..486, freegap18, pitch24,
+tabletop envelope50mm preserved. Six real tongue holes and six separate web interfaces
+per disk; matching connected38mm web witnesses reserved for CTB-005, not final P05 CAD.
+Actual19-body selected base +two disks =21 real bodies; skins/rim/web/tool studies excluded.
+A with NO_HOLE is recommended only, not selected. C upperØ24 is provisional comparison.
+
+Final primary and independently rerun suites:71 new P04 +204 upstream =275 uniquePASS.
+Independent OpenCASCADE review reconstructs exports; source/output174 protected files
+unchanged. Each variant210 actual final pairs,60 continuous skin/disks checks and conditional
+web-route168 checks pass nominally. Tested reverse/late installation routes block explicitly.
+See reports/CTB-004-DESIGN-REVIEW.md, INTERFACE-MATRIX, VALIDATION and INDEPENDENT-QA,
+plus parts/P04/CTB-005-HANDOFF.md and assembly/proofs.json. Initial22 failed cases and
+export/illustration repairs are retained; no final unexplained nominal CAD failure.
+
+B01 positive lock, B02 complete order, B06 finalweb/structural attachment, B10 material/kerf,
+B11 load/stability and B13 center decision remain OPEN, along with all other original records.
+Only2mm tongue projection above U; no positive lock is designed. No complete tabletop,
+physical fitting, nesting, cutting, strength or manufacturing release. PR for review only;
+no self-merge.

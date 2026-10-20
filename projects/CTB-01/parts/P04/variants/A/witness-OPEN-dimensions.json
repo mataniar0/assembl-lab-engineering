@@ -1,0 +1,66 @@
+{
+  "label": "witness-OPEN",
+  "plane": "r,z",
+  "release": "DESIGN_ONLY",
+  "paths_mm": [
+    [
+      [
+        81.0,
+        494.0
+      ],
+      [
+        81.0,
+        486.2
+      ],
+      [
+        83.0,
+        486.2
+      ],
+      [
+        83.0,
+        479.8
+      ],
+      [
+        81.0,
+        479.8
+      ],
+      [
+        81.0,
+        456.0
+      ],
+      [
+        169.0,
+        456.0
+      ],
+      [
+        169.0,
+        494.0
+      ]
+    ]
+  ],
+  "roles": [
+    "CUT_OUTER"
+  ],
+  "sha256": "962f4ea36b2d664b6656f445be3a55b8f38536aa9efcf627f8e8a7248dbe8113",
+  "bounds_mm": [
+    81.0,
+    456.0,
+    169.0,
+    494.0
+  ],
+  "area_mm2": 3331.2,
+  "physical_artboard_wh_mm": [
+    128.0,
+    78.0
+  ],
+  "raster_dpi": 96,
+  "nominal_thickness_mm": 6,
+  "sheet_hw_mm": [
+    800,
+    440
+  ],
+  "provisional_sheet_margin_mm": 10,
+  "annotation": "INTERFACE_WITNESS_NOT_P05_RELEASE; nominal38 high; t thickness6",
+  "role": "INTERFACE_WITNESS_NOT_P05_RELEASE",
+  "quantity": 6
+}

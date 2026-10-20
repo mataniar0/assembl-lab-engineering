@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.0mm" height="78.0mm" viewBox="61.0 -514.0 128.0 78.0">
+<title>witness-RAIL DESIGN_ONLY r,z; INTERFACE_WITNESS_NOT_P05_RELEASE; nominal38 high; t thickness6</title><metadata>DESIGN_ONLY; sha256=5e4c4c060ca98470661b75db115826683f867c51ed999d215c559c88fdb74867; plane=r,z; no kerf compensation</metadata>
+<g id="CUT" transform="scale(1,-1)" fill="none" stroke="black" stroke-width="0.2"><g id="CUT_OUTER-0" data-layer="CUT_OUTER"><polygon points="95.4,472.0 88.0,472.0 88.0,494.0 82.0,494.0 82.0,472.0 81.0,472.0 81.0,466.0 82.0,466.0 82.0,456.0 88.0,456.0 88.0,466.0 95.4,466.0 95.4,456.0 169.0,456.0 169.0,494.0 95.4,494.0"/></g></g>
+<g id="NOT_CUT_DIMENSIONS" fill="#334155" font-size="2.3">
+<text x="81.0" y="-504.0">witness-RAIL DESIGN_ONLY / r,z</text>
+<text x="81.0" y="-500.0" font-size="1.7">INTERFACE_WITNESS_NOT_P05_RELEASE; nominal38 high; t thickness6</text>
+<path d="M81.0,-450.0 H169.0 M81.0,-452.0 v4 M169.0,-452.0 v4" fill="none" stroke="#334155" stroke-width="0.15"/>
+<text x="109.0" y="-445.0">88.000 mm envelope</text></g></svg>
