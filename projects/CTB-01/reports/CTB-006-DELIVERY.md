@@ -2,7 +2,7 @@
 
 **Issue:** [15](https://github.com/mataniar0/assembl-lab-engineering/issues/15)
 **Branch:** `codex/ctb-006-ring`; baseline `c27f722e16668e4ed32cee1c72f5a699b40e504e`.
-**PR:** PENDING_SUBMISSION.
+**PR:** [#22](https://github.com/mataniar0/assembl-lab-engineering/pull/22), open for review; not merged.
 **Stage:** G1/G2a bounded study, DESIGN_ONLY / AWAITING_LEAD_SELECTION / CR_REQUIRED.
 Implementation: Codex `/root`. Independent reviewer: separate `/root/ctb006_qa`.
 QA score/result: **96/100, zero in-scope critical/major defects**; see [independent report](CTB-006-INDEPENDENT-QA.md).

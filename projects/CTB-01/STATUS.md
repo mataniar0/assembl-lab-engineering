@@ -177,7 +177,8 @@ Whole-product G2b, physical G3 and production G4 remain unapproved. No physical 
 
 ## CTB-006 — THREE_CANDIDATES / AWAITING_LEAD_SELECTION / DESIGN_ONLY
 
-Issue #15, branch `codex/ctb-006-ring`, basec27f722 after P05A selection. All336 protected
+Issue #15, review PR [#22](https://github.com/mataniar0/assembl-lab-engineering/pull/22),
+branch `codex/ctb-006-ring`, basec27f722 after P05A selection. All336 protected
 CTB-000/P01–P05 files are byte-identical. Three provisional6mm P06 ring/interface studies
 atZ245/slab242..248: A triangular1piece (28actual bodies), B3 matched T-splice segments
 +6 radial stops (36), C circular1+6 vertical keepers (34). All4 spacers/leg retained at
