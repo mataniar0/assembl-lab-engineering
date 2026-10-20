@@ -1,4 +1,4 @@
-# CTB-01 status — CTB-005 radial-web study
+# CTB-01 status — CTB-005 reviewed radial-web working concept
 
 **BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
 **CTB-001 / P01: SOFT_CURVE SELECTED_FOR_DOWNSTREAM_COMPONENT_DESIGN — DESIGN_ONLY.**
@@ -153,9 +153,9 @@ PR #12 was merged by the lead; `parts/P04/CTB-004-SELECTION.md` selects A_RIM_OP
 for downstream coordinated design only. Earlier pending/unmerged captions are historical.
 No actual P05/P07/P08, physical fitting, structural approval or cutting was implied.
 
-## CTB-005 — DESIGN_ONLY / AWAITING_LEAD_SELECTION
+## CTB-005 — A_RELIEVED_BOND SELECTED_FOR_DOWNSTREAM_COORDINATED_DESIGN / DESIGN_ONLY
 
-Issue #13, PR #14 open for review (unmerged), branch `codex/ctb-005-radial-webs`, source6292a0e. Three real six-identical-rib
+Issue #13 / PR #14 reviewed for DESIGN_ONLY; source baseline6292a0e. Three real six-identical-rib
 concepts: A_RELIEVED_BOND, B_DOUBLE_RAIL and C_LOWER_CAPTURE_STEP. All259 CTB-000/P01–P04
 source/output files remain unchanged. Exactly P05×6 adds to the selected21 to make27 real
 bodies; skin/wall/tool/lock studies remain non-BOM reservations. Ø350/H500/top50, rib38 and
@@ -163,10 +163,10 @@ free disk-face gap18 are preserved. Single-part H800×W440 fit is checked, not n
 
 A/C fit original P04 and have radial insertion paths, but outward withdrawal is free.
 B is BLOCKED against original U at28.8 mm³ per rib. Separate CR B substitutes two v2 disks;
-CR C substitutes only lower, keeping original U. Both proposal models pass fit and staged
+CR C substitutes only lower, keeping original U. Both CRs remain unapproved and only their proposal models pass fit and staged
 paths and obstruct specified translations with disks fixed. This is not 6DOF or strength
-proof; both CRs are NOT_APPROVED. A is recommended with radial restraint OPEN; lead
-selection remains pending.
+proof; both CRs are NOT_APPROVED. Engineering lead selected **A_RELIEVED_BOND** for bounded downstream CAD only;
+see `parts/P05/CTB-005-SELECTION.md`. Radial restraint remains OPEN.
 
 Clean reproduction passes337 unique checks (62 new +275 prior), with independent reruns
 and alternate OpenCASCADE audit. All initial concept/reviewer failures and corrections are
