@@ -1,0 +1,982 @@
+{
+  "status": "PASS_CAD_LOCAL_BASE_PATH",
+  "steps": [
+    {
+      "moving": "L1_P01_1",
+      "angle_deg": 0,
+      "local_start_offset_mm": [
+        0,
+        -40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L1_S1",
+      "angle_deg": 0,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L1_S2",
+      "angle_deg": 0,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L1_S3",
+      "angle_deg": 0,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L1_S4",
+      "angle_deg": 0,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L1_P01_2",
+      "angle_deg": 0,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L2_P01_1",
+      "angle_deg": 120,
+      "local_start_offset_mm": [
+        0,
+        -40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L2_S1",
+      "angle_deg": 120,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L2_S2",
+      "angle_deg": 120,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L2_S3",
+      "angle_deg": 120,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L2_S4",
+      "angle_deg": 120,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L2_P01_2",
+      "angle_deg": 120,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L3_P01_1",
+      "angle_deg": 240,
+      "local_start_offset_mm": [
+        0,
+        -40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_2",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L3_S1",
+      "angle_deg": 240,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_P01_1",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L3_S2",
+      "angle_deg": 240,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S1",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L3_S3",
+      "angle_deg": 240,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S2",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L3_S4",
+      "angle_deg": 240,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S3",
+          "volume_mm3": 0
+        }
+      ]
+    },
+    {
+      "moving": "L3_P01_2",
+      "angle_deg": 240,
+      "local_start_offset_mm": [
+        0,
+        40,
+        0
+      ],
+      "local_end_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "continuous_intersections": [
+        {
+          "fixed": "P03",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L1_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_S4",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L2_P01_2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_P01_1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S1",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S2",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S3",
+          "volume_mm3": 0
+        },
+        {
+          "fixed": "L3_S4",
+          "volume_mm3": 0
+        }
+      ]
+    }
+  ],
+  "moving_stages": 18,
+  "checks": 171,
+  "maximum_intersection_mm3": 0,
+  "epsilon_mm3": 1e-06,
+  "initial_state": "P03 at410 in fixture; no tabletop/discs/ring; spacers and cheeks externally supported"
+}

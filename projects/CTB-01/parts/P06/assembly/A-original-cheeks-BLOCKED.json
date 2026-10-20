@@ -1,0 +1,1896 @@
+{
+  "final_intersections": [
+    {
+      "a": "L1_P01_1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_P01_2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_P01_2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S1",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S1",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S2",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S2",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S3",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S3",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S3",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S3",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S3",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S4",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S4",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S4",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S4",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S4",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L1_S4",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_1",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_P01_2",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S1",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S2",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S3",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L2_S4",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_1",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_P01_2",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S1",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L3_P01_1",
+      "intersection_mm3": 1.354472090042691e-14
+    },
+    {
+      "a": "L3_S2",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S2",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S3",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L3_P01_1",
+      "intersection_mm3": 2.1316282072803006e-14
+    },
+    {
+      "a": "L3_S4",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "L3_S4",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04L",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P04U",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_1",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_2",
+      "b": "P05_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "P05_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_3",
+      "b": "P05_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "P05_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "P05_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_4",
+      "b": "P05_3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P05_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P05_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P05_3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_5",
+      "b": "P05_4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L1_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L1_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L2_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L2_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L3_P01_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L3_P01_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P05_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P05_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P05_3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P05_4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P05_6",
+      "b": "P05_5",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P03",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L1_P01_1",
+      "intersection_mm3": 431.34108386184016
+    },
+    {
+      "a": "P06A",
+      "b": "L1_P01_2",
+      "intersection_mm3": 431.34108386184016
+    },
+    {
+      "a": "P06A",
+      "b": "L1_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L1_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L1_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L1_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L2_P01_1",
+      "intersection_mm3": 431.34108388838655
+    },
+    {
+      "a": "P06A",
+      "b": "L2_P01_2",
+      "intersection_mm3": 431.3410838177084
+    },
+    {
+      "a": "P06A",
+      "b": "L2_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L2_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L2_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L2_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L3_P01_1",
+      "intersection_mm3": 431.3410838177075
+    },
+    {
+      "a": "P06A",
+      "b": "L3_P01_2",
+      "intersection_mm3": 431.3410838883868
+    },
+    {
+      "a": "P06A",
+      "b": "L3_S1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L3_S2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L3_S3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "L3_S4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P04L",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P04U",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P05_1",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P05_2",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P05_3",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P05_4",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P05_5",
+      "intersection_mm3": 0
+    },
+    {
+      "a": "P06A",
+      "b": "P05_6",
+      "intersection_mm3": 0
+    }
+  ],
+  "status": "BLOCKED",
+  "actual_bodies": 28
+}

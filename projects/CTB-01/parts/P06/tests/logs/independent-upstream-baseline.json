@@ -1,0 +1,220 @@
+{
+  "scope": "Risk-based CTB006: actual exported geometry, focused integration; broad337 previous cases deliberately NOT_RUN",
+  "method": "Independent OpenCASCADE with exact boundary-prism translational sweeps; no implementation imports",
+  "upstream_27_static": {
+    "pairs": 351,
+    "maximum_overlap_mm3": 0.0
+  },
+  "upstream_Y_FIRST": {
+    "stages": [
+      {
+        "moving": "L1_P01_1",
+        "checks": 1,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S1",
+        "checks": 2,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S2",
+        "checks": 3,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S3",
+        "checks": 4,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_S4",
+        "checks": 5,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L1_P01_2",
+        "checks": 6,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_P01_1",
+        "checks": 7,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S1",
+        "checks": 8,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S2",
+        "checks": 9,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S3",
+        "checks": 10,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_S4",
+        "checks": 11,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L2_P01_2",
+        "checks": 12,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_P01_1",
+        "checks": 13,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S1",
+        "checks": 14,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S2",
+        "checks": 15,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S3",
+        "checks": 16,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_S4",
+        "checks": 17,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      {
+        "moving": "L3_P01_2",
+        "checks": 18,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      }
+    ],
+    "checks": 171,
+    "maximum_overlap_mm3": 0.0
+  },
+  "physical_reference": {
+    "P01_sections_r_mm": {
+      "225": [
+        95.33432616129032,
+        149.05465954838712
+      ],
+      "230": [
+        92.67008796774194,
+        146.4581469032258
+      ],
+      "235": [
+        90.0574710967742,
+        143.9142987096774
+      ],
+      "240": [
+        87.49969993548386,
+        141.4269664516129
+      ],
+      "245": [
+        85.0,
+        139.0
+      ],
+      "250": [
+        82.45889308695652,
+        136.5321205652174
+      ],
+      "255": [
+        79.81121291304349,
+        133.95610047826088
+      ],
+      "260": [
+        77.06454095652174,
+        131.28197730434783
+      ],
+      "265": [
+        74.24021260869564,
+        128.52951869565217
+      ],
+      "242": [
+        86.49876067096774,
+        140.4550781935484
+      ],
+      "248": [
+        83.49018796521739,
+        137.53432542608695
+      ]
+    },
+    "current_spacer_stations": [
+      35,
+      90,
+      200,
+      390
+    ],
+    "ring_to_S3_vertical_face_gap_mm": 39,
+    "foot_r_mm": [
+      222.0,
+      258.0
+    ],
+    "ground_contact_each_cheek_mm2": 216.0,
+    "support_hull_xy_mm": [
+      [
+        -117.30865704891019,
+        -230.1845541763851
+      ],
+      [
+        -140.69134295109004,
+        -216.6845541763851
+      ],
+      [
+        -140.69134295108987,
+        216.68455417638518
+      ],
+      [
+        -117.30865704891002,
+        230.18455417638518
+      ],
+      [
+        258.0,
+        13.5
+      ],
+      [
+        258.0,
+        -13.5
+      ],
+      [
+        -117.30865704891019,
+        -230.1845541763851
+      ]
+    ],
+    "support_min_center_edge_distance_mm": 140.6913429510899,
+    "module_center_triangle_inradius_mm": 120,
+    "no_stability_or_load_claim": true
+  },
+  "protected": {
+    "baseline": "c27f722e16668e4ed32cee1c72f5a699b40e504e",
+    "files_byte_equal": 336
+  },
+  "variants": {}
+}

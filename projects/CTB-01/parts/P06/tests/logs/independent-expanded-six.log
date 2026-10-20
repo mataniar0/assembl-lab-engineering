@@ -1,0 +1,11 @@
+test_A_bom_glb (test_ring.VariantTests.test_A_bom_glb) ... ok
+test_A_negatives (test_ring.VariantTests.test_A_negatives) ... ok
+test_B_bom_glb (test_ring.VariantTests.test_B_bom_glb) ... ok
+test_B_negatives (test_ring.VariantTests.test_B_negatives) ... ok
+test_C_bom_glb (test_ring.VariantTests.test_C_bom_glb) ... ok
+test_C_negatives (test_ring.VariantTests.test_C_negatives) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 7.351s
+
+OK

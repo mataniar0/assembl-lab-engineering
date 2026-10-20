@@ -1,0 +1,22 @@
+test_IF01_all_four_spacers_and_mortises_unchanged (__main__.FocusedIntegration.test_IF01_all_four_spacers_and_mortises_unchanged) ... ok
+test_IF02_y_profile_and_current_mortises_consumed (__main__.FocusedIntegration.test_IF02_y_profile_and_current_mortises_consumed) ... ok
+test_IF09_proposed_cuts_preserve_original_only_in_P06 (__main__.FocusedIntegration.test_IF09_proposed_cuts_preserve_original_only_in_P06) ... ok
+test_IF14_actual_contact_hull_and_original_feet_preserved (__main__.FocusedIntegration.test_IF14_actual_contact_hull_and_original_feet_preserved) ... FAIL
+test_bounded_upper_interfaces_top_budget_and_authorities (__main__.FocusedIntegration.test_bounded_upper_interfaces_top_budget_and_authorities) ... ok
+test_protected_336_files_byte_equal_to_base (__main__.FocusedIntegration.test_protected_336_files_byte_equal_to_base) ... ok
+test_selected_27_body_consumption_matches_reviewed_glb (__main__.FocusedIntegration.test_selected_27_body_consumption_matches_reviewed_glb) ... ok
+test_selected_y_first_18_stages_171_exact_sweeps (__main__.FocusedIntegration.test_selected_y_first_18_stages_171_exact_sweeps) ... ok
+
+======================================================================
+FAIL: test_IF14_actual_contact_hull_and_original_feet_preserved (__main__.FocusedIntegration.test_IF14_actual_contact_hull_and_original_feet_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P06/tests/test_integration.py", line 47, in test_IF14_actual_contact_hull_and_original_feet_preserved
+    s=support(D3,U);self.assertEqual(s['foot_r_interval_mm'],[222,258]);self.assertEqual(s['total_area_mm2'],1296)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1295.9999999999998 != 1296
+
+----------------------------------------------------------------------
+Ran 8 tests in 7.856s
+
+FAILED (failures=1)

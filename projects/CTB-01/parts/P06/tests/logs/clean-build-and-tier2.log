@@ -1,0 +1,100 @@
+A bodies 28 final 2.1316282072803006e-14 early PASS_CAD_SPECIFIED_PATH late BLOCKED
+B bodies 36 final 3.502690307459723e-08 early PASS_CAD_SPECIFIED_PATH late PASS_CAD_SPECIFIED_PATH
+C bodies 34 final 2.1316282072803006e-14 early PASS_CAD_SPECIFIED_PATH late BLOCKED
+test_IF01_all_four_spacers_and_mortises_unchanged (test_integration.FocusedIntegration.test_IF01_all_four_spacers_and_mortises_unchanged) ... ok
+test_IF02_y_profile_and_current_mortises_consumed (test_integration.FocusedIntegration.test_IF02_y_profile_and_current_mortises_consumed) ... ok
+test_IF09_proposed_cuts_preserve_original_only_in_P06 (test_integration.FocusedIntegration.test_IF09_proposed_cuts_preserve_original_only_in_P06) ... ok
+test_IF14_actual_contact_hull_and_original_feet_preserved (test_integration.FocusedIntegration.test_IF14_actual_contact_hull_and_original_feet_preserved) ... ok
+test_bounded_upper_interfaces_top_budget_and_authorities (test_integration.FocusedIntegration.test_bounded_upper_interfaces_top_budget_and_authorities) ... ok
+test_protected_336_files_byte_equal_to_base (test_integration.FocusedIntegration.test_protected_336_files_byte_equal_to_base) ... ok
+test_selected_27_body_consumption_matches_reviewed_glb (test_integration.FocusedIntegration.test_selected_27_body_consumption_matches_reviewed_glb) ... ok
+test_selected_y_first_18_stages_171_exact_sweeps (test_integration.FocusedIntegration.test_selected_y_first_18_stages_171_exact_sweeps) ... ok
+test_b_splice_three_real_finite_connected_pieces (test_ring.GlobalTests.test_b_splice_three_real_finite_connected_pieces) ... ok
+test_c_filleted_key_repair_retains_gap_and_outer_land (test_ring.GlobalTests.test_c_filleted_key_repair_retains_gap_and_outer_land) ... ok
+test_c_missing_keeper_detected_as_free_outward_cheek_motion (test_ring.GlobalTests.test_c_missing_keeper_detected_as_free_outward_cheek_motion) ... ok
+test_no_variant_claims_complete_retention (test_ring.GlobalTests.test_no_variant_claims_complete_retention) ... ok
+test_schema_blocks_wrong_material_dimensions_measurements_neck_and_rotation (test_ring.GlobalTests.test_schema_blocks_wrong_material_dimensions_measurements_neck_and_rotation) ... ok
+test_sections_derive_joint_from_actual_jointed_cheek (test_ring.GlobalTests.test_sections_derive_joint_from_actual_jointed_cheek) ... ok
+test_A_all_six (test_ring.VariantTests.test_A_all_six) ... ok
+test_A_bom_glb (test_ring.VariantTests.test_A_bom_glb) ... ok
+test_A_contours (test_ring.VariantTests.test_A_contours) ... ok
+test_A_exports (test_ring.VariantTests.test_A_exports) ... ok
+test_A_missing_tab (test_ring.VariantTests.test_A_missing_tab) ... ok
+test_A_motions (test_ring.VariantTests.test_A_motions) ... ok
+test_A_negatives (test_ring.VariantTests.test_A_negatives) ... ok
+test_A_nominal (test_ring.VariantTests.test_A_nominal) ... ok
+test_A_overlays (test_ring.VariantTests.test_A_overlays) ... ok
+test_A_physical_scale (test_ring.VariantTests.test_A_physical_scale) ... ok
+test_A_stock_and_necks (test_ring.VariantTests.test_A_stock_and_necks) ... ok
+test_A_vertical (test_ring.VariantTests.test_A_vertical) ... ok
+test_B_all_six (test_ring.VariantTests.test_B_all_six) ... ok
+test_B_bom_glb (test_ring.VariantTests.test_B_bom_glb) ... ok
+test_B_contours (test_ring.VariantTests.test_B_contours) ... ok
+test_B_exports (test_ring.VariantTests.test_B_exports) ... ok
+test_B_missing_tab (test_ring.VariantTests.test_B_missing_tab) ... ok
+test_B_motions (test_ring.VariantTests.test_B_motions) ... ok
+test_B_negatives (test_ring.VariantTests.test_B_negatives) ... ok
+test_B_nominal (test_ring.VariantTests.test_B_nominal) ... ok
+test_B_overlays (test_ring.VariantTests.test_B_overlays) ... ok
+test_B_physical_scale (test_ring.VariantTests.test_B_physical_scale) ... ok
+test_B_stock_and_necks (test_ring.VariantTests.test_B_stock_and_necks) ... ok
+test_B_vertical (test_ring.VariantTests.test_B_vertical) ... ok
+test_C_all_six (test_ring.VariantTests.test_C_all_six) ... ok
+test_C_bom_glb (test_ring.VariantTests.test_C_bom_glb) ... ok
+test_C_contours (test_ring.VariantTests.test_C_contours) ... ok
+test_C_exports (test_ring.VariantTests.test_C_exports) ... ok
+test_C_missing_tab (test_ring.VariantTests.test_C_missing_tab) ... ok
+test_C_motions (test_ring.VariantTests.test_C_motions) ... ok
+test_C_negatives (test_ring.VariantTests.test_C_negatives) ... ok
+test_C_nominal (test_ring.VariantTests.test_C_nominal) ... ok
+test_C_overlays (test_ring.VariantTests.test_C_overlays) ... ok
+test_C_physical_scale (test_ring.VariantTests.test_C_physical_scale) ... ok
+test_C_stock_and_necks (test_ring.VariantTests.test_C_stock_and_necks) ... ok
+test_C_vertical (test_ring.VariantTests.test_C_vertical) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 36.816s
+
+OK
+PASS overall_height_sum
+PASS stack_intervals
+PASS core_height_38
+PASS parallel_leg_thickness
+PASS cheek_offsets_and_gap
+PASS three_legs_120
+PASS six_identical_cheeks
+PASS twelve_spacers
+PASS skin_diameter_342
+PASS rim_perimeter_computed
+PASS rim_requires_segmentation
+PASS sheet_dimensions_portrait
+PASS sheet_array_height_first
+PASS rim_segment_count_for_800
+PASS anchor_z_contained
+PASS tongue_upper_clearance
+PASS Y_outside_tabletop
+PASS interface_ids_unique
+PASS interface_ids_complete
+PASS no_production_claim
+PASS legacy_V_not_current
+PASS part_ids_unique
+PASS part_counts_six_cheeks
+PASS part_counts_twelve_spacers
+PASS provisional_Y_overhang_flag
+Summary: 25 / 25 data checks passed
+PASS manifest_inventory_15
+PASS source_bytes_unchanged
+PASS parameter_schema
+PASS baseline_versions
+PASS interface_inventory_14
+PASS open_issue_inventory_13
+PASS critical_blockers_retained
+PASS interface_party_references
+PASS all_parts_referenced
+PASS no_interface_approval_upgrade
+PASS portrait_sheet
+PASS no_active_900_numeric_setting
+PASS svg_parseable
+PASS png_signature
+PASS no_legacy_cad_import
+Summary: 15 / 15 import checks passed

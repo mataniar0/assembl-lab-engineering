@@ -174,3 +174,38 @@ retained in CTB-005 validation. See reports/CTB-005-* and parts/P05/CTB-007-008-
 Positive upper locking/disk Z restraint, structural bonds, C's small stop, complete order,
 real stock/kerf, glue/fixtures and load/stability remain open (B01/B02/B06/B10/B11).
 Whole-product G2b, physical G3 and production G4 remain unapproved. No physical cutting.
+
+## CTB-006 — C SELECTED_FOR_FURTHER_STUDY / CR_REQUIRED / DESIGN_ONLY
+
+Issue #15, review PR [#22](https://github.com/mataniar0/assembl-lab-engineering/pull/22),
+branch `codex/ctb-006-ring`, basec27f722 after P05A selection. All336 protected
+CTB-000/P01–P05 files are byte-identical. Three provisional6mm P06 ring/interface studies
+atZ245/slab242..248: A triangular1piece (28actual bodies), B3 matched T-splice segments
++6 radial stops (36), C circular1+6 vertical keepers (34). All4 spacers/leg retained at
+35/90/200/390. Ring slab gap to S3=39mm; complete-family minima A39/B35.8/C32.
+Actual Y407..413 and unchanged top50 remain clear. Single-part portrait H800×W440 fit
+with10mm margin passes, NOT approved production nesting.
+
+All alternatives need P06-local `P01-ring-interface-study-v1` CRs; originals BLOCK.
+Conditional A/C ring-before-Y_FIRST and B two-phase after-closed27 routes pass exact sweeps.
+A/C tested late vertical/radial routes BLOCK. Engineering lead selected C for further **bounded design study** only,
+per `parts/P06/CTB-006-LEAD-DECISION.md`; C's P01 change request remains
+**NOT_APPROVED**. Keys-fixed transverse restraint exists, but keys lift out freely and
+actual7.8mm²/key bearing seat is unverified. A/B outward cheek movement and B plug ejection
+are free. No fully self-retained mechanically locked ring is claimed. B05/IF-09 OPEN/CR_REQUIRED.
+Temporary fixture/handling, structural cheek material loss, whole-product order and all
+physical measures remain OPEN. P05A outward-retention is not solved by P06.
+
+Risk-based checks:42 new P06+8 focused IF09/01/02/14+25 baseline+15 import =90uniquePASS.
+All-source hash inventory336 checked. Complete prior337-suite NOT_RUN;40 static cases ran,
+297 unaffected P01–P05 component cases deliberately NOT_RUN. Tier3 scheduled CAD workflow
+absent: NIGHTLY_REGRESSION_NOT_CONFIGURED, tracked in separate infrastructure Issue #20.
+Independent reviewer and alternate OpenCASCADE:96/100, zero in-scope critical/major defects;
+see CTB-006-INDEPENDENT-QA.md.
+All initial failures/corrections preserved in CTB-006-VALIDATION.md and P06 tests/logs.
+
+See five `reports/CTB-006-*`, P06 `DECISIONS.md`, `P01-INTERFACE-CHANGE-REQUESTS.md`,
+`CTB-007-008-009-HANDOFF.md`, BOM, variants and actual assembly/section/staged outputs.
+Official B01–B13 and IF-01..IF-14 records remain unchanged. No loads, stock/kerf, adhesive,
+fixture, stress/bending/stability or physical tests: NOT_RUN. FullG2b/G3/G4 and physical
+cutting NOT_APPROVED. Lead review complete for bounded study; no production or full ring interface approval.
