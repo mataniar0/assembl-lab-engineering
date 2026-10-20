@@ -1,0 +1,41 @@
+name: Engineering playbook validation
+
+on:
+  pull_request:
+    paths:
+      - 'engineering-process/**'
+      - '.agents/skills/assembl-lab-product-engineering/**'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/pull_request_template.md'
+      - '.github/workflows/playbook-validation.yml'
+      - 'AGENTS.md'
+      - 'README.md'
+  push:
+    branches: [main]
+    paths:
+      - 'engineering-process/**'
+      - '.agents/skills/assembl-lab-product-engineering/**'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/pull_request_template.md'
+      - '.github/workflows/playbook-validation.yml'
+      - 'AGENTS.md'
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-playbook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate documentation and skill
+        run: python engineering-process/tools/validate_playbook.py
+      - name: Exercise validator negative controls
+        run: python -m unittest discover -s engineering-process/tests -v

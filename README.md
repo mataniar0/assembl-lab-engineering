@@ -25,3 +25,15 @@ CTB-01 nominal nesting sheet: **800 mm height × 440 mm width (portrait)**. X ru
 See the CTB-000 baseline import task in GitHub Issues. The authoritative contract will live under `projects/CTB-01/specifications/CTB-000/` after review.
 
 Codex should work on a dedicated branch, open a pull request, and refrain from automatic merging.
+## Reusable engineering workflow
+
+For each new ASSEMBL LAB product use the [Engineering Playbook (Hebrew)](engineering-process/PLAYBOOK_HE.md), [release gates](engineering-process/GATES.md) and [Codex Skill](.agents/skills/assembl-lab-product-engineering/SKILL.md). Templates for projects, interfaces, individual-component tasks, QA and deliveries are in [engineering-process/TEMPLATES](engineering-process/TEMPLATES/).
+
+Run documentation checks:
+
+```sh
+python engineering-process/tools/validate_playbook.py
+```
+
+The playbook is **project-independent**. CTB-01 dimensions and test statuses are not defaults for new products.
+
