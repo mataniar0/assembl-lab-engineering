@@ -1,0 +1,172 @@
+{
+  "schema_version": "ETG-000-v0.1",
+  "units": {
+    "length": "mm",
+    "angle": "deg",
+    "area": "mm2"
+  },
+  "reference_frame": {
+    "origin": "front-left-bottom outer body",
+    "x": "body length 260 nominal",
+    "y": "body depth 160 nominal toward rear",
+    "z": "up",
+    "sheet_x": "width 0..440",
+    "sheet_y": "height 0..800"
+  },
+  "parameters": [
+    {
+      "id": "BODY_LENGTH",
+      "value": 260,
+      "unit": "mm",
+      "status": "FROZEN",
+      "source": "etrog-box legacy requirements V7.2; body only"
+    },
+    {
+      "id": "BODY_DEPTH",
+      "value": 160,
+      "unit": "mm",
+      "status": "FROZEN",
+      "source": "etrog-box legacy requirements V7.2; body only"
+    },
+    {
+      "id": "BODY_HEIGHT",
+      "value": 150,
+      "unit": "mm",
+      "status": "FROZEN",
+      "source": "etrog-box legacy requirements V7.2; body only"
+    },
+    {
+      "id": "STRUCTURAL_PLY_NOMINAL",
+      "value": 6,
+      "unit": "mm",
+      "status": "FROZEN",
+      "source": "etrog-box user design history"
+    },
+    {
+      "id": "SHEET_HEIGHT",
+      "value": 800,
+      "unit": "mm",
+      "status": "FROZEN",
+      "source": "etrog-box user design history"
+    },
+    {
+      "id": "SHEET_WIDTH",
+      "value": 440,
+      "unit": "mm",
+      "status": "FROZEN",
+      "source": "etrog-box user design history"
+    },
+    {
+      "id": "ACTUAL_PLY_THICKNESS",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "not measured"
+    },
+    {
+      "id": "ACTUAL_KERF",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "not measured"
+    },
+    {
+      "id": "HINGE_REAR_OVERALL_DEPTH",
+      "value": 178.4,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "legacy V7.2 approximate; differs from body depth"
+    },
+    {
+      "id": "HINGE_EAR_OUTER_D",
+      "value": 32,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "V7.2 FCIPH legacy geometry"
+    },
+    {
+      "id": "HINGE_POCKET_D",
+      "value": 32.8,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "V7.2 FCIPH legacy geometry"
+    },
+    {
+      "id": "HINGE_PIN_D",
+      "value": 14,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "V7.2 FCIPH legacy geometry"
+    },
+    {
+      "id": "HINGE_BEARING_D",
+      "value": 14.6,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "V7.2 FCIPH legacy geometry"
+    },
+    {
+      "id": "HINGE_EAR_RADIAL_GAP",
+      "value": 0.4,
+      "unit": "mm",
+      "status": "DERIVED",
+      "formula": "(HINGE_POCKET_D-HINGE_EAR_OUTER_D)/2"
+    },
+    {
+      "id": "HINGE_PIN_RADIAL_GAP",
+      "value": 0.3,
+      "unit": "mm",
+      "status": "DERIVED",
+      "formula": "(HINGE_BEARING_D-HINGE_PIN_D)/2"
+    },
+    {
+      "id": "HINGE_RELIEF_POCKET_DEPTH",
+      "value": 0.4,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "V7.2 shallow pocket NOT through-cut"
+    },
+    {
+      "id": "LID_MOTION_CHECK_MIN",
+      "value": 0,
+      "unit": "deg",
+      "status": "FROZEN",
+      "source": "legacy V7.2 digital motion audit"
+    },
+    {
+      "id": "LID_MOTION_CHECK_MAX",
+      "value": 120,
+      "unit": "deg",
+      "status": "FROZEN",
+      "source": "legacy V7.2 digital motion audit"
+    },
+    {
+      "id": "CORNER_SLICE_TOTAL",
+      "value": 96,
+      "unit": "count",
+      "status": "PROVISIONAL",
+      "source": "legacy V7.2: 64 plain, 30 keyed, 2 rear-top"
+    },
+    {
+      "id": "TRAY_LENGTH",
+      "value": 235,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "early etrog box concept; requires current-model revalidation"
+    },
+    {
+      "id": "TRAY_DEPTH",
+      "value": 135,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "early etrog box concept; requires current-model revalidation"
+    },
+    {
+      "id": "TRAY_WALL_HEIGHT",
+      "value": 40,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "early etrog box concept; requires current-model revalidation"
+    }
+  ]
+}

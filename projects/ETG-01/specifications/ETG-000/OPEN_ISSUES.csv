@@ -1,0 +1,11 @@
+blocker_id,severity,description,owner_task,gate_blocked,closure_evidence
+B01,CRITICAL,Native parametric sources and exported V7.6 DXF may not be available in engineering repo,ETG-000,G1/G2,Find provenance and verify hashes; if unavailable rebuild
+B02,HIGH,"Physical birch thickness, kerf, glue and shallow relief pocket are not measured",ETG-007,G3/G4,Document instrumented calibration coupons and fit tests
+B03,HIGH,Body-only 260x160x150 vs ~178.4 overall rear hinge depth require unified envelope,ETG-000/003,G0/G2b,Source-trace actual full product envelopes
+B04,HIGH,Historical 96 laminated slices and front/back/end geometry not reconciled with V7.6 source,ETG-002,G1/G2,Provenance-tested BOM and model
+B05,HIGH,No confirmed fully continuous hinge pin installation and lid swing path,ETG-003/006,G2a/G2b,Solid model with swept assemblies and accessible insertion path
+B06,MEDIUM,"Optional removable etrog tray not yet checked against current body, hinge and closure",ETG-005,G2b,Parametric tray and clearance/installation evidence
+B07,MEDIUM,"Final lid inscription, decorative cutouts and finish not selected as release configuration",OWNER,G1/G5,Decision log selecting variant
+B08,CRITICAL,"No physical prototype, release approval or tested nesting/laser cut stock",ETG-007/008,G3/G4,"Material/kerf trials, revised nesting and release evidence"
+B09,HIGH,Legacy reports use differing coordinate conventions; bounds may be x=800 y=440,ETG-000/008,G0/G4,Regenerate portrait X<=440 Y<=800 and validate exported contours
+B10,MEDIUM,"Legacy 108 PASS / six corrections from V7.6 are historical report claims, not repeatable G0 independent QA",ETG-000,G0/G1,"Reproduce validator on native source, fresh reports, negative controls"
