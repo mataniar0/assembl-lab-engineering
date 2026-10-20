@@ -46,6 +46,22 @@ Final suites51P03+52P02+61P01+25contract+15import=204 passed; separate automated
 is recorded in CTB-003-INDEPENDENT-QA.md. No human G1/whole-table G2, stock/kerf,
 physical strength/stability or cutting approval. No automatic merge.
 
+## CTB-004 — A_RIM_OPEN / NO_HOLE SELECTED_FOR_COORDINATED_DESIGN — DESIGN_ONLY
+
+Issue #9 / PR #12: three central P04L/P04U disk studies and nominal continuous insertion
+with the selected Y_FIRST 19-part base (21 actual CAD bodies).
+Engineering lead selected `A_RIM_OPEN` with `NO_HOLE` as the P05 design baseline;
+see `parts/P04/CTB-004-SELECTION.md`.
+The disk planes remain P04L Z456..462 and P04U Z480..486; 18mm free face gap.
+Six tongue holes and six distinct web openings exist in each candidate disk.
+A's radial OPEN P05 connection has no verified positive retention; no real P05,
+P07 skins, P08 lock or final ring is in the 21-body model.
+Independent QA reports 275/275 test PASS and 96/100. The primary 22 initial
+test failures and corrections are retained in CTB-004-VALIDATION.md.
+Nominal stiffness, material fit, load, retention, whole-product assembly,
+physical kerf calibration and manufacturing release remain OPEN.
+B13 center opening is resolved provisionally as NO_HOLE for downstream CAD only.
+
 ## Authoritative baseline
 
 All 15 original files are in `specifications/CTB-000/`, byte-for-byte unchanged.
