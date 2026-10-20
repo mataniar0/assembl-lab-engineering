@@ -1,0 +1,131 @@
+{
+  "project_id": "MEB-01",
+  "source_repository": "mataniar0/assembl-lab-site",
+  "source_commit_sha": "ebeefe308efaf80329e16e42a84d51557878fd58",
+  "legacy_version": "V8.2.2",
+  "source_url": "https://github.com/mataniar0/assembl-lab-site/tree/ebeefe308efaf80329e16e42a84d51557878fd58/megillat_esther_box/v8_2_2",
+  "inventoried_at": "2026-10-20",
+  "meaning": "Path, file size and Git blob SHA from pinned source commit; not a new CAD integrity review",
+  "files": [
+    {
+      "path": "megillat_esther_box/v8_2_2/calibration/V8_2_2_RING_PIN_FIT_TEST.dxf",
+      "sha": "f4110d593719057834d7d6e100c02b24c1c8573e",
+      "size_bytes": 116069,
+      "kind": "calibration"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/BODY_RING_6mm.dxf",
+      "sha": "389660264b54ab556eef0ac30afccca67cd93d3e",
+      "size_bytes": 24939,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/BOTTOM_6mm.dxf",
+      "sha": "b56c20ff78f54c9d77899362b05e2f37af9d53be",
+      "size_bytes": 993,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/END_A_6mm.dxf",
+      "sha": "bace1fcb8fbfaf2ef931dc865690d09e9b263fe0",
+      "size_bytes": 618,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/END_B_6mm.dxf",
+      "sha": "bace1fcb8fbfaf2ef931dc865690d09e9b263fe0",
+      "size_bytes": 618,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/FRONT_6mm.dxf",
+      "sha": "3b066268d794125ef1e484bdf08c9a11801045c2",
+      "size_bytes": 773,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_CENTER_RIB_6mm.dxf",
+      "sha": "75b903e7eadccb32c2f5a538ee896cd7e34e9873",
+      "size_bytes": 11177,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_END_A_6mm_REINFORCED.dxf",
+      "sha": "24727099bb58fb6d34fb5f6da78a243161150533",
+      "size_bytes": 34981,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_END_B_6mm_REINFORCED.dxf",
+      "sha": "24727099bb58fb6d34fb5f6da78a243161150533",
+      "size_bytes": 34981,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_FRONT_BEAM_6mm.dxf",
+      "sha": "1c0085de629818faeb3a2b78377ae72b7e8c5796",
+      "size_bytes": 451,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_REAR_BEAM_6mm.dxf",
+      "sha": "1c0085de629818faeb3a2b78377ae72b7e8c5796",
+      "size_bytes": 451,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_SKIN_4mm.dxf",
+      "sha": "4acc7047ed6d2b97f38d787387d081ff999edd9b",
+      "size_bytes": 17172,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LOCK_CAP_22mm_6mm.dxf",
+      "sha": "d1cb2bec340b3c4327e490fb6c8354b85af7e0fa",
+      "size_bytes": 13192,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/PIN_DISC_14mm_6mm.dxf",
+      "sha": "6da173fada59157637203271454ab01aa9120408",
+      "size_bytes": 13299,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/REAR_6mm.dxf",
+      "sha": "3b066268d794125ef1e484bdf08c9a11801045c2",
+      "size_bytes": 773,
+      "kind": "per_part"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/production/V8_2_2_4mm_LID_SKIN_CUT_ONLY.dxf",
+      "sha": "6651057215b24e0d3d8655c97f9701fe0256362d",
+      "size_bytes": 18170,
+      "kind": "production"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/production/V8_2_2_6mm_PRODUCTION_CUT_ONLY.dxf",
+      "sha": "7c332b0bcc6bbdaf9a48d03460b1beed6a0c5694",
+      "size_bytes": 185568,
+      "kind": "production"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/README.md",
+      "sha": "55d2bdc4463800e3198257280483a6d9ffd4c583",
+      "size_bytes": 1666,
+      "kind": "documentation"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/V8_2_2_CORRECTIONS.csv",
+      "sha": "36aaf088fb85219db49e1a749177925a03c1ec41",
+      "size_bytes": 678,
+      "kind": "legacy_corrections"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/V8_2_2_FULL_CONNECTION_AUDIT.csv",
+      "sha": "713d18b5e72c076a41e95959e2cc84379eb9b536",
+      "size_bytes": 5621,
+      "kind": "legacy_audit"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "project_id": "MEB-01",
+  "contract_id": "MEB-000",
+  "interfaces": [
+    {
+      "id": "IF-01",
+      "parts": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "description": "Body corner finger-joint complement",
+      "legacy_report": "Legacy pitch 14.2 mm and 5-pitch alternating report",
+      "status": "OPEN",
+      "required_evidence": "G1 direct geometry + G2 assembly",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          17
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-02",
+      "parts": [
+        "P05",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "description": "Bottom tabs into body panels",
+      "legacy_report": "Reported long 30x6 and end 16x6 mm nominal slots",
+      "status": "OPEN",
+      "required_evidence": "G1 topology/clearance + G2 insertion",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-03",
+      "parts": [
+        "P06",
+        "P03",
+        "P04"
+      ],
+      "description": "Ring mounting foot to body ends",
+      "legacy_report": "Reported 192 mm2 geometric face area",
+      "status": "OPEN",
+      "required_evidence": "Adhesive and geometry assessment; G3 physical",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          42
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-04",
+      "parts": [
+        "P07",
+        "P06"
+      ],
+      "description": "Disc pin rotation inside ring",
+      "legacy_report": "Reported \u00d814/\u00d814.6 mm, radial clearance 0.30 mm",
+      "status": "OPEN",
+      "required_evidence": "DXF independent recheck; G3 kerf fit",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          39,
+          40
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-05",
+      "parts": [
+        "P08",
+        "P07",
+        "P06"
+      ],
+      "description": "Lock cap axial retention and rotation gap",
+      "legacy_report": "Reported \u00d822 cap, 3.7 mm geometric radial overlap and ~0.3 mm axial clearance",
+      "status": "OPEN",
+      "required_evidence": "G2 retention path; G3 measured fit",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          41,
+          45
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-06",
+      "parts": [
+        "P09",
+        "P10",
+        "P07"
+      ],
+      "description": "Lid ends to pivot pins",
+      "legacy_report": "Reported \u00d814 pin within \u00d822 lid ear",
+      "status": "OPEN",
+      "required_evidence": "G2 solid assembly and retention",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          43,
+          44
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-07",
+      "parts": [
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "description": "Lid end/beam tenon-slot fits",
+      "legacy_report": "Reported 6x6 mm nominal joints",
+      "status": "OPEN",
+      "required_evidence": "G1 model + G2 insertion",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          25,
+          26,
+          27
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-08",
+      "parts": [
+        "P13",
+        "P11",
+        "P12"
+      ],
+      "description": "Rib and beam half-laps",
+      "legacy_report": "Reported 5+5 mm at x=158..164",
+      "status": "OPEN",
+      "required_evidence": "G1 connection/capture, G2 sequence",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          28,
+          29
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-09",
+      "parts": [
+        "P14",
+        "P09",
+        "P10"
+      ],
+      "description": "Curved skin tabs/slots",
+      "legacy_report": "Reported 12x4 tab and 12.2x4.1 slot",
+      "status": "OPEN",
+      "required_evidence": "DXF topology and G3 fit/bend test",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-10",
+      "parts": [
+        "P14",
+        "P13"
+      ],
+      "description": "Lid skin center solid band over rib",
+      "legacy_report": "Reported x154..168 with rib x158..164",
+      "status": "OPEN",
+      "required_evidence": "G1 skin/rib CAD and load-path assessment",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          30,
+          36,
+          37,
+          38
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    },
+    {
+      "id": "IF-11",
+      "parts": [
+        "P09",
+        "P10",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "description": "Hinge rotation through required opening angle",
+      "legacy_report": "Source mismatch: Pinned README has no angle requirement; audit asserts120 deg; requirement OPEN",
+      "status": "OPEN",
+      "required_evidence": "G2 full 3D swept motion",
+      "new_2d_evidence": {
+        "file": "../../reports/MEB-000-geometry.json",
+        "legacy_case_indices": [
+          46
+        ],
+        "boundary": "Partial nominal2D evidence only; interface status remains OPEN until applicable G1/G2/G3 verification"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+PASS BODY_RING_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS BOTTOM_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS END_A_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS END_B_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS FRONT_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LID_CENTER_RIB_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LID_END_A_6mm_REINFORCED SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LID_END_B_6mm_REINFORCED SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LID_FRONT_BEAM_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LID_REAR_BEAM_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LID_SKIN_4mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS LOCK_CAP_22mm_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS PIN_DISC_14mm_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+PASS REAR_6mm SVG paths match measured coordinate source, millimetres, closed contours, DESIGN_ONLY
+14/14 independent SVG profile checks PASS; display y axis is SVG-native, not an assembly transform

@@ -1,0 +1,60 @@
+Cannot create cache home directory: '/home/agent/.cache/ezdxf', cache files will not be saved.
+See also issue https://github.com/mozman/ezdxf/issues/923.
+PASS provenance 20/20 pinned blobs; parsed17/17 DXFs
+Historical case mapping: {"PASS": 47, "FAIL": 5, "NOT_RUN": 4}
+0 PASS FRONT_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+1 PASS REAR_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+2 PASS END_A_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+3 PASS END_B_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+4 PASS BOTTOM_6mm: registry qty=1; sheet identical-shape group=1/1; nominal thickness from filenames, not measured
+5 PASS LID_END_A_6mm_REINFORCED: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+6 PASS LID_END_B_6mm_REINFORCED: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+7 PASS LID_CENTER_RIB_6mm: registry qty=1; sheet identical-shape group=1/1; nominal thickness from filenames, not measured
+8 PASS LID_FRONT_BEAM_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+9 PASS LID_REAR_BEAM_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+10 PASS BODY_RING_6mm: registry qty=2; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+11 PASS PIN_DISC_14mm_6mm: registry qty=2; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+12 PASS LOCK_CAP_22mm_6mm: registry qty=2; sheet identical-shape group=2/2; nominal thickness from filenames, not measured
+13 PASS LID_SKIN_4mm: registry qty=1; sheet identical-shape group=1/1; nominal thickness from filenames, not measured
+14 PASS Nominal cavity=310.0 mm from DXF bounds minus nominal 6mm panels; inferred assembly registration
+15 PASS Nominal cavity=65.0 mm from DXF bounds minus nominal 6mm panels; inferred assembly registration
+16 PASS Nominal cavity=65.0 mm from DXF bounds minus nominal 6mm panels; inferred assembly registration
+17 PASS Boundary levels=[0.0, 14.2, 28.4, 42.6, 56.8, 71.0]; complementary mid-pitch occupancy=True; 2D only
+18 PASS Long bottom tabs and front/rear open recesses: x=22..52, depth6; zero nominal clearance
+19 PASS Long bottom tabs and front/rear open recesses: x=84..114, depth6; zero nominal clearance
+20 PASS Long bottom tabs and front/rear open recesses: x=146..176, depth6; zero nominal clearance
+21 PASS Long bottom tabs and front/rear open recesses: x=208..238, depth6; zero nominal clearance
+22 PASS Long bottom tabs and front/rear open recesses: x=270..300, depth6; zero nominal clearance
+23 PASS End tabs/recesses: 14..30, depth6; zero nominal clearance
+24 PASS End tabs/recesses: 47..63, depth6; zero nominal clearance
+25 PASS Beam slot bounds=(27, 6, 33, 12); repeated ends identical
+26 PASS Beam slot bounds=(82, 6, 88, 12); repeated ends identical
+27 PASS Beam end tenons6x6; nominal zero slot clearance; no insertion proof
+28 PASS Beam notch x158..164 depth5; rib notches x8..14 and63..69 depth5; 5+5=10 nominal, 3D registration proposed
+29 PASS Beam notch x158..164 depth5; rib notches x8..14 and63..69 depth5; 5+5=10 nominal, 3D registration proposed
+30 FAIL Rib proposed x158..164 inside uncut x154..168; 4mm margins under inferred registration
+31 FAIL Measured curved slot radial=4.100000, tangential=11.594819; nominal finger12x4. Arc length=94.796544. 2D shape check only; bent 3D tab containment NOT_RUN
+32 FAIL Measured curved slot radial=4.100000, tangential=11.594819; nominal finger12x4. Arc length=94.796544. 2D shape check only; bent 3D tab containment NOT_RUN
+33 FAIL Measured curved slot radial=4.100000, tangential=11.594819; nominal finger12x4. Arc length=94.796544. 2D shape check only; bent 3D tab containment NOT_RUN
+34 PASS Minimum cut-hole bridge=5.780053 mm, not strength
+35 PASS 5 independent openings:2 beam+3 skin
+36 PASS 190 internal kerf LINE cuts; no edge contact
+37 PASS Cut range x18.0..304.0; 12mm from main skin x6..316 (18mm from tab extrema x0..322)
+38 FAIL Uncut band x154..168, center161; 14mm
+39 PASS Diameters 14.600000000000001/14.0; nominal radial gap=0.3000000000000007
+40 PASS Minimum polygonal annulus wall=6.699776 mm
+41 PASS Nominal cap overlap=3.700000 mm
+42 PASS Proposed ring->end translation(-22,59): overlap=192.000000 mm2; no bond-strength claim
+43 NOT_RUN Pin14 / ear22 footprint: ear diameter22 inferred from circular profile; bond and 3D registration not proved
+44 NOT_RUN 13mm neck assertion lacks an unambiguous measurement section in registered source; preserve for G1/G2
+45 NOT_RUN 0.3mm axial shim is assembly instruction, no axial dimensions/physical record in 2D DXF
+46 NOT_RUN Historical 2D sampled sweep cannot establish continuous 3D collision-free opening; owner angle OPEN
+47 PASS Ring/foot one valid connected polygon with one bore
+48 PASS Legacy frame X-long900,Y-short440 bounds=(14.0, 20.0, 836.0, 368.0); not new stock approval. 6mm layout exceeds either orientation of800x440
+49 PASS 6mm part area overlaps=[]; kerf/machine margins not verified
+50 PASS BODY_RING_6mm normalized contour+holes matching sheet instances=2
+51 PASS PIN_DISC_14mm_6mm normalized contour+holes matching sheet instances=2
+52 PASS LOCK_CAP_22mm_6mm normalized contour+holes matching sheet instances=2
+53 PASS Legacy frame X-long900,Y-short440 bounds=(10.0, 10.0, 332.0, 104.796543611); not new stock approval. 6mm layout exceeds either orientation of800x440
+54 PASS 14 registered definitions present; A/B and front/rear identical shape groups disclosed
+55 PASS 17 DXFs parsed; mm header, planar closed valid nonduplicate contours, explicit open kerf lines

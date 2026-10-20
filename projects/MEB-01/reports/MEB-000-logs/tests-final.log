@@ -1,0 +1,24 @@
+$ /workspace/.venvs/meb-000/bin/python -m unittest discover -s projects/MEB-01/tests -v
+Cannot create cache home directory: '/home/agent/.cache/ezdxf', cache files will not be saved.
+See also issue https://github.com/mozman/ezdxf/issues/923.
+test_duplicate_contour_rejected (test_geometry.GeometryControls.test_duplicate_contour_rejected) ... ok
+test_even_odd_coupon_islands (test_geometry.GeometryControls.test_even_odd_coupon_islands) ... ok
+test_generator_refuses_source_checkout (test_geometry.GeometryControls.test_generator_refuses_source_checkout) ... ok
+test_measured_profiles_round_trip (test_geometry.GeometryControls.test_measured_profiles_round_trip) ... ok
+test_missing_units_rejected (test_geometry.GeometryControls.test_missing_units_rejected) ... ok
+test_nonplanar_line_rejected (test_geometry.GeometryControls.test_nonplanar_line_rejected) ... ok
+test_open_cut_contour_rejected (test_geometry.GeometryControls.test_open_cut_contour_rejected) ... ok
+test_self_intersection_rejected (test_geometry.GeometryControls.test_self_intersection_rejected) ... ok
+test_shape_match_handles_rotation_translation (test_geometry.GeometryControls.test_shape_match_handles_rotation_translation) ... ok
+test_shape_match_rejects_same_bbox_wrong_geometry (test_geometry.GeometryControls.test_shape_match_rejects_same_bbox_wrong_geometry) ... ok
+test_valid_closed_mm_profile (test_geometry.GeometryControls.test_valid_closed_mm_profile) ... ok
+test_wrong_units_rejected (test_geometry.GeometryControls.test_wrong_units_rejected) ... ok
+test_zero_area_rejected (test_geometry.GeometryControls.test_zero_area_rejected) ... ok
+test_zero_length_kerf_rejected (test_geometry.GeometryControls.test_zero_length_kerf_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.388s
+
+OK
+
+EXIT_STATUS=0
