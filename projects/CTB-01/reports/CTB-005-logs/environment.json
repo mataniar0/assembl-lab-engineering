@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/workspace/.venvs/ctb-005/bin/python",
+  "isolated_venv": true,
+  "architecture": "x86_64",
+  "core_packages": {
+    "numpy": "2.3.5",
+    "shapely": "2.1.2",
+    "manifold3d": "3.3.2",
+    "scipy": "1.17.1",
+    "trimesh": "4.11.2",
+    "ezdxf": "1.4.4",
+    "matplotlib": "3.10.8",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0"
+  }
+}

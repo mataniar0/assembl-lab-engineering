@@ -1,0 +1,106 @@
+{
+  "project": "CTB-01",
+  "task": "CTB-005",
+  "release": "DESIGN_ONLY",
+  "source_commit": "6292a0e22c9aacade5aa7c7995332494aa8de005",
+  "selected_sources": [
+    "SOFT_CURVE",
+    "B_THROUGH_ADHESIVE",
+    "A_COMPACT_CLOSED",
+    "Y_FIRST",
+    "A_RIM_OPEN",
+    "NO_HOLE"
+  ],
+  "rib_thickness_mm": 6,
+  "angles_deg": [
+    0,
+    60,
+    120,
+    180,
+    240,
+    300
+  ],
+  "core_z_mm": [
+    456,
+    494
+  ],
+  "outer_r_mm": 169,
+  "outer_body_start_r_mm": 96,
+  "A": {
+    "inner_r_mm": 81,
+    "outer_radius_mm": 1,
+    "relief_rz_mm": [
+      79,
+      479.6,
+      83.2,
+      486.4
+    ],
+    "relief_radius_mm": 0.8
+  },
+  "B": {
+    "rail_r_mm": [
+      82,
+      88
+    ],
+    "bridge_z_mm": [
+      465,
+      475
+    ],
+    "bridge_end_r_mm": 98,
+    "corner_radius_mm": 0.8,
+    "proposed_slots_r_mm": {
+      "P04L": [
+        81.3,
+        88.7
+      ],
+      "P04U": [
+        81.8,
+        88.2
+      ]
+    }
+  },
+  "C": {
+    "rail_r_mm": [
+      82,
+      88
+    ],
+    "rail_top_z_mm": 466,
+    "head_bottom_z_mm": 465,
+    "head_step_z_mm": 479.6,
+    "upper_head_inner_r_mm": 83.2,
+    "corner_radius_mm": 0.4,
+    "proposed_slots_r_mm": {
+      "P04L": [
+        81.8,
+        88.2
+      ]
+    }
+  },
+  "proposed_slot_width_mm": 6.4,
+  "proposed_slot_corner_radius_mm": 0.2,
+  "radial_stroke_mm": 100,
+  "vertical_stroke_mm": 64,
+  "disk_start_bottom_z_mm": 520,
+  "retention_trial_radial_mm": 20,
+  "retention_trial_vertical_mm": 6.4,
+  "screening_min_neck_mm": 6,
+  "sheet_hw_mm": [
+    800,
+    440
+  ],
+  "sheet_margin_mm": 10,
+  "raster_dpi": 96,
+  "epsilon_mm3": 1e-06,
+  "measured_thickness_mm": null,
+  "measured_kerf_mm": null,
+  "adhesive_specification": null,
+  "grain_hypothesis": "face grain parallel to local r; not tested strength",
+  "relevant_interfaces": [
+    "IF-06",
+    "IF-07",
+    "IF-08",
+    "IF-12",
+    "IF-13"
+  ],
+  "polygon_fillet_chord_tolerance_mm": 0.002
+}

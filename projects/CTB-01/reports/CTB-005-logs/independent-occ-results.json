@@ -1,0 +1,798 @@
+{
+  "method": "Actual exported SVG/DXF -> independent CadQuery/OpenCASCADE material and exact boundary-prism translational sweeps; no implementation imports",
+  "scope": "DESIGN_ONLY; proposal disks conditional/unapproved; P07/P08/tool envelope only",
+  "variants": {
+    "A": {
+      "plane": "r,z",
+      "area_mm2": 3328.442583118219,
+      "bounds_mm": [
+        81.0,
+        456.0,
+        169.0,
+        494.0
+      ],
+      "closed_cut_loops": 1,
+      "DXF_SVG_area_delta_mm2": 0.0,
+      "single_part_sheet_fit": true,
+      "minimum_hole_to_exterior_mm": null,
+      "minimum_hole_to_hole_mm": null,
+      "finite_nominal_thickness_mm": 6,
+      "identical_instances": 6,
+      "skin_boundary_contact_area_mm2": {
+        "456": 516.0,
+        "494": 516.0
+      },
+      "candidate_broadside_bond_reservation_mm2": {
+        "P04L": 166.9138023943214,
+        "P04U": 141.0130472080692
+      },
+      "nominal_outer_rim_gap_mm": 2,
+      "finite_tangent_min_circular_rim_gap_mm": 1.9733748783937983,
+      "baseline27_static": {
+        "body_count": 27,
+        "pairs": 351,
+        "max_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "baseline27_radial_route": {
+        "mode": "RADIAL_RIBS_AFTER_U",
+        "stages": [
+          {
+            "moving": "P07B_ENVELOPE",
+            "continuous_checks": 19,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "continuous_checks": 20,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "continuous_checks": 21,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "continuous_checks": 22,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "continuous_checks": 23,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "continuous_checks": 24,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "continuous_checks": 25,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "continuous_checks": 26,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "continuous_checks": 27,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          }
+        ],
+        "continuous_checks": 207,
+        "max_overlap_mm3": 0.0
+      },
+      "baseline_status": "PASS_CAD_FIT_AND_RADIAL_PATH; NO_POSITIVE_RADIAL_RETENTION",
+      "baseline_GLB": {
+        "nodes": 27,
+        "identical_master_rib_nodes": 6,
+        "units": "GLTF_metre",
+        "max_bound_delta_mm": 1.239776611328125e-05,
+        "max_relative_volume_delta": 2.959761119414317e-06
+      },
+      "baseline_radial_retention": {
+        "outward100": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 0.0
+        },
+        "inward20": {
+          "P04L_mm3": 711.4821683750454,
+          "P04U_mm3": 705.779902816313
+        },
+        "up6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 64.80000000000682
+        },
+        "down6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 64.79999999999298
+        }
+      },
+      "lock_access_envelope": [
+        {
+          "angle": 0,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691414
+        },
+        {
+          "angle": 0,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691414
+        },
+        {
+          "angle": 120,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691407
+        },
+        {
+          "angle": 120,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691409
+        },
+        {
+          "angle": 240,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691409
+        },
+        {
+          "angle": 240,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691406
+        }
+      ],
+      "genuine_negative_controls_mm3": {
+        "uncut38mm_against_U": 64.7999999999999,
+        "thickness6p8_against_L": 33.373475595056846,
+        "rotated5deg_against_L": 502.0222510575789,
+        "shifted_t1mm_against_L": 66.68617582950282,
+        "radial_insertion_after_wall": 912.0001622536412,
+        "upper_disk_after_rib_head": 80.85211978322695
+      }
+    },
+    "B": {
+      "plane": "r,z",
+      "area_mm2": 3081.4448826614234,
+      "bounds_mm": [
+        82.0,
+        456.0,
+        169.0,
+        494.0
+      ],
+      "closed_cut_loops": 1,
+      "DXF_SVG_area_delta_mm2": 0.0,
+      "single_part_sheet_fit": true,
+      "minimum_hole_to_exterior_mm": null,
+      "minimum_hole_to_hole_mm": null,
+      "finite_nominal_thickness_mm": 6,
+      "identical_instances": 6,
+      "skin_boundary_contact_area_mm2": {
+        "456": 454.79999999999995,
+        "494": 454.79999999999995
+      },
+      "candidate_broadside_bond_reservation_mm2": {
+        "P04L": 71.44488266142397,
+        "P04U": 72.0
+      },
+      "nominal_outer_rim_gap_mm": 2,
+      "finite_tangent_min_circular_rim_gap_mm": 1.9733748783937983,
+      "baseline27_static": {
+        "body_count": 27,
+        "pairs": 351,
+        "max_overlap_mm3": 28.799999999999898,
+        "positive_pairs_mm3": {
+          "P04U|P05_1": 28.799999999999898,
+          "P04U|P05_2": 28.79998648943722,
+          "P04U|P05_3": 28.79998648943736,
+          "P04U|P05_4": 28.799999999999898,
+          "P04U|P05_5": 28.799986489437355,
+          "P04U|P05_6": 28.799986489437117
+        }
+      },
+      "baseline27_radial_route": {
+        "mode": "RADIAL_RIBS_AFTER_U",
+        "stages": [
+          {
+            "moving": "P07B_ENVELOPE",
+            "continuous_checks": 19,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "continuous_checks": 20,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "continuous_checks": 21,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "continuous_checks": 22,
+            "max_overlap_mm3": 28.799999999999898,
+            "positive_intersections_mm3": {
+              "P04U": 28.799999999999898
+            }
+          },
+          {
+            "moving": "P05_2",
+            "continuous_checks": 23,
+            "max_overlap_mm3": 28.799986489437273,
+            "positive_intersections_mm3": {
+              "P04U": 28.799986489437273
+            }
+          },
+          {
+            "moving": "P05_3",
+            "continuous_checks": 24,
+            "max_overlap_mm3": 28.799986489437607,
+            "positive_intersections_mm3": {
+              "P04U": 28.799986489437607
+            }
+          },
+          {
+            "moving": "P05_4",
+            "continuous_checks": 25,
+            "max_overlap_mm3": 28.799999999999898,
+            "positive_intersections_mm3": {
+              "P04U": 28.799999999999898
+            }
+          },
+          {
+            "moving": "P05_5",
+            "continuous_checks": 26,
+            "max_overlap_mm3": 28.799986489437735,
+            "positive_intersections_mm3": {
+              "P04U": 28.799986489437735
+            }
+          },
+          {
+            "moving": "P05_6",
+            "continuous_checks": 27,
+            "max_overlap_mm3": 28.79998648943714,
+            "positive_intersections_mm3": {
+              "P04U": 28.79998648943714
+            }
+          }
+        ],
+        "continuous_checks": 207,
+        "max_overlap_mm3": 28.799999999999898
+      },
+      "baseline_status": "BLOCKED_WITH_SELECTED_P04_A",
+      "baseline_GLB": {
+        "nodes": 27,
+        "identical_master_rib_nodes": 6,
+        "units": "GLTF_metre",
+        "max_bound_delta_mm": 1.239776611328125e-05,
+        "max_relative_volume_delta": 2.959761119414317e-06
+      },
+      "baseline_radial_retention": {
+        "outward100": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 28.799999999999898
+        },
+        "inward20": {
+          "P04L_mm3": 675.9673239921129,
+          "P04U_mm3": 748.8
+        },
+        "up6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 28.799999999999898
+        },
+        "down6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 28.799999999999898
+        }
+      },
+      "proposal_disks": {
+        "P04L": {
+          "plane": "XY",
+          "area_mm2": 27160.01597382686,
+          "bounds_mm": [
+            -95.0,
+            -95.0,
+            95.0,
+            95.0
+          ],
+          "closed_cut_loops": 13,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_sheet_fit": true,
+          "minimum_hole_to_exterior_mm": 6.248246828286915,
+          "minimum_hole_to_hole_mm": 12.919865161039798
+        },
+        "P04U": {
+          "plane": "XY",
+          "area_mm2": 27198.415963203395,
+          "bounds_mm": [
+            -95.0,
+            -95.0,
+            95.0,
+            95.0
+          ],
+          "closed_cut_loops": 13,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_sheet_fit": true,
+          "minimum_hole_to_exterior_mm": 6.748074870906466,
+          "minimum_hole_to_hole_mm": 13.39042073760866
+        }
+      },
+      "proposal27_static": {
+        "body_count": 27,
+        "pairs": 351,
+        "max_overlap_mm3": 0.0
+      },
+      "proposal27_staged_route": {
+        "mode": "VERTICAL_RIBS_BEFORE_U",
+        "stages": [
+          {
+            "moving": "P07B_ENVELOPE",
+            "continuous_checks": 19,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "continuous_checks": 20,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "continuous_checks": 21,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "continuous_checks": 22,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "continuous_checks": 23,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "continuous_checks": 24,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "continuous_checks": 25,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "continuous_checks": 26,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "continuous_checks": 27,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          }
+        ],
+        "continuous_checks": 207,
+        "max_overlap_mm3": 0.0
+      },
+      "proposal_translation_controls": {
+        "outward100": {
+          "P04L_mm3": 226.14008650672088,
+          "P04U_mm3": 244.14008650672938
+        },
+        "inward20": {
+          "P04L_mm3": 920.1074104988224,
+          "P04U_mm3": 956.9400865067292
+        },
+        "up6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 57.26991879816407
+        },
+        "down6p4": {
+          "P04L_mm3": 128.14801529162278,
+          "P04U_mm3": 0.0
+        }
+      },
+      "rib_after_U_vertical_block_mm3": 244.14008650672935,
+      "proposal_GLB": {
+        "nodes": 27,
+        "identical_master_rib_nodes": 6,
+        "units": "GLTF_metre",
+        "max_bound_delta_mm": 1.239776611328125e-05,
+        "max_relative_volume_delta": 2.959761119414317e-06
+      },
+      "proposal_status": "PASS_CAD_CONDITIONAL; CR_REQUIRED; FIXED_DISK_TRANSLATIONAL_RESTRAINT_ONLY",
+      "lock_access_envelope": [
+        {
+          "angle": 0,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691414
+        },
+        {
+          "angle": 0,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691414
+        },
+        {
+          "angle": 120,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691407
+        },
+        {
+          "angle": 120,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691409
+        },
+        {
+          "angle": 240,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691409
+        },
+        {
+          "angle": 240,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691406
+        }
+      ],
+      "genuine_negative_controls_mm3": {
+        "uncut38mm_against_U": 64.7999999999999,
+        "thickness6p8_against_L": 14.288976532280635,
+        "rotated5deg_against_L": 214.3346479842615,
+        "shifted_t1mm_against_L": 28.57795306456843,
+        "radial_insertion_after_wall": 912.0001622536404
+      }
+    },
+    "C": {
+      "plane": "r,z",
+      "area_mm2": 3216.579431333848,
+      "bounds_mm": [
+        82.0,
+        456.0,
+        169.0,
+        494.0
+      ],
+      "closed_cut_loops": 1,
+      "DXF_SVG_area_delta_mm2": 0.0,
+      "single_part_sheet_fit": true,
+      "minimum_hole_to_exterior_mm": null,
+      "minimum_hole_to_hole_mm": null,
+      "finite_nominal_thickness_mm": 6,
+      "identical_instances": 6,
+      "skin_boundary_contact_area_mm2": {
+        "456": 464.39999999999986,
+        "494": 510.0
+      },
+      "candidate_broadside_bond_reservation_mm2": {
+        "P04L": 71.85943133384801,
+        "P04U": 140.95307960263136
+      },
+      "small_upper_step_geometric_flat_area_mm2": 2.399999999999949,
+      "small_step_strength_status": "NOT_RUN; finite flat is not a load rating",
+      "nominal_outer_rim_gap_mm": 2,
+      "finite_tangent_min_circular_rim_gap_mm": 1.9733748783937983,
+      "baseline27_static": {
+        "body_count": 27,
+        "pairs": 351,
+        "max_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "baseline27_radial_route": {
+        "mode": "RADIAL_RIBS_AFTER_U",
+        "stages": [
+          {
+            "moving": "P07B_ENVELOPE",
+            "continuous_checks": 19,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "continuous_checks": 20,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "continuous_checks": 21,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "continuous_checks": 22,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "continuous_checks": 23,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "continuous_checks": 24,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "continuous_checks": 25,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "continuous_checks": 26,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "continuous_checks": 27,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          }
+        ],
+        "continuous_checks": 207,
+        "max_overlap_mm3": 0.0
+      },
+      "baseline_status": "PASS_CAD_FIT_AND_RADIAL_PATH; NO_POSITIVE_RADIAL_RETENTION",
+      "baseline_GLB": {
+        "nodes": 27,
+        "identical_master_rib_nodes": 6,
+        "units": "GLTF_metre",
+        "max_bound_delta_mm": 1.239776611328125e-05,
+        "max_relative_volume_delta": 2.959761119414317e-06
+      },
+      "baseline_radial_retention": {
+        "outward100": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 0.0
+        },
+        "inward20": {
+          "P04L_mm3": 676.5891470007488,
+          "P04U_mm3": 705.599999999982
+        },
+        "up6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 28.589147000775178
+        },
+        "down6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 0.0
+        }
+      },
+      "proposal_disks": {
+        "P04L": {
+          "plane": "XY",
+          "area_mm2": 27198.415963203395,
+          "bounds_mm": [
+            -95.0,
+            -95.0,
+            95.0,
+            95.0
+          ],
+          "closed_cut_loops": 13,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_sheet_fit": true,
+          "minimum_hole_to_exterior_mm": 6.748074870906466,
+          "minimum_hole_to_hole_mm": 13.39042073760866
+        },
+        "P04U": {
+          "plane": "XY",
+          "area_mm2": 26976.27038966436,
+          "bounds_mm": [
+            -94.945152,
+            -95.0,
+            94.945152,
+            95.0
+          ],
+          "closed_cut_loops": 7,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_sheet_fit": true,
+          "minimum_hole_to_exterior_mm": 14.285189725376775,
+          "minimum_hole_to_hole_mm": 14.8
+        }
+      },
+      "proposal27_static": {
+        "body_count": 27,
+        "pairs": 351,
+        "max_overlap_mm3": 0.0
+      },
+      "proposal27_staged_route": {
+        "mode": "VERTICAL_RIBS_BEFORE_U",
+        "stages": [
+          {
+            "moving": "P07B_ENVELOPE",
+            "continuous_checks": 19,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "continuous_checks": 20,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "continuous_checks": 21,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "continuous_checks": 22,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "continuous_checks": 23,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "continuous_checks": 24,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "continuous_checks": 25,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "continuous_checks": 26,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "continuous_checks": 27,
+            "max_overlap_mm3": 0.0,
+            "positive_intersections_mm3": {}
+          }
+        ],
+        "continuous_checks": 207,
+        "max_overlap_mm3": 0.0
+      },
+      "proposal_translation_controls": {
+        "outward100": {
+          "P04L_mm3": 244.14008650672017,
+          "P04U_mm3": 0.0
+        },
+        "inward20": {
+          "P04L_mm3": 956.7292335074558,
+          "P04U_mm3": 705.599999999982
+        },
+        "up6p4": {
+          "P04L_mm3": 0.0,
+          "P04U_mm3": 28.589147000775178
+        },
+        "down6p4": {
+          "P04L_mm3": 138.36853695636944,
+          "P04U_mm3": 0.0
+        }
+      },
+      "rib_after_U_vertical_block_mm3": 28.799999999999898,
+      "proposal_GLB": {
+        "nodes": 27,
+        "identical_master_rib_nodes": 6,
+        "units": "GLTF_metre",
+        "max_bound_delta_mm": 1.239776611328125e-05,
+        "max_relative_volume_delta": 2.959761119414317e-06
+      },
+      "proposal_status": "PASS_CAD_CONDITIONAL; CR_REQUIRED; FIXED_DISK_TRANSLATIONAL_RESTRAINT_ONLY",
+      "lock_access_envelope": [
+        {
+          "angle": 0,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691414
+        },
+        {
+          "angle": 0,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691414
+        },
+        {
+          "angle": 120,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691407
+        },
+        {
+          "angle": 120,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691409
+        },
+        {
+          "angle": 240,
+          "t": -10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691409
+        },
+        {
+          "angle": 240,
+          "t": 10.5,
+          "assumed_tool_diameter_mm": 4,
+          "open_top_max_overlap_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.36794776691406
+        }
+      ],
+      "genuine_negative_controls_mm3": {
+        "uncut38mm_against_U": 64.7999999999999,
+        "thickness6p8_against_L": 14.371886266765278,
+        "rotated5deg_against_L": 215.57829400153346,
+        "shifted_t1mm_against_L": 28.743772533538085,
+        "radial_insertion_after_wall": 912.0001622536403
+      }
+    }
+  },
+  "base19_y_first": {
+    "moving_stages": 18,
+    "continuous_checks": 171,
+    "maximum_overlap_mm3": 0.0
+  },
+  "protected_upstream_files_unchanged": 259,
+  "protected_baseline_commit": "6292a0e22c9aacade5aa7c7995332494aa8de005"
+}

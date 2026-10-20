@@ -1,4 +1,4 @@
-# CTB-01 status — CTB-004 anchor-disk study
+# CTB-01 status — CTB-005 reviewed radial-web working concept
 
 **BASELINE_FOR_COMPONENT_DESIGN_NOT_PRODUCTION** — CTB-000 v0.2 merged in PR #2.
 **CTB-001 / P01: SOFT_CURVE SELECTED_FOR_DOWNSTREAM_COMPONENT_DESIGN — DESIGN_ONLY.**
@@ -117,7 +117,7 @@ The only 900×440 mentions document the superseded sheet, not active settings.
 
 Engineering lead selected SOFT_CURVE; CTB-002 now proposes coordinated candidate P01
 mortises and four spacers. Lead review selected B joinery as a CAD working concept and provisional Z200.
-CTB003 lead selection approved A_COMPACT_CLOSED and Y_FIRST for downstream DESIGN_ONLY studies, per parts/P03/CTB-003-SELECTION.md. CTB004 now proposes three anchor-disk concepts; lead selection is pending.
+CTB003 lead selection approved A_COMPACT_CLOSED and Y_FIRST for downstream DESIGN_ONLY studies, per parts/P03/CTB-003-SELECTION.md. CTB004 lead selected A_RIM_OPEN / NO_HOLE for downstream DESIGN_ONLY development, per parts/P04/CTB-004-SELECTION.md. CTB005 selection now awaits review.
 CTB006 ring agreement and B adhesive/outward retention remain unproven. Original P01/P02 and frozen system parameters remain unchanged.
 See `parts/P01/P01-SELECTION.md` and CTB002 reports.
 Y reach, ring/spacer coordination, fit, locking, assembly, stability and all B01–B13
@@ -146,3 +146,31 @@ B11 load/stability and B13 center decision remain OPEN, along with all other ori
 Only2mm tongue projection above U; no positive lock is designed. No complete tabletop,
 physical fitting, nesting, cutting, strength or manufacturing release. PR for review only;
 no self-merge.
+
+## CTB-004 selection superseding historical pending text above
+
+PR #12 was merged by the lead; `parts/P04/CTB-004-SELECTION.md` selects A_RIM_OPEN /NO_HOLE
+for downstream coordinated design only. Earlier pending/unmerged captions are historical.
+No actual P05/P07/P08, physical fitting, structural approval or cutting was implied.
+
+## CTB-005 — A_RELIEVED_BOND SELECTED_FOR_DOWNSTREAM_COORDINATED_DESIGN / DESIGN_ONLY
+
+Issue #13 / PR #14 reviewed for DESIGN_ONLY; source baseline6292a0e. Three real six-identical-rib
+concepts: A_RELIEVED_BOND, B_DOUBLE_RAIL and C_LOWER_CAPTURE_STEP. All259 CTB-000/P01–P04
+source/output files remain unchanged. Exactly P05×6 adds to the selected21 to make27 real
+bodies; skin/wall/tool/lock studies remain non-BOM reservations. Ø350/H500/top50, rib38 and
+free disk-face gap18 are preserved. Single-part H800×W440 fit is checked, not nesting.
+
+A/C fit original P04 and have radial insertion paths, but outward withdrawal is free.
+B is BLOCKED against original U at28.8 mm³ per rib. Separate CR B substitutes two v2 disks;
+CR C substitutes only lower, keeping original U. Both CRs remain unapproved and only their proposal models pass fit and staged
+paths and obstruct specified translations with disks fixed. This is not 6DOF or strength
+proof; both CRs are NOT_APPROVED. Engineering lead selected **A_RELIEVED_BOND** for bounded downstream CAD only;
+see `parts/P05/CTB-005-SELECTION.md`. Radial restraint remains OPEN.
+
+Clean reproduction passes337 unique checks (62 new +275 prior), with independent reruns
+and alternate OpenCASCADE audit. All initial concept/reviewer failures and corrections are
+retained in CTB-005 validation. See reports/CTB-005-* and parts/P05/CTB-007-008-HANDOFF.md.
+Positive upper locking/disk Z restraint, structural bonds, C's small stop, complete order,
+real stock/kerf, glue/fixtures and load/stability remain open (B01/B02/B06/B10/B11).
+Whole-product G2b, physical G3 and production G4 remain unapproved. No physical cutting.

@@ -1,0 +1,70 @@
+{
+  "A": {
+    "area": 3328.4528529735717,
+    "bounds": [
+      81.0,
+      456.0,
+      169.0,
+      494.0
+    ],
+    "finalL": 0.0,
+    "finalU": 0.0,
+    "vertical_beforeU_L": 0.0,
+    "U_afterrib": 80.86972171513568,
+    "radial_out": 0.0,
+    "lift6p4_againstL": 0.0,
+    "lift6p4_againstU": 64.8000000000068,
+    "then_out": 64.8000000000068
+  },
+  "B": {
+    "area": 3090.5839395244984,
+    "bounds": [
+      81.0,
+      456.0,
+      169.0,
+      494.0
+    ],
+    "finalL": 0.0,
+    "finalU": 0.0,
+    "vertical_beforeU_L": 0.0,
+    "U_afterrib": 0.0,
+    "radial_out": 470.28016872348724,
+    "lift6p4_againstL": 0.0,
+    "lift6p4_againstU": 63.68601968437652,
+    "then_out": 250.8600843616786
+  },
+  "C475": {
+    "area": 3218.922091766009,
+    "bounds": [
+      81.0,
+      456.0,
+      169.0,
+      494.0
+    ],
+    "finalL": 0.0,
+    "finalU": 0.0,
+    "vertical_beforeU_L": 0.0,
+    "U_afterrib": 0.0,
+    "radial_out": 244.14008436181138,
+    "lift6p4_againstL": 0.0,
+    "lift6p4_againstU": 15.120000000007915,
+    "then_out": 15.120000000007916
+  },
+  "C472": {
+    "area": 3212.322091766009,
+    "bounds": [
+      81.0,
+      456.0,
+      169.0,
+      494.0
+    ],
+    "finalL": 0.0,
+    "finalU": 0.0,
+    "vertical_beforeU_L": 0.0,
+    "U_afterrib": 0.0,
+    "radial_out": 244.14008436181138,
+    "lift6p4_againstL": 0.0,
+    "lift6p4_againstU": 0.0,
+    "then_out": 0.0
+  }
+}

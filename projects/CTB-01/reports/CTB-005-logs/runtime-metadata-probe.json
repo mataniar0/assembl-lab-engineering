@@ -1,0 +1,9 @@
+{
+  "observed_operation": "Capture installed core package versions after validation",
+  "initial_interpreter": "system python",
+  "initial_result": "importlib.metadata.PackageNotFoundError: No package metadata was found for shapely",
+  "diagnosis": "The reporting probe used system Python instead of the already verified isolated CAD venv.",
+  "correction": "Run the same metadata capture with /workspace/.venvs/ctb-005/bin/python.",
+  "final_result": "SUCCESS; environment.json records the verified runtime.",
+  "cad_or_unit_tests_affected": false
+}

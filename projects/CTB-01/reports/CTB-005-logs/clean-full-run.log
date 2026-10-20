@@ -1,0 +1,369 @@
+A proposal False final 2.1316282072803006e-14 path PASS_CAD_SPECIFIED_PATH
+B proposal False final 28.80000010066463 path BLOCKED
+B proposal True final 2.1316282072803006e-14 path PASS_CAD_SPECIFIED_PATH
+C proposal False final 2.1316282072803006e-14 path PASS_CAD_SPECIFIED_PATH
+C proposal True final 2.1316282072803006e-14 path PASS_CAD_SPECIFIED_PATH
+test_complete_upstream_y_first_recheck_171_continuous_checks (__main__.GlobalTests.test_complete_upstream_y_first_recheck_171_continuous_checks) ... ok
+test_core_and_top_budget_and_null_physical_measurements (__main__.GlobalTests.test_core_and_top_budget_and_null_physical_measurements) ... ok
+test_exact_six_added_ribs_no_hidden_hardware (__main__.GlobalTests.test_exact_six_added_ribs_no_hidden_hardware) ... ok
+test_handoff_preserves_dependent_claims_and_two_rim_options (__main__.GlobalTests.test_handoff_preserves_dependent_claims_and_two_rim_options) ... ok
+test_protected_bytes_all_259_equal_approved_base (__main__.GlobalTests.test_protected_bytes_all_259_equal_approved_base) ... ok
+test_schema_rejects_unapproved_dimensions_measurements_and_count (__main__.GlobalTests.test_schema_rejects_unapproved_dimensions_measurements_and_count) ... ok
+test_selected_source_authorities_and_no_center_hole (__main__.GlobalTests.test_selected_source_authorities_and_no_center_hole) ... ok
+test_twentyone_actual_base_solids_match_reviewed_glb (__main__.GlobalTests.test_twentyone_actual_base_solids_match_reviewed_glb) ... ok
+test_B_proposal_capture (__main__.ProposalTests.test_B_proposal_capture) ... ok
+test_B_proposal_cr_is_not_approval (__main__.ProposalTests.test_B_proposal_cr_is_not_approval) ... ok
+test_B_proposal_exports (__main__.ProposalTests.test_B_proposal_exports) ... ok
+test_B_proposal_material (__main__.ProposalTests.test_B_proposal_material) ... ok
+test_B_proposal_path (__main__.ProposalTests.test_B_proposal_path) ... ok
+test_B_proposal_static (__main__.ProposalTests.test_B_proposal_static) ... ok
+test_C_proposal_capture (__main__.ProposalTests.test_C_proposal_capture) ... ok
+test_C_proposal_cr_is_not_approval (__main__.ProposalTests.test_C_proposal_cr_is_not_approval) ... ok
+test_C_proposal_exports (__main__.ProposalTests.test_C_proposal_exports) ... ok
+test_C_proposal_material (__main__.ProposalTests.test_C_proposal_material) ... ok
+test_C_proposal_path (__main__.ProposalTests.test_C_proposal_path) ... ok
+test_C_proposal_static (__main__.ProposalTests.test_C_proposal_static) ... ok
+test_A_baseline_path (__main__.VariantTests.test_A_baseline_path) ... ok
+test_A_baseline_retention (__main__.VariantTests.test_A_baseline_retention) ... ok
+test_A_baseline_static (__main__.VariantTests.test_A_baseline_static) ... ok
+test_A_bond_and_skin (__main__.VariantTests.test_A_bond_and_skin) ... ok
+test_A_controls (__main__.VariantTests.test_A_controls) ... ok
+test_A_cut_export (__main__.VariantTests.test_A_cut_export) ... ok
+test_A_glb_audit (__main__.VariantTests.test_A_glb_audit) ... ok
+test_A_lock_access (__main__.VariantTests.test_A_lock_access) ... ok
+test_A_necks (__main__.VariantTests.test_A_necks) ... ok
+test_A_outline (__main__.VariantTests.test_A_outline) ... ok
+test_A_physical_svg (__main__.VariantTests.test_A_physical_svg) ... ok
+test_A_raster (__main__.VariantTests.test_A_raster) ... ok
+test_A_six_instances (__main__.VariantTests.test_A_six_instances) ... ok
+test_A_source_data (__main__.VariantTests.test_A_source_data) ... ok
+test_B_baseline_path (__main__.VariantTests.test_B_baseline_path) ... ok
+test_B_baseline_retention (__main__.VariantTests.test_B_baseline_retention) ... ok
+test_B_baseline_static (__main__.VariantTests.test_B_baseline_static) ... ok
+test_B_bond_and_skin (__main__.VariantTests.test_B_bond_and_skin) ... ok
+test_B_controls (__main__.VariantTests.test_B_controls) ... ok
+test_B_cut_export (__main__.VariantTests.test_B_cut_export) ... ok
+test_B_glb_audit (__main__.VariantTests.test_B_glb_audit) ... ok
+test_B_lock_access (__main__.VariantTests.test_B_lock_access) ... ok
+test_B_necks (__main__.VariantTests.test_B_necks) ... ok
+test_B_outline (__main__.VariantTests.test_B_outline) ... ok
+test_B_physical_svg (__main__.VariantTests.test_B_physical_svg) ... ok
+test_B_raster (__main__.VariantTests.test_B_raster) ... ok
+test_B_six_instances (__main__.VariantTests.test_B_six_instances) ... ok
+test_B_source_data (__main__.VariantTests.test_B_source_data) ... ok
+test_C_baseline_path (__main__.VariantTests.test_C_baseline_path) ... ok
+test_C_baseline_retention (__main__.VariantTests.test_C_baseline_retention) ... ok
+test_C_baseline_static (__main__.VariantTests.test_C_baseline_static) ... ok
+test_C_bond_and_skin (__main__.VariantTests.test_C_bond_and_skin) ... ok
+test_C_controls (__main__.VariantTests.test_C_controls) ... ok
+test_C_cut_export (__main__.VariantTests.test_C_cut_export) ... ok
+test_C_glb_audit (__main__.VariantTests.test_C_glb_audit) ... ok
+test_C_lock_access (__main__.VariantTests.test_C_lock_access) ... ok
+test_C_necks (__main__.VariantTests.test_C_necks) ... ok
+test_C_outline (__main__.VariantTests.test_C_outline) ... ok
+test_C_physical_svg (__main__.VariantTests.test_C_physical_svg) ... ok
+test_C_raster (__main__.VariantTests.test_C_raster) ... ok
+test_C_six_instances (__main__.VariantTests.test_C_six_instances) ... ok
+test_C_source_data (__main__.VariantTests.test_C_source_data) ... ok
+
+----------------------------------------------------------------------
+Ran 62 tests in 16.213s
+
+OK
+test_all_upstream_bytes_equal_reviewed_commit (__main__.GlobalTests.test_all_upstream_bytes_equal_reviewed_commit) ... ok
+test_bom_two_real_parts_and_no_hidden_hardware (__main__.GlobalTests.test_bom_two_real_parts_and_no_hidden_hardware) ... ok
+test_clearance_is_not_measured_material_or_kerf (__main__.GlobalTests.test_clearance_is_not_measured_material_or_kerf) ... ok
+test_fifty_mm_budget_full_upper_engagement (__main__.GlobalTests.test_fifty_mm_budget_full_upper_engagement) ... ok
+test_prospective_web_handoff_counts_and_open_dependencies (__main__.GlobalTests.test_prospective_web_handoff_counts_and_open_dependencies) ... ok
+test_real_tongue_extraction_all_six_rotations_and_nose (__main__.GlobalTests.test_real_tongue_extraction_all_six_rotations_and_nose) ... ok
+test_selected_upstream_base_and_nineteen_real_bodies (__main__.GlobalTests.test_selected_upstream_base_and_nineteen_real_bodies) ... ok
+test_versioned_input_schema_rejects_wrong_gap_and_radius (__main__.GlobalTests.test_versioned_input_schema_rejects_wrong_gap_and_radius) ... ok
+test_A_P04L_center (__main__.LayerTests.test_A_P04L_center) ... ok
+test_A_P04L_dxf (__main__.LayerTests.test_A_P04L_dxf) ... ok
+test_A_P04L_lands (__main__.LayerTests.test_A_P04L_lands) ... ok
+test_A_P04L_planar (__main__.LayerTests.test_A_P04L_planar) ... ok
+test_A_P04L_png (__main__.LayerTests.test_A_P04L_png) ... ok
+test_A_P04L_svg (__main__.LayerTests.test_A_P04L_svg) ... ok
+test_A_P04L_tongue_alignment (__main__.LayerTests.test_A_P04L_tongue_alignment) ... ok
+test_A_P04U_center (__main__.LayerTests.test_A_P04U_center) ... ok
+test_A_P04U_dxf (__main__.LayerTests.test_A_P04U_dxf) ... ok
+test_A_P04U_lands (__main__.LayerTests.test_A_P04U_lands) ... ok
+test_A_P04U_planar (__main__.LayerTests.test_A_P04U_planar) ... ok
+test_A_P04U_png (__main__.LayerTests.test_A_P04U_png) ... ok
+test_A_P04U_svg (__main__.LayerTests.test_A_P04U_svg) ... ok
+test_A_P04U_tongue_alignment (__main__.LayerTests.test_A_P04U_tongue_alignment) ... ok
+test_B_P04L_center (__main__.LayerTests.test_B_P04L_center) ... ok
+test_B_P04L_dxf (__main__.LayerTests.test_B_P04L_dxf) ... ok
+test_B_P04L_lands (__main__.LayerTests.test_B_P04L_lands) ... ok
+test_B_P04L_planar (__main__.LayerTests.test_B_P04L_planar) ... ok
+test_B_P04L_png (__main__.LayerTests.test_B_P04L_png) ... ok
+test_B_P04L_svg (__main__.LayerTests.test_B_P04L_svg) ... ok
+test_B_P04L_tongue_alignment (__main__.LayerTests.test_B_P04L_tongue_alignment) ... ok
+test_B_P04U_center (__main__.LayerTests.test_B_P04U_center) ... ok
+test_B_P04U_dxf (__main__.LayerTests.test_B_P04U_dxf) ... ok
+test_B_P04U_lands (__main__.LayerTests.test_B_P04U_lands) ... ok
+test_B_P04U_planar (__main__.LayerTests.test_B_P04U_planar) ... ok
+test_B_P04U_png (__main__.LayerTests.test_B_P04U_png) ... ok
+test_B_P04U_svg (__main__.LayerTests.test_B_P04U_svg) ... ok
+test_B_P04U_tongue_alignment (__main__.LayerTests.test_B_P04U_tongue_alignment) ... ok
+test_C_P04L_center (__main__.LayerTests.test_C_P04L_center) ... ok
+test_C_P04L_dxf (__main__.LayerTests.test_C_P04L_dxf) ... ok
+test_C_P04L_lands (__main__.LayerTests.test_C_P04L_lands) ... ok
+test_C_P04L_planar (__main__.LayerTests.test_C_P04L_planar) ... ok
+test_C_P04L_png (__main__.LayerTests.test_C_P04L_png) ... ok
+test_C_P04L_svg (__main__.LayerTests.test_C_P04L_svg) ... ok
+test_C_P04L_tongue_alignment (__main__.LayerTests.test_C_P04L_tongue_alignment) ... ok
+test_C_P04U_center (__main__.LayerTests.test_C_P04U_center) ... ok
+test_C_P04U_dxf (__main__.LayerTests.test_C_P04U_dxf) ... ok
+test_C_P04U_lands (__main__.LayerTests.test_C_P04U_lands) ... ok
+test_C_P04U_planar (__main__.LayerTests.test_C_P04U_planar) ... ok
+test_C_P04U_png (__main__.LayerTests.test_C_P04U_png) ... ok
+test_C_P04U_svg (__main__.LayerTests.test_C_P04U_svg) ... ok
+test_C_P04U_tongue_alignment (__main__.LayerTests.test_C_P04U_tongue_alignment) ... ok
+test_A_disk_paths (__main__.VariantTests.test_A_disk_paths) ... ok
+test_A_final_solids (__main__.VariantTests.test_A_final_solids) ... ok
+test_A_glb (__main__.VariantTests.test_A_glb) ... ok
+test_A_mating (__main__.VariantTests.test_A_mating) ... ok
+test_A_negatives (__main__.VariantTests.test_A_negatives) ... ok
+test_A_rejected_orders (__main__.VariantTests.test_A_rejected_orders) ... ok
+test_A_witness_paths (__main__.VariantTests.test_A_witness_paths) ... ok
+test_B_disk_paths (__main__.VariantTests.test_B_disk_paths) ... ok
+test_B_final_solids (__main__.VariantTests.test_B_final_solids) ... ok
+test_B_glb (__main__.VariantTests.test_B_glb) ... ok
+test_B_mating (__main__.VariantTests.test_B_mating) ... ok
+test_B_negatives (__main__.VariantTests.test_B_negatives) ... ok
+test_B_rejected_orders (__main__.VariantTests.test_B_rejected_orders) ... ok
+test_B_witness_paths (__main__.VariantTests.test_B_witness_paths) ... ok
+test_C_disk_paths (__main__.VariantTests.test_C_disk_paths) ... ok
+test_C_final_solids (__main__.VariantTests.test_C_final_solids) ... ok
+test_C_glb (__main__.VariantTests.test_C_glb) ... ok
+test_C_mating (__main__.VariantTests.test_C_mating) ... ok
+test_C_negatives (__main__.VariantTests.test_C_negatives) ... ok
+test_C_rejected_orders (__main__.VariantTests.test_C_rejected_orders) ... ok
+test_C_witness_paths (__main__.VariantTests.test_C_witness_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 71 tests in 12.802s
+
+OK
+test_A_COMPACT_CLOSED_B04_envelope_and_engagement (__main__.ConnectorTests.test_A_COMPACT_CLOSED_B04_envelope_and_engagement) ... ok
+test_A_COMPACT_CLOSED_PNG_ink_geometry_units_and_sheet (__main__.ConnectorTests.test_A_COMPACT_CLOSED_PNG_ink_geometry_units_and_sheet) ... ok
+test_A_COMPACT_CLOSED_Y_first_continuous_all_eighteen_stages (__main__.ConnectorTests.test_A_COMPACT_CLOSED_Y_first_continuous_all_eighteen_stages) ... ok
+test_A_COMPACT_CLOSED_Y_one_piece_and_residual_necks (__main__.ConnectorTests.test_A_COMPACT_CLOSED_Y_one_piece_and_residual_necks) ... ok
+test_A_COMPACT_CLOSED_all_final_solid_intersections (__main__.ConnectorTests.test_A_COMPACT_CLOSED_all_final_solid_intersections) ... ok
+test_A_COMPACT_CLOSED_land_web_S4_and_upper_envelopes (__main__.ConnectorTests.test_A_COMPACT_CLOSED_land_web_S4_and_upper_envelopes) ... ok
+test_A_COMPACT_CLOSED_old_B_mortises_and_tongues_unchanged (__main__.ConnectorTests.test_A_COMPACT_CLOSED_old_B_mortises_and_tongues_unchanged) ... ok
+test_A_COMPACT_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass (__main__.ConnectorTests.test_A_COMPACT_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass) ... ok
+test_A_COMPACT_CLOSED_real_DXF_SVG_path_equality (__main__.ConnectorTests.test_A_COMPACT_CLOSED_real_DXF_SVG_path_equality) ... ok
+test_A_COMPACT_CLOSED_simultaneous_central_Y_paths_blocked (__main__.ConnectorTests.test_A_COMPACT_CLOSED_simultaneous_central_Y_paths_blocked) ... ok
+test_A_COMPACT_CLOSED_source_rebuild_and_layout_consistency (__main__.ConnectorTests.test_A_COMPACT_CLOSED_source_rebuild_and_layout_consistency) ... ok
+test_A_COMPACT_CLOSED_three_identical_arms_and_six_cheeks (__main__.ConnectorTests.test_A_COMPACT_CLOSED_three_identical_arms_and_six_cheeks) ... ok
+test_A_COMPACT_CLOSED_valid_unique_contours (__main__.ConnectorTests.test_A_COMPACT_CLOSED_valid_unique_contours) ... ok
+test_BOM_nineteen_no_hidden_parts (__main__.ConnectorTests.test_BOM_nineteen_no_hidden_parts) ... ok
+test_B_DUAL_CLOSED_B04_envelope_and_engagement (__main__.ConnectorTests.test_B_DUAL_CLOSED_B04_envelope_and_engagement) ... ok
+test_B_DUAL_CLOSED_PNG_ink_geometry_units_and_sheet (__main__.ConnectorTests.test_B_DUAL_CLOSED_PNG_ink_geometry_units_and_sheet) ... ok
+test_B_DUAL_CLOSED_Y_first_continuous_all_eighteen_stages (__main__.ConnectorTests.test_B_DUAL_CLOSED_Y_first_continuous_all_eighteen_stages) ... ok
+test_B_DUAL_CLOSED_Y_one_piece_and_residual_necks (__main__.ConnectorTests.test_B_DUAL_CLOSED_Y_one_piece_and_residual_necks) ... ok
+test_B_DUAL_CLOSED_all_final_solid_intersections (__main__.ConnectorTests.test_B_DUAL_CLOSED_all_final_solid_intersections) ... ok
+test_B_DUAL_CLOSED_land_web_S4_and_upper_envelopes (__main__.ConnectorTests.test_B_DUAL_CLOSED_land_web_S4_and_upper_envelopes) ... ok
+test_B_DUAL_CLOSED_old_B_mortises_and_tongues_unchanged (__main__.ConnectorTests.test_B_DUAL_CLOSED_old_B_mortises_and_tongues_unchanged) ... ok
+test_B_DUAL_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass (__main__.ConnectorTests.test_B_DUAL_CLOSED_prebuilt_paths_have_real_obstruction_or_C_pass) ... ok
+test_B_DUAL_CLOSED_real_DXF_SVG_path_equality (__main__.ConnectorTests.test_B_DUAL_CLOSED_real_DXF_SVG_path_equality) ... ok
+test_B_DUAL_CLOSED_simultaneous_central_Y_paths_blocked (__main__.ConnectorTests.test_B_DUAL_CLOSED_simultaneous_central_Y_paths_blocked) ... ok
+test_B_DUAL_CLOSED_source_rebuild_and_layout_consistency (__main__.ConnectorTests.test_B_DUAL_CLOSED_source_rebuild_and_layout_consistency) ... ok
+test_B_DUAL_CLOSED_three_identical_arms_and_six_cheeks (__main__.ConnectorTests.test_B_DUAL_CLOSED_three_identical_arms_and_six_cheeks) ... ok
+test_B_DUAL_CLOSED_valid_unique_contours (__main__.ConnectorTests.test_B_DUAL_CLOSED_valid_unique_contours) ... ok
+test_C_OPEN_REMOVABLE_B04_envelope_and_engagement (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_B04_envelope_and_engagement) ... ok
+test_C_OPEN_REMOVABLE_PNG_ink_geometry_units_and_sheet (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_PNG_ink_geometry_units_and_sheet) ... ok
+test_C_OPEN_REMOVABLE_Y_first_continuous_all_eighteen_stages (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_Y_first_continuous_all_eighteen_stages) ... ok
+test_C_OPEN_REMOVABLE_Y_one_piece_and_residual_necks (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_Y_one_piece_and_residual_necks) ... ok
+test_C_OPEN_REMOVABLE_all_final_solid_intersections (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_all_final_solid_intersections) ... ok
+test_C_OPEN_REMOVABLE_land_web_S4_and_upper_envelopes (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_land_web_S4_and_upper_envelopes) ... ok
+test_C_OPEN_REMOVABLE_old_B_mortises_and_tongues_unchanged (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_old_B_mortises_and_tongues_unchanged) ... ok
+test_C_OPEN_REMOVABLE_prebuilt_paths_have_real_obstruction_or_C_pass (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_prebuilt_paths_have_real_obstruction_or_C_pass) ... ok
+test_C_OPEN_REMOVABLE_real_DXF_SVG_path_equality (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_real_DXF_SVG_path_equality) ... ok
+test_C_OPEN_REMOVABLE_simultaneous_central_Y_paths_blocked (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_simultaneous_central_Y_paths_blocked) ... ok
+test_C_OPEN_REMOVABLE_source_rebuild_and_layout_consistency (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_source_rebuild_and_layout_consistency) ... ok
+test_C_OPEN_REMOVABLE_three_identical_arms_and_six_cheeks (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_three_identical_arms_and_six_cheeks) ... ok
+test_C_OPEN_REMOVABLE_valid_unique_contours (__main__.ConnectorTests.test_C_OPEN_REMOVABLE_valid_unique_contours) ... ok
+test_actual_source_selections_and_frozen_inputs (__main__.ConnectorTests.test_actual_source_selections_and_frozen_inputs) ... ok
+test_all_three_joinery_geometries_differ (__main__.ConnectorTests.test_all_three_joinery_geometries_differ) ... ok
+test_full_GLTF_nineteen_watertight (__main__.ConnectorTests.test_full_GLTF_nineteen_watertight) ... ok
+test_negative_94_tip_fails_envelope (__main__.ConnectorTests.test_negative_94_tip_fails_envelope) ... ok
+test_negative_lost_arm_web (__main__.ConnectorTests.test_negative_lost_arm_web) ... ok
+test_negative_shifted_Y_holes_collides (__main__.ConnectorTests.test_negative_shifted_Y_holes_collides) ... ok
+test_negative_thick_Y_plate (__main__.ConnectorTests.test_negative_thick_Y_plate) ... ok
+test_negative_wrong_cheek_sweep_direction_collides (__main__.ConnectorTests.test_negative_wrong_cheek_sweep_direction_collides) ... ok
+test_negative_zero_thickness (__main__.ConnectorTests.test_negative_zero_thickness) ... ok
+test_no_physical_measurements_invented (__main__.ConnectorTests.test_no_physical_measurements_invented) ... ok
+test_upstream_full_byte_preservation (__main__.ConnectorTests.test_upstream_full_byte_preservation) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 9.178s
+
+OK
+test_A_KEYED_HEAD_PNG_real_geometry_and_scale (__main__.SpacerTests.test_A_KEYED_HEAD_PNG_real_geometry_and_scale) ... ok
+test_A_KEYED_HEAD_double_C_web_or_single_B_slot (__main__.SpacerTests.test_A_KEYED_HEAD_double_C_web_or_single_B_slot) ... ok
+test_A_KEYED_HEAD_dxf_svg_equality (__main__.SpacerTests.test_A_KEYED_HEAD_dxf_svg_equality) ... ok
+test_A_KEYED_HEAD_exported_part_paths (__main__.SpacerTests.test_A_KEYED_HEAD_exported_part_paths) ... ok
+test_A_KEYED_HEAD_land_screen (__main__.SpacerTests.test_A_KEYED_HEAD_land_screen) ... ok
+test_A_KEYED_HEAD_local_sweep_or_explicit_blocker (__main__.SpacerTests.test_A_KEYED_HEAD_local_sweep_or_explicit_blocker) ... ok
+test_A_KEYED_HEAD_mortises_closed_and_external_unchanged (__main__.SpacerTests.test_A_KEYED_HEAD_mortises_closed_and_external_unchanged) ... ok
+test_A_KEYED_HEAD_nominal_solid_collision_free (__main__.SpacerTests.test_A_KEYED_HEAD_nominal_solid_collision_free) ... ok
+test_A_KEYED_HEAD_sheet_envelope_and_radius_screen (__main__.SpacerTests.test_A_KEYED_HEAD_sheet_envelope_and_radius_screen) ... ok
+test_A_KEYED_HEAD_source_rebuild_matches_export (__main__.SpacerTests.test_A_KEYED_HEAD_source_rebuild_matches_export) ... ok
+test_A_KEYED_HEAD_three_standard_parts_identical (__main__.SpacerTests.test_A_KEYED_HEAD_three_standard_parts_identical) ... ok
+test_BOM_exact_twelve_and_six (__main__.SpacerTests.test_BOM_exact_twelve_and_six) ... ok
+test_B_THROUGH_ADHESIVE_PNG_real_geometry_and_scale (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_PNG_real_geometry_and_scale) ... ok
+test_B_THROUGH_ADHESIVE_double_C_web_or_single_B_slot (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_double_C_web_or_single_B_slot) ... ok
+test_B_THROUGH_ADHESIVE_dxf_svg_equality (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_dxf_svg_equality) ... ok
+test_B_THROUGH_ADHESIVE_exported_part_paths (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_exported_part_paths) ... ok
+test_B_THROUGH_ADHESIVE_land_screen (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_land_screen) ... ok
+test_B_THROUGH_ADHESIVE_local_sweep_or_explicit_blocker (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_local_sweep_or_explicit_blocker) ... ok
+test_B_THROUGH_ADHESIVE_mortises_closed_and_external_unchanged (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_mortises_closed_and_external_unchanged) ... ok
+test_B_THROUGH_ADHESIVE_nominal_solid_collision_free (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_nominal_solid_collision_free) ... ok
+test_B_THROUGH_ADHESIVE_sheet_envelope_and_radius_screen (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_sheet_envelope_and_radius_screen) ... ok
+test_B_THROUGH_ADHESIVE_source_rebuild_matches_export (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_source_rebuild_matches_export) ... ok
+test_B_THROUGH_ADHESIVE_three_standard_parts_identical (__main__.SpacerTests.test_B_THROUGH_ADHESIVE_three_standard_parts_identical) ... ok
+test_C_ASYMMETRIC_PNG_real_geometry_and_scale (__main__.SpacerTests.test_C_ASYMMETRIC_PNG_real_geometry_and_scale) ... ok
+test_C_ASYMMETRIC_double_C_web_or_single_B_slot (__main__.SpacerTests.test_C_ASYMMETRIC_double_C_web_or_single_B_slot) ... ok
+test_C_ASYMMETRIC_dxf_svg_equality (__main__.SpacerTests.test_C_ASYMMETRIC_dxf_svg_equality) ... ok
+test_C_ASYMMETRIC_exported_part_paths (__main__.SpacerTests.test_C_ASYMMETRIC_exported_part_paths) ... ok
+test_C_ASYMMETRIC_land_screen (__main__.SpacerTests.test_C_ASYMMETRIC_land_screen) ... ok
+test_C_ASYMMETRIC_local_sweep_or_explicit_blocker (__main__.SpacerTests.test_C_ASYMMETRIC_local_sweep_or_explicit_blocker) ... ok
+test_C_ASYMMETRIC_mortises_closed_and_external_unchanged (__main__.SpacerTests.test_C_ASYMMETRIC_mortises_closed_and_external_unchanged) ... ok
+test_C_ASYMMETRIC_nominal_solid_collision_free (__main__.SpacerTests.test_C_ASYMMETRIC_nominal_solid_collision_free) ... ok
+test_C_ASYMMETRIC_sheet_envelope_and_radius_screen (__main__.SpacerTests.test_C_ASYMMETRIC_sheet_envelope_and_radius_screen) ... ok
+test_C_ASYMMETRIC_source_rebuild_matches_export (__main__.SpacerTests.test_C_ASYMMETRIC_source_rebuild_matches_export) ... ok
+test_C_ASYMMETRIC_three_standard_parts_identical (__main__.SpacerTests.test_C_ASYMMETRIC_three_standard_parts_identical) ... ok
+test_GLTF_matches_final_solid_volumes (__main__.SpacerTests.test_GLTF_matches_final_solid_volumes) ... ok
+test_hypothetical_stock_sensitivity_is_not_fit_approval (__main__.SpacerTests.test_hypothetical_stock_sensitivity_is_not_fit_approval) ... ok
+test_layout_components_do_not_overlap (__main__.SpacerTests.test_layout_components_do_not_overlap) ... ok
+test_negative_forced_spacer_overlap (__main__.SpacerTests.test_negative_forced_spacer_overlap) ... ok
+test_negative_missing_C_spare_hole_breaks_interchangeability (__main__.SpacerTests.test_negative_missing_C_spare_hole_breaks_interchangeability) ... ok
+test_negative_reverse_insertion_collides (__main__.SpacerTests.test_negative_reverse_insertion_collides) ... ok
+test_negative_shifted_mortises_fail (__main__.SpacerTests.test_negative_shifted_mortises_fail) ... ok
+test_negative_thick_stock_causes_collision (__main__.SpacerTests.test_negative_thick_stock_causes_collision) ... ok
+test_negative_zero_web_rejected (__main__.SpacerTests.test_negative_zero_web_rejected) ... ok
+test_no_extra_key_parts_or_measured_claims (__main__.SpacerTests.test_no_extra_key_parts_or_measured_claims) ... ok
+test_no_slots_in_ring_Y_tongue_foot (__main__.SpacerTests.test_no_slots_in_ring_Y_tongue_foot) ... ok
+test_nominal_shoulders_have_bearing_contact (__main__.SpacerTests.test_nominal_shoulders_have_bearing_contact) ... ok
+test_original_upstream_bytes_unchanged (__main__.SpacerTests.test_original_upstream_bytes_unchanged) ... ok
+test_reinforcement_by_geometry_only (__main__.SpacerTests.test_reinforcement_by_geometry_only) ... ok
+test_ring_relocation_and_bypass_quantified (__main__.SpacerTests.test_ring_relocation_and_bypass_quantified) ... ok
+test_schema_rejects_zero_thickness (__main__.SpacerTests.test_schema_rejects_zero_thickness) ... ok
+test_six_identical_cheeks_and_nominal_gap (__main__.SpacerTests.test_six_identical_cheeks_and_nominal_gap) ... ok
+test_working_GLTF_six_watertight_parts (__main__.SpacerTests.test_working_GLTF_six_watertight_parts) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 3.898s
+
+OK
+test_FLARED_CURVE_actual_ground_support_projection (__main__.GeometryTests.test_FLARED_CURVE_actual_ground_support_projection) ... ok
+test_FLARED_CURVE_bare_cheek_footprints_do_not_intersect (__main__.GeometryTests.test_FLARED_CURVE_bare_cheek_footprints_do_not_intersect) ... ok
+test_FLARED_CURVE_bottom_skin_nominal_allowance_only (__main__.GeometryTests.test_FLARED_CURVE_bottom_skin_nominal_allowance_only) ... ok
+test_FLARED_CURVE_closed (__main__.GeometryTests.test_FLARED_CURVE_closed) ... ok
+test_FLARED_CURVE_dxf_round_trip (__main__.GeometryTests.test_FLARED_CURVE_dxf_round_trip) ... ok
+test_FLARED_CURVE_geometric_corner_radius_screen (__main__.GeometryTests.test_FLARED_CURVE_geometric_corner_radius_screen) ... ok
+test_FLARED_CURVE_ground_and_top_elevations (__main__.GeometryTests.test_FLARED_CURVE_ground_and_top_elevations) ... ok
+test_FLARED_CURVE_no_degenerates (__main__.GeometryTests.test_FLARED_CURVE_no_degenerates) ... ok
+test_FLARED_CURVE_no_microscopic_necks (__main__.GeometryTests.test_FLARED_CURVE_no_microscopic_necks) ... ok
+test_FLARED_CURVE_png_actual_contour_and_scale (__main__.GeometryTests.test_FLARED_CURVE_png_actual_contour_and_scale) ... ok
+test_FLARED_CURVE_rebuild_source_matches_exports (__main__.GeometryTests.test_FLARED_CURVE_rebuild_source_matches_exports) ... ok
+test_FLARED_CURVE_reservations_are_material_not_slots (__main__.GeometryTests.test_FLARED_CURVE_reservations_are_material_not_slots) ... ok
+test_FLARED_CURVE_single_part_sheet_margin (__main__.GeometryTests.test_FLARED_CURVE_single_part_sheet_margin) ... ok
+test_FLARED_CURVE_six_identical_transformed_instances (__main__.GeometryTests.test_FLARED_CURVE_six_identical_transformed_instances) ... ok
+test_FLARED_CURVE_svg_round_trip (__main__.GeometryTests.test_FLARED_CURVE_svg_round_trip) ... ok
+test_FLARED_CURVE_tangential_gap_and_thickness (__main__.GeometryTests.test_FLARED_CURVE_tangential_gap_and_thickness) ... ok
+test_FLARED_CURVE_tongue_disc_sections_only (__main__.GeometryTests.test_FLARED_CURVE_tongue_disc_sections_only) ... ok
+test_FLARED_CURVE_upper_envelope_and_Y (__main__.GeometryTests.test_FLARED_CURVE_upper_envelope_and_Y) ... ok
+test_GEOMETRIC_actual_ground_support_projection (__main__.GeometryTests.test_GEOMETRIC_actual_ground_support_projection) ... ok
+test_GEOMETRIC_bare_cheek_footprints_do_not_intersect (__main__.GeometryTests.test_GEOMETRIC_bare_cheek_footprints_do_not_intersect) ... ok
+test_GEOMETRIC_bottom_skin_nominal_allowance_only (__main__.GeometryTests.test_GEOMETRIC_bottom_skin_nominal_allowance_only) ... ok
+test_GEOMETRIC_closed (__main__.GeometryTests.test_GEOMETRIC_closed) ... ok
+test_GEOMETRIC_dxf_round_trip (__main__.GeometryTests.test_GEOMETRIC_dxf_round_trip) ... ok
+test_GEOMETRIC_geometric_corner_radius_screen (__main__.GeometryTests.test_GEOMETRIC_geometric_corner_radius_screen) ... ok
+test_GEOMETRIC_ground_and_top_elevations (__main__.GeometryTests.test_GEOMETRIC_ground_and_top_elevations) ... ok
+test_GEOMETRIC_no_degenerates (__main__.GeometryTests.test_GEOMETRIC_no_degenerates) ... ok
+test_GEOMETRIC_no_microscopic_necks (__main__.GeometryTests.test_GEOMETRIC_no_microscopic_necks) ... ok
+test_GEOMETRIC_png_actual_contour_and_scale (__main__.GeometryTests.test_GEOMETRIC_png_actual_contour_and_scale) ... ok
+test_GEOMETRIC_rebuild_source_matches_exports (__main__.GeometryTests.test_GEOMETRIC_rebuild_source_matches_exports) ... ok
+test_GEOMETRIC_reservations_are_material_not_slots (__main__.GeometryTests.test_GEOMETRIC_reservations_are_material_not_slots) ... ok
+test_GEOMETRIC_single_part_sheet_margin (__main__.GeometryTests.test_GEOMETRIC_single_part_sheet_margin) ... ok
+test_GEOMETRIC_six_identical_transformed_instances (__main__.GeometryTests.test_GEOMETRIC_six_identical_transformed_instances) ... ok
+test_GEOMETRIC_svg_round_trip (__main__.GeometryTests.test_GEOMETRIC_svg_round_trip) ... ok
+test_GEOMETRIC_tangential_gap_and_thickness (__main__.GeometryTests.test_GEOMETRIC_tangential_gap_and_thickness) ... ok
+test_GEOMETRIC_tongue_disc_sections_only (__main__.GeometryTests.test_GEOMETRIC_tongue_disc_sections_only) ... ok
+test_GEOMETRIC_upper_envelope_and_Y (__main__.GeometryTests.test_GEOMETRIC_upper_envelope_and_Y) ... ok
+test_SOFT_CURVE_actual_ground_support_projection (__main__.GeometryTests.test_SOFT_CURVE_actual_ground_support_projection) ... ok
+test_SOFT_CURVE_bare_cheek_footprints_do_not_intersect (__main__.GeometryTests.test_SOFT_CURVE_bare_cheek_footprints_do_not_intersect) ... ok
+test_SOFT_CURVE_bottom_skin_nominal_allowance_only (__main__.GeometryTests.test_SOFT_CURVE_bottom_skin_nominal_allowance_only) ... ok
+test_SOFT_CURVE_closed (__main__.GeometryTests.test_SOFT_CURVE_closed) ... ok
+test_SOFT_CURVE_dxf_round_trip (__main__.GeometryTests.test_SOFT_CURVE_dxf_round_trip) ... ok
+test_SOFT_CURVE_geometric_corner_radius_screen (__main__.GeometryTests.test_SOFT_CURVE_geometric_corner_radius_screen) ... ok
+test_SOFT_CURVE_ground_and_top_elevations (__main__.GeometryTests.test_SOFT_CURVE_ground_and_top_elevations) ... ok
+test_SOFT_CURVE_no_degenerates (__main__.GeometryTests.test_SOFT_CURVE_no_degenerates) ... ok
+test_SOFT_CURVE_no_microscopic_necks (__main__.GeometryTests.test_SOFT_CURVE_no_microscopic_necks) ... ok
+test_SOFT_CURVE_png_actual_contour_and_scale (__main__.GeometryTests.test_SOFT_CURVE_png_actual_contour_and_scale) ... ok
+test_SOFT_CURVE_rebuild_source_matches_exports (__main__.GeometryTests.test_SOFT_CURVE_rebuild_source_matches_exports) ... ok
+test_SOFT_CURVE_reservations_are_material_not_slots (__main__.GeometryTests.test_SOFT_CURVE_reservations_are_material_not_slots) ... ok
+test_SOFT_CURVE_single_part_sheet_margin (__main__.GeometryTests.test_SOFT_CURVE_single_part_sheet_margin) ... ok
+test_SOFT_CURVE_six_identical_transformed_instances (__main__.GeometryTests.test_SOFT_CURVE_six_identical_transformed_instances) ... ok
+test_SOFT_CURVE_svg_round_trip (__main__.GeometryTests.test_SOFT_CURVE_svg_round_trip) ... ok
+test_SOFT_CURVE_tangential_gap_and_thickness (__main__.GeometryTests.test_SOFT_CURVE_tangential_gap_and_thickness) ... ok
+test_SOFT_CURVE_tongue_disc_sections_only (__main__.GeometryTests.test_SOFT_CURVE_tongue_disc_sections_only) ... ok
+test_SOFT_CURVE_upper_envelope_and_Y (__main__.GeometryTests.test_SOFT_CURVE_upper_envelope_and_Y) ... ok
+test_alternatives_genuinely_different (__main__.GeometryTests.test_alternatives_genuinely_different) ... ok
+test_common_parameter_schema (__main__.GeometryTests.test_common_parameter_schema) ... ok
+test_invalid_self_intersection_rejected (__main__.GeometryTests.test_invalid_self_intersection_rejected) ... ok
+test_known_Y_mismatch_remains_open (__main__.GeometryTests.test_known_Y_mismatch_remains_open) ... ok
+test_no_baseline_byte_changes (__main__.GeometryTests.test_no_baseline_byte_changes) ... ok
+test_oversize_fillet_rejected (__main__.GeometryTests.test_oversize_fillet_rejected) ... ok
+test_status_and_no_dependent_cutouts (__main__.GeometryTests.test_status_and_no_dependent_cutouts) ... ok
+
+----------------------------------------------------------------------
+Ran 61 tests in 0.884s
+
+OK
+PASS overall_height_sum
+PASS stack_intervals
+PASS core_height_38
+PASS parallel_leg_thickness
+PASS cheek_offsets_and_gap
+PASS three_legs_120
+PASS six_identical_cheeks
+PASS twelve_spacers
+PASS skin_diameter_342
+PASS rim_perimeter_computed
+PASS rim_requires_segmentation
+PASS sheet_dimensions_portrait
+PASS sheet_array_height_first
+PASS rim_segment_count_for_800
+PASS anchor_z_contained
+PASS tongue_upper_clearance
+PASS Y_outside_tabletop
+PASS interface_ids_unique
+PASS interface_ids_complete
+PASS no_production_claim
+PASS legacy_V_not_current
+PASS part_ids_unique
+PASS part_counts_six_cheeks
+PASS part_counts_twelve_spacers
+PASS provisional_Y_overhang_flag
+Summary: 25 / 25 data checks passed
+PASS manifest_inventory_15
+PASS source_bytes_unchanged
+PASS parameter_schema
+PASS baseline_versions
+PASS interface_inventory_14
+PASS open_issue_inventory_13
+PASS critical_blockers_retained
+PASS interface_party_references
+PASS all_parts_referenced
+PASS no_interface_approval_upgrade
+PASS portrait_sheet
+PASS no_active_900_numeric_setting
+PASS svg_parseable
+PASS png_signature
+PASS no_legacy_cad_import
+Summary: 15 / 15 import checks passed
