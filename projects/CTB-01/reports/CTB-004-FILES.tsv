@@ -1,0 +1,105 @@
+path	role
+projects/CTB-01/STATUS.md	project status
+projects/CTB-01/parts/P04/.gitignore	review / handoff / delivery documentation
+projects/CTB-01/parts/P04/BOM-v1.csv	two-part candidate BOM
+projects/CTB-01/parts/P04/CTB-005-HANDOFF.md	review / handoff / delivery documentation
+projects/CTB-01/parts/P04/DECISIONS.md	review / handoff / delivery documentation
+projects/CTB-01/parts/P04/README.md	review / handoff / delivery documentation
+projects/CTB-01/parts/P04/assembly/ASSEMBLY-ORDER.md	assembly / exact tongue extraction / sweeps
+projects/CTB-01/parts/P04/assembly/comparison.json	assembly / exact tongue extraction / sweeps
+projects/CTB-01/parts/P04/assembly/proofs.json	assembly / exact tongue extraction / sweeps
+projects/CTB-01/parts/P04/assembly/six-tongues.json	assembly / exact tongue extraction / sweeps
+projects/CTB-01/parts/P04/src/design.json	parametric source / input / provenance
+projects/CTB-01/parts/P04/src/design.schema.json	parametric source / input / provenance
+projects/CTB-01/parts/P04/src/generate.py	parametric source / input / provenance
+projects/CTB-01/parts/P04/src/model.py	parametric source / input / provenance
+projects/CTB-01/parts/P04/src/requirements-qa.txt	parametric source / input / provenance
+projects/CTB-01/parts/P04/src/requirements.txt	parametric source / input / provenance
+projects/CTB-01/parts/P04/src/upstream-sha256.json	parametric source / input / provenance
+projects/CTB-01/parts/P04/tests/README.md	reproducible test or instructions
+projects/CTB-01/parts/P04/tests/independent_occ_review.py	reproducible test or instructions
+projects/CTB-01/parts/P04/tests/run_all.sh	reproducible test or instructions
+projects/CTB-01/parts/P04/tests/test_disks.py	reproducible test or instructions
+projects/CTB-01/parts/P04/variants/A/P04L-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04L.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04L.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04L.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04U-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04U.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04U.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/P04U.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/README.md	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/actual-21-body-DESIGN_ONLY.glb	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/actual-and-exploded.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/connections-and-paths.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/core-and-layer-stack.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/mesh-evidence.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/plans-and-sections.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/plans-and-sections.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/witness-OPEN-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/witness-OPEN.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/witness-OPEN.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/A/witness-OPEN.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04L-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04L.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04L.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04L.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04U-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04U.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04U.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/P04U.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/README.md	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/actual-21-body-DESIGN_ONLY.glb	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/actual-and-exploded.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/connections-and-paths.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/core-and-layer-stack.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/mesh-evidence.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/plans-and-sections.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/plans-and-sections.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/witness-RAIL-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/witness-RAIL.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/witness-RAIL.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/B/witness-RAIL.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04L-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04L.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04L.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04L.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04U-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04U.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04U.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/P04U.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/README.md	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/actual-21-body-DESIGN_ONLY.glb	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/actual-and-exploded.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/connections-and-paths.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/core-and-layer-stack.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/mesh-evidence.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/plans-and-sections.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/plans-and-sections.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-OPEN-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-OPEN.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-OPEN.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-OPEN.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-RAIL-dimensions.json	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-RAIL.dxf	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-RAIL.png	variant CAD / drawing / witness / path evidence
+projects/CTB-01/parts/P04/variants/C/witness-RAIL.svg	variant CAD / drawing / witness / path evidence
+projects/CTB-01/reports/CTB-004-DELIVERY.md	review / handoff / delivery documentation
+projects/CTB-01/reports/CTB-004-DESIGN-REVIEW.md	review / handoff / delivery documentation
+projects/CTB-01/reports/CTB-004-FILES.tsv	review / handoff / delivery documentation
+projects/CTB-01/reports/CTB-004-INDEPENDENT-QA.md	review / handoff / delivery documentation
+projects/CTB-01/reports/CTB-004-INTERFACE-MATRIX.md	review / handoff / delivery documentation
+projects/CTB-01/reports/CTB-004-VALIDATION.md	review / handoff / delivery documentation
+projects/CTB-01/reports/CTB-004-logs/clean-reproduction-all-suites.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/generation-clean.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/generation-initial.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-contract.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-import.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-occ-results.json	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-occ.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-p01.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-p02.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-p03.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/independent-p04.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/tests-initial-22-failures.log	preserved execution evidence
+projects/CTB-01/reports/CTB-004-logs/tests-repair1.log	preserved execution evidence

@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "project",
+    "task",
+    "release",
+    "source_commit",
+    "approved_sources",
+    "disk_diameter_mm",
+    "thickness_mm",
+    "layers_z_mm",
+    "tongue_allowance_radial_each_side_mm",
+    "tongue_allowance_t_each_side_mm",
+    "tongue_slot_corner_radius_mm",
+    "web_slot_width_mm",
+    "web_thickness_mm",
+    "open_start_r_mm",
+    "rail_cut_r_mm",
+    "open_witness_relief_rz_mm",
+    "rail_r_mm",
+    "outer_web_start_r_mm",
+    "bridge_rz_mm",
+    "web_range_r_mm",
+    "web_range_z_mm",
+    "center_study_diameters_mm",
+    "center_assumed_probe_diameter_mm",
+    "variants",
+    "path_start_bottom_z_mm",
+    "web_radial_stroke_mm",
+    "sheet_hw_mm",
+    "sheet_margin_mm",
+    "raster_dpi",
+    "circle_segments",
+    "epsilon_mm3",
+    "measured_material_thickness_mm",
+    "measured_kerf_mm",
+    "relevant_interfaces"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "project": {
+      "const": "CTB-01"
+    },
+    "task": {
+      "const": "CTB-004"
+    },
+    "release": {
+      "const": "DESIGN_ONLY"
+    },
+    "source_commit": {
+      "const": "f49e3b3be73b7d474302823cc9072148319c8f67"
+    },
+    "approved_sources": {
+      "const": [
+        "SOFT_CURVE",
+        "B_THROUGH_ADHESIVE",
+        "A_COMPACT_CLOSED",
+        "Y_FIRST"
+      ]
+    },
+    "disk_diameter_mm": {
+      "const": 190
+    },
+    "thickness_mm": {
+      "const": 6
+    },
+    "layers_z_mm": {
+      "const": {
+        "P04L": [
+          456,
+          462
+        ],
+        "P04U": [
+          480,
+          486
+        ]
+      }
+    },
+    "tongue_allowance_radial_each_side_mm": {
+      "const": 0.2
+    },
+    "tongue_allowance_t_each_side_mm": {
+      "const": 0.1
+    },
+    "tongue_slot_corner_radius_mm": {
+      "const": 0.2
+    },
+    "web_slot_width_mm": {
+      "const": 6.4
+    },
+    "web_thickness_mm": {
+      "const": 6
+    },
+    "open_start_r_mm": {
+      "const": {
+        "P04L": 80.8,
+        "P04U": 82.8
+      }
+    },
+    "rail_cut_r_mm": {
+      "const": {
+        "P04L": [
+          81.3,
+          88.7
+        ],
+        "P04U": [
+          81.8,
+          88.2
+        ]
+      }
+    },
+    "open_witness_relief_rz_mm": {
+      "const": [
+        81,
+        479.8,
+        83,
+        486.2
+      ]
+    },
+    "rail_r_mm": {
+      "const": [
+        82,
+        88
+      ]
+    },
+    "outer_web_start_r_mm": {
+      "const": 95.4
+    },
+    "bridge_rz_mm": {
+      "const": [
+        81,
+        466,
+        95.4,
+        472
+      ]
+    },
+    "web_range_r_mm": {
+      "const": [
+        81,
+        169
+      ]
+    },
+    "web_range_z_mm": {
+      "const": [
+        456,
+        494
+      ]
+    },
+    "center_study_diameters_mm": {
+      "const": [
+        0,
+        24,
+        36
+      ]
+    },
+    "center_assumed_probe_diameter_mm": {
+      "const": 20
+    },
+    "variants": {
+      "const": {
+        "A": {
+          "name": "A_RIM_OPEN",
+          "upper_center_diameter_mm": 0
+        },
+        "B": {
+          "name": "B_CLOSED_RAIL",
+          "upper_center_diameter_mm": 0
+        },
+        "C": {
+          "name": "C_MIXED_ACCESS",
+          "upper_center_diameter_mm": 24
+        }
+      }
+    },
+    "path_start_bottom_z_mm": {
+      "const": 520
+    },
+    "web_radial_stroke_mm": {
+      "const": 100
+    },
+    "sheet_hw_mm": {
+      "const": [
+        800,
+        440
+      ]
+    },
+    "sheet_margin_mm": {
+      "const": 10
+    },
+    "raster_dpi": {
+      "const": 96
+    },
+    "circle_segments": {
+      "const": 360
+    },
+    "epsilon_mm3": {
+      "const": 1e-06
+    },
+    "measured_material_thickness_mm": {
+      "const": null
+    },
+    "measured_kerf_mm": {
+      "const": null
+    },
+    "relevant_interfaces": {
+      "const": [
+        "IF-03",
+        "IF-04",
+        "IF-05",
+        "IF-06",
+        "IF-08",
+        "IF-12",
+        "IF-13"
+      ]
+    }
+  }
+}

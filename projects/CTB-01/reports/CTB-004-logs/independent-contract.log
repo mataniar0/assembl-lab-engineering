@@ -1,0 +1,26 @@
+PASS overall_height_sum
+PASS stack_intervals
+PASS core_height_38
+PASS parallel_leg_thickness
+PASS cheek_offsets_and_gap
+PASS three_legs_120
+PASS six_identical_cheeks
+PASS twelve_spacers
+PASS skin_diameter_342
+PASS rim_perimeter_computed
+PASS rim_requires_segmentation
+PASS sheet_dimensions_portrait
+PASS sheet_array_height_first
+PASS rim_segment_count_for_800
+PASS anchor_z_contained
+PASS tongue_upper_clearance
+PASS Y_outside_tabletop
+PASS interface_ids_unique
+PASS interface_ids_complete
+PASS no_production_claim
+PASS legacy_V_not_current
+PASS part_ids_unique
+PASS part_counts_six_cheeks
+PASS part_counts_twelve_spacers
+PASS provisional_Y_overhang_flag
+Summary: 25 / 25 data checks passed
