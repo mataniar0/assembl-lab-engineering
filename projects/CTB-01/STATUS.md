@@ -110,7 +110,7 @@ Production remains blocked through independent assembly QA and physical tests.
 
 ## CTB-004 — THREE_CANDIDATES_PENDING_LEAD_SELECTION / DESIGN_ONLY
 
-Issue #9, existing branch `codex/ctb-004-anchor-disks`: A_RIM_OPEN, B_CLOSED_RAIL and
+Issue #9, PR #12 for review (unmerged), existing branch `codex/ctb-004-anchor-disks`: A_RIM_OPEN, B_CLOSED_RAIL and
 C_MIXED_ACCESS. Two distinct Ø190×6 disks, L456..462/U480..486, freegap18, pitch24,
 tabletop envelope50mm preserved. Six real tongue holes and six separate web interfaces
 per disk; matching connected38mm web witnesses reserved for CTB-005, not final P05 CAD.

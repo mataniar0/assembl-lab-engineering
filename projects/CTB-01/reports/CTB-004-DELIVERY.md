@@ -1,6 +1,8 @@
 # CTB-004 delivery — Issue #9
 
 2026-10-20. Branch `codex/ctb-004-anchor-disks`; base `f49e3b3be73b7d474302823cc9072148319c8f67`.
+PR for review: https://github.com/mataniar0/assembl-lab-engineering/pull/12
+
 Status **DESIGN_ONLY / PENDING_LEAD_SELECTION**. Three alternatives delivered; recommend
 A_RIM_OPEN without center opening for review only. No merge or physical-cut authorization.
 
