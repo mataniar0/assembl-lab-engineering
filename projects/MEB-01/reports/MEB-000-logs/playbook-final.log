@@ -1,0 +1,6 @@
+$ python engineering-process/tools/validate_playbook.py
+playbook validation: 115/115 checks PASS
+Required documents, checked relative links and policy markers passed. Manual review is still required for policy consistency.
+Scope: documentation integrity only; CAD/real-world validation NOT_RUN.
+
+EXIT_STATUS=0

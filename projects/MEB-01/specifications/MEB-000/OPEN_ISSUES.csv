@@ -1,12 +1,13 @@
 id,severity,finding,blocks_gate,closure_evidence,owner,status
-MEB-B01,CRITICAL,Stock size mismatch: previous project target portrait 800x440 mm vs V8.2.2 nested sheet 900x440 mm,G0/G4,"Confirm intended sheet H/W; re-nest, check dimensions and margin",Owner,OPEN
-MEB-B02,HIGH,README motion 0-110 deg vs audit sweep 0-120 deg,G0/G2,Define required opening and independently reproduce exact swept geometry,Engineering lead,OPEN
+MEB-B01,HIGH,Owner approved HEIGHT800 WIDTH440mm on2026-10-20; legacy6mm layout822x348 does not fit as arranged,G4,Requirement resolved by owner; new separate nesting and machine-margin verification required before release,Owner,OPEN
+MEB-B02,HIGH,Owner approved110deg opening on2026-10-20; required continuous3D opening not verified,G2,Requirement resolved by owner; full solid110deg swept motion/insertion still required,Engineering lead,OPEN
 MEB-B03,HIGH,Actual 6 mm/4 mm plywood thickness and kerf unmeasured for release,G3/G4,Measure material and use fit coupons; do not assume nominal clearance,Physical QA,OPEN
 MEB-B04,HIGH,4 mm living hinge bend resistance and durability not validated,G3/G4,Physical coupon with controlled evaluation; assess revised pattern if needed,Physical QA,OPEN
 MEB-B05,HIGH,Adhesive-only ring foot 192 mm2 geometric overlap is not verified bond strength,G2/G3,Independent load-path review and physical joint assessment,Engineering lead,OPEN
 MEB-B06,HIGH,Hinge axial retention and opening sweep lack independent modern 3D verification,G2,"Model solid parts, insertion, tolerance, motion, withdrawal path",Codex / independent QA,OPEN
-MEB-B07,MAJOR,"Legacy DXF contours, layers, quantities and sheet layouts not independently re-parsed during migration",G0/G1/G4,"Parse actual files, verify units/contours, BOM and nesting from DXF",Independent QA,OPEN
+MEB-B07,MAJOR,"Legacy DXF contours, layers, quantities and sheet layouts not independently re-parsed during migration",G0/G1/G4,"NEW: all17DXFs parsed,20blobs pinned;2D topology and sheet counts verified in MEB-000-geometry.json. G1 physical suitability/new nesting approval still pending",Independent QA,OPEN
 MEB-B08,HIGH,"Assembly order, physical access to bonding and disassembly not verified",G2/G3,Demonstrate continuous feasible 3D insertion and assembly sequence,Engineering lead,OPEN
-MEB-B09,MAJOR,No measured outer finished envelope or coordinate datum approved for new parametric source,G0/G1,Reconstruct measured geometry and approve xyz origin/orientation,Owner / Codex,OPEN
-MEB-B10,HIGH,Legacy V8.1 differs from V8.2.2 interior volume and must not contaminate baseline,G0,Pin V8.2.2 source sha and keep version quarantine,Codex,OPEN
-MEB-B11,MAJOR,"Legacy 56 PASS results are historical assertions, not independent re-run evidence",G0/G1,Record per-case new results and independent QA identity,Independent QA,OPEN
+MEB-B09,MAJOR,No measured outer finished envelope or coordinate datum approved for new parametric source,G0/G1,NEW: body nominal envelope322x77x71 and proposed frame reconstructed; complete finished envelope/datum approval still required,Owner / Codex,OPEN
+MEB-B10,HIGH,Legacy V8.1 differs from V8.2.2 interior volume and must not contaminate baseline,G0,"NEW: all20V8.2.2 blobs verified, separate read-only source; accept evidence at G0 review before administrative closure",Codex,OPEN
+MEB-B11,MAJOR,"Legacy 56 PASS results are historical assertions, not independent re-run evidence",G0/G1,NEW:56legacy indices mapped to49scopedPASS+7NOT_RUN; separate raw-code QA. Full bent-tab/shim/3D claims remain unverified,Independent QA,OPEN
+MEB-B12,HIGH,Lid skin slots leave only0.09975mm nominal shortest exterior web (0.100mm crown coordinate difference); no approved minimum land or kerf disposition,G1/G3/G4,Engineering assessment of all3 curved openings; approved revised proposal if required; measured kerf/material evidence; preserve legacy DXF,Engineering lead / Owner,OPEN

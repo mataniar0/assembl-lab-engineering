@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project_id": "MEB-01",
   "contract_id": "MEB-000",
   "release_scope": "DESIGN_ONLY_G0_DRAFT",
@@ -9,7 +9,8 @@
     "origin": null,
     "axes": null,
     "orientation": "OPEN - to be defined from measured DXF",
-    "sheet_frame": "OPEN - do not reuse CTB-01 axes"
+    "sheet_frame": "OPEN - do not reuse CTB-01 axes",
+    "proposed_frame": "../../proposals/G0-reference/FRAME_AND_LIMITS.md (unapproved inferred registration)"
   },
   "values": [
     {
@@ -17,21 +18,24 @@
       "value": 310,
       "unit": "mm",
       "status": "PROVISIONAL",
-      "basis": "V8.2.2 README / 56-item legacy audit"
+      "basis": "V8.2.2 README / 56-item legacy audit",
+      "independent_2d_evidence": "../../reports/MEB-000-geometry.json; numerical agreement at nominal CAD level only"
     },
     {
       "id": "INNER_WIDTH",
       "value": 65,
       "unit": "mm",
       "status": "PROVISIONAL",
-      "basis": "V8.2.2 README / 56-item legacy audit"
+      "basis": "V8.2.2 README / 56-item legacy audit",
+      "independent_2d_evidence": "../../reports/MEB-000-geometry.json; numerical agreement at nominal CAD level only"
     },
     {
       "id": "INNER_HEIGHT",
       "value": 65,
       "unit": "mm",
       "status": "PROVISIONAL",
-      "basis": "V8.2.2 README / 56-item legacy audit"
+      "basis": "V8.2.2 README / 56-item legacy audit",
+      "independent_2d_evidence": "../../reports/MEB-000-geometry.json; numerical agreement at nominal CAD level only"
     },
     {
       "id": "STRUCTURAL_THICKNESS",
@@ -52,21 +56,24 @@
       "value": 14,
       "unit": "mm",
       "status": "PROVISIONAL",
-      "basis": "V8.2.2 audit + filename"
+      "basis": "V8.2.2 audit + filename",
+      "independent_2d_evidence": "../../reports/MEB-000-geometry.json; numerical agreement at nominal CAD level only"
     },
     {
       "id": "HINGE_BORE_DIAMETER",
       "value": 14.6,
       "unit": "mm",
       "status": "PROVISIONAL",
-      "basis": "V8.2.2 audit radial clearance .30"
+      "basis": "V8.2.2 audit radial clearance .30",
+      "independent_2d_evidence": "../../reports/MEB-000-geometry.json; numerical agreement at nominal CAD level only"
     },
     {
       "id": "HINGE_CAP_DIAMETER",
       "value": 22,
       "unit": "mm",
       "status": "PROVISIONAL",
-      "basis": "V8.2.2 filename"
+      "basis": "V8.2.2 filename",
+      "independent_2d_evidence": "../../reports/MEB-000-geometry.json; numerical agreement at nominal CAD level only"
     },
     {
       "id": "LEGACY_SHEET_HEIGHT",
@@ -84,45 +91,51 @@
     },
     {
       "id": "TARGET_SHEET_HEIGHT",
-      "value": null,
+      "value": 800,
       "unit": "mm",
-      "status": "OPEN",
-      "basis": "historical user 800 mm target, contradicts legacy 900 mm sheet"
+      "status": "FROZEN",
+      "basis": "Owner explicit chat decision2026-10-20:800height x440width mm and110deg; requirement only, not verified performance",
+      "approved_by": "Product owner",
+      "approved_date": "2026-10-20"
     },
     {
       "id": "TARGET_SHEET_WIDTH",
-      "value": null,
+      "value": 440,
       "unit": "mm",
-      "status": "OPEN",
-      "basis": "historical user 440 mm width / re-confirm with owner"
+      "status": "FROZEN",
+      "basis": "Owner explicit chat decision2026-10-20:800height x440width mm and110deg; requirement only, not verified performance",
+      "approved_by": "Product owner",
+      "approved_date": "2026-10-20"
     },
     {
       "id": "OUTSIDE_LENGTH",
       "value": null,
       "unit": "mm",
       "status": "OPEN",
-      "basis": "Reconstruct directly from DXF"
+      "basis": "Complete finished envelope OPEN. Nominal body-only322x77x71 reconstructed from DXF, see FRAME_AND_LIMITS.md; not an approved finished dimension."
     },
     {
       "id": "OUTSIDE_WIDTH",
       "value": null,
       "unit": "mm",
       "status": "OPEN",
-      "basis": "Reconstruct directly from DXF"
+      "basis": "Complete finished envelope OPEN. Nominal body-only322x77x71 reconstructed from DXF, see FRAME_AND_LIMITS.md; not an approved finished dimension."
     },
     {
       "id": "OUTSIDE_HEIGHT",
       "value": null,
       "unit": "mm",
       "status": "OPEN",
-      "basis": "Reconstruct directly from DXF"
+      "basis": "Complete finished envelope OPEN. Nominal body-only322x77x71 reconstructed from DXF, see FRAME_AND_LIMITS.md; not an approved finished dimension."
     },
     {
       "id": "OPENING_ANGLE_REQUIRED",
-      "value": null,
+      "value": 110,
       "unit": "deg",
-      "status": "OPEN",
-      "basis": "README 110 vs audit 120; resolve"
+      "status": "FROZEN",
+      "basis": "Owner explicit chat decision2026-10-20:800height x440width mm and110deg; requirement only, not verified performance",
+      "approved_by": "Product owner",
+      "approved_date": "2026-10-20"
     },
     {
       "id": "MEASURED_KERF",
@@ -145,5 +158,6 @@
       "status": "OPEN",
       "basis": "G3 physical evidence required"
     }
-  ]
+  ],
+  "contract_version": "0.2"
 }

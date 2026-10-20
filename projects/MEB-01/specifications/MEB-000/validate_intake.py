@@ -29,7 +29,15 @@ def validate(parts, interfaces, params, inventory, issues):
     check(params["release_scope"] == "DESIGN_ONLY_G0_DRAFT", "Forbidden release status")
     pids = [p["id"] for p in params["values"]]
     check(len(pids) == len(set(pids)), "Duplicate parameter")
-    check(all(p["status"] in ("PROVISIONAL", "OPEN", "LEGACY_REPORTED") for p in params["values"]), "Unexpected frozen/approved parameter")
+    check(params["coordinate_system"]["units"] == "mm" and params["coordinate_system"]["angle_units"] == "deg", "Coordinate units mismatch")
+    approved_units = {"TARGET_SHEET_HEIGHT": "mm", "TARGET_SHEET_WIDTH": "mm", "OPENING_ANGLE_REQUIRED": "deg"}
+    approved = {"TARGET_SHEET_HEIGHT": 800, "TARGET_SHEET_WIDTH": 440, "OPENING_ANGLE_REQUIRED": 110}
+    check(all(p["status"] in ("PROVISIONAL", "OPEN", "LEGACY_REPORTED") or
+              (p["status"] == "FROZEN" and p["id"] in approved and p["value"] == approved[p["id"]]
+               and p["unit"] == approved_units[p["id"]] and p.get("approved_by") == "Product owner" and p.get("approved_date") == "2026-10-20")
+              for p in params["values"]), "Unexpected frozen/approved parameter")
+    check(all(any(p["id"] == name and p["value"] == value and p["status"] == "FROZEN"
+                  for p in params["values"]) for name, value in approved.items()), "Owner requirement mismatch")
     check(all(p["value"] is None for p in params["values"] if p["status"] == "OPEN"), "Open parameter with a nominal value")
     interfaces_list = interfaces["interfaces"]
     ifids = [x["id"] for x in interfaces_list]
@@ -46,7 +54,7 @@ def validate(parts, interfaces, params, inventory, issues):
     check(sum(f["kind"] == "production" for f in files) == 2, "Expected two legacy nesting sheets")
     check(sum(f["kind"] == "calibration" for f in files) == 1, "Expected one fit coupon")
     issue_ids = [r["id"] for r in issues]
-    check(len(issue_ids) == 11 and len(set(issue_ids)) == 11, "Expected 11 unique blockers")
+    check(set(issue_ids) == {f"MEB-B{i:02d}" for i in range(1, 13)} and len(issue_ids) == 12, "Expected 12 unique blockers")
     check(all(r["status"] == "OPEN" for r in issues), "Blocker closed without proof")
     return errors
 
@@ -79,6 +87,18 @@ def main():
             (parts, interfaces, params, {**inventory, "source_commit_sha": "bad"}, issues),
             (parts, interfaces, params, inventory, issues[:-1])
         ]
+        wrong_stock = copy.deepcopy(params)
+        next(p for p in wrong_stock["values"] if p["id"] == "TARGET_SHEET_HEIGHT")["value"] = 900
+        unapproved_frozen = copy.deepcopy(params)
+        next(p for p in unapproved_frozen["values"] if p["id"] == "INNER_LENGTH")["status"] = "FROZEN"
+        wrong_angle = copy.deepcopy(params)
+        next(p for p in wrong_angle["values"] if p["id"] == "OPENING_ANGLE_REQUIRED")["value"] = 120
+        wrong_unit = copy.deepcopy(params)
+        next(p for p in wrong_unit["values"] if p["id"] == "TARGET_SHEET_HEIGHT")["unit"] = "inch"
+        mutants.append((parts, interfaces, wrong_unit, inventory, issues))
+        mutants.extend([(parts, interfaces, wrong_stock, inventory, issues),
+                        (parts, interfaces, unapproved_frozen, inventory, issues),
+                        (parts, interfaces, wrong_angle, inventory, issues)])
         for i, trial in enumerate(mutants, 1):
             if not validate(*trial):
                 print("FAIL negative control", i)

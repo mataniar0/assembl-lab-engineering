@@ -1,0 +1,683 @@
+{
+  "source_commit": "ebeefe308efaf80329e16e42a84d51557878fd58",
+  "scope": "G0_REFERENCE_ONLY_DESIGN_ONLY",
+  "provenance": [
+    {
+      "path": "megillat_esther_box/v8_2_2/calibration/V8_2_2_RING_PIN_FIT_TEST.dxf",
+      "git_blob_sha": "f4110d593719057834d7d6e100c02b24c1c8573e",
+      "sha256": "c75c8893e90cb6056ffec9e0a2d64050d40dda347368ff838db88fd25f6160d4",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/BODY_RING_6mm.dxf",
+      "git_blob_sha": "389660264b54ab556eef0ac30afccca67cd93d3e",
+      "sha256": "6f46eae030036f2083732cd47a64011f0a1331c7a6f5790d1f30592ec29e8aca",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/BOTTOM_6mm.dxf",
+      "git_blob_sha": "b56c20ff78f54c9d77899362b05e2f37af9d53be",
+      "sha256": "f79a2766f2b3deae63d2e92446ff17fc496d6b1b469a12cd45bf427a788fbbe8",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/END_A_6mm.dxf",
+      "git_blob_sha": "bace1fcb8fbfaf2ef931dc865690d09e9b263fe0",
+      "sha256": "2f80c44ed3e2bcbbeb31fb59f084b230cfaf2103207a61cf63dd4798f9895888",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/END_B_6mm.dxf",
+      "git_blob_sha": "bace1fcb8fbfaf2ef931dc865690d09e9b263fe0",
+      "sha256": "2f80c44ed3e2bcbbeb31fb59f084b230cfaf2103207a61cf63dd4798f9895888",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/FRONT_6mm.dxf",
+      "git_blob_sha": "3b066268d794125ef1e484bdf08c9a11801045c2",
+      "sha256": "e354a6361515639e6845b1c9d1a9004c78d590f8aa127f8aa6d87288277e8af4",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_CENTER_RIB_6mm.dxf",
+      "git_blob_sha": "75b903e7eadccb32c2f5a538ee896cd7e34e9873",
+      "sha256": "a8bdd7b764068d4290ec2fbd31c77f665260802db9761378f7fef53b6a1c3a29",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_END_A_6mm_REINFORCED.dxf",
+      "git_blob_sha": "24727099bb58fb6d34fb5f6da78a243161150533",
+      "sha256": "560d5604c3edc441d918d0f29a9afb472d50f40fae782ad361796b946062d3f5",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_END_B_6mm_REINFORCED.dxf",
+      "git_blob_sha": "24727099bb58fb6d34fb5f6da78a243161150533",
+      "sha256": "560d5604c3edc441d918d0f29a9afb472d50f40fae782ad361796b946062d3f5",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_FRONT_BEAM_6mm.dxf",
+      "git_blob_sha": "1c0085de629818faeb3a2b78377ae72b7e8c5796",
+      "sha256": "e16beabf6ff02a5e9d0b06af43604ca0532056d340597e545dd032c82e68cf22",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_REAR_BEAM_6mm.dxf",
+      "git_blob_sha": "1c0085de629818faeb3a2b78377ae72b7e8c5796",
+      "sha256": "e16beabf6ff02a5e9d0b06af43604ca0532056d340597e545dd032c82e68cf22",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LID_SKIN_4mm.dxf",
+      "git_blob_sha": "4acc7047ed6d2b97f38d787387d081ff999edd9b",
+      "sha256": "0aed6d679b49ae0d718bdf5e774133554a7c22f4788f0d2d82a9b3761c4361c0",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/LOCK_CAP_22mm_6mm.dxf",
+      "git_blob_sha": "d1cb2bec340b3c4327e490fb6c8354b85af7e0fa",
+      "sha256": "9cd8df199435c3a4dad8dc20ad605033bd187937dda38de2eba2906961476bc5",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/PIN_DISC_14mm_6mm.dxf",
+      "git_blob_sha": "6da173fada59157637203271454ab01aa9120408",
+      "sha256": "6d885bcc33c86aeeedf0993b74e45bc7d61b240706ab419c1299380381fb5d25",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/per_part/REAR_6mm.dxf",
+      "git_blob_sha": "3b066268d794125ef1e484bdf08c9a11801045c2",
+      "sha256": "e354a6361515639e6845b1c9d1a9004c78d590f8aa127f8aa6d87288277e8af4",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/production/V8_2_2_4mm_LID_SKIN_CUT_ONLY.dxf",
+      "git_blob_sha": "6651057215b24e0d3d8655c97f9701fe0256362d",
+      "sha256": "d3bb7ba5b9fb873d096fdbaaebfa9391b233331551789b319285be5e0d46fd19",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/production/V8_2_2_6mm_PRODUCTION_CUT_ONLY.dxf",
+      "git_blob_sha": "7c332b0bcc6bbdaf9a48d03460b1beed6a0c5694",
+      "sha256": "6ac5f74bd558f5359fd1213a08b5d55530dfb647cf7799153df517a4e0f08740",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/README.md",
+      "git_blob_sha": "55d2bdc4463800e3198257280483a6d9ffd4c583",
+      "sha256": "0f55fb00e41640144ca111d4c875ad109562dd2b8ac19499b75d76e7fb6616ed",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/V8_2_2_CORRECTIONS.csv",
+      "git_blob_sha": "36aaf088fb85219db49e1a749177925a03c1ec41",
+      "sha256": "441f7abacde92b540ec9f82d930e29de81f9d6570e11351c4407bee4925707a4",
+      "status": "PASS"
+    },
+    {
+      "path": "megillat_esther_box/v8_2_2/V8_2_2_FULL_CONNECTION_AUDIT.csv",
+      "git_blob_sha": "713d18b5e72c076a41e95959e2cc84379eb9b536",
+      "sha256": "26410fe756a1da027fe3d8fc3ee06c92dc597738ebb90c08ec4132e197e1ec49",
+      "status": "PASS"
+    }
+  ],
+  "file_geometry": {
+    "megillat_esther_box/v8_2_2/calibration/V8_2_2_RING_PIN_FIT_TEST.dxf": {
+      "layers": {
+        "CUT": 12
+      },
+      "contours": 12,
+      "kerf_lines": 0,
+      "solids": 8,
+      "bounds": [
+        2.0,
+        2.0,
+        169.0,
+        63.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/BODY_RING_6mm.dxf": {
+      "layers": {
+        "CUT": 2
+      },
+      "contours": 2,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        44.0,
+        33.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/BOTTOM_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        322.0,
+        77.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/END_A_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        77.0,
+        71.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/END_B_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        77.0,
+        71.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/FRONT_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        322.0,
+        71.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LID_CENTER_RIB_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        77.0,
+        23.4347826087
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LID_END_A_6mm_REINFORCED.dxf": {
+      "layers": {
+        "CUT": 6
+      },
+      "contours": 6,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        96.0,
+        27.4347826087
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LID_END_B_6mm_REINFORCED.dxf": {
+      "layers": {
+        "CUT": 6
+      },
+      "contours": 6,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        96.0,
+        27.4347826087
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LID_FRONT_BEAM_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        322.0,
+        10.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LID_REAR_BEAM_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        322.0,
+        10.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LID_SKIN_4mm.dxf": {
+      "layers": {
+        "CUT": 1,
+        "LIVING_HINGE": 190
+      },
+      "contours": 1,
+      "kerf_lines": 190,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        322.0,
+        94.7965436107
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/LOCK_CAP_22mm_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        22.0,
+        22.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/PIN_DISC_14mm_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        14.0,
+        14.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/per_part/REAR_6mm.dxf": {
+      "layers": {
+        "CUT": 1
+      },
+      "contours": 1,
+      "kerf_lines": 0,
+      "solids": 1,
+      "bounds": [
+        0.0,
+        0.0,
+        322.0,
+        71.0
+      ]
+    },
+    "megillat_esther_box/v8_2_2/production/V8_2_2_4mm_LID_SKIN_CUT_ONLY.dxf": {
+      "layers": {
+        "CUT_4MM": 1,
+        "LIVING_HINGE_CUTS": 190
+      },
+      "contours": 1,
+      "kerf_lines": 190,
+      "solids": 1,
+      "bounds": [
+        10.0,
+        10.0,
+        332.0,
+        104.796543611
+      ]
+    },
+    "megillat_esther_box/v8_2_2/production/V8_2_2_6mm_PRODUCTION_CUT_ONLY.dxf": {
+      "layers": {
+        "CUT_6MM": 28
+      },
+      "contours": 28,
+      "kerf_lines": 0,
+      "solids": 16,
+      "bounds": [
+        14.0,
+        20.0,
+        836.0,
+        368.0
+      ]
+    }
+  },
+  "thin_lid_slot_lands_mm": [
+    0.09974969022830495,
+    0.09974969023219671,
+    0.09974969022830456
+  ],
+  "target_stock_checks": [
+    {
+      "file": "V8_2_2_4mm_LID_SKIN_CUT_ONLY.dxf",
+      "target_height_mm": 800,
+      "target_width_mm": 440,
+      "status": "PASS",
+      "existing_layout_bbox_mm": [
+        322.0,
+        94.796543611
+      ],
+      "scope": "Untranslated layout shape in either right-angle orientation; no margins/kerf. FAIL requires new packing, not altered source."
+    },
+    {
+      "file": "V8_2_2_6mm_PRODUCTION_CUT_ONLY.dxf",
+      "target_height_mm": 800,
+      "target_width_mm": 440,
+      "status": "FAIL",
+      "existing_layout_bbox_mm": [
+        822.0,
+        348.0
+      ],
+      "scope": "Untranslated layout shape in either right-angle orientation; no margins/kerf. FAIL requires new packing, not altered source."
+    }
+  ],
+  "legacy_case_recheck": [
+    {
+      "index": 0,
+      "status": "PASS",
+      "evidence": "FRONT_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 1,
+      "status": "PASS",
+      "evidence": "REAR_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 2,
+      "status": "PASS",
+      "evidence": "END_A_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 3,
+      "status": "PASS",
+      "evidence": "END_B_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 4,
+      "status": "PASS",
+      "evidence": "BOTTOM_6mm: registry qty=1; sheet identical-shape group=1/1; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 5,
+      "status": "PASS",
+      "evidence": "LID_END_A_6mm_REINFORCED: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 6,
+      "status": "PASS",
+      "evidence": "LID_END_B_6mm_REINFORCED: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 7,
+      "status": "PASS",
+      "evidence": "LID_CENTER_RIB_6mm: registry qty=1; sheet identical-shape group=1/1; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 8,
+      "status": "PASS",
+      "evidence": "LID_FRONT_BEAM_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 9,
+      "status": "PASS",
+      "evidence": "LID_REAR_BEAM_6mm: registry qty=1; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 10,
+      "status": "PASS",
+      "evidence": "BODY_RING_6mm: registry qty=2; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 11,
+      "status": "PASS",
+      "evidence": "PIN_DISC_14mm_6mm: registry qty=2; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 12,
+      "status": "PASS",
+      "evidence": "LOCK_CAP_22mm_6mm: registry qty=2; sheet identical-shape group=2/2; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 13,
+      "status": "PASS",
+      "evidence": "LID_SKIN_4mm: registry qty=1; sheet identical-shape group=1/1; nominal thickness from filenames, not measured"
+    },
+    {
+      "index": 14,
+      "status": "PASS",
+      "evidence": "Nominal cavity=310.0 mm from DXF bounds minus nominal 6mm panels; inferred assembly registration"
+    },
+    {
+      "index": 15,
+      "status": "PASS",
+      "evidence": "Nominal cavity=65.0 mm from DXF bounds minus nominal 6mm panels; inferred assembly registration"
+    },
+    {
+      "index": 16,
+      "status": "PASS",
+      "evidence": "Nominal cavity=65.0 mm from DXF bounds minus nominal 6mm panels; inferred assembly registration"
+    },
+    {
+      "index": 17,
+      "status": "PASS",
+      "evidence": "Boundary levels=[0.0, 14.2, 28.4, 42.6, 56.8, 71.0]; complementary mid-pitch occupancy=True; 2D only"
+    },
+    {
+      "index": 18,
+      "status": "PASS",
+      "evidence": "Long bottom tabs and front/rear open recesses: x=22..52, depth6; zero nominal clearance"
+    },
+    {
+      "index": 19,
+      "status": "PASS",
+      "evidence": "Long bottom tabs and front/rear open recesses: x=84..114, depth6; zero nominal clearance"
+    },
+    {
+      "index": 20,
+      "status": "PASS",
+      "evidence": "Long bottom tabs and front/rear open recesses: x=146..176, depth6; zero nominal clearance"
+    },
+    {
+      "index": 21,
+      "status": "PASS",
+      "evidence": "Long bottom tabs and front/rear open recesses: x=208..238, depth6; zero nominal clearance"
+    },
+    {
+      "index": 22,
+      "status": "PASS",
+      "evidence": "Long bottom tabs and front/rear open recesses: x=270..300, depth6; zero nominal clearance"
+    },
+    {
+      "index": 23,
+      "status": "PASS",
+      "evidence": "End tabs/recesses: 14..30, depth6; zero nominal clearance"
+    },
+    {
+      "index": 24,
+      "status": "PASS",
+      "evidence": "End tabs/recesses: 47..63, depth6; zero nominal clearance"
+    },
+    {
+      "index": 25,
+      "status": "PASS",
+      "evidence": "Beam slot bounds=(27, 6, 33, 12); repeated ends identical"
+    },
+    {
+      "index": 26,
+      "status": "PASS",
+      "evidence": "Beam slot bounds=(82, 6, 88, 12); repeated ends identical"
+    },
+    {
+      "index": 27,
+      "status": "PASS",
+      "evidence": "Beam end tenons6x6; nominal zero slot clearance; no insertion proof"
+    },
+    {
+      "index": 28,
+      "status": "PASS",
+      "evidence": "Beam notch x158..164 depth5; rib notches x8..14 and63..69 depth5; 5+5=10 nominal, 3D registration proposed"
+    },
+    {
+      "index": 29,
+      "status": "PASS",
+      "evidence": "Beam notch x158..164 depth5; rib notches x8..14 and63..69 depth5; 5+5=10 nominal, 3D registration proposed"
+    },
+    {
+      "index": 30,
+      "status": "PASS",
+      "evidence": "Rib proposed x158..164 inside uncut x154..168; 4mm margins under inferred registration"
+    },
+    {
+      "index": 31,
+      "status": "NOT_RUN",
+      "evidence": "Measured curved slot radial=4.100000, outer-reference arc=12.200000, actual mid-radius arc=11.594819; nominal finger12x4. Arc length=94.796544. 2D shape check only; bent 3D tab containment NOT_RUN"
+    },
+    {
+      "index": 32,
+      "status": "NOT_RUN",
+      "evidence": "Measured curved slot radial=4.100000, outer-reference arc=12.200000, actual mid-radius arc=11.594819; nominal finger12x4. Arc length=94.796544. 2D shape check only; bent 3D tab containment NOT_RUN"
+    },
+    {
+      "index": 33,
+      "status": "NOT_RUN",
+      "evidence": "Measured curved slot radial=4.100000, outer-reference arc=12.200000, actual mid-radius arc=11.594819; nominal finger12x4. Arc length=94.796544. 2D shape check only; bent 3D tab containment NOT_RUN"
+    },
+    {
+      "index": 34,
+      "status": "PASS",
+      "evidence": "Minimum cut-hole bridge=5.780053 mm, not strength"
+    },
+    {
+      "index": 35,
+      "status": "PASS",
+      "evidence": "5 independent openings:2 beam+3 skin"
+    },
+    {
+      "index": 36,
+      "status": "PASS",
+      "evidence": "190 internal kerf LINE cuts; no edge contact"
+    },
+    {
+      "index": 37,
+      "status": "PASS",
+      "evidence": "Cut range x18.0..304.0; 12mm from main skin x6..316 (18mm from tab extrema x0..322)"
+    },
+    {
+      "index": 38,
+      "status": "PASS",
+      "evidence": "Uncut band x154..168, center161; 14mm"
+    },
+    {
+      "index": 39,
+      "status": "PASS",
+      "evidence": "Diameters 14.600000000000001/14.0; nominal radial gap=0.3000000000000007"
+    },
+    {
+      "index": 40,
+      "status": "PASS",
+      "evidence": "Minimum polygonal annulus wall=6.699776 mm"
+    },
+    {
+      "index": 41,
+      "status": "PASS",
+      "evidence": "Nominal cap overlap=3.700000 mm"
+    },
+    {
+      "index": 42,
+      "status": "PASS",
+      "evidence": "Proposed ring->end translation(-22,59): overlap=192.000000 mm2; no bond-strength claim"
+    },
+    {
+      "index": 43,
+      "status": "NOT_RUN",
+      "evidence": "Pin14 / ear22 footprint: ear diameter22 inferred from circular profile; bond and 3D registration not proved"
+    },
+    {
+      "index": 44,
+      "status": "NOT_RUN",
+      "evidence": "13mm neck assertion lacks an unambiguous measurement section in registered source; preserve for G1/G2"
+    },
+    {
+      "index": 45,
+      "status": "NOT_RUN",
+      "evidence": "0.3mm axial shim is assembly instruction, no axial dimensions/physical record in 2D DXF"
+    },
+    {
+      "index": 46,
+      "status": "NOT_RUN",
+      "evidence": "Historical 2D sampled sweep cannot establish continuous 3D collision-free opening; required110deg from owner; solid sweep NOT_RUN"
+    },
+    {
+      "index": 47,
+      "status": "PASS",
+      "evidence": "Ring/foot one valid connected polygon with one bore"
+    },
+    {
+      "index": 48,
+      "status": "PASS",
+      "evidence": "Legacy frame X-long900,Y-short440 bounds=(14.0, 20.0, 836.0, 368.0); not new stock approval. 6mm layout exceeds either orientation of800x440"
+    },
+    {
+      "index": 49,
+      "status": "PASS",
+      "evidence": "6mm part area overlaps=[]; kerf/machine margins not verified"
+    },
+    {
+      "index": 50,
+      "status": "PASS",
+      "evidence": "BODY_RING_6mm normalized contour+holes matching sheet instances=2"
+    },
+    {
+      "index": 51,
+      "status": "PASS",
+      "evidence": "PIN_DISC_14mm_6mm normalized contour+holes matching sheet instances=2"
+    },
+    {
+      "index": 52,
+      "status": "PASS",
+      "evidence": "LOCK_CAP_22mm_6mm normalized contour+holes matching sheet instances=2"
+    },
+    {
+      "index": 53,
+      "status": "PASS",
+      "evidence": "Legacy frame X-long900,Y-short440 bounds=(10.0, 10.0, 332.0, 104.796543611); not new stock approval. 6mm layout exceeds either orientation of800x440"
+    },
+    {
+      "index": 54,
+      "status": "PASS",
+      "evidence": "14 registered definitions present; A/B and front/rear identical shape groups disclosed"
+    },
+    {
+      "index": 55,
+      "status": "PASS",
+      "evidence": "17 DXFs parsed; mm header, planar closed valid nonduplicate contours, explicit open kerf lines"
+    }
+  ],
+  "case_counts": {
+    "PASS": 49,
+    "NOT_RUN": 7
+  }
+}

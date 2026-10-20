@@ -22,3 +22,15 @@
 
 ## Intake blockers
 MEB-B01 through MEB-B11 remain OPEN. G3 = NOT_RUN; G4 = NOT_APPROVED. No unchanged legacy file is automatically approved for production by importing its provenance.
+
+## Subsequent execution2026-10-20 (supersedes initial not-run state above)
+20pinned blob SHA/size checks and17DXF parses completed. The56legacy indices map to
+49scoped2D/intakePASS and7NOT_RUN; no fabrication of a56PASS rerun. Independent
+reviewer `/root/independent_meb_qa` used a raw group-code reader and independent
+export checks. Reports/logs are under `../../reports/`.
+
+Owner approved HEIGHT800×WIDTH440mm and110deg. Existing6mm nesting fails target
+bbox fit and remains unchanged;4mm bbox fits without manufacturing approval.
+Added MEB-B12: three exterior lands~0.09975mm at curved lid slots.
+Read current STATUS and MEB-000-DELIVERY for actual counts and remaining gate issues.
+All original source blobs remain unchanged. Full G0 is REVIEW_REQUIRED, not approved.

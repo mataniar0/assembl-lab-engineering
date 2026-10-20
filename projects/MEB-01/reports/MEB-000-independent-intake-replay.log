@@ -1,0 +1,9 @@
+PASS MEB-000 intake registry consistency (not CAD QA)
+PASS negative control 1 rejected invalid registry
+PASS negative control 2 rejected invalid registry
+PASS negative control 3 rejected invalid registry
+PASS negative control 4 rejected invalid registry
+PASS negative control 5 rejected invalid registry
+PASS negative control 6 rejected invalid registry
+PASS negative control 7 rejected invalid registry
+PASS negative control 8 rejected invalid registry
