@@ -1,0 +1,131 @@
+{
+  "project": "MEB-01",
+  "task": "MEB-005",
+  "stage": "DESIGN_ONLY",
+  "status": "REFERENCE_SELF_EVIDENCE_NOT_INDEPENDENT",
+  "scope": "rigid ideal 2.5D constant-X prism research geometry; not physical flex / joining",
+  "ownerFrozen": {
+    "minUsableInsideXmm": 310,
+    "openingTargetDeg": 110,
+    "sheetHeightMm": 800,
+    "sheetWidthMm": 440
+  },
+  "candidates": [
+    {
+      "id": "R0_NO_RELIEF_TRUE_4MM_RADIAL",
+      "pivotYmm": 75,
+      "pivotZmm": 75,
+      "rearTopZmm": 71,
+      "poseSamples": 441,
+      "angleStepDeg": 0.25,
+      "expectedCollisionPoses": 256,
+      "firstCollisionDeg": 46.25,
+      "expectedStatus": "FAIL"
+    },
+    {
+      "id": "R1_REAR_RELIEF_1p5",
+      "pivotYmm": 75,
+      "pivotZmm": 75,
+      "rearTopZmm": 69.5,
+      "poseSamples": 441,
+      "expectedCollisionPoses": 83,
+      "expectedStatus": "FAIL"
+    },
+    {
+      "id": "R2_REAR_RELIEF_2p2",
+      "pivotYmm": 75,
+      "pivotZmm": 75,
+      "rearTopZmm": 68.8,
+      "poseSamples": 441,
+      "expectedCollisionPoses": 0,
+      "localRearWallMinGapMmApprox": 0.6075,
+      "expectedStatus": "CAD_CANDIDATE_NOT_PROVEN"
+    },
+    {
+      "id": "P0_PIVOT_UP_1MM",
+      "pivotYmm": 75,
+      "pivotZmm": 76,
+      "rearTopZmm": 71,
+      "poseSamples": 441,
+      "expectedCollisionPoses": 200,
+      "expectedStatus": "FAIL"
+    },
+    {
+      "id": "P1_PIVOT_UP_2MM",
+      "pivotYmm": 75,
+      "pivotZmm": 77,
+      "rearTopZmm": 71,
+      "poseSamples": 441,
+      "expectedCollisionPoses": 0,
+      "closedSeamZShiftMm": 2,
+      "expectedStatus": "CAD_CANDIDATE_RESTUDY_REQUIRED"
+    }
+  ],
+  "skinAxialSpanCases": [
+    {
+      "x0mm": 14,
+      "x1mm": 322,
+      "overlapPairsAt0_55_110": [
+        0,
+        0,
+        0
+      ],
+      "structuralCapture": "NOT_PROVEN"
+    },
+    {
+      "x0mm": 12,
+      "x1mm": 324,
+      "overlapPairsAt0_55_110": [
+        0,
+        0,
+        0
+      ],
+      "structuralCapture": "NOT_PROVEN"
+    },
+    {
+      "x0mm": 11.5,
+      "x1mm": 324.5,
+      "overlapPairsAt0_55_110": [
+        2,
+        2,
+        2
+      ],
+      "expectedStatus": "FAIL"
+    },
+    {
+      "x0mm": 5.5,
+      "x1mm": 330.5,
+      "overlapPairsAt0_55_110": [
+        4,
+        4,
+        4
+      ],
+      "expectedStatus": "FAIL"
+    }
+  ],
+  "geometryAssumptions": {
+    "outerLengthXmm": "346 provisional",
+    "nominalInsideLengthXmm": 312,
+    "roofInnerRadiusMm": 43.3423913,
+    "roofThicknessMm": 4,
+    "roofMidplaneDevelopedArcMm": 99.1708543,
+    "neutralAxisLocation": "UNKNOWN",
+    "kerfPhysicalWidth": "UNKNOWN"
+  },
+  "unresolved": [
+    "full 3D assembly path",
+    "mechanical pin retention",
+    "physical bending of uninterrupted full-arc 4mm lands",
+    "effective 310mm clear space after attachments",
+    "kerf material",
+    "independent QA",
+    "G3",
+    "G4"
+  ],
+  "sourceFilesNotHostedInGitHub": [
+    "H1 v0.3 original generator ZIP",
+    "MEB004 original Python generators and DXF ZIP",
+    "MEB005 replay Python ZIP"
+  ],
+  "note": "These numerical fixtures are self-produced study observations, NOT acceptance limits or substitute for independent recomputation. Actual Codex model must reproduce negative controls and explain deviations. Never auto-promote them to proof."
+}

@@ -1,0 +1,58 @@
+{
+  "task": "MEB-004",
+  "stage": "DESIGN_ONLY",
+  "ownerFrozen": {
+    "usableInsideXMin": 310,
+    "sheetH": 800,
+    "sheetW": 440,
+    "openingAngle": 110
+  },
+  "provisional": {
+    "outsideX": 346,
+    "insideClearNominalX": 312,
+    "skinX": 308,
+    "skinThickness": 4,
+    "arcInsideRadius": 43.34239130434413,
+    "arcAngleDeg": 125.31477147123556,
+    "developedWidthMidplane": 99.17085433781102
+  },
+  "variants": {
+    "fine": {
+      "rows": 22,
+      "lines": 209,
+      "rowPitch": 3.8
+    },
+    "coarse": {
+      "rows": 19,
+      "lines": 181,
+      "rowPitch": 4.6
+    }
+  },
+  "motion": {
+    "oldRadialShell": {
+      "sampleAngles": 441,
+      "collidingAngles": 256
+    },
+    "rearReliefCandidate": {
+      "backTopOldZ": 71,
+      "backTopNewZ": 68.8,
+      "sampleAngles": 441,
+      "collidingAngles": 0,
+      "interSampleClearanceBound": 0.3286
+    }
+  },
+  "checks": {
+    "selfPassed": 59,
+    "selfTotal": 59,
+    "independentQA": "PENDING"
+  },
+  "blocking": [
+    "user design confirmation of rear relief vs pivot revision",
+    "physical bending/neutral-line calibration",
+    "real kerf and wood bridge",
+    "physical assembly and retention",
+    "independent QA and G3/G4"
+  ],
+  "archiveName": "MEB004_A1_H1_KERF4_DESIGN_ONLY_v04.zip",
+  "archiveSHA256": "a846f22270d2abb0364987df8a1567dd075adcd07a56cba61b27f2ed2ff730d8"
+}
