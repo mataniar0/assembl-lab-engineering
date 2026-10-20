@@ -1,4 +1,4 @@
-# CTB-004 candidate decisions — DESIGN_ONLY, pending lead review
+# CTB-004 candidate decisions — DESIGN_ONLY, lead selection recorded 2026-10-20
 
 2026-10-20. PR #12. Geometry head58bccbb3b3c7a6bb95563b1f837ef065e6645c4d.
 These are traceable study assumptions/recommendations, not product-owner or lead approvals.
@@ -17,3 +17,7 @@ Validation demonstrates finite-material local fit and continuous specified trans
 not glue/strength, positive outward capture, hands/fixtures or physical fit. No actual
 material or kerf measurement. A later changed interface must be versioned and retested;
 no automatic propagation to P05/P07/P08 or frozen system data.
+
+## Engineering-lead selection (supersedes candidate-only status)
+
+The engineering lead selected **A_RIM_OPEN with NO_HOLE** for downstream **DESIGN_ONLY** coordination on 2026-10-20. Detailed evidence and required CTB-005 interfaces are in [`CTB-004-SELECTION.md`](CTB-004-SELECTION.md). Candidate B/C studies remain as alternatives; no physical locks, positive web capture, calculated safe loads, or production cutting are approved. Official B01/B02/B06/B10/B11/B13 issues remain open until evidence-supported closure.
