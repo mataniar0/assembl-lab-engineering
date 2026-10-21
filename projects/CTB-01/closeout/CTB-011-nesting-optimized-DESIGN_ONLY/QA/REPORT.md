@@ -12,3 +12,11 @@
 ## Open gates
 
 **DESIGN_ONLY.** Only planar CAD geometry has been checked. No independent CAD-kernel recheck or physical prototype verification was performed. Kerf measurement, stock thickness, grain/flex orientation, bending, glue, mechanical fit, load and stability remain open (G3 NOT PERFORMED, G4 BLOCKED). This is not a production release.
+
+## Independent export cross-check
+
+- All four uploaded DXF/SVG sheet pairs independently parsed and cross-compared: **4/4 PASS**, identical cut vertex coordinates and cut layer assignments.
+- Contour counts: 6mm S01 **27**, S02 **42**, S03 **16**, and 4mm S01 **128**, total **213 cut contours**.
+- Sheet-part counts: **21 + 6 + 3 + 2 = 32**.
+- One metadata repair before handoff: 4mm instance roles in BOM restored to separate `P07R1`/`P07R2`, both linked to `P07R_MASTER`; geometry repairs: **0**.
+- This cross-check verifies export correspondence only; it is not a physical cutting, fit, stability, or strength qualification.
