@@ -1,0 +1,18 @@
+{
+ "project":"CTB-01","task":"CTB-007","release":"DESIGN_ONLY",
+ "source_commit":"6db45fa7ba0d9a81ff9bbc6d1a432133ab955214",
+ "selected_sources":["SOFT_CURVE","B_THROUGH_ADHESIVE","A_COMPACT_CLOSED","Y_FIRST","A_RIM_OPEN","NO_HOLE","A_RELIEVED_BOND"],
+ "skin_radius_mm":171,"outer_radius_mm":175,"neutral_radius_hypothesis_mm":173,
+ "skin_thickness_mm":6,"rim_thickness_mm":4,"bottom_z_mm":[450,456],"top_z_mm":[494,500],"rim_z_mm":[450,500],
+ "sheet_hw_mm":[800,440],"sheet_margin_mm":10,"raster_dpi":96,"circle_segments":360,
+ "seam_phase_deg":15,"seam_gap_mm":0.4,"seam_keepout_mm":12,
+ "kerf_width_hypothesis_mm":0.8,"kerf_pitch_hypothesis_mm":8,
+ "A":{"name":"TWO_BUTT_BOND","segments":2,"kerf_z_ranges_mm":[[8,42]],"skin_connection":"BOUNDARY_BOND_UNVERIFIED"},
+ "B":{"name":"THREE_STEPPED_BOND","segments":3,"seam_steps_z_mm":[18,32],"seam_offsets_mm":[-4,4,-4],"kerf_z_ranges_mm":[[6.5,25.5],[24.5,43.5]],"skin_connection":"BOUNDARY_BOND_UNVERIFIED"},
+ "C":{"name":"FOUR_EDGE_COMB","segments":4,"kerf_z_ranges_mm":[[6.5,50],[0,43.5]],"tab_angles_deg":[0,60,120,180,240,300],"tab_half_width_mm":4,"tab_clearance_mm":0.2,"tab_inner_r_mm":169,"tab_outer_r_mm":175,"kerf_to_tab_keepout_mm":8,"skin_connection":"EDGE_COMB_STUDY_NO_Z_RETENTION"},
+ "rim_start_bottom_z_mm":520,"top_start_bottom_z_mm":540,"radial_trial_stroke_mm":60,
+ "tool_diameter_hypothesis_mm":4,"tool_tip_z_mm":488.5,"tool_start_z_mm":520,
+ "measured_thickness_mm":null,"measured_kerf_mm":null,"neutral_axis_measured_mm":null,
+ "kerf_status":"KERF_COUPON_PENDING","physical_tests":"NOT_RUN","epsilon_mm3":0.000001,
+ "relevant_interfaces":["IF-03","IF-07","IF-08","IF-10","IF-11","IF-12"]
+}

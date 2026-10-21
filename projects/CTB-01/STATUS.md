@@ -209,3 +209,32 @@ See five `reports/CTB-006-*`, P06 `DECISIONS.md`, `P01-INTERFACE-CHANGE-REQUESTS
 Official B01–B13 and IF-01..IF-14 records remain unchanged. No loads, stock/kerf, adhesive,
 fixture, stress/bending/stability or physical tests: NOT_RUN. FullG2b/G3/G4 and physical
 cutting NOT_APPROVED. Lead review complete for bounded study; no production or full ring interface approval.
+
+## CTB-007 — SKINS / EXPERIMENTAL KERF RIM / AWAITING_LEAD_SELECTION
+
+Issue #24, existingbranch `codex/ctb-007-skins-rim`, baseline6db45fa afterPR22. DESIGN_ONLY,
+G1 geometry/boundedG2a tabletop study. Original439CTB000/P01–P06 files unchanged; actual
+selected pre-ring27 consumed. CTB006R Issue23/IF09/B05 remain OPEN; no P06 ring or unapproved
+cheek mortise in the31/32/33-body models, no actualP08 lock, hardware or hidden glue solid.
+
+P07B6mm450..456, P07T6mm494..500(NO_HOLE), core38; rim4mmR171..175/full50mm450..500.
+ExternalØ350/H500/top50 and portraitH800×W440 preserved. Six actual lower tongue slots;
+all2/3/4 developed segments fit10mm provisional margins, not productionnesting. A2butt/
+closedslits, B3step/staggeredslits, C4butt/edgekerfs+P07-localskin edgecomb proposal.
+Avertical/radial, Bradial and Cverticalbeforetop routes pass exact rigid sweeps of finite
+mathematically pre-bent material. Bvertical,Ctop-first/radial,latebottom andclosedwallrib
+trials BLOCK; six upperlock probe corridors BLOCK aftertop. Allskin uplift remains FREE.
+
+A recommended for least-change continued geometry/couponplanning only, not selected or cut
+approved. P04L contact26899.470mm²; P05face516each/3096total per skin, untested bonds.
+P05→rim1.973375mm minimum AIR retained, no falsegluebridge. Cedgecomb is unapproved newP07
+radialconstructionstudy toR175, no upstream overwrite. Kerfslot0.8/pitch8 are experimental,
+neutral173 unmeasured; mapped perforations are mathematical, not physical bend simulation.
+
+Risk-based93uniquePASS:46new+7affectedinterface+25G0+15import; all439protected hashes match.
+347unaffected oldcomponent casesNOT_RUN (297P01–P05+50P06). Independent OpenCASCADE QA:96/100, zero in-scope critical/major defects;
+see CTB-007-INDEPENDENT-QA.md. Allinitial failures/corrections/blockedroutes retained
+in CTB-007-VALIDATION and P07/tests/logs. Tier3Issue20 still planned, no successfulhosted
+nightlyCAD workflow claimed. Physicalfit/kerf/grain/50mmbend/glue/fixture/load/stability,
+fullP08/P06R/whole-tableorder NOT_RUN/OPEN. KERF_COUPON_PENDING; G2b/G3/G4 andcutting or
+production NOT_APPROVED. OfficialB01–B13/IFrecords preserved. PR for leadreview, no selfmerge.

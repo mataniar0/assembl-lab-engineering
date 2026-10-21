@@ -1,0 +1,103 @@
+A realbodies 31 finalmax 6.6885113270245325e-09 routes [('radial_rim_before_top', 'PASS_CAD_SPECIFIED_PATH'), ('bottom_disks_ribs_rim_top', 'PASS_CAD_SPECIFIED_PATH'), ('closed_top_then_rim', 'PASS_CAD_SPECIFIED_PATH'), ('closed_top_access', 'BLOCKED')]
+B realbodies 32 finalmax 2.9227623686045453e-08 routes [('radial_rim_before_top', 'PASS_CAD_SPECIFIED_PATH'), ('bottom_disks_ribs_rim_top', 'BLOCKED'), ('closed_top_then_rim', 'BLOCKED'), ('closed_top_access', 'BLOCKED')]
+C realbodies 33 finalmax 1.7683320393791956e-07 routes [('radial_rim_before_top', 'BLOCKED'), ('bottom_disks_ribs_rim_top', 'PASS_CAD_SPECIFIED_PATH'), ('closed_top_then_rim', 'BLOCKED'), ('closed_top_access', 'BLOCKED')]
+test_439_upstream_files_match_main_baseline_byte_for_byte (test_integration.FocusedIntegration.test_439_upstream_files_match_main_baseline_byte_for_byte) ... ok
+test_IF03_uses_pre_ring_cheeks_all_spacers_and_six_slots (test_integration.FocusedIntegration.test_IF03_uses_pre_ring_cheeks_all_spacers_and_six_slots) ... ok
+test_IF07_and08_boundaries_use_selected_rib_and_original_disks (test_integration.FocusedIntegration.test_IF07_and08_boundaries_use_selected_rib_and_original_disks) ... ok
+test_IF10_and11_single_part_axis_and_top_budget_are_preserved (test_integration.FocusedIntegration.test_IF10_and11_single_part_axis_and_top_budget_are_preserved) ... ok
+test_IF12_no_invented_lock_or_access_through_closed_top (test_integration.FocusedIntegration.test_IF12_no_invented_lock_or_access_through_closed_top) ... ok
+test_current_27_bodies_match_reviewed_P05A_export (test_integration.FocusedIntegration.test_current_27_bodies_match_reviewed_P05A_export) ... ok
+test_source_authorities_and_official_open_states_not_upgraded (test_integration.FocusedIntegration.test_source_authorities_and_official_open_states_not_upgraded) ... ok
+test_inner_outer_radius_confusion_causes_skin_collision (test_skins_rim.GlobalTests.test_inner_outer_radius_confusion_causes_skin_collision) ... ok
+test_invalid_full_height_kerfs_disconnect_material (test_skins_rim.GlobalTests.test_invalid_full_height_kerfs_disconnect_material) ... ok
+test_missing_segment_is_detectable_in_bom_and_coverage (test_skins_rim.GlobalTests.test_missing_segment_is_detectable_in_bom_and_coverage) ... ok
+test_no_measured_kerf_or_physical_release_and_p06_open (test_skins_rim.GlobalTests.test_no_measured_kerf_or_physical_release_and_p06_open) ... ok
+test_periodic_step_seams_preserve_gap_without_positive_overlap (test_skins_rim.GlobalTests.test_periodic_step_seams_preserve_gap_without_positive_overlap) ... ok
+test_schema_rejects_wrong_stock_dimensions_radius_pattern_and_fake_measurements (test_skins_rim.GlobalTests.test_schema_rejects_wrong_stock_dimensions_radius_pattern_and_fake_measurements) ... ok
+test_unsegmented_strip_cannot_fit_portrait_stock (test_skins_rim.GlobalTests.test_unsegmented_strip_cannot_fit_portrait_stock) ... ok
+test_A_access (test_skins_rim.VariantTests.test_A_access) ... ok
+test_A_bom_glb (test_skins_rim.VariantTests.test_A_bom_glb) ... ok
+test_A_contact (test_skins_rim.VariantTests.test_A_contact) ... ok
+test_A_contours (test_skins_rim.VariantTests.test_A_contours) ... ok
+test_A_exports (test_skins_rim.VariantTests.test_A_exports) ... ok
+test_A_mapping (test_skins_rim.VariantTests.test_A_mapping) ... ok
+test_A_negative_controls (test_skins_rim.VariantTests.test_A_negative_controls) ... ok
+test_A_nominal (test_skins_rim.VariantTests.test_A_nominal) ... ok
+test_A_paths_test (test_skins_rim.VariantTests.test_A_paths_test) ... ok
+test_A_raster_mm (test_skins_rim.VariantTests.test_A_raster_mm) ... ok
+test_A_six_slots (test_skins_rim.VariantTests.test_A_six_slots) ... ok
+test_A_stock_and_webs (test_skins_rim.VariantTests.test_A_stock_and_webs) ... ok
+test_A_top_withdrawal (test_skins_rim.VariantTests.test_A_top_withdrawal) ... ok
+test_B_access (test_skins_rim.VariantTests.test_B_access) ... ok
+test_B_bom_glb (test_skins_rim.VariantTests.test_B_bom_glb) ... ok
+test_B_contact (test_skins_rim.VariantTests.test_B_contact) ... ok
+test_B_contours (test_skins_rim.VariantTests.test_B_contours) ... ok
+test_B_exports (test_skins_rim.VariantTests.test_B_exports) ... ok
+test_B_mapping (test_skins_rim.VariantTests.test_B_mapping) ... ok
+test_B_negative_controls (test_skins_rim.VariantTests.test_B_negative_controls) ... ok
+test_B_nominal (test_skins_rim.VariantTests.test_B_nominal) ... ok
+test_B_paths_test (test_skins_rim.VariantTests.test_B_paths_test) ... ok
+test_B_raster_mm (test_skins_rim.VariantTests.test_B_raster_mm) ... ok
+test_B_six_slots (test_skins_rim.VariantTests.test_B_six_slots) ... ok
+test_B_stock_and_webs (test_skins_rim.VariantTests.test_B_stock_and_webs) ... ok
+test_B_top_withdrawal (test_skins_rim.VariantTests.test_B_top_withdrawal) ... ok
+test_C_access (test_skins_rim.VariantTests.test_C_access) ... ok
+test_C_bom_glb (test_skins_rim.VariantTests.test_C_bom_glb) ... ok
+test_C_contact (test_skins_rim.VariantTests.test_C_contact) ... ok
+test_C_contours (test_skins_rim.VariantTests.test_C_contours) ... ok
+test_C_exports (test_skins_rim.VariantTests.test_C_exports) ... ok
+test_C_mapping (test_skins_rim.VariantTests.test_C_mapping) ... ok
+test_C_negative_controls (test_skins_rim.VariantTests.test_C_negative_controls) ... ok
+test_C_nominal (test_skins_rim.VariantTests.test_C_nominal) ... ok
+test_C_paths_test (test_skins_rim.VariantTests.test_C_paths_test) ... ok
+test_C_raster_mm (test_skins_rim.VariantTests.test_C_raster_mm) ... ok
+test_C_six_slots (test_skins_rim.VariantTests.test_C_six_slots) ... ok
+test_C_stock_and_webs (test_skins_rim.VariantTests.test_C_stock_and_webs) ... ok
+test_C_top_withdrawal (test_skins_rim.VariantTests.test_C_top_withdrawal) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 18.712s
+
+OK
+PASS overall_height_sum
+PASS stack_intervals
+PASS core_height_38
+PASS parallel_leg_thickness
+PASS cheek_offsets_and_gap
+PASS three_legs_120
+PASS six_identical_cheeks
+PASS twelve_spacers
+PASS skin_diameter_342
+PASS rim_perimeter_computed
+PASS rim_requires_segmentation
+PASS sheet_dimensions_portrait
+PASS sheet_array_height_first
+PASS rim_segment_count_for_800
+PASS anchor_z_contained
+PASS tongue_upper_clearance
+PASS Y_outside_tabletop
+PASS interface_ids_unique
+PASS interface_ids_complete
+PASS no_production_claim
+PASS legacy_V_not_current
+PASS part_ids_unique
+PASS part_counts_six_cheeks
+PASS part_counts_twelve_spacers
+PASS provisional_Y_overhang_flag
+Summary: 25 / 25 data checks passed
+PASS manifest_inventory_15
+PASS source_bytes_unchanged
+PASS parameter_schema
+PASS baseline_versions
+PASS interface_inventory_14
+PASS open_issue_inventory_13
+PASS critical_blockers_retained
+PASS interface_party_references
+PASS all_parts_referenced
+PASS no_interface_approval_upgrade
+PASS portrait_sheet
+PASS no_active_900_numeric_setting
+PASS svg_parseable
+PASS png_signature
+PASS no_legacy_cad_import
+Summary: 15 / 15 import checks passed

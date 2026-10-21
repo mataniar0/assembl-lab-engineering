@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/src/generate.py", line 176, in <module>
+    if __name__=='__main__':generate()
+                            ^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/src/generate.py", line 168, in generate
+    review_views(name,d,d5,d4,d3,u,b,parts,proof,out)
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/src/generate.py", line 134, in review_views
+    if seg.geom_type=='LineString':draw2(ax,box(seg.bounds[0],450+a,seg.bounds[2],450+c),'#db9d60')
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-007/lib/python3.12/site-packages/shapely/geometry/geo.py", line 51, in box
+    return Polygon(coords)
+           ^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-007/lib/python3.12/site-packages/shapely/geometry/polygon.py", line 237, in __new__
+    shell = LinearRing(shell)
+            ^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-007/lib/python3.12/site-packages/shapely/geometry/polygon.py", line 104, in __new__
+    geom = shapely.linearrings(coordinates)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-007/lib/python3.12/site-packages/shapely/decorators.py", line 173, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-007/lib/python3.12/site-packages/shapely/decorators.py", line 88, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/ctb-007/lib/python3.12/site-packages/shapely/creation.py", line 316, in linearrings
+    return lib.linearrings(coords, np.intc(handle_nan), out=out, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+shapely.errors.GEOSException: IllegalArgumentException: Points of LinearRing do not form a closed linestring

@@ -1,0 +1,12 @@
+test_439_upstream_files_match_main_baseline_byte_for_byte (__main__.FocusedIntegration.test_439_upstream_files_match_main_baseline_byte_for_byte) ... ok
+test_IF03_uses_pre_ring_cheeks_all_spacers_and_six_slots (__main__.FocusedIntegration.test_IF03_uses_pre_ring_cheeks_all_spacers_and_six_slots) ... ok
+test_IF07_and08_boundaries_use_selected_rib_and_original_disks (__main__.FocusedIntegration.test_IF07_and08_boundaries_use_selected_rib_and_original_disks) ... ok
+test_IF10_and11_single_part_axis_and_top_budget_are_preserved (__main__.FocusedIntegration.test_IF10_and11_single_part_axis_and_top_budget_are_preserved) ... ok
+test_IF12_no_invented_lock_or_access_through_closed_top (__main__.FocusedIntegration.test_IF12_no_invented_lock_or_access_through_closed_top) ... ok
+test_current_27_bodies_match_reviewed_P05A_export (__main__.FocusedIntegration.test_current_27_bodies_match_reviewed_P05A_export) ... ok
+test_source_authorities_and_official_open_states_not_upgraded (__main__.FocusedIntegration.test_source_authorities_and_official_open_states_not_upgraded) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 8.843s
+
+OK

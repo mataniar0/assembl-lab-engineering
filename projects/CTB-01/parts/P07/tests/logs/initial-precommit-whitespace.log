@@ -1,0 +1,33 @@
+exit_code=2
+projects/CTB-01/parts/P07/BOM-v1.csv:1: trailing whitespace.
++concept,part_id,quantity,nominal_thickness_mm,release
+projects/CTB-01/parts/P07/BOM-v1.csv:2: trailing whitespace.
++A,P07B,1,6,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:3: trailing whitespace.
++A,P07T,1,6,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:4: trailing whitespace.
++A,P07R1,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:5: trailing whitespace.
++A,P07R2,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:6: trailing whitespace.
++B,P07B,1,6,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:7: trailing whitespace.
++B,P07T,1,6,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:8: trailing whitespace.
++B,P07R1,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:9: trailing whitespace.
++B,P07R2,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:10: trailing whitespace.
++B,P07R3,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:11: trailing whitespace.
++C,P07B,1,6,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:12: trailing whitespace.
++C,P07T,1,6,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:13: trailing whitespace.
++C,P07R1,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:14: trailing whitespace.
++C,P07R2,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:15: trailing whitespace.
++C,P07R3,1,4,DESIGN_ONLY
+projects/CTB-01/parts/P07/BOM-v1.csv:16: trailing whitespace.
++C,P07R4,1,4,DESIGN_ONLY
