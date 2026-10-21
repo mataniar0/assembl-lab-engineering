@@ -1,28 +1,21 @@
-# ETG-000 — LEAN TASK PLANNING v1.1 | תכנית המשך ומסירה
+# ETG-000 — LEAN v1.1 H1 design handoff
 
-**פרויקט:** ETG-01 קופסת אתרוג · **Issue:** #18 · **Draft PR:** #19 · **סטטוס:** `G0_DRAFT / DESIGN_ONLY`.
-**עדיפות:** P1 — סגירת מקור תכנון ובסיס ממשקים. **מבצע מומלץ כעת:** ChatGPT. **Codex כעת:** `NOT_NEEDED` עד לאיתור מקור CAD או פער חישובי מוגדר.
-**QA עצמאי:** `INDEPENDENT_QA_PENDING`. **ייצור:** `NOT_AUTHORIZED`.
+**Issue:** #18 · **PR:** #19 (DRAFT) · **Priority:** P1 · **Executor now:** ChatGPT · **Codex now:** NOT_NEEDED · **QA:** INDEPENDENT_QA_PENDING · **Gate:** G0_DRAFT/DESIGN_ONLY.
 
-קרא את [LEAN TASK PLANNING v1.1](../../../../engineering-process/LEAN_TASK_PLANNING_HE.md), `AGENTS.md`, `engineering-process/PLAYBOOK_HE.md`, `GATES.md`, `QUALITY_STANDARD.md`, Skill, ואת `BRIEF.md`, `STATUS.md`, `DECISIONS.md`, `SPEC_HE.md`, `parameters.json`, `PARTS.csv`, `interfaces.csv`, `OPEN_ISSUES.csv` ו-`LEGACY_REGISTER.md` של ETG-01. שערים וחוזי ממשקים גוברים על חיסכון.
+## Product-owner decision
+ETG-CR-001 / D09 selects **H1 integrated recessed wooden pivot** to replace FCIPH. Keep ETG body260×160×150mm, structural birch6mm nominal, portrait H800×W440 sheet and ETG lid 0–120°. Do **not** copy MEB H1 research dimensions/110deg or MEB 310mm cavity. Old FCIPH reports/108 PASS are reference evidence for legacy body/corners **only**; no H1 validation.
 
-## שלב A — ChatGPT (תכנון ראשוני קיים; איסוף מקור פתוח)
-1. **אל תתחיל מחדש:** השתמש בעשרת קובצי ETG-000 שב-PR #19: 13 משפחות חלקים זמניות, 24 ממשקים ו-10 חסמים. אלו נתוני G0 לתכנון, לא מכלול CAD מאומת.
-2. **שמור זהות מוצר:** גוף קופסת אתרוג נומינלי `260×160×150 mm`, בירץ 6 מ"מ נומינלי, משטח `H800×W440 mm` לאורך Y, ו-FCIPH מעץ בלבד. **אין לייבא את מידת 310 מ"מ / V8.3.9 של קופסת המגילה**. מידות פרי מטרה היסטוריות 200×100 מ"מ דורשות תרגום למעטפת חלל שימושית והערכה מחדש — אינן נתון CAD מאומת.
-3. **מה נמצא בארכיון ChatGPT Library:** `V7_2_FCIPH_FINAL_REPORT_HE.md`, `V7_6_FINAL_REPORT_HE.md`, `V7_6_FULL_CONNECTION_AUDIT.csv`, `V7_6_CORRECTIONS.csv`. V7.6 מציג **108 PASS / 6 corrections** כהיסטוריה בלבד; הבדיקות לא הורצו מחדש. קובצי **מקור פרמטרי ו-DXF מקוריים של V7.6 לא אותרו** בחיפוש המסמכים ובמאגר ETG-000 עד לסקירה זו; אין להציגם כמשוחזרים או כמאומתים. בדוק קודם האם אפשר להביא את חבילת המקור המקורית מהפרויקט הישן, ולתעד SHA.
-4. **הפרשי מקור לבדיקה:** בין V7.2 ל-V7.6 שטח `anchor glue land` משתנה מ-392.7 ל-339.9 מ"מ²; חפיפת ear/body המדווחת משתנה מ-288 ל-528 מ"מ². ייתכן שאלו גרסאות או הגדרות מדידה שונות — אל תקבע ערך לפני בדיקת CAD. מלבני Nesting היסטוריים מתועדים בצירים X עד 800/Y עד 440, לעומת צירי המשטח הפעילים X עד 440/Y עד 800; אין להמיר PASS היסטורי לאישור קובץ חדש.
-5. **בדיקת G0 ישירה:** השווה רשימת חלקים, כל קצוות IF, מדיניות סטטוסים FROZEN/PROVISIONAL/OPEN, נוסחאות מרווח רדיאלי `(32.8-32)/2=0.4`, `(14.6-14)/2=0.3`, תלות בין חלקים ושטח גוף/מעטפת ציר. הפק רשימת חריגים מרוכזת; אל תייצר מחדש DXF או גלריה לצורך סקירה.
-6. אם מקור V7.6 אינו נגיש, **עצור לפני עבודת CAD** עם `INPUT_MISSING`, פרט את המינימום הדרוש ממקור ישן. אל תפעיל Codex לייצר מחדש את כל המוצר כדי לעקוף חוסר מידע.
+## ChatGPT Phase A
+1. Read current main LEAN/AGENTS/PLAYBOOK/GATES/QUALITY_STANDARD, and ETG BRIEF, STATUS, DECISIONS, params, PARTS, IF, blocker, CR and legacy registers.
+2. Map the owner H1 A/B/C/D groups: P06 rear laminated body supports; P09/P10 moving lid cheeks; P11 two wooden pins; P12 two recessed low-profile retaining caps. Nominal 13 families, 28 IFs, 12 tracked blockers — these are G0 bookkeeping, not CAD passes.
+3. Seek missing original V7.6 parametric + DXF sources if accessible, so existing panels/corners can be reused; avoid reconstructing discarded FCIPH hinge. If missing, mark LEGACY_SOURCE_PENDING and propose a minimal **authorized** parametric rear-corner rebuild, not full historical CAD recreation.
+4. Screen H1 clearance/cavity and body/sheet envelope; identify one specific uncertainty remaining for 3D CAD. Coaxiality across both ends, positive pin capture/cap seating, cap insertion and reversibility, 0–120° sweep, rear P06 support integrity and cavity/tip/skin keep-out all remain OPEN. No virtual pass without real solids.
+5. Preserve final source-of-truth versions, negative controls, actual test counts/failure logs and approved vs provisional geometry.
 
-## האם ומתי להפעיל Codex
-- **B1 בדיקת היתכנות:** רק אם נותר ספק ממשי בר־בדיקה גאומטרית במקור שהושג (למשל מסלול הרכבת FCIPH, מכסה 0–120°, או ממשק פינה). משימה קצרה אחת ו-`GO / REVISE / NO-GO`; לעצור אחרי B1.
-- **B2 מימוש:** רק לאחר מיצוי שלב A, מקור מאומת / החלטת שחזור מתועדת וסקירת B1 אם הייתה; לבחור תת-מכלול אחד בלבד, לייצא רק קבצים הכרחיים, עם בדיקות חיבור, מסלול הכנסה ובדיקות שליליות מבוססות סיכון. לא לבנות את ETG-001..008 אוטומטית בבת אחת.
-- לפני טענת G2b נדרש אימות מכלול מלא, לרבות מנגנון הציר, כל חלקי הפינות, סדר הרכבה והיעדר התנגשויות לאורך המסלול. בדיקה פיזית G3, kerf, עובי חומר, הדבקה ומנגנון שחרור לייצור G4 נשארים `NOT_RUN`.
+## Conditional Codex B1 — only after source or scoped rebuild authority
+One ETG-specific H1 support/cheek/pin/cap **feasibility** study. Use nominal 6mm flat-layered rear corner and lid cheek model; simulate both pivot axes, lid 0–120° continuous motion, interference and pin/cap installation/escape, with negative missing-cap and misaligned-bore tests. Return one GO/REVISE/NO-GO, minimal section/coordinates and actual log counts, stop before B2. Do not output full production DXF or nesting.
 
-## שער QA / PR
-- PR #19 הוא **G0_DRAFT** בלבד. יש להמשיך לבדיקת נתוני G0, בדיקות שליליות רלוונטיות ו-QA עצמאי עם ציון >=90/100 ואפס חסמי CRITICAL *בתחום אישור ה-G0*. מקור CAD חסר יכול להישאר חסם לשער G1/G2, בתנאי ש-G0 אינו טוען אחרת וסוקר ה-G0 מאשר שהיקף ההוכחה מוגבל במפורש.
-- אם ChatGPT שינה את התיעוד, בדיקתו היא `SELF_REVIEW`, לא QA עצמאי. אין מיזוג עצמי/אוטומטי.
-- דווח: מזהה SHA/PR, מספר מקרי בדיקה ייחודיים, PASS/FAIL/NOT_RUN, כישלונות ותיקונים, ממשקי IF פתוחים, המשימה הבאה והמבצע המומלץ; אין לטעון מספרי בדיקות חדשים על סמך דוחות V7.6.
+## B2, QA and stop
+B2 only after B1 review and approved interface changes. Require real independent document and geometry QA >=90/100 and zero in-scope critical blocker; no self-approval or automatic merge. Stop on frozen body/stock/material or functional tradeoff requiring owner. Physical fit, kerf, loading, wear and cap retention G3 NOT_RUN; G4 production NOT_AUTHORIZED.
 
-## המשימה הבאה
-**ETG-000 G0 SOURCE-RECONCILIATION (P1; ChatGPT first):** להשיג או לזהות את חבילת קוד המקור וה-DXF המקוריים של V7.6; לקשור גרסה ו-hash, להתאים את ההחלטות ו-24 הממשקים לראיות. אם אינה בנמצא, לסמן `INPUT_MISSING` ולבקש אך ורק חבילת המקור, בלי לבצע שחזור CAD מיותר. לאחר מכן לקדם QA עצמאי ל-PR #19.
+**Next step:** G0 H1 baseline verification and source lookup in ChatGPT, separate QA of updated PR #19; afterwards authorize *one* B1 if needed.
