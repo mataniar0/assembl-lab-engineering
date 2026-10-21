@@ -212,7 +212,7 @@ cutting NOT_APPROVED. Lead review complete for bounded study; no production or f
 
 ## CTB-007 — SKINS / EXPERIMENTAL KERF RIM / AWAITING_LEAD_SELECTION
 
-Issue #24, existingbranch `codex/ctb-007-skins-rim`, baseline6db45fa afterPR22. DESIGN_ONLY,
+Issue #24, review PR [#32](https://github.com/mataniar0/assembl-lab-engineering/pull/32), existing branch `codex/ctb-007-skins-rim`, baseline6db45fa afterPR22. DESIGN_ONLY,
 G1 geometry/boundedG2a tabletop study. Original439CTB000/P01–P06 files unchanged; actual
 selected pre-ring27 consumed. CTB006R Issue23/IF09/B05 remain OPEN; no P06 ring or unapproved
 cheek mortise in the31/32/33-body models, no actualP08 lock, hardware or hidden glue solid.

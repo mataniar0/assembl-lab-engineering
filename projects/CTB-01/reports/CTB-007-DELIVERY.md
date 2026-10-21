@@ -2,7 +2,7 @@
 
 Issue[24](https://github.com/mataniar0/assembl-lab-engineering/issues/24), existing branch
 `codex/ctb-007-skins-rim`, baseline 6db45fa7ba0d9a81ff9bbc6d1a432133ab955214.
-**PR:** PENDING_SUBMISSION. **Stage:** G1geometry/boundedG2a, DESIGN_ONLY / AWAITING_LEAD_SELECTION.
+**PR:** [#32](https://github.com/mataniar0/assembl-lab-engineering/pull/32), open for review; not merged. **Stage:** G1geometry/boundedG2a, DESIGN_ONLY / AWAITING_LEAD_SELECTION.
 Implementation Codex/root; separate reviewer/root/ctb007_qa: **96/100, zero in-scope critical/major defects**; see CTB-007-INDEPENDENT-QA.md.
 No self-merge, physical cutting, production or completeG2b/G3/G4 approval.
 

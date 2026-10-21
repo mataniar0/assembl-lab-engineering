@@ -208,11 +208,21 @@ rerun only the affected measurement/kernel audit. It did not rerun untouched com
 or manufacture a full clean rerun claim. Final sealed JSON includes all three valid audits,
 full source/export hashes and expected status assertions.
 
+Final pre-commit hygiene: staging detected CRLF in `BOM-v1.csv` as trailing whitespace.
+The implementer normalized it to LF. Independent reconstruction of CRLF exactly
+reproduces the previously sealed SHA256; all 15 CSV rows and values are identical,
+and all three variant quantities still match their export metadata. The other 11
+source hashes and all 33 raw export hashes are unchanged. Only the BOM source hash
+was rebound in the final seal. No geometry changed and no OCC rerun was needed;
+the 96/100 verdict is unchanged. Initial diagnostic and independent confirmation are
+retained in `initial-precommit-whitespace.log` and `independent-BOM-LF-hygiene.log`.
+
 Evidence: `assembly/independent-occ-review.json`, `independent-final-seal.json`;
 `tests/logs/independent-focused-tests.log`, `independent-upstream-preflight.json/.log`,
 `independent-protected-before.json`, `independent-parser-initial-error.log`,
 `independent-occ-initial-NullObject.log`, `independent-sweep-diagnostics.json`,
 `independent-occ-review.log` (A/B success and original C measurement error),
 `independent-C-contact-initial-error.log`, `independent-partial-contact-diagnostics.json`,
-`independent-occ-C-retest.log`, `independent-flat-screens.json`, `independent-final-seal.log`.
+`independent-occ-C-retest.log`, `independent-flat-screens.json`, `independent-final-seal.log`,
+`independent-BOM-LF-hygiene.log`.
 Primary initial failure/correction and clean93 logs remain separately retained.
