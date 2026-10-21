@@ -1,0 +1,5947 @@
+{
+  "scope": "independent regenerated cut exports and finite faceted ideal bent geometry, not physical bending",
+  "protected": {
+    "baseline": "6db45fa7ba0d9a81ff9bbc6d1a432133ab955214",
+    "files_byte_equal": 439
+  },
+  "baseline_actual_parts": 27,
+  "P06_not_in_active_assembly": true,
+  "variants": {
+    "A": {
+      "cut_skins": {
+        "P07B": {
+          "area_mm2": 90951.17781337614,
+          "bounds_mm": [
+            -171.0,
+            -171.0,
+            171.0,
+            171.0
+          ],
+          "cut_loops": 7,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P07T": {
+          "area_mm2": 91858.64692133738,
+          "bounds_mm": [
+            -171.0,
+            -171.0,
+            171.0,
+            171.0
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        }
+      },
+      "body_count": 31,
+      "new_material_static_pairs": 114,
+      "new_material_maximum_overlap_mm3": 0.0,
+      "new_material_pair_matrix": {
+        "P03|P07B": 0.0,
+        "P03|P07T": 0.0,
+        "P03|P07R1": 0.0,
+        "P03|P07R2": 0.0,
+        "L1_P01_1|P07B": 0.0,
+        "L1_P01_1|P07T": 0.0,
+        "L1_P01_1|P07R1": 0.0,
+        "L1_P01_1|P07R2": 0.0,
+        "L1_P01_2|P07B": 0.0,
+        "L1_P01_2|P07T": 0.0,
+        "L1_P01_2|P07R1": 0.0,
+        "L1_P01_2|P07R2": 0.0,
+        "L1_S1|P07B": 0.0,
+        "L1_S1|P07T": 0.0,
+        "L1_S1|P07R1": 0.0,
+        "L1_S1|P07R2": 0.0,
+        "L1_S2|P07B": 0.0,
+        "L1_S2|P07T": 0.0,
+        "L1_S2|P07R1": 0.0,
+        "L1_S2|P07R2": 0.0,
+        "L1_S3|P07B": 0.0,
+        "L1_S3|P07T": 0.0,
+        "L1_S3|P07R1": 0.0,
+        "L1_S3|P07R2": 0.0,
+        "L1_S4|P07B": 0.0,
+        "L1_S4|P07T": 0.0,
+        "L1_S4|P07R1": 0.0,
+        "L1_S4|P07R2": 0.0,
+        "L2_P01_1|P07B": 0.0,
+        "L2_P01_1|P07T": 0.0,
+        "L2_P01_1|P07R1": 0.0,
+        "L2_P01_1|P07R2": 0.0,
+        "L2_P01_2|P07B": 0.0,
+        "L2_P01_2|P07T": 0.0,
+        "L2_P01_2|P07R1": 0.0,
+        "L2_P01_2|P07R2": 0.0,
+        "L2_S1|P07B": 0.0,
+        "L2_S1|P07T": 0.0,
+        "L2_S1|P07R1": 0.0,
+        "L2_S1|P07R2": 0.0,
+        "L2_S2|P07B": 0.0,
+        "L2_S2|P07T": 0.0,
+        "L2_S2|P07R1": 0.0,
+        "L2_S2|P07R2": 0.0,
+        "L2_S3|P07B": 0.0,
+        "L2_S3|P07T": 0.0,
+        "L2_S3|P07R1": 0.0,
+        "L2_S3|P07R2": 0.0,
+        "L2_S4|P07B": 0.0,
+        "L2_S4|P07T": 0.0,
+        "L2_S4|P07R1": 0.0,
+        "L2_S4|P07R2": 0.0,
+        "L3_P01_1|P07B": 0.0,
+        "L3_P01_1|P07T": 0.0,
+        "L3_P01_1|P07R1": 0.0,
+        "L3_P01_1|P07R2": 0.0,
+        "L3_P01_2|P07B": 0.0,
+        "L3_P01_2|P07T": 0.0,
+        "L3_P01_2|P07R1": 0.0,
+        "L3_P01_2|P07R2": 0.0,
+        "L3_S1|P07B": 0.0,
+        "L3_S1|P07T": 0.0,
+        "L3_S1|P07R1": 0.0,
+        "L3_S1|P07R2": 0.0,
+        "L3_S2|P07B": 0.0,
+        "L3_S2|P07T": 0.0,
+        "L3_S2|P07R1": 0.0,
+        "L3_S2|P07R2": 0.0,
+        "L3_S3|P07B": 0.0,
+        "L3_S3|P07T": 0.0,
+        "L3_S3|P07R1": 0.0,
+        "L3_S3|P07R2": 0.0,
+        "L3_S4|P07B": 0.0,
+        "L3_S4|P07T": 0.0,
+        "L3_S4|P07R1": 0.0,
+        "L3_S4|P07R2": 0.0,
+        "P04L|P07B": 0.0,
+        "P04L|P07T": 0.0,
+        "P04L|P07R1": 0.0,
+        "P04L|P07R2": 0.0,
+        "P04U|P07B": 0.0,
+        "P04U|P07T": 0.0,
+        "P04U|P07R1": 0.0,
+        "P04U|P07R2": 0.0,
+        "P05_1|P07B": 0.0,
+        "P05_1|P07T": 0.0,
+        "P05_1|P07R1": 0.0,
+        "P05_1|P07R2": 0.0,
+        "P05_2|P07B": 0.0,
+        "P05_2|P07T": 0.0,
+        "P05_2|P07R1": 0.0,
+        "P05_2|P07R2": 0.0,
+        "P05_3|P07B": 0.0,
+        "P05_3|P07T": 0.0,
+        "P05_3|P07R1": 0.0,
+        "P05_3|P07R2": 0.0,
+        "P05_4|P07B": 0.0,
+        "P05_4|P07T": 0.0,
+        "P05_4|P07R1": 0.0,
+        "P05_4|P07R2": 0.0,
+        "P05_5|P07B": 0.0,
+        "P05_5|P07T": 0.0,
+        "P05_5|P07R1": 0.0,
+        "P05_5|P07R2": 0.0,
+        "P05_6|P07B": 0.0,
+        "P05_6|P07T": 0.0,
+        "P05_6|P07R1": 0.0,
+        "P05_6|P07R2": 0.0,
+        "P07B|P07T": 0.0,
+        "P07B|P07R1": 0.0,
+        "P07B|P07R2": 0.0,
+        "P07T|P07R1": 0.0,
+        "P07T|P07R2": 0.0,
+        "P07R1|P07R2": 0.0
+      },
+      "rim_development_and_splices": {
+        "pieces": {
+          "P07R1": {
+            "cut_export": {
+              "area_mm2": 25441.17645000007,
+              "bounds_mm": [
+                0.0,
+                0.2,
+                50.0,
+                543.295529
+              ],
+              "cut_loops": 64,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 66,
+            "OCC_volume_mm3": 101759.53607193957,
+            "ideal_development_volume_mm3": 101764.70580000029,
+            "relative_faceted_mapping_delta": 5.080079601349485e-05,
+            "phase_deg": 15.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                8.0,
+                [
+                  [
+                    0.2,
+                    543.295529
+                  ]
+                ]
+              ],
+              [
+                8.0,
+                42.0,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    347.6
+                  ],
+                  [
+                    348.4,
+                    355.6
+                  ],
+                  [
+                    356.4,
+                    363.6
+                  ],
+                  [
+                    364.4,
+                    371.6
+                  ],
+                  [
+                    372.4,
+                    379.6
+                  ],
+                  [
+                    380.4,
+                    387.6
+                  ],
+                  [
+                    388.4,
+                    395.6
+                  ],
+                  [
+                    396.4,
+                    403.6
+                  ],
+                  [
+                    404.4,
+                    411.6
+                  ],
+                  [
+                    412.4,
+                    419.6
+                  ],
+                  [
+                    420.4,
+                    427.6
+                  ],
+                  [
+                    428.4,
+                    435.6
+                  ],
+                  [
+                    436.4,
+                    443.6
+                  ],
+                  [
+                    444.4,
+                    451.6
+                  ],
+                  [
+                    452.4,
+                    459.6
+                  ],
+                  [
+                    460.4,
+                    467.6
+                  ],
+                  [
+                    468.4,
+                    475.6
+                  ],
+                  [
+                    476.4,
+                    483.6
+                  ],
+                  [
+                    484.4,
+                    491.6
+                  ],
+                  [
+                    492.4,
+                    499.6
+                  ],
+                  [
+                    500.4,
+                    507.6
+                  ],
+                  [
+                    508.4,
+                    515.6
+                  ],
+                  [
+                    516.4,
+                    543.295529
+                  ]
+                ]
+              ],
+              [
+                42.0,
+                50.0,
+                [
+                  [
+                    0.2,
+                    543.295529
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          },
+          "P07R2": {
+            "cut_export": {
+              "area_mm2": 25441.17645000007,
+              "bounds_mm": [
+                0.0,
+                0.2,
+                50.0,
+                543.295529
+              ],
+              "cut_loops": 64,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 66,
+            "OCC_volume_mm3": 101759.5360719387,
+            "ideal_development_volume_mm3": 101764.70580000029,
+            "relative_faceted_mapping_delta": 5.080079602204357e-05,
+            "phase_deg": 195.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                8.0,
+                [
+                  [
+                    0.2,
+                    543.295529
+                  ]
+                ]
+              ],
+              [
+                8.0,
+                42.0,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    347.6
+                  ],
+                  [
+                    348.4,
+                    355.6
+                  ],
+                  [
+                    356.4,
+                    363.6
+                  ],
+                  [
+                    364.4,
+                    371.6
+                  ],
+                  [
+                    372.4,
+                    379.6
+                  ],
+                  [
+                    380.4,
+                    387.6
+                  ],
+                  [
+                    388.4,
+                    395.6
+                  ],
+                  [
+                    396.4,
+                    403.6
+                  ],
+                  [
+                    404.4,
+                    411.6
+                  ],
+                  [
+                    412.4,
+                    419.6
+                  ],
+                  [
+                    420.4,
+                    427.6
+                  ],
+                  [
+                    428.4,
+                    435.6
+                  ],
+                  [
+                    436.4,
+                    443.6
+                  ],
+                  [
+                    444.4,
+                    451.6
+                  ],
+                  [
+                    452.4,
+                    459.6
+                  ],
+                  [
+                    460.4,
+                    467.6
+                  ],
+                  [
+                    468.4,
+                    475.6
+                  ],
+                  [
+                    476.4,
+                    483.6
+                  ],
+                  [
+                    484.4,
+                    491.6
+                  ],
+                  [
+                    492.4,
+                    499.6
+                  ],
+                  [
+                    500.4,
+                    507.6
+                  ],
+                  [
+                    508.4,
+                    515.6
+                  ],
+                  [
+                    516.4,
+                    543.295529
+                  ]
+                ]
+              ],
+              [
+                42.0,
+                50.0,
+                [
+                  [
+                    0.2,
+                    543.295529
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          }
+        },
+        "periodic_joint_positive_area_mm2": {
+          "P07R1|P07R2": 0.0
+        },
+        "occupied_neutral_length_at_heights_mm": {
+          "2": 1086.1910579999999,
+          "10": 985.3910580000039,
+          "25": 985.3910580000039,
+          "40": 985.3910580000039,
+          "48": 1086.1910579999999
+        }
+      },
+      "vertical_route": {
+        "stages": [
+          {
+            "moving": "P07B",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "checks": 26,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R1_vertical_down70",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_vertical_down70",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07T_down46",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "checks": 294,
+        "maximum_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      "closed_top_then_rim": {
+        "stages": [
+          {
+            "moving": "P07R1_after_closed_top",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_after_closed_top",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "status": "PASS"
+      },
+      "radial_rim_before_top": {
+        "stages": [
+          {
+            "moving": "P07B",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "checks": 26,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R1_radial60",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_radial60",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07T_after_radial_rim",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "status": "PASS"
+      },
+      "negative_late_bottom": {
+        "moving": "P07B_after_disks_BLOCKED",
+        "checks": 27,
+        "maximum_overlap_mm3": 161857.62233798607,
+        "positive_pairs_mm3": {
+          "P04L": 161396.82246969573,
+          "P04U": 161857.62233798607,
+          "P05_1": 19970.65549870931,
+          "P05_2": 19970.65549870931,
+          "P05_3": 19970.65549870932,
+          "P05_4": 19970.655498709315,
+          "P05_5": 19970.65549870932,
+          "P05_6": 19970.65549870932
+        }
+      },
+      "negative_uncut_bottom_six_tongues_mm3": {
+        "L1_P01_1": 863.9999999999591,
+        "L1_P01_2": 863.999999999959,
+        "L2_P01_1": 863.9999999999591,
+        "L2_P01_2": 863.9999999999591,
+        "L3_P01_1": 863.9999999999586,
+        "L3_P01_2": 863.9999999999584
+      },
+      "top_upward_withdrawal_FREE": {
+        "moving": "P07T_upward_WITHDRAWAL_FREE",
+        "checks": 30,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "P08_access_probes_reservation_only": [
+        {
+          "leg": 1,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 1,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 2,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615502
+        },
+        {
+          "leg": 2,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 3,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615506
+        },
+        {
+          "leg": 3,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615502
+        }
+      ],
+      "independent_rim_skin_boundary_area_mm2": {
+        "P07B": 6441.7216563990505,
+        "P07T": 6441.7216563990505
+      },
+      "P05_skin_lands": {
+        "456": {
+          "r_interval_mm": [
+            82.0,
+            168.0
+          ],
+          "per_rib_area_mm2": 516.0,
+          "all_six_area_mm2": 3096.0
+        },
+        "494": {
+          "r_interval_mm": [
+            82.0,
+            168.0
+          ],
+          "per_rib_area_mm2": 516.0,
+          "all_six_area_mm2": 3096.0
+        }
+      },
+      "lower_disk_skin_geometric_contact_mm2": 26899.470411615977,
+      "glb_actual_bodies_parity": {
+        "nodes": 31,
+        "parts": {
+          "P07R2": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 2.5339790465928047e-07,
+            "watertight_positive": true
+          },
+          "P07R1": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 2.5326709440776085e-07,
+            "watertight_positive": true
+          },
+          "P07T": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 2.0161989249256607e-06,
+            "watertight_positive": true
+          },
+          "P07B": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 2.015507526875737e-06,
+            "watertight_positive": true
+          },
+          "P05_6": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411671565371591e-08,
+            "watertight_positive": true
+          },
+          "P05_5": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411677205304557e-08,
+            "watertight_positive": true
+          },
+          "P05_4": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 3.130076626778333e-07,
+            "watertight_positive": true
+          },
+          "P05_3": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411671565371591e-08,
+            "watertight_positive": true
+          },
+          "P05_2": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411677249713478e-08,
+            "watertight_positive": true
+          },
+          "P05_1": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 3.130076624557887e-07,
+            "watertight_positive": true
+          },
+          "P04U": {
+            "bounds_delta_mm": 1.0728836059570312e-05,
+            "relative_volume_delta": 2.0411090855265712e-06,
+            "watertight_positive": true
+          },
+          "P04L": {
+            "bounds_delta_mm": 1.239776611328125e-05,
+            "relative_volume_delta": 2.047540926142233e-06,
+            "watertight_positive": true
+          },
+          "L3_S4": {
+            "bounds_delta_mm": 7.247250152886409e-06,
+            "relative_volume_delta": 1.9164266531479512e-06,
+            "watertight_positive": true
+          },
+          "L3_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 4.7264619407183517e-07,
+            "watertight_positive": true
+          },
+          "L3_S2": {
+            "bounds_delta_mm": 8.89331477083033e-06,
+            "relative_volume_delta": 7.994398767419142e-07,
+            "watertight_positive": true
+          },
+          "L3_S1": {
+            "bounds_delta_mm": 1.1928896213930784e-05,
+            "relative_volume_delta": 5.104564924085508e-07,
+            "watertight_positive": true
+          },
+          "L3_P01_2": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 4.313298052061043e-09,
+            "watertight_positive": true
+          },
+          "L3_P01_1": {
+            "bounds_delta_mm": 1.182103335395368e-05,
+            "relative_volume_delta": 8.66880204286602e-08,
+            "watertight_positive": true
+          },
+          "L2_S4": {
+            "bounds_delta_mm": 7.247250124464699e-06,
+            "relative_volume_delta": 1.9164266529259066e-06,
+            "watertight_positive": true
+          },
+          "L2_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 4.7264619429387977e-07,
+            "watertight_positive": true
+          },
+          "L2_S2": {
+            "bounds_delta_mm": 8.893314856095458e-06,
+            "relative_volume_delta": 7.994398782962264e-07,
+            "watertight_positive": true
+          },
+          "L2_S1": {
+            "bounds_delta_mm": 1.1928896128665656e-05,
+            "relative_volume_delta": 5.104564911873055e-07,
+            "watertight_positive": true
+          },
+          "L2_P01_2": {
+            "bounds_delta_mm": 1.1821033439218809e-05,
+            "relative_volume_delta": 8.541590734711946e-08,
+            "watertight_positive": true
+          },
+          "L2_P01_1": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 2.7770309385388714e-09,
+            "watertight_positive": true
+          },
+          "L1_S4": {
+            "bounds_delta_mm": 6.67572021484375e-06,
+            "relative_volume_delta": 2.1140339512282225e-06,
+            "watertight_positive": true
+          },
+          "L1_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 1.41697465205759e-07,
+            "watertight_positive": true
+          },
+          "L1_S2": {
+            "bounds_delta_mm": 2.5033950805664062e-06,
+            "relative_volume_delta": 6.791468758482466e-07,
+            "watertight_positive": true
+          },
+          "L1_S1": {
+            "bounds_delta_mm": 5.360406277077345e-06,
+            "relative_volume_delta": 2.9333529938391223e-07,
+            "watertight_positive": true
+          },
+          "L1_P01_2": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 1.0712104803189959e-07,
+            "watertight_positive": true
+          },
+          "L1_P01_1": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 1.071210482539442e-07,
+            "watertight_positive": true
+          },
+          "P03": {
+            "bounds_delta_mm": 1.239776611328125e-05,
+            "relative_volume_delta": 2.959761119414317e-06,
+            "watertight_positive": true
+          }
+        },
+        "units": "GLTF metres checked against millimetres"
+      },
+      "P06_included": false,
+      "P06R23_and_P08_and_physical_all_OPEN": true
+    },
+    "B": {
+      "cut_skins": {
+        "P07B": {
+          "area_mm2": 90951.17781337614,
+          "bounds_mm": [
+            -171.0,
+            -171.0,
+            171.0,
+            171.0
+          ],
+          "cut_loops": 7,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P07T": {
+          "area_mm2": 91858.64692133738,
+          "bounds_mm": [
+            -171.0,
+            -171.0,
+            171.0,
+            171.0
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        }
+      },
+      "body_count": 32,
+      "new_material_static_pairs": 145,
+      "new_material_maximum_overlap_mm3": 0.0,
+      "new_material_pair_matrix": {
+        "P03|P07B": 0.0,
+        "P03|P07T": 0.0,
+        "P03|P07R1": 0.0,
+        "P03|P07R2": 0.0,
+        "P03|P07R3": 0.0,
+        "L1_P01_1|P07B": 0.0,
+        "L1_P01_1|P07T": 0.0,
+        "L1_P01_1|P07R1": 0.0,
+        "L1_P01_1|P07R2": 0.0,
+        "L1_P01_1|P07R3": 0.0,
+        "L1_P01_2|P07B": 0.0,
+        "L1_P01_2|P07T": 0.0,
+        "L1_P01_2|P07R1": 0.0,
+        "L1_P01_2|P07R2": 0.0,
+        "L1_P01_2|P07R3": 0.0,
+        "L1_S1|P07B": 0.0,
+        "L1_S1|P07T": 0.0,
+        "L1_S1|P07R1": 0.0,
+        "L1_S1|P07R2": 0.0,
+        "L1_S1|P07R3": 0.0,
+        "L1_S2|P07B": 0.0,
+        "L1_S2|P07T": 0.0,
+        "L1_S2|P07R1": 0.0,
+        "L1_S2|P07R2": 0.0,
+        "L1_S2|P07R3": 0.0,
+        "L1_S3|P07B": 0.0,
+        "L1_S3|P07T": 0.0,
+        "L1_S3|P07R1": 0.0,
+        "L1_S3|P07R2": 0.0,
+        "L1_S3|P07R3": 0.0,
+        "L1_S4|P07B": 0.0,
+        "L1_S4|P07T": 0.0,
+        "L1_S4|P07R1": 0.0,
+        "L1_S4|P07R2": 0.0,
+        "L1_S4|P07R3": 0.0,
+        "L2_P01_1|P07B": 0.0,
+        "L2_P01_1|P07T": 0.0,
+        "L2_P01_1|P07R1": 0.0,
+        "L2_P01_1|P07R2": 0.0,
+        "L2_P01_1|P07R3": 0.0,
+        "L2_P01_2|P07B": 0.0,
+        "L2_P01_2|P07T": 0.0,
+        "L2_P01_2|P07R1": 0.0,
+        "L2_P01_2|P07R2": 0.0,
+        "L2_P01_2|P07R3": 0.0,
+        "L2_S1|P07B": 0.0,
+        "L2_S1|P07T": 0.0,
+        "L2_S1|P07R1": 0.0,
+        "L2_S1|P07R2": 0.0,
+        "L2_S1|P07R3": 0.0,
+        "L2_S2|P07B": 0.0,
+        "L2_S2|P07T": 0.0,
+        "L2_S2|P07R1": 0.0,
+        "L2_S2|P07R2": 0.0,
+        "L2_S2|P07R3": 0.0,
+        "L2_S3|P07B": 0.0,
+        "L2_S3|P07T": 0.0,
+        "L2_S3|P07R1": 0.0,
+        "L2_S3|P07R2": 0.0,
+        "L2_S3|P07R3": 0.0,
+        "L2_S4|P07B": 0.0,
+        "L2_S4|P07T": 0.0,
+        "L2_S4|P07R1": 0.0,
+        "L2_S4|P07R2": 0.0,
+        "L2_S4|P07R3": 0.0,
+        "L3_P01_1|P07B": 0.0,
+        "L3_P01_1|P07T": 0.0,
+        "L3_P01_1|P07R1": 0.0,
+        "L3_P01_1|P07R2": 0.0,
+        "L3_P01_1|P07R3": 0.0,
+        "L3_P01_2|P07B": 0.0,
+        "L3_P01_2|P07T": 0.0,
+        "L3_P01_2|P07R1": 0.0,
+        "L3_P01_2|P07R2": 0.0,
+        "L3_P01_2|P07R3": 0.0,
+        "L3_S1|P07B": 0.0,
+        "L3_S1|P07T": 0.0,
+        "L3_S1|P07R1": 0.0,
+        "L3_S1|P07R2": 0.0,
+        "L3_S1|P07R3": 0.0,
+        "L3_S2|P07B": 0.0,
+        "L3_S2|P07T": 0.0,
+        "L3_S2|P07R1": 0.0,
+        "L3_S2|P07R2": 0.0,
+        "L3_S2|P07R3": 0.0,
+        "L3_S3|P07B": 0.0,
+        "L3_S3|P07T": 0.0,
+        "L3_S3|P07R1": 0.0,
+        "L3_S3|P07R2": 0.0,
+        "L3_S3|P07R3": 0.0,
+        "L3_S4|P07B": 0.0,
+        "L3_S4|P07T": 0.0,
+        "L3_S4|P07R1": 0.0,
+        "L3_S4|P07R2": 0.0,
+        "L3_S4|P07R3": 0.0,
+        "P04L|P07B": 0.0,
+        "P04L|P07T": 0.0,
+        "P04L|P07R1": 0.0,
+        "P04L|P07R2": 0.0,
+        "P04L|P07R3": 0.0,
+        "P04U|P07B": 0.0,
+        "P04U|P07T": 0.0,
+        "P04U|P07R1": 0.0,
+        "P04U|P07R2": 0.0,
+        "P04U|P07R3": 0.0,
+        "P05_1|P07B": 0.0,
+        "P05_1|P07T": 0.0,
+        "P05_1|P07R1": 0.0,
+        "P05_1|P07R2": 0.0,
+        "P05_1|P07R3": 0.0,
+        "P05_2|P07B": 0.0,
+        "P05_2|P07T": 0.0,
+        "P05_2|P07R1": 0.0,
+        "P05_2|P07R2": 0.0,
+        "P05_2|P07R3": 0.0,
+        "P05_3|P07B": 0.0,
+        "P05_3|P07T": 0.0,
+        "P05_3|P07R1": 0.0,
+        "P05_3|P07R2": 0.0,
+        "P05_3|P07R3": 0.0,
+        "P05_4|P07B": 0.0,
+        "P05_4|P07T": 0.0,
+        "P05_4|P07R1": 0.0,
+        "P05_4|P07R2": 0.0,
+        "P05_4|P07R3": 0.0,
+        "P05_5|P07B": 0.0,
+        "P05_5|P07T": 0.0,
+        "P05_5|P07R1": 0.0,
+        "P05_5|P07R2": 0.0,
+        "P05_5|P07R3": 0.0,
+        "P05_6|P07B": 0.0,
+        "P05_6|P07T": 0.0,
+        "P05_6|P07R1": 0.0,
+        "P05_6|P07R2": 0.0,
+        "P05_6|P07R3": 0.0,
+        "P07B|P07T": 0.0,
+        "P07B|P07R1": 0.0,
+        "P07B|P07R2": 0.0,
+        "P07B|P07R3": 0.0,
+        "P07T|P07R1": 0.0,
+        "P07T|P07R2": 0.0,
+        "P07T|P07R3": 0.0,
+        "P07R1|P07R2": 0.0,
+        "P07R1|P07R3": 0.0,
+        "P07R2|P07R3": 0.0
+      },
+      "rim_development_and_splices": {
+        "pieces": {
+          "P07R1": {
+            "cut_export": {
+              "area_mm2": 17473.31764999997,
+              "bounds_mm": [
+                0.0,
+                -3.8,
+                50.0,
+                366.130353
+              ],
+              "cut_loops": 42,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 130,
+            "OCC_volume_mm3": 69889.72458827619,
+            "ideal_development_volume_mm3": 69893.27059999989,
+            "relative_faceted_mapping_delta": 5.0734665773322085e-05,
+            "phase_deg": 15.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.5,
+                [
+                  [
+                    -3.8,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                18.0,
+                [
+                  [
+                    -3.8,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                18.0,
+                24.5,
+                [
+                  [
+                    4.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                24.5,
+                25.5,
+                [
+                  [
+                    4.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                25.5,
+                32.0,
+                [
+                  [
+                    4.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                32.0,
+                43.5,
+                [
+                  [
+                    -3.8,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                50.0,
+                [
+                  [
+                    -3.8,
+                    358.130353
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          },
+          "P07R2": {
+            "cut_export": {
+              "area_mm2": 17473.31764999997,
+              "bounds_mm": [
+                0.0,
+                -3.8,
+                50.0,
+                366.130353
+              ],
+              "cut_loops": 42,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 130,
+            "OCC_volume_mm3": 69889.72458947326,
+            "ideal_development_volume_mm3": 69893.27059999989,
+            "relative_faceted_mapping_delta": 5.073464864624455e-05,
+            "phase_deg": 135.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.5,
+                [
+                  [
+                    -3.8,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                18.0,
+                [
+                  [
+                    -3.8,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                18.0,
+                24.5,
+                [
+                  [
+                    4.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                24.5,
+                25.5,
+                [
+                  [
+                    4.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                25.5,
+                32.0,
+                [
+                  [
+                    4.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                32.0,
+                43.5,
+                [
+                  [
+                    -3.8,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                50.0,
+                [
+                  [
+                    -3.8,
+                    358.130353
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          },
+          "P07R3": {
+            "cut_export": {
+              "area_mm2": 17473.31764999997,
+              "bounds_mm": [
+                0.0,
+                -3.8,
+                50.0,
+                366.130353
+              ],
+              "cut_loops": 42,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 130,
+            "OCC_volume_mm3": 69889.72459025995,
+            "ideal_development_volume_mm3": 69893.27059999989,
+            "relative_faceted_mapping_delta": 5.073463739058148e-05,
+            "phase_deg": 255.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.5,
+                [
+                  [
+                    -3.8,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                18.0,
+                [
+                  [
+                    -3.8,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                18.0,
+                24.5,
+                [
+                  [
+                    4.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                24.5,
+                25.5,
+                [
+                  [
+                    4.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    259.6
+                  ],
+                  [
+                    260.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    275.6
+                  ],
+                  [
+                    276.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    291.6
+                  ],
+                  [
+                    292.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    307.6
+                  ],
+                  [
+                    308.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    323.6
+                  ],
+                  [
+                    324.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    339.6
+                  ],
+                  [
+                    340.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                25.5,
+                32.0,
+                [
+                  [
+                    4.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    366.130353
+                  ]
+                ]
+              ],
+              [
+                32.0,
+                43.5,
+                [
+                  [
+                    -3.8,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    251.6
+                  ],
+                  [
+                    252.4,
+                    267.6
+                  ],
+                  [
+                    268.4,
+                    283.6
+                  ],
+                  [
+                    284.4,
+                    299.6
+                  ],
+                  [
+                    300.4,
+                    315.6
+                  ],
+                  [
+                    316.4,
+                    331.6
+                  ],
+                  [
+                    332.4,
+                    358.130353
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                50.0,
+                [
+                  [
+                    -3.8,
+                    358.130353
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          }
+        },
+        "periodic_joint_positive_area_mm2": {
+          "P07R1|P07R2": 0.0,
+          "P07R1|P07R3": 0.0,
+          "P07R2|P07R3": 0.0
+        },
+        "occupied_neutral_length_at_heights_mm": {
+          "2": 1085.7910590000001,
+          "10": 1035.391059000001,
+          "25": 987.3910590000014,
+          "40": 1037.7910590000006,
+          "48": 1085.7910590000001
+        }
+      },
+      "vertical_route": {
+        "stages": [
+          {
+            "moving": "P07B",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "checks": 26,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R1_vertical_down70",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_vertical_down70",
+            "checks": 29,
+            "maximum_overlap_mm3": 197.590713828998,
+            "positive_pairs_mm3": {
+              "P07R1": 197.590713828998
+            }
+          },
+          {
+            "moving": "P07R3_vertical_down70",
+            "checks": 30,
+            "maximum_overlap_mm3": 349.5835693841608,
+            "positive_pairs_mm3": {
+              "P07R1": 349.5835693841608,
+              "P07R2": 197.59071313015943
+            }
+          },
+          {
+            "moving": "P07T_down46",
+            "checks": 31,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "checks": 325,
+        "maximum_overlap_mm3": 349.5835693841608,
+        "status": "BLOCKED"
+      },
+      "closed_top_then_rim": {
+        "stages": [
+          {
+            "moving": "P07R1_after_closed_top",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_after_closed_top",
+            "checks": 30,
+            "maximum_overlap_mm3": 197.590713828998,
+            "positive_pairs_mm3": {
+              "P07R1": 197.590713828998
+            }
+          },
+          {
+            "moving": "P07R3_after_closed_top",
+            "checks": 31,
+            "maximum_overlap_mm3": 349.5835693841608,
+            "positive_pairs_mm3": {
+              "P07R1": 349.5835693841608,
+              "P07R2": 197.59071313015943
+            }
+          }
+        ],
+        "status": "BLOCKED"
+      },
+      "radial_rim_before_top": {
+        "stages": [
+          {
+            "moving": "P07B",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "checks": 26,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R1_radial60",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_radial60",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R3_radial60",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07T_after_radial_rim",
+            "checks": 31,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "status": "PASS"
+      },
+      "negative_late_bottom": {
+        "moving": "P07B_after_disks_BLOCKED",
+        "checks": 27,
+        "maximum_overlap_mm3": 161857.62233798607,
+        "positive_pairs_mm3": {
+          "P04L": 161396.82246969573,
+          "P04U": 161857.62233798607,
+          "P05_1": 19970.65549870931,
+          "P05_2": 19970.65549870931,
+          "P05_3": 19970.65549870932,
+          "P05_4": 19970.655498709315,
+          "P05_5": 19970.65549870932,
+          "P05_6": 19970.65549870932
+        }
+      },
+      "negative_uncut_bottom_six_tongues_mm3": {
+        "L1_P01_1": 863.9999999999591,
+        "L1_P01_2": 863.999999999959,
+        "L2_P01_1": 863.9999999999591,
+        "L2_P01_2": 863.9999999999591,
+        "L3_P01_1": 863.9999999999586,
+        "L3_P01_2": 863.9999999999584
+      },
+      "top_upward_withdrawal_FREE": {
+        "moving": "P07T_upward_WITHDRAWAL_FREE",
+        "checks": 31,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "P08_access_probes_reservation_only": [
+        {
+          "leg": 1,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 1,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 2,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615502
+        },
+        {
+          "leg": 2,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 3,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615506
+        },
+        {
+          "leg": 3,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615502
+        }
+      ],
+      "independent_rim_skin_boundary_area_mm2": {
+        "P07B": 6439.349744140271,
+        "P07T": 6439.349744140271
+      },
+      "P05_skin_lands": {
+        "456": {
+          "r_interval_mm": [
+            82.0,
+            168.0
+          ],
+          "per_rib_area_mm2": 516.0,
+          "all_six_area_mm2": 3096.0
+        },
+        "494": {
+          "r_interval_mm": [
+            82.0,
+            168.0
+          ],
+          "per_rib_area_mm2": 516.0,
+          "all_six_area_mm2": 3096.0
+        }
+      },
+      "lower_disk_skin_geometric_contact_mm2": 26899.470411615977,
+      "glb_actual_bodies_parity": {
+        "nodes": 32,
+        "parts": {
+          "P07R3": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 2.9579423554970674e-07,
+            "watertight_positive": true
+          },
+          "P07R2": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 1.0958111240633173e-07,
+            "watertight_positive": true
+          },
+          "P07R1": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 1.5447736267937273e-07,
+            "watertight_positive": true
+          },
+          "P07T": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 2.0161989249256607e-06,
+            "watertight_positive": true
+          },
+          "P07B": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 2.015507526875737e-06,
+            "watertight_positive": true
+          },
+          "P05_6": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411671565371591e-08,
+            "watertight_positive": true
+          },
+          "P05_5": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411677205304557e-08,
+            "watertight_positive": true
+          },
+          "P05_4": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 3.130076626778333e-07,
+            "watertight_positive": true
+          },
+          "P05_3": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411671565371591e-08,
+            "watertight_positive": true
+          },
+          "P05_2": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411677249713478e-08,
+            "watertight_positive": true
+          },
+          "P05_1": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 3.130076624557887e-07,
+            "watertight_positive": true
+          },
+          "P04U": {
+            "bounds_delta_mm": 1.0728836059570312e-05,
+            "relative_volume_delta": 2.0411090855265712e-06,
+            "watertight_positive": true
+          },
+          "P04L": {
+            "bounds_delta_mm": 1.239776611328125e-05,
+            "relative_volume_delta": 2.047540926142233e-06,
+            "watertight_positive": true
+          },
+          "L3_S4": {
+            "bounds_delta_mm": 7.247250152886409e-06,
+            "relative_volume_delta": 1.9164266531479512e-06,
+            "watertight_positive": true
+          },
+          "L3_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 4.7264619407183517e-07,
+            "watertight_positive": true
+          },
+          "L3_S2": {
+            "bounds_delta_mm": 8.89331477083033e-06,
+            "relative_volume_delta": 7.994398767419142e-07,
+            "watertight_positive": true
+          },
+          "L3_S1": {
+            "bounds_delta_mm": 1.1928896213930784e-05,
+            "relative_volume_delta": 5.104564924085508e-07,
+            "watertight_positive": true
+          },
+          "L3_P01_2": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 4.313298052061043e-09,
+            "watertight_positive": true
+          },
+          "L3_P01_1": {
+            "bounds_delta_mm": 1.182103335395368e-05,
+            "relative_volume_delta": 8.66880204286602e-08,
+            "watertight_positive": true
+          },
+          "L2_S4": {
+            "bounds_delta_mm": 7.247250124464699e-06,
+            "relative_volume_delta": 1.9164266529259066e-06,
+            "watertight_positive": true
+          },
+          "L2_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 4.7264619429387977e-07,
+            "watertight_positive": true
+          },
+          "L2_S2": {
+            "bounds_delta_mm": 8.893314856095458e-06,
+            "relative_volume_delta": 7.994398782962264e-07,
+            "watertight_positive": true
+          },
+          "L2_S1": {
+            "bounds_delta_mm": 1.1928896128665656e-05,
+            "relative_volume_delta": 5.104564911873055e-07,
+            "watertight_positive": true
+          },
+          "L2_P01_2": {
+            "bounds_delta_mm": 1.1821033439218809e-05,
+            "relative_volume_delta": 8.541590734711946e-08,
+            "watertight_positive": true
+          },
+          "L2_P01_1": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 2.7770309385388714e-09,
+            "watertight_positive": true
+          },
+          "L1_S4": {
+            "bounds_delta_mm": 6.67572021484375e-06,
+            "relative_volume_delta": 2.1140339512282225e-06,
+            "watertight_positive": true
+          },
+          "L1_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 1.41697465205759e-07,
+            "watertight_positive": true
+          },
+          "L1_S2": {
+            "bounds_delta_mm": 2.5033950805664062e-06,
+            "relative_volume_delta": 6.791468758482466e-07,
+            "watertight_positive": true
+          },
+          "L1_S1": {
+            "bounds_delta_mm": 5.360406277077345e-06,
+            "relative_volume_delta": 2.9333529938391223e-07,
+            "watertight_positive": true
+          },
+          "L1_P01_2": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 1.0712104803189959e-07,
+            "watertight_positive": true
+          },
+          "L1_P01_1": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 1.071210482539442e-07,
+            "watertight_positive": true
+          },
+          "P03": {
+            "bounds_delta_mm": 1.239776611328125e-05,
+            "relative_volume_delta": 2.959761119414317e-06,
+            "watertight_positive": true
+          }
+        },
+        "units": "GLTF metres checked against millimetres"
+      },
+      "P06_included": false,
+      "P06R23_and_P08_and_physical_all_OPEN": true
+    },
+    "C": {
+      "cut_skins": {
+        "P07B": {
+          "area_mm2": 91143.19217003796,
+          "bounds_mm": [
+            -175.0,
+            -171.0,
+            175.0,
+            171.0
+          ],
+          "cut_loops": 7,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        },
+        "P07T": {
+          "area_mm2": 92050.66127799927,
+          "bounds_mm": [
+            -175.0,
+            -171.0,
+            175.0,
+            171.0
+          ],
+          "cut_loops": 1,
+          "DXF_SVG_area_delta_mm2": 0.0,
+          "single_part_H800_W440_margin10_fit": true
+        }
+      },
+      "body_count": 33,
+      "new_material_static_pairs": 177,
+      "new_material_maximum_overlap_mm3": 0.0,
+      "new_material_pair_matrix": {
+        "P03|P07B": 0.0,
+        "P03|P07T": 0.0,
+        "P03|P07R1": 0.0,
+        "P03|P07R2": 0.0,
+        "P03|P07R3": 0.0,
+        "P03|P07R4": 0.0,
+        "L1_P01_1|P07B": 0.0,
+        "L1_P01_1|P07T": 0.0,
+        "L1_P01_1|P07R1": 0.0,
+        "L1_P01_1|P07R2": 0.0,
+        "L1_P01_1|P07R3": 0.0,
+        "L1_P01_1|P07R4": 0.0,
+        "L1_P01_2|P07B": 0.0,
+        "L1_P01_2|P07T": 0.0,
+        "L1_P01_2|P07R1": 0.0,
+        "L1_P01_2|P07R2": 0.0,
+        "L1_P01_2|P07R3": 0.0,
+        "L1_P01_2|P07R4": 0.0,
+        "L1_S1|P07B": 0.0,
+        "L1_S1|P07T": 0.0,
+        "L1_S1|P07R1": 0.0,
+        "L1_S1|P07R2": 0.0,
+        "L1_S1|P07R3": 0.0,
+        "L1_S1|P07R4": 0.0,
+        "L1_S2|P07B": 0.0,
+        "L1_S2|P07T": 0.0,
+        "L1_S2|P07R1": 0.0,
+        "L1_S2|P07R2": 0.0,
+        "L1_S2|P07R3": 0.0,
+        "L1_S2|P07R4": 0.0,
+        "L1_S3|P07B": 0.0,
+        "L1_S3|P07T": 0.0,
+        "L1_S3|P07R1": 0.0,
+        "L1_S3|P07R2": 0.0,
+        "L1_S3|P07R3": 0.0,
+        "L1_S3|P07R4": 0.0,
+        "L1_S4|P07B": 0.0,
+        "L1_S4|P07T": 0.0,
+        "L1_S4|P07R1": 0.0,
+        "L1_S4|P07R2": 0.0,
+        "L1_S4|P07R3": 0.0,
+        "L1_S4|P07R4": 0.0,
+        "L2_P01_1|P07B": 0.0,
+        "L2_P01_1|P07T": 0.0,
+        "L2_P01_1|P07R1": 0.0,
+        "L2_P01_1|P07R2": 0.0,
+        "L2_P01_1|P07R3": 0.0,
+        "L2_P01_1|P07R4": 0.0,
+        "L2_P01_2|P07B": 0.0,
+        "L2_P01_2|P07T": 0.0,
+        "L2_P01_2|P07R1": 0.0,
+        "L2_P01_2|P07R2": 0.0,
+        "L2_P01_2|P07R3": 0.0,
+        "L2_P01_2|P07R4": 0.0,
+        "L2_S1|P07B": 0.0,
+        "L2_S1|P07T": 0.0,
+        "L2_S1|P07R1": 0.0,
+        "L2_S1|P07R2": 0.0,
+        "L2_S1|P07R3": 0.0,
+        "L2_S1|P07R4": 0.0,
+        "L2_S2|P07B": 0.0,
+        "L2_S2|P07T": 0.0,
+        "L2_S2|P07R1": 0.0,
+        "L2_S2|P07R2": 0.0,
+        "L2_S2|P07R3": 0.0,
+        "L2_S2|P07R4": 0.0,
+        "L2_S3|P07B": 0.0,
+        "L2_S3|P07T": 0.0,
+        "L2_S3|P07R1": 0.0,
+        "L2_S3|P07R2": 0.0,
+        "L2_S3|P07R3": 0.0,
+        "L2_S3|P07R4": 0.0,
+        "L2_S4|P07B": 0.0,
+        "L2_S4|P07T": 0.0,
+        "L2_S4|P07R1": 0.0,
+        "L2_S4|P07R2": 0.0,
+        "L2_S4|P07R3": 0.0,
+        "L2_S4|P07R4": 0.0,
+        "L3_P01_1|P07B": 0.0,
+        "L3_P01_1|P07T": 0.0,
+        "L3_P01_1|P07R1": 0.0,
+        "L3_P01_1|P07R2": 0.0,
+        "L3_P01_1|P07R3": 0.0,
+        "L3_P01_1|P07R4": 0.0,
+        "L3_P01_2|P07B": 0.0,
+        "L3_P01_2|P07T": 0.0,
+        "L3_P01_2|P07R1": 0.0,
+        "L3_P01_2|P07R2": 0.0,
+        "L3_P01_2|P07R3": 0.0,
+        "L3_P01_2|P07R4": 0.0,
+        "L3_S1|P07B": 0.0,
+        "L3_S1|P07T": 0.0,
+        "L3_S1|P07R1": 0.0,
+        "L3_S1|P07R2": 0.0,
+        "L3_S1|P07R3": 0.0,
+        "L3_S1|P07R4": 0.0,
+        "L3_S2|P07B": 0.0,
+        "L3_S2|P07T": 0.0,
+        "L3_S2|P07R1": 0.0,
+        "L3_S2|P07R2": 0.0,
+        "L3_S2|P07R3": 0.0,
+        "L3_S2|P07R4": 0.0,
+        "L3_S3|P07B": 0.0,
+        "L3_S3|P07T": 0.0,
+        "L3_S3|P07R1": 0.0,
+        "L3_S3|P07R2": 0.0,
+        "L3_S3|P07R3": 0.0,
+        "L3_S3|P07R4": 0.0,
+        "L3_S4|P07B": 0.0,
+        "L3_S4|P07T": 0.0,
+        "L3_S4|P07R1": 0.0,
+        "L3_S4|P07R2": 0.0,
+        "L3_S4|P07R3": 0.0,
+        "L3_S4|P07R4": 0.0,
+        "P04L|P07B": 0.0,
+        "P04L|P07T": 0.0,
+        "P04L|P07R1": 0.0,
+        "P04L|P07R2": 0.0,
+        "P04L|P07R3": 0.0,
+        "P04L|P07R4": 0.0,
+        "P04U|P07B": 0.0,
+        "P04U|P07T": 0.0,
+        "P04U|P07R1": 0.0,
+        "P04U|P07R2": 0.0,
+        "P04U|P07R3": 0.0,
+        "P04U|P07R4": 0.0,
+        "P05_1|P07B": 0.0,
+        "P05_1|P07T": 0.0,
+        "P05_1|P07R1": 0.0,
+        "P05_1|P07R2": 0.0,
+        "P05_1|P07R3": 0.0,
+        "P05_1|P07R4": 0.0,
+        "P05_2|P07B": 0.0,
+        "P05_2|P07T": 0.0,
+        "P05_2|P07R1": 0.0,
+        "P05_2|P07R2": 0.0,
+        "P05_2|P07R3": 0.0,
+        "P05_2|P07R4": 0.0,
+        "P05_3|P07B": 0.0,
+        "P05_3|P07T": 0.0,
+        "P05_3|P07R1": 0.0,
+        "P05_3|P07R2": 0.0,
+        "P05_3|P07R3": 0.0,
+        "P05_3|P07R4": 0.0,
+        "P05_4|P07B": 0.0,
+        "P05_4|P07T": 0.0,
+        "P05_4|P07R1": 0.0,
+        "P05_4|P07R2": 0.0,
+        "P05_4|P07R3": 0.0,
+        "P05_4|P07R4": 0.0,
+        "P05_5|P07B": 0.0,
+        "P05_5|P07T": 0.0,
+        "P05_5|P07R1": 0.0,
+        "P05_5|P07R2": 0.0,
+        "P05_5|P07R3": 0.0,
+        "P05_5|P07R4": 0.0,
+        "P05_6|P07B": 0.0,
+        "P05_6|P07T": 0.0,
+        "P05_6|P07R1": 0.0,
+        "P05_6|P07R2": 0.0,
+        "P05_6|P07R3": 0.0,
+        "P05_6|P07R4": 0.0,
+        "P07B|P07T": 0.0,
+        "P07B|P07R1": 0.0,
+        "P07B|P07R2": 0.0,
+        "P07B|P07R3": 0.0,
+        "P07B|P07R4": 0.0,
+        "P07T|P07R1": 0.0,
+        "P07T|P07R2": 0.0,
+        "P07T|P07R3": 0.0,
+        "P07T|P07R4": 0.0,
+        "P07R1|P07R2": 0.0,
+        "P07R1|P07R3": 0.0,
+        "P07R1|P07R4": 0.0,
+        "P07R2|P07R3": 0.0,
+        "P07R2|P07R4": 0.0,
+        "P07R3|P07R4": 0.0
+      },
+      "rim_development_and_splices": {
+        "pieces": {
+          "P07R1": {
+            "cut_export": {
+              "area_mm2": 12591.999410000011,
+              "bounds_mm": [
+                0.0,
+                0.2,
+                50.0,
+                271.547765
+              ],
+              "cut_loops": 1,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 82,
+            "OCC_volume_mm3": 50365.442626921846,
+            "ideal_development_volume_mm3": 50367.99763999997,
+            "relative_faceted_mapping_delta": 5.0726913870757784e-05,
+            "phase_deg": 15.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.2,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    131.624332
+                  ],
+                  [
+                    140.123432,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.2,
+                6.5,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                43.5,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                43.8,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.8,
+                50.0,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.624332
+                  ],
+                  [
+                    140.123432,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          },
+          "P07R2": {
+            "cut_export": {
+              "area_mm2": 12556.210557600016,
+              "bounds_mm": [
+                0.0,
+                0.2,
+                50.0,
+                271.547765
+              ],
+              "cut_loops": 1,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 78,
+            "OCC_volume_mm3": 50222.290490492785,
+            "ideal_development_volume_mm3": 50224.8422304,
+            "relative_faceted_mapping_delta": 5.080632997322976e-05,
+            "phase_deg": 105.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.2,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    41.041744
+                  ],
+                  [
+                    49.540844,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    222.20692
+                  ],
+                  [
+                    230.706021,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.2,
+                6.5,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                43.5,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                43.8,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.8,
+                50.0,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    41.041744
+                  ],
+                  [
+                    49.540844,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    222.20692
+                  ],
+                  [
+                    230.706021,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          },
+          "P07R3": {
+            "cut_export": {
+              "area_mm2": 12591.999410000011,
+              "bounds_mm": [
+                0.0,
+                0.2,
+                50.0,
+                271.547765
+              ],
+              "cut_loops": 1,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 82,
+            "OCC_volume_mm3": 50365.442626921824,
+            "ideal_development_volume_mm3": 50367.99763999997,
+            "relative_faceted_mapping_delta": 5.072691387120187e-05,
+            "phase_deg": 195.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.2,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    131.624332
+                  ],
+                  [
+                    140.123432,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.2,
+                6.5,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                43.5,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    43.6
+                  ],
+                  [
+                    44.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    219.6
+                  ],
+                  [
+                    220.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    235.6
+                  ],
+                  [
+                    236.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                43.8,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.8,
+                50.0,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    35.6
+                  ],
+                  [
+                    36.4,
+                    51.6
+                  ],
+                  [
+                    52.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.624332
+                  ],
+                  [
+                    140.123432,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    227.6
+                  ],
+                  [
+                    228.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          },
+          "P07R4": {
+            "cut_export": {
+              "area_mm2": 12556.210557600016,
+              "bounds_mm": [
+                0.0,
+                0.2,
+                50.0,
+                271.547765
+              ],
+              "cut_loops": 1,
+              "DXF_SVG_area_delta_mm2": 0.0,
+              "single_part_H800_W440_margin10_fit": true
+            },
+            "mapped_cells": 78,
+            "OCC_volume_mm3": 50222.29049049285,
+            "ideal_development_volume_mm3": 50224.8422304,
+            "relative_faceted_mapping_delta": 5.080632997189749e-05,
+            "phase_deg": 285.0,
+            "intrinsic_slabs": [
+              [
+                0.0,
+                6.2,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    41.041744
+                  ],
+                  [
+                    49.540844,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    222.20692
+                  ],
+                  [
+                    230.706021,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.2,
+                6.5,
+                [
+                  [
+                    0.2,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                6.5,
+                43.5,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    27.6
+                  ],
+                  [
+                    28.4,
+                    59.6
+                  ],
+                  [
+                    60.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    75.6
+                  ],
+                  [
+                    76.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    91.6
+                  ],
+                  [
+                    92.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    107.6
+                  ],
+                  [
+                    108.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    123.6
+                  ],
+                  [
+                    124.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    139.6
+                  ],
+                  [
+                    140.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    155.6
+                  ],
+                  [
+                    156.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    171.6
+                  ],
+                  [
+                    172.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    187.6
+                  ],
+                  [
+                    188.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    203.6
+                  ],
+                  [
+                    204.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.5,
+                43.8,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ],
+              [
+                43.8,
+                50.0,
+                [
+                  [
+                    0.2,
+                    19.6
+                  ],
+                  [
+                    20.4,
+                    41.041744
+                  ],
+                  [
+                    49.540844,
+                    67.6
+                  ],
+                  [
+                    68.4,
+                    83.6
+                  ],
+                  [
+                    84.4,
+                    99.6
+                  ],
+                  [
+                    100.4,
+                    115.6
+                  ],
+                  [
+                    116.4,
+                    131.6
+                  ],
+                  [
+                    132.4,
+                    147.6
+                  ],
+                  [
+                    148.4,
+                    163.6
+                  ],
+                  [
+                    164.4,
+                    179.6
+                  ],
+                  [
+                    180.4,
+                    195.6
+                  ],
+                  [
+                    196.4,
+                    211.6
+                  ],
+                  [
+                    212.4,
+                    222.20692
+                  ],
+                  [
+                    230.706021,
+                    243.6
+                  ],
+                  [
+                    244.4,
+                    271.547765
+                  ]
+                ]
+              ]
+            ],
+            "no_physical_bending_claim": true
+          }
+        },
+        "periodic_joint_positive_area_mm2": {
+          "P07R1|P07R2": 0.0,
+          "P07R1|P07R3": 0.0,
+          "P07R1|P07R4": 0.0,
+          "P07R2|P07R3": 0.0,
+          "P07R2|P07R4": 0.0,
+          "P07R3|P07R4": 0.0
+        },
+        "occupied_neutral_length_at_heights_mm": {
+          "2": 997.5964580000006,
+          "10": 1008.5910600000003,
+          "25": 1008.5910600000003,
+          "40": 1008.5910600000003,
+          "48": 994.3964579999999
+        }
+      },
+      "vertical_route": {
+        "stages": [
+          {
+            "moving": "P07B",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "checks": 26,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R1_vertical_down70",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_vertical_down70",
+            "checks": 29,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R3_vertical_down70",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R4_vertical_down70",
+            "checks": 31,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07T_down46",
+            "checks": 32,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "checks": 357,
+        "maximum_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      "closed_top_then_rim": {
+        "stages": [
+          {
+            "moving": "P07R1_after_closed_top",
+            "checks": 29,
+            "maximum_overlap_mm3": 192.0143628581353,
+            "positive_pairs_mm3": {
+              "P07T": 192.0143628581353
+            }
+          },
+          {
+            "moving": "P07R2_after_closed_top",
+            "checks": 30,
+            "maximum_overlap_mm3": 384.02870611450396,
+            "positive_pairs_mm3": {
+              "P07T": 384.02870611450396
+            }
+          },
+          {
+            "moving": "P07R3_after_closed_top",
+            "checks": 31,
+            "maximum_overlap_mm3": 192.01436416522395,
+            "positive_pairs_mm3": {
+              "P07T": 192.01436416522395
+            }
+          },
+          {
+            "moving": "P07R4_after_closed_top",
+            "checks": 32,
+            "maximum_overlap_mm3": 384.0287096590496,
+            "positive_pairs_mm3": {
+              "P07T": 384.0287096590496
+            }
+          }
+        ],
+        "status": "BLOCKED"
+      },
+      "radial_rim_before_top": {
+        "stages": [
+          {
+            "moving": "P07B",
+            "checks": 19,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04L",
+            "checks": 20,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P04U",
+            "checks": 21,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_1",
+            "checks": 22,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_2",
+            "checks": 23,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_3",
+            "checks": 24,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_4",
+            "checks": 25,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_5",
+            "checks": 26,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P05_6",
+            "checks": 27,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R1_radial60",
+            "checks": 28,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R2_radial60",
+            "checks": 29,
+            "maximum_overlap_mm3": 46.97471298443748,
+            "positive_pairs_mm3": {
+              "P07B": 46.97471298443748
+            }
+          },
+          {
+            "moving": "P07R3_radial60",
+            "checks": 30,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          },
+          {
+            "moving": "P07R4_radial60",
+            "checks": 31,
+            "maximum_overlap_mm3": 46.97471298443079,
+            "positive_pairs_mm3": {
+              "P07B": 46.97471298443079
+            }
+          },
+          {
+            "moving": "P07T_after_radial_rim",
+            "checks": 32,
+            "maximum_overlap_mm3": 0.0,
+            "positive_pairs_mm3": {}
+          }
+        ],
+        "status": "BLOCKED"
+      },
+      "negative_late_bottom": {
+        "moving": "P07B_after_disks_BLOCKED",
+        "checks": 27,
+        "maximum_overlap_mm3": 161857.62233798607,
+        "positive_pairs_mm3": {
+          "P04L": 161396.82246969573,
+          "P04U": 161857.62233798607,
+          "P05_1": 19970.65549870931,
+          "P05_2": 19970.65549870931,
+          "P05_3": 19970.65549870932,
+          "P05_4": 19970.655498709315,
+          "P05_5": 19970.65549870932,
+          "P05_6": 19970.65549870932
+        }
+      },
+      "negative_uncut_bottom_six_tongues_mm3": {
+        "L1_P01_1": 863.9999999999372,
+        "L1_P01_2": 863.9999999999372,
+        "L2_P01_1": 863.9999999999372,
+        "L2_P01_2": 863.9999999999372,
+        "L3_P01_1": 863.9999999999368,
+        "L3_P01_2": 863.9999999999367
+      },
+      "top_upward_withdrawal_FREE": {
+        "moving": "P07T_upward_WITHDRAWAL_FREE",
+        "checks": 32,
+        "maximum_overlap_mm3": 0.0,
+        "positive_pairs_mm3": {}
+      },
+      "P08_access_probes_reservation_only": [
+        {
+          "leg": 1,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 1,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 2,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.398223686155
+        },
+        {
+          "leg": 2,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615505
+        },
+        {
+          "leg": 3,
+          "side": -1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.39822368615506
+        },
+        {
+          "leg": 3,
+          "side": 1,
+          "hypothetical_probe_diameter_mm": 4,
+          "probe_tip_z_mm": 488.5,
+          "open_top_maximum_mm3": 0.0,
+          "closed_top_overlap_mm3": 75.398223686155
+        }
+      ],
+      "independent_rim_skin_boundary_area_mm2": {
+        "P07B": 5916.305521199574,
+        "P07T": 5897.327958691226
+      },
+      "P05_skin_lands": {
+        "456": {
+          "r_interval_mm": [
+            82.0,
+            168.0
+          ],
+          "per_rib_area_mm2": 516.0,
+          "all_six_area_mm2": 3096.0
+        },
+        "494": {
+          "r_interval_mm": [
+            82.0,
+            168.0
+          ],
+          "per_rib_area_mm2": 516.0,
+          "all_six_area_mm2": 3096.0
+        }
+      },
+      "lower_disk_skin_geometric_contact_mm2": 26899.470411615977,
+      "glb_actual_bodies_parity": {
+        "nodes": 33,
+        "parts": {
+          "P07R4": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 3.25503573206376e-07,
+            "watertight_positive": true
+          },
+          "P07R3": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 3.558047620977334e-07,
+            "watertight_positive": true
+          },
+          "P07R2": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 3.2550357476068825e-07,
+            "watertight_positive": true
+          },
+          "P07R1": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 3.5580476120955495e-07,
+            "watertight_positive": true
+          },
+          "P07T": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 2.015099291430289e-06,
+            "watertight_positive": true
+          },
+          "P07B": {
+            "bounds_delta_mm": 1.1920928955078125e-05,
+            "relative_volume_delta": 2.014398401639639e-06,
+            "watertight_positive": true
+          },
+          "P05_6": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411671565371591e-08,
+            "watertight_positive": true
+          },
+          "P05_5": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411677205304557e-08,
+            "watertight_positive": true
+          },
+          "P05_4": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 3.130076626778333e-07,
+            "watertight_positive": true
+          },
+          "P05_3": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411671565371591e-08,
+            "watertight_positive": true
+          },
+          "P05_2": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 7.411677249713478e-08,
+            "watertight_positive": true
+          },
+          "P05_1": {
+            "bounds_delta_mm": 1.2159347534179688e-05,
+            "relative_volume_delta": 3.130076624557887e-07,
+            "watertight_positive": true
+          },
+          "P04U": {
+            "bounds_delta_mm": 1.0728836059570312e-05,
+            "relative_volume_delta": 2.0411090855265712e-06,
+            "watertight_positive": true
+          },
+          "P04L": {
+            "bounds_delta_mm": 1.239776611328125e-05,
+            "relative_volume_delta": 2.047540926142233e-06,
+            "watertight_positive": true
+          },
+          "L3_S4": {
+            "bounds_delta_mm": 7.247250152886409e-06,
+            "relative_volume_delta": 1.9164266531479512e-06,
+            "watertight_positive": true
+          },
+          "L3_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 4.7264619407183517e-07,
+            "watertight_positive": true
+          },
+          "L3_S2": {
+            "bounds_delta_mm": 8.89331477083033e-06,
+            "relative_volume_delta": 7.994398767419142e-07,
+            "watertight_positive": true
+          },
+          "L3_S1": {
+            "bounds_delta_mm": 1.1928896213930784e-05,
+            "relative_volume_delta": 5.104564924085508e-07,
+            "watertight_positive": true
+          },
+          "L3_P01_2": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 4.313298052061043e-09,
+            "watertight_positive": true
+          },
+          "L3_P01_1": {
+            "bounds_delta_mm": 1.182103335395368e-05,
+            "relative_volume_delta": 8.66880204286602e-08,
+            "watertight_positive": true
+          },
+          "L2_S4": {
+            "bounds_delta_mm": 7.247250124464699e-06,
+            "relative_volume_delta": 1.9164266529259066e-06,
+            "watertight_positive": true
+          },
+          "L2_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 4.7264619429387977e-07,
+            "watertight_positive": true
+          },
+          "L2_S2": {
+            "bounds_delta_mm": 8.893314856095458e-06,
+            "relative_volume_delta": 7.994398782962264e-07,
+            "watertight_positive": true
+          },
+          "L2_S1": {
+            "bounds_delta_mm": 1.1928896128665656e-05,
+            "relative_volume_delta": 5.104564911873055e-07,
+            "watertight_positive": true
+          },
+          "L2_P01_2": {
+            "bounds_delta_mm": 1.1821033439218809e-05,
+            "relative_volume_delta": 8.541590734711946e-08,
+            "watertight_positive": true
+          },
+          "L2_P01_1": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 2.7770309385388714e-09,
+            "watertight_positive": true
+          },
+          "L1_S4": {
+            "bounds_delta_mm": 6.67572021484375e-06,
+            "relative_volume_delta": 2.1140339512282225e-06,
+            "watertight_positive": true
+          },
+          "L1_S3": {
+            "bounds_delta_mm": 5.841255187988281e-06,
+            "relative_volume_delta": 1.41697465205759e-07,
+            "watertight_positive": true
+          },
+          "L1_S2": {
+            "bounds_delta_mm": 2.5033950805664062e-06,
+            "relative_volume_delta": 6.791468758482466e-07,
+            "watertight_positive": true
+          },
+          "L1_S1": {
+            "bounds_delta_mm": 5.360406277077345e-06,
+            "relative_volume_delta": 2.9333529938391223e-07,
+            "watertight_positive": true
+          },
+          "L1_P01_2": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 1.0712104803189959e-07,
+            "watertight_positive": true
+          },
+          "L1_P01_1": {
+            "bounds_delta_mm": 5.4836273193359375e-06,
+            "relative_volume_delta": 1.071210482539442e-07,
+            "watertight_positive": true
+          },
+          "P03": {
+            "bounds_delta_mm": 1.239776611328125e-05,
+            "relative_volume_delta": 2.959761119414317e-06,
+            "watertight_positive": true
+          }
+        },
+        "units": "GLTF metres checked against millimetres"
+      },
+      "P06_included": false,
+      "P06R23_and_P08_and_physical_all_OPEN": true
+    }
+  },
+  "reviewed_export_SHA256": {
+    "projects/CTB-01/parts/P07/assembly/A-actual-DESIGN_ONLY.glb": "1d2883b7a763d78c8dd35f0af9ef165c3e3149578fb6fa44fa53cede6afcc98f",
+    "projects/CTB-01/parts/P07/assembly/B-actual-DESIGN_ONLY.glb": "e8e596d6a6cff490fdf6f628f0589a7c2d3fee68f5e6f3c0e9f5a61b9cac920f",
+    "projects/CTB-01/parts/P07/assembly/C-actual-DESIGN_ONLY.glb": "5f17ea139c446e9acd50c06837022eccd22e9fa7083c41e2078fe9a0a545800f",
+    "projects/CTB-01/parts/P07/variants/A/P07B.dxf": "c438c3dd635a28552fc02aca9d51743d17cc63c4271a73063b16e18ac21b55ca",
+    "projects/CTB-01/parts/P07/variants/A/P07B.svg": "dd673608726ad41644c7319cd11656cd84eb1aabd510a86ae06e4890e306699f",
+    "projects/CTB-01/parts/P07/variants/A/P07R1.dxf": "fa56f420f8879aa2abcf2b40bb707bd1e0d4f3430280fcf9e9278ca66bc435d8",
+    "projects/CTB-01/parts/P07/variants/A/P07R1.svg": "7b4f30906390960dd03b62606e9383a0e83559eb5d8010521f5199dc7c5a7d4e",
+    "projects/CTB-01/parts/P07/variants/A/P07R2.dxf": "40e0d45119ee2e6c0622586dd08fea02e70ad5fb9d98b902931d5b619a413e57",
+    "projects/CTB-01/parts/P07/variants/A/P07R2.svg": "2a338b2c620bd7d93a4d4829aca07c7489a7668f2e67456469fefb4e8858d1c3",
+    "projects/CTB-01/parts/P07/variants/A/P07T.dxf": "1695a486f54c8f0688ca70054a1933878d4c85672acfd8aa664123f4d61ceca9",
+    "projects/CTB-01/parts/P07/variants/A/P07T.svg": "96364726fca8ec801ace3a2984a0f562ebc109c709295799752e6967d4d75f35",
+    "projects/CTB-01/parts/P07/variants/B/P07B.dxf": "4484a7a8279406468141e9702cade37aff6bad13be68e4488428b8d0cb280364",
+    "projects/CTB-01/parts/P07/variants/B/P07B.svg": "dd673608726ad41644c7319cd11656cd84eb1aabd510a86ae06e4890e306699f",
+    "projects/CTB-01/parts/P07/variants/B/P07R1.dxf": "893ea12ace69f6db1d77ad58e535c69e97cf41e70ad9b60cac91888f9c26c097",
+    "projects/CTB-01/parts/P07/variants/B/P07R1.svg": "0e43ea0ac83adbe4e634747dd44a9508a150b5cd3fc525621bf8fbff21b04f8c",
+    "projects/CTB-01/parts/P07/variants/B/P07R2.dxf": "b5632826ae625c34fac8cb744e821b1084f86b81c651d0e2e4551788ced2cb32",
+    "projects/CTB-01/parts/P07/variants/B/P07R2.svg": "99954340f453aea1be26d5920fdb0db7beb93847c71cc17ec8879b9f26267eb0",
+    "projects/CTB-01/parts/P07/variants/B/P07R3.dxf": "d85d3f4f80120a82d541a04eb716f9287bf417a66b1e9b146aec0734c233eeae",
+    "projects/CTB-01/parts/P07/variants/B/P07R3.svg": "22eba07bd91ac4f0b808612bf7d069ad8da6e9e6b7990bd271d47a7a610acb44",
+    "projects/CTB-01/parts/P07/variants/B/P07T.dxf": "4574518a0d3e5263063888426a17e93fe0fad216b32ad413cc2d1577105875e3",
+    "projects/CTB-01/parts/P07/variants/B/P07T.svg": "96364726fca8ec801ace3a2984a0f562ebc109c709295799752e6967d4d75f35",
+    "projects/CTB-01/parts/P07/variants/C/P07B.dxf": "72eb59aa7ccf6269b00ab5174ff248699383b66403da7bcab97e195ab2ea0709",
+    "projects/CTB-01/parts/P07/variants/C/P07B.svg": "60c70d4a1d0ec6213185c97a29eb086bb39cfe15b4d3670519be5b97092f62ad",
+    "projects/CTB-01/parts/P07/variants/C/P07R1.dxf": "a7fe30dfe421f1332ae654dfda3b1bbbf191d174ccfde0043e4607dcc3836875",
+    "projects/CTB-01/parts/P07/variants/C/P07R1.svg": "3a2cfd365fade72c1e08554a4a92fff3935b8070bd3219c2525d665a68b83f82",
+    "projects/CTB-01/parts/P07/variants/C/P07R2.dxf": "5953d68b1ead9292890a72ff93a8da82e431df9ae09e7410f8f7d9cb3dd61158",
+    "projects/CTB-01/parts/P07/variants/C/P07R2.svg": "e49c63cfba816d9d37667b6577611c43f3ae1328609fe24bcfaea903ee31249a",
+    "projects/CTB-01/parts/P07/variants/C/P07R3.dxf": "7deb7ccc9f6b197b7c4d796bcdcb127178b4d7af5b0c90fb6575a30bb601aff2",
+    "projects/CTB-01/parts/P07/variants/C/P07R3.svg": "5495fbcbaa7915c9880685d5c2697854a092244248f99f86aa89f7abe95fe8fe",
+    "projects/CTB-01/parts/P07/variants/C/P07R4.dxf": "dbdbed6046ec6972f7ed24d232a6ec8ad8f0629ff885f2923c68ab032dc08b59",
+    "projects/CTB-01/parts/P07/variants/C/P07R4.svg": "25ca5ed9d4ec4442b2586313d2b1e90a91f129757768f7e8e776dbf19d7d145e",
+    "projects/CTB-01/parts/P07/variants/C/P07T.dxf": "ee05e775806f9131f157ed85c3c75d0b72f8243f50a338e0779919423c2250d1",
+    "projects/CTB-01/parts/P07/variants/C/P07T.svg": "a31b68989691735c73f166b588175e3a459101f6469a066e7800b246eea110df"
+  },
+  "partial_contact_method": {
+    "method": "merged projected collinear edge overlap",
+    "export_normal_coordinate_tolerance_mm": 1e-06,
+    "unchanged_area_agreement_tolerance_mm2": 0.005
+  },
+  "reviewed_cut_normalized_WKB_SHA256": {
+    "projects/CTB-01/parts/P07/variants/A/P07B.svg": "8d53941ffa04dd7f092ccb419a17509e6ca46fec05f14bbffb09b558292eac87",
+    "projects/CTB-01/parts/P07/variants/A/P07R1.svg": "b8876001960eda7e4c50b7ad82239523cd2e68bc08ace4dd28ec5f73c2c17bf4",
+    "projects/CTB-01/parts/P07/variants/A/P07R2.svg": "b8876001960eda7e4c50b7ad82239523cd2e68bc08ace4dd28ec5f73c2c17bf4",
+    "projects/CTB-01/parts/P07/variants/A/P07T.svg": "44435a0a33a9517f74dcf8e35fbb0fa4e48cb44a98a88b6faa2b2ef3baf56b47",
+    "projects/CTB-01/parts/P07/variants/B/P07B.svg": "8d53941ffa04dd7f092ccb419a17509e6ca46fec05f14bbffb09b558292eac87",
+    "projects/CTB-01/parts/P07/variants/B/P07R1.svg": "d053ffc8eceb03cd611e45fc7ae30ff5dba726ac69fd8c78e584c14e70b3e3e3",
+    "projects/CTB-01/parts/P07/variants/B/P07R2.svg": "d053ffc8eceb03cd611e45fc7ae30ff5dba726ac69fd8c78e584c14e70b3e3e3",
+    "projects/CTB-01/parts/P07/variants/B/P07R3.svg": "d053ffc8eceb03cd611e45fc7ae30ff5dba726ac69fd8c78e584c14e70b3e3e3",
+    "projects/CTB-01/parts/P07/variants/B/P07T.svg": "44435a0a33a9517f74dcf8e35fbb0fa4e48cb44a98a88b6faa2b2ef3baf56b47",
+    "projects/CTB-01/parts/P07/variants/C/P07B.svg": "db5742e958399fac1e977e24ef6ea9238b7b463511db0a71360b5241eab8a10d",
+    "projects/CTB-01/parts/P07/variants/C/P07R1.svg": "81c5ee0343b2e278b7c0463d35a9c40859a34d21a1466714010e52babacf9366",
+    "projects/CTB-01/parts/P07/variants/C/P07R2.svg": "243039feba158f35fe10cbd1fe1e9f92dc217be9b9286398e294cfd1cbd173e0",
+    "projects/CTB-01/parts/P07/variants/C/P07R3.svg": "81c5ee0343b2e278b7c0463d35a9c40859a34d21a1466714010e52babacf9366",
+    "projects/CTB-01/parts/P07/variants/C/P07R4.svg": "243039feba158f35fe10cbd1fe1e9f92dc217be9b9286398e294cfd1cbd173e0",
+    "projects/CTB-01/parts/P07/variants/C/P07T.svg": "1eeba9c55eff2ecb32af9ed37c3a6f591b4dccf240add84f334a4ada8021f007"
+  },
+  "numeric_intermediate_handling": [
+    {
+      "role": "generated radial sweep hole only, actual exports untouched",
+      "hole_areas_mm2": [
+        4.0389678347315804e-28
+      ],
+      "area_delta_mm2": 4.0389678347315804e-28,
+      "threshold_mm2": 1e-14
+    },
+    {
+      "role": "generated radial sweep hole only, actual exports untouched",
+      "hole_areas_mm2": [
+        4.0389678347315804e-28
+      ],
+      "area_delta_mm2": 4.0389678347315804e-28,
+      "threshold_mm2": 1e-14
+    },
+    {
+      "role": "generated radial sweep hole only, actual exports untouched",
+      "hole_areas_mm2": [
+        8.077935669463161e-28
+      ],
+      "area_delta_mm2": 8.077935669463161e-28,
+      "threshold_mm2": 1e-14
+    },
+    {
+      "role": "generated radial sweep hole only, actual exports untouched",
+      "hole_areas_mm2": [
+        1.0097419586828951e-28
+      ],
+      "area_delta_mm2": 1.0097419586828951e-28,
+      "threshold_mm2": 1e-14
+    },
+    {
+      "role": "generated radial sweep hole only, actual exports untouched",
+      "hole_areas_mm2": [
+        1.0097419586828951e-28
+      ],
+      "area_delta_mm2": 1.0097419586828951e-28,
+      "threshold_mm2": 1e-14
+    }
+  ]
+}

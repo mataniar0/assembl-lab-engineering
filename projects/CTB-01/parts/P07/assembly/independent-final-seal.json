@@ -1,0 +1,42 @@
+{
+  "review_date": "2026-10-21",
+  "branch": "codex/ctb-007-skins-rim",
+  "baseline": "6db45fa7ba0d9a81ff9bbc6d1a432133ab955214",
+  "branch_head_before_delivery_commit": "6db45fa7ba0d9a81ff9bbc6d1a432133ab955214",
+  "result": "PASS_BOUNDED_DESIGN_ONLY",
+  "qa_score": 96,
+  "in_scope_critical": 0,
+  "in_scope_major": 0,
+  "unique_selected_cases": 93,
+  "independently_executed_new_and_focused_cases": 53,
+  "protected_files_verified": 439,
+  "reviewed_raw_exports_verified": 33,
+  "reviewed_normalized_cut_geometries_verified": 15,
+  "focused_new_material_static_pairs": 436,
+  "source_input_sha256": {
+    "projects/CTB-01/parts/P07/src/generate.py": "7836be74a30d383174c572e1ffd9aa2e831f596c59243a1b06c8d4a86793b550",
+    "projects/CTB-01/parts/P07/src/model.py": "2a858196e4fb9b24ca0cf501835a4420ea888814243b347ea1e0cda34925dea7",
+    "projects/CTB-01/parts/P07/src/design.json": "57d82057e168dfc70cc703e3e4ed016a906f0d51c2eac1ad537f50b910e965e9",
+    "projects/CTB-01/parts/P07/src/design.schema.json": "14f71e0fdeaf998871dcc8eda3812778c2852103c50793a378c84e5ed7e93e75",
+    "projects/CTB-01/parts/P07/src/upstream-sha256.json": "bc1f1bb2a6e33dd081b94af2a1d219639b412a6acde48b779641c6a61475d9d8",
+    "projects/CTB-01/parts/P07/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P07/src/requirements.txt": "d24f74021ddab91603f9c18c91649d3d59bb202709173f0815912c99ecb6e334",
+    "projects/CTB-01/parts/P07/tests/test_integration.py": "9b82438d8242aaaa73ba4c40b5e2a3756826a9babb5dd0eca149cc9eee63a357",
+    "projects/CTB-01/parts/P07/tests/test_skins_rim.py": "b38f3734f59908bd14f1064bd5f38b841f0af0d49cdf8f517006e68cb7647560",
+    "projects/CTB-01/parts/P07/tests/independent_occ_review.py": "9fc10da82c702755c6aa6ff53800e89d0f675d0192e6b4fecce150fb53f1e902",
+    "projects/CTB-01/parts/P07/tests/run_all.sh": "e90b35aff0c91100b604846c2dd813a7035109d7d321f832427c7e9ed532c29f",
+    "projects/CTB-01/parts/P07/BOM-v1.csv": "3f876a82e533773a9f01bfc0f547ea9c5127a43bd75e719973e38c34c1183058"
+  },
+  "scope": "nominal finite mathematical geometry and specified rigid paths; physical bending, all retention approvals and G3/G4 remain OPEN/NOT_RUN",
+  "post_review_hygiene": {
+    "file": "projects/CTB-01/parts/P07/BOM-v1.csv",
+    "change": "CRLF to LF only",
+    "old_sha256": "776339e224d1223c95f3c75230c1ef9d6ea489c43121c3cc59d6f6fc9d074c5a",
+    "new_sha256": "3f876a82e533773a9f01bfc0f547ea9c5127a43bd75e719973e38c34c1183058",
+    "exact_old_bytes_reproduced_by_LF_to_CRLF": true,
+    "all_csv_rows_identical": true,
+    "all_three_BOM_quantities_match_metadata": true,
+    "all_other_source_hashes_and_33_raw_export_hashes_unchanged": true,
+    "OCC_rerun": "NOT_NEEDED_NO_GEOMETRY_CHANGE"
+  }
+}

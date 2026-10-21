@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/tmp/ctb007-independent-preflight.py", line 4, in <module>
+    parts,face,stations,rib=m.base27();disk=m.svg(m.PARTS/'P04/variants/A/P04L.svg');slots=[m.Polygon(h) for h in disk.interiors];assert len(slots)==6
+                            ^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 86, in base27
+    p03=PARTS/'P03/variants/A_COMPACT_CLOSED';face=svg(p03/'P01-Y-mortise-study-v1.svg')
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 22, in svg
+    assert cut is not None,(path,'missing CUT group')
+           ^^^^^^^^^^^^^^^
+AssertionError: (PosixPath('/workspace/assembl-lab-engineering/projects/CTB-01/parts/P03/variants/A_COMPACT_CLOSED/P01-Y-mortise-study-v1.svg'), 'missing CUT group')

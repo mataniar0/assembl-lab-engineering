@@ -1,0 +1,31 @@
+Independent CTB007 OCC A actual exports
+Traceback (most recent call last):
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 325, in <module>
+    audit(parser.parse_args().output)
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 317, in audit
+    result['variants'][name]=variant_audit(name,base,rib,mask)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 283, in variant_audit
+    a=math.radians(15+(i+.5)*360/len(rims));swept=cells_compound(radial_swept_cells(current,60*math.cos(a),60*math.sin(a)))
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 168, in cells_compound
+    material.append(plate(p,450+lo,hi-lo+dz))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 61, in plate
+    def plate(poly,z,height=6):return extrude(poly,cq.Plane(origin=(0,0,z),xDir=(1,0,0),normal=(0,0,1)),height)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/assembl-lab-engineering/projects/CTB-01/parts/P07/tests/independent_occ_review.py", line 56, in extrude
+    for h in poly.interiors:work=work.polyline(list(h.coords)[:-1]).close()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/cadquery/cq.py", line 2730, in polyline
+    self._addPendingEdge(edges[-1])
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/cadquery/cq.py", line 2288, in _addPendingEdge
+    self.ctx.firstPoint = self.plane.toLocalCoords(edge.startPoint())
+                                                   ^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 1894, in startPoint
+    curve = self._geomAdaptor()
+            ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 2353, in _geomAdaptor
+    return BRepAdaptor_Curve(self.wrapped)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OCP.OCP.Standard.Standard_NullObject: BRepAdaptor_Curve::No geometry

@@ -1,0 +1,248 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "project",
+    "task",
+    "release",
+    "source_commit",
+    "selected_sources",
+    "skin_radius_mm",
+    "outer_radius_mm",
+    "neutral_radius_hypothesis_mm",
+    "skin_thickness_mm",
+    "rim_thickness_mm",
+    "bottom_z_mm",
+    "top_z_mm",
+    "rim_z_mm",
+    "sheet_hw_mm",
+    "sheet_margin_mm",
+    "raster_dpi",
+    "circle_segments",
+    "seam_phase_deg",
+    "seam_gap_mm",
+    "seam_keepout_mm",
+    "kerf_width_hypothesis_mm",
+    "kerf_pitch_hypothesis_mm",
+    "A",
+    "B",
+    "C",
+    "rim_start_bottom_z_mm",
+    "top_start_bottom_z_mm",
+    "radial_trial_stroke_mm",
+    "tool_diameter_hypothesis_mm",
+    "tool_tip_z_mm",
+    "tool_start_z_mm",
+    "measured_thickness_mm",
+    "measured_kerf_mm",
+    "neutral_axis_measured_mm",
+    "kerf_status",
+    "physical_tests",
+    "epsilon_mm3",
+    "relevant_interfaces"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "project": {
+      "const": "CTB-01"
+    },
+    "task": {
+      "const": "CTB-007"
+    },
+    "release": {
+      "const": "DESIGN_ONLY"
+    },
+    "source_commit": {
+      "const": "6db45fa7ba0d9a81ff9bbc6d1a432133ab955214"
+    },
+    "selected_sources": {
+      "const": [
+        "SOFT_CURVE",
+        "B_THROUGH_ADHESIVE",
+        "A_COMPACT_CLOSED",
+        "Y_FIRST",
+        "A_RIM_OPEN",
+        "NO_HOLE",
+        "A_RELIEVED_BOND"
+      ]
+    },
+    "skin_radius_mm": {
+      "const": 171
+    },
+    "outer_radius_mm": {
+      "const": 175
+    },
+    "neutral_radius_hypothesis_mm": {
+      "const": 173
+    },
+    "skin_thickness_mm": {
+      "const": 6
+    },
+    "rim_thickness_mm": {
+      "const": 4
+    },
+    "bottom_z_mm": {
+      "const": [
+        450,
+        456
+      ]
+    },
+    "top_z_mm": {
+      "const": [
+        494,
+        500
+      ]
+    },
+    "rim_z_mm": {
+      "const": [
+        450,
+        500
+      ]
+    },
+    "sheet_hw_mm": {
+      "const": [
+        800,
+        440
+      ]
+    },
+    "sheet_margin_mm": {
+      "const": 10
+    },
+    "raster_dpi": {
+      "const": 96
+    },
+    "circle_segments": {
+      "const": 360
+    },
+    "seam_phase_deg": {
+      "const": 15
+    },
+    "seam_gap_mm": {
+      "const": 0.4
+    },
+    "seam_keepout_mm": {
+      "const": 12
+    },
+    "kerf_width_hypothesis_mm": {
+      "const": 0.8
+    },
+    "kerf_pitch_hypothesis_mm": {
+      "const": 8
+    },
+    "A": {
+      "const": {
+        "name": "TWO_BUTT_BOND",
+        "segments": 2,
+        "kerf_z_ranges_mm": [
+          [
+            8,
+            42
+          ]
+        ],
+        "skin_connection": "BOUNDARY_BOND_UNVERIFIED"
+      }
+    },
+    "B": {
+      "const": {
+        "name": "THREE_STEPPED_BOND",
+        "segments": 3,
+        "seam_steps_z_mm": [
+          18,
+          32
+        ],
+        "seam_offsets_mm": [
+          -4,
+          4,
+          -4
+        ],
+        "kerf_z_ranges_mm": [
+          [
+            6.5,
+            25.5
+          ],
+          [
+            24.5,
+            43.5
+          ]
+        ],
+        "skin_connection": "BOUNDARY_BOND_UNVERIFIED"
+      }
+    },
+    "C": {
+      "const": {
+        "name": "FOUR_EDGE_COMB",
+        "segments": 4,
+        "kerf_z_ranges_mm": [
+          [
+            6.5,
+            50
+          ],
+          [
+            0,
+            43.5
+          ]
+        ],
+        "tab_angles_deg": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300
+        ],
+        "tab_half_width_mm": 4,
+        "tab_clearance_mm": 0.2,
+        "tab_inner_r_mm": 169,
+        "tab_outer_r_mm": 175,
+        "kerf_to_tab_keepout_mm": 8,
+        "skin_connection": "EDGE_COMB_STUDY_NO_Z_RETENTION"
+      }
+    },
+    "rim_start_bottom_z_mm": {
+      "const": 520
+    },
+    "top_start_bottom_z_mm": {
+      "const": 540
+    },
+    "radial_trial_stroke_mm": {
+      "const": 60
+    },
+    "tool_diameter_hypothesis_mm": {
+      "const": 4
+    },
+    "tool_tip_z_mm": {
+      "const": 488.5
+    },
+    "tool_start_z_mm": {
+      "const": 520
+    },
+    "measured_thickness_mm": {
+      "const": null
+    },
+    "measured_kerf_mm": {
+      "const": null
+    },
+    "neutral_axis_measured_mm": {
+      "const": null
+    },
+    "kerf_status": {
+      "const": "KERF_COUPON_PENDING"
+    },
+    "physical_tests": {
+      "const": "NOT_RUN"
+    },
+    "epsilon_mm3": {
+      "const": 1e-06
+    },
+    "relevant_interfaces": {
+      "const": [
+        "IF-03",
+        "IF-07",
+        "IF-08",
+        "IF-10",
+        "IF-11",
+        "IF-12"
+      ]
+    }
+  }
+}

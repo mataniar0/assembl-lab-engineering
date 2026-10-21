@@ -1,0 +1,51 @@
+test_inner_outer_radius_confusion_causes_skin_collision (__main__.GlobalTests.test_inner_outer_radius_confusion_causes_skin_collision) ... ok
+test_invalid_full_height_kerfs_disconnect_material (__main__.GlobalTests.test_invalid_full_height_kerfs_disconnect_material) ... ok
+test_missing_segment_is_detectable_in_bom_and_coverage (__main__.GlobalTests.test_missing_segment_is_detectable_in_bom_and_coverage) ... ok
+test_no_measured_kerf_or_physical_release_and_p06_open (__main__.GlobalTests.test_no_measured_kerf_or_physical_release_and_p06_open) ... ok
+test_periodic_step_seams_preserve_gap_without_positive_overlap (__main__.GlobalTests.test_periodic_step_seams_preserve_gap_without_positive_overlap) ... ok
+test_schema_rejects_wrong_stock_dimensions_radius_pattern_and_fake_measurements (__main__.GlobalTests.test_schema_rejects_wrong_stock_dimensions_radius_pattern_and_fake_measurements) ... ok
+test_unsegmented_strip_cannot_fit_portrait_stock (__main__.GlobalTests.test_unsegmented_strip_cannot_fit_portrait_stock) ... ok
+test_A_access (__main__.VariantTests.test_A_access) ... ok
+test_A_bom_glb (__main__.VariantTests.test_A_bom_glb) ... ok
+test_A_contact (__main__.VariantTests.test_A_contact) ... ok
+test_A_contours (__main__.VariantTests.test_A_contours) ... ok
+test_A_exports (__main__.VariantTests.test_A_exports) ... ok
+test_A_mapping (__main__.VariantTests.test_A_mapping) ... ok
+test_A_negative_controls (__main__.VariantTests.test_A_negative_controls) ... ok
+test_A_nominal (__main__.VariantTests.test_A_nominal) ... ok
+test_A_paths_test (__main__.VariantTests.test_A_paths_test) ... ok
+test_A_raster_mm (__main__.VariantTests.test_A_raster_mm) ... ok
+test_A_six_slots (__main__.VariantTests.test_A_six_slots) ... ok
+test_A_stock_and_webs (__main__.VariantTests.test_A_stock_and_webs) ... ok
+test_A_top_withdrawal (__main__.VariantTests.test_A_top_withdrawal) ... ok
+test_B_access (__main__.VariantTests.test_B_access) ... ok
+test_B_bom_glb (__main__.VariantTests.test_B_bom_glb) ... ok
+test_B_contact (__main__.VariantTests.test_B_contact) ... ok
+test_B_contours (__main__.VariantTests.test_B_contours) ... ok
+test_B_exports (__main__.VariantTests.test_B_exports) ... ok
+test_B_mapping (__main__.VariantTests.test_B_mapping) ... ok
+test_B_negative_controls (__main__.VariantTests.test_B_negative_controls) ... ok
+test_B_nominal (__main__.VariantTests.test_B_nominal) ... ok
+test_B_paths_test (__main__.VariantTests.test_B_paths_test) ... ok
+test_B_raster_mm (__main__.VariantTests.test_B_raster_mm) ... ok
+test_B_six_slots (__main__.VariantTests.test_B_six_slots) ... ok
+test_B_stock_and_webs (__main__.VariantTests.test_B_stock_and_webs) ... ok
+test_B_top_withdrawal (__main__.VariantTests.test_B_top_withdrawal) ... ok
+test_C_access (__main__.VariantTests.test_C_access) ... ok
+test_C_bom_glb (__main__.VariantTests.test_C_bom_glb) ... ok
+test_C_contact (__main__.VariantTests.test_C_contact) ... ok
+test_C_contours (__main__.VariantTests.test_C_contours) ... ok
+test_C_exports (__main__.VariantTests.test_C_exports) ... ok
+test_C_mapping (__main__.VariantTests.test_C_mapping) ... ok
+test_C_negative_controls (__main__.VariantTests.test_C_negative_controls) ... ok
+test_C_nominal (__main__.VariantTests.test_C_nominal) ... ok
+test_C_paths_test (__main__.VariantTests.test_C_paths_test) ... ok
+test_C_raster_mm (__main__.VariantTests.test_C_raster_mm) ... ok
+test_C_six_slots (__main__.VariantTests.test_C_six_slots) ... ok
+test_C_stock_and_webs (__main__.VariantTests.test_C_stock_and_webs) ... ok
+test_C_top_withdrawal (__main__.VariantTests.test_C_top_withdrawal) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 11.018s
+
+OK

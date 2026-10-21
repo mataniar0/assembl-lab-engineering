@@ -1,0 +1,116 @@
+{
+  "A": [
+    {
+      "part": "P07R1",
+      "kerf_slots": 63,
+      "capture_notches": 0,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 34,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 19.400000000000002,
+      "last_midheight_end_land_mm": 26.89552900000001,
+      "minimum_kerf_end_to_actual_seam_mm": 19.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    },
+    {
+      "part": "P07R2",
+      "kerf_slots": 63,
+      "capture_notches": 0,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 34,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 19.400000000000002,
+      "last_midheight_end_land_mm": 26.89552900000001,
+      "minimum_kerf_end_to_actual_seam_mm": 19.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    }
+  ],
+  "B": [
+    {
+      "part": "P07R1",
+      "kerf_slots": 41,
+      "capture_notches": 0,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 19,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 15.400000000000002,
+      "last_midheight_end_land_mm": 25.730353000000036,
+      "minimum_kerf_end_to_actual_seam_mm": 15.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    },
+    {
+      "part": "P07R2",
+      "kerf_slots": 41,
+      "capture_notches": 0,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 19,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 15.400000000000002,
+      "last_midheight_end_land_mm": 25.730353000000036,
+      "minimum_kerf_end_to_actual_seam_mm": 15.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    },
+    {
+      "part": "P07R3",
+      "kerf_slots": 41,
+      "capture_notches": 0,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 19,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 15.400000000000002,
+      "last_midheight_end_land_mm": 25.730353000000036,
+      "minimum_kerf_end_to_actual_seam_mm": 15.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    }
+  ],
+  "C": [
+    {
+      "part": "P07R1",
+      "kerf_slots": 25,
+      "capture_notches": 2,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 43.5,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 19.400000000000002,
+      "last_midheight_end_land_mm": 27.14776500000002,
+      "minimum_kerf_end_to_actual_seam_mm": 19.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    },
+    {
+      "part": "P07R2",
+      "kerf_slots": 23,
+      "capture_notches": 4,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 43.5,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 19.400000000000002,
+      "last_midheight_end_land_mm": 27.14776500000002,
+      "minimum_kerf_end_to_actual_seam_mm": 19.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    },
+    {
+      "part": "P07R3",
+      "kerf_slots": 25,
+      "capture_notches": 2,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 43.5,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 19.400000000000002,
+      "last_midheight_end_land_mm": 27.14776500000002,
+      "minimum_kerf_end_to_actual_seam_mm": 19.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    },
+    {
+      "part": "P07R4",
+      "kerf_slots": 23,
+      "capture_notches": 4,
+      "exported_design_slot_width_mm": 0.8,
+      "exported_design_slot_length_mm": 43.5,
+      "minimum_midheight25_lateral_web_mm": 7.199999999999989,
+      "first_midheight_end_land_mm": 19.400000000000002,
+      "last_midheight_end_land_mm": 27.14776500000002,
+      "minimum_kerf_end_to_actual_seam_mm": 19.400000000000002,
+      "scope": "export geometry only; KERF_COUPON_PENDING; no measured physical kerf"
+    }
+  ]
+}

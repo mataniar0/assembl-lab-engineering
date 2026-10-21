@@ -1,0 +1,1 @@
+PASS CSV hygiene: LF→CRLF exactly reproduces prior sealed SHA256; all15 CSV rows/values unchanged; A/B/C BOM match; other11 source hashes and33 export hashes unchanged; only BOM source hash rebound. No OCC rerun.

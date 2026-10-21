@@ -1,0 +1,17 @@
+{
+  "role": "ANALYTIC_CLOSED_CYLINDRICAL_RESERVATION_NOT_MATERIAL_NOT_BOM",
+  "inner_radius_mm": 171,
+  "outer_radius_mm": 175,
+  "z_mm": [
+    450,
+    500
+  ],
+  "angular_extent_deg": [
+    0,
+    360
+  ],
+  "comparison": "actual segmented perforated material is in variant GLBs, including gaps",
+  "physical_bending": "NOT_RUN",
+  "P06": "RESERVATION_ONLY_ISSUE23_OPEN",
+  "P08": "ACCESS_RESERVATION_ONLY"
+}

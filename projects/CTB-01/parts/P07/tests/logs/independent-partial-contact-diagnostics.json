@@ -1,0 +1,442 @@
+{
+  "A": {
+    "P07B": {
+      "area_mm2": 6441.72165639905,
+      "maximum_accepted_normal_line_distance_mm": 1.1324274851176597e-14,
+      "newly_recovered_edges": [],
+      "old_all_or_nothing_area_mm2": 6441.72165639905,
+      "primary_area_mm2": 6441.72166217944,
+      "delta_to_primary_mm2": -5.780389983556233e-06
+    },
+    "P07T": {
+      "area_mm2": 6441.72165639905,
+      "maximum_accepted_normal_line_distance_mm": 1.1324274851176597e-14,
+      "newly_recovered_edges": [],
+      "old_all_or_nothing_area_mm2": 6441.72165639905,
+      "primary_area_mm2": 6441.72166217944,
+      "delta_to_primary_mm2": -5.780389983556233e-06
+    }
+  },
+  "B": {
+    "P07B": {
+      "area_mm2": 6439.349744140271,
+      "maximum_accepted_normal_line_distance_mm": 2.8976820942716586e-14,
+      "newly_recovered_edges": [],
+      "old_all_or_nothing_area_mm2": 6439.3497441402715,
+      "primary_area_mm2": 6439.349745193724,
+      "delta_to_primary_mm2": -1.0534531611483544e-06
+    },
+    "P07T": {
+      "area_mm2": 6439.349744140271,
+      "maximum_accepted_normal_line_distance_mm": 2.8976820942716586e-14,
+      "newly_recovered_edges": [],
+      "old_all_or_nothing_area_mm2": 6439.3497441402715,
+      "primary_area_mm2": 6439.349745193724,
+      "delta_to_primary_mm2": -1.0534531611483544e-06
+    }
+  },
+  "C": {
+    "P07B": {
+      "area_mm2": 5916.305521199575,
+      "maximum_accepted_normal_line_distance_mm": 5.434225954781269e-07,
+      "newly_recovered_edges": [
+        {
+          "edge_xy_mm": [
+            [
+              90.616194,
+              145.016224
+            ],
+            [
+              89.10823652101875,
+              145.94030168095424
+            ]
+          ],
+          "full_edge_length_mm": 1.768574374702185,
+          "accepted_projected_contact_mm": 1.768574374702185,
+          "old_endpoint_max_distance_mm": 4.882341260345689e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              81.83389098643892,
+              150.14014726687728
+            ],
+            [
+              80.279637,
+              150.984038
+            ]
+          ],
+          "full_edge_length_mm": 1.768574856717036,
+          "accepted_projected_contact_mm": 1.7685748567170358,
+          "old_endpoint_max_distance_mm": 3.9827682354797617e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -80.279637,
+              150.984038
+            ],
+            [
+              -81.83389067632928,
+              150.14014743525303
+            ]
+          ],
+          "full_edge_length_mm": 1.768574503845413,
+          "accepted_projected_contact_mm": 1.768574503845413,
+          "old_endpoint_max_distance_mm": 3.9827672910657203e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -89.10823622014631,
+              145.94030186532913
+            ],
+            [
+              -90.616194,
+              145.016224
+            ]
+          ],
+          "full_edge_length_mm": 1.7685747275737338,
+          "accepted_projected_contact_mm": 1.7685747275737338,
+          "old_endpoint_max_distance_mm": 4.882342257211658e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -170.895831,
+              5.967814
+            ],
+            [
+              -170.9421272069634,
+              4.1998458559059335
+            ]
+          ],
+          "full_edge_length_mm": 1.7685741989836377,
+          "accepted_projected_contact_mm": 1.7685741989836377,
+          "old_endpoint_max_distance_mm": 3.5240867029745696e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -170.9421272041827,
+              -4.1998459620948685
+            ],
+            [
+              -170.895831,
+              -5.967814
+            ]
+          ],
+          "full_edge_length_mm": 1.7685740927583007,
+          "accepted_projected_contact_mm": 1.7685740927583007,
+          "old_endpoint_max_distance_mm": 3.524086293979297e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -90.616194,
+              -145.016224
+            ],
+            [
+              -89.10823652101874,
+              -145.94030168095424
+            ]
+          ],
+          "full_edge_length_mm": 1.768574374702197,
+          "accepted_projected_contact_mm": 1.768574374702197,
+          "old_endpoint_max_distance_mm": 4.882341334793388e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -81.83389098643886,
+              -150.1401472668773
+            ],
+            [
+              -80.279637,
+              -150.984038
+            ]
+          ],
+          "full_edge_length_mm": 1.7685748567169726,
+          "accepted_projected_contact_mm": 1.7685748567169723,
+          "old_endpoint_max_distance_mm": 3.982768256911672e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              80.279637,
+              -150.984038
+            ],
+            [
+              81.83389067632919,
+              -150.14014743525306
+            ]
+          ],
+          "full_edge_length_mm": 1.7685745038453244,
+          "accepted_projected_contact_mm": 1.7685745038453244,
+          "old_endpoint_max_distance_mm": 3.982767447857063e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              89.10823622014622,
+              -145.9403018653292
+            ],
+            [
+              90.616194,
+              -145.016224
+            ]
+          ],
+          "full_edge_length_mm": 1.7685747275738362,
+          "accepted_projected_contact_mm": 1.7685747275738362,
+          "old_endpoint_max_distance_mm": 4.882342218154816e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              170.895831,
+              -5.967814
+            ],
+            [
+              170.9421272069634,
+              -4.199845855905954
+            ]
+          ],
+          "full_edge_length_mm": 1.7685741989836172,
+          "accepted_projected_contact_mm": 1.7685741989836172,
+          "old_endpoint_max_distance_mm": 3.5240867082620484e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              170.9421272041827,
+              4.199845962094694
+            ],
+            [
+              170.895831,
+              5.967814
+            ]
+          ],
+          "full_edge_length_mm": 1.7685740927584748,
+          "accepted_projected_contact_mm": 1.7685740927584748,
+          "old_endpoint_max_distance_mm": 3.524086248410045e-07,
+          "height_mm": 6.0
+        }
+      ],
+      "old_all_or_nothing_area_mm2": 5788.968160144609,
+      "primary_area_mm2": 5916.305581334849,
+      "delta_to_primary_mm2": -6.013527399773011e-05
+    },
+    "P07T": {
+      "area_mm2": 5897.327958691227,
+      "maximum_accepted_normal_line_distance_mm": 5.434225954781269e-07,
+      "newly_recovered_edges": [
+        {
+          "edge_xy_mm": [
+            [
+              90.616194,
+              145.016224
+            ],
+            [
+              89.10823652101875,
+              145.94030168095424
+            ]
+          ],
+          "full_edge_length_mm": 1.768574374702185,
+          "accepted_projected_contact_mm": 1.768574374702185,
+          "old_endpoint_max_distance_mm": 4.882341260345689e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              81.83389098643892,
+              150.14014726687728
+            ],
+            [
+              80.279637,
+              150.984038
+            ]
+          ],
+          "full_edge_length_mm": 1.768574856717036,
+          "accepted_projected_contact_mm": 1.7685748567170358,
+          "old_endpoint_max_distance_mm": 3.9827682354797617e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -80.279637,
+              150.984038
+            ],
+            [
+              -81.83389067632928,
+              150.14014743525303
+            ]
+          ],
+          "full_edge_length_mm": 1.768574503845413,
+          "accepted_projected_contact_mm": 1.768574503845413,
+          "old_endpoint_max_distance_mm": 3.9827672910657203e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -89.10823622014631,
+              145.94030186532913
+            ],
+            [
+              -90.616194,
+              145.016224
+            ]
+          ],
+          "full_edge_length_mm": 1.7685747275737338,
+          "accepted_projected_contact_mm": 1.7685747275737338,
+          "old_endpoint_max_distance_mm": 4.882342257211658e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -170.895831,
+              5.967814
+            ],
+            [
+              -170.9421272069634,
+              4.1998458559059335
+            ]
+          ],
+          "full_edge_length_mm": 1.7685741989836377,
+          "accepted_projected_contact_mm": 1.7685741989836377,
+          "old_endpoint_max_distance_mm": 3.5240867029745696e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -170.9421272041827,
+              -4.1998459620948685
+            ],
+            [
+              -170.895831,
+              -5.967814
+            ]
+          ],
+          "full_edge_length_mm": 1.7685740927583007,
+          "accepted_projected_contact_mm": 1.7685740927583007,
+          "old_endpoint_max_distance_mm": 3.524086293979297e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -90.616194,
+              -145.016224
+            ],
+            [
+              -89.10823652101874,
+              -145.94030168095424
+            ]
+          ],
+          "full_edge_length_mm": 1.768574374702197,
+          "accepted_projected_contact_mm": 1.768574374702197,
+          "old_endpoint_max_distance_mm": 4.882341334793388e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              -81.83389098643886,
+              -150.1401472668773
+            ],
+            [
+              -80.279637,
+              -150.984038
+            ]
+          ],
+          "full_edge_length_mm": 1.7685748567169726,
+          "accepted_projected_contact_mm": 1.7685748567169723,
+          "old_endpoint_max_distance_mm": 3.982768256911672e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              80.279637,
+              -150.984038
+            ],
+            [
+              81.83389067632919,
+              -150.14014743525306
+            ]
+          ],
+          "full_edge_length_mm": 1.7685745038453244,
+          "accepted_projected_contact_mm": 1.7685745038453244,
+          "old_endpoint_max_distance_mm": 3.982767447857063e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              89.10823622014622,
+              -145.9403018653292
+            ],
+            [
+              90.616194,
+              -145.016224
+            ]
+          ],
+          "full_edge_length_mm": 1.7685747275738362,
+          "accepted_projected_contact_mm": 1.7685747275738362,
+          "old_endpoint_max_distance_mm": 4.882342218154816e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              170.895831,
+              -5.967814
+            ],
+            [
+              170.9421272069634,
+              -4.199845855905954
+            ]
+          ],
+          "full_edge_length_mm": 1.7685741989836172,
+          "accepted_projected_contact_mm": 1.7685741989836172,
+          "old_endpoint_max_distance_mm": 3.5240867082620484e-07,
+          "height_mm": 6.0
+        },
+        {
+          "edge_xy_mm": [
+            [
+              170.9421272041827,
+              4.199845962094694
+            ],
+            [
+              170.895831,
+              5.967814
+            ]
+          ],
+          "full_edge_length_mm": 1.7685740927584748,
+          "accepted_projected_contact_mm": 1.7685740927584748,
+          "old_endpoint_max_distance_mm": 3.524086248410045e-07,
+          "height_mm": 6.0
+        }
+      ],
+      "old_all_or_nothing_area_mm2": 5769.99059763626,
+      "primary_area_mm2": 5897.32802357997,
+      "delta_to_primary_mm2": -6.488874350907281e-05
+    }
+  }
+}

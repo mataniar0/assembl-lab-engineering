@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "venv": "/workspace/.venvs/ctb-007",
+  "packages": {
+    "shapely": "2.1.2",
+    "manifold3d": "3.3.2",
+    "trimesh": "4.11.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "ezdxf": "1.4.4",
+    "matplotlib": "3.10.8",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0"
+  },
+  "source_commit": "6db45fa7ba0d9a81ff9bbc6d1a432133ab955214",
+  "clean_command": "PYTHON=/workspace/.venvs/ctb-007/bin/python projects/CTB-01/parts/P07/tests/run_all.sh"
+}
