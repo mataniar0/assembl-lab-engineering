@@ -1,5 +1,5 @@
 {
-  "schema_version": "ETG-000-v0.1",
+  "schema_version": "ETG-000-v0.2-H1",
   "units": {
     "length": "mm",
     "angle": "deg",
@@ -71,62 +71,6 @@
       "source": "not measured"
     },
     {
-      "id": "HINGE_REAR_OVERALL_DEPTH",
-      "value": 178.4,
-      "unit": "mm",
-      "status": "PROVISIONAL",
-      "source": "legacy V7.2 approximate; differs from body depth"
-    },
-    {
-      "id": "HINGE_EAR_OUTER_D",
-      "value": 32,
-      "unit": "mm",
-      "status": "PROVISIONAL",
-      "source": "V7.2 FCIPH legacy geometry"
-    },
-    {
-      "id": "HINGE_POCKET_D",
-      "value": 32.8,
-      "unit": "mm",
-      "status": "PROVISIONAL",
-      "source": "V7.2 FCIPH legacy geometry"
-    },
-    {
-      "id": "HINGE_PIN_D",
-      "value": 14,
-      "unit": "mm",
-      "status": "PROVISIONAL",
-      "source": "V7.2 FCIPH legacy geometry"
-    },
-    {
-      "id": "HINGE_BEARING_D",
-      "value": 14.6,
-      "unit": "mm",
-      "status": "PROVISIONAL",
-      "source": "V7.2 FCIPH legacy geometry"
-    },
-    {
-      "id": "HINGE_EAR_RADIAL_GAP",
-      "value": 0.4,
-      "unit": "mm",
-      "status": "DERIVED",
-      "formula": "(HINGE_POCKET_D-HINGE_EAR_OUTER_D)/2"
-    },
-    {
-      "id": "HINGE_PIN_RADIAL_GAP",
-      "value": 0.3,
-      "unit": "mm",
-      "status": "DERIVED",
-      "formula": "(HINGE_BEARING_D-HINGE_PIN_D)/2"
-    },
-    {
-      "id": "HINGE_RELIEF_POCKET_DEPTH",
-      "value": 0.4,
-      "unit": "mm",
-      "status": "PROVISIONAL",
-      "source": "V7.2 shallow pocket NOT through-cut"
-    },
-    {
       "id": "LID_MOTION_CHECK_MIN",
       "value": 0,
       "unit": "deg",
@@ -138,14 +82,14 @@
       "value": 120,
       "unit": "deg",
       "status": "FROZEN",
-      "source": "legacy V7.2 digital motion audit"
+      "source": "ETG original 120deg target retained under H1; never inherit MEB-01 110deg"
     },
     {
       "id": "CORNER_SLICE_TOTAL",
       "value": 96,
       "unit": "count",
       "status": "PROVISIONAL",
-      "source": "legacy V7.2: 64 plain, 30 keyed, 2 rear-top"
+      "source": "legacy V7.2: 64 plain, 30 keyed, 2 rear-top; recount rear corners with H1"
     },
     {
       "id": "TRAY_LENGTH",
@@ -167,6 +111,82 @@
       "unit": "mm",
       "status": "PROVISIONAL",
       "source": "early etrog box concept; requires current-model revalidation"
+    },
+    {
+      "id": "H1_PIVOT_AXIS",
+      "value": null,
+      "unit": "coordinate",
+      "status": "OPEN",
+      "source": "Both hinge supports and rotating cheeks must share coaxial X axis"
+    },
+    {
+      "id": "H1_PIN_D",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "MEB-01 7mm is research only"
+    },
+    {
+      "id": "H1_FIXED_BORE_D",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "MEB-01 7.4mm is research only"
+    },
+    {
+      "id": "H1_MOVING_BORE_D",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "MEB-01 8.4mm is research only"
+    },
+    {
+      "id": "H1_CAP_D",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "MEB-01 13mm is research only"
+    },
+    {
+      "id": "H1_CAP_THICKNESS",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "MEB-01 4mm is research only"
+    },
+    {
+      "id": "H1_AXIAL_GAP",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "MEB-01 0.5mm is research only"
+    },
+    {
+      "id": "H1_FIXED_LAMINATION_STACK",
+      "value": null,
+      "unit": "design",
+      "status": "OPEN",
+      "source": "Use rear corner layers; physical layer/slot construction not selected"
+    },
+    {
+      "id": "H1_POSITIVE_PIN_CAPTURE",
+      "value": null,
+      "unit": "design",
+      "status": "OPEN",
+      "source": "Cap and pin must be positively retained yet permit rotation"
+    },
+    {
+      "id": "H1_REAR_OVERALL_ENVELOPE",
+      "value": null,
+      "unit": "mm",
+      "status": "OPEN",
+      "source": "Old FCIPH 178.4mm is not adopted"
     }
-  ]
+  ],
+  "hinge_architecture": {
+    "selected": "H1_INTEGRATED_RECESSED_WOODEN_PIVOT",
+    "owner_decision": "D09 / ETG-CR-001",
+    "status": "DESIGN_DIRECTION_APPROVED_GEOMETRY_OPEN",
+    "superseded": "FCIPH"
+  }
 }
