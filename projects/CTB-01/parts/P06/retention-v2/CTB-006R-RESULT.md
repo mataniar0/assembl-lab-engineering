@@ -1,7 +1,9 @@
 # CTB-006R B1 — NO-GO: unchanged-C early-capture preflight
 
-**Issue:** [#23](https://github.com/mataniar0/assembl-lab-engineering/issues/23) · **2026-10-21**  
-**Branch:** `codex/ctb-006r-retention` · **Base:** `532f8889ef8ec318908a7f08dcae2d0e3e792e92`  
+**Issue:** [#23](https://github.com/mataniar0/assembl-lab-engineering/issues/23) · **2026-10-21**
+
+**Branch:** `codex/ctb-006r-retention` · **Base:** `532f8889ef8ec318908a7f08dcae2d0e3e792e92`
+
 **DESIGN_ONLY / BLOCKED / CR_REQUIRED. IF-09/B05 remain OPEN.**
 
 The selected Candidate 1 fails its first prerequisite with the existing geometry:
@@ -30,7 +32,9 @@ IF-02 (Y_FIRST), IF-14 (assembly). No interface approval is implied.
 **Six unique evidence checks verified; two design prerequisites fail.** A successful
 probe exit verifies these observations, **not** successful locking. Initial
 single-interface exploration and six-interface recording agreed; no geometry/code
-repair was required. The stored evidence was also replayed read-only. No positive
+repair was required. A documentation hygiene check flagged two Markdown trailing-
+space line breaks; they were removed and the check repeated. The stored evidence
+was also replayed read-only. No positive
 mutual key/cheek retention, larger bearing seat or 6DOF lock is proved. Simply
 clearing an unchanged straight approach also clears its exact reverse while all
 other bodies stay fixed; new retention/actuation cannot be assumed from a notch.
