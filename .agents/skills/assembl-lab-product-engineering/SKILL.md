@@ -17,9 +17,17 @@ Always start by reading:
 2. [Engineering playbook](../../../engineering-process/PLAYBOOK_HE.md).
 3. [Release gates](../../../engineering-process/GATES.md).
 4. [QA policy](../../../engineering-process/QUALITY_STANDARD.md).
-5. Project-local `BRIEF.md`, `STATUS.md`, G0 contract, `DECISIONS.md` and the relevant existing CAD sources (when those files exist).
+5. [LEAN task planning v1.1](../../../engineering-process/LEAN_TASK_PLANNING_HE.md).
+6. Project-local `BRIEF.md`, `STATUS.md`, G0 contract, `DECISIONS.md` and the relevant existing CAD sources (when those files exist).
 
 If the project is new, create its own directory and use [product brief](../../../engineering-process/TEMPLATES/NEW_PRODUCT_BRIEF_HE.md) followed by [interface-control baseline](../../../engineering-process/TEMPLATES/INTERFACE_CONTRACT.md). **Never inherit CTB-01 stock size, material, measurements or design choices into a new project.** Ask or mark UNKNOWN/OPEN.
+
+## Mandatory lean routing before every task
+1. Set P0–P3 priority, eligible executors, recommended executor, blockers, affected interfaces and the immediate ChatGPT work.
+2. ChatGPT first reads/reuses existing sources, decides scope/design and performs tasks it can complete reliably with available tools. **Do not run Codex just to prepare an issue, plan, summarize, select an option or produce management reports.**
+3. State the **minimal remaining Codex question/implementation** if any. B1 feasibility is optional and only justified for significant uncertainty; after B1 stop and return GO/REVISE/NO-GO to ChatGPT before any B2 authorization. B2 produces one scoped viable candidate with only necessary outputs.
+4. Local non-contract-changing fixes may be retried with failure/fix counts. Escalate frozen-interface, material functional or safety changes. Preserve mandatory negative controls, affected regressions, independent QA and G0–G5 evidence.
+5. If ChatGPT implemented the artifacts, ChatGPT's own review is **self-review**, not independent QA. Mark `INDEPENDENT_QA_PENDING` unless another truly independent reviewer verifies actual results.
 
 ## Decision flow
 - **No G0?** Create initial product brief/BOM/interfaces, status register and parameter provenance, and run source-consistency QA before downstream parts.
