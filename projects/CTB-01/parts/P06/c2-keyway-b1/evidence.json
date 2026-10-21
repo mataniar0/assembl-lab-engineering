@@ -1,0 +1,1135 @@
+{
+  "base_commit": "98f0132423bb33adc19b14a3188a662d36e50e1a",
+  "candidate": "C2_DUAL_HEAD_RADIAL_DOGLEG",
+  "cases": [
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": [
+        108.21764591842917,
+        0,
+        0
+      ],
+      "expected": "CLEAR",
+      "name": "insert_1_lower_Z40_to0",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": [
+        108.21764591842917,
+        0,
+        40
+      ],
+      "swept_volume_mm3": 3707.156586968,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": [
+        114.61764591842916,
+        0,
+        0
+      ],
+      "expected": "CLEAR",
+      "name": "insert_2_radial_plus6p4",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": [
+        108.21764591842917,
+        0,
+        0
+      ],
+      "swept_volume_mm3": 2211.408947849,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": [
+        114.61764591842916,
+        5,
+        0
+      ],
+      "expected": "CLEAR",
+      "name": "insert_3_tangential_plus5",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": [
+        114.61764591842916,
+        0,
+        0
+      ],
+      "swept_volume_mm3": 1670.036587669,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "final_finite_key",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 1070.036587669,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 133.200000107,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "BLOCKED",
+      "name": "direct_plusZ40",
+      "observed": "BLOCKED",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 3707.156586968,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 133.200000107,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "BLOCKED",
+      "name": "direct_minusZ40",
+      "observed": "BLOCKED",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 3707.156586968,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 18.592824748,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "BLOCKED",
+      "name": "direct_minusR6p4",
+      "observed": "BLOCKED",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 2211.408947849,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 223.246472238,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "BLOCKED",
+      "name": "direct_plusR6p4",
+      "observed": "BLOCKED",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 2211.408947849,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 158.444976079,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "BLOCKED",
+      "name": "direct_plusT5",
+      "observed": "BLOCKED",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 1670.036587669,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "reverse_1_minusT5_OPEN",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 1670.036587669,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "reverse_2_minusR6p4",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 2211.408947849,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "reverse_3_plusZ40",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 3707.156586968,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ONE_P01_C_proposed": 0.0,
+        "P03_selected_Y": 0.0,
+        "P06_local_terminal": 0.0,
+        "nearest_S3": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "shortcut_after_minusT5_plusZ40_at_park_R",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 3707.156586968,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "key_HELD_ONLY_FOR_CONTROL": 64.85829375,
+        "ring": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "BLOCKED",
+      "name": "cheek_spread6_held_key",
+      "observed": "BLOCKED",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 283227.988852621,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "ring": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "cheek_spread6_key_absent",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 283227.988852621,
+      "verified": true
+    },
+    {
+      "continuous_swept_overlap_mm3": {
+        "key_HELD_ONLY_FOR_CONTROL": 0.0,
+        "ring": 0.0
+      },
+      "end_r_toffset_zoffset": null,
+      "expected": "CLEAR",
+      "name": "cheek_spread4_still_FREE_with_held_key",
+      "observed": "CLEAR",
+      "start_r_toffset_zoffset": null,
+      "swept_volume_mm3": 236023.324043851,
+      "verified": true
+    }
+  ],
+  "coordinate_frame": "one L1 positive-t cheek; r=X,t=Y,z=Z; mm",
+  "decision": "LOCAL_G1_GEOMETRY_PLAUSIBLE / ANTI_T_RETURN_OPEN",
+  "epsilon_mm3": 1e-06,
+  "final_ring_vs_cheek_S3_Y_overlap_mm3": {
+    "ONE_P01_C_proposed": 0.0,
+    "P03_selected_Y": 0.0,
+    "nearest_S3": 0.0
+  },
+  "geometry": {
+    "cheek_proposal": "existing P06 C mortise overlay; upstream P01 NOT modified",
+    "fillet_radii_mm": {
+      "key": 0.4,
+      "portal": 0.2,
+      "terminal_outer": 0.5
+    },
+    "key_Z": [
+      235,
+      255
+    ],
+    "key_loading_tz_contour": [
+      [
+        24.0,
+        241.4
+      ],
+      [
+        23.992314,
+        241.478036
+      ],
+      [
+        23.969552,
+        241.553073
+      ],
+      [
+        23.932588,
+        241.622228
+      ],
+      [
+        23.882843,
+        241.682843
+      ],
+      [
+        23.822228,
+        241.732588
+      ],
+      [
+        23.753073,
+        241.769552
+      ],
+      [
+        23.678036,
+        241.792314
+      ],
+      [
+        23.6,
+        241.8
+      ],
+      [
+        20.1,
+        241.8
+      ],
+      [
+        20.021964,
+        241.807686
+      ],
+      [
+        19.946927,
+        241.830448
+      ],
+      [
+        19.877772,
+        241.867412
+      ],
+      [
+        19.817157,
+        241.917157
+      ],
+      [
+        19.767412,
+        241.977772
+      ],
+      [
+        19.730448,
+        242.046927
+      ],
+      [
+        19.707686,
+        242.121964
+      ],
+      [
+        19.7,
+        242.2
+      ],
+      [
+        19.7,
+        247.8
+      ],
+      [
+        19.707686,
+        247.878036
+      ],
+      [
+        19.730448,
+        247.953073
+      ],
+      [
+        19.767412,
+        248.022228
+      ],
+      [
+        19.817157,
+        248.082843
+      ],
+      [
+        19.877772,
+        248.132588
+      ],
+      [
+        19.946927,
+        248.169552
+      ],
+      [
+        20.021964,
+        248.192314
+      ],
+      [
+        20.1,
+        248.2
+      ],
+      [
+        23.6,
+        248.2
+      ],
+      [
+        23.678036,
+        248.207686
+      ],
+      [
+        23.753073,
+        248.230448
+      ],
+      [
+        23.822228,
+        248.267412
+      ],
+      [
+        23.882843,
+        248.317157
+      ],
+      [
+        23.932588,
+        248.377772
+      ],
+      [
+        23.969552,
+        248.446927
+      ],
+      [
+        23.992314,
+        248.521964
+      ],
+      [
+        24.0,
+        248.6
+      ],
+      [
+        24.0,
+        254.6
+      ],
+      [
+        23.992314,
+        254.678036
+      ],
+      [
+        23.969552,
+        254.753073
+      ],
+      [
+        23.932588,
+        254.822228
+      ],
+      [
+        23.882843,
+        254.882843
+      ],
+      [
+        23.822228,
+        254.932588
+      ],
+      [
+        23.753073,
+        254.969552
+      ],
+      [
+        23.678036,
+        254.992314
+      ],
+      [
+        23.6,
+        255.0
+      ],
+      [
+        14.1,
+        255.0
+      ],
+      [
+        14.021964,
+        254.992314
+      ],
+      [
+        13.946927,
+        254.969552
+      ],
+      [
+        13.877772,
+        254.932588
+      ],
+      [
+        13.817157,
+        254.882843
+      ],
+      [
+        13.767412,
+        254.822228
+      ],
+      [
+        13.730448,
+        254.753073
+      ],
+      [
+        13.707686,
+        254.678036
+      ],
+      [
+        13.7,
+        254.6
+      ],
+      [
+        13.7,
+        248.2
+      ],
+      [
+        13.7,
+        241.8
+      ],
+      [
+        13.7,
+        235.4
+      ],
+      [
+        13.707686,
+        235.321964
+      ],
+      [
+        13.730448,
+        235.246927
+      ],
+      [
+        13.767412,
+        235.177772
+      ],
+      [
+        13.817157,
+        235.117157
+      ],
+      [
+        13.877772,
+        235.067412
+      ],
+      [
+        13.946927,
+        235.030448
+      ],
+      [
+        14.021964,
+        235.007686
+      ],
+      [
+        14.1,
+        235.0
+      ],
+      [
+        23.6,
+        235.0
+      ],
+      [
+        23.678036,
+        235.007686
+      ],
+      [
+        23.753073,
+        235.030448
+      ],
+      [
+        23.822228,
+        235.067412
+      ],
+      [
+        23.882843,
+        235.117157
+      ],
+      [
+        23.932588,
+        235.177772
+      ],
+      [
+        23.969552,
+        235.246927
+      ],
+      [
+        23.992314,
+        235.321964
+      ],
+      [
+        24.0,
+        235.4
+      ]
+    ],
+    "key_radial_thickness_mm": 6,
+    "loading_r_center": 108.21764591842917,
+    "local_ring_xy_paths": [
+      [
+        [
+          99.017646,
+          26.0
+        ],
+        [
+          99.017646,
+          7.324563
+        ],
+        [
+          99.017646,
+          0.0
+        ],
+        [
+          125.017646,
+          0.0
+        ],
+        [
+          125.017646,
+          26.0
+        ],
+        [
+          125.017646,
+          34.5
+        ],
+        [
+          125.008039,
+          34.597545
+        ],
+        [
+          124.979586,
+          34.691342
+        ],
+        [
+          124.933381,
+          34.777785
+        ],
+        [
+          124.871199,
+          34.853553
+        ],
+        [
+          124.795431,
+          34.915735
+        ],
+        [
+          124.708988,
+          34.96194
+        ],
+        [
+          124.615191,
+          34.990393
+        ],
+        [
+          124.517646,
+          35.0
+        ],
+        [
+          99.517646,
+          35.0
+        ],
+        [
+          99.420101,
+          34.990393
+        ],
+        [
+          99.326304,
+          34.96194
+        ],
+        [
+          99.239861,
+          34.915735
+        ],
+        [
+          99.164093,
+          34.853553
+        ],
+        [
+          99.101911,
+          34.777785
+        ],
+        [
+          99.055706,
+          34.691342
+        ],
+        [
+          99.027253,
+          34.597545
+        ],
+        [
+          99.017646,
+          34.5
+        ]
+      ],
+      [
+        [
+          105.044441,
+          13.6
+        ],
+        [
+          105.024461,
+          13.648236
+        ],
+        [
+          105.017646,
+          13.7
+        ],
+        [
+          105.017646,
+          24.0
+        ],
+        [
+          105.024461,
+          24.051764
+        ],
+        [
+          105.044441,
+          24.1
+        ],
+        [
+          105.076225,
+          24.141421
+        ],
+        [
+          105.117646,
+          24.173205
+        ],
+        [
+          105.165882,
+          24.193185
+        ],
+        [
+          105.217646,
+          24.2
+        ],
+        [
+          111.217646,
+          24.2
+        ],
+        [
+          111.26941,
+          24.206815
+        ],
+        [
+          111.317646,
+          24.226795
+        ],
+        [
+          111.359067,
+          24.258579
+        ],
+        [
+          111.390851,
+          24.3
+        ],
+        [
+          111.410831,
+          24.348236
+        ],
+        [
+          111.417646,
+          24.4
+        ],
+        [
+          111.417646,
+          25.1
+        ],
+        [
+          111.424461,
+          25.151764
+        ],
+        [
+          111.444441,
+          25.2
+        ],
+        [
+          111.476225,
+          25.241421
+        ],
+        [
+          111.517646,
+          25.273205
+        ],
+        [
+          111.565882,
+          25.293185
+        ],
+        [
+          111.617646,
+          25.3
+        ],
+        [
+          117.617646,
+          25.3
+        ],
+        [
+          117.66941,
+          25.293185
+        ],
+        [
+          117.717646,
+          25.273205
+        ],
+        [
+          117.759067,
+          25.241421
+        ],
+        [
+          117.790851,
+          25.2
+        ],
+        [
+          117.810831,
+          25.151764
+        ],
+        [
+          117.817646,
+          25.1
+        ],
+        [
+          117.817646,
+          13.7
+        ],
+        [
+          117.810831,
+          13.648236
+        ],
+        [
+          117.790851,
+          13.6
+        ],
+        [
+          117.759067,
+          13.558579
+        ],
+        [
+          117.717646,
+          13.526795
+        ],
+        [
+          117.66941,
+          13.506815
+        ],
+        [
+          117.617646,
+          13.5
+        ],
+        [
+          111.417646,
+          13.5
+        ],
+        [
+          105.217646,
+          13.5
+        ],
+        [
+          105.165882,
+          13.506815
+        ],
+        [
+          105.117646,
+          13.526795
+        ],
+        [
+          105.076225,
+          13.558579
+        ]
+      ]
+    ],
+    "parked_r_center": 114.61764591842916,
+    "portal_xy_contour": [
+      [
+        105.017646,
+        13.7
+      ],
+      [
+        105.024461,
+        13.648236
+      ],
+      [
+        105.044441,
+        13.6
+      ],
+      [
+        105.076225,
+        13.558579
+      ],
+      [
+        105.117646,
+        13.526795
+      ],
+      [
+        105.165882,
+        13.506815
+      ],
+      [
+        105.217646,
+        13.5
+      ],
+      [
+        111.417646,
+        13.5
+      ],
+      [
+        117.617646,
+        13.5
+      ],
+      [
+        117.66941,
+        13.506815
+      ],
+      [
+        117.717646,
+        13.526795
+      ],
+      [
+        117.759067,
+        13.558579
+      ],
+      [
+        117.790851,
+        13.6
+      ],
+      [
+        117.810831,
+        13.648236
+      ],
+      [
+        117.817646,
+        13.7
+      ],
+      [
+        117.817646,
+        25.1
+      ],
+      [
+        117.810831,
+        25.151764
+      ],
+      [
+        117.790851,
+        25.2
+      ],
+      [
+        117.759067,
+        25.241421
+      ],
+      [
+        117.717646,
+        25.273205
+      ],
+      [
+        117.66941,
+        25.293185
+      ],
+      [
+        117.617646,
+        25.3
+      ],
+      [
+        111.617646,
+        25.3
+      ],
+      [
+        111.565882,
+        25.293185
+      ],
+      [
+        111.517646,
+        25.273205
+      ],
+      [
+        111.476225,
+        25.241421
+      ],
+      [
+        111.444441,
+        25.2
+      ],
+      [
+        111.424461,
+        25.151764
+      ],
+      [
+        111.417646,
+        25.1
+      ],
+      [
+        111.417646,
+        24.4
+      ],
+      [
+        111.410831,
+        24.348236
+      ],
+      [
+        111.390851,
+        24.3
+      ],
+      [
+        111.359067,
+        24.258579
+      ],
+      [
+        111.317646,
+        24.226795
+      ],
+      [
+        111.26941,
+        24.206815
+      ],
+      [
+        111.217646,
+        24.2
+      ],
+      [
+        105.217646,
+        24.2
+      ],
+      [
+        105.165882,
+        24.193185
+      ],
+      [
+        105.117646,
+        24.173205
+      ],
+      [
+        105.076225,
+        24.141421
+      ],
+      [
+        105.044441,
+        24.1
+      ],
+      [
+        105.024461,
+        24.051764
+      ],
+      [
+        105.017646,
+        24.0
+      ]
+    ],
+    "ring_Z": [
+      242,
+      248
+    ],
+    "source_clearances_mm": {
+      "S3_vertical": 32,
+      "Y_vertical": 152,
+      "cheek_gap_loading": 0.1999999999999993,
+      "cheek_gap_parked": 5.199999999999999
+    },
+    "terminal_outer_t": 35
+  },
+  "geometry_source_sha256": {
+    "projects/CTB-01/parts/P01/src/design.json": "592079639fe53b3b151fcbd11da007a3ae439af4cca477f7bed1ea9e894d319d",
+    "projects/CTB-01/parts/P01/src/design.schema.json": "dc4eb126cd9927d49d3cd579a2eecb466036f9c5e3a639c639e909d2a428e170",
+    "projects/CTB-01/parts/P01/src/generate.py": "6b4376b69a9a583057bf38829f98ed52c14f3ca850e0aa1236f6331c59073df3",
+    "projects/CTB-01/parts/P01/src/model.py": "f00ba8f2b6e5cac2efc8894c4102135a00f48440fbdefaf38c5e4f0577cdc83e",
+    "projects/CTB-01/parts/P01/src/requirements.txt": "090b4ec10d52737b9a80d9bbb7286c4f387d4bf300e7fb5bf6128e19aebdd1a5",
+    "projects/CTB-01/parts/P02/src/design.json": "fa538ce9bfe8d8688362765edbc936114b61928985d88d874db5f6c27546fb3e",
+    "projects/CTB-01/parts/P02/src/design.schema.json": "c9742f3945362d7717547aa43901cb49a69e9e156cbebca75203c66a1a271a01",
+    "projects/CTB-01/parts/P02/src/generate.py": "e23d27c802de5ff39ed4ea452daf3cbf45b88eade5229da042826d892af2703d",
+    "projects/CTB-01/parts/P02/src/model.py": "bc8f253d7d810af215bb5e7bdaa977608d5d47789913af5b5d02918220c25e56",
+    "projects/CTB-01/parts/P02/src/requirements.txt": "87c59074addd39b64a9338133fe3c04cf4f480cb84e0a48e20e3bc8a4a1d93ec",
+    "projects/CTB-01/parts/P03/src/design.json": "f03d9d1b20fda69d9f79cc3ce3579602199b1d0b9ec11ae6e8492d0c3037a129",
+    "projects/CTB-01/parts/P03/src/design.schema.json": "f5301c8f6b61072da147e923ea3e0d7e00ced79a40caecb279fe8dc85541e7a3",
+    "projects/CTB-01/parts/P03/src/generate.py": "3c80b9d90e5f140f17d9d22a4caa712e2b73c91379263a2863a2b5d50c9989e9",
+    "projects/CTB-01/parts/P03/src/model.py": "f71d247d3cf6ae3e1b0fb59384ce08553c564ccb16f7f116ac6731bcca9d8947",
+    "projects/CTB-01/parts/P03/src/requirements.txt": "bfb5f41ad8908487263825dbcc68d1348f87fbefd216ee21bfd8f0500dadcde0",
+    "projects/CTB-01/parts/P03/src/upstream-sha256.json": "6ea91e1c95c60b8de787446f5fc4c7fdb04b31f6e1ddba4807a05a2afdcc7f34",
+    "projects/CTB-01/parts/P04/src/design.json": "3f199284b80d7191530e1fe506d843a014efd2c353337d31689f9baffc73a738",
+    "projects/CTB-01/parts/P04/src/design.schema.json": "45f69349428ca6ad15451d32e1fe95e93bd2e3d843b5fab525181eb46f2a6d18",
+    "projects/CTB-01/parts/P04/src/generate.py": "4c5713e3a9cc7c967cddcc6c9c6ce064162583f5931bc87f5c24a07f9e459958",
+    "projects/CTB-01/parts/P04/src/model.py": "689d2a813ca545952d37d1147ff590b7566e2db39ab7b3c50b560869c563ee46",
+    "projects/CTB-01/parts/P04/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P04/src/requirements.txt": "694cc9dbb526870adc9d7b1093c5eb97efab5faa09697291773e9088448d30be",
+    "projects/CTB-01/parts/P04/src/upstream-sha256.json": "3952b0e61db6c728054c6216efbc4644314a9f07299f237024959e0f0fb43982",
+    "projects/CTB-01/parts/P05/src/design.json": "9767db2bd9aabb74752cd4d103ae7ce2391f8e2c0f8a07c7bc2499d4e9e7b22f",
+    "projects/CTB-01/parts/P05/src/design.schema.json": "33d7cffa4ce03dec4c4a23248e399bbed2584628ed3d0448dcde81bd8e4ee214",
+    "projects/CTB-01/parts/P05/src/generate.py": "d702f48b0dbbc1f14ca0cb77e296e46dccf7f98119442c29b937bbb4cc5286e5",
+    "projects/CTB-01/parts/P05/src/model.py": "93a1fc8df28538f7377c2fc6188e2d995580caacebf4674da954d136696cec20",
+    "projects/CTB-01/parts/P05/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P05/src/requirements.txt": "a9957e584a1749ecf01db0bb44fe60d4192dda07e09696832145456d58e73a71",
+    "projects/CTB-01/parts/P05/src/upstream-sha256.json": "65b78179541838151e2c25fdad2a4e2ed8af2f75d65f2e78f8403c54348ad0b4",
+    "projects/CTB-01/parts/P06/src/design.json": "1fdd1c99cee852ce188dcd0d99b02d70b1a6741ed76b31cd5daae42889bfdcc0",
+    "projects/CTB-01/parts/P06/src/design.schema.json": "c3ac01f7f4aed2fa13e6fc8add919a096aea663947cd89072f7b081e802ed371",
+    "projects/CTB-01/parts/P06/src/generate.py": "8d387dcb4a65718e65a4331b3c2b5729fcf8b05a65bfd485db777858f317d96b",
+    "projects/CTB-01/parts/P06/src/model.py": "ded01f47c2848ad571b300fb11f44015a791e4cc91fa28a447520766c5f25d0e",
+    "projects/CTB-01/parts/P06/src/preview_stages.py": "948abaeeef0beccb4a7403ac984a05268502f0643def8c04c53a32a74bda8ab6",
+    "projects/CTB-01/parts/P06/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P06/src/requirements.txt": "1fe9c98845af93b44cecc95d22c4073b1f38bf1a4059f68408e30dcaa07548e8",
+    "projects/CTB-01/parts/P06/src/upstream-sha256.json": "0981b5e92ade97891b3b9d7604e71ab4ddd06ed0f0f6849502dd5b5069bea0e2",
+    "projects/CTB-01/specifications/CTB-000/AGENT_HANDOFF_HE.md": "54a9b31f592054ca0215983ed6d5458512e42fd984a012421b543785b58921e9",
+    "projects/CTB-01/specifications/CTB-000/CHANGELOG.md": "425a1eda169088292b97d09fa9ff5c9bac3cb5295b11d6df508b787dee8354c5",
+    "projects/CTB-01/specifications/CTB-000/CHANGE_REQUEST_TEMPLATE.md": "ea77455e46fe614424c9589ba85d7b44be67e8cc6413fa4ce0edf4c6b5f2bfea",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_interface_diagram.png": "9566fc17d66bb57d4623412f94382dd442b32e9ed72118bca2142bdefb26524b",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_interface_diagram.svg": "85203903509803493ffbeb9f4874a042fb1bbd8a021b28d9ec4b531df7de8b10",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_interfaces.json": "a417f3b4252765f6bc4d02c8ad8a9cfccc0f205f4ab5f21fcfe24b96d56ce93b",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_open_issues.csv": "4e66511ffd63a8850d66a2974e21bdc46c5d6b7a8127ffd52de2f3ccf630a3a0",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_parameters.json": "9338eff356c166d481669592d7740f9023de7884a0e8a023a42656de5b9e6961",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_parts.csv": "64d2bfdfd1ca4e38a8c946647be802fd85f9a2f743e1016f7cd0156039b88814",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_schema.json": "8e41986483b41b9b776b1836085457b0b6bc458955260f715a1f2d1f7ee78fcc",
+    "projects/CTB-01/specifications/CTB-000/DECISIONS.md": "af7d0b78dab166eab2fb07c616c70b17027cd8126b0e4a24b08052d08b99df35",
+    "projects/CTB-01/specifications/CTB-000/MANIFEST.json": "b1ec5e0791fb214179375f79a61c8508978657f8a2a2326d555944ab502503f2",
+    "projects/CTB-01/specifications/CTB-000/SOURCE_REGISTER.md": "2ec52383bc1433991953d504f8a995ab944dcb038b926a24d32e719b67fbd018",
+    "projects/CTB-01/specifications/CTB-000/SPEC_HE.md": "68e208c3c855fb07063699e43328ae503aaf09d18cadb092b17247a8370c1b69",
+    "projects/CTB-01/specifications/CTB-000/validate_contract.py": "75f90444651d0586b38f7ab5e0e955d6f5bf7fd433e892ecbb33e3239a3abd3f"
+  },
+  "issue": 23,
+  "material_screen": {
+    "actual_portal_to_outer_edge_min_mm": 6.000000081570832,
+    "available_flat_shoulder_area_mm2_at_key_Z_planes": {
+      "241.8": 19.8,
+      "248.2": 19.8
+    },
+    "bearing": "nominal vertical gap0.2; no contact at nominal pose, no strength/physical claim",
+    "existing_cheek_outer_land_mm": 12.218967869396934,
+    "loading_head_projection_to_portal_clearance_mm": 0.19828862577655104,
+    "parked_head_outer_t_land_mm": 6,
+    "parked_true_neck_projection_to_portal_clearance_mm": 0.19999991842915674,
+    "portal_outer_t_land_mm": 9.7,
+    "radial_end_lands_mm": [
+      6,
+      7.2
+    ]
+  },
+  "not_run": "six-cheek/mirrored assembly, rotations/6DOF search, renders, production exports, physical fit/strength, unrelated regressions, G2b/G3/G4",
+  "one_cheek_only": true,
+  "one_key_only": true,
+  "open_release_routes": [
+    "minusT5 then minusR6.4 then plusZ40 (intentional reverse)",
+    "minusT5 then plusZ40 directly from parked radial center (shorter escape)",
+    "cheek outward free travel5.2 before held key contact; 4mm spread explicitly clear",
+    "rotations/combined6DOF not searched; no self-locking or full table claim"
+  ],
+  "path_case_count": 16,
+  "phase": "LOCAL_B1_ONLY",
+  "profile_checks": {
+    "cheek_valid_connected": true,
+    "key_single_sheet_H800_W440_with10margin": true,
+    "key_valid_connected": true,
+    "local_ring_valid_connected": true,
+    "one_terminal_updated_ring_envelope_sheet_only": true,
+    "portal_valid_connected": true,
+    "proposed_ring_valid_connected": true
+  },
+  "r0_mm": 112.01764591842917,
+  "release": "DESIGN_ONLY / CR_REQUIRED / INDEPENDENT_QA_PENDING",
+  "upstream_tracked_diff_empty": true
+}
