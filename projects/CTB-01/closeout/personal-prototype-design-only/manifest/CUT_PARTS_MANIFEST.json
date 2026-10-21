@@ -1,0 +1,1119 @@
+{
+  "P08_keys": 0,
+  "affected_interfaces": [
+    "IF-01",
+    "IF-02",
+    "IF-03",
+    "IF-04",
+    "IF-05",
+    "IF-06",
+    "IF-07",
+    "IF-08",
+    "IF-09",
+    "IF-10",
+    "IF-11",
+    "IF-12",
+    "IF-13",
+    "IF-14"
+  ],
+  "baseline_commit": "9caa69445d3f9816bdf23a934d8824b86e1ad913",
+  "grain_flex_axis_status": "UNMEASURED; preserve source axes; verify sheet grain/flex before any physical trial",
+  "inherited_gates": {
+    "B1_B2_OCC_executions_this_task": 0,
+    "G2b": "CAD_EVIDENCE_ACCEPTED_FOR_CONTINUATION; final closeout lead review pending",
+    "G3": "NOT_PERFORMED_OWNER_DEFERRED",
+    "G4": "BLOCKED",
+    "secondary": "CONFIRMED; PR53 merged after ChatGPT lead QA96/100; NOT rerun"
+  },
+  "instances": [
+    {
+      "body": "L1_P01_1",
+      "master": "P01",
+      "role": "P01",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L1_P01_2",
+      "master": "P01",
+      "role": "P01",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L1_S1",
+      "master": "P02B",
+      "role": "P02B",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L1_S2",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L1_S3",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L1_S4",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L2_P01_1",
+      "master": "P01",
+      "role": "P01",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L2_P01_2",
+      "master": "P01",
+      "role": "P01",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L2_S1",
+      "master": "P02B",
+      "role": "P02B",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L2_S2",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L2_S3",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L2_S4",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L3_P01_1",
+      "master": "P01",
+      "role": "P01",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L3_P01_2",
+      "master": "P01",
+      "role": "P01",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L3_S1",
+      "master": "P02B",
+      "role": "P02B",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L3_S2",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L3_S3",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "L3_S4",
+      "master": "P02",
+      "role": "P02",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P03",
+      "master": "P03",
+      "role": "P03",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P04L",
+      "master": "P04L",
+      "role": "P04L",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P04U",
+      "master": "P04U",
+      "role": "P04U",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P05_1",
+      "master": "P05",
+      "role": "P05",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P05_2",
+      "master": "P05",
+      "role": "P05",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P05_3",
+      "master": "P05",
+      "role": "P05",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P05_4",
+      "master": "P05",
+      "role": "P05",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P05_5",
+      "master": "P05",
+      "role": "P05",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P05_6",
+      "master": "P05",
+      "role": "P05",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P06_BONDED",
+      "master": "P06",
+      "role": "P06",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P07B",
+      "master": "P07B",
+      "role": "P07B",
+      "thickness_mm": 6
+    },
+    {
+      "body": "P07R1",
+      "master": "P07R_MASTER",
+      "role": "P07R1",
+      "thickness_mm": 4
+    },
+    {
+      "body": "P07R2",
+      "master": "P07R_MASTER",
+      "role": "P07R2",
+      "thickness_mm": 4
+    },
+    {
+      "body": "P07T",
+      "master": "P07T",
+      "role": "P07T",
+      "thickness_mm": 6
+    }
+  ],
+  "issues": [
+    50,
+    51,
+    52
+  ],
+  "kerf_compensation_mm": 0,
+  "kerf_compensation_status": "UNCOMPENSATED_EXPERIMENTAL_UNKNOWN_KERF",
+  "layer_semantics": {
+    "ANNOTATION_NOT_CUT": "display/identification only, NOT engraving or cutting",
+    "CUT_INNER": "closed apertures including kerf slots",
+    "CUT_OUTER": "closed material outer boundaries",
+    "REFERENCE_SHEET_NOT_CUT": "stock boundary display only, NOT cutting",
+    "engrave": "NONE; no engraving operation prescribed"
+  },
+  "masters": {
+    "P01": {
+      "contours": 7,
+      "cut_holes": 6,
+      "master_translation_mm": [
+        -25.0,
+        10.0
+      ],
+      "native_area_mm2": 23602.33240540086,
+      "native_bounds_mm": [
+        35.0,
+        0.0,
+        262.0,
+        488.0
+      ],
+      "quantity": 6,
+      "roles": [
+        "P01"
+      ]
+    },
+    "P02": {
+      "contours": 1,
+      "cut_holes": 0,
+      "master_translation_mm": [
+        25.0,
+        23.5
+      ],
+      "native_area_mm2": 665.5629145036545,
+      "native_bounds_mm": [
+        -15.0,
+        -13.5,
+        15.0,
+        13.5
+      ],
+      "quantity": 9,
+      "roles": [
+        "P02"
+      ]
+    },
+    "P02B": {
+      "contours": 1,
+      "cut_holes": 0,
+      "master_translation_mm": [
+        30.0,
+        23.5
+      ],
+      "native_area_mm2": 887.562914503654,
+      "native_bounds_mm": [
+        -20.0,
+        -13.5,
+        20.0,
+        13.5
+      ],
+      "quantity": 3,
+      "roles": [
+        "P02B"
+      ]
+    },
+    "P03": {
+      "contours": 1,
+      "cut_holes": 0,
+      "master_translation_mm": [
+        58.888973,
+        87.512159
+      ],
+      "native_area_mm2": 5113.524875966551,
+      "native_bounds_mm": [
+        -48.888973,
+        -77.512159,
+        85.5,
+        77.512159
+      ],
+      "quantity": 1,
+      "roles": [
+        "P03"
+      ]
+    },
+    "P04L": {
+      "contours": 7,
+      "cut_holes": 6,
+      "master_translation_mm": [
+        104.945152,
+        105.0
+      ],
+      "native_area_mm2": 26899.470411615963,
+      "native_bounds_mm": [
+        -94.945152,
+        -95.0,
+        94.945152,
+        95.0
+      ],
+      "quantity": 1,
+      "roles": [
+        "P04L"
+      ]
+    },
+    "P04U": {
+      "contours": 7,
+      "cut_holes": 6,
+      "master_translation_mm": [
+        104.945152,
+        105.0
+      ],
+      "native_area_mm2": 26976.27038966436,
+      "native_bounds_mm": [
+        -94.945152,
+        -95.0,
+        94.945152,
+        95.0
+      ],
+      "quantity": 1,
+      "roles": [
+        "P04U"
+      ]
+    },
+    "P05": {
+      "contours": 1,
+      "cut_holes": 0,
+      "master_translation_mm": [
+        -71.0,
+        -446.0
+      ],
+      "native_area_mm2": 3328.442583118219,
+      "native_bounds_mm": [
+        81.0,
+        456.0,
+        169.0,
+        494.0
+      ],
+      "quantity": 6,
+      "roles": [
+        "P05"
+      ]
+    },
+    "P06": {
+      "contours": 2,
+      "cut_holes": 1,
+      "master_translation_mm": [
+        95.274413,
+        131.334374
+      ],
+      "native_area_mm2": 10278.99574891119,
+      "native_bounds_mm": [
+        -85.274413,
+        -121.334374,
+        125.017646,
+        121.334374
+      ],
+      "quantity": 1,
+      "roles": [
+        "P06"
+      ]
+    },
+    "P07B": {
+      "contours": 7,
+      "cut_holes": 6,
+      "master_translation_mm": [
+        181.0,
+        181.0
+      ],
+      "native_area_mm2": 90951.17781337614,
+      "native_bounds_mm": [
+        -171.0,
+        -171.0,
+        171.0,
+        171.0
+      ],
+      "quantity": 1,
+      "roles": [
+        "P07B"
+      ]
+    },
+    "P07R_MASTER": {
+      "contours": 64,
+      "cut_holes": 63,
+      "master_translation_mm": [
+        10.0,
+        9.8
+      ],
+      "native_area_mm2": 25441.17645000007,
+      "native_bounds_mm": [
+        0.0,
+        0.2,
+        50.0,
+        543.295529
+      ],
+      "quantity": 2,
+      "roles": [
+        "P07R1",
+        "P07R2"
+      ]
+    },
+    "P07T": {
+      "contours": 1,
+      "cut_holes": 0,
+      "master_translation_mm": [
+        181.0,
+        181.0
+      ],
+      "native_area_mm2": 91858.64692133738,
+      "native_bounds_mm": [
+        -171.0,
+        -171.0,
+        171.0,
+        171.0
+      ],
+      "quantity": 1,
+      "roles": [
+        "P07T"
+      ]
+    }
+  },
+  "materials": {
+    "4": "nominal 4mm kerf-flex birch rim",
+    "6": "nominal 6mm birch structural"
+  },
+  "measured_machine_kerf_mm": null,
+  "measured_thickness_mm": null,
+  "rim_pattern": {
+    "bend_status": "NOT_PHYSICALLY_VALIDATED",
+    "neutral_radius_hypothesis_mm": 173,
+    "pitch_nominal_mm": 8,
+    "slot_width_nominal_mm": 0.8,
+    "slots_per_strip": 63
+  },
+  "roles": {
+    "P01": {
+      "master": "P01",
+      "quantity": 6,
+      "source": "projects/CTB-01/parts/P06/adhesive-study/candidate-v1/P01_BONDED_UNIFIED_V1_DESIGN_ONLY.svg",
+      "source_sha256": "ffcafd4de3812e9577467783138d0d84e04257af4bafa94a677f52a1e33dd20f",
+      "thickness_mm": 6
+    },
+    "P02": {
+      "master": "P02",
+      "quantity": 9,
+      "source": "projects/CTB-01/parts/P02/variants/B_THROUGH_ADHESIVE/P02.svg",
+      "source_sha256": "8e539819a018310320787ed009aeea96401691e7b937c37bc22306e1969dde56",
+      "thickness_mm": 6
+    },
+    "P02B": {
+      "master": "P02B",
+      "quantity": 3,
+      "source": "projects/CTB-01/parts/P02/variants/B_THROUGH_ADHESIVE/P02B.svg",
+      "source_sha256": "28f9c3a997a23c715e577ac1490e87cd41493aeb7821f7543e0bec1f2e844647",
+      "thickness_mm": 6
+    },
+    "P03": {
+      "master": "P03",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P03/variants/A_COMPACT_CLOSED/P03.svg",
+      "source_sha256": "815cc22ece26b106585340e9ef67ec09975b9d9457e2359c6c81a4ef90dd7594",
+      "thickness_mm": 6
+    },
+    "P04L": {
+      "master": "P04L",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P04/variants/A/P04L.svg",
+      "source_sha256": "f46cc16c401a3da741ca515f57afc4f859433ab4bf65af332fa5ea5e2052b579",
+      "thickness_mm": 6
+    },
+    "P04U": {
+      "master": "P04U",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P04/variants/A/P04U.svg",
+      "source_sha256": "77200910c91f42d31209fc0ba00efaaac7f00a247b9b376194762d467e4d3d8e",
+      "thickness_mm": 6
+    },
+    "P05": {
+      "master": "P05",
+      "quantity": 6,
+      "source": "projects/CTB-01/parts/P05/variants/A/P05.svg",
+      "source_sha256": "01df38d6162f776d12e8e4a6f0c2f726e22b6411231420af4b1b2c4055fd1015",
+      "thickness_mm": 6
+    },
+    "P06": {
+      "master": "P06",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P06/adhesive-study/candidate-v1/P06C_BONDED_V1_DESIGN_ONLY.svg",
+      "source_sha256": "6e2ed7753633089320e348124b542d6ff995ffd0102000d66e85987c50b12f76",
+      "thickness_mm": 6
+    },
+    "P07B": {
+      "master": "P07B",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P07/variants/A/P07B.svg",
+      "source_sha256": "dd673608726ad41644c7319cd11656cd84eb1aabd510a86ae06e4890e306699f",
+      "thickness_mm": 6
+    },
+    "P07R1": {
+      "master": "P07R_MASTER",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P07/variants/A/P07R1.svg",
+      "source_sha256": "7b4f30906390960dd03b62606e9383a0e83559eb5d8010521f5199dc7c5a7d4e",
+      "thickness_mm": 4
+    },
+    "P07R2": {
+      "master": "P07R_MASTER",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P07/variants/A/P07R2.svg",
+      "source_sha256": "2a338b2c620bd7d93a4d4829aca07c7489a7668f2e67456469fefb4e8858d1c3",
+      "thickness_mm": 4
+    },
+    "P07T": {
+      "master": "P07T",
+      "quantity": 1,
+      "source": "projects/CTB-01/parts/P07/variants/A/P07T.svg",
+      "source_sha256": "96364726fca8ec801ace3a2984a0f562ebc109c709295799752e6967d4d75f35",
+      "thickness_mm": 6
+    }
+  },
+  "routing": {
+    "executor": "Codex export/file QA only",
+    "lead": "ChatGPT",
+    "minimal_action": "1:1 source-derived vectors, conservative sheet plan, file QA and ZIP; no kernel reruns",
+    "priority": "P1"
+  },
+  "sheet": {
+    "edge_margin_mm": 10.0,
+    "height_mm": 800.0,
+    "inter_part_gap_mm": 5.0,
+    "orientation": "portrait",
+    "packing": "first-fit bottom-left bounding envelopes, NOT optimized nesting",
+    "rotation_policy": "0 degrees only; original native sheet axes retained; no reflection",
+    "width_mm": 440.0
+  },
+  "sheets": [
+    {
+      "envelope_utilization": 0.7514829545454546,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S01",
+      "net_material_area_mm2": 211433.23520746667,
+      "net_material_utilization": 0.6006626000212121,
+      "placements": [
+        {
+          "body": "P07B",
+          "dx_mm": 181.0,
+          "dy_mm": 181.0,
+          "height_mm": 342.0,
+          "master": "P07B",
+          "reflected": false,
+          "role": "P07B",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 342.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        },
+        {
+          "body": "P07T",
+          "dx_mm": 181.0,
+          "dy_mm": 528.0,
+          "height_mm": 342.0,
+          "master": "P07T",
+          "reflected": false,
+          "role": "P07T",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 342.0,
+          "x_mm": 10.0,
+          "y_mm": 357.0
+        },
+        {
+          "body": "P05_1",
+          "dx_mm": -71.0,
+          "dy_mm": 248.0,
+          "height_mm": 38.0,
+          "master": "P05",
+          "reflected": false,
+          "role": "P05",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 88.0,
+          "x_mm": 10.0,
+          "y_mm": 704.0
+        },
+        {
+          "body": "P05_2",
+          "dx_mm": 22.0,
+          "dy_mm": 248.0,
+          "height_mm": 38.0,
+          "master": "P05",
+          "reflected": false,
+          "role": "P05",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 88.0,
+          "x_mm": 103.0,
+          "y_mm": 704.0
+        },
+        {
+          "body": "P05_3",
+          "dx_mm": 115.0,
+          "dy_mm": 248.0,
+          "height_mm": 38.0,
+          "master": "P05",
+          "reflected": false,
+          "role": "P05",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 88.0,
+          "x_mm": 196.0,
+          "y_mm": 704.0
+        },
+        {
+          "body": "P05_4",
+          "dx_mm": 208.0,
+          "dy_mm": 248.0,
+          "height_mm": 38.0,
+          "master": "P05",
+          "reflected": false,
+          "role": "P05",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 88.0,
+          "x_mm": 289.0,
+          "y_mm": 704.0
+        },
+        {
+          "body": "P05_5",
+          "dx_mm": -71.0,
+          "dy_mm": 291.0,
+          "height_mm": 38.0,
+          "master": "P05",
+          "reflected": false,
+          "role": "P05",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 88.0,
+          "x_mm": 10.0,
+          "y_mm": 747.0
+        },
+        {
+          "body": "P05_6",
+          "dx_mm": 22.0,
+          "dy_mm": 291.0,
+          "height_mm": 38.0,
+          "master": "P05",
+          "reflected": false,
+          "role": "P05",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 88.0,
+          "x_mm": 103.0,
+          "y_mm": 747.0
+        },
+        {
+          "body": "L1_S1",
+          "dx_mm": 377.0,
+          "dy_mm": 23.5,
+          "height_mm": 27.0,
+          "master": "P02B",
+          "reflected": false,
+          "role": "P02B",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 40.0,
+          "x_mm": 357.0,
+          "y_mm": 10.0
+        },
+        {
+          "body": "L2_S1",
+          "dx_mm": 377.0,
+          "dy_mm": 55.5,
+          "height_mm": 27.0,
+          "master": "P02B",
+          "reflected": false,
+          "role": "P02B",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 40.0,
+          "x_mm": 357.0,
+          "y_mm": 42.0
+        },
+        {
+          "body": "L3_S1",
+          "dx_mm": 377.0,
+          "dy_mm": 87.5,
+          "height_mm": 27.0,
+          "master": "P02B",
+          "reflected": false,
+          "role": "P02B",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 40.0,
+          "x_mm": 357.0,
+          "y_mm": 74.0
+        },
+        {
+          "body": "L1_S2",
+          "dx_mm": 372.0,
+          "dy_mm": 119.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 357.0,
+          "y_mm": 106.0
+        },
+        {
+          "body": "L1_S3",
+          "dx_mm": 407.0,
+          "dy_mm": 119.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 392.0,
+          "y_mm": 106.0
+        },
+        {
+          "body": "L1_S4",
+          "dx_mm": 372.0,
+          "dy_mm": 151.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 357.0,
+          "y_mm": 138.0
+        },
+        {
+          "body": "L2_S2",
+          "dx_mm": 407.0,
+          "dy_mm": 151.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 392.0,
+          "y_mm": 138.0
+        },
+        {
+          "body": "L2_S3",
+          "dx_mm": 372.0,
+          "dy_mm": 183.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 357.0,
+          "y_mm": 170.0
+        },
+        {
+          "body": "L2_S4",
+          "dx_mm": 407.0,
+          "dy_mm": 183.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 392.0,
+          "y_mm": 170.0
+        },
+        {
+          "body": "L3_S2",
+          "dx_mm": 372.0,
+          "dy_mm": 215.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 357.0,
+          "y_mm": 202.0
+        },
+        {
+          "body": "L3_S3",
+          "dx_mm": 407.0,
+          "dy_mm": 215.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 392.0,
+          "y_mm": 202.0
+        },
+        {
+          "body": "L3_S4",
+          "dx_mm": 372.0,
+          "dy_mm": 247.5,
+          "height_mm": 27.0,
+          "master": "P02",
+          "reflected": false,
+          "role": "P02",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 30.0,
+          "x_mm": 357.0,
+          "y_mm": 234.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.6213637139713566,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S02",
+      "net_material_area_mm2": 65894.32344189456,
+      "net_material_utilization": 0.18719978250538227,
+      "placements": [
+        {
+          "body": "L1_P01_1",
+          "dx_mm": -25.0,
+          "dy_mm": 10.0,
+          "height_mm": 488.0,
+          "master": "P01",
+          "reflected": false,
+          "role": "P01",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 227.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        },
+        {
+          "body": "P06_BONDED",
+          "dx_mm": 95.274413,
+          "dy_mm": 624.334374,
+          "height_mm": 242.668748,
+          "master": "P06",
+          "reflected": false,
+          "role": "P06",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 210.292059,
+          "x_mm": 10.0,
+          "y_mm": 503.0
+        },
+        {
+          "body": "P04L",
+          "dx_mm": 320.237211,
+          "dy_mm": 598.0,
+          "height_mm": 190.0,
+          "master": "P04L",
+          "reflected": false,
+          "role": "P04L",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 189.890304,
+          "x_mm": 225.292059,
+          "y_mm": 503.0
+        },
+        {
+          "body": "P03",
+          "dx_mm": 290.888973,
+          "dy_mm": 87.512159,
+          "height_mm": 155.024318,
+          "master": "P03",
+          "reflected": false,
+          "role": "P03",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 134.388973,
+          "x_mm": 242.0,
+          "y_mm": 10.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.41720215272727273,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S03",
+      "net_material_area_mm2": 50578.60279506522,
+      "net_material_utilization": 0.14368921248598074,
+      "placements": [
+        {
+          "body": "L1_P01_2",
+          "dx_mm": -25.0,
+          "dy_mm": 10.0,
+          "height_mm": 488.0,
+          "master": "P01",
+          "reflected": false,
+          "role": "P01",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 227.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        },
+        {
+          "body": "P04U",
+          "dx_mm": 104.945152,
+          "dy_mm": 598.0,
+          "height_mm": 190.0,
+          "master": "P04U",
+          "reflected": false,
+          "role": "P04U",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 189.890304,
+          "x_mm": 10.0,
+          "y_mm": 503.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.31470454545454546,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S04",
+      "net_material_area_mm2": 23602.33240540086,
+      "net_material_utilization": 0.06705208069716154,
+      "placements": [
+        {
+          "body": "L2_P01_1",
+          "dx_mm": -25.0,
+          "dy_mm": 10.0,
+          "height_mm": 488.0,
+          "master": "P01",
+          "reflected": false,
+          "role": "P01",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 227.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.31470454545454546,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S05",
+      "net_material_area_mm2": 23602.33240540086,
+      "net_material_utilization": 0.06705208069716154,
+      "placements": [
+        {
+          "body": "L2_P01_2",
+          "dx_mm": -25.0,
+          "dy_mm": 10.0,
+          "height_mm": 488.0,
+          "master": "P01",
+          "reflected": false,
+          "role": "P01",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 227.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.31470454545454546,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S06",
+      "net_material_area_mm2": 23602.33240540086,
+      "net_material_utilization": 0.06705208069716154,
+      "placements": [
+        {
+          "body": "L3_P01_1",
+          "dx_mm": -25.0,
+          "dy_mm": 10.0,
+          "height_mm": 488.0,
+          "master": "P01",
+          "reflected": false,
+          "role": "P01",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 227.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.31470454545454546,
+      "height_mm": 800.0,
+      "id": "BIRCH6_S07",
+      "net_material_area_mm2": 23602.33240540086,
+      "net_material_utilization": 0.06705208069716154,
+      "placements": [
+        {
+          "body": "L3_P01_2",
+          "dx_mm": -25.0,
+          "dy_mm": 10.0,
+          "height_mm": 488.0,
+          "master": "P01",
+          "reflected": false,
+          "role": "P01",
+          "rotation_deg": 0,
+          "thickness_mm": 6,
+          "width_mm": 227.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        }
+      ],
+      "thickness_mm": 6,
+      "width_mm": 440.0
+    },
+    {
+      "envelope_utilization": 0.15428850255681817,
+      "height_mm": 800.0,
+      "id": "BIRCH4_S01",
+      "net_material_area_mm2": 50882.35290000014,
+      "net_material_utilization": 0.14455213892045496,
+      "placements": [
+        {
+          "body": "P07R1",
+          "dx_mm": 10.0,
+          "dy_mm": 9.8,
+          "height_mm": 543.0955289999999,
+          "master": "P07R_MASTER",
+          "reflected": false,
+          "role": "P07R1",
+          "rotation_deg": 0,
+          "thickness_mm": 4,
+          "width_mm": 50.0,
+          "x_mm": 10.0,
+          "y_mm": 10.0
+        },
+        {
+          "body": "P07R2",
+          "dx_mm": 65.0,
+          "dy_mm": 9.8,
+          "height_mm": 543.0955289999999,
+          "master": "P07R_MASTER",
+          "reflected": false,
+          "role": "P07R2",
+          "rotation_deg": 0,
+          "thickness_mm": 4,
+          "width_mm": 50.0,
+          "x_mm": 65.0,
+          "y_mm": 10.0
+        }
+      ],
+      "thickness_mm": 4,
+      "width_mm": 440.0
+    }
+  ],
+  "source_sha256": {
+    "projects/CTB-01/parts/P02/variants/B_THROUGH_ADHESIVE/P02.svg": "8e539819a018310320787ed009aeea96401691e7b937c37bc22306e1969dde56",
+    "projects/CTB-01/parts/P02/variants/B_THROUGH_ADHESIVE/P02B.svg": "28f9c3a997a23c715e577ac1490e87cd41493aeb7821f7543e0bec1f2e844647",
+    "projects/CTB-01/parts/P03/variants/A_COMPACT_CLOSED/P03.svg": "815cc22ece26b106585340e9ef67ec09975b9d9457e2359c6c81a4ef90dd7594",
+    "projects/CTB-01/parts/P04/variants/A/P04L.svg": "f46cc16c401a3da741ca515f57afc4f859433ab4bf65af332fa5ea5e2052b579",
+    "projects/CTB-01/parts/P04/variants/A/P04U.svg": "77200910c91f42d31209fc0ba00efaaac7f00a247b9b376194762d467e4d3d8e",
+    "projects/CTB-01/parts/P05/variants/A/P05.svg": "01df38d6162f776d12e8e4a6f0c2f726e22b6411231420af4b1b2c4055fd1015",
+    "projects/CTB-01/parts/P06/adhesive-study/candidate-v1/P01_BONDED_UNIFIED_V1_DESIGN_ONLY.svg": "ffcafd4de3812e9577467783138d0d84e04257af4bafa94a677f52a1e33dd20f",
+    "projects/CTB-01/parts/P06/adhesive-study/candidate-v1/P06C_BONDED_V1_DESIGN_ONLY.svg": "6e2ed7753633089320e348124b542d6ff995ffd0102000d66e85987c50b12f76",
+    "projects/CTB-01/parts/P07/variants/A/P07B.svg": "dd673608726ad41644c7319cd11656cd84eb1aabd510a86ae06e4890e306699f",
+    "projects/CTB-01/parts/P07/variants/A/P07R1.svg": "7b4f30906390960dd03b62606e9383a0e83559eb5d8010521f5199dc7c5a7d4e",
+    "projects/CTB-01/parts/P07/variants/A/P07R2.svg": "2a338b2c620bd7d93a4d4829aca07c7489a7668f2e67456469fefb4e8858d1c3",
+    "projects/CTB-01/parts/P07/variants/A/P07T.svg": "96364726fca8ec801ace3a2984a0f562ebc109c709295799752e6967d4d75f35"
+  },
+  "status": "DESIGN_ONLY / PERSONAL_PROTOTYPE / FIT_STRENGTH_UNVERIFIED",
+  "task": "CTB-010 stages 3/4",
+  "unique_cut_master_count": 11,
+  "units": "mm",
+  "wood_body_count": 32
+}

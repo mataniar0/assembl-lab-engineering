@@ -1,0 +1,949 @@
+{
+  "cases": [
+    {
+      "id": "source/P01",
+      "metrics": {
+        "area_mm2": 23602.33240540086,
+        "bounds_mm": [
+          35.0,
+          0.0,
+          262.0,
+          488.0
+        ],
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P02",
+      "metrics": {
+        "area_mm2": 665.5629145036545,
+        "bounds_mm": [
+          -15.0,
+          -13.5,
+          15.0,
+          13.5
+        ],
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P02B",
+      "metrics": {
+        "area_mm2": 887.562914503654,
+        "bounds_mm": [
+          -20.0,
+          -13.5,
+          20.0,
+          13.5
+        ],
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P03",
+      "metrics": {
+        "area_mm2": 5113.524875966551,
+        "bounds_mm": [
+          -48.888973,
+          -77.512159,
+          85.5,
+          77.512159
+        ],
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P04L",
+      "metrics": {
+        "area_mm2": 26899.470411615963,
+        "bounds_mm": [
+          -94.945152,
+          -95.0,
+          94.945152,
+          95.0
+        ],
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P04U",
+      "metrics": {
+        "area_mm2": 26976.27038966436,
+        "bounds_mm": [
+          -94.945152,
+          -95.0,
+          94.945152,
+          95.0
+        ],
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P05",
+      "metrics": {
+        "area_mm2": 3328.442583118219,
+        "bounds_mm": [
+          81.0,
+          456.0,
+          169.0,
+          494.0
+        ],
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P06",
+      "metrics": {
+        "area_mm2": 10278.99574891119,
+        "bounds_mm": [
+          -85.274413,
+          -121.334374,
+          125.017646,
+          121.334374
+        ],
+        "holes": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P07B",
+      "metrics": {
+        "area_mm2": 90951.17781337614,
+        "bounds_mm": [
+          -171.0,
+          -171.0,
+          171.0,
+          171.0
+        ],
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P07R1",
+      "metrics": {
+        "area_mm2": 25441.17645000007,
+        "bounds_mm": [
+          0.0,
+          0.2,
+          50.0,
+          543.295529
+        ],
+        "holes": 63
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P07R2",
+      "metrics": {
+        "area_mm2": 25441.17645000007,
+        "bounds_mm": [
+          0.0,
+          0.2,
+          50.0,
+          543.295529
+        ],
+        "holes": 63
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "source/P07T",
+      "metrics": {
+        "area_mm2": 91858.64692133738,
+        "bounds_mm": [
+          -171.0,
+          -171.0,
+          171.0,
+          171.0
+        ],
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P01.dxf",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P01.svg",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P02.dxf",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P02.svg",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P02B.dxf",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P02B.svg",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P03.dxf",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P03.svg",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P04L.dxf",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P04L.svg",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P04U.dxf",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P04U.svg",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P05.dxf",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P05.svg",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P06.dxf",
+      "metrics": {
+        "contours": 2,
+        "holes": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P06.svg",
+      "metrics": {
+        "contours": 2,
+        "holes": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P07B.dxf",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P07B.svg",
+      "metrics": {
+        "contours": 7,
+        "holes": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P07R_MASTER.dxf",
+      "metrics": {
+        "contours": 64,
+        "holes": 63
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P07R_MASTER.svg",
+      "metrics": {
+        "contours": 64,
+        "holes": 63
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P07T.dxf",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "master/P07T.svg",
+      "metrics": {
+        "contours": 1,
+        "holes": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S01.dxf",
+      "metrics": {
+        "contours": 26,
+        "instances": 20,
+        "minimum_outer_gap_mm": 5.0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S01.svg",
+      "metrics": {
+        "contours": 26,
+        "instances": 20,
+        "minimum_outer_gap_mm": 5.0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S02.dxf",
+      "metrics": {
+        "contours": 17,
+        "instances": 4,
+        "minimum_outer_gap_mm": 5.0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S02.svg",
+      "metrics": {
+        "contours": 17,
+        "instances": 4,
+        "minimum_outer_gap_mm": 5.0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S03.dxf",
+      "metrics": {
+        "contours": 14,
+        "instances": 2,
+        "minimum_outer_gap_mm": 22.504675766679984
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S03.svg",
+      "metrics": {
+        "contours": 14,
+        "instances": 2,
+        "minimum_outer_gap_mm": 22.504675766679988
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S04.dxf",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S04.svg",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S05.dxf",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S05.svg",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S06.dxf",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S06.svg",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S07.dxf",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH6_S07.svg",
+      "metrics": {
+        "contours": 7,
+        "instances": 1,
+        "minimum_outer_gap_mm": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH4_S01.dxf",
+      "metrics": {
+        "contours": 128,
+        "instances": 2,
+        "minimum_outer_gap_mm": 5.0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "sheet/BIRCH4_S01.svg",
+      "metrics": {
+        "contours": 128,
+        "instances": 2,
+        "minimum_outer_gap_mm": 5.0
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P07B",
+      "metrics": {
+        "holes": 6,
+        "role": "P07B",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P07T",
+      "metrics": {
+        "holes": 0,
+        "role": "P07T",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P05_1",
+      "metrics": {
+        "holes": 0,
+        "role": "P05",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P05_2",
+      "metrics": {
+        "holes": 0,
+        "role": "P05",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P05_3",
+      "metrics": {
+        "holes": 0,
+        "role": "P05",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P05_4",
+      "metrics": {
+        "holes": 0,
+        "role": "P05",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P05_5",
+      "metrics": {
+        "holes": 0,
+        "role": "P05",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P05_6",
+      "metrics": {
+        "holes": 0,
+        "role": "P05",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L1_S1",
+      "metrics": {
+        "holes": 0,
+        "role": "P02B",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L2_S1",
+      "metrics": {
+        "holes": 0,
+        "role": "P02B",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L3_S1",
+      "metrics": {
+        "holes": 0,
+        "role": "P02B",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L1_S2",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L1_S3",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L1_S4",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L2_S2",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L2_S3",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L2_S4",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L3_S2",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L3_S3",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L3_S4",
+      "metrics": {
+        "holes": 0,
+        "role": "P02",
+        "sheet": "BIRCH6_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L1_P01_1",
+      "metrics": {
+        "holes": 6,
+        "role": "P01",
+        "sheet": "BIRCH6_S02"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P06_BONDED",
+      "metrics": {
+        "holes": 1,
+        "role": "P06",
+        "sheet": "BIRCH6_S02"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P04L",
+      "metrics": {
+        "holes": 6,
+        "role": "P04L",
+        "sheet": "BIRCH6_S02"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P03",
+      "metrics": {
+        "holes": 0,
+        "role": "P03",
+        "sheet": "BIRCH6_S02"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L1_P01_2",
+      "metrics": {
+        "holes": 6,
+        "role": "P01",
+        "sheet": "BIRCH6_S03"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P04U",
+      "metrics": {
+        "holes": 6,
+        "role": "P04U",
+        "sheet": "BIRCH6_S03"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L2_P01_1",
+      "metrics": {
+        "holes": 6,
+        "role": "P01",
+        "sheet": "BIRCH6_S04"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L2_P01_2",
+      "metrics": {
+        "holes": 6,
+        "role": "P01",
+        "sheet": "BIRCH6_S05"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L3_P01_1",
+      "metrics": {
+        "holes": 6,
+        "role": "P01",
+        "sheet": "BIRCH6_S06"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/L3_P01_2",
+      "metrics": {
+        "holes": 6,
+        "role": "P01",
+        "sheet": "BIRCH6_S07"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P07R1",
+      "metrics": {
+        "holes": 63,
+        "role": "P07R1",
+        "sheet": "BIRCH4_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "instance/P07R2",
+      "metrics": {
+        "holes": 63,
+        "role": "P07R2",
+        "sheet": "BIRCH4_S01"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "BOM/32_instances_stock_and_aliases",
+      "metrics": null,
+      "status": "PASS"
+    },
+    {
+      "id": "BOM/CSV_mapping",
+      "metrics": {
+        "placed_instances": 32,
+        "roles": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "provenance/accepted_evidence",
+      "metrics": {
+        "kernel_runs": 0,
+        "source_hashes": 33,
+        "status": "INHERITED_ONLY"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "assembly/31_moves_plus_ring",
+      "metrics": {
+        "inherited_movements": 31,
+        "preposition": 1,
+        "rerun": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "assembly/unchanged_verified_preview",
+      "metrics": null,
+      "status": "PASS"
+    },
+    {
+      "id": "contract/frozen_and_kerf_profiles",
+      "metrics": {
+        "frozen": "UNCHANGED",
+        "physical": "NOT_RUN",
+        "rim_slots": 126
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "provenance/protected_sources",
+      "metrics": null,
+      "status": "PASS"
+    },
+    {
+      "id": "negative/duplicate_cut",
+      "metrics": {
+        "expected_rejection": "duplicate cut contour"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "negative/missing_kerf_slot",
+      "metrics": {
+        "expected_rejection": "aperture count mismatch"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "negative/SVG_scale",
+      "metrics": {
+        "expected_rejection": "SVG physical scale mismatch"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "negative/outside_stock",
+      "metrics": {
+        "expected_rejection": "part outside bed/margin"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "negative/BOM_quantity",
+      "metrics": {
+        "expected_rejection": "nesting/BOM quantity mismatch"
+      },
+      "status": "PASS"
+    }
+  ],
+  "checked_file_sha256": {
+    "BOM/BOM.csv": "4a5623d5f878b19682ff990e5fb58a6f1ec1635fa042262464cf686f8526dc5c",
+    "BOM/instances.csv": "3738768045d0741edc44434f4afc5ed0502f3220cd5697dd44b9c8e96357b003",
+    "CAD_sources/authoritative/P01.svg": "ffcafd4de3812e9577467783138d0d84e04257af4bafa94a677f52a1e33dd20f",
+    "CAD_sources/authoritative/P02.svg": "8e539819a018310320787ed009aeea96401691e7b937c37bc22306e1969dde56",
+    "CAD_sources/authoritative/P02B.svg": "28f9c3a997a23c715e577ac1490e87cd41493aeb7821f7543e0bec1f2e844647",
+    "CAD_sources/authoritative/P03.svg": "815cc22ece26b106585340e9ef67ec09975b9d9457e2359c6c81a4ef90dd7594",
+    "CAD_sources/authoritative/P04L.svg": "f46cc16c401a3da741ca515f57afc4f859433ab4bf65af332fa5ea5e2052b579",
+    "CAD_sources/authoritative/P04U.svg": "77200910c91f42d31209fc0ba00efaaac7f00a247b9b376194762d467e4d3d8e",
+    "CAD_sources/authoritative/P05.svg": "01df38d6162f776d12e8e4a6f0c2f726e22b6411231420af4b1b2c4055fd1015",
+    "CAD_sources/authoritative/P06.svg": "6e2ed7753633089320e348124b542d6ff995ffd0102000d66e85987c50b12f76",
+    "CAD_sources/authoritative/P07B.svg": "dd673608726ad41644c7319cd11656cd84eb1aabd510a86ae06e4890e306699f",
+    "CAD_sources/authoritative/P07R1.svg": "7b4f30906390960dd03b62606e9383a0e83559eb5d8010521f5199dc7c5a7d4e",
+    "CAD_sources/authoritative/P07R2.svg": "2a338b2c620bd7d93a4d4829aca07c7489a7668f2e67456469fefb4e8858d1c3",
+    "CAD_sources/authoritative/P07T.svg": "96364726fca8ec801ace3a2984a0f562ebc109c709295799752e6967d4d75f35",
+    "CAD_sources/frozen-parameters.json": "9338eff356c166d481669592d7740f9023de7884a0e8a023a42656de5b9e6961",
+    "CAD_sources/interfaces.json": "a417f3b4252765f6bc4d02c8ad8a9cfccc0f205f4ab5f21fcfe24b96d56ce93b",
+    "CAD_sources/native-profiles.json": "b08174439e5e8edce6e493efe3a5ae0fe9aa5a03cc01fc2a00937c33757129b0",
+    "DXF/P01.dxf": "f0f9b39faf23d7654611d3a4165ad2a125c9f7078049132d1f6bdc2e9a73e411",
+    "DXF/P02.dxf": "56b275ed7f233c075e1e24575c086b8f46c0e5c16faf7054242396395a7ffe1b",
+    "DXF/P02B.dxf": "491bfa841930fc31b0b864d9d1845d68ac3c0964b3be68d32632233e521be431",
+    "DXF/P03.dxf": "4aef60d1d3169cc8ee1e8f8de34817b11b54a87e6358b02e467402d0c8146920",
+    "DXF/P04L.dxf": "e163143da2f6d5e3712c62f20b16faf84713954ab63fd757ced71cad7db73d1a",
+    "DXF/P04U.dxf": "2b049b889473c3d8c7530fe89a9210d8cdaa409b8b617ab95438424d457e765a",
+    "DXF/P05.dxf": "d3aa228a724a2c509c520e347bd8740b03490c3b090fef0ffd236b6271d15eab",
+    "DXF/P06.dxf": "3379c08a319ffaa74ffd55b6d34e056e4686bdea00dc9b0935c3db5dc36e446e",
+    "DXF/P07B.dxf": "bd697c54ef38d8930a5074fa6fd9c07f828527327611220fb91ceeffef0d0882",
+    "DXF/P07R_MASTER.dxf": "ca859884655b905960d58cc710724b27de281c625803bde9bd5153955094320f",
+    "DXF/P07T.dxf": "3fa1f32bb8508eacb851fd482a0ad9e3622fea235c00938470483291531b0dd5",
+    "QA/inherited-B2-evidence.json": "a807b2405448b5b5b993cbb7d0c64a24388ba61e400387b77c322fcab77d68bb",
+    "QA/inherited-secondary-evidence.json": "668f47b9336c76795bbe520955be0597b51c9292dde83ff9c2537f9908400981",
+    "SVG/P01.svg": "c4507215d996413b7b9b1fcf2e9c9b82e5a094c2536ce961fdd7e7f68cf9bcb8",
+    "SVG/P02.svg": "93f0f61ca4bba022367c12713cbe0928743d5755ae26a486a7a813caa56047c6",
+    "SVG/P02B.svg": "712f90d695b1b3d2f6755f40443359fecc34f9118b363fcdd1990199a44e4761",
+    "SVG/P03.svg": "69535dd2a62902a861b9fc2ef6ab97ec339331888097e89e49e8114e7cc1400c",
+    "SVG/P04L.svg": "16006ca273f23d9cbb5c1a59d847a021a93e50900f63beabe61747eb239485ba",
+    "SVG/P04U.svg": "a2826c237fee0b80cc4fb934fb2da7f7b48107e62f9ff4ad27553825660d8b3c",
+    "SVG/P05.svg": "8b281f1dc8968ae6c3f6c66ca432ce749df7f287dccb24e70e4eb9c1b2dd72b0",
+    "SVG/P06.svg": "7d9aa66ed2256019276ff66f8e33f661853d4e9cecc555e01ca63ae82b65f0a9",
+    "SVG/P07B.svg": "bb3cd9c2dec16a4835ea2bd27d29f825b3d59127ca7e7c8ba997222303e87e5d",
+    "SVG/P07R_MASTER.svg": "4c95fe357bc8557942b9a8c6c1b240e4eaddd83f667b39805cf2b974dcf71d5a",
+    "SVG/P07T.svg": "c7c72178137bd95e2f7c1504b96693dd336837bb7e3b79e3fb9d89120cfaca69",
+    "assembly/sequence.json": "101837a5148edf33d7bab95d0cd7cdbdbd2f7bd5c55139152325a483a674bddc",
+    "assembly/validated-candidate-DESIGN_ONLY.glb": "285dabf36be7d7a26772d4ad9dba7442eb1c06704fe104aec929adf4c4a65bf4",
+    "manifest/CUT_PARTS_MANIFEST.json": "2adb7dfcb1ccd09f2e2e4fce9eac4a751328b9e570f1fea25026217806769af9",
+    "nesting/BIRCH4_S01.dxf": "84e97b20314f20bcaa47a99c9a9834ea47761a61c696b4c1fed07d756c2c45f1",
+    "nesting/BIRCH4_S01.svg": "daf947114851716db968bc3e561b902ed7385bdd79b4429603f23257d689bd20",
+    "nesting/BIRCH6_S01.dxf": "68482323cf671d11a5f87df70aa79ac60ab5eb4211ea4cd2481f5d618170a0e9",
+    "nesting/BIRCH6_S01.svg": "fe2a9beeddf733fe68b15e4f01ceb09bc27f8ec70ec2881e675bf2dbe1066a0d",
+    "nesting/BIRCH6_S02.dxf": "7221be8bab51b9cc5eb384eeb4b9b22a3c6a3c687af617b50d68f486c7d904e3",
+    "nesting/BIRCH6_S02.svg": "fe4bd7df9ad2dc00cf5e7fbc8a20e9751388c5902b716f6fdee92162a8fe9f82",
+    "nesting/BIRCH6_S03.dxf": "8b0cbf14508f105950508776193fd75286f0f356f08abac4dffca540a8ed87bc",
+    "nesting/BIRCH6_S03.svg": "06fa927a229bf781593b7b0e67cdc03cc1cc2ca1461adcca9529033cef7bd34e",
+    "nesting/BIRCH6_S04.dxf": "dc791f10a96705683e415adaacf11970f2d07ea53909a69b9f3bac2e03e3269e",
+    "nesting/BIRCH6_S04.svg": "3140ae9bd43d8634d581f56bd1ebc8625047ff69ea3198867695c7ad6f772ee3",
+    "nesting/BIRCH6_S05.dxf": "665d3510dd2cda8ee2877498376b48b446185b7a32e79d622a7d0418cd98f082",
+    "nesting/BIRCH6_S05.svg": "c94842f3e59496c601116b417e5fc7b5a3438c8f1f4e87f33c2548a5ad903328",
+    "nesting/BIRCH6_S06.dxf": "7f741afb64ca55f8b577baa7ae5820a487beccdc2a4c0e2e49e2c2bfd4380fd3",
+    "nesting/BIRCH6_S06.svg": "7c1847b22654bbb58a7f02f86edf305c57b837476f5b151d7bf9a2d593d76008",
+    "nesting/BIRCH6_S07.dxf": "b0bad626700d4b24ee57bc96c4f173355b26d77ae2db79acdc7b54806c0caf5a",
+    "nesting/BIRCH6_S07.svg": "7f2993bba994b0bfcb80618dafcad4083a7856f8a7019b142d2caf260510d9b8",
+    "nesting/SHEETS.csv": "4137025d91237123b6d58a86e3647724dccbe955d2963e56878b74ac8131be02"
+  },
+  "counts": {
+    "fail": 0,
+    "negative_controls": 5,
+    "pass": 94,
+    "unique_cases": 94
+  },
+  "failures": [],
+  "independent_reviewer_status": "IMPLEMENTER_FILE_QA_ONLY / SEE_INDEPENDENT_QA.md / CHATGPT_LEAD_REVIEW_PENDING",
+  "new_kernel_executions": 0,
+  "post_QA_lossless_format_update": {
+    "affected_CSV_files": 3,
+    "all_other_checked_digests_unchanged": true,
+    "proof": "QA/packaging-evidence.json",
+    "proof_sha256": "9b4cae9c245a351e41c513fb8e83e4c075109e2f023bdd30ee0e608a8876d7ca",
+    "unique_file_cases_unchanged": 94
+  },
+  "status": "PASS",
+  "versions": {
+    "ezdxf": "1.4.4",
+    "shapely": "2.1.2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "file_suite_failures": 0,
+  "files": {
+    "BOM/BOM.csv": {
+      "after_LF_sha256": "4a5623d5f878b19682ff990e5fb58a6f1ec1635fa042262464cf686f8526dc5c",
+      "before_CRLF_sha256": "5a2a9abebf9688beaee57c24a7e2919476869adc79d1022bb8d4a52aaf739f9a",
+      "old_CRLF_digest_reconstructible": true,
+      "parsed_rows_identical": true,
+      "rows": 13
+    },
+    "BOM/instances.csv": {
+      "after_LF_sha256": "3738768045d0741edc44434f4afc5ed0502f3220cd5697dd44b9c8e96357b003",
+      "before_CRLF_sha256": "8de0f7055fd7349d992844cf305d7411a540a5eba0b39e3f3bcc08b66ec749ff",
+      "old_CRLF_digest_reconstructible": true,
+      "parsed_rows_identical": true,
+      "rows": 33
+    },
+    "nesting/SHEETS.csv": {
+      "after_LF_sha256": "4137025d91237123b6d58a86e3647724dccbe955d2963e56878b74ac8131be02",
+      "before_CRLF_sha256": "6806b61acb7b5d4d48bd8db795b319a8d8fe156099450e583c2a8b8b01af49b6",
+      "old_CRLF_digest_reconstructible": true,
+      "parsed_rows_identical": true,
+      "rows": 9
+    }
+  },
+  "focused_csv_semantic_checks": 3,
+  "format_repairs": 1,
+  "full_verifier_replays": 0,
+  "geometry_repairs": 0,
+  "initial_failure": {
+    "classification": "REPOSITORY_FORMAT_ONLY",
+    "command": "git diff --cached --check",
+    "detail": "default CSV CRLF flagged as trailing whitespace"
+  },
+  "new_kernel_executions": 0,
+  "repository_format_failures": 1,
+  "scope": "LOSSLESS_CSV_LINE_ENDINGS_ONLY",
+  "status": "PASS"
+}

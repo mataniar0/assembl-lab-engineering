@@ -239,3 +239,30 @@ in CTB-007-VALIDATION and P07/tests/logs. Tier3Issue20 still planned, no success
 nightlyCAD workflow claimed. Physicalfit/kerf/grain/50mmbend/glue/fixture/load/stability,
 fullP08/P06R/whole-tableorder NOT_RUN/OPEN. KERF_COUPON_PENDING; G2b/G3/G4 andcutting or
 production NOT_APPROVED. OfficialB01–B13/IFrecords preserved. Lead review completed for a bounded G1/G2a study; no self-merge or physical release.
+
+## CTB-010 — final digital package / PERSONAL_PROTOTYPE_DESIGN_ONLY
+
+Current work supersedes the historical component-stage assembly statements above
+only within the accepted CAD/design scope. Merged PR49 supplied the32-body bonded
+candidate; merged PR53 added OpenCASCADE confirmation with separate ChatGPT lead
+review96/100. Those records are inherited, not rerun. User authorized CTB-010
+stage3 onward on `codex/ctb-010-final-digital-closeout`.
+
+[Closeout delivery](closeout/personal-prototype-design-only/DELIVERY.md):32 wood
+instances,12 assembly roles,11 exact cut masters;38 final DXF/SVG files and8
+portrait H800×W440 sheets (7nominal6mm +1nominal4mm), margin10/gap5mm, rotation0,
+uncompensated experimental kerf. Conservative packing is not an optimum claim.
+Ring pre-position+31 movements, source hashes, BOM, accepted GLB and one sealed
+ZIP are included. Existing P01–P07 CAD/specifications/assembly proofs unchanged.
+
+New file QA94/94 PASS, including5 corrupt-file controls; three verifier executions,
+zero failed attempts and zero CAD repairs. Independent file review is recorded in
+[QA report](closeout/personal-prototype-design-only/QA/INDEPENDENT_QA.md); lead
+closeout/G2b decision pending. B1/B2/OpenCASCADE executions in this task:0.
+G3_NOT_PERFORMED_OWNER_DEFERRED / G4_BLOCKED. No physical fit/bend/glue/load/
+stability qualification, cut authorization or self-merge. Personal noncommercial
+scope preserved; earlier contract records are not silently promoted to physical PASS.
+
+Post-QA packaging correction: one Git whitespace-check failure from CSV CRLF;
+one LF-format repair across3 tables, verified lossless by targeted CSV/hash
+checks. No full test/kernel replay or vector/layout/source change.

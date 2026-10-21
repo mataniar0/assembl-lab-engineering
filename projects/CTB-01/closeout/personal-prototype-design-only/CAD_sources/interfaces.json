@@ -1,0 +1,225 @@
+{
+  "project": "CTB-01",
+  "milestone": "CTB-000",
+  "version": "v0.2",
+  "status": "INTERFACE_BASELINE_DESIGN_ONLY",
+  "interfaces": [
+    {
+      "id": "IF-01",
+      "parties": [
+        "P01",
+        "P02",
+        "P02B"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-002"
+      ],
+      "expected_contract": "each 2 cheeks separated 15mm; 4 spacers per leg",
+      "nominal_or_open_parameters": "spacer tabs vs cheek mortises TBD",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "prove assembly sequence, no overlap with Y or ring"
+    },
+    {
+      "id": "IF-02",
+      "parties": [
+        "P01",
+        "P03"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-003"
+      ],
+      "expected_contract": "three arms at theta 0/120/240; z=410; inside 15mm cheek gap",
+      "nominal_or_open_parameters": "arm width14.6, cheek hole20.4x6.2, arm r<=94, cheek upper extent r<=90 candidate",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "check Y tip 4mm beyond supplied cheek envelope and side tab engagement"
+    },
+    {
+      "id": "IF-03",
+      "parties": [
+        "P01",
+        "P07B"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-007"
+      ],
+      "expected_contract": "6 cheeks pass through bottom skin z450..456",
+      "nominal_or_open_parameters": "tongue r45..69 and tcenter +-10.5; nominal slot r44.8..69.2; slot width6.2",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "calibrate fit; check tilted/nonvertical geometry"
+    },
+    {
+      "id": "IF-04",
+      "parties": [
+        "P01",
+        "P04L"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-004"
+      ],
+      "expected_contract": "6 upper tongues captured in lower disk z456..462",
+      "nominal_or_open_parameters": "cheek tongue to z488; 6 slots in lower disk",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "engagement without block and correct alignment"
+    },
+    {
+      "id": "IF-05",
+      "parties": [
+        "P01",
+        "P04U"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-004"
+      ],
+      "expected_contract": "same 6 tongues captured in upper disk z480..486",
+      "nominal_or_open_parameters": "6 slots in upper disk; top tongue end z488",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "match exact layout; reserve locking access"
+    },
+    {
+      "id": "IF-06",
+      "parties": [
+        "P04L",
+        "P04U",
+        "P05"
+      ],
+      "owner_tasks": [
+        "CTB-004",
+        "CTB-005"
+      ],
+      "expected_contract": "6 radial webs every 60 deg, r81..169, z456..494",
+      "nominal_or_open_parameters": "open disk notches nominally from r79 to outer edge r95",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "check web path through both 6mm discs and bonding sequence"
+    },
+    {
+      "id": "IF-07",
+      "parties": [
+        "P05",
+        "P07B",
+        "P07T"
+      ],
+      "owner_tasks": [
+        "CTB-005",
+        "CTB-007"
+      ],
+      "expected_contract": "load path rib-to-skins at z456 and z494",
+      "nominal_or_open_parameters": "actual bonding lands and tolerances TBD",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "load paths and adequate adhesive faces"
+    },
+    {
+      "id": "IF-08",
+      "parties": [
+        "P04L",
+        "P04U",
+        "P07B"
+      ],
+      "owner_tasks": [
+        "CTB-004",
+        "CTB-007"
+      ],
+      "expected_contract": "hub stack attached structurally to tabletop core",
+      "nominal_or_open_parameters": "contact and joint design TBD",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "disks must not be isolated glue-only islands"
+    },
+    {
+      "id": "IF-09",
+      "parties": [
+        "P01",
+        "P06"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-006"
+      ],
+      "expected_contract": "ring ties 3 legs, maybe replaces spacer mid-height",
+      "nominal_or_open_parameters": "ring geometry, z and tang/slotted engagement TBD",
+      "status": "OPEN",
+      "acceptance_evidence_required": "avoid interference with spacers and three leg profile"
+    },
+    {
+      "id": "IF-10",
+      "parties": [
+        "P07R",
+        "P07B",
+        "P07T"
+      ],
+      "owner_tasks": [
+        "CTB-007"
+      ],
+      "expected_contract": "full-height 4mm kerfed rim wraps radius171 skins to outside radius175",
+      "nominal_or_open_parameters": "rim z450..500; midpoint radius173; bend pattern not verified",
+      "status": "EXPERIMENTAL",
+      "acceptance_evidence_required": "edge fill not structural, no assumed bend performance"
+    },
+    {
+      "id": "IF-11",
+      "parties": [
+        "P07R",
+        "P07R"
+      ],
+      "owner_tasks": [
+        "CTB-007"
+      ],
+      "expected_contract": ">=2 rim segments for H800 x W440 sheet; actual nesting/joint geometry pending",
+      "nominal_or_open_parameters": "splice/joint 4mm rim TBD",
+      "status": "OPEN",
+      "acceptance_evidence_required": "every 4mm rim part fits portrait sheet H800 x W440, allowance for edges/kerf/joints and physical bend tests"
+    },
+    {
+      "id": "IF-12",
+      "parties": [
+        "P01",
+        "P08",
+        "P04L",
+        "P04U"
+      ],
+      "owner_tasks": [
+        "CTB-004",
+        "CTB-008"
+      ],
+      "expected_contract": "anti-pull-out positive retention for all 6 tongues",
+      "nominal_or_open_parameters": "lock geometry and insertion direction TBD",
+      "status": "OPEN",
+      "acceptance_evidence_required": "do not treat slot glue as verified lock"
+    },
+    {
+      "id": "IF-13",
+      "parties": [
+        "P03",
+        "P04L",
+        "P04U"
+      ],
+      "owner_tasks": [
+        "CTB-003",
+        "CTB-004",
+        "CTB-009"
+      ],
+      "expected_contract": "Y at z410 vs disk assembly begins z450",
+      "nominal_or_open_parameters": "minimum clearances, sequence unknown",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "3D clash and access checks mandatory"
+    },
+    {
+      "id": "IF-14",
+      "parties": [
+        "P01",
+        "FLOOR"
+      ],
+      "owner_tasks": [
+        "CTB-001",
+        "CTB-009"
+      ],
+      "expected_contract": "3 ground contact areas, equilateral around origin",
+      "nominal_or_open_parameters": "foot radial contact centers at 240mm PROVISIONAL",
+      "status": "PROVISIONAL",
+      "acceptance_evidence_required": "tip-over and floor contact experiments needed"
+    }
+  ]
+}

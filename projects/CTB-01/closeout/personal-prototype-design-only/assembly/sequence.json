@@ -1,0 +1,441 @@
+[
+  {
+    "action": "pre-position ring at Z242..248; temporary support UNPROVED",
+    "body": "P06_BONDED",
+    "step": 0
+  },
+  {
+    "body": "P03",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      113
+    ],
+    "step": 1
+  },
+  {
+    "body": "L1_P01_1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0.0,
+      -40.0,
+      0
+    ],
+    "step": 2
+  },
+  {
+    "body": "L1_S1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -0.0,
+      40.0,
+      0
+    ],
+    "step": 3
+  },
+  {
+    "body": "L1_S2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -0.0,
+      40.0,
+      0
+    ],
+    "step": 4
+  },
+  {
+    "body": "L1_S3",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -0.0,
+      40.0,
+      0
+    ],
+    "step": 5
+  },
+  {
+    "body": "L1_S4",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -0.0,
+      40.0,
+      0
+    ],
+    "step": 6
+  },
+  {
+    "body": "L1_P01_2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -0.0,
+      40.0,
+      0
+    ],
+    "step": 7
+  },
+  {
+    "body": "L2_P01_1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      34.64101615137755,
+      19.999999999999993,
+      0
+    ],
+    "step": 8
+  },
+  {
+    "body": "L2_S1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -34.64101615137755,
+      -19.999999999999993,
+      0
+    ],
+    "step": 9
+  },
+  {
+    "body": "L2_S2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -34.64101615137755,
+      -19.999999999999993,
+      0
+    ],
+    "step": 10
+  },
+  {
+    "body": "L2_S3",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -34.64101615137755,
+      -19.999999999999993,
+      0
+    ],
+    "step": 11
+  },
+  {
+    "body": "L2_S4",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -34.64101615137755,
+      -19.999999999999993,
+      0
+    ],
+    "step": 12
+  },
+  {
+    "body": "L2_P01_2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -34.64101615137755,
+      -19.999999999999993,
+      0
+    ],
+    "step": 13
+  },
+  {
+    "body": "L3_P01_1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -34.641016151377535,
+      20.000000000000018,
+      0
+    ],
+    "step": 14
+  },
+  {
+    "body": "L3_S1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      34.641016151377535,
+      -20.000000000000018,
+      0
+    ],
+    "step": 15
+  },
+  {
+    "body": "L3_S2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      34.641016151377535,
+      -20.000000000000018,
+      0
+    ],
+    "step": 16
+  },
+  {
+    "body": "L3_S3",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      34.641016151377535,
+      -20.000000000000018,
+      0
+    ],
+    "step": 17
+  },
+  {
+    "body": "L3_S4",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      34.641016151377535,
+      -20.000000000000018,
+      0
+    ],
+    "step": 18
+  },
+  {
+    "body": "L3_P01_2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      34.641016151377535,
+      -20.000000000000018,
+      0
+    ],
+    "step": 19
+  },
+  {
+    "body": "P07B",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      70
+    ],
+    "step": 20
+  },
+  {
+    "body": "P04L",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      64
+    ],
+    "step": 21
+  },
+  {
+    "body": "P04U",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      40
+    ],
+    "step": 22
+  },
+  {
+    "body": "P05_1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      100.0,
+      0.0,
+      0
+    ],
+    "step": 23
+  },
+  {
+    "body": "P05_2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      50.000000000000014,
+      86.60254037844386,
+      0
+    ],
+    "step": 24
+  },
+  {
+    "body": "P05_3",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -49.99999999999998,
+      86.60254037844388,
+      0
+    ],
+    "step": 25
+  },
+  {
+    "body": "P05_4",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -100.0,
+      1.2246467991473532e-14,
+      0
+    ],
+    "step": 26
+  },
+  {
+    "body": "P05_5",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      -50.00000000000004,
+      -86.60254037844383,
+      0
+    ],
+    "step": 27
+  },
+  {
+    "body": "P05_6",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      50.000000000000014,
+      -86.60254037844386,
+      0
+    ],
+    "step": 28
+  },
+  {
+    "body": "P07R1",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      70
+    ],
+    "step": 29
+  },
+  {
+    "body": "P07R2",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      70
+    ],
+    "step": 30
+  },
+  {
+    "body": "P07T",
+    "end_offset_xyz_mm": [
+      0,
+      0,
+      0
+    ],
+    "start_offset_xyz_mm": [
+      0,
+      0,
+      46
+    ],
+    "step": 31
+  }
+]
