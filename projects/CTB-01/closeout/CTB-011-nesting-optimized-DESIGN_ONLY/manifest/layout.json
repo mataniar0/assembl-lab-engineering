@@ -1,0 +1,286 @@
+{
+  "project": "CTB-01",
+  "task": "CTB-011",
+  "status": "DESIGN_ONLY / FIT_STRENGTH_UNVERIFIED",
+  "source_archive": "projects/CTB-01/closeout/CTB-010-personal-prototype-DESIGN_ONLY.zip",
+  "sheet_width_mm": 440,
+  "sheet_height_mm": 800,
+  "clearance_target_mm": 5,
+  "edge_margin_target_mm": 10,
+  "kerf_compensation_mm": 0,
+  "rotations_allowed": [
+    0,
+    180
+  ],
+  "do_not_cut_layers": [
+    "REFERENCE_SHEET_NOT_CUT",
+    "ANNOTATION_NOT_CUT"
+  ],
+  "new_sheet_counts": {
+    "birch6": 3,
+    "birch4": 1
+  },
+  "old_sheet_counts": {
+    "birch6": 7,
+    "birch4": 1
+  },
+  "geometry_qa": {
+    "all_parts": 32,
+    "source_contours_unchanged": true,
+    "out_of_bound_count": 0,
+    "interpart_clearance_issues": 0,
+    "near_pairs_exact_checked": 26,
+    "nearest_distance_checked_mm": 5,
+    "legacy_physical_gates": "G3 NOT PERFORMED, G4 BLOCKED"
+  },
+  "sheets": [
+    {
+      "id": "BIRCH6_S01",
+      "thickness_mm": 6,
+      "parts": [
+        {
+          "body": "P07B",
+          "master": "P07B",
+          "x_mm": 10,
+          "y_mm": 10,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P07T",
+          "master": "P07T",
+          "x_mm": 10,
+          "y_mm": 357,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P03",
+          "master": "P03",
+          "x_mm": 290,
+          "y_mm": 260,
+          "rotation_deg": 180
+        },
+        {
+          "body": "P05_1",
+          "master": "P05",
+          "x_mm": 310,
+          "y_mm": 10,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P05_2",
+          "master": "P05",
+          "x_mm": 340,
+          "y_mm": 55,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P05_3",
+          "master": "P05",
+          "x_mm": 340,
+          "y_mm": 620,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P05_4",
+          "master": "P05",
+          "x_mm": 305,
+          "y_mm": 665,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P05_5",
+          "master": "P05",
+          "x_mm": 10,
+          "y_mm": 695,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P05_6",
+          "master": "P05",
+          "x_mm": 105,
+          "y_mm": 710,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L1_S2",
+          "master": "P02",
+          "x_mm": 10,
+          "y_mm": 10,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L1_S3",
+          "master": "P02",
+          "x_mm": 355,
+          "y_mm": 100,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L1_S4",
+          "master": "P02",
+          "x_mm": 395,
+          "y_mm": 100,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L2_S2",
+          "master": "P02",
+          "x_mm": 360,
+          "y_mm": 135,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L2_S3",
+          "master": "P02",
+          "x_mm": 400,
+          "y_mm": 135,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L2_S4",
+          "master": "P02",
+          "x_mm": 360,
+          "y_mm": 170,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L3_S2",
+          "master": "P02",
+          "x_mm": 400,
+          "y_mm": 170,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L3_S3",
+          "master": "P02",
+          "x_mm": 360,
+          "y_mm": 205,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L3_S4",
+          "master": "P02",
+          "x_mm": 400,
+          "y_mm": 205,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L1_S1",
+          "master": "P02B",
+          "x_mm": 350,
+          "y_mm": 240,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L2_S1",
+          "master": "P02B",
+          "x_mm": 335,
+          "y_mm": 275,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L3_S1",
+          "master": "P02B",
+          "x_mm": 10,
+          "y_mm": 305,
+          "rotation_deg": 0
+        }
+      ]
+    },
+    {
+      "id": "BIRCH6_S02",
+      "thickness_mm": 6,
+      "parts": [
+        {
+          "body": "L1_P01_1",
+          "master": "P01",
+          "x_mm": 10,
+          "y_mm": 10,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L1_P01_2",
+          "master": "P01",
+          "x_mm": 70,
+          "y_mm": 10,
+          "rotation_deg": 180
+        },
+        {
+          "body": "L2_P01_1",
+          "master": "P01",
+          "x_mm": 140,
+          "y_mm": 10,
+          "rotation_deg": 180
+        },
+        {
+          "body": "L2_P01_2",
+          "master": "P01",
+          "x_mm": 200,
+          "y_mm": 125,
+          "rotation_deg": 180
+        },
+        {
+          "body": "P04L",
+          "master": "P04L",
+          "x_mm": 10,
+          "y_mm": 560,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P04U",
+          "master": "P04U",
+          "x_mm": 240,
+          "y_mm": 570,
+          "rotation_deg": 0
+        }
+      ]
+    },
+    {
+      "id": "BIRCH6_S03",
+      "thickness_mm": 6,
+      "parts": [
+        {
+          "body": "L3_P01_1",
+          "master": "P01",
+          "x_mm": 10,
+          "y_mm": 10,
+          "rotation_deg": 0
+        },
+        {
+          "body": "L3_P01_2",
+          "master": "P01",
+          "x_mm": 70,
+          "y_mm": 10,
+          "rotation_deg": 180
+        },
+        {
+          "body": "P06_BONDED",
+          "master": "P06",
+          "x_mm": 215,
+          "y_mm": 240,
+          "rotation_deg": 180
+        }
+      ]
+    },
+    {
+      "id": "BIRCH4_S01",
+      "thickness_mm": 4,
+      "parts": [
+        {
+          "body": "P07R1",
+          "master": "P07R_MASTER",
+          "x_mm": 10,
+          "y_mm": 10,
+          "rotation_deg": 0
+        },
+        {
+          "body": "P07R2",
+          "master": "P07R_MASTER",
+          "x_mm": 65,
+          "y_mm": 10,
+          "rotation_deg": 0
+        }
+      ]
+    }
+  ]
+}
