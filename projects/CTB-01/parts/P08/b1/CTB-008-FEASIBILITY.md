@@ -64,3 +64,11 @@ P01/P08 capture topology that prevents this reversible unseating; do not advance
 this candidate to B2. Material/kerf, physical access/fit, roof strength, bearing,
 adhesive, load/stability, full G2b, G3/G4 and cutting/manufacture remain
 **NOT_RUN / NOT_APPROVED**. IF-12/B01 and B02 remain OPEN. No self-merge.
+
+## Independent engineering-lead QA addendum — 2026-10-21
+
+**Result:** `B1_NEGATIVE_EVIDENCE_ACCEPTED / DESIGN_ONLY / CR_REQUIRED`, **94/100 for the limited NO-GO proof only**. Engineering-lead COMMENT review is attached to [PR #40](https://github.com/mataniar0/assembl-lab-engineering/pull/40).
+
+The earlier `INDEPENDENT_QA_PENDING` describes the PR state on initial Codex delivery. The lead independently parsed and checked the stored data with **12/12 data-consistency assertions**, reviewed its geometry code and unchanged-source Git diff; **did not independently rerun a second CAD kernel or conduct physical checks**. All eight implementer checks validate recorded observations—not functioning locks. Six within-cavity reverse paths are geometrically free despite P07T closed, **not evidence of physical spontaneous release**. The amended conclusion rejects ONLY the proposed reversible slide-key and thin-roof P01 extension as unqualified; it does not reject every wooden retainer.
+
+`CR-CTB008-B1-01 NOT_APPROVED; IF-12/B01/B02 OPEN`. Preserve the separate `CTB-006R/IF-09/B05` blocker and future six-cheek unified source requirement. Merging this data report does not approve manufacturing, cutting, functional retention, prototype, G2b, G3, or G4.
