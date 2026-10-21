@@ -1,0 +1,5 @@
+id,thickness_mm,width_mm,height_mm,part_count,net_material_area_mm2,net_material_utilization
+BIRCH6_S01,6,440,800,21,216546.760,0.615190
+BIRCH6_S02,6,440,800,6,148285.070,0.421264
+BIRCH6_S03,6,440,800,3,57483.661,0.163306
+BIRCH4_S01,4,440,800,2,50882.353,0.144552
