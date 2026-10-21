@@ -12,6 +12,13 @@
 ## Baseline status
 The scope is **project redefinition only**. No imported DXF is approved, generated or modified in this task. V7.2 and V7.6 historical reports are evidence to reconcile, NOT newly repeated tests.
 
+## H1 Phase A (ETG-003) — ChatGPT feasibility screening complete, 2026-10-21
+- Design note: `design/ETG-003_H1_PHASE_A_FEASIBILITY_HE.md` on this draft branch.
+- One selected research hypothesis: `H1-ETG-C1` recessed layered fork (rear fixed P06 support / P09+P10 rotating cheeks / P11 pin / P12 flush cap); **candidate only**, not a selected CAD design.
+- Analytical bounds only: nominal 248×148mm optimistic XY cavity under planar 6mm walls, nominal 48mm total spare per axis for 200×100 reference fruit, surrogate 160mm ray adds 25.28mm rear projection at 120° relative to 110°, fork-bearing sandwich 3×6 = 18mm *before* any gap or cap. MEB's example 12mm pin is inadequate for this candidate.
+- **Current execution boundary:** ChatGPT Phase A complete; one focused Codex B1 3D local retaining-cap/axial-stack and finite insertion test is needed for actual geometric evidence. Missing source from V7.6 means local surrogate evidence would be `PROXY_DESIGN_STUDY_ONLY`; actual ETG hinge/lid fitting remains `NOT_RUN`. Stop after B1; B2 not authorized.
+- `G0_INDEPENDENT_QA_PENDING`; no current production DXF, G3 and G4 NOT_RUN.
+
 ## Planned part tasks
 | Issue key | Scope | Dependency | Gate |
 |---|---|---|---|
