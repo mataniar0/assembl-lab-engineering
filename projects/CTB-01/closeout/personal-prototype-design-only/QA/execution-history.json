@@ -1,0 +1,23 @@
+[
+  {
+    "attempt": 1,
+    "status": "PASS",
+    "passed": 94,
+    "failures": [],
+    "new_kernel_runs": 0
+  },
+  {
+    "attempt": 2,
+    "status": "PASS",
+    "passed": 94,
+    "failures": [],
+    "new_kernel_runs": 0
+  },
+  {
+    "attempt": 3,
+    "status": "PASS",
+    "passed": 94,
+    "failures": [],
+    "new_kernel_runs": 0
+  }
+]
