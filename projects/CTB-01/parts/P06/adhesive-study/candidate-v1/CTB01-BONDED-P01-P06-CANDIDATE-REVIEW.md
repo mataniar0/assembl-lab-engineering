@@ -9,7 +9,7 @@
 2. `P06C_BONDED_V1_DESIGN_ONLY.svg`: retain **exactly** first two original `P06C.svg` cut polygons (outer ring + central opening), **omit six obsolete C keeper openings**. Frozen C 6mm stock, Z242..248, all original ring external arm/terminal geometry kept. Does **NOT** incorporate wider C2 terminal; C2 had5.2mm free cheek spread and its free keys were rejected.
 3. `P08_BONDED_DUAL_DISK_V1`: zero new wooden bodies; reuse **original** P01 upper tongue & selected P04L/U slot geometry unmodified for conceptual adhesive load path (P04U→P05→skins needs separate proof). Not a file in this candidate.
 
-**Provenance:** base `parts/P03/variants/A_COMPACT_CLOSED/P01-Y-mortise-study-v1.svg` blob `b6bc8c67cae188960e2ab0e5835449e80f4d1d1e`; original `parts/P06/variants/C/P06C.svg` blob `51dd2f4ff5b981bab4fc6c323991be4e3990729eddbfbe76f728606b3937d29b77b07544e5c723c` (the valid Git content blob is listed in the QA evidence; the MD source here intentionally avoids claiming 3D regenerated CAD provenance). Current P04 L/U and P05/P07 sources do not change.
+**Provenance:** base `parts/P03/variants/A_COMPACT_CLOSED/P01-Y-mortise-study-v1.svg` blob `b6bc8c67cae188960e2ab0e5835449e80f4d1d1e`; original `parts/P06/variants/C/P06C.svg` blob `51dd2f4ff5b981bab4fc6c323991be4e4ee872ea`. Current P04 L/U and P05/P07 sources do not change.
 
 ## Independent scoped JS geometry and consistency recheck
 
