@@ -1,0 +1,909 @@
+{
+  "CR": {
+    "id": "CR-CTB008-B1-01",
+    "old_tip_Z": 488,
+    "parts": "all six identical P01 upper tongues only; no P04/P05/P07 source edits",
+    "proposed_tip_Z": 493.8,
+    "roof_land_Z": 1.4,
+    "roof_with_example_tip492": -0.4,
+    "side_lands_r": [
+      5,
+      5
+    ],
+    "slot_radius": 0.2,
+    "slot_rz_bounds": [
+      50,
+      486,
+      64,
+      492.4
+    ],
+    "status": "PROPOSED_NOT_APPROVED",
+    "strength": "NOT_RUN; 1.4mm roof is geometric material only, not qualified strength",
+    "tip_radius": 1
+  },
+  "actual_piece_counts": {
+    "added_keys": 6,
+    "proposed_total": 37,
+    "replaced_cheeks": 6,
+    "selected_baseline": 31
+  },
+  "actual_upper_disk_movement": {
+    "interpretation": "Held keys obstruct U conditionally. Unseated keys initially still overlie U; a further radial60 clearance path is checked explicitly. Existing P05 contact must not be credited to P08.",
+    "upper_disk_up0p1_vs_non_key_parts": {
+      "max_overlap_mm3": 0.0,
+      "witness_part": null
+    },
+    "upper_disk_up1_after_keys_clear_disk_footprint": {
+      "max_overlap_mm3": 6.569951616,
+      "witness_part": "P05_6"
+    },
+    "upper_disk_up1_after_keys_unseated_but_still_over_disk": {
+      "max_overlap_mm3": 117.731386366,
+      "witness_part": "P08_K3_2"
+    },
+    "upper_disk_up1_vs_keys": {
+      "max_overlap_mm3": 87.968227998,
+      "witness_part": "P08_K3_2"
+    },
+    "upper_disk_up1_vs_other_real_parts": {
+      "max_overlap_mm3": 6.569951616,
+      "witness_part": "P05_6"
+    }
+  },
+  "decision": "NO_GO",
+  "epsilon_mm3": 1e-06,
+  "final_changed_pair_count": 366,
+  "final_max_overlap_mm3": 0.0,
+  "focused_checks": {
+    "disk_axial_contact_measured_separately": true,
+    "headed_keys_block_direct_pull_but_escape_by_reverse_slide": true,
+    "held_key_axial_restraint_missing_key_negative": true,
+    "modified_final_interfaces_clear": true,
+    "one_valid_overlay_six_keys_and_31_body_baseline": true,
+    "six_installation_routes_clear_before_top": true,
+    "top_closes_but_blocks_late_feed": true,
+    "upstream_unchanged": true
+  },
+  "insertion": [
+    {
+      "feed_down_from_bottom_Z520_before_top": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K1_1",
+      "same_feed_with_top_closed": {
+        "max_overlap_mm3": 882.985397747,
+        "witness_part": "P07T"
+      },
+      "seat_local_r0_to3": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "slide_local_q40_to0": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "feed_down_from_bottom_Z520_before_top": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K1_2",
+      "same_feed_with_top_closed": {
+        "max_overlap_mm3": 882.985397747,
+        "witness_part": "P07T"
+      },
+      "seat_local_r0_to3": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "slide_local_q40_to0": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "feed_down_from_bottom_Z520_before_top": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K2_1",
+      "same_feed_with_top_closed": {
+        "max_overlap_mm3": 882.985397747,
+        "witness_part": "P07T"
+      },
+      "seat_local_r0_to3": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "slide_local_q40_to0": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "feed_down_from_bottom_Z520_before_top": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K2_2",
+      "same_feed_with_top_closed": {
+        "max_overlap_mm3": 882.985397747,
+        "witness_part": "P07T"
+      },
+      "seat_local_r0_to3": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "slide_local_q40_to0": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "feed_down_from_bottom_Z520_before_top": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K3_1",
+      "same_feed_with_top_closed": {
+        "max_overlap_mm3": 882.985397747,
+        "witness_part": "P07T"
+      },
+      "seat_local_r0_to3": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "slide_local_q40_to0": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "feed_down_from_bottom_Z520_before_top": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K3_2",
+      "same_feed_with_top_closed": {
+        "max_overlap_mm3": 882.985397747,
+        "witness_part": "P07T"
+      },
+      "seat_local_r0_to3": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "slide_local_q40_to0": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    }
+  ],
+  "issue": 33,
+  "key_escape": [
+    {
+      "clear_disk_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "clear_disk_radial0_to60_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "direct_outward_q1_with_r_seated": {
+        "max_overlap_mm3": 13.386349387,
+        "witness_part": "L1_P01_1"
+      },
+      "escaped_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K1_1",
+      "unseat_r3_to0_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "withdraw_q0_to40_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "clear_disk_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "clear_disk_radial0_to60_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "direct_outward_q1_with_r_seated": {
+        "max_overlap_mm3": 13.386349387,
+        "witness_part": "L1_P01_2"
+      },
+      "escaped_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K1_2",
+      "unseat_r3_to0_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "withdraw_q0_to40_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "clear_disk_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "clear_disk_radial0_to60_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "direct_outward_q1_with_r_seated": {
+        "max_overlap_mm3": 13.386349387,
+        "witness_part": "L2_P01_1"
+      },
+      "escaped_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K2_1",
+      "unseat_r3_to0_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "withdraw_q0_to40_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "clear_disk_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "clear_disk_radial0_to60_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "direct_outward_q1_with_r_seated": {
+        "max_overlap_mm3": 13.386349387,
+        "witness_part": "L2_P01_2"
+      },
+      "escaped_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K2_2",
+      "unseat_r3_to0_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "withdraw_q0_to40_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "clear_disk_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "clear_disk_radial0_to60_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "direct_outward_q1_with_r_seated": {
+        "max_overlap_mm3": 13.386349387,
+        "witness_part": "L3_P01_1"
+      },
+      "escaped_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K3_1",
+      "unseat_r3_to0_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "withdraw_q0_to40_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    },
+    {
+      "clear_disk_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "clear_disk_radial0_to60_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "direct_outward_q1_with_r_seated": {
+        "max_overlap_mm3": 13.386349387,
+        "witness_part": "L3_P01_2"
+      },
+      "escaped_endpoint": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "key": "P08_K3_2",
+      "unseat_r3_to0_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      },
+      "withdraw_q0_to40_top_closed": {
+        "max_overlap_mm3": 0.0,
+        "witness_part": null
+      }
+    }
+  ],
+  "one_key_geometry": {
+    "entry_q_offset": 40,
+    "extrusion_Z": [
+      486.2,
+      492.2
+    ],
+    "final_top_skin_gap": 1.8000000000000114,
+    "flat_rq_outer_contour": [
+      [
+        63.8,
+        -3.4
+      ],
+      [
+        63.793185,
+        -3.348236
+      ],
+      [
+        63.773205,
+        -3.3
+      ],
+      [
+        63.741421,
+        -3.258579
+      ],
+      [
+        63.7,
+        -3.226795
+      ],
+      [
+        63.651764,
+        -3.206815
+      ],
+      [
+        63.6,
+        -3.2
+      ],
+      [
+        60.2,
+        -3.2
+      ],
+      [
+        60.148236,
+        -3.193185
+      ],
+      [
+        60.1,
+        -3.173205
+      ],
+      [
+        60.058579,
+        -3.141421
+      ],
+      [
+        60.026795,
+        -3.1
+      ],
+      [
+        60.006815,
+        -3.051764
+      ],
+      [
+        60.0,
+        -3.0
+      ],
+      [
+        60.0,
+        3.0
+      ],
+      [
+        60.006815,
+        3.051764
+      ],
+      [
+        60.026795,
+        3.1
+      ],
+      [
+        60.058579,
+        3.141421
+      ],
+      [
+        60.1,
+        3.173205
+      ],
+      [
+        60.148236,
+        3.193185
+      ],
+      [
+        60.2,
+        3.2
+      ],
+      [
+        63.6,
+        3.2
+      ],
+      [
+        63.651764,
+        3.206815
+      ],
+      [
+        63.7,
+        3.226795
+      ],
+      [
+        63.741421,
+        3.258579
+      ],
+      [
+        63.773205,
+        3.3
+      ],
+      [
+        63.793185,
+        3.348236
+      ],
+      [
+        63.8,
+        3.4
+      ],
+      [
+        63.8,
+        7.0
+      ],
+      [
+        63.793185,
+        7.051764
+      ],
+      [
+        63.773205,
+        7.1
+      ],
+      [
+        63.741421,
+        7.141421
+      ],
+      [
+        63.7,
+        7.173205
+      ],
+      [
+        63.651764,
+        7.193185
+      ],
+      [
+        63.6,
+        7.2
+      ],
+      [
+        50.4,
+        7.2
+      ],
+      [
+        50.348236,
+        7.193185
+      ],
+      [
+        50.3,
+        7.173205
+      ],
+      [
+        50.258579,
+        7.141421
+      ],
+      [
+        50.226795,
+        7.1
+      ],
+      [
+        50.206815,
+        7.051764
+      ],
+      [
+        50.2,
+        7.0
+      ],
+      [
+        50.2,
+        3.4
+      ],
+      [
+        50.206815,
+        3.348236
+      ],
+      [
+        50.226795,
+        3.3
+      ],
+      [
+        50.258579,
+        3.258579
+      ],
+      [
+        50.3,
+        3.226795
+      ],
+      [
+        50.348236,
+        3.206815
+      ],
+      [
+        50.4,
+        3.2
+      ],
+      [
+        53.8,
+        3.2
+      ],
+      [
+        53.851764,
+        3.193185
+      ],
+      [
+        53.9,
+        3.173205
+      ],
+      [
+        53.941421,
+        3.141421
+      ],
+      [
+        53.973205,
+        3.1
+      ],
+      [
+        53.993185,
+        3.051764
+      ],
+      [
+        54.0,
+        3.0
+      ],
+      [
+        54.0,
+        -3.0
+      ],
+      [
+        53.993185,
+        -3.051764
+      ],
+      [
+        53.973205,
+        -3.1
+      ],
+      [
+        53.941421,
+        -3.141421
+      ],
+      [
+        53.9,
+        -3.173205
+      ],
+      [
+        53.851764,
+        -3.193185
+      ],
+      [
+        53.8,
+        -3.2
+      ],
+      [
+        50.4,
+        -3.2
+      ],
+      [
+        50.348236,
+        -3.206815
+      ],
+      [
+        50.3,
+        -3.226795
+      ],
+      [
+        50.258579,
+        -3.258579
+      ],
+      [
+        50.226795,
+        -3.3
+      ],
+      [
+        50.206815,
+        -3.348236
+      ],
+      [
+        50.2,
+        -3.4
+      ],
+      [
+        50.2,
+        -7.0
+      ],
+      [
+        50.206815,
+        -7.051764
+      ],
+      [
+        50.226795,
+        -7.1
+      ],
+      [
+        50.258579,
+        -7.141421
+      ],
+      [
+        50.3,
+        -7.173205
+      ],
+      [
+        50.348236,
+        -7.193185
+      ],
+      [
+        50.4,
+        -7.2
+      ],
+      [
+        63.6,
+        -7.2
+      ],
+      [
+        63.651764,
+        -7.193185
+      ],
+      [
+        63.7,
+        -7.173205
+      ],
+      [
+        63.741421,
+        -7.141421
+      ],
+      [
+        63.773205,
+        -7.1
+      ],
+      [
+        63.793185,
+        -7.051764
+      ],
+      [
+        63.8,
+        -7.0
+      ]
+    ],
+    "local_radial_seating_shift": 3,
+    "tip_top_skin_gap": 0.2,
+    "transforms": [
+      {
+        "angle_deg": 0,
+        "key": "P08_K1_1",
+        "q_sign": -1,
+        "t_center": -10.5,
+        "tongue": "L1_P01_1"
+      },
+      {
+        "angle_deg": 0,
+        "key": "P08_K1_2",
+        "q_sign": 1,
+        "t_center": 10.5,
+        "tongue": "L1_P01_2"
+      },
+      {
+        "angle_deg": 120,
+        "key": "P08_K2_1",
+        "q_sign": -1,
+        "t_center": -10.5,
+        "tongue": "L2_P01_1"
+      },
+      {
+        "angle_deg": 120,
+        "key": "P08_K2_2",
+        "q_sign": 1,
+        "t_center": 10.5,
+        "tongue": "L2_P01_2"
+      },
+      {
+        "angle_deg": 240,
+        "key": "P08_K3_1",
+        "q_sign": -1,
+        "t_center": -10.5,
+        "tongue": "L3_P01_1"
+      },
+      {
+        "angle_deg": 240,
+        "key": "P08_K3_2",
+        "q_sign": 1,
+        "t_center": 10.5,
+        "tongue": "L3_P01_2"
+      }
+    ]
+  },
+  "phase": "B1_ONLY",
+  "reason": "Own headed shoulders block direct t pull, but reverse radial seating then t withdrawal unlocks every key with the real top closed. A further radial60 motion clears the disk footprint. No key self-retention.",
+  "release": "DESIGN_ONLY / CR_REQUIRED / IF-12_B01_OPEN / INDEPENDENT_QA_PENDING",
+  "runtime": {
+    "jsonschema": "4.26.0",
+    "manifold3d": "3.3.2",
+    "numpy": "2.3.5",
+    "shapely": "2.1.2"
+  },
+  "tongue_axial_controls": [
+    {
+      "local_Z_trial_mm": {
+        "-1": {
+          "key_artificially_held_overlap_mm3": 28.800000054,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        },
+        "1": {
+          "key_artificially_held_overlap_mm3": 28.8,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        }
+      },
+      "tongue": "L1_P01_1"
+    },
+    {
+      "local_Z_trial_mm": {
+        "-1": {
+          "key_artificially_held_overlap_mm3": 28.800000054,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        },
+        "1": {
+          "key_artificially_held_overlap_mm3": 28.8,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        }
+      },
+      "tongue": "L1_P01_2"
+    },
+    {
+      "local_Z_trial_mm": {
+        "-1": {
+          "key_artificially_held_overlap_mm3": 28.800000054,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        },
+        "1": {
+          "key_artificially_held_overlap_mm3": 28.8,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        }
+      },
+      "tongue": "L2_P01_1"
+    },
+    {
+      "local_Z_trial_mm": {
+        "-1": {
+          "key_artificially_held_overlap_mm3": 28.800000054,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        },
+        "1": {
+          "key_artificially_held_overlap_mm3": 28.8,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        }
+      },
+      "tongue": "L2_P01_2"
+    },
+    {
+      "local_Z_trial_mm": {
+        "-1": {
+          "key_artificially_held_overlap_mm3": 28.800000054,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        },
+        "1": {
+          "key_artificially_held_overlap_mm3": 28.8,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        }
+      },
+      "tongue": "L3_P01_1"
+    },
+    {
+      "local_Z_trial_mm": {
+        "-1": {
+          "key_artificially_held_overlap_mm3": 28.800000054,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        },
+        "1": {
+          "key_artificially_held_overlap_mm3": 28.8,
+          "missing_key_disk_only_max_overlap_mm3": 0.0
+        }
+      },
+      "tongue": "L3_P01_2"
+    }
+  ],
+  "top_closing": {
+    "max_overlap_mm3": 7e-09,
+    "witness_part": null
+  },
+  "unchanged_tongue_screen": {
+    "exposed_height": 2,
+    "key_Z_thickness": 6,
+    "result": "NO_GO_FOR_THIS_ABOVE_DISK_THROUGH_KEY; not all possible locks"
+  },
+  "unique_check_count": 8,
+  "units": "mm; right-handed XYZ; local r,t,z; q is outward from each cheek center",
+  "upstream_integrity": {
+    "actual_inventory_sha256": "1f24ce29a7cf85917979ff089fbd66a01d2a292d3df083393842e02fcacd2853",
+    "base_commit": "98f0132423bb33adc19b14a3188a662d36e50e1a",
+    "changed_or_missing": [],
+    "expected_inventory_sha256": "1f24ce29a7cf85917979ff089fbd66a01d2a292d3df083393842e02fcacd2853",
+    "protected_files": 556,
+    "source_sha256": {
+      "projects/CTB-01/parts/P01/src/design.json": "592079639fe53b3b151fcbd11da007a3ae439af4cca477f7bed1ea9e894d319d",
+      "projects/CTB-01/parts/P01/src/design.schema.json": "dc4eb126cd9927d49d3cd579a2eecb466036f9c5e3a639c639e909d2a428e170",
+      "projects/CTB-01/parts/P01/src/generate.py": "6b4376b69a9a583057bf38829f98ed52c14f3ca850e0aa1236f6331c59073df3",
+      "projects/CTB-01/parts/P01/src/model.py": "f00ba8f2b6e5cac2efc8894c4102135a00f48440fbdefaf38c5e4f0577cdc83e",
+      "projects/CTB-01/parts/P01/src/requirements.txt": "090b4ec10d52737b9a80d9bbb7286c4f387d4bf300e7fb5bf6128e19aebdd1a5",
+      "projects/CTB-01/parts/P02/src/design.json": "fa538ce9bfe8d8688362765edbc936114b61928985d88d874db5f6c27546fb3e",
+      "projects/CTB-01/parts/P02/src/design.schema.json": "c9742f3945362d7717547aa43901cb49a69e9e156cbebca75203c66a1a271a01",
+      "projects/CTB-01/parts/P02/src/generate.py": "e23d27c802de5ff39ed4ea452daf3cbf45b88eade5229da042826d892af2703d",
+      "projects/CTB-01/parts/P02/src/model.py": "bc8f253d7d810af215bb5e7bdaa977608d5d47789913af5b5d02918220c25e56",
+      "projects/CTB-01/parts/P02/src/requirements.txt": "87c59074addd39b64a9338133fe3c04cf4f480cb84e0a48e20e3bc8a4a1d93ec",
+      "projects/CTB-01/parts/P03/src/design.json": "f03d9d1b20fda69d9f79cc3ce3579602199b1d0b9ec11ae6e8492d0c3037a129",
+      "projects/CTB-01/parts/P03/src/design.schema.json": "f5301c8f6b61072da147e923ea3e0d7e00ced79a40caecb279fe8dc85541e7a3",
+      "projects/CTB-01/parts/P03/src/generate.py": "3c80b9d90e5f140f17d9d22a4caa712e2b73c91379263a2863a2b5d50c9989e9",
+      "projects/CTB-01/parts/P03/src/model.py": "f71d247d3cf6ae3e1b0fb59384ce08553c564ccb16f7f116ac6731bcca9d8947",
+      "projects/CTB-01/parts/P03/src/requirements.txt": "bfb5f41ad8908487263825dbcc68d1348f87fbefd216ee21bfd8f0500dadcde0",
+      "projects/CTB-01/parts/P03/src/upstream-sha256.json": "6ea91e1c95c60b8de787446f5fc4c7fdb04b31f6e1ddba4807a05a2afdcc7f34",
+      "projects/CTB-01/parts/P04/src/design.json": "3f199284b80d7191530e1fe506d843a014efd2c353337d31689f9baffc73a738",
+      "projects/CTB-01/parts/P04/src/design.schema.json": "45f69349428ca6ad15451d32e1fe95e93bd2e3d843b5fab525181eb46f2a6d18",
+      "projects/CTB-01/parts/P04/src/generate.py": "4c5713e3a9cc7c967cddcc6c9c6ce064162583f5931bc87f5c24a07f9e459958",
+      "projects/CTB-01/parts/P04/src/model.py": "689d2a813ca545952d37d1147ff590b7566e2db39ab7b3c50b560869c563ee46",
+      "projects/CTB-01/parts/P04/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+      "projects/CTB-01/parts/P04/src/requirements.txt": "694cc9dbb526870adc9d7b1093c5eb97efab5faa09697291773e9088448d30be",
+      "projects/CTB-01/parts/P04/src/upstream-sha256.json": "3952b0e61db6c728054c6216efbc4644314a9f07299f237024959e0f0fb43982",
+      "projects/CTB-01/parts/P05/src/design.json": "9767db2bd9aabb74752cd4d103ae7ce2391f8e2c0f8a07c7bc2499d4e9e7b22f",
+      "projects/CTB-01/parts/P05/src/design.schema.json": "33d7cffa4ce03dec4c4a23248e399bbed2584628ed3d0448dcde81bd8e4ee214",
+      "projects/CTB-01/parts/P05/src/generate.py": "d702f48b0dbbc1f14ca0cb77e296e46dccf7f98119442c29b937bbb4cc5286e5",
+      "projects/CTB-01/parts/P05/src/model.py": "93a1fc8df28538f7377c2fc6188e2d995580caacebf4674da954d136696cec20",
+      "projects/CTB-01/parts/P05/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+      "projects/CTB-01/parts/P05/src/requirements.txt": "a9957e584a1749ecf01db0bb44fe60d4192dda07e09696832145456d58e73a71",
+      "projects/CTB-01/parts/P05/src/upstream-sha256.json": "65b78179541838151e2c25fdad2a4e2ed8af2f75d65f2e78f8403c54348ad0b4",
+      "projects/CTB-01/parts/P06/src/design.json": "1fdd1c99cee852ce188dcd0d99b02d70b1a6741ed76b31cd5daae42889bfdcc0",
+      "projects/CTB-01/parts/P06/src/design.schema.json": "c3ac01f7f4aed2fa13e6fc8add919a096aea663947cd89072f7b081e802ed371",
+      "projects/CTB-01/parts/P06/src/generate.py": "8d387dcb4a65718e65a4331b3c2b5729fcf8b05a65bfd485db777858f317d96b",
+      "projects/CTB-01/parts/P06/src/model.py": "ded01f47c2848ad571b300fb11f44015a791e4cc91fa28a447520766c5f25d0e",
+      "projects/CTB-01/parts/P06/src/preview_stages.py": "948abaeeef0beccb4a7403ac984a05268502f0643def8c04c53a32a74bda8ab6",
+      "projects/CTB-01/parts/P06/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+      "projects/CTB-01/parts/P06/src/requirements.txt": "1fe9c98845af93b44cecc95d22c4073b1f38bf1a4059f68408e30dcaa07548e8",
+      "projects/CTB-01/parts/P06/src/upstream-sha256.json": "0981b5e92ade97891b3b9d7604e71ab4ddd06ed0f0f6849502dd5b5069bea0e2",
+      "projects/CTB-01/parts/P07/src/design.json": "57d82057e168dfc70cc703e3e4ed016a906f0d51c2eac1ad537f50b910e965e9",
+      "projects/CTB-01/parts/P07/src/design.schema.json": "14f71e0fdeaf998871dcc8eda3812778c2852103c50793a378c84e5ed7e93e75",
+      "projects/CTB-01/parts/P07/src/generate.py": "7836be74a30d383174c572e1ffd9aa2e831f596c59243a1b06c8d4a86793b550",
+      "projects/CTB-01/parts/P07/src/model.py": "2a858196e4fb9b24ca0cf501835a4420ea888814243b347ea1e0cda34925dea7",
+      "projects/CTB-01/parts/P07/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+      "projects/CTB-01/parts/P07/src/requirements.txt": "d24f74021ddab91603f9c18c91649d3d59bb202709173f0815912c99ecb6e334",
+      "projects/CTB-01/parts/P07/src/upstream-sha256.json": "bc1f1bb2a6e33dd081b94af2a1d219639b412a6acde48b779641c6a61475d9d8",
+      "projects/CTB-01/specifications/CTB-000/AGENT_HANDOFF_HE.md": "54a9b31f592054ca0215983ed6d5458512e42fd984a012421b543785b58921e9",
+      "projects/CTB-01/specifications/CTB-000/CHANGELOG.md": "425a1eda169088292b97d09fa9ff5c9bac3cb5295b11d6df508b787dee8354c5",
+      "projects/CTB-01/specifications/CTB-000/CHANGE_REQUEST_TEMPLATE.md": "ea77455e46fe614424c9589ba85d7b44be67e8cc6413fa4ce0edf4c6b5f2bfea",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_interface_diagram.png": "9566fc17d66bb57d4623412f94382dd442b32e9ed72118bca2142bdefb26524b",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_interface_diagram.svg": "85203903509803493ffbeb9f4874a042fb1bbd8a021b28d9ec4b531df7de8b10",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_interfaces.json": "a417f3b4252765f6bc4d02c8ad8a9cfccc0f205f4ab5f21fcfe24b96d56ce93b",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_open_issues.csv": "4e66511ffd63a8850d66a2974e21bdc46c5d6b7a8127ffd52de2f3ccf630a3a0",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_parameters.json": "9338eff356c166d481669592d7740f9023de7884a0e8a023a42656de5b9e6961",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_parts.csv": "64d2bfdfd1ca4e38a8c946647be802fd85f9a2f743e1016f7cd0156039b88814",
+      "projects/CTB-01/specifications/CTB-000/CTB-000_schema.json": "8e41986483b41b9b776b1836085457b0b6bc458955260f715a1f2d1f7ee78fcc",
+      "projects/CTB-01/specifications/CTB-000/DECISIONS.md": "af7d0b78dab166eab2fb07c616c70b17027cd8126b0e4a24b08052d08b99df35",
+      "projects/CTB-01/specifications/CTB-000/MANIFEST.json": "b1ec5e0791fb214179375f79a61c8508978657f8a2a2326d555944ab502503f2",
+      "projects/CTB-01/specifications/CTB-000/SOURCE_REGISTER.md": "2ec52383bc1433991953d504f8a995ab944dcb038b926a24d32e719b67fbd018",
+      "projects/CTB-01/specifications/CTB-000/SPEC_HE.md": "68e208c3c855fb07063699e43328ae503aaf09d18cadb092b17247a8370c1b69",
+      "projects/CTB-01/specifications/CTB-000/validate_contract.py": "75f90444651d0586b38f7ab5e0e955d6f5bf7fd433e892ecbb33e3239a3abd3f"
+    }
+  }
+}
