@@ -210,7 +210,7 @@ Official B01–B13 and IF-01..IF-14 records remain unchanged. No loads, stock/ke
 fixture, stress/bending/stability or physical tests: NOT_RUN. FullG2b/G3/G4 and physical
 cutting NOT_APPROVED. Lead review complete for bounded study; no production or full ring interface approval.
 
-## CTB-007 — SKINS / EXPERIMENTAL KERF RIM / AWAITING_LEAD_SELECTION
+## CTB-007 — A_TWO_BUTT_BOND SELECTED_FOR_DESIGN_STUDY / EXPERIMENTAL KERF / DESIGN_ONLY
 
 Issue #24, review PR [#32](https://github.com/mataniar0/assembl-lab-engineering/pull/32), existing branch `codex/ctb-007-skins-rim`, baseline6db45fa afterPR22. DESIGN_ONLY,
 G1 geometry/boundedG2a tabletop study. Original439CTB000/P01–P06 files unchanged; actual
@@ -225,8 +225,9 @@ Avertical/radial, Bradial and Cverticalbeforetop routes pass exact rigid sweeps 
 mathematically pre-bent material. Bvertical,Ctop-first/radial,latebottom andclosedwallrib
 trials BLOCK; six upperlock probe corridors BLOCK aftertop. Allskin uplift remains FREE.
 
-A recommended for least-change continued geometry/couponplanning only, not selected or cut
-approved. P04L contact26899.470mm²; P05face516each/3096total per skin, untested bonds.
+Engineering lead selected **A_TWO_BUTT_BOND for downstream CAD study only**;
+see `parts/P07/CTB-007-SELECTION.md`. B/C remain unapproved alternatives;
+C edge-comb CR remains NOT_APPROVED. No physical cutting or production approval. P04L contact26899.470mm²; P05face516each/3096total per skin, untested bonds.
 P05→rim1.973375mm minimum AIR retained, no falsegluebridge. Cedgecomb is unapproved newP07
 radialconstructionstudy toR175, no upstream overwrite. Kerfslot0.8/pitch8 are experimental,
 neutral173 unmeasured; mapped perforations are mathematical, not physical bend simulation.
@@ -237,4 +238,4 @@ see CTB-007-INDEPENDENT-QA.md. Allinitial failures/corrections/blockedroutes ret
 in CTB-007-VALIDATION and P07/tests/logs. Tier3Issue20 still planned, no successfulhosted
 nightlyCAD workflow claimed. Physicalfit/kerf/grain/50mmbend/glue/fixture/load/stability,
 fullP08/P06R/whole-tableorder NOT_RUN/OPEN. KERF_COUPON_PENDING; G2b/G3/G4 andcutting or
-production NOT_APPROVED. OfficialB01–B13/IFrecords preserved. PR for leadreview, no selfmerge.
+production NOT_APPROVED. OfficialB01–B13/IFrecords preserved. Lead review completed for a bounded G1/G2a study; no self-merge or physical release.
