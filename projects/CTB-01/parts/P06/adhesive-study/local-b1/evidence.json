@@ -1,0 +1,202 @@
+{
+  "base_commit": "a4f3cf09224736ec24c247e18967b5c2e5b438ee",
+  "cases": [
+    {
+      "expected": "BLOCKED",
+      "moving_volume_mm3": 142627.543575198,
+      "name": "original_unmortised_cheek_old_ring_negative",
+      "overlap_mm3": {
+        "old_ring": 936.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "CLEAR",
+      "moving_volume_mm3": 141613.994427351,
+      "name": "candidate_initial_t40",
+      "overlap_mm3": {
+        "bonded_ring_terminal": 0.0,
+        "nearest_S3": 0.0,
+        "selected_Y": 0.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "CLEAR",
+      "moving_volume_mm3": 141613.994427351,
+      "name": "candidate_final_t0",
+      "overlap_mm3": {
+        "bonded_ring_terminal": 0.0,
+        "nearest_S3": 0.0,
+        "selected_Y": 0.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "CLEAR",
+      "moving_volume_mm3": 1085707.290609694,
+      "name": "real_Y_FIRST_full_continuous_t40_to0",
+      "overlap_mm3": {
+        "bonded_ring_terminal": 0.0,
+        "nearest_S3": 0.0,
+        "selected_Y": 0.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "CLEAR",
+      "moving_volume_mm3": 141613.994427351,
+      "name": "candidate_final_old_apertured_ring",
+      "overlap_mm3": {
+        "old_ring": 0.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "CLEAR",
+      "moving_volume_mm3": 1085707.290609694,
+      "name": "filled_hole_material_full_cheek_sweep",
+      "overlap_mm3": {
+        "added_ring_material": 0.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "CLEAR",
+      "moving_volume_mm3": 4133.341084944,
+      "name": "ring_vs_S3_Y",
+      "overlap_mm3": {
+        "nearest_S3": 0.0,
+        "selected_Y": 0.0
+      },
+      "verified": true
+    },
+    {
+      "expected": "BLOCKED",
+      "moving_volume_mm3": 4684.453229604,
+      "name": "thickness6p8_negative_control",
+      "overlap_mm3": {
+        "candidate_cheek": 62.39999907
+      },
+      "verified": true
+    }
+  ],
+  "decision": "LOCAL_CAD_GEOMETRY_GO_ONLY",
+  "epsilon_mm3": 1e-06,
+  "functional_gates": "BOND_CAPACITY_UNKNOWN / G2b_NOT_PASSED / G3_G4_NOT_APPROVED",
+  "gap_material_measurements": {
+    "axial_face_gaps_mm": [
+      0.19999999999998863,
+      0.19999999999998863
+    ],
+    "contact": "positive axial gaps; zero nominal face contact; projected area is NOT effective bond area",
+    "local_hole_fill_area_mm2": 43.484857782828044,
+    "minimum_actual_contour_gap_mm": 0.19903670981716562,
+    "mortise_to_other_five_mortises_min_wood_mm": 38.6528662474656,
+    "mortise_to_outer_silhouette_min_wood_mm": 10.96395142270849,
+    "potential_single_face_projection_mm2": 156.0,
+    "radial_edge_gaps_mm": [
+      0.20000000000000284,
+      0.20000000000000284
+    ],
+    "ring_at_cheek_rz_bounds": [
+      99.017646,
+      242.0,
+      125.017646,
+      248.0
+    ],
+    "ring_to_S3_Z_gap_mm": 39,
+    "ring_to_Y_Z_gap_mm": 159,
+    "slot_rz_bounds": [
+      98.817646,
+      241.8,
+      125.217646,
+      248.2
+    ]
+  },
+  "issue": 34,
+  "local_model": {
+    "cheek_t": [
+      7.5,
+      13.5
+    ],
+    "insertion_t_offset": [
+      40,
+      0
+    ],
+    "ring_Z": [
+      242,
+      248
+    ],
+    "terminal_crop_xy": [
+      99.017646,
+      0.0,
+      125.017646,
+      26.5
+    ],
+    "wooden_P08_or_keeper_bodies": 0
+  },
+  "not_run": "six-cheek/32-body integrated assembly, bond/fixture/cure access or capacity, old unaffected suites, G2b/G3/G4",
+  "phase": "ONE_CHANGED_INTERFACE_B1",
+  "protected_tracked_diff_empty": true,
+  "release": "DESIGN_ONLY / INDEPENDENT_QA_PENDING",
+  "source_fidelity": {
+    "candidate_cheek_seven_loops": true,
+    "candidate_ring_two_loops": true,
+    "original_outer_and_five_mortises_exact": true,
+    "original_ring_outer_and_central_hole_exact": true,
+    "valid_connected_candidate_polygons": true
+  },
+  "source_metadata_defect": {
+    "candidate_P01_viewBox": "P01-BONDED-UNIFIED-V1 proposed six-identical cheek source",
+    "candidate_P06_viewBox": "P06C-BONDED-V1 ring without obsolete key openings",
+    "finding": "Both viewBox attributes contain labels rather than four numbers; numeric viewport text is in title. Inherited source packaging defect, NOT repaired here. Raw mechanical polygons are used, not SVG rendering. This local CAD result does not validate SVG viewer/export packaging."
+  },
+  "source_sha256": {
+    "projects/CTB-01/parts/P01/src/design.json": "592079639fe53b3b151fcbd11da007a3ae439af4cca477f7bed1ea9e894d319d",
+    "projects/CTB-01/parts/P01/src/design.schema.json": "dc4eb126cd9927d49d3cd579a2eecb466036f9c5e3a639c639e909d2a428e170",
+    "projects/CTB-01/parts/P01/src/generate.py": "6b4376b69a9a583057bf38829f98ed52c14f3ca850e0aa1236f6331c59073df3",
+    "projects/CTB-01/parts/P01/src/model.py": "f00ba8f2b6e5cac2efc8894c4102135a00f48440fbdefaf38c5e4f0577cdc83e",
+    "projects/CTB-01/parts/P01/src/requirements.txt": "090b4ec10d52737b9a80d9bbb7286c4f387d4bf300e7fb5bf6128e19aebdd1a5",
+    "projects/CTB-01/parts/P02/src/design.json": "fa538ce9bfe8d8688362765edbc936114b61928985d88d874db5f6c27546fb3e",
+    "projects/CTB-01/parts/P02/src/design.schema.json": "c9742f3945362d7717547aa43901cb49a69e9e156cbebca75203c66a1a271a01",
+    "projects/CTB-01/parts/P02/src/generate.py": "e23d27c802de5ff39ed4ea452daf3cbf45b88eade5229da042826d892af2703d",
+    "projects/CTB-01/parts/P02/src/model.py": "bc8f253d7d810af215bb5e7bdaa977608d5d47789913af5b5d02918220c25e56",
+    "projects/CTB-01/parts/P02/src/requirements.txt": "87c59074addd39b64a9338133fe3c04cf4f480cb84e0a48e20e3bc8a4a1d93ec",
+    "projects/CTB-01/parts/P03/src/design.json": "f03d9d1b20fda69d9f79cc3ce3579602199b1d0b9ec11ae6e8492d0c3037a129",
+    "projects/CTB-01/parts/P03/src/design.schema.json": "f5301c8f6b61072da147e923ea3e0d7e00ced79a40caecb279fe8dc85541e7a3",
+    "projects/CTB-01/parts/P03/src/generate.py": "3c80b9d90e5f140f17d9d22a4caa712e2b73c91379263a2863a2b5d50c9989e9",
+    "projects/CTB-01/parts/P03/src/model.py": "f71d247d3cf6ae3e1b0fb59384ce08553c564ccb16f7f116ac6731bcca9d8947",
+    "projects/CTB-01/parts/P03/src/requirements.txt": "bfb5f41ad8908487263825dbcc68d1348f87fbefd216ee21bfd8f0500dadcde0",
+    "projects/CTB-01/parts/P03/src/upstream-sha256.json": "6ea91e1c95c60b8de787446f5fc4c7fdb04b31f6e1ddba4807a05a2afdcc7f34",
+    "projects/CTB-01/parts/P03/variants/A_COMPACT_CLOSED/P01-Y-mortise-study-v1.svg": "9a73927ab4226bf5d3b8df9aa938db22553d11ba7c44e5977d79a1d772649514",
+    "projects/CTB-01/parts/P04/src/design.json": "3f199284b80d7191530e1fe506d843a014efd2c353337d31689f9baffc73a738",
+    "projects/CTB-01/parts/P04/src/design.schema.json": "45f69349428ca6ad15451d32e1fe95e93bd2e3d843b5fab525181eb46f2a6d18",
+    "projects/CTB-01/parts/P04/src/generate.py": "4c5713e3a9cc7c967cddcc6c9c6ce064162583f5931bc87f5c24a07f9e459958",
+    "projects/CTB-01/parts/P04/src/model.py": "689d2a813ca545952d37d1147ff590b7566e2db39ab7b3c50b560869c563ee46",
+    "projects/CTB-01/parts/P04/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P04/src/requirements.txt": "694cc9dbb526870adc9d7b1093c5eb97efab5faa09697291773e9088448d30be",
+    "projects/CTB-01/parts/P04/src/upstream-sha256.json": "3952b0e61db6c728054c6216efbc4644314a9f07299f237024959e0f0fb43982",
+    "projects/CTB-01/parts/P05/src/design.json": "9767db2bd9aabb74752cd4d103ae7ce2391f8e2c0f8a07c7bc2499d4e9e7b22f",
+    "projects/CTB-01/parts/P05/src/design.schema.json": "33d7cffa4ce03dec4c4a23248e399bbed2584628ed3d0448dcde81bd8e4ee214",
+    "projects/CTB-01/parts/P05/src/generate.py": "d702f48b0dbbc1f14ca0cb77e296e46dccf7f98119442c29b937bbb4cc5286e5",
+    "projects/CTB-01/parts/P05/src/model.py": "93a1fc8df28538f7377c2fc6188e2d995580caacebf4674da954d136696cec20",
+    "projects/CTB-01/parts/P05/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P05/src/requirements.txt": "a9957e584a1749ecf01db0bb44fe60d4192dda07e09696832145456d58e73a71",
+    "projects/CTB-01/parts/P05/src/upstream-sha256.json": "65b78179541838151e2c25fdad2a4e2ed8af2f75d65f2e78f8403c54348ad0b4",
+    "projects/CTB-01/parts/P06/adhesive-study/candidate-v1/P01_BONDED_UNIFIED_V1_DESIGN_ONLY.svg": "5e1d039ae4c0fa5db07204bfb9e14e19f35637db00b9ca6adb2c513f835e7e7c",
+    "projects/CTB-01/parts/P06/adhesive-study/candidate-v1/P06C_BONDED_V1_DESIGN_ONLY.svg": "ff7f8919030d08d351d03a3e53ffe4c421d99f94f249410de84e750aaaa2e145",
+    "projects/CTB-01/parts/P06/src/design.json": "1fdd1c99cee852ce188dcd0d99b02d70b1a6741ed76b31cd5daae42889bfdcc0",
+    "projects/CTB-01/parts/P06/src/design.schema.json": "c3ac01f7f4aed2fa13e6fc8add919a096aea663947cd89072f7b081e802ed371",
+    "projects/CTB-01/parts/P06/src/generate.py": "8d387dcb4a65718e65a4331b3c2b5729fcf8b05a65bfd485db777858f317d96b",
+    "projects/CTB-01/parts/P06/src/model.py": "ded01f47c2848ad571b300fb11f44015a791e4cc91fa28a447520766c5f25d0e",
+    "projects/CTB-01/parts/P06/src/preview_stages.py": "948abaeeef0beccb4a7403ac984a05268502f0643def8c04c53a32a74bda8ab6",
+    "projects/CTB-01/parts/P06/src/requirements-qa.txt": "f71a63f0103a1de335e90942b1a5397c9fbc7eba6cd1fa65fd6ca2dd70f410f2",
+    "projects/CTB-01/parts/P06/src/requirements.txt": "1fe9c98845af93b44cecc95d22c4073b1f38bf1a4059f68408e30dcaa07548e8",
+    "projects/CTB-01/parts/P06/src/upstream-sha256.json": "0981b5e92ade97891b3b9d7604e71ab4ddd06ed0f0f6849502dd5b5069bea0e2",
+    "projects/CTB-01/parts/P06/variants/C/P06C.svg": "cf4b094366e0c533b33e506169351a139ddd296b67754aeb906739dcfca83d17",
+    "projects/CTB-01/specifications/CTB-000/CTB-000_parameters.json": "9338eff356c166d481669592d7740f9023de7884a0e8a023a42656de5b9e6961"
+  },
+  "unique_3d_case_count": 8,
+  "units_axes": "mm; one L1 positive-t cheek, r=X,t=Y,z=Z"
+}
