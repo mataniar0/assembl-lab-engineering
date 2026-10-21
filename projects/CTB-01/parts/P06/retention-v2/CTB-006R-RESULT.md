@@ -61,3 +61,10 @@ Further keeper geometry/actuation or the documented fallback requires a new lead
 decision. Full upper-assembly integration, new land/seat qualification, unrelated
 regressions, physical fit/kerf, strength, bearing, load and stability: **NOT_RUN**.
 No G2b/G3/G4, physical cutting or manufacture approval; no self-merge.
+
+## Engineering lead QA addendum (subsequent independent read-only review)
+
+**Review date:** 2026-10-21. **Outcome:** `NEGATIVE_STUDY_ACCEPTED / DESIGN_ONLY / CR_REQUIRED`.
+Independent ChatGPT engineering-lead review posted to [PR #39](https://github.com/mataniar0/assembl-lab-engineering/pull/39), **93/100 for the bounded B1 NO-GO evidence-report scope**. The original `INDEPENDENT_QA_PENDING` line above records the status **at Codex delivery** and is superseded for this narrow report by this addendum. The review independently checked all six stored evidence tuples, test-case count, proposed-vs-original authority, static code/data paths and PR source diff. **No second CAD kernel was rerun by the lead**, so numeric volume outputs remain sourced to the documented Manifold3D probe and no positive-lock validation is claimed.
+
+This finding rejects the **existing keeper in its early fixed position with the specified straight Y_FIRST cheek insertion**, not all future ring mechanisms. There is still a functional ring blocker: `IF-09/B05 OPEN`, `CR-CTB006-C-01 NOT_APPROVED`, and full G2b/G3/G4 `NOT_APPROVED`. The bounded negative evidence may be merged without converting this into a lock solution.
