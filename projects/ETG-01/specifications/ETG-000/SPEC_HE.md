@@ -1,32 +1,20 @@
-# ETG-000 v0.1 — מסמך בקרת ממשקים (ICD)
+# ETG-000 v0.2 — H1 Interface Control Draft (ICD)
 
-**Stage:** `G0_DRAFT / DESIGN_ONLY` · **Issue:** #18 · **Units:** mm and degrees.
-מקורות התהליך: `AGENTS.md`, `engineering-process/PLAYBOOK_HE.md`, `GATES.md`, `QUALITY_STANDARD.md` ו-`.agents/skills/assembl-lab-product-engineering/SKILL.md`.
+**Gate:** G0_DRAFT / DESIGN_ONLY. **Issue #18, ETG-CR-001.** The owner approved adopting the H1 architecture in place of FCIPH on 2026-10-21, but no H1 dimensions, physical construction or QA pass have been approved. Use LEAN TASK PLANNING v1.1, Engineering Playbook, QUALITY_STANDARD and GATES.
 
-## 1. Source of truth and provenance
-- `parameters.json` — values with FROZEN/PROVISIONAL/DERIVED/OPEN and provenance.
-- `PARTS.csv` — *provisional* product BOM and stable IDs. Counts not verified from current parametric source.
-- `interfaces.csv` — IF-01..IF-24; all OPEN for fresh G0/G1 review, despite historical audit PASS.
-- `OPEN_ISSUES.csv` — blockers and closure evidence.
-- `LEGACY_REGISTER.md` — V7.2, V7.6 reconciliation and exclusion of Megillah V8.3.9.
-- `../../DECISIONS.md`, `../../STATUS.md`, `../../BRIEF.md` — product records.
+## Source of truth
+`parameters.json`: frozen product-specific body/material/sheet and open H1 dimensions. `PARTS.csv`: 13 **provisional** part families. `interfaces.csv`: 28 OPEN IFs; `OPEN_ISSUES.csv`: 12 blockers. `LEGACY_REGISTER.md`: frozen historical FCIPH evidence only. `ETG-CR-001-H1.md` logs the owner change.
 
-## 2. Frames and envelope
-Global outer body origin = front-left-bottom; +X length front-to-right, +Y depth toward rear, +Z up. Body expectation 260×160×150. Rearward FCIPH extension ~178.4 total depth is a historic approximation, **not the body depth**.
-Cutting-sheet convention explicitly **portrait**: X across width 440, Y along height 800. Legacy V7.6 cutting bounds must be re-oriented/rechecked before G4. Do not inherit CTB-01 specifics.
+## ETG envelope and frames
+Body outer 260×160×150mm, nominal structural birch6mm, sheet X0..440/Y0..800mm portrait. +X length, +Y rear, +Z up. **H1 external rear envelope, axis and clear fruit cavity are OPEN**; FCIPH depth ~178.4mm and diameters are not current design. Required H1 lid swing 0..120° in **ETG**, not MEB 110°. End user etrog and optional tray must remain accessible.
 
-## 3. Structural path
-Body panels P01–P05 via laminated keyed corners P06; lid P07–P10 via integrated FCIPH, pinned/anchored through P11–P12; optional P13 fits free cavity. A historical slice count of 96 (64 plain + 30 keyed + 2 special) is provisional, subject to BOM vs geometry check.
+## Mechanism groups / BOM mapping
+A **fixed body hinge support** integrated in rear P06 laminated corners (and dependent P02/P03/P04 details). B **moving lid cheeks** P09/P10 and P07/P08 joint. C **wooden pivot pins** P11 ×2. D **flush retaining caps** P12 ×2, seated in rear corner sides, mechanically captured without large external ring. Supports, moving cheek bores and pins coaxial in one XYZ reference system, with credible lamination from flat stock and no concealed incompatible parts.
 
-## 4. FCIPH preliminary contract
-V7.2: ear Ø32, pocket Ø32.8 => **radial 0.40**; pin Ø14, hole Ø14.6 => **radial 0.30**. Relief `RELIEF_0P4MM` is a **shallow recess depth 0.40**, never a through-cut. Movement audit target 0–120°, all moving solids plus clear assembly/insertion paths. Real fit and durability **OPEN**, including laser depth/recess fabrication feasibility. V7.6 self-described audit: 108 PASS, 6 repairs, does not count as newly performed independent QA.
+MEB-01 H1 research diameters pin7, fixed bore7.4, moving bore8.4, cap13; 4mm cap; 0.5mm axial clearance and two 6mm pin-layer concept are **NOT** frozen ETG dimensions or proof of manufacturability. FCIPH Ø14 pin/Ø32 ear are historical only.
 
-## 5. Acceptance for G0
-1. All part references and IF endpoints appear in BOM.
-2. Constants, computed values, assumptions and measurements are distinct and source-traceable.
-3. Rear hinge envelope, old nesting orientation, optional cradle and missing native CAD recorded as unresolved.
-4. Repository QA rechecks JSON/CSV consistency and negative control examples; independent reviewer verifies content.
-5. G0 approval is **baseline for component design only**, never permission for cutting, assembly, sale or production release.
+## Interface review
+IF-01..08 original panels and corner joints. IF-09..14 + IF-25..28 H1 supports, rotating cheeks, dual pins, cap placement and positive axial capture. IF-15..19 and IF-24 moving lid-frame/skin fit with **real thickness** through 0..120°; check every angle and rear wall. IF-20..23 ensure internal tray and fruit keep-out. Legacy 96 corner layers and two-sheet nesting are unverified with H1.
 
-## 6. Restriction
-Keep any archived cutting files quarantined as `legacy/` with hashes and labels until native regeneration, export checks, G2 3D sweep and G3 measured testing. No unverified files are bundled in this PR.
+## Acceptance boundaries
+G0: validate traceability/IF references, state of unknowns and source provenance, independent QA >=90/100 and no in-scope critical blocker. G1: proposed parametric source, export geometry and actual part topology. G2a/G2b: independent real-solid motion, continuous insertion and anti-escape; test missing cap, wrong-axis and forced early assembly controls. G3 actual plywood/kerf/cap attachment wear and durability NOT_RUN; G4 cutting/production NOT_AUTHORIZED. H1 design-direction approval is not approval of fabricated parts.
