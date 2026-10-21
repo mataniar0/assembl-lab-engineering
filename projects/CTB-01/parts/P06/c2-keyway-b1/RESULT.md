@@ -58,3 +58,9 @@ cheek free travel before choosing further CAD work or a unified P01/P08 CR.
 `INDEPENDENT_QA_PENDING`; second-kernel proof remains deferred under the Issue
 because no affirmative full-retention/G2b claim is made. IF-09/B05 stay OPEN;
 G2b/G3/G4, cutting and manufacture remain NOT_APPROVED. Stop after B1; no merge.
+
+## Independent lead QA addendum — 2026-10-21
+
+**Reviewed by ChatGPT, separate read-only code/data inspection:** **94/100 for the narrow local feasibility evidence only**, attached to [PR #43](https://github.com/mataniar0/assembl-lab-engineering/pull/43). All **16/16 stored path/pose cases** have matching expected outcomes, and **7/7 profile predicates** are true; source/diff and the 3 unaffected original-ring interface screens were inspected. The implementer's source-integrity seals were not independently rerun in a separate working tree, and **no second CAD kernel was executed** by this reviewer.
+
+**No functional lock approval:** `−t5` permits the simple `+Z40` shortcut and the full reverse disassembly; even a HELD key allows 4mm outward cheek travel (parked free5.2mm). The 19.8mm²/head shoulder is separated by nominal0.2mm air and has no proven physical bearing. All actual P01/P06 changes remain `PROPOSED/NOT_APPROVED`, `IF-09/B05` OPEN, `G2b/G3/G4` NOT_APPROVED. Merge is for keeping evidence, not acceptance of a new lock.
