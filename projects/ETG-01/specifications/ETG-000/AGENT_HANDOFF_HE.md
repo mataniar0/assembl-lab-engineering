@@ -1,10 +1,28 @@
-# ETG-000 — Codex delivery instructions
+# ETG-000 — LEAN TASK PLANNING v1.1 | תכנית המשך ומסירה
 
-1. Read root `AGENTS.md`, Playbook, Gates, Quality Standard and the named `assembl-lab-product-engineering` Skill. Then read ETG-01 BRIEF/STATUS/DECISIONS and the entire ETG-000 directory.
-2. Treat this PR as **G0 draft only**. Verify historical dimensions from original etrog sources if provided; **do not** import the Megillah V8.3.9 components.
-3. Independently cross-validate BOM IDs vs interface endpoints, numeric derivations, stock orientation, source claims and contradictions. Add negative controls (missing BOM entry, wrong part ID, swapped sheet axes, inconsistent hinge radial formula).
-4. Reconcile/recover actual V7.6 etrog parametric CAD and exported DXFs, record SHA/checksums and version, then propose revisions via Change Request if required.
-5. Do not change source dimensions to force PASS without documenting alternatives, impacted IFs, and lead decision.
-6. Report meaningful **unique** tests, failed attempts, number of fixes and independent reviewer identity. If reviewer absent, record `INDEPENDENT_QA_PENDING`.
-7. Prepare next Issues ETG-001..008 only with scoped dependencies; do not build all components inside ETG-000.
-8. No merge by implementer, no physical tests claimed and no production authorization from this stage.
+**פרויקט:** ETG-01 קופסת אתרוג · **Issue:** #18 · **Draft PR:** #19 · **סטטוס:** `G0_DRAFT / DESIGN_ONLY`.
+**עדיפות:** P1 — סגירת מקור תכנון ובסיס ממשקים. **מבצע מומלץ כעת:** ChatGPT. **Codex כעת:** `NOT_NEEDED` עד לאיתור מקור CAD או פער חישובי מוגדר.
+**QA עצמאי:** `INDEPENDENT_QA_PENDING`. **ייצור:** `NOT_AUTHORIZED`.
+
+קרא את [LEAN TASK PLANNING v1.1](../../../../engineering-process/LEAN_TASK_PLANNING_HE.md), `AGENTS.md`, `engineering-process/PLAYBOOK_HE.md`, `GATES.md`, `QUALITY_STANDARD.md`, Skill, ואת `BRIEF.md`, `STATUS.md`, `DECISIONS.md`, `SPEC_HE.md`, `parameters.json`, `PARTS.csv`, `interfaces.csv`, `OPEN_ISSUES.csv` ו-`LEGACY_REGISTER.md` של ETG-01. שערים וחוזי ממשקים גוברים על חיסכון.
+
+## שלב A — ChatGPT (תכנון ראשוני קיים; איסוף מקור פתוח)
+1. **אל תתחיל מחדש:** השתמש בעשרת קובצי ETG-000 שב-PR #19: 13 משפחות חלקים זמניות, 24 ממשקים ו-10 חסמים. אלו נתוני G0 לתכנון, לא מכלול CAD מאומת.
+2. **שמור זהות מוצר:** גוף קופסת אתרוג נומינלי `260×160×150 mm`, בירץ 6 מ"מ נומינלי, משטח `H800×W440 mm` לאורך Y, ו-FCIPH מעץ בלבד. **אין לייבא את מידת 310 מ"מ / V8.3.9 של קופסת המגילה**. מידות פרי מטרה היסטוריות 200×100 מ"מ דורשות תרגום למעטפת חלל שימושית והערכה מחדש — אינן נתון CAD מאומת.
+3. **מה נמצא בארכיון ChatGPT Library:** `V7_2_FCIPH_FINAL_REPORT_HE.md`, `V7_6_FINAL_REPORT_HE.md`, `V7_6_FULL_CONNECTION_AUDIT.csv`, `V7_6_CORRECTIONS.csv`. V7.6 מציג **108 PASS / 6 corrections** כהיסטוריה בלבד; הבדיקות לא הורצו מחדש. קובצי **מקור פרמטרי ו-DXF מקוריים של V7.6 לא אותרו** בחיפוש המסמכים ובמאגר ETG-000 עד לסקירה זו; אין להציגם כמשוחזרים או כמאומתים. בדוק קודם האם אפשר להביא את חבילת המקור המקורית מהפרויקט הישן, ולתעד SHA.
+4. **הפרשי מקור לבדיקה:** בין V7.2 ל-V7.6 שטח `anchor glue land` משתנה מ-392.7 ל-339.9 מ"מ²; חפיפת ear/body המדווחת משתנה מ-288 ל-528 מ"מ². ייתכן שאלו גרסאות או הגדרות מדידה שונות — אל תקבע ערך לפני בדיקת CAD. מלבני Nesting היסטוריים מתועדים בצירים X עד 800/Y עד 440, לעומת צירי המשטח הפעילים X עד 440/Y עד 800; אין להמיר PASS היסטורי לאישור קובץ חדש.
+5. **בדיקת G0 ישירה:** השווה רשימת חלקים, כל קצוות IF, מדיניות סטטוסים FROZEN/PROVISIONAL/OPEN, נוסחאות מרווח רדיאלי `(32.8-32)/2=0.4`, `(14.6-14)/2=0.3`, תלות בין חלקים ושטח גוף/מעטפת ציר. הפק רשימת חריגים מרוכזת; אל תייצר מחדש DXF או גלריה לצורך סקירה.
+6. אם מקור V7.6 אינו נגיש, **עצור לפני עבודת CAD** עם `INPUT_MISSING`, פרט את המינימום הדרוש ממקור ישן. אל תפעיל Codex לייצר מחדש את כל המוצר כדי לעקוף חוסר מידע.
+
+## האם ומתי להפעיל Codex
+- **B1 בדיקת היתכנות:** רק אם נותר ספק ממשי בר־בדיקה גאומטרית במקור שהושג (למשל מסלול הרכבת FCIPH, מכסה 0–120°, או ממשק פינה). משימה קצרה אחת ו-`GO / REVISE / NO-GO`; לעצור אחרי B1.
+- **B2 מימוש:** רק לאחר מיצוי שלב A, מקור מאומת / החלטת שחזור מתועדת וסקירת B1 אם הייתה; לבחור תת-מכלול אחד בלבד, לייצא רק קבצים הכרחיים, עם בדיקות חיבור, מסלול הכנסה ובדיקות שליליות מבוססות סיכון. לא לבנות את ETG-001..008 אוטומטית בבת אחת.
+- לפני טענת G2b נדרש אימות מכלול מלא, לרבות מנגנון הציר, כל חלקי הפינות, סדר הרכבה והיעדר התנגשויות לאורך המסלול. בדיקה פיזית G3, kerf, עובי חומר, הדבקה ומנגנון שחרור לייצור G4 נשארים `NOT_RUN`.
+
+## שער QA / PR
+- PR #19 הוא **G0_DRAFT** בלבד. יש להמשיך לבדיקת נתוני G0, בדיקות שליליות רלוונטיות ו-QA עצמאי עם ציון >=90/100 ואפס חסמי CRITICAL *בתחום אישור ה-G0*. מקור CAD חסר יכול להישאר חסם לשער G1/G2, בתנאי ש-G0 אינו טוען אחרת וסוקר ה-G0 מאשר שהיקף ההוכחה מוגבל במפורש.
+- אם ChatGPT שינה את התיעוד, בדיקתו היא `SELF_REVIEW`, לא QA עצמאי. אין מיזוג עצמי/אוטומטי.
+- דווח: מזהה SHA/PR, מספר מקרי בדיקה ייחודיים, PASS/FAIL/NOT_RUN, כישלונות ותיקונים, ממשקי IF פתוחים, המשימה הבאה והמבצע המומלץ; אין לטעון מספרי בדיקות חדשים על סמך דוחות V7.6.
+
+## המשימה הבאה
+**ETG-000 G0 SOURCE-RECONCILIATION (P1; ChatGPT first):** להשיג או לזהות את חבילת קוד המקור וה-DXF המקוריים של V7.6; לקשור גרסה ו-hash, להתאים את ההחלטות ו-24 הממשקים לראיות. אם אינה בנמצא, לסמן `INPUT_MISSING` ולבקש אך ורק חבילת המקור, בלי לבצע שחזור CAD מיותר. לאחר מכן לקדם QA עצמאי ל-PR #19.
