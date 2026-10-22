@@ -27,7 +27,7 @@ Original H1-IF2 candidate allows a nominal free clearance of **0.2mm** around a 
 - Fresh extraction and local source rerun: **PASS**, without relying on original /mnt/data paths.
 
 ## Source and QA location
-Complete versioned user-chat ZIP **`MEB011_T1_DESIGN_ONLY.zip`**, SHA256 TO BE RECORDED ON FINAL EXPORT. Contains the base inherited source, `build_variant_t1.py`, `run_t1.py`, `qa_secondary_T1.py`, 24 DXF+SVG, 2 nested DXF+SVG with PNG previews, and raw JSON self-audit. **No full CAD/binary files are committed in this PR**. PR content is traceability/evidence summary only; independent reviewer needs the actual ZIP. Original archive MEB_H1_Integrated_To_Nesting_DESIGN_ONLY.zip unchanged.
+Complete versioned user-chat ZIP **`MEB011_T1_DESIGN_ONLY.zip`**, SHA256 `4ce6a132bdb7a8fea9a98739a2b1d8d65c5644e11bbad10b92944a9ddd08d335`. Contains the base inherited source, `build_variant_t1.py`, `run_t1.py`, `qa_secondary_T1.py`, 24 DXF+SVG, 2 nested DXF+SVG with PNG previews, and raw JSON self-audit. **No full CAD/binary files are committed in this PR**. PR content is traceability/evidence summary only; independent reviewer needs the actual ZIP. Original archive MEB_H1_Integrated_To_Nesting_DESIGN_ONLY.zip unchanged.
 
 ## Strict stop before manufacturing
 - Genuine independent QA and full G2a joined load-path / mechanical retainer/insertion contract, full 24-piece assembly, and material tests are all outstanding.
@@ -37,3 +37,6 @@ Complete versioned user-chat ZIP **`MEB011_T1_DESIGN_ONLY.zip`**, SHA256 TO BE R
 - **G3 NOT_RUN / G4 NOT_APPROVED**. This document and T1 cuts are **DESIGN_ONLY**.
 
 **Next task:** MEB-012 / P1 — ChatGPT-first positive-joint connection study for five lid groups (rail↔rib, rail↔socket, socket↔ear, endcheek↔socket) with explicit mechanical load-transfer and assembled insertion paths. Only rerun affected part/nesting regression; Codex not justified simply by exporting known CAD. If major architecture changes required, escalate design to owner first.
+
+## Final artifact checksum
+The complete ZIP in the user's conversation is `MEB011_T1_DESIGN_ONLY.zip`, SHA256 `4ce6a132bdb7a8fea9a98739a2b1d8d65c5644e11bbad10b92944a9ddd08d335`, 71 files, ZIP integrity PASS. Full source and 24 DXF/SVG profiles and both nesting sets are in that ZIP, **not GitHub**. Fresh-directory regeneration of the candidate: primary model PASS 21/21 + 441/441 angles; second same-author method 16/17, failing only rigid surface-contact continuity; no independent QA claimed.
