@@ -1,0 +1,97 @@
+{
+  "task": "MEB-006 B1",
+  "executor": "ChatGPT direct",
+  "designOnly": true,
+  "result": "GO_FOR_NOMINAL_RIGID_2p5D_GEOMETRY_ONLY",
+  "requirements": {
+    "usableXMinMm": 310,
+    "nominalInsideXmm": 312,
+    "openingDeg": 110,
+    "stockHeightMm": 800,
+    "stockWidthMm": 440
+  },
+  "geometry": {
+    "roofRadialThicknessMm": 4,
+    "baseRoofX": [
+      14,
+      322
+    ],
+    "earLeftX": [
+      10,
+      14
+    ],
+    "earRightX": [
+      322,
+      326
+    ],
+    "earSInnerArcMm": [
+      40,
+      56
+    ],
+    "socketLeftX": [
+      5.5,
+      11.5
+    ],
+    "socketRightX": [
+      324.5,
+      330.5
+    ],
+    "captureChannelSInnerArcMm": [
+      36,
+      60
+    ],
+    "windowSInnerArcMm": [
+      39.5,
+      56.5
+    ],
+    "windowRadialMM": [
+      "R-0.2",
+      "R+4.2"
+    ],
+    "outerLipRadialThicknessMm": 2.1
+  },
+  "checks": {
+    "selfAssertionsPassed": 13,
+    "selfAssertionsTotal": 13,
+    "motionAngles441": {
+      "tested": 441,
+      "colliding": 0
+    },
+    "motionAngles1101": {
+      "tested": 1101,
+      "colliding": 0
+    },
+    "localSocketInsertionPositions": {
+      "tested": 50,
+      "colliding": 0
+    },
+    "negativeUnrelieved": {
+      "tested": 441,
+      "colliding": 256
+    },
+    "negativeFullRoofExtension": {
+      "tested": 111,
+      "colliding": 111
+    },
+    "movingMovingSnapshots": {
+      "angles": [
+        0,
+        55,
+        110
+      ],
+      "collisions": 0
+    },
+    "dxfReparse": 2
+  },
+  "corrections": 3,
+  "limits": [
+    "2.5D prismatic sampled angular CAD only, not full solid continuous sweep proof",
+    "Full assembly and safety retention not demonstrated",
+    "Wood lip strength/adhesive/wear/kerf bend not tested",
+    "No independent QA",
+    "G3/G4 NOT_RUN"
+  ],
+  "userZipName": "MEB006_CHATGPT_B1_DESIGN_ONLY.zip",
+  "userZipSHA256": "4ce43518edeb57e92e0e30b195337ead8db096931460817a86b71c2e02f52f08",
+  "repoContainsGeneratedCode": false
+}
