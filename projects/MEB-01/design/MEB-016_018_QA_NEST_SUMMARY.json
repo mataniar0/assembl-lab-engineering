@@ -1,0 +1,64 @@
+{
+  "project": "MEB-01",
+  "variant": "MEB-016–018 FJ on J3",
+  "status": "DESIGN_ONLY",
+  "ownerFrozen": {
+    "minUsableInnerAxialMm": 310,
+    "openDeg": 110,
+    "stockWidthMm": 440,
+    "stockHeightMm": 800
+  },
+  "fingerGroups": {
+    "endFront": 6,
+    "endBack": 6,
+    "endFloor": 6,
+    "floorFront": 5,
+    "floorBack": 5
+  },
+  "totalFingerUnits": 28,
+  "modifiedParts": [
+    "BODY_END_L",
+    "BODY_END_R",
+    "BODY_FRONT",
+    "BODY_BACK",
+    "BODY_FLOOR"
+  ],
+  "counts": {
+    "allParts": 26,
+    "wood6mm": 21,
+    "wood4mm": 5
+  },
+  "checks": {
+    "primaryPassed": 18,
+    "primaryTotal": 18,
+    "secondarySameAuthorPassed": 113,
+    "secondarySameAuthorTotal": 113,
+    "angles": 441,
+    "collidingAngles": 0,
+    "endInstallPoseSamples": 162,
+    "floorInsertPoseSamples": 61,
+    "negativeOriginalEndCheek": "EXPECTED_FAIL",
+    "correctedQAScriptItems": 2
+  },
+  "nest": {
+    "board6mm": 1,
+    "board4mm": 1,
+    "boardWidthMm": 440,
+    "boardHeightMm": 800,
+    "minContourGapMm": 4.4,
+    "marginMm": 10,
+    "roofTheoreticalCenterlines": 209
+  },
+  "handoffZip": {
+    "name": "MEB016_018_FINGER_JOINTS_TO_NESTING_DESIGN_ONLY.zip",
+    "sha256": "3f706c915122777203aa6175771ff01f4bc386380a20d82506e0bb352cd0115c",
+    "entries": 111,
+    "inGitHub": false
+  },
+  "gates": {
+    "G2": "PARTIAL_NOMINAL_MODEL_ONLY",
+    "G3": "NOT_RUN",
+    "G4": "NOT_APPROVED",
+    "independentQA": "PENDING"
+  }
+}
