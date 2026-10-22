@@ -1,0 +1,13 @@
+blocker_id,severity,description,owner_task,gate_blocked,closure_evidence
+B01,CRITICAL,Native parametric sources and exported V7.6 DXF may not be available in engineering repo,ETG-000,G1/G2,Recover legacy sources with hashes; if unavailable record source gap and scoped H1 CAD decision
+B02,HIGH,"Physical birch thickness kerf glue cap recess and H1 wear are not measured",ETG-007,G3/G4,Document instrumented calibration coupons and fit tests
+B03,HIGH,H1 rear envelope not designed; FCIPH ~178.4 depth is superseded,ETG-000/003,G0/G2b,Derive H1 outer envelope without changing approved body size
+B04,HIGH,Rear H1 layered support may change legacy 96 laminated slice geometry,ETG-002,G1/G2,Provenance-tested BOM and model
+B05,HIGH,H1 pin installation and 0-120deg lid swing path unproven,ETG-003/006,G2a/G2b,Solid model with swept assemblies and accessible insertion path
+B06,MEDIUM,"Optional removable etrog tray not yet checked against current body, hinge and closure",ETG-005,G2b,Parametric tray and clearance/installation evidence
+B07,MEDIUM,"Final lid inscription, decorative cutouts and finish not selected as release configuration",OWNER,G1/G5,Decision log selecting variant
+B08,CRITICAL,"No physical prototype, release approval or tested nesting/laser cut stock",ETG-007/008,G3/G4,"Material/kerf trials, revised nesting and release evidence"
+B09,HIGH,FCIPH old nesting is not H1 manufacturing evidence; old x800 y440 axes differ,ETG-000/008,G0/G4,Regenerate portrait X<=440 Y<=800 and validate exported contours
+B10,MEDIUM,"Legacy 108 PASS / six corrections from V7.6 are historical report claims, not repeatable G0 independent QA",ETG-000,G0/G1,"Reproduce validator on native source, fresh reports, negative controls"
+B11,HIGH,H1 flush cap must positively retain wooden pin while preserving rotation,ETG-003,G1/G2a,Prove actual capture geometry and removal/escape negative tests
+B12,HIGH,H1 two pivot axis coaxiality and full 0-120deg motion not validated,ETG-003/006,G2a/G2b,Source driven solid model continuous sweep and finite assembly path
