@@ -1,0 +1,361 @@
+{
+  "CTB014_evidence_git_commit": "2e28d0138f2c2b20260677aa24fba9fd7eba8c91",
+  "CTB014_evidence_sha256": "3fc8ac39c9f045b1ebeb342a5c4b8085a47ba11b20af052d9a260cf9f1461058",
+  "assembly_path": {
+    "full_six_DOF_impossibility_claimed": false,
+    "reason": "positive-volume collisions along the actual continuous R2 route are sufficient to reject it; no feasible alternate closure path is supplied/proved",
+    "status": "BLOCKED_BY_INTERIOR_POSE",
+    "tested": "existing R1 then R2 lower70mm onto lower skin, top afterwards",
+    "whole_shell_sweeps": 0
+  },
+  "cases": [
+    {
+      "contours": 64,
+      "id": "P07R1/SVG",
+      "status": "PASS"
+    },
+    {
+      "audit_errors": 0,
+      "audit_fixes_in_memory_only": [
+        {
+          "code": 110,
+          "message": "Fixed invalid table head handle in table LAYER"
+        }
+      ],
+      "id": "P07R1/DXF",
+      "source_file_written": false,
+      "status": "PASS",
+      "vertices_equal_SVG": true
+    },
+    {
+      "fillet": "none, sharp polygon vertices; not curvature/strength-qualified",
+      "head_mm": 14.0,
+      "holes_unchanged": true,
+      "id": "P07R1/lands_curvature",
+      "kerfs": 63,
+      "neck_one_sided_section_mm": 12.000000909090907,
+      "notch_to_kerf_land_mm": 6.0,
+      "shortened_kerfs": 18,
+      "status": "PASS",
+      "tip_mm": 6.0
+    },
+    {
+      "contours": 64,
+      "id": "P07R2/SVG",
+      "status": "PASS"
+    },
+    {
+      "audit_errors": 0,
+      "audit_fixes_in_memory_only": [
+        {
+          "code": 110,
+          "message": "Fixed invalid table head handle in table LAYER"
+        }
+      ],
+      "id": "P07R2/DXF",
+      "source_file_written": false,
+      "status": "PASS",
+      "vertices_equal_SVG": true
+    },
+    {
+      "fillet": "none, sharp polygon vertices; not curvature/strength-qualified",
+      "head_mm": 14.0,
+      "holes_unchanged": true,
+      "id": "P07R2/lands_curvature",
+      "kerfs": 63,
+      "neck_one_sided_section_mm": 12.000000909090907,
+      "notch_to_kerf_land_mm": 6.0,
+      "shortened_kerfs": 18,
+      "status": "PASS",
+      "tip_mm": 6.0
+    },
+    {
+      "id": "P07R1|P07B/final",
+      "overlap_mm3": 2.470937002805034e-09,
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1|P07T/final",
+      "overlap_mm3": 2.470937002805025e-09,
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2|P07B/final",
+      "overlap_mm3": 2.4540873306917894e-09,
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2|P07T/final",
+      "overlap_mm3": 2.454087330691783e-09,
+      "status": "PASS"
+    },
+    {
+      "analytic_rounding_residual_mm3": 5.682734548951175e-07,
+      "domain_covers_all_possible_seam_overlap": true,
+      "id": "seam_phase15/final",
+      "native_joint_domain_h_s_mm": [
+        0.0,
+        -10.0,
+        50.0,
+        3.0
+      ],
+      "overlap_mm3": 0.0,
+      "solid_volumes_mm3": [
+        983.9999999999022,
+        1615.9999857932366
+      ],
+      "status": "PASS",
+      "valid_connected_solids": 2
+    },
+    {
+      "analytic_pose_overlap_mm3": 63.99999801104188,
+      "collision_bbox_xyz_mm": [
+        165.17331619543066,
+        36.5753938707088,
+        466.9999998999999,
+        170.95006101738656,
+        45.293332992941124,
+        474.0000001
+      ],
+      "fixed": "P07R1",
+      "id": "seam_phase15/R2_vertical_route",
+      "interior_route_pose_xyz_mm": [
+        0,
+        0,
+        2
+      ],
+      "moving": "P07R2",
+      "overlap_mm3": 63.99999867402044,
+      "status": "FAIL"
+    },
+    {
+      "analytic_rounding_residual_mm3": 5.682734548951175e-07,
+      "domain_covers_all_possible_seam_overlap": true,
+      "id": "seam_phase195/final",
+      "native_joint_domain_h_s_mm": [
+        0.0,
+        -10.0,
+        50.0,
+        3.0
+      ],
+      "overlap_mm3": 0.0,
+      "solid_volumes_mm3": [
+        983.9999999998975,
+        1615.999985793244
+      ],
+      "status": "PASS",
+      "valid_connected_solids": 2
+    },
+    {
+      "analytic_pose_overlap_mm3": 63.99999801104189,
+      "collision_bbox_xyz_mm": [
+        -170.95006101738656,
+        -45.29333299294109,
+        477.9999999,
+        -165.17331619543066,
+        -36.575393870708844,
+        485.0000001000001
+      ],
+      "fixed": "P07R1",
+      "id": "seam_phase195/R2_vertical_route",
+      "interior_route_pose_xyz_mm": [
+        0,
+        0,
+        2
+      ],
+      "moving": "P07R2",
+      "overlap_mm3": 63.9999986740188,
+      "status": "FAIL"
+    },
+    {
+      "detected_overlap_mm3": 2.7810913292739774,
+      "id": "negative/old_shortened_seam",
+      "status": "PASS"
+    },
+    {
+      "detected_overlap_mm3": 3141.3366067103934,
+      "id": "negative/filled_skin_notches",
+      "status": "PASS"
+    },
+    {
+      "id": "source_and_route_provenance",
+      "inherited_R2_route_mm": [
+        70,
+        0
+      ],
+      "sources_unchanged": true,
+      "status": "PASS"
+    }
+  ],
+  "checker_repairs": 1,
+  "counts": {
+    "checker_repairs": 1,
+    "fail": 2,
+    "negative_controls": 2,
+    "parser_metadata_audit_fixes_in_memory_only": 2,
+    "pass": 15,
+    "source_repairs": 0,
+    "unique_cases": 17
+  },
+  "decision": "REVISE / CURRENT_VERTICAL_ROUTE_NO_GO / STOP_AFTER_B1 / LEAD_REVIEW_PENDING",
+  "development_history": "One successful local wrapped-face construction prototype preceded the formal run; no failed prototype or old global suite.",
+  "diagnostic_STEP": {
+    "composition": "2 fixed +2 moved +4 disconnected common lobes",
+    "scope": "two local route counterexamples; not whole shell/production parts",
+    "sha256": "9a79df3422d5e2efc65ed305e734209fff462bd848395082241c40984dbcd4ee",
+    "valid_reimported_solids": 8
+  },
+  "engine": {
+    "cadquery": "2.7.0",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "ezdxf": "1.4.4",
+    "shapely": "2.1.2"
+  },
+  "execution_history": [
+    {
+      "attempt": 1,
+      "detail": "Expected6 STEP solids but each common splits into2 valid lobes,8 total. All17 geometric/file cases already evaluated.",
+      "original_failure": {
+        "detail": "",
+        "traceback": "Traceback (most recent call last):\n  File \"/workspace/assembl-lab-engineering/projects/CTB-01/studies/CTB-015-B1/verify_b1.py\", line 244, in <module>\n    try:run(out)\n        ^^^^^^^^\n  File \"/workspace/assembl-lab-engineering/projects/CTB-01/studies/CTB-015-B1/verify_b1.py\", line 229, in run\n    assert len(solids)==6 and all(s.isValid() for s in solids)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+      },
+      "outcome": "ARTIFACT_COUNT_CHECKER_FALSE_FAILURE"
+    },
+    {
+      "attempt": 2,
+      "outcome": "TARGETED_ARTIFACT_FINALIZATION",
+      "scope": "STEP re-import and result accounting only; no Boolean/case-suite replay"
+    }
+  ],
+  "final_seams": [
+    {
+      "analytic_rounding_residual_mm3": 5.682734548951175e-07,
+      "domain_covers_all_possible_seam_overlap": true,
+      "id": "seam_phase15/final",
+      "native_joint_domain_h_s_mm": [
+        0.0,
+        -10.0,
+        50.0,
+        3.0
+      ],
+      "overlap_mm3": 0.0,
+      "solid_volumes_mm3": [
+        983.9999999999022,
+        1615.9999857932366
+      ],
+      "status": "PASS",
+      "valid_connected_solids": 2
+    },
+    {
+      "analytic_rounding_residual_mm3": 5.682734548951175e-07,
+      "domain_covers_all_possible_seam_overlap": true,
+      "id": "seam_phase195/final",
+      "native_joint_domain_h_s_mm": [
+        0.0,
+        -10.0,
+        50.0,
+        3.0
+      ],
+      "overlap_mm3": 0.0,
+      "solid_volumes_mm3": [
+        983.9999999998975,
+        1615.999985793244
+      ],
+      "status": "PASS",
+      "valid_connected_solids": 2
+    }
+  ],
+  "formal_executions": 1,
+  "interfaces": [
+    "IF-10",
+    "IF-11"
+  ],
+  "minimum_recommendation": "Final interference correction is not warranted by the sub-tolerance rounding residual. Revise/prove the closing motion/sequence before nesting. If vertical lowering must be retained, source head/receiver undercut must change under lead-reviewed CR; do not add guessed kerf/clearance or silently edit profiles. Correct LAYER table handle metadata separately.",
+  "not_run": [
+    "alternate radial/elastic/preclosure6DOF routes",
+    "whole table/old global suites/B2",
+    "nesting/CTB016",
+    "measured kerf, physical bend/fit/glue/strength"
+  ],
+  "numerical_tolerances": {
+    "curve3D_mm": 1e-09,
+    "overlap_mm3": 0.0001,
+    "sewing_mm": 1e-06,
+    "source_rounding_mm": 1e-06
+  },
+  "parser_audit_fixes_in_memory": [
+    {
+      "code": 110,
+      "message": "Fixed invalid table head handle in table LAYER"
+    },
+    {
+      "code": 110,
+      "message": "Fixed invalid table head handle in table LAYER"
+    }
+  ],
+  "path_counterexamples": [
+    {
+      "analytic_pose_overlap_mm3": 63.99999801104188,
+      "collision_bbox_xyz_mm": [
+        165.17331619543066,
+        36.5753938707088,
+        466.9999998999999,
+        170.95006101738656,
+        45.293332992941124,
+        474.0000001
+      ],
+      "fixed": "P07R1",
+      "id": "seam_phase15/R2_vertical_route",
+      "interior_route_pose_xyz_mm": [
+        0,
+        0,
+        2
+      ],
+      "moving": "P07R2",
+      "overlap_mm3": 63.99999867402044,
+      "status": "FAIL"
+    },
+    {
+      "analytic_pose_overlap_mm3": 63.99999801104189,
+      "collision_bbox_xyz_mm": [
+        -170.95006101738656,
+        -45.29333299294109,
+        477.9999999,
+        -165.17331619543066,
+        -36.575393870708844,
+        485.0000001000001
+      ],
+      "fixed": "P07R1",
+      "id": "seam_phase195/R2_vertical_route",
+      "interior_route_pose_xyz_mm": [
+        0,
+        0,
+        2
+      ],
+      "moving": "P07R2",
+      "overlap_mm3": 63.9999986740188,
+      "status": "FAIL"
+    }
+  ],
+  "physical_kerf_allowance": "NONE; source zero compensation, no measured fit",
+  "priority": "P1",
+  "release": "DESIGN_ONLY / STOP_AFTER_B1 / NO_CUTTING_APPROVAL / G3_NOT_RUN / G4_BLOCKED",
+  "source_commit": "3ca8e38cc084e82f237b427903249282ebe4d1e2",
+  "source_repairs": 0,
+  "source_sha256": {
+    "projects/CTB-01/assemblies/bonded-b2/evidence.json": "a807b2405448b5b5b993cbb7d0c64a24388ba61e400387b77c322fcab77d68bb",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07B_TABBED_DESIGN_ONLY.svg": "cc261639c5ecc9d46188f986c6a3c51f078843b6be2b1f8197dbca6c783a4b6c",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07T_TABBED_DESIGN_ONLY.svg": "7e5d6ccb82333e5721d0a9bdbeaae22c42be855d64ea2dc06aad35da8955bdfb",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/P07R1_PUZZLE_DESIGN_ONLY.svg": "02c6dc2139d55cc159a5729866d28fce45d5a8a5678d439e060bd2fb417da851",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/P07R2_PUZZLE_DESIGN_ONLY.svg": "f76d7814cc6e90689234e7f8c50130d22c21f5f9ea3d7fb652bdcfdca1379215",
+    "projects/CTB-01/studies/CTB-015-CHATGPT/NEXT_CODEX_B1.md": "3d0a9c3e4a51a47cf1e2ffbe0516d7fba9b5c8d8fe3b3365c713e181bf90b7c8",
+    "projects/CTB-01/studies/CTB-015-CHATGPT/P07R1_LENGTH_CORRECTED_DESIGN_ONLY.dxf": "b2f40b26d2ea2a7dc53ea50f61f551fe7835e7acec0cd8afb2b8b6874d359a8d",
+    "projects/CTB-01/studies/CTB-015-CHATGPT/P07R1_LENGTH_CORRECTED_DESIGN_ONLY.svg": "ec5d43c47420a0496eb5043a6619b3ff1e5584b3fe9814f53022a7cbd158f66d",
+    "projects/CTB-01/studies/CTB-015-CHATGPT/P07R2_LENGTH_CORRECTED_DESIGN_ONLY.dxf": "b2f40b26d2ea2a7dc53ea50f61f551fe7835e7acec0cd8afb2b8b6874d359a8d",
+    "projects/CTB-01/studies/CTB-015-CHATGPT/P07R2_LENGTH_CORRECTED_DESIGN_ONLY.svg": "301c49b52be85b8755b5749b87e8d7a7806dab163d77fe9d8bcbbfe8308075ca",
+    "projects/CTB-01/studies/CTB-015-CHATGPT/RESULT.md": "4b50ecc4327be500af13e35dfd47699d1df43739cf724325c34ead7c0a690933"
+  },
+  "stage": "B1_ONLY",
+  "task": "CTB-015",
+  "units": "mm; native rim x=h,y=s; theta=phase+(s\u22120.2)/173; rho171..175; Z450+h"
+}
