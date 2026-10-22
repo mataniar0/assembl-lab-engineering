@@ -1,0 +1,373 @@
+{
+  "project": "CTB-01",
+  "milestone": "CTB-017",
+  "status": "DESIGN_ONLY / NESTING_PLANNING_ONLY / ASSEMBLY_ROUTE_NOT_VERIFIED",
+  "original_nesting": "CTB-016-PROVISIONAL-NESTING",
+  "sheet_width_mm": 440,
+  "sheet_height_mm": 800,
+  "edge_margin_target_mm": 10,
+  "part_gap_target_mm": 5,
+  "kerf_compensation_mm": 0,
+  "source_p07": "CTB-012 tabbed skins and CTB-015 corrected rim puzzle seam",
+  "sheet_count": {
+    "birch6": 3,
+    "birch4": 1,
+    "total": 4
+  },
+  "body_count": 32,
+  "contours": 213,
+  "sheets": [
+    {
+      "id": "BIRCH6_S01",
+      "thickness_mm": 6,
+      "body_count": 6,
+      "contours": 42,
+      "bodies": [
+        {
+          "id": "L1_P01_1",
+          "bbox_mm": [
+            10,
+            10,
+            237,
+            498
+          ],
+          "contours": 7
+        },
+        {
+          "id": "L1_P01_2",
+          "bbox_mm": [
+            70,
+            10,
+            297,
+            498
+          ],
+          "contours": 7
+        },
+        {
+          "id": "L2_P01_1",
+          "bbox_mm": [
+            140,
+            10,
+            367,
+            498
+          ],
+          "contours": 7
+        },
+        {
+          "id": "L2_P01_2",
+          "bbox_mm": [
+            200,
+            125,
+            427,
+            613
+          ],
+          "contours": 7
+        },
+        {
+          "id": "P04L",
+          "bbox_mm": [
+            10,
+            560,
+            199.890304,
+            750
+          ],
+          "contours": 7
+        },
+        {
+          "id": "P04U",
+          "bbox_mm": [
+            240,
+            570,
+            429.890304,
+            760
+          ],
+          "contours": 7
+        }
+      ]
+    },
+    {
+      "id": "BIRCH6_S02",
+      "thickness_mm": 6,
+      "body_count": 22,
+      "contours": 35,
+      "bodies": [
+        {
+          "id": "L3_P01_1",
+          "bbox_mm": [
+            10,
+            10,
+            237,
+            498
+          ],
+          "contours": 7
+        },
+        {
+          "id": "L3_P01_2",
+          "bbox_mm": [
+            70,
+            10,
+            297,
+            498
+          ],
+          "contours": 7
+        },
+        {
+          "id": "P06_BONDED",
+          "bbox_mm": [
+            215,
+            240,
+            425.292059,
+            482.668748
+          ],
+          "contours": 2
+        },
+        {
+          "id": "P03",
+          "bbox_mm": [
+            10,
+            505,
+            144.388973,
+            660.024318
+          ],
+          "contours": 1
+        },
+        {
+          "id": "P05_1",
+          "bbox_mm": [
+            155,
+            505,
+            243,
+            543
+          ],
+          "contours": 1
+        },
+        {
+          "id": "P05_2",
+          "bbox_mm": [
+            248,
+            505,
+            336,
+            543
+          ],
+          "contours": 1
+        },
+        {
+          "id": "P05_3",
+          "bbox_mm": [
+            341,
+            505,
+            429,
+            543
+          ],
+          "contours": 1
+        },
+        {
+          "id": "P05_4",
+          "bbox_mm": [
+            155,
+            548,
+            243,
+            586
+          ],
+          "contours": 1
+        },
+        {
+          "id": "P05_5",
+          "bbox_mm": [
+            248,
+            548,
+            336,
+            586
+          ],
+          "contours": 1
+        },
+        {
+          "id": "P05_6",
+          "bbox_mm": [
+            341,
+            548,
+            429,
+            586
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L1_S1",
+          "bbox_mm": [
+            10,
+            668,
+            50,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L2_S1",
+          "bbox_mm": [
+            55,
+            668,
+            95,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L3_S1",
+          "bbox_mm": [
+            100,
+            668,
+            140,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L1_S2",
+          "bbox_mm": [
+            145,
+            668,
+            175,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L1_S3",
+          "bbox_mm": [
+            180,
+            668,
+            210,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L1_S4",
+          "bbox_mm": [
+            215,
+            668,
+            245,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L2_S2",
+          "bbox_mm": [
+            250,
+            668,
+            280,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L2_S3",
+          "bbox_mm": [
+            285,
+            668,
+            315,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L2_S4",
+          "bbox_mm": [
+            320,
+            668,
+            350,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L3_S2",
+          "bbox_mm": [
+            355,
+            668,
+            385,
+            695
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L3_S3",
+          "bbox_mm": [
+            10,
+            700,
+            40,
+            727
+          ],
+          "contours": 1
+        },
+        {
+          "id": "L3_S4",
+          "bbox_mm": [
+            45,
+            700,
+            75,
+            727
+          ],
+          "contours": 1
+        }
+      ]
+    },
+    {
+      "id": "BIRCH6_S03",
+      "thickness_mm": 6,
+      "body_count": 2,
+      "contours": 8,
+      "bodies": [
+        {
+          "id": "P07B",
+          "bbox_mm": [
+            10.2,
+            15.2,
+            359.8,
+            364.8
+          ],
+          "contours": 7
+        },
+        {
+          "id": "P07T",
+          "bbox_mm": [
+            10.2,
+            385.2,
+            359.8,
+            734.8
+          ],
+          "contours": 1
+        }
+      ]
+    },
+    {
+      "id": "BIRCH4_S01",
+      "thickness_mm": 4,
+      "body_count": 2,
+      "contours": 128,
+      "bodies": [
+        {
+          "id": "P07R1",
+          "bbox_mm": [
+            10,
+            12.2,
+            60,
+            563.695529
+          ],
+          "contours": 64
+        },
+        {
+          "id": "P07R2",
+          "bbox_mm": [
+            65,
+            12.2,
+            115,
+            563.695529
+          ],
+          "contours": 64
+        }
+      ]
+    }
+  ]
+}
