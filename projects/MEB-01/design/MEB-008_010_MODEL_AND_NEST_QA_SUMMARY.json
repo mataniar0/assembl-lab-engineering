@@ -1,0 +1,91 @@
+{
+  "stage": "DESIGN_ONLY",
+  "ownerApproved": {
+    "minInsideXmm": 310,
+    "openDeg": 110,
+    "stockWidthMm": 440,
+    "stockHeightMm": 800
+  },
+  "provisional": {
+    "outerXmm": 354,
+    "nominalInsideXmm": 312,
+    "backTopZmm": 68.8,
+    "sideBossRearProjectionMm": 9.5,
+    "pinCrossSectionYxZmm": [
+      6,
+      3.4
+    ],
+    "pinHeadSectionYxZmm": [
+      6,
+      10
+    ],
+    "woodLipMm": 2.1,
+    "skinRadialThicknessMm": 4
+  },
+  "pieceCounts": {
+    "total": 24,
+    "birch6mm": 19,
+    "birch4mm": 5
+  },
+  "testEvidence": {
+    "selfAssertions": [
+      21,
+      21
+    ],
+    "sampledAngles": [
+      441,
+      441
+    ],
+    "sampledMixedCollisionAngles": 0,
+    "fullAssemblySnapshots": [
+      0,
+      55,
+      110
+    ],
+    "allpartIntersectionsAtSnapshots": 0,
+    "sampledInsertionPositions": 504,
+    "passingInsertionPaths": 6,
+    "detectedNegativeAssemblyControls": 2,
+    "retentionScans": 8,
+    "technicalCorrectionCycles": 3,
+    "independentQA": "PENDING"
+  },
+  "cutLayout": {
+    "material6mm": {
+      "sheets": 1,
+      "utilizationAreaFraction": 0.253,
+      "partCount": 19,
+      "occupiedHeightApproxMm": 345
+    },
+    "material4mm": {
+      "sheets": 1,
+      "utilizationAreaFraction": 0.1534,
+      "partCount": 5,
+      "occupiedHeightApproxMm": 200,
+      "kerfCenterLinesUncalibrated": 209
+    },
+    "minimumPartClearanceMm": 4,
+    "boardMarginMm": 10,
+    "contourNestingNotJustBoundingBoxes": true,
+    "productionApproved": false
+  },
+  "archive": {
+    "name": "MEB_H1_Integrated_To_Nesting_DESIGN_ONLY.zip",
+    "sha256": "613220637eab6d3f88ad4d037f36a505eb385aa9fe4bacc123726e491b89aad5",
+    "fileEntries": 76,
+    "hostedInRepo": false
+  },
+  "gates": {
+    "G2": "PARTIAL_CAD_RESEARCH_ONLY",
+    "G3": "NOT_RUN",
+    "G4": "NOT_APPROVED"
+  },
+  "physicalUnverified": [
+    "4mm bending and neutral axis",
+    "actual kerf",
+    "strength of integrated plywood shoulder",
+    "adhesive/laminate side panel retention",
+    "assembly of full 24part product",
+    "independent QA"
+  ]
+}
