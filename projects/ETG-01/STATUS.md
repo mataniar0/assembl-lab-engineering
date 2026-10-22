@@ -12,6 +12,12 @@
 ## Baseline status
 The scope is **project redefinition only**. No imported DXF is approved, generated or modified in this task. V7.2 and V7.6 historical reports are evidence to reconcile, NOT newly repeated tests.
 
+## ETG-001R C5 / ETG-004 C6 — 2026-10-22 (ChatGPT)
+- **C5 conditional local:** P01 front/mortises and P05 base were reconstructed with J-tongued P03/P04. 20/20 focused assertion checks PASS, 171 parent-pair static booleans clear, 17 front insertion samples; front P01 still withdraws -Y and bottom P05 -Z, so the sidewall/hinge keeper is **NOT positively captive as a whole-body assembly**.
+- **C6 flat lid NO-GO:** 53/61 angular proxy samples collide with P02 rear; first at 14°, at 120° large clash. 32mm-rear-gap shortening is a bad/unapproved counterfactual, not a design fix. Analytic raised/rear-biased H1 axis Y158/Z146 avoided P02-only intersection across 481 planar samples but would require modified rear/corner extension to approx Y174/Z162, a substantive appearance/interface proposal **NOT APPROVED**; real H1 and entire lid model NOT_RUN.
+- Detailed report in child **Draft PR #71**: `design/ETG-001R_C5_ETG-004_C6_HINGE_BODY_REVIEW.md`. Actual CAD Python, STEP, JSON and section are in conversation ZIP `ETG001R_C5_C6_DESIGN_ONLY.zip`, SHA256 `40a564fc2df26c431326a96fed912fd28ba7a7555bdf4f38a809c93b6d1ceb17`, **not committed to GitHub**.
+- P1 blockers: body P01/P05 closure issue #73 and owner-consistent H1 lid movement issue #74. **Not yet a Codex tools gap**. G0 QA still independent-pending; G1/G2 not approved; G3 physical and G4 manufacturing NOT_RUN.
+
 ## H1 Phase A (ETG-003) — ChatGPT feasibility screening complete, 2026-10-21
 - Design note: `design/ETG-003_H1_PHASE_A_FEASIBILITY_HE.md` on this draft branch.
 - One selected research hypothesis: `H1-ETG-C1` recessed layered fork (rear fixed P06 support / P09+P10 rotating cheeks / P11 pin / P12 flush cap); **candidate only**, not a selected CAD design.
