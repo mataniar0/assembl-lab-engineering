@@ -1,0 +1,543 @@
+{
+  "all_original_sources_unchanged": true,
+  "assembly_path": {
+    "not_claimed": "elastic snap/flex route, material deformation, physical kerf or strength",
+    "reason": "both seams have positive-volume source-material overlap at the proposed final frame; a collision-free rigid path to that final state is impossible",
+    "status": "BLOCKED_AT_FINAL_STATE",
+    "swept_motion_kernel_runs": 0
+  },
+  "cases": [
+    {
+      "contours": 7,
+      "id": "P07B_TABBED_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07B_TABBED_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 64,
+      "id": "P07R1_NOTCHED_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1_NOTCHED_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 64,
+      "id": "P07R1_REINFORCED_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1_REINFORCED_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 64,
+      "id": "P07R2_NOTCHED_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2_NOTCHED_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 64,
+      "id": "P07R2_REINFORCED_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2_REINFORCED_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 1,
+      "id": "P07T_TABBED_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07T_TABBED_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 64,
+      "id": "P07R1_PUZZLE_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1_PUZZLE_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "contours": 64,
+      "id": "P07R2_PUZZLE_DESIGN_ONLY.svg",
+      "scope": "units, closed/simple contours, topology, independent raw DXF/SVG vertex equality",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2_PUZZLE_DESIGN_ONLY.dxf",
+      "raw_coordinates_equal_SVG": true,
+      "source_repaired": false,
+      "standard_import_error": "missing 'AcDbPolyline' subclass in LWPOLYLINE(#None)",
+      "status": "FAIL"
+    },
+    {
+      "id": "CTB012_clean_rebuild",
+      "scope": "12 temporary exports equal source geometry; repo sources not regenerated",
+      "status": "PASS"
+    },
+    {
+      "id": "land/P07R1_NOTCHED_DESIGN_ONLY",
+      "scope": "actual flat notch floors vs every kerf aperture; geometric land only",
+      "status": "PASS"
+    },
+    {
+      "id": "land/P07R1_REINFORCED_DESIGN_ONLY",
+      "scope": "actual flat notch floors vs every kerf aperture; geometric land only",
+      "status": "PASS"
+    },
+    {
+      "id": "land/P07R1_PUZZLE_DESIGN_ONLY",
+      "scope": "actual flat notch floors vs every kerf aperture; geometric land only",
+      "status": "PASS"
+    },
+    {
+      "id": "land/P07R2_PUZZLE_DESIGN_ONLY",
+      "scope": "actual flat notch floors vs every kerf aperture; geometric land only",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1|P07B",
+      "overlap_mm3": 2.467662906533157e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1|P07T",
+      "overlap_mm3": 2.467662906533148e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2|P07B",
+      "overlap_mm3": 2.4569544900417274e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2|P07T",
+      "overlap_mm3": 2.4569544900417207e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "detected_overlap_mm3": 3141.3366067103934,
+      "id": "negative_filled_rim_notches",
+      "status": "PASS"
+    },
+    {
+      "OCC_proved_overlap_lower_bound_mm3": 0.07199200000000205,
+      "analytic_volume_scope": "whole joint under nominal injective cylindrical map; NOT a full-shell Boolean volume",
+      "body_length_mm": 543.0955289999999,
+      "developed_intersection_area_mm2": 0.6952728321449737,
+      "female_body": "P07R2",
+      "half_circumference_mm": 543.4955290710342,
+      "id": "seam1_phase15",
+      "ideal_wrap_overlap_volume_analytic_mm3": 2.781091328579895,
+      "male_body": "P07R1",
+      "per_seam_registration_shortfall_mm": 0.40000007103424196,
+      "source_female_wrapped_rectangle_h_s_mm": [
+        18.3,
+        -3.51999,
+        18.4,
+        -2.20001
+      ],
+      "source_male_rectangle_h_s_mm": [
+        18.3,
+        -4.83999,
+        18.4,
+        -3.34001
+      ],
+      "source_subset_containment_proved": true,
+      "status": "FAIL",
+      "witness_bbox_xyz_mm": [
+        166.04430401597227,
+        40.6964048300152,
+        468.3,
+        169.97180202387716,
+        41.82517456960251,
+        468.40000000000003
+      ]
+    },
+    {
+      "OCC_proved_overlap_lower_bound_mm3": 0.0719919999999948,
+      "analytic_volume_scope": "whole joint under nominal injective cylindrical map; NOT a full-shell Boolean volume",
+      "body_length_mm": 543.0955289999999,
+      "developed_intersection_area_mm2": 0.6952728321449737,
+      "female_body": "P07R1",
+      "half_circumference_mm": 543.4955290710342,
+      "id": "seam2_phase195",
+      "ideal_wrap_overlap_volume_analytic_mm3": 2.781091328579895,
+      "male_body": "P07R2",
+      "per_seam_registration_shortfall_mm": 0.40000007103424196,
+      "source_female_wrapped_rectangle_h_s_mm": [
+        18.3,
+        -3.51999,
+        18.4,
+        -2.20001
+      ],
+      "source_male_rectangle_h_s_mm": [
+        18.3,
+        -4.83999,
+        18.4,
+        -3.34001
+      ],
+      "source_subset_containment_proved": true,
+      "status": "FAIL",
+      "witness_bbox_xyz_mm": [
+        -169.97180202387716,
+        -41.82517456960248,
+        468.3,
+        -166.04430401597227,
+        -40.6964048300152,
+        468.40000000000003
+      ]
+    },
+    {
+      "id": "negative_separated_witnesses",
+      "overlap_mm3": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "checker_adaptations": 1,
+  "checker_repairs": 1,
+  "counts": {
+    "checker_repairs": 1,
+    "fail": 10,
+    "negative_controls": 2,
+    "pass": 19,
+    "source_repairs": 0,
+    "unique_cases": 29
+  },
+  "decision": "NO-GO_CURRENT_NOMINAL_GEOMETRY / STOP_AFTER_B1 / LEAD_REVIEW_PENDING",
+  "engine": {
+    "cadquery": "2.7.0",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "ezdxf": "1.4.4",
+    "shapely": "2.1.2"
+  },
+  "execution_attempts": 3,
+  "execution_history": [
+    {
+      "attempt": 1,
+      "detail": "ezdxf refused first source: missing AcDbPolyline subclass. No CAD cases ran; no sources repaired.",
+      "outcome": "ABORTED_ON_REAL_SOURCE_DXF_FORMAT_ERROR"
+    },
+    {
+      "attempt": 2,
+      "detail": "Raw regenerated DXF bytes compared:39 vs39.0 etc. Independent tag comparison confirms same numeric contours. Corrected checker to numeric vertices. Sources unchanged.",
+      "outcome": "CHECKER_FALSE_FAILURE_BEFORE_CAD"
+    },
+    {
+      "attempt": 3,
+      "detail": "Retain every importer failure; inspect raw original DXF tags to cross-check SVG and permit bounded nominal CAD analysis. No DXF recovery/repair.",
+      "outcome": "DIAGNOSTIC_RUN"
+    }
+  ],
+  "extra_source_only_diagnostic_rebuilds": 1,
+  "geometric_failures": [
+    {
+      "OCC_proved_overlap_lower_bound_mm3": 0.07199200000000205,
+      "analytic_volume_scope": "whole joint under nominal injective cylindrical map; NOT a full-shell Boolean volume",
+      "body_length_mm": 543.0955289999999,
+      "developed_intersection_area_mm2": 0.6952728321449737,
+      "female_body": "P07R2",
+      "half_circumference_mm": 543.4955290710342,
+      "id": "seam1_phase15",
+      "ideal_wrap_overlap_volume_analytic_mm3": 2.781091328579895,
+      "male_body": "P07R1",
+      "per_seam_registration_shortfall_mm": 0.40000007103424196,
+      "source_female_wrapped_rectangle_h_s_mm": [
+        18.3,
+        -3.51999,
+        18.4,
+        -2.20001
+      ],
+      "source_male_rectangle_h_s_mm": [
+        18.3,
+        -4.83999,
+        18.4,
+        -3.34001
+      ],
+      "source_subset_containment_proved": true,
+      "status": "FAIL",
+      "witness_bbox_xyz_mm": [
+        166.04430401597227,
+        40.6964048300152,
+        468.3,
+        169.97180202387716,
+        41.82517456960251,
+        468.40000000000003
+      ]
+    },
+    {
+      "OCC_proved_overlap_lower_bound_mm3": 0.0719919999999948,
+      "analytic_volume_scope": "whole joint under nominal injective cylindrical map; NOT a full-shell Boolean volume",
+      "body_length_mm": 543.0955289999999,
+      "developed_intersection_area_mm2": 0.6952728321449737,
+      "female_body": "P07R1",
+      "half_circumference_mm": 543.4955290710342,
+      "id": "seam2_phase195",
+      "ideal_wrap_overlap_volume_analytic_mm3": 2.781091328579895,
+      "male_body": "P07R2",
+      "per_seam_registration_shortfall_mm": 0.40000007103424196,
+      "source_female_wrapped_rectangle_h_s_mm": [
+        18.3,
+        -3.51999,
+        18.4,
+        -2.20001
+      ],
+      "source_male_rectangle_h_s_mm": [
+        18.3,
+        -4.83999,
+        18.4,
+        -3.34001
+      ],
+      "source_subset_containment_proved": true,
+      "status": "FAIL",
+      "witness_bbox_xyz_mm": [
+        -169.97180202387716,
+        -41.82517456960248,
+        468.3,
+        -166.04430401597227,
+        -40.6964048300152,
+        468.40000000000003
+      ]
+    }
+  ],
+  "interfaces": [
+    "IF-10",
+    "IF-11"
+  ],
+  "kerf_lands": {
+    "P07R1_NOTCHED_DESIGN_ONLY": {
+      "minimum_notch_floor_to_kerf_mm": 2.0,
+      "shortened_slots": 0,
+      "slots": 63
+    },
+    "P07R1_PUZZLE_DESIGN_ONLY": {
+      "minimum_notch_floor_to_kerf_mm": 6.0,
+      "shortened_slots": 18,
+      "slots": 63
+    },
+    "P07R1_REINFORCED_DESIGN_ONLY": {
+      "minimum_notch_floor_to_kerf_mm": 6.0,
+      "shortened_slots": 18,
+      "slots": 63
+    },
+    "P07R2_PUZZLE_DESIGN_ONLY": {
+      "minimum_notch_floor_to_kerf_mm": 6.0,
+      "shortened_slots": 18,
+      "slots": 63
+    }
+  },
+  "mapping": "rho171..175; Z=450+h; theta=phase+(s-0.2)/173; phases15/195 degrees, per CTB-012 README",
+  "mapping_status": "source-defined NOMINAL ideal cylindrical wrap only; no physical bend/kerf/strength assumption",
+  "not_run": [
+    "whole-shell reconstruction and full insertion sweep: stopped at terminal collision witness",
+    "top/bottom insertion path approval; final-band fit is not path proof",
+    "physical snap/bend/kerf/stock/glue/strength",
+    "nesting, B2, historical regressions"
+  ],
+  "numerical_overlap_epsilon_mm3": 0.0001,
+  "open_dependencies": [
+    "IF-07",
+    "IF-08",
+    "IF-12"
+  ],
+  "priority": "P1",
+  "puzzle_neck": {
+    "head_span_at_s_minus4_mm": 14.0,
+    "nominal_neck_one_sided_limit_mm": 12,
+    "source_fillet_radius": "sharp polygon; no specified fillet",
+    "strength": "NOT_RUN_NOT_INFERRED",
+    "tip_span_at_s_minus7p8_mm": 6.0
+  },
+  "release": "DESIGN_ONLY / NO_CUTTING_APPROVAL / G3_NOT_RUN / G4_BLOCKED",
+  "seams": [
+    {
+      "OCC_proved_overlap_lower_bound_mm3": 0.07199200000000205,
+      "analytic_volume_scope": "whole joint under nominal injective cylindrical map; NOT a full-shell Boolean volume",
+      "body_length_mm": 543.0955289999999,
+      "developed_intersection_area_mm2": 0.6952728321449737,
+      "female_body": "P07R2",
+      "half_circumference_mm": 543.4955290710342,
+      "id": "seam1_phase15",
+      "ideal_wrap_overlap_volume_analytic_mm3": 2.781091328579895,
+      "male_body": "P07R1",
+      "per_seam_registration_shortfall_mm": 0.40000007103424196,
+      "source_female_wrapped_rectangle_h_s_mm": [
+        18.3,
+        -3.51999,
+        18.4,
+        -2.20001
+      ],
+      "source_male_rectangle_h_s_mm": [
+        18.3,
+        -4.83999,
+        18.4,
+        -3.34001
+      ],
+      "source_subset_containment_proved": true,
+      "status": "FAIL",
+      "witness_bbox_xyz_mm": [
+        166.04430401597227,
+        40.6964048300152,
+        468.3,
+        169.97180202387716,
+        41.82517456960251,
+        468.40000000000003
+      ]
+    },
+    {
+      "OCC_proved_overlap_lower_bound_mm3": 0.0719919999999948,
+      "analytic_volume_scope": "whole joint under nominal injective cylindrical map; NOT a full-shell Boolean volume",
+      "body_length_mm": 543.0955289999999,
+      "developed_intersection_area_mm2": 0.6952728321449737,
+      "female_body": "P07R1",
+      "half_circumference_mm": 543.4955290710342,
+      "id": "seam2_phase195",
+      "ideal_wrap_overlap_volume_analytic_mm3": 2.781091328579895,
+      "male_body": "P07R2",
+      "per_seam_registration_shortfall_mm": 0.40000007103424196,
+      "source_female_wrapped_rectangle_h_s_mm": [
+        18.3,
+        -3.51999,
+        18.4,
+        -2.20001
+      ],
+      "source_male_rectangle_h_s_mm": [
+        18.3,
+        -4.83999,
+        18.4,
+        -3.34001
+      ],
+      "source_subset_containment_proved": true,
+      "status": "FAIL",
+      "witness_bbox_xyz_mm": [
+        -169.97180202387716,
+        -41.82517456960248,
+        468.3,
+        -166.04430401597227,
+        -40.6964048300152,
+        468.40000000000003
+      ]
+    }
+  ],
+  "skin_final_fit": [
+    {
+      "id": "P07R1|P07B",
+      "overlap_mm3": 2.467662906533157e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R1|P07T",
+      "overlap_mm3": 2.467662906533148e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2|P07B",
+      "overlap_mm3": 2.4569544900417274e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    },
+    {
+      "id": "P07R2|P07T",
+      "overlap_mm3": 2.4569544900417207e-09,
+      "scope": "complete shell material in skin Z band, exact circular-sector BReps; not a whole-shell solid",
+      "status": "PASS"
+    }
+  ],
+  "source_commit": "72595e4cd7164efa44b4ebda8bf48bf7b2c51c11",
+  "source_coordinate_quantization_mm": 1e-06,
+  "source_geometry_repairs": 0,
+  "source_sha256": {
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/CR-CTB-012.md": "4c2233bb4369723f101ce2cae70aa68b53b9d111e9ed8f23bfd8fbc63a39a393",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/DECISIONS.md": "c03c0f6fffa13603d8ad2cd0c53dda00525fad55363712f92dcffcce6335bc91",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07B_TABBED_DESIGN_ONLY.dxf": "e85334e214ae3e7da00e4c969c205f6b21a455d90aa61ede4b4c5d38e9ac10ee",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07B_TABBED_DESIGN_ONLY.svg": "cc261639c5ecc9d46188f986c6a3c51f078843b6be2b1f8197dbca6c783a4b6c",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R1_NOTCHED_DESIGN_ONLY.dxf": "e155abd66dfd669d22168733b14ff43a98f4ea5582266c8c65c0335215d99470",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R1_NOTCHED_DESIGN_ONLY.svg": "60ea6eb7190ed0ea413dab6d5178f215d08bf7964ca3dd2a72dae6beb84f8957",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R1_REINFORCED_DESIGN_ONLY.dxf": "26ff72d80c06d19ef0a529c39c021904a9828e1ac9559d8e8204a8e7393e57c2",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R1_REINFORCED_DESIGN_ONLY.svg": "3ff356067e91be7916fa2f2b56a8564a14f7117866fa8c5249c0d2ffc70101ec",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R2_NOTCHED_DESIGN_ONLY.dxf": "e155abd66dfd669d22168733b14ff43a98f4ea5582266c8c65c0335215d99470",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R2_NOTCHED_DESIGN_ONLY.svg": "85674d4e6e65699cca5f47f15db7307e1bbeb44971fe3477d1b6b67ab8b07c8f",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R2_REINFORCED_DESIGN_ONLY.dxf": "26ff72d80c06d19ef0a529c39c021904a9828e1ac9559d8e8204a8e7393e57c2",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07R2_REINFORCED_DESIGN_ONLY.svg": "089979cda34d78ae01e1a0fc035089ace544051613d7ee1f7a7a795cc095b49e",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07T_TABBED_DESIGN_ONLY.dxf": "d5fe7e611827fd4c4aef71f89c1ce5dfe330ac151df0e4f6996a69b041552803",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/P07T_TABBED_DESIGN_ONLY.svg": "7e5d6ccb82333e5721d0a9bdbeaae22c42be855d64ea2dc06aad35da8955bdfb",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/QA_PRELIMINARY.md": "686701b9c19bd610a74938f6d1b5df6a5956066ee3a72c5d9c22f8aa6a7f5045",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/README.md": "2594f80d736d7e695b70eae896be02ec8c016c7913a2f3e48937b6f2c94f332d",
+    "projects/CTB-01/parts/P07/variants/CTB-012_RIM_SKIN_INTERLOCK/build_ctb012.py": "0fb0ce3cf8697dae59aa5a6b3607224469352fcab104ad019398de8130b58afe",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/CTB-013-NEXT-STAGE.md": "2e2f897a3b2fa31453af945ad617622604006981ae7111e4ad7fa662f43df8e1",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/P07R1_PUZZLE_DESIGN_ONLY.dxf": "30a2c6214ddad820de34dc88ad59059fadaaa6a8b73c7e2202abffb0e5844cbc",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/P07R1_PUZZLE_DESIGN_ONLY.svg": "02c6dc2139d55cc159a5729866d28fce45d5a8a5678d439e060bd2fb417da851",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/P07R2_PUZZLE_DESIGN_ONLY.dxf": "30a2c6214ddad820de34dc88ad59059fadaaa6a8b73c7e2202abffb0e5844cbc",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/P07R2_PUZZLE_DESIGN_ONLY.svg": "f76d7814cc6e90689234e7f8c50130d22c21f5f9ea3d7fb652bdcfdca1379215",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/QA_PRELIMINARY.md": "9ebe7c576de36a44683bb63012e989d40b222266fbe173881cf2454b52878158",
+    "projects/CTB-01/parts/P07/variants/CTB-013_RIM_SEAM_PUZZLE/README.md": "260d156f87cff715fea3479b4a91b546c0fdcfa944b163ea42570f63c0b5f4b1"
+  },
+  "sources": {
+    "CTB-012": "3326b49fc49eaa63c6ef2a904a7d3cb69fec2ebd / PR56 OPEN",
+    "CTB-013": "72595e4cd7164efa44b4ebda8bf48bf7b2c51c11 / PR57 OPEN"
+  },
+  "stage": "B1_ONLY",
+  "task": "CTB-014",
+  "units": "mm, right-handed XYZ; native rim x=height,y=developed length",
+  "witness_STEP_sha256": "1da4da8cd680ba4a7d979fee669652202225979dc85631ce767bd736cb2f5c0b",
+  "witness_step_packaging": {
+    "artifact_format_repairs": 1,
+    "change": "trim generated STEP line-end blanks only",
+    "current_STEP_sha256": "1da4da8cd680ba4a7d979fee669652202225979dc85631ce767bd736cb2f5c0b",
+    "full_suite_replays": 0,
+    "non_whitespace_tokens_unchanged": true,
+    "original_STEP_sha256": "44a3195e4ca54b619691d95a85794b5fdfe38ac347cd0641625edb99532ab865",
+    "quoted_strings_unchanged": true,
+    "reimport_valid_solids": 6,
+    "reimport_volumes_exactly_unchanged": true,
+    "repository_format_failures": 1,
+    "source_changes": 0
+  }
+}
