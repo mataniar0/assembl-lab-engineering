@@ -125,7 +125,7 @@ def main():
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
     script_dir = Path(__file__).resolve().parent
-    root = Path(args.repo_root).resolve() if args.repo_root else script_dir.parents[4]
+    root = Path(args.repo_root).resolve() if args.repo_root else script_dir.parents[5]
     src = root / PREFIX
     dest = Path(args.out).resolve() if args.out else script_dir
     dest.mkdir(parents=True, exist_ok=True)
