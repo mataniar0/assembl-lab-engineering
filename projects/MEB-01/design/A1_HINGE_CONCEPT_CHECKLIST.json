@@ -1,0 +1,62 @@
+{
+  "project": "MEB-01",
+  "concept": "A1",
+  "release": "DESIGN_ONLY",
+  "status": "CONCEPT_ONLY",
+  "approved_visual_direction": "Classic softly arched lid; recessed integrated restrained circular wood hinge within side silhouette",
+  "owner_constraints": {
+    "sheet_height_mm": 800,
+    "sheet_width_mm": 440,
+    "required_opening_deg": 110
+  },
+  "nominal_legacy_data": {
+    "cavity_mm": [
+      310,
+      65,
+      65
+    ],
+    "body_mm": [
+      322,
+      77,
+      71
+    ],
+    "structure_t_mm": 6,
+    "skin_t_mm": 4,
+    "status": "PROVISIONAL"
+  },
+  "provisional_candidate": "H1_LAYERED_SADDLE",
+  "candidates": [
+    "H1_LAYERED_SADDLE",
+    "H2_SEMI_RECESSED_MEDALLION",
+    "H3_CONCEALED_INTERIOR"
+  ],
+  "required_deliverables": [
+    "body/lid common coordinate frame",
+    "3D solids for body cheek/lid end/pin/cap",
+    "continuous swept motion 0-110 deg",
+    "left/right pivot co-axial proof",
+    "collision-free insertion assembly path",
+    "physical keep-out zone",
+    "BOM and stack-up",
+    "candidate render closed/open and side",
+    "independent QA ≥90 for scoped CAD if validated"
+  ],
+  "gate_status": {
+    "G0": "FULL_BASELINE_PENDING",
+    "G1": "NOT_STARTED",
+    "G2": "NOT_RUN",
+    "G3": "NOT_RUN",
+    "G4": "NOT_APPROVED"
+  },
+  "blockers": [
+    "MEB-B01",
+    "MEB-B02",
+    "MEB-B03",
+    "MEB-B04",
+    "MEB-B05",
+    "MEB-B06",
+    "MEB-B08",
+    "MEB-B09",
+    "MEB-B12"
+  ]
+}
