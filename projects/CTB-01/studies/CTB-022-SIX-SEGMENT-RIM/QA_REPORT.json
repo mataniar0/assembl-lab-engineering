@@ -1,0 +1,56 @@
+{
+  "status": "DESIGN_ONLY",
+  "segCount": 6,
+  "nominalSectorLengthMm": 181.1651763570114,
+  "circumferenceMm": 1086.9910581420684,
+  "physicalOverlapMm": null,
+  "oldSkins": "UNCHANGED",
+  "rowsPerSector": 44,
+  "linesPerSector": 66,
+  "notchCenters": [
+    {
+      "name": "P07R01",
+      "centers": [
+        45,
+        135
+      ]
+    },
+    {
+      "name": "P07R02",
+      "centers": [
+        43.834824,
+        133.834824
+      ]
+    },
+    {
+      "name": "P07R03",
+      "centers": [
+        42.669647,
+        132.669647
+      ]
+    },
+    {
+      "name": "P07R04",
+      "centers": [
+        45,
+        135
+      ]
+    },
+    {
+      "name": "P07R05",
+      "centers": [
+        43.834824,
+        133.834824
+      ]
+    },
+    {
+      "name": "P07R06",
+      "centers": [
+        42.669647,
+        132.669647
+      ]
+    }
+  ],
+  "svgDxfLocalTests": "7/7 PASS",
+  "physicalFit": "NOT_RUN/HOLD"
+}
