@@ -1,0 +1,20 @@
+{
+  "project": "CTB-021",
+  "design_status": "DESIGN_ONLY",
+  "physical_fit": "HOLD",
+  "nominal_body_length_per_rim_mm": 543.495529,
+  "measured_overlap_mm": null,
+  "rows_each": 135,
+  "cut_lines_each": 202,
+  "svg_dxf_included": true,
+  "modified_parts": [
+    "P07R1",
+    "P07R2"
+  ],
+  "untouched": [
+    "P07T",
+    "P07B",
+    "all 6mm components"
+  ],
+  "must_measure_circumference": true
+}
