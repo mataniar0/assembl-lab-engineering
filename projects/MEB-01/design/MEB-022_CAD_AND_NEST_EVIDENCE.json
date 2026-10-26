@@ -1,0 +1,64 @@
+{
+  "project": "MEB-01",
+  "task": "MEB-022",
+  "stage": "DESIGN_ONLY",
+  "parts": {
+    "total": 24,
+    "birch6mm": 19,
+    "birch4mm": 5
+  },
+  "pivot": {
+    "fixedFascia": true,
+    "movingLidEnd": true,
+    "bodyEndNoPivot": true,
+    "axisYZmm": [
+      75,
+      75
+    ]
+  },
+  "verification": {
+    "sweep2p5D": 441,
+    "collisions": 0,
+    "solidBRepPoses": [
+      0,
+      30,
+      55,
+      80,
+      110
+    ],
+    "solidPenetrations": 0,
+    "stepSolids": [
+      24,
+      24
+    ],
+    "glbWatertightParts": [
+      24,
+      24
+    ],
+    "selfSecondaryQA": [
+      87,
+      87
+    ]
+  },
+  "stock": {
+    "width": 440,
+    "height": 800,
+    "parts6mm": 19,
+    "parts4mm": 5,
+    "boards6mm": 1,
+    "boards4mm": 1,
+    "minContourDistanceMm": 4,
+    "kerfLinesNotCalibrated": 188
+  },
+  "userZip": {
+    "name": "MEB022_FIXED_OUTER_FASCIA_HINGED_CAD_AND_NESTING_DESIGN_ONLY.zip",
+    "SHA256": "f198d0a1fae624b2c5c334c1a0e1ad2265eb03338ec7d4339690d05c38ebd7a4",
+    "entries": 135,
+    "inGithub": false
+  },
+  "gates": {
+    "independentQA": "PENDING",
+    "G3": "NOT_RUN",
+    "G4": "NOT_APPROVED"
+  }
+}
