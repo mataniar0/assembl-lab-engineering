@@ -1,0 +1,71 @@
+{
+  "project": "MEB-01",
+  "task": "MEB-020",
+  "variant": "Direct curved skin to LID_END with J3",
+  "status": "DESIGN_ONLY",
+  "ownerApproved": {
+    "minInsideXmm": 310,
+    "openDeg": 110,
+    "stockH_mm": 800,
+    "stockW_mm": 440,
+    "adhesiveAccepted": true
+  },
+  "provisional": {
+    "outerXmm": 354,
+    "rearReliefMm": 2.2,
+    "skin4mm": true,
+    "glueArcOneSideMm": 66.0063,
+    "edgeGlueAreaApproxMm2": 396.04,
+    "saddleFaceProjectedAreaMm2": 270.65
+  },
+  "pieces": {
+    "baseline": 26,
+    "removed": [
+      "LID_SOCKET_L",
+      "LID_SOCKET_R"
+    ],
+    "new": 24,
+    "stock6mm": 19,
+    "stock4mm": 5
+  },
+  "profilesChanged": [
+    "LID_SKIN_RADIAL_4MM",
+    "LID_FRONT_RAIL",
+    "LID_BACK_RAIL"
+  ],
+  "spatialPositionsChanged": [
+    "INTERNAL_RAIL_SADDLE_L",
+    "INTERNAL_RAIL_SADDLE_R"
+  ],
+  "checks": {
+    "selfPrimary": 26,
+    "ofPrimary": 26,
+    "selfSecondMethod": 69,
+    "ofSecondMethod": 69,
+    "openingAnglesSampled": 441,
+    "detectedCollisions": 0,
+    "saddleInsertionSamples": 98,
+    "lidEndInsertionSamples": 66,
+    "lidDropSamples": 131,
+    "pinInsertionSamples": 260
+  },
+  "nest": {
+    "sheets6mm": 1,
+    "sheets4mm": 1,
+    "clearanceMm": 4.4,
+    "kerfCenterlines4mmUncalibrated": 188
+  },
+  "archive": {
+    "name": "MEB020_H1_DIRECT_GLUE_TO_LID_END_DESIGN_ONLY.zip",
+    "sha256": "f72787286eaa5804f46e9c30ac408de807fd5204e75eb75e21ead9c5d8a70199",
+    "entries": 150,
+    "inGitHub": false
+  },
+  "gates": {
+    "independentQA": "PENDING",
+    "physicalBending": "NOT_RUN",
+    "physicalBond": "NOT_RUN",
+    "G3": "NOT_RUN",
+    "G4": "NOT_APPROVED"
+  }
+}
