@@ -1,5 +1,5 @@
 {
-  "schema_version": "ETG-000-v0.2-H1",
+  "schema_version": "ETG-000-v0.3-H1-C11-GLUED_DESIGN_ONLY",
   "units": {
     "length": "mm",
     "angle": "deg",
@@ -86,10 +86,10 @@
     },
     {
       "id": "CORNER_SLICE_TOTAL",
-      "value": 96,
+      "value": 84,
       "unit": "count",
       "status": "PROVISIONAL",
-      "source": "legacy V7.2: 64 plain, 30 keyed, 2 rear-top; recount rear corners with H1"
+      "source": "C11 newly reconstructed rounded corners: 48 front + 36 rear; plus 4 fixed ears and 2 keeper parts"
     },
     {
       "id": "TRAY_LENGTH",
@@ -124,35 +124,35 @@
       "value": null,
       "unit": "mm",
       "status": "OPEN",
-      "source": "MEB-01 7mm is research only"
+      "source": "C11 uses laser-flat 6mm-thick rectangular wooden P11 shaft, not a frozen circular pin diameter"
     },
     {
       "id": "H1_FIXED_BORE_D",
       "value": null,
       "unit": "mm",
       "status": "OPEN",
-      "source": "MEB-01 7.4mm is research only"
+      "source": "C11 candidate uses radius 5.6 mm on stationary ring; physical fit unmeasured and not frozen"
     },
     {
       "id": "H1_MOVING_BORE_D",
       "value": null,
       "unit": "mm",
       "status": "OPEN",
-      "source": "MEB-01 8.4mm is research only"
+      "source": "C11 rotating cheek has a noncircular rectangular glue socket; scalar diameter not applicable"
     },
     {
       "id": "H1_CAP_D",
       "value": null,
       "unit": "mm",
-      "status": "OPEN",
-      "source": "MEB-01 13mm is research only"
+      "status": "SUPERSEDED",
+      "source": "D11 permanent glue design; mechanical P12 cap retired"
     },
     {
       "id": "H1_CAP_THICKNESS",
       "value": null,
       "unit": "mm",
-      "status": "OPEN",
-      "source": "MEB-01 4mm is research only"
+      "status": "SUPERSEDED",
+      "source": "D11 permanent glue design; mechanical P12 cap retired"
     },
     {
       "id": "H1_AXIAL_GAP",
@@ -172,8 +172,8 @@
       "id": "H1_POSITIVE_PIN_CAPTURE",
       "value": null,
       "unit": "design",
-      "status": "OPEN",
-      "source": "Cap and pin must be positively retained yet permit rotation"
+      "status": "SUPERSEDED",
+      "source": "D11 permanent glue design; mechanical P12 cap retired"
     },
     {
       "id": "H1_REAR_OVERALL_ENVELOPE",
@@ -181,12 +181,48 @@
       "unit": "mm",
       "status": "OPEN",
       "source": "Old FCIPH 178.4mm is not adopted"
+    },
+    {
+      "id": "H1_GLUE_RETENTION_MODE",
+      "value": "P11_GLUED_TO_ROTATING_P09_P10_ONLY",
+      "unit": "method",
+      "status": "OWNER_APPROVED_DESIGN_METHOD",
+      "source": "D11; do not glue P06 stationary bearing to shaft"
+    },
+    {
+      "id": "H1_NOMINAL_MOVING_SOCKET_SIDE_GAP",
+      "value": 0.14,
+      "unit": "mm",
+      "status": "PROVISIONAL",
+      "source": "C9/C11 CAD; actual kerf and adhesive film thickness NOT MEASURED"
+    },
+    {
+      "id": "H1_FRONT_ROUNDED_LAYER_COUNT",
+      "value": 48,
+      "unit": "count",
+      "status": "PROVISIONAL",
+      "source": "C11 new geometry 24 layers each front corner"
+    },
+    {
+      "id": "H1_REAR_ROUNDED_LAYER_COUNT",
+      "value": 36,
+      "unit": "count",
+      "status": "PROVISIONAL",
+      "source": "C11 new geometry 18 layers each rear corner"
+    },
+    {
+      "id": "C11_TOTAL_FLAT_CUT_PROFILES",
+      "value": 102,
+      "unit": "count",
+      "status": "DERIVED",
+      "source": "C11 shared CAD source and verified DXF/SVG export"
     }
   ],
   "hinge_architecture": {
     "selected": "H1_INTEGRATED_RECESSED_WOODEN_PIVOT",
-    "owner_decision": "D09 / ETG-CR-001",
-    "status": "DESIGN_DIRECTION_APPROVED_GEOMETRY_OPEN",
-    "superseded": "FCIPH"
+    "owner_decision": "D09 H1 / D11 permanent glue",
+    "status": "OWNER_APPROVED_DESIGN_DIRECTION; C11_NOMINAL_CAD_PRE_NESTING; PHYSICAL_OPEN",
+    "superseded": "FCIPH",
+    "retired_mechanical_clip": "P12 quantity zero"
   }
 }
