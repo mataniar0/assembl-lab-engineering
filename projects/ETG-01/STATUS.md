@@ -3,7 +3,7 @@
 **Overall:** `G0_DRAFT` / **Production:** `DESIGN_ONLY`
 **Tracked issue:** https://github.com/mataniar0/assembl-lab-engineering/issues/18
 **Independent QA:** `INDEPENDENT_QA_PENDING`
-**Native geometry:** `LEGACY_SOURCE_PENDING`; ETG-specific H1 CAD does not yet exist
+**Native geometry:** Original legacy V7.6 still missing; new owner-authorized C11 H1 CAD is in chat ZIP, NOT committed in this PR
 **G3 physical validation:** `NOT_RUN`
 **G4 manufacturing release:** `NOT_AUTHORIZED`
 
@@ -11,6 +11,13 @@
 
 ## Baseline status
 The scope is **project redefinition only**. No imported DXF is approved, generated or modified in this task. V7.2 and V7.6 historical reports are evidence to reconcile, NOT newly repeated tests.
+
+## ETG C9–C11 — PRE_NESTING_DESIGN_ONLY (2026-10-26)
+- Owner approved permanent **glue-based assembly**: P11 shaft attached to rotating cheek P09/P10; P06 free bearings; **P12 mechanical clip retired**. Adhesive testing and migration prevention remain G3 NOT_RUN.
+- Corrected genuine C9 shaft-to-P02/P03 collision (head recessed X6..12, shaft cut back), focused **12/12 PASS**. Replaced out-of-plane 3D side/post tabs with flat nominal birch6 profiles; C10 6/6 tests PASS.
+- Added 48 front rounded 6mm laminate layers, retaining 36 rear layers and four H1 ear laminates. **102 distinct flat cut parts**, with **102 individual SVG and 102 individual DXF**. C11 source/export/step self-verification **20/20 PASS**, vector roundtrip 0 mismatches, STEP reimport 102 solids. These are **DESIGN_ONLY / no kerf / no nesting**.
+- Review evidence: `design/ETG_C11_PRE_NESTING_HANDOFF_HE.md`; actual full source+CAD+DXF/SVG bundle in conversation only: `ETG_01_C11_PRE_NESTING_DESIGN_ONLY.zip` SHA256 `ee6b1068eca3bb9ba65d0655a20138478a98609e7e16968d4bd4a5dacbfe60e1`.
+- Two P07 rear corner cutouts remain open; wood glue strength, adhesive seizing risk, exact stock thickness/kerf, G3 trials and independent QA PENDING. **At entrance to nesting; production nesting NOT AUTHORIZED**.
 
 ## ETG-004 C7R/C8 — 2026-10-26 (owner-approved raised pivot direction; still DESIGN_ONLY)
 - **C7R local hinge/lid:** proposed axis Y160/Z154 with fixed R16 ears extends hinge about +16mm rear / +20mm above nominal body. Central P07 roof reaches back to Y160 but its two hinge corners each need a **756mm² open cutout**, so fully closed/sealed roof is NOT achieved. 23/23 local self-check assertions; 61/61 3D angular samples (2°), 43 further keeper samples, 0/481 P02-only planar test collisions. **Finite sampling only, not global G2b/continuous sweep QA.**
