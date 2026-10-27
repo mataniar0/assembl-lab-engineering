@@ -1,0 +1,75 @@
+{
+  "study": "CTB-025",
+  "status": "DESIGN_ONLY — confirm already-cut leg IDs before cutting",
+  "material": "Birch plywood 6mm",
+  "removedNewlyCut": "P06_BONDED",
+  "input": "CTB-024",
+  "remainingParts": [
+    "L1_P01_1",
+    "L1_P01_2",
+    "L2_P01_1",
+    "L2_P01_2",
+    "P03",
+    "P05_1",
+    "P05_2",
+    "P05_3",
+    "P05_4",
+    "P05_5",
+    "P05_6",
+    "L3_S1",
+    "L3_S2",
+    "L3_S3",
+    "L3_S4"
+  ],
+  "remainingCount": 15,
+  "contourCount": 39,
+  "outerCount": 15,
+  "innerCount": 24,
+  "totalPairsChecked": 105,
+  "minActualContourClearanceMm": 2,
+  "targetMinContourClearanceMm": 1,
+  "overlapCount": 0,
+  "exactSourceContoursPreserved": true,
+  "stock_mm": [
+    [
+      440,
+      620
+    ],
+    [
+      440,
+      800
+    ]
+  ],
+  "occupiedContourEnvelope_mm": [
+    5,
+    5,
+    433.388973,
+    613
+  ],
+  "marginCompact_mm": {
+    "left": 5,
+    "right": 6.611026999999979,
+    "bottom": 5,
+    "top": 7
+  },
+  "noKerfCompensation": true,
+  "noBoardOutlineInCutPaths": true,
+  "cutlistExcludedParts": [
+    "P04U",
+    "P04L",
+    "P07T",
+    "P07B",
+    "L1_S1",
+    "L1_S2",
+    "L1_S3",
+    "L1_S4",
+    "L2_S1",
+    "L2_S2",
+    "L2_S3",
+    "L2_S4",
+    "L3_P01_1",
+    "L3_P01_2",
+    "P06_BONDED"
+  ],
+  "unverified": "Physical laser tolerances and full assembly fit"
+}
