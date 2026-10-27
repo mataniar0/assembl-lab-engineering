@@ -3,7 +3,7 @@
 **Overall:** `G0_DRAFT` / **Production:** `DESIGN_ONLY`
 **Tracked issue:** https://github.com/mataniar0/assembl-lab-engineering/issues/18
 **Independent QA:** `INDEPENDENT_QA_PENDING`
-**Native geometry:** `LEGACY_SOURCE_PENDING`; ETG-specific H1 CAD does not yet exist
+**Native geometry:** Original legacy V7.6 still missing; new owner-authorized C11 H1 CAD is in chat ZIP, NOT committed in this PR
 **G3 physical validation:** `NOT_RUN`
 **G4 manufacturing release:** `NOT_AUTHORIZED`
 
@@ -11,6 +11,25 @@
 
 ## Baseline status
 The scope is **project redefinition only**. No imported DXF is approved, generated or modified in this task. V7.2 and V7.6 historical reports are evidence to reconcile, NOT newly repeated tests.
+
+## ETG C9–C11 — PRE_NESTING_DESIGN_ONLY (2026-10-26)
+- Owner approved permanent **glue-based assembly**: P11 shaft attached to rotating cheek P09/P10; P06 free bearings; **P12 mechanical clip retired**. Adhesive testing and migration prevention remain G3 NOT_RUN.
+- Corrected genuine C9 shaft-to-P02/P03 collision (head recessed X6..12, shaft cut back), focused **12/12 PASS**. Replaced out-of-plane 3D side/post tabs with flat nominal birch6 profiles; C10 6/6 tests PASS.
+- Added 48 front rounded 6mm laminate layers, retaining 36 rear layers and four H1 ear laminates. **102 distinct flat cut parts**, with **102 individual SVG and 102 individual DXF**. C11 source/export/step self-verification **20/20 PASS**, vector roundtrip 0 mismatches, STEP reimport 102 solids. These are **DESIGN_ONLY / no kerf / no nesting**.
+- Review evidence: `design/ETG_C11_PRE_NESTING_HANDOFF_HE.md`; actual full source+CAD+DXF/SVG bundle in conversation only: `ETG_01_C11_PRE_NESTING_DESIGN_ONLY.zip` SHA256 `ee6b1068eca3bb9ba65d0655a20138478a98609e7e16968d4bd4a5dacbfe60e1`.
+- Two P07 rear corner cutouts remain open; wood glue strength, adhesive seizing risk, exact stock thickness/kerf, G3 trials and independent QA PENDING. **At entrance to nesting; production nesting NOT AUTHORIZED**.
+
+## ETG-004 C7R/C8 — 2026-10-26 (owner-approved raised pivot direction; still DESIGN_ONLY)
+- **C7R local hinge/lid:** proposed axis Y160/Z154 with fixed R16 ears extends hinge about +16mm rear / +20mm above nominal body. Central P07 roof reaches back to Y160 but its two hinge corners each need a **756mm² open cutout**, so fully closed/sealed roof is NOT achieved. 23/23 local self-check assertions; 61/61 3D angular samples (2°), 43 further keeper samples, 0/481 P02-only planar test collisions. **Finite sampling only, not global G2b/continuous sweep QA.**
+- **Assembly FAIL:** C4 P11 existing pin insertion crosses roof (786.3mm³ at nominal first staging pose); P06 keeper needs to install before P03/P04 sides; 15/15 lid+cheek top-down placement without pin passes. C8 *outside-headed* pin enters from exterior 41/41 poses **per side**, but matching internal P12 circular cap clashes P02 by 122.18345mm³. Positive axial capture remains OPEN; do not promote product assembly.
+- Full evidence: `design/ETG-004_C7R_C8_LID_AND_PIVOT_REVIEW.md` on this draft branch, Issue #74; actual source/STEP/tests in chat ZIP `ETG004_C7_C8_DESIGN_ONLY.zip` SHA256 `8d2356004a16f2ead9a4ed2076ab094aa93eb71593322ccbd5b627a5cb91365a`, **not GitHub files**. Source reconstruction of original V7.6 NOT done. P01/P05 retention Issue #73 remains OPEN.
+- **Next:** one narrow ChatGPT P1 P11/P12 lock/interior-clearance proof, then rear hinge cutout closure/rounded appearance; full source-derived G2b requires parent/bottom assembly closure and independent QA. G3/G4 NOT_RUN/NOT_AUTHORIZED. No Codex yet.
+
+## ETG-001R C5 / ETG-004 C6 — 2026-10-22 (ChatGPT)
+- **C5 conditional local:** P01 front/mortises and P05 base were reconstructed with J-tongued P03/P04. 20/20 focused assertion checks PASS, 171 parent-pair static booleans clear, 17 front insertion samples; front P01 still withdraws -Y and bottom P05 -Z, so the sidewall/hinge keeper is **NOT positively captive as a whole-body assembly**.
+- **C6 flat lid NO-GO:** 53/61 angular proxy samples collide with P02 rear; first at 14°, at 120° large clash. 32mm-rear-gap shortening is a bad/unapproved counterfactual, not a design fix. Analytic raised/rear-biased H1 axis Y158/Z146 avoided P02-only intersection across 481 planar samples but would require modified rear/corner extension to approx Y174/Z162, a substantive appearance/interface proposal **NOT APPROVED**; real H1 and entire lid model NOT_RUN.
+- Detailed report in child **Draft PR #71**: `design/ETG-001R_C5_ETG-004_C6_HINGE_BODY_REVIEW.md`. Actual CAD Python, STEP, JSON and section are in conversation ZIP `ETG001R_C5_C6_DESIGN_ONLY.zip`, SHA256 `40a564fc2df26c431326a96fed912fd28ba7a7555bdf4f38a809c93b6d1ceb17`, **not committed to GitHub**.
+- P1 blockers: body P01/P05 closure issue #73 and owner-consistent H1 lid movement issue #74. **Not yet a Codex tools gap**. G0 QA still independent-pending; G1/G2 not approved; G3 physical and G4 manufacturing NOT_RUN.
 
 ## H1 Phase A (ETG-003) — ChatGPT feasibility screening complete, 2026-10-21
 - Design note: `design/ETG-003_H1_PHASE_A_FEASIBILITY_HE.md` on this draft branch.
