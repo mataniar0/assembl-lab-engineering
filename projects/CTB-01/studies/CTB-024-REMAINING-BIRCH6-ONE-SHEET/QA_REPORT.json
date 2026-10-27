@@ -1,0 +1,61 @@
+{
+  "study": "CTB-024",
+  "material": "Birch plywood 6mm",
+  "status": "DESIGN_ONLY/INVENTORY_CONFIRMATION_REQUIRED/NOT_PRODUCTION_APPROVED",
+  "sheet_mm": [
+    440,
+    800
+  ],
+  "sheet_count": 1,
+  "source": "CTB-017 preserved polygon geometry",
+  "input_total_6mm_parts": 30,
+  "excludedAlreadyCut": [
+    "P04U",
+    "P04L",
+    "P07T",
+    "P07B",
+    "L1_S1",
+    "L1_S2",
+    "L1_S3",
+    "L1_S4",
+    "L2_S1",
+    "L2_S2",
+    "L2_S3",
+    "L2_S4",
+    "L3_P01_1",
+    "L3_P01_2"
+  ],
+  "remainingParts": [
+    "L1_P01_1",
+    "L1_P01_2",
+    "L2_P01_1",
+    "L2_P01_2",
+    "P06_BONDED",
+    "P03",
+    "P05_1",
+    "P05_2",
+    "P05_3",
+    "P05_4",
+    "P05_5",
+    "P05_6",
+    "L3_S1",
+    "L3_S2",
+    "L3_S3",
+    "L3_S4"
+  ],
+  "cutContours": 41,
+  "outerContours": 16,
+  "innerContours": 25,
+  "minimumRequiredGapMm": 1,
+  "vectorGapAuditAllPartPairsChecked": 120,
+  "minimumVectorGapFoundUpperBoundMm": 2,
+  "nearestPair": [
+    "L2_P01_1",
+    "L3_S2"
+  ],
+  "stockMarginMm": 5,
+  "kerfCompensationMm": 0,
+  "bendOrPhysicalValidation": "NOT_RUN",
+  "sourceContourPointCount": 4411,
+  "sourceCutVerticesUnchanged": true
+}
