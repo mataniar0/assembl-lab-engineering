@@ -1,0 +1,129 @@
+{
+  "project": "PST-310",
+  "release": "V8-850-OPT-3SHEETS-R2",
+  "status": "DIGITAL_NESTING_PASS__PHYSICAL_HOLD",
+  "stock_width_mm": 440.0,
+  "stock_height_mm": 850.0,
+  "min_gap_required_mm": 1.0,
+  "min_stock_margin_mm": 5.0,
+  "parts": 22,
+  "sheets": [
+    {
+      "file_stem": "BIRCH6_S01_440x850",
+      "thickness_mm": 6,
+      "number_of_parts": 12,
+      "part_names": [
+        "LEG_1_A_6MM",
+        "LEG_1_B_6MM",
+        "LEG_3_A_6MM",
+        "LEG_3_B_6MM",
+        "CORE_RIB_01_6MM",
+        "CORE_RIB_02_6MM",
+        "CORE_RIB_03_6MM",
+        "CORE_RIB_04_6MM",
+        "CORE_RIB_05_6MM",
+        "CORE_RIB_06_6MM",
+        "LOWER_TRIANGLE_ONE_PIECE_6MM",
+        "CENTRAL_FLAT_6MM_SPIDER"
+      ],
+      "min_part_gap_mm": 1.562124,
+      "min_gap_pair": [
+        "LEG_1_B_6MM",
+        "LEG_3_B_6MM"
+      ],
+      "min_stock_margin_mm": 5.0,
+      "closed_contours": 25,
+      "single_line_kerfs": 0
+    },
+    {
+      "file_stem": "BIRCH6_S02_440x850",
+      "thickness_mm": 6,
+      "number_of_parts": 4,
+      "part_names": [
+        "BOTTOM_DISC_D310_6MM",
+        "TOP_DISC_D310_RIM_TABS_ONLY_6MM",
+        "LEG_2_A_6MM",
+        "LEG_2_B_6MM"
+      ],
+      "min_part_gap_mm": 1.216363,
+      "min_gap_pair": [
+        "BOTTOM_DISC_D310_6MM",
+        "LEG_2_A_6MM"
+      ],
+      "min_stock_margin_mm": 5.0,
+      "closed_contours": 28,
+      "single_line_kerfs": 0
+    },
+    {
+      "file_stem": "BIRCH4_S01_440x850",
+      "thickness_mm": 4,
+      "number_of_parts": 6,
+      "part_names": [
+        "RIM_01_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_02_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_03_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_04_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_05_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_06_BIRCH4_UPPER_LOWER_TABS"
+      ],
+      "min_part_gap_mm": 6.0,
+      "min_gap_pair": [
+        "RIM_01_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_02_BIRCH4_UPPER_LOWER_TABS"
+      ],
+      "min_stock_margin_mm": 5.0,
+      "closed_contours": 6,
+      "single_line_kerfs": 348
+    }
+  ],
+  "spider_to_triangle_min_clearance_mm": 9.002896005645303,
+  "contours": 59,
+  "single_line_bend_cuts": 348,
+  "source_part_hashes": {
+    "BOTTOM_DISC_D310_6MM.svg": "d99de888086f4c2ef229e87c043a4364e5bd897d4aba8df9c0aea70f9b0c764c",
+    "LEG_3_B_6MM.svg": "00359f0fe210528d096367b43e8e3d15c4efa6dea5299a7271ff9e19c14cfb35",
+    "LOWER_TRIANGLE_ONE_PIECE_6MM.svg": "29fa507708a33183b5bf683cbbee5075dcb2dd0bfceefc3487f8ede6b1eb77a0",
+    "CENTRAL_FLAT_6MM_SPIDER.svg": "79d72ae2f63bb1d4d16079631c25a43dc29e3cf6476337c74ac39fb3e953bcb8",
+    "RIM_06_BIRCH4_UPPER_LOWER_TABS.svg": "2ef9518332d488e7b85ae296c1d90872782aec4e541ef3120000bd30c8b8f649",
+    "TOP_DISC_D310_RIM_TABS_ONLY_6MM.svg": "4338676d8030a1795cbfde9907fe15d8d84173d98ab122673d896d23f0282a83",
+    "CORE_RIB_04_6MM.svg": "b08b2f99e6a417778cba1dd5084c1fd8fe0b0322f3f9937585d5e9fa504a1f46",
+    "LEG_2_B_6MM.svg": "d51e5f9161cddd92cbe9d1dbea0b3a16b97d784a9be430c9f37ff0a11210996b",
+    "CORE_RIB_01_6MM.svg": "ee43c362d5e1ae414a7fbf63f128829f5843d302efd14e55b6f5dc744ef8b26c",
+    "RIM_04_BIRCH4_UPPER_LOWER_TABS.svg": "52809098bb8b3c4ad54a949af50bf1cbd10775e049163996f2217b259a86584c",
+    "RIM_05_BIRCH4_UPPER_LOWER_TABS.svg": "bac4eed3f0d3122f2724f2f9046027e82dfa696dd85ed45df15b9c4b02fbcaf3",
+    "CORE_RIB_02_6MM.svg": "79b957259b479d295f76cf70b29fd86e85b3020d924a01e4022161727913c6a9",
+    "RIM_01_BIRCH4_UPPER_LOWER_TABS.svg": "28d3023ce64a9a3121b3ff3c273d58e1f0a674a099dca990dfb710c4ccdaf882",
+    "CORE_RIB_03_6MM.svg": "5f97f3fda3ce84c01c1ef45239e2c82bac1f02e212fa4cdbab47be43bc7eb3ca",
+    "RIM_02_BIRCH4_UPPER_LOWER_TABS.svg": "de99ff0b41c6fc8ab603ba57f85b0f51e6f969944af22f33807a2121687183e1",
+    "LEG_1_B_6MM.svg": "5069e2eb626b6d55ca09c7562eaa2fc4d59f7d457762c2d52e65fddc056a5bc5",
+    "RIM_03_BIRCH4_UPPER_LOWER_TABS.svg": "4dab100a015763095ad7bb6900f614d2f79cab28f6d0f24ea647312f7bdd42d7",
+    "LEG_1_A_6MM.svg": "fb4ac81dba53d48d2a96a37e4fd122afcc2e67873e213113be6c16df95b65f7f",
+    "LEG_2_A_6MM.svg": "9c9a6851c4f5e776389a09fea6af433f4d25bcb64d1e74d747a054ab22c8a314",
+    "CORE_RIB_06_6MM.svg": "97848f4f820bd5679148c4a75b6a91cb57f97c6746d5481067156c3d669c2ae6",
+    "LEG_3_A_6MM.svg": "092ae6dc6acc4b9fa885c949f54a571fe0bb98a9ed65b9a3666f7e3d34f5548a",
+    "CORE_RIB_05_6MM.svg": "d8edb55053bcf55e9b47f76a21d140762351d8d9d7c002d529116a4e1d7eca30",
+    "RIM_06_BIRCH4_UPPER_LOWER_TABS.dxf": "7e123678960da810c714e326828644f2bd075af7db83f888123c94b077a18985",
+    "CENTRAL_FLAT_6MM_SPIDER.dxf": "9435e2f85443a4bbbd0f3e5e5bbbc17caa53e7913e0b9337fdb67b6dc57f4399",
+    "CORE_RIB_05_6MM.dxf": "089bc3041c848b0ebd0b15907815cce4b74bc860d1c5e417f8e3d6033e6be11e",
+    "RIM_03_BIRCH4_UPPER_LOWER_TABS.dxf": "030fd1769cf0a98fd2fc6efa0ed02e3066f0d44360564957404d9998e0c8b7e2",
+    "CORE_RIB_06_6MM.dxf": "48631c254f92327632c677df9fbbb3880d3048ea15f5185f53e0b72d5ba0cb01",
+    "LEG_2_B_6MM.dxf": "49d75055cb5cebb8b633f436df9d79f23fdd24d581261af25f4dd18d0d6938e8",
+    "CORE_RIB_02_6MM.dxf": "a76f99f2dfa853ac0bc85646420310d192cb94635ce2d8a9851b92a1f5a68844",
+    "RIM_05_BIRCH4_UPPER_LOWER_TABS.dxf": "0a5a1d8e8e32f30e5239ca10ac641d48aeae5290989d7da3a1a51a288c3b79f2",
+    "RIM_02_BIRCH4_UPPER_LOWER_TABS.dxf": "ed57f2c32760e6b79cab4187a6e0668a02a8b073c66ec16fd68bdbae8a599447",
+    "BOTTOM_DISC_D310_6MM.dxf": "fd3366852e6df393097891f7bb1ade7ecffce0d398b4910c207c8172e0ea0e9f",
+    "LEG_1_B_6MM.dxf": "1a976344908d3cc78508d9f9a9bd2579d397275231f1145847c6eab07a7a2eb0",
+    "LOWER_TRIANGLE_ONE_PIECE_6MM.dxf": "b8a22d255650cc72092e616c72854dd220e52a5cff6e8e0e0b40aad8f6d66e91",
+    "TOP_DISC_D310_RIM_TABS_ONLY_6MM.dxf": "12ea90728e21a67950dfafd852b377f2d5cebceed2690307b5c8314d1946574f",
+    "RIM_04_BIRCH4_UPPER_LOWER_TABS.dxf": "e3a5e653bc45a7c196e7a0c880b7cd1569ed4ca86884ad013343c346c4f8b85c",
+    "CORE_RIB_01_6MM.dxf": "9354aeb9695db045f941461d0fb2b4993359b0c7752a53f868f12eaf7d5afae6",
+    "CORE_RIB_03_6MM.dxf": "5a4336f2ccde8954862ca3ef5d307ebe79937ef22a91c0d5cab0adc614c820d6",
+    "CORE_RIB_04_6MM.dxf": "4aed84560622062ef432995e3ef54651ce47479a7b23532d86b8f868d727202d",
+    "LEG_3_B_6MM.dxf": "ba078fb2ac9d9184750fdfe0b7232999e7bd88962b6c4b27de0f910df17aad44",
+    "LEG_3_A_6MM.dxf": "8a78ed064973ed2d1b255b847b79bdd981489a1815c6223d92a12815c2c8e1be",
+    "LEG_2_A_6MM.dxf": "bb22665c64b5b462c96a47dd9704ba0203fcac50c57887007a5caa04877ed9c0",
+    "RIM_01_BIRCH4_UPPER_LOWER_TABS.dxf": "4fcadbb76a7d799d16e074ed5d8614725ed5fd6d3f3bcafdc48ee85281e079bb",
+    "LEG_1_A_6MM.dxf": "0506f92a53b56b3e068667a17b0b0b2b0d5813db62e608177d220c5e2c257785"
+  },
+  "physical_tests": "NOT DONE — kerf, bending, glue, rim closure, wet-load stability and physical joinery fit pending"
+}

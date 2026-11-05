@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="109.00000mm" height="58.00000mm" viewBox="0 0 109.00000 58.00000">
+<title>CORE_RIB_02_6MM — DESIGN ONLY — DO NOT CUT UNTIL QA &amp; PHYSICAL TEST</title>
+<desc>Units in mm. CUT_OUTER, CUT_INNER closed contours; CUT_KERF_LINE single lines. No sheet frame in cutting paths. Gap 1.0mm minimum (conservative BBOX).</desc>
+<g fill="none" stroke="#000" stroke-width="0.12">
+<g id="CORE_RIB_02_6MM">
+<polygon class="CUT_OUTER" points="27.00000,56.00000 47.00000,56.00000 70.00000,56.00000 90.00000,56.00000 106.50000,56.00000 106.50000,8.00000 90.00000,8.00000 90.00000,2.00000 70.00000,2.00000 70.00000,8.00000 47.00000,8.00000 47.00000,2.00000 27.00000,2.00000 27.00000,8.00000 2.00000,8.00000 2.00000,34.00000 15.60000,34.00000 15.60000,56.00000"/>
+</g>
+</g></svg>

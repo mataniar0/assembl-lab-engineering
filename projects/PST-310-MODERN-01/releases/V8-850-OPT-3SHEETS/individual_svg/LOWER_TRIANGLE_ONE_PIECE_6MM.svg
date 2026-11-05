@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="321.00000mm" height="370.00000mm" viewBox="0 0 321.00000 370.00000">
+<title>LOWER_TRIANGLE_ONE_PIECE_6MM — DESIGN ONLY — DO NOT CUT UNTIL QA &amp; PHYSICAL TEST</title>
+<desc>Units in mm. CUT_OUTER, CUT_INNER closed contours; CUT_KERF_LINE single lines. No sheet frame in cutting paths. Gap 1.0mm minimum (conservative BBOX).</desc>
+<g fill="none" stroke="#000" stroke-width="0.12">
+<g id="LOWER_TRIANGLE_ONE_PIECE_6MM">
+<polygon class="CUT_OUTER" points="318.29593,190.79354 287.00000,190.79354 287.00000,178.43354 318.29593,178.43354 12.70407,2.00000 28.35204,29.10307 17.64796,35.28307 2.00000,8.18000 2.00000,361.04708 17.64796,333.94401 28.35204,340.12401 12.70407,367.22708"/>
+<polygon class="CUT_INNER" points="31.00000,46.04948 31.00000,323.17760 271.00000,184.61354"/>
+</g>
+</g></svg>
