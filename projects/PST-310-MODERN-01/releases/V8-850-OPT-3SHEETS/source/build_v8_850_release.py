@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PST-310 V8-850 2x6mm + 1x4mm nesting: shape-preserving transformations.
+"""PST-310 V8-850 R2 rebalanced 2x6mm + 1x4mm nesting: shape-preserving transformations.
 Source: existing V8 22 separate DXF part geometry, unchanged.
 No kerf compensation; DESIGN_ONLY until real material trials.
 """
@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon as PatchPoly
 
 SRC=Path('/mnt/data/PST_310_V8_WORK')
-DST=Path('/mnt/data/PST_310_V8_850_RELEASE')
+DST=Path('/mnt/data/PST_310_V8_850_R2_RELEASE')
 W=440.; H=850.; MARGIN=5.; MIN_GAP=1.
 for folder in ['nesting', 'individual/SVG', 'individual/DXF', 'preview', 'cad', 'qa', 'source']:
     (DST/folder).mkdir(parents=True,exist_ok=True)
@@ -49,19 +49,19 @@ S1={
  'LEG_1_B_6MM': (129.74977269443423,5.0,8.930940300947295),
  'LEG_3_A_6MM': (22.14955746713673,5.0,14.3189319385238),
  'LEG_3_B_6MM': (178.8348642624278,83.59955407084303,9.895817335305818),
- 'TRIANGLE_CLUSTER': (5.0,477.37451138953844,-3.289851011193246)
+ 'TRIANGLE_CLUSTER': (5.0,477.37451138953844,-3.289851011193246),
+ 'CORE_RIB_01_6MM': (121.61466537,51.83494383,330),
+ 'CORE_RIB_02_6MM': (51.82909158,159.47989133,150),
+ 'CORE_RIB_03_6MM': (212.36421363,696.34302631,300),
+ 'CORE_RIB_04_6MM': (30.52091871,42.97636908,285),
+ 'CORE_RIB_05_6MM': (55.16822144,246.36073937,135),
+ 'CORE_RIB_06_6MM': (278.64871379,505.57191031,270)
 }
 S2={
  'BOTTOM_DISC_D310_6MM': (5.0,5.0,58.27908989910341),
  'TOP_DISC_D310_RIM_TABS_ONLY_6MM': (13.13516882604322,481.98537659124173,26.07832988640382),
  'LEG_2_A_6MM': (298.9691291566197,5.0,172.69728273360934),
- 'LEG_2_B_6MM': (343.424547011963,209.51439761582316,166.2805994134617),
- 'CORE_RIB_01_6MM': (228.75704962971238,344.3595847746411,99.59288932185899),
- 'CORE_RIB_02_6MM': (5.0,738.0874193200113,41.70536076844433),
- 'CORE_RIB_03_6MM': (198.31558842041588,764.7545001332915,337.77944161770347),
- 'CORE_RIB_04_6MM': (330.47883799597366,737.7664518507685,94.00111873471933),
- 'CORE_RIB_05_6MM': (5.0,336.58248560890075,29.535661464088747),
- 'CORE_RIB_06_6MM': (126.72078576644476,338.87582133622516,126.86423776887546)
+ 'LEG_2_B_6MM': (343.424547011963,209.51439761582316,166.2805994134617)
 }
 
 def rigid_transform(shape, placement, reference_shape=None):
@@ -105,7 +105,7 @@ sheets={
 ids=[q['id'] for vs in sheets.values() for q in vs]
 assert len(ids)==22 and len(set(ids))==22 and set(ids)==set(source)
 
-QA={'project':'PST-310','release':'V8-850-OPT-3SHEETS','status':'DIGITAL_NESTING_PASS__PHYSICAL_HOLD','stock_width_mm':W,'stock_height_mm':H,'min_gap_required_mm':MIN_GAP,'min_stock_margin_mm':MARGIN,'parts':len(ids),'sheets':[], 'spider_to_triangle_min_clearance_mm':spider_hole_clearance,'contours':0,'single_line_bend_cuts':0,'source_part_hashes':{},'physical_tests':'NOT DONE — kerf, bending, glue, rim closure, wet-load stability and physical joinery fit pending'}
+QA={'project':'PST-310','release':'V8-850-OPT-3SHEETS-R2','status':'DIGITAL_NESTING_PASS__PHYSICAL_HOLD','stock_width_mm':W,'stock_height_mm':H,'min_gap_required_mm':MIN_GAP,'min_stock_margin_mm':MARGIN,'parts':len(ids),'sheets':[], 'spider_to_triangle_min_clearance_mm':spider_hole_clearance,'contours':0,'single_line_bend_cuts':0,'source_part_hashes':{},'physical_tests':'NOT DONE — kerf, bending, glue, rim closure, wet-load stability and physical joinery fit pending'}
 
 for name,items in sheets.items():
     minsep=float('inf'); pair=None; margin=float('inf')
@@ -245,9 +245,9 @@ with (DST/'PLACEMENTS.csv').open('w',newline='') as f:
     for stem,its in sheets.items():
         for it in its:w.writerow([stem,it['id'],f'{it["rotation_deg"]:.9f}',*[f'{v:.9f}' for v in it['translate_xy_mm']]])
 (DST/'qa'/'NESTING_QA.json').write_text(json.dumps(QA,ensure_ascii=False,indent=2),encoding='utf8')
-report=f'''# PST-310 V8-850 — תכנון דיגיטלי סופי לנסטינג (DESIGN_ONLY)
+report=f'''# PST-310 V8-850 R2 — חלוקה מחדש של צלעות החיזוק בנסטינג (DESIGN_ONLY)
 
-**גרסה:** `V8-850-OPT-3SHEETS` | **תאריך:** 2026-11-05 | **סטטוס:** G3 CAD + Nesting passed; G4 physical qualification pending.
+**גרסה:** `V8-850-OPT-3SHEETS-R2` | **תאריך:** 2026-11-05 | **סטטוס:** G3 CAD + Nesting passed; G4 physical qualification pending.
 
 ## החלטה הנדסית
 12 חריצי Finger Joints היקפיים בלבד בפלטה העליונה (חיבור למעטפת בירץ' 4 מ״מ). ללא 12 חריצים פנימיים בפלטה העליונה; 6 צלעות חיזוק פנימיות ללא לשוניות עליונות, ומודבקות למשטח התחתון. המידות לא שונו: Ø310 מ״מ, גובה מעמד 550 מ״מ, גובה קופסת ראש 60 מ״מ.
@@ -256,8 +256,8 @@ report=f'''# PST-310 V8-850 — תכנון דיגיטלי סופי לנסטינ�
 - 2 לוחות בירץ' 6 מ״מ במידה **850×440 מ״מ** (מוצגים בפורמט רוחב 440×גובה 850).
 - לוח אחד בירץ' 4 מ״מ באותה מידה, כולל 6 מקטעי מעטפת.
 - 22 חלקים בשיטת 1:1, כולם פעם אחת; **59 מסלולי חיתוך סגורים** ו־**348 קווי כיפוף single-line**.
-- לוח 6מ״מ 1: 4 רגליים + משולש תחתון + חיבור מרכזי עגול במרכז המשולש.
-- לוח 6מ״מ 2: 2 רגליים + שתי הפלטות Ø310 + 6 צלעות פנימיות.
+- לוח 6מ״מ 1: 4 רגליים + משולש תחתון + חיבור מרכזי עגול + 6 צלעות חיזוק (CORE_RIB).
+- לוח 6מ״מ 2: 2 רגליים + שתי הפלטות Ø310 בלבד.
 - לוח 4מ״מ: 6 מקטעי מעטפת.
 - שוליים של לפחות {MARGIN:g} מ״מ; מרווח בין חלקים לפחות {MIN_GAP:g} מ״מ. אין גבול לוח בלייר CUT. יחידות DXF מ״מ; אין פיצוי Kerf.
 
@@ -265,7 +265,7 @@ report=f'''# PST-310 V8-850 — תכנון דיגיטלי סופי לנסטינ�
 - קבצי ה־DXF וה־SVG של הלוחות הופקו מחדש ונפתחו מחדש. כל 22 החלקים המקוריים הועתקו ללא שינוי; נבדקו היקף/שטח שווים תחת סיבוב והזזה.
 - לכל זוג חלקים נמדדו המרחקים בין **גיאומטריות החיתוך האמיתיות**, ולא רק מלבני התיחום.
 - `CENTRAL_FLAT_6MM_SPIDER` ממוקם לפי מרכז הגיאומטריה של החלל המשולש, לא לפי מרכז מלבן התיחום. מרווח מחומר המשולש: {spider_hole_clearance:.3f} מ״מ. התיקון מתקן התנגשות בניסיון המקדים.
-- קובצי CAD של V8 ותוצאות בדיקות המבנה הקודמות נכללים בחבילה המלאה. לא בוצע שינוי בגיאומטריית חלקי המוצר, רק בסידורם על הלוחות.
+- קובצי CAD של V8 ותוצאות בדיקות המבנה הקודמות נכללים בחבילה המלאה. בגרסת R2 הועברו שש צלעות CORE_RIB מהלוח השני לראשון; לא בוצע שינוי בגיאומטריית חלקי המוצר, רק בסידורם על הלוחות.
 - תוצאות מרווחים מפורטות: `qa/NESTING_QA.json`. כל השורות הותאמו ב־DXF ו־SVG עד טולרנס קואורדינטות 0.000008 מ״מ.
 
 ## גבולות האישור
@@ -279,7 +279,7 @@ for sheet in QA['sheets']:print(sheet['file_stem'],sheet['number_of_parts'],'min
 print('spider clearance',spider_hole_clearance,'contours',QA['contours'],'kerf lines',QA['single_line_bend_cuts'])
 
 # ZIP distribution: cutting-only and full CAD package.
-for filename,include in [('PST_310_V8_850_OPT_3_SHEETS_SVG_DXF_DESIGN_ONLY.zip', ['nesting','individual','preview','qa','README_HE.md','PLACEMENTS.csv']),('PST_310_V8_850_OPT_FULL_CAD_AND_NESTING_DESIGN_ONLY.zip',['nesting','individual','preview','qa','cad','source','README_HE.md','PLACEMENTS.csv'])]:
+for filename,include in [('PST_310_V8_850_R2_3_SHEETS_SVG_DXF_DESIGN_ONLY.zip', ['nesting','individual','preview','qa','README_HE.md','PLACEMENTS.csv']),('PST_310_V8_850_R2_FULL_CAD_AND_NESTING_DESIGN_ONLY.zip',['nesting','individual','preview','qa','cad','source','README_HE.md','PLACEMENTS.csv'])]:
     target=Path('/mnt/data')/filename
     with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for entry in include:

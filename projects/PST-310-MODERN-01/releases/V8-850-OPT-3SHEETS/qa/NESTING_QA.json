@@ -1,6 +1,6 @@
 {
   "project": "PST-310",
-  "release": "V8-850-OPT-3SHEETS",
+  "release": "V8-850-OPT-3SHEETS-R2",
   "status": "DIGITAL_NESTING_PASS__PHYSICAL_HOLD",
   "stock_width_mm": 440.0,
   "stock_height_mm": 850.0,
@@ -11,12 +11,18 @@
     {
       "file_stem": "BIRCH6_S01_440x850",
       "thickness_mm": 6,
-      "number_of_parts": 6,
+      "number_of_parts": 12,
       "part_names": [
         "LEG_1_A_6MM",
         "LEG_1_B_6MM",
         "LEG_3_A_6MM",
         "LEG_3_B_6MM",
+        "CORE_RIB_01_6MM",
+        "CORE_RIB_02_6MM",
+        "CORE_RIB_03_6MM",
+        "CORE_RIB_04_6MM",
+        "CORE_RIB_05_6MM",
+        "CORE_RIB_06_6MM",
         "LOWER_TRIANGLE_ONE_PIECE_6MM",
         "CENTRAL_FLAT_6MM_SPIDER"
       ],
@@ -26,24 +32,18 @@
         "LEG_3_B_6MM"
       ],
       "min_stock_margin_mm": 5.0,
-      "closed_contours": 19,
+      "closed_contours": 25,
       "single_line_kerfs": 0
     },
     {
       "file_stem": "BIRCH6_S02_440x850",
       "thickness_mm": 6,
-      "number_of_parts": 10,
+      "number_of_parts": 4,
       "part_names": [
         "BOTTOM_DISC_D310_6MM",
         "TOP_DISC_D310_RIM_TABS_ONLY_6MM",
         "LEG_2_A_6MM",
-        "LEG_2_B_6MM",
-        "CORE_RIB_01_6MM",
-        "CORE_RIB_02_6MM",
-        "CORE_RIB_03_6MM",
-        "CORE_RIB_04_6MM",
-        "CORE_RIB_05_6MM",
-        "CORE_RIB_06_6MM"
+        "LEG_2_B_6MM"
       ],
       "min_part_gap_mm": 1.216363,
       "min_gap_pair": [
@@ -51,7 +51,7 @@
         "LEG_2_A_6MM"
       ],
       "min_stock_margin_mm": 5.0,
-      "closed_contours": 34,
+      "closed_contours": 28,
       "single_line_kerfs": 0
     },
     {
