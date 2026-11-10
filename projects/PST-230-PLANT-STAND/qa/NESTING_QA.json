@@ -1,24 +1,26 @@
 {
-  "project": "PST-230",
-  "version": "V1-CAD-NESTING",
-  "status": "DESIGN_ONLY / DIGITAL_NESTING_PASS / PHYSICAL_HOLD",
-  "top_diameter_mm": 230,
-  "total_height_mm": 550,
-  "board_size_mm": [
+  "project": "PST-230 PLANT STAND",
+  "version": "V2-850-15PLUS1",
+  "status": "DESIGN_ONLY / GEOMETRIC_NESTING_PASS / G4_PHYSICAL_HOLD",
+  "board_mm": [
     440,
     850
   ],
-  "parts": 22,
-  "required_min_gap_mm": 1.15,
-  "required_stock_margin_mm": 5.0,
+  "minimum_required_cut_gap_mm": 1.15,
+  "required_margin_mm": 5.0,
   "sheets": [
     {
-      "name": "BIRCH6_S01_440x850",
-      "part_names": [
+      "stem": "BIRCH6_S01_440x850",
+      "material": "birch 6mm",
+      "parts": 15,
+      "names": [
         "LEG_1_A_6MM",
         "LEG_1_B_6MM",
+        "LEG_2_A_6MM",
+        "LEG_2_B_6MM",
         "LEG_3_A_6MM",
         "LEG_3_B_6MM",
+        "TOP_DISC_D230_RIM_TABS_ONLY_6MM",
         "LOWER_TRIANGLE_ONE_PIECE_6MM",
         "CENTRAL_FLAT_6MM_SPIDER",
         "CORE_RIB_01_6MM",
@@ -28,29 +30,28 @@
         "CORE_RIB_05_6MM",
         "CORE_RIB_06_6MM"
       ],
-      "part_count": 12,
-      "minimum_clearance_mm": 1.79004,
-      "minimum_stock_margin_mm": 5.0,
-      "closed_contours": 25,
-      "bend_lines": 0
+      "min_cut_clearance_mm": 1.5986496494885984,
+      "minimum_stock_margin_mm": 8.499999999999998,
+      "closed_contours": 34,
+      "bend_strokes": 0
     },
     {
-      "name": "BIRCH6_S02_440x850",
-      "part_names": [
-        "LEG_2_A_6MM",
-        "LEG_2_B_6MM",
-        "BOTTOM_DISC_D230_6MM",
-        "TOP_DISC_D230_RIM_TABS_ONLY_6MM"
+      "stem": "BIRCH6_S02_440x850",
+      "material": "birch 6mm",
+      "parts": 1,
+      "names": [
+        "BOTTOM_DISC_D230_6MM"
       ],
-      "part_count": 4,
-      "minimum_clearance_mm": 3.21741,
-      "minimum_stock_margin_mm": 5.0,
-      "closed_contours": 28,
-      "bend_lines": 0
+      "min_cut_clearance_mm": null,
+      "minimum_stock_margin_mm": 105.0,
+      "closed_contours": 19,
+      "bend_strokes": 0
     },
     {
-      "name": "BIRCH4_S01_440x850",
-      "part_names": [
+      "stem": "BIRCH4_S01_440x850",
+      "material": "birch 4mm",
+      "parts": 6,
+      "names": [
         "RIM_01_BIRCH4_UPPER_LOWER_TABS",
         "RIM_02_BIRCH4_UPPER_LOWER_TABS",
         "RIM_03_BIRCH4_UPPER_LOWER_TABS",
@@ -58,20 +59,26 @@
         "RIM_05_BIRCH4_UPPER_LOWER_TABS",
         "RIM_06_BIRCH4_UPPER_LOWER_TABS"
       ],
-      "part_count": 6,
-      "minimum_clearance_mm": 7.0,
+      "min_cut_clearance_mm": 7.0,
       "minimum_stock_margin_mm": 5.0,
       "closed_contours": 6,
-      "bend_lines": 252
+      "bend_strokes": 252
     }
   ],
-  "closed_contours": 59,
-  "bend_lines": 252,
-  "rim_developed_length_per_sector_mm": 118.33332328521554,
-  "rim_developed_total_length_mm": 709.9999397112932,
-  "stock_material": [
-    "6mm birch",
-    "4mm birch"
+  "cad_geometry_modified": false,
+  "original_22_individual_parts_unchanged": true,
+  "parts": 22,
+  "closed_cut_contours": 59,
+  "single_line_bends": 252,
+  "part_counts_by_sheet": [
+    15,
+    1,
+    6
   ],
-  "physical_strength_qualified": false
+  "full_6mm_one_sheet_validated": false,
+  "optional_overflow_scrap_board_mm": [
+    250,
+    250
+  ],
+  "optional_overflow_scrap_stock_margin_mm": 10.0
 }
