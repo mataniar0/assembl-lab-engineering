@@ -1,0 +1,84 @@
+{
+  "project": "PST-230 PLANT STAND",
+  "version": "V3-850-BOTTOM-IN-NEST-TOP-SOLO",
+  "status": "DESIGN_ONLY / GEOMETRIC_NESTING_PASS / G4_PHYSICAL_HOLD",
+  "board_mm": [
+    440,
+    850
+  ],
+  "minimum_required_cut_gap_mm": 1.15,
+  "required_margin_mm": 5.0,
+  "sheets": [
+    {
+      "stem": "BIRCH6_S01_440x850",
+      "material": "birch 6mm",
+      "parts": 15,
+      "names": [
+        "LEG_1_A_6MM",
+        "LEG_1_B_6MM",
+        "LEG_2_A_6MM",
+        "LEG_2_B_6MM",
+        "LEG_3_A_6MM",
+        "LEG_3_B_6MM",
+        "BOTTOM_DISC_D230_6MM",
+        "LOWER_TRIANGLE_ONE_PIECE_6MM",
+        "CENTRAL_FLAT_6MM_SPIDER",
+        "CORE_RIB_01_6MM",
+        "CORE_RIB_02_6MM",
+        "CORE_RIB_03_6MM",
+        "CORE_RIB_04_6MM",
+        "CORE_RIB_05_6MM",
+        "CORE_RIB_06_6MM"
+      ],
+      "min_cut_clearance_mm": 1.5986496494885984,
+      "minimum_stock_margin_mm": 8.499999999999998,
+      "closed_contours": 52,
+      "bend_strokes": 0
+    },
+    {
+      "stem": "BIRCH6_S02_440x850",
+      "material": "birch 6mm",
+      "parts": 1,
+      "names": [
+        "TOP_DISC_D230_RIM_TABS_ONLY_6MM"
+      ],
+      "min_cut_clearance_mm": null,
+      "minimum_stock_margin_mm": 105.0,
+      "closed_contours": 1,
+      "bend_strokes": 0
+    },
+    {
+      "stem": "BIRCH4_S01_440x850",
+      "material": "birch 4mm",
+      "parts": 6,
+      "names": [
+        "RIM_01_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_02_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_03_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_04_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_05_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_06_BIRCH4_UPPER_LOWER_TABS"
+      ],
+      "min_cut_clearance_mm": 7.0,
+      "minimum_stock_margin_mm": 5.0,
+      "closed_contours": 6,
+      "bend_strokes": 252
+    }
+  ],
+  "cad_geometry_modified": false,
+  "original_22_individual_parts_unchanged": true,
+  "parts": 22,
+  "closed_cut_contours": 59,
+  "single_line_bends": 252,
+  "part_counts_by_sheet": [
+    15,
+    1,
+    6
+  ],
+  "full_6mm_one_sheet_validated": false,
+  "optional_overflow_scrap_board_mm": [
+    250,
+    250
+  ],
+  "optional_overflow_scrap_stock_margin_mm": 10.0
+}

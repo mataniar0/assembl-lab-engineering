@@ -1,0 +1,28 @@
+{
+  "project": "PST-230",
+  "inspiration": "PST-310 V8-850 R2",
+  "status": "DESIGN_ONLY",
+  "top_diameter_mm": 230,
+  "height_mm": 550,
+  "top_structure_height_mm": 60,
+  "plate_thickness_mm": 6,
+  "rim_thickness_mm": 4,
+  "horizontal_scale_factor": 0.7419354838709677,
+  "actual_laser_kerf_mm": null,
+  "actual_material_thickness_mm": null,
+  "solids": 22,
+  "checked_static_pairs": 231,
+  "booleans": 73,
+  "bbox_culled": 158,
+  "collisions_above_0_01_mm3": [],
+  "step_reimported_solids": 22,
+  "glb_reimported_meshes": 22,
+  "known_unverified": [
+    "real material fit and laser kerf",
+    "flex rim seam closure and kerfs",
+    "joint pullout / glue peel",
+    "tilt resistance of narrowed base at 550mm height",
+    "wet pot load",
+    "cut instructions require competent supervision"
+  ]
+}
