@@ -1,13 +1,13 @@
-# מעמד לעציץ PST-230 — V2 / אופטימיזציית נסטינג 15+1
+# מעמד לעציץ PST-230 — V3 / החלפת מיקום פלטה עליונה ותחתונה
 
 **סטטוס: DIGITAL NESTING PASS / DESIGN_ONLY — לא אישור ייצור.**
 
 הפרויקט מבוסס על אותו מודל CAD של PST-230 V1: קוטר פלטות 230 מ״מ, גובה 550 מ״מ, בירץ' 6 מ״מ ושלושה לוחות בגודל 850×440 מ״מ.
 
-## שיפור V2
+## שינוי V3 מול V2
 
-- לוח 6 מ״מ S01 כולל **15 חלקים**: שש רגליים, משולש, חלק עגול מרכזי, שש צלעות חיזוק ופלטה עליונה.
-- לוח 6 מ״מ S02 כולל **רק פלטה תחתונה אחת**. אפשר לחתוך אותה גם משארית בירץ׳ 6 מ״מ בגודל **250×250 מ״מ**, באמצעות הקבצים הנפרדים בתיקייה `optional_scrap_250x250` (שוליים 10 מ״מ). חלופה זו מחליפה את לוח S02, ולא נחתכת בנוסף אליו.
+- לוח 6 מ״מ S01 כולל **15 חלקים**: שש רגליים, משולש, חלק עגול מרכזי, שש צלעות חיזוק ופלטה תחתונה (עם 18 חריצים פנימיים).
+- לוח 6 מ״מ S02 כולל **רק פלטה עליונה אחת**. אפשר לחתוך אותה גם משארית בירץ׳ 6 מ״מ בגודל **250×250 מ״מ**, באמצעות הקבצים הנפרדים בתיקייה `optional_scrap_250x250` (שוליים 10 מ״מ). חלופה זו מחליפה את לוח S02, ולא נחתכת בנוסף אליו.
 - לוח 4 מ״מ S01 מכיל 6 מקטעי מעטפת, ללא כל שינוי.
 - המטרה להכניס **את כל 16 חלקי ה־6 מ״מ ללוח אחד לא אומתה**. ניסיונות האריזה הותירו חפיפות; לא הוכח חוסר אפשרות מתמטי.
 - שאר הגיאומטריה, החיבורים ו־CAD STEP/GLB נותרו כפי שהיו.
@@ -26,4 +26,4 @@
 ## שחזור
 
 
-def run: first run `python build_pst_230.py` and `python export_nest_pst230.py` to generate source DXF, then `python repack_pst230_v2.py` from this release's `source` directory (with `PST230_SRC`, `PST230_OUT` environment variables set to proper directories). Placement seed file `one_disc_raster_solved.json` accompanies the repack script.
+def run: first run `python build_pst_230.py` and `python export_nest_pst230.py` to generate source DXF, then `python repack_pst230_v3.py` from this release's `source` directory (with `PST230_SRC`, `PST230_OUT` environment variables set to proper directories). Placement seed file `one_disc_raster_solved.json` accompanies the repack script.

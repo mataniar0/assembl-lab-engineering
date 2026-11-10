@@ -1,0 +1,39 @@
+{
+  "project": "PST-230",
+  "release": "V3-850-DISC-SWAP",
+  "status": "GEOMETRIC_NESTING_PASS / DESIGN_ONLY",
+  "top_disc_solo": true,
+  "bottom_disc_in_dense_sheet": true,
+  "exterior_contours_exactly_equal": true,
+  "top_internal_slots": 0,
+  "bottom_internal_slots": 18,
+  "other_14_six_mm_part_placements_unchanged": true,
+  "original_part_files_sha256_unchanged": {
+    "cut_parts_dxf": 22,
+    "cut_parts_svg": 22
+  },
+  "four_mm_sheet_identical": true,
+  "sheets_reopened_with_svg_dxf_coordinate_parity": [
+    [
+      "BIRCH6_S01_440x850",
+      52,
+      0
+    ],
+    [
+      "BIRCH6_S02_440x850",
+      1,
+      0
+    ],
+    [
+      "BIRCH4_S01_440x850",
+      6,
+      252
+    ]
+  ],
+  "total_closed_contours": 59,
+  "total_bend_lines": 252,
+  "min_dense_sheet_gap_mm": 1.5986496494885984,
+  "min_dense_sheet_stock_margin_mm": 8.499999999999998,
+  "single_upper_disc_250x250_stock_margin_mm": 10,
+  "no_physical_cut_fit_load_verification": true
+}

@@ -1,6 +1,6 @@
 {
   "project": "PST-230 PLANT STAND",
-  "version": "V2-850-15PLUS1",
+  "version": "V3-850-BOTTOM-IN-NEST-TOP-SOLO",
   "status": "DESIGN_ONLY / GEOMETRIC_NESTING_PASS / G4_PHYSICAL_HOLD",
   "board_mm": [
     440,
@@ -20,7 +20,7 @@
         "LEG_2_B_6MM",
         "LEG_3_A_6MM",
         "LEG_3_B_6MM",
-        "TOP_DISC_D230_RIM_TABS_ONLY_6MM",
+        "BOTTOM_DISC_D230_6MM",
         "LOWER_TRIANGLE_ONE_PIECE_6MM",
         "CENTRAL_FLAT_6MM_SPIDER",
         "CORE_RIB_01_6MM",
@@ -32,7 +32,7 @@
       ],
       "min_cut_clearance_mm": 1.5986496494885984,
       "minimum_stock_margin_mm": 8.499999999999998,
-      "closed_contours": 34,
+      "closed_contours": 52,
       "bend_strokes": 0
     },
     {
@@ -40,11 +40,11 @@
       "material": "birch 6mm",
       "parts": 1,
       "names": [
-        "BOTTOM_DISC_D230_6MM"
+        "TOP_DISC_D230_RIM_TABS_ONLY_6MM"
       ],
       "min_cut_clearance_mm": null,
       "minimum_stock_margin_mm": 105.0,
-      "closed_contours": 19,
+      "closed_contours": 1,
       "bend_strokes": 0
     },
     {
