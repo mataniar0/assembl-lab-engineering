@@ -1,20 +1,18 @@
-# ETG-000 v0.2 — H1 Interface Control Draft (ICD)
+# ETG-000 v0.3 — H1 glued-pivot G0 ICD / PRE_NESTING_DESIGN_ONLY
 
-**Gate:** G0_DRAFT / DESIGN_ONLY. **Issue #18, ETG-CR-001.** The owner approved adopting the H1 architecture in place of FCIPH on 2026-10-21, but no H1 dimensions, physical construction or QA pass have been approved. Use LEAN TASK PLANNING v1.1, Engineering Playbook, QUALITY_STANDARD and GATES.
+**Issue:** #18 · **Owner decisions:** D09 H1 hinge, D11 permanent adhesive (replaces P12 mechanical clip), D12 four rounded corners · **branch evidence:** Draft PR #71 · **stage:** G0_DRAFT / DESIGN_ONLY (NO production release).
 
-## Source of truth
-`parameters.json`: frozen product-specific body/material/sheet and open H1 dimensions. `PARTS.csv`: 13 **provisional** part families. `interfaces.csv`: 28 OPEN IFs; `OPEN_ISSUES.csv`: 12 blockers. `LEGACY_REGISTER.md`: frozen historical FCIPH evidence only. `ETG-CR-001-H1.md` logs the owner change.
+## Frozen external requirements / open dimensions
+Body 260×160×150mm nominal; birch 6mm nominal; H800×W440mm portrait laser sheet X0..440, Y0..800; four rounded laminated corners; integrated recessed wood H1, opening 0–120°. Actual sheet caliper and kerf, adhesive shear/peel and wear, rounded/recess appearance, complete assembly G3 and independent QA remain OPEN.
 
-## ETG envelope and frames
-Body outer 260×160×150mm, nominal structural birch6mm, sheet X0..440/Y0..800mm portrait. +X length, +Y rear, +Z up. **H1 external rear envelope, axis and clear fruit cavity are OPEN**; FCIPH depth ~178.4mm and diameters are not current design. Required H1 lid swing 0..120° in **ETG**, not MEB 110°. End user etrog and optional tray must remain accessible.
+## Source authority
+C11 newly reconstructed editable CAD source is delivered in the user's ChatGPT ZIP `ETG_01_C11_PRE_NESTING_DESIGN_ONLY.zip` SHA256 `ee6b1068eca3bb9ba65d0655a20138478a98609e7e16968d4bd4a5dacbfe60e1`, **not stored in GitHub**. Original V7.6 FCIPH source remains unavailable and cannot be treated as validating H1. This G0 file is a configuration record, not independently reviewed CAD.
 
-## Mechanism groups / BOM mapping
-A **fixed body hinge support** integrated in rear P06 laminated corners (and dependent P02/P03/P04 details). B **moving lid cheeks** P09/P10 and P07/P08 joint. C **wooden pivot pins** P11 ×2. D **flush retaining caps** P12 ×2, seated in rear corner sides, mechanically captured without large external ring. Supports, moving cheek bores and pins coaxial in one XYZ reference system, with credible lamination from flat stock and no concealed incompatible parts.
+## Active provisional BOM / IF status
+`PARTS.csv` contains 13 historical family IDs (P12 mechanical clip and P13 optional tray are quantity zero). C11 present **102 flat nominal 6mm cut parts:** 5 walls/base P01–P05; P06 48 front corner laminates, 36 rear corner laminates, four rear fixed ears and two keepers (P06 90 total); P07 roof 1, P08 glue webs 2, rotating cheeks P09/P10 1 each; P11 pins 2. No separate P12 retainer, no optional P13 cradle in current CAD.
+`interfaces.csv`: 28 traceable IDs, **24 OPEN + 4 SUPERSEDED** (IF13, IF14, IF27, IF28 cap interfaces retired). IF11/12 now require adhesive pin↔rotating cheek while IF25/26 require **free rotation** through P06 fixed bearing. IF01–08 represent glued structural contacts, not verified strength.
 
-MEB-01 H1 research diameters pin7, fixed bore7.4, moving bore8.4, cap13; 4mm cap; 0.5mm axial clearance and two 6mm pin-layer concept are **NOT** frozen ETG dimensions or proof of manufacturability. FCIPH Ø14 pin/Ø32 ear are historical only.
+## What is evidenced and NOT evidenced
+C9 12/12 geometric self checks, C10 6/6 flat sheet checks, C11 four rounded corner 6/6 checks; final C11 20/20 verified geometry/export assertions; 102 separate SVG & 102 DXF vectors reimported and source STEP reimported as 102 solids. Finite 0–120° 3D rigid-motion samples only; nominal insertion paths of both wooden pins checked. No assurance that glue stays outside bearings or holds the shaft under load. No real G2b fit with actual etrog/optional cradle. Two rear roof corner cutouts remain open. Physical G3 NOT_RUN; manufacturing nesting G4 NOT_AUTHORIZED; independent QA PENDING.
 
-## Interface review
-IF-01..08 original panels and corner joints. IF-09..14 + IF-25..28 H1 supports, rotating cheeks, dual pins, cap placement and positive axial capture. IF-15..19 and IF-24 moving lid-frame/skin fit with **real thickness** through 0..120°; check every angle and rear wall. IF-20..23 ensure internal tray and fruit keep-out. Legacy 96 corner layers and two-sheet nesting are unverified with H1.
-
-## Acceptance boundaries
-G0: validate traceability/IF references, state of unknowns and source provenance, independent QA >=90/100 and no in-scope critical blocker. G1: proposed parametric source, export geometry and actual part topology. G2a/G2b: independent real-solid motion, continuous insertion and anti-escape; test missing cap, wrong-axis and forced early assembly controls. G3 actual plywood/kerf/cap attachment wear and durability NOT_RUN; G4 cutting/production NOT_AUTHORIZED. H1 design-direction approval is not approval of fabricated parts.
+**Boundary:** Arrived at entrance to trial nesting; sheets/positions/count NOT computed. Any future design-only exploratory nesting must be labeled DESIGN_ONLY, no kerf compensation or released cutting files. Formal G4 requires independent QA and actual G3 material/adhesive/fit trials.

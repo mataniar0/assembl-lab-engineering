@@ -12,3 +12,5 @@
 | D08 | No product release before G3 physical testing and G4 independent production approval | MANDATORY_POLICY | All |
 | D09 | Owner selects H1 integrated recessed wooden pivot hinge for ETG-01 on 2026-10-21, replacing FCIPH | OWNER_APPROVED_DESIGN_DIRECTION / H1_GEOMETRY_OPEN | ETG-CR-001; P06/P09–P12; IF-09..14/25..28 |
 | D10 | ETG opening requirement stays 0–120°. H1 MEB 110° and 7/7.4/8.4/13mm are research only | REQUIREMENT_120 / H1_DIMENSIONS_OPEN | ETG-003/006 |
+| D11 | Owner approved permanent wood glue for body assembly and P11-to-rotating-P09/P10 retention, replacing separate P12 mechanical clip (2026-10-26); P06 remains free bearing | OWNER_APPROVED_DESIGN_METHOD / PHYSICAL_FIT_STRENGTH_OPEN | C9–C11; H1 interface update; G3 mandatory |
+| D12 | Restore all four rounded laminated corners in reconstructed ETG-01; C11 front corners use 24×6mm layers each (R20/R14 nominal) | DESIGN_CANDIDATE / G1_QA_PENDING | C11 geometry/BOM; 800×440 nesting |
