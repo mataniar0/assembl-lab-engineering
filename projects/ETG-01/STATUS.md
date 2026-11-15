@@ -9,6 +9,13 @@
 
 **Hinge:** `H1_OWNER_SELECTED / GEOMETRY_OPEN`, replaces FCIPH. Owner-approved architecture, NOT H1 3D or manufacturing validation.
 
+## ETG C13 — Flush rear corners, 2026-11-15 (DESIGN_ONLY)
+- Rebuilt P03/P04 straight side returns to end at rear R20 tangent Y140, P02 lower rear to X20..240, P06 true annular R20/R14 four corner arcs; removed obsolete square P06 keeper shafts from retired P12 clip. The raised H1 ear extension remains deliberately outside the body. Upper 6mm rear shell relief and two P07 roof cutouts remain open.
+- **110 nominal 6mm flat CAD parts**, **110 separate DXF + 110 SVG**, STEP/GLB with 110 parts and OPEN 120° state. Local source/exports **33/33 QA PASS**, static pair comparisons 5253 with 0 collisions; 43981 moving-vs-fixed sample comparisons across 61 poses at 2° with 0 collisions; P11 insertion path 8856 comparisons 0 collisions.
+- Negative contour control: C12 left side `8769.633mm³` outside theoretical R20 body envelope, C13 `0mm³`. STEP and GLB reimported valid, all vector files reopened, DXF/SVG source area discrepancy max 0.0319%.
+- Full reproducible code/STEP/GLB/DXF/SVG in chat archive `ETG_C13_ALL.zip` SHA256 `5f5f1ee772126ab9605e21e38ea10c2a02fc28c9d38b23778739473dba4c9f5b`, **NOT stored as CAD/source in this GitHub branch**. Audit report: `design/ETG_C13_FLUSH_ROUNDED_CORNER_REPAIR.md`; Issue #101.
+- **Blocked for G3/G4:** top hinge clearance/roof cutouts open, no physical bonded/kerf/strength/wear tests, no independent QA, no production nesting. Opened PR #71 remains DRAFT and unmerged. Cad/model source was reconstructed; historical V7.6 still absent.
+
 ## Baseline status
 The scope is **project redefinition only**. No imported DXF is approved, generated or modified in this task. V7.2 and V7.6 historical reports are evidence to reconcile, NOT newly repeated tests.
 
