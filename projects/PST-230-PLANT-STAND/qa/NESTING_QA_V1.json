@@ -1,0 +1,77 @@
+{
+  "project": "PST-230",
+  "version": "V1-CAD-NESTING",
+  "status": "DESIGN_ONLY / DIGITAL_NESTING_PASS / PHYSICAL_HOLD",
+  "top_diameter_mm": 230,
+  "total_height_mm": 550,
+  "board_size_mm": [
+    440,
+    850
+  ],
+  "parts": 22,
+  "required_min_gap_mm": 1.15,
+  "required_stock_margin_mm": 5.0,
+  "sheets": [
+    {
+      "name": "BIRCH6_S01_440x850",
+      "part_names": [
+        "LEG_1_A_6MM",
+        "LEG_1_B_6MM",
+        "LEG_3_A_6MM",
+        "LEG_3_B_6MM",
+        "LOWER_TRIANGLE_ONE_PIECE_6MM",
+        "CENTRAL_FLAT_6MM_SPIDER",
+        "CORE_RIB_01_6MM",
+        "CORE_RIB_02_6MM",
+        "CORE_RIB_03_6MM",
+        "CORE_RIB_04_6MM",
+        "CORE_RIB_05_6MM",
+        "CORE_RIB_06_6MM"
+      ],
+      "part_count": 12,
+      "minimum_clearance_mm": 1.79004,
+      "minimum_stock_margin_mm": 5.0,
+      "closed_contours": 25,
+      "bend_lines": 0
+    },
+    {
+      "name": "BIRCH6_S02_440x850",
+      "part_names": [
+        "LEG_2_A_6MM",
+        "LEG_2_B_6MM",
+        "BOTTOM_DISC_D230_6MM",
+        "TOP_DISC_D230_RIM_TABS_ONLY_6MM"
+      ],
+      "part_count": 4,
+      "minimum_clearance_mm": 3.21741,
+      "minimum_stock_margin_mm": 5.0,
+      "closed_contours": 28,
+      "bend_lines": 0
+    },
+    {
+      "name": "BIRCH4_S01_440x850",
+      "part_names": [
+        "RIM_01_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_02_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_03_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_04_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_05_BIRCH4_UPPER_LOWER_TABS",
+        "RIM_06_BIRCH4_UPPER_LOWER_TABS"
+      ],
+      "part_count": 6,
+      "minimum_clearance_mm": 7.0,
+      "minimum_stock_margin_mm": 5.0,
+      "closed_contours": 6,
+      "bend_lines": 252
+    }
+  ],
+  "closed_contours": 59,
+  "bend_lines": 252,
+  "rim_developed_length_per_sector_mm": 118.33332328521554,
+  "rim_developed_total_length_mm": 709.9999397112932,
+  "stock_material": [
+    "6mm birch",
+    "4mm birch"
+  ],
+  "physical_strength_qualified": false
+}
