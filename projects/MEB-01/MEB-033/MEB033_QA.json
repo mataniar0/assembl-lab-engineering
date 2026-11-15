@@ -1,0 +1,62 @@
+{
+  "version": "MEB-033",
+  "status": "PROTOTYPE_GEOMETRY_USER_REPORTED_R6_PASSED",
+  "user_physical_evidence": "User stated R6 was validated and worked well; no independent measurements or formal strength test available.",
+  "sources": {
+    "product_plus_jig": "MEB-030 DXF/SVG",
+    "lid_slits": "MEB-032 R6 DXF/SVG"
+  },
+  "sheet_mm": {
+    "W": 440,
+    "H": 800,
+    "thickness_nominal": 4
+  },
+  "counts": {
+    "product": 20,
+    "single_inverse_curve_jig": 1,
+    "stock_parts": 21,
+    "outline_loops": 31,
+    "old_lid_kerfs_removed": 194,
+    "R6_lid_kerfs_inserted": 88,
+    "kerf_rows": 22,
+    "kerfs_per_row": 4,
+    "bridges_per_row": 3
+  },
+  "intended_kerf_pattern": {
+    "bridge_width_mm": 4,
+    "outside_bridges_mm_from_edge": "20–24 alternating",
+    "max_slot_mm": 138.00000000000003,
+    "edge_open": true
+  },
+  "layout_adjustments": {
+    "roof_shift_down_mm": 0.35,
+    "lower_7_parts_shift_down_mm": 0.85,
+    "why": "Restore >=1mm clearance between edge-overrunning slit centerlines and neighboring cuts; keep >=3mm sheet border"
+  },
+  "QA": {
+    "DXF": "/mnt/data/MEB033_R6_VERIFIED_FULL_NEST/MEB033_ALL20_PLUS_CURVE_R6_4MM_440x800_GAP1MM_DESIGN_ONLY.dxf",
+    "SVG": "/mnt/data/MEB033_R6_VERIFIED_FULL_NEST/MEB033_ALL20_PLUS_CURVE_R6_4MM_440x800_GAP1MM_DESIGN_ONLY.svg",
+    "parts": 21,
+    "all_contour_pair_checks": 210,
+    "min_contour_to_contour_mm": 0.9999999999999999,
+    "min_kerf_to_nonlid_material_mm": 1.1499999999999773,
+    "min_outline_stock_margin_mm": 3.0,
+    "min_kerf_stock_margin_mm": 3.0,
+    "maximum_occupied_height_mm": 437.697541,
+    "per_part_shape_geometry_preserved": true,
+    "SVG_DXF_outline_and_line_roundtrip": "PASS",
+    "any_overlap": false
+  },
+  "sources_sha256": {
+    "MEB030_base_DXF": "5e9883a80423a69224c5545a4d1481d5c25877515cb2dcadff8915c9600a2323",
+    "MEB030_base_SVG": "72779cfa2215ad6e3c84da74f57519caefe5c1d6e1ef0d93e7a31c49cda49b70",
+    "R6_lid_DXF": "8490c0edc18a2a19e957b2ecff48e9c976dad467551b72448d0bbbfbe8915eb0",
+    "R6_lid_SVG": "b4880522a4c0e57f791ef11ed5ca619a8fcaf33f66e72800a99261042b5829fa"
+  },
+  "remaining_risks": [
+    "Actual kerf width and machine-specific fit uncalibrated",
+    "R6 material compliance and durability beyond user dry-run not tested",
+    "Wood glue/load/jig/hinge strength and 4mm stock tolerances not independently validated",
+    "No independent engineering QA or release to serial manufacturing"
+  ]
+}
