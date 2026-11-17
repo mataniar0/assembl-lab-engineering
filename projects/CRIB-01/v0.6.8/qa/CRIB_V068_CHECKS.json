@@ -1,0 +1,97 @@
+{
+  "product": "CRIB-01 V0.6.8 3D VISUAL ASSEMBLY",
+  "status": "DESIGN_ONLY / NO_CUT / NO_INFANT_USE / INDEPENDENT_QA_PENDING",
+  "frozen": {
+    "mattress_mm": [
+      1200.0,
+      600.0,
+      150.0
+    ],
+    "overall_height_mm": 880.0,
+    "closed_sides_for_possible_future_sleep": 4,
+    "unoccupied_prototype_sides": 3
+  },
+  "provisional": {
+    "bay_mm": [
+      1204.0,
+      604.0
+    ],
+    "posts_mm": [
+      70.0,
+      70.0,
+      880.0
+    ],
+    "rail_heights_mm": {
+      "top": [
+        800.0,
+        860.0
+      ],
+      "lower": [
+        100.0,
+        180.0
+      ]
+    },
+    "plywood_nominal_mm": 10.0
+  },
+  "base_step_reused": "/mnt/data/CRIB_V067_BASE_CAD_DESIGN_ONLY/CRIB_V067_BASE_CASSETTE_CONCEPT_NO_CUT.step",
+  "base_component_solids_reused": 33,
+  "three_sides": {
+    "cad_part_solids": 108,
+    "glb_wood_nodes": 108,
+    "per_group": {
+      "base_shell": 16,
+      "base_ribs": 14,
+      "base_panels": 3,
+      "posts": 16,
+      "walls": 32,
+      "slats": 27
+    },
+    "mattress_view": false
+  },
+  "four_sides": {
+    "cad_part_solids": 137,
+    "glb_wood_nodes": 137,
+    "per_group": {
+      "base_shell": 16,
+      "base_ribs": 14,
+      "base_panels": 3,
+      "posts": 16,
+      "walls": 48,
+      "slats": 40
+    },
+    "mattress_view": true
+  },
+  "numerical": {
+    "long_slats": 13,
+    "short_slats_each": 7,
+    "long_nominal_gap_mm": 58.1429,
+    "short_nominal_gap_mm": 49.25,
+    "rail_top_to_mattress_top_mm": 530,
+    "overall_envelope_mm": [
+      1344.0,
+      744.0,
+      880.0
+    ]
+  },
+  "intersection_pairs": [],
+  "open_issues": [
+    "IF-06A base cassette to walls/posts: no engineered load-bearing anchor",
+    "IF-06C panels retention not designed",
+    "IF-06D long-rail and base bearer butt seams do not transmit verified loads",
+    "IF-07 fourth wall permanent fixing not designed",
+    "IF-05 slat-to-rail fastening/retention not modeled",
+    "IF-09 child sleep safety, measured mattress fit, standards and G3 physical tests NOT_RUN"
+  ],
+  "verification_done": [
+    "STEP existing cassette imported: 33 actual BRep solids",
+    "Two STEP conceptual assemblies exported and reimported with matching solid counts",
+    "Two GLB files exported and reimported with matching node counts and bounding extents",
+    "Scoped static BRep intersection check (not engineering strength validation)"
+  ],
+  "verification_not_done": [
+    "Full 3D fastener and insert-path simulation",
+    "Physical fit/kerf and glue tests",
+    "Structural/deflection/tipping/cot-standard assessment",
+    "Independent QA"
+  ]
+}
