@@ -12,6 +12,9 @@ User-selected rocking chair with **two natural unmachined live-edge wood discs**
 
 Do not reinterpret pictures as dimensioned manufacturing plans. The physical wood discs are not measured or evaluated. This is **not** a usable chair.
 
+## R05 review study
+Read [R05 candidate joint and cutting-profile audit](R05_CUT_STUDY_HE.md). R05 is newer than R04: 109 STEP solids, 107 source-derived nominal 6mm laser-cut study profiles and 9 sheets; **still DESIGN_ONLY/NO_CUT/NO_OCCUPANT_USE** and the source/CAD package remains in this chat, not in GitHub.
+
 ## Engineering baseline
 See [project G0 and interface overview](G0_INTERFACES_HE.md) and [R04 intake QA](QA_R04_INTAKE_HE.md).
 Prior R03 local source had 97 STEP solids and 99 GLB display parts. Actual STEP audit of back pads detected 1.63–1.97mm gaps. R04 replaces four nonmating pads with 12 laminated 6mm geometric contact shims, creating 105 STEP solids and 107 GLB display meshes. Nominal zero collision is **not** proof of structural retention.
