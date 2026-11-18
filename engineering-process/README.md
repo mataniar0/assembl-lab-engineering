@@ -2,6 +2,7 @@
 
 ## Start here
 - [Playbook (Hebrew)](PLAYBOOK_HE.md)
+- [Engineering Construction Methods — Engineered Beam + Finger Joint (Hebrew)](ENGINEERING_CONSTRUCTION_METHODS_HE.md) — reference / DESIGN_ONLY
 - [Approval gates and release definitions](GATES.md)
 - [QA policy](QUALITY_STANDARD.md)
 - [Copy-and-fill templates](TEMPLATES/)
