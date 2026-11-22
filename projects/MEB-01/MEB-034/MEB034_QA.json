@@ -1,6 +1,6 @@
 {
   "version": "MEB-034",
-  "status": "R3_PRELIMINARY_2D_DESIGN_ONLY",
+  "status": "R4_2D_CHECKED__3D_FIT_BLOCKED",
   "parent": "MEB-033",
   "material_mm": 4,
   "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
@@ -92,9 +92,13 @@
     "DXF_SVG_checks_do_not_establish_assembly_fit": true,
     "first_finger_at_start_of_curved_arch": "R3: receiving notch starts s=7mm from arc start; exact s=0 not cut due weak source wedge",
     "first_notch_material_retention": "FAIL for direct unreinforced slot s=0..7.25mm",
-    "full_2d_nesting_collision_scan": "NOT_RUN"
+    "full_2d_nesting_collision_scan": "NOT_RUN",
+    "R3_hole_interference": "FAIL: R3 slots intersected two rectangular beam mortises on each arch (4 hole conflicts)",
+    "R4_hole_interference": "PASS 2D, no outer/inner intersections on two arches",
+    "R4_equal_spacing": "NOT MET: irregular arch stations required to clear original mortises",
+    "R4_3D_joint_registration": "BLOCKED"
   },
-  "revision": "R3 2026-11-22 — owner requested first finger on beginning of arch; 5 roof fingers spread edge to edge",
+  "revision": "R4 2026-11-22 — retain five roof tabs edge to edge, reposition curved notches to avoid rail mortise collisions",
   "roof_outline": {
     "status": "FIXED",
     "front_baseline_y_mm": 7.35,
@@ -259,5 +263,76 @@
       "Previous edge-to-edge failure R2 superseded by new R3 proposal but source R2 files deliberately retained."
     ],
     "release_status": "NOT_APPROVED_FOR_CUTTING"
+  },
+  "R4_review": {
+    "roof_fingers": "Same five 7mm fingers at each short end across full 99.17085434mm flat roof width as R3",
+    "curved_notch_arc_starts_mm": [
+      7,
+      18,
+      28,
+      60,
+      73.5
+    ],
+    "curved_notch_arc_ends_mm": [
+      14.25,
+      25.25,
+      35.25,
+      67.25,
+      80.75
+    ],
+    "reason_for_non_uniform_notch_stations": "Existing two rectangular beam mortises cross nominal evenly-spaced s=40.25,56.875 receiving notches. R4 relocates the three internal notches to nonuniform safe positions without altering those beam mortises.",
+    "two_dimensional_arch_contour_QA": [
+      {
+        "name": "LID_END_L",
+        "outerSelfCrossings": 0,
+        "holes": [
+          {
+            "crossings": 0,
+            "minMm": 6.299,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.73,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.565,
+            "inside": true
+          }
+        ]
+      },
+      {
+        "name": "LID_END_R",
+        "outerSelfCrossings": 0,
+        "holes": [
+          {
+            "crossings": 0,
+            "minMm": 6.299,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.73,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.565,
+            "inside": true
+          }
+        ]
+      }
+    ],
+    "profile_counts": {
+      "SVG": 31,
+      "DXF": 31
+    },
+    "R6_counts": {
+      "SVG": 88,
+      "DXF": 88
+    },
+    "remaining_blocker": "Developed lid edge 99.17085mm vs arched rim 81.03866mm: physical correspondence and 3D assembly not validated; no cut approval."
   }
 }
