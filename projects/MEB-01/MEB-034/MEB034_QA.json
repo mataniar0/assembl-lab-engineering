@@ -1,6 +1,6 @@
 {
   "version": "MEB-034",
-  "status": "BLOCKED_EDGE_TO_EDGE_AND_ARCH_INTERFACE",
+  "status": "BLOCKED_OWNER_FIRST_ARC_TAB_AND_GEOMETRIC_FIT",
   "parent": "MEB-033",
   "material_mm": 4,
   "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
@@ -89,7 +89,9 @@
     "edge_to_edge_fingers": "FAIL R2",
     "curved_arch_to_skin_registration": "BLOCKED",
     "end_notch_remaining_web": "BLOCKED (<1mm near first extreme proposed slot center)",
-    "DXF_SVG_checks_do_not_establish_assembly_fit": true
+    "DXF_SVG_checks_do_not_establish_assembly_fit": true,
+    "first_finger_at_start_of_curved_arch": "FAIL R2 — engineering redesign required",
+    "first_notch_material_retention": "FAIL for direct unreinforced slot s=0..7.25mm"
   },
   "revision": "R2 — 2026-11-22 corrected continuous front and rear lid baselines",
   "roof_outline": {
@@ -158,5 +160,32 @@
       "Make 5 matching finger and slot pairs reach both ends with validated 3D alignment",
       "Run fresh nested part/collision/kerf and bench-fit checks"
     ]
+  },
+  "latest_owner_requirement_2026_11_22": {
+    "source": "Marked screenshot of left start of orange arched lid-end piece",
+    "requirement": "First of exactly five finger joints must engage very beginning of curved arch, in marked leading-end region; remaining four distributed along entire arc including one near trailing end. Apply to both mirrored hinged arches and both corresponding lid-skin ends.",
+    "design_rationale": "Initial R2 fingers were clustered in midspan and first curved portion had no finger.",
+    "acceptance_conditions": [
+      "Five fingers per lid-skin short end (not six), corresponding to exactly five curved-arch receiving notches per arch",
+      "Finger #1 meets the starting curved section shown in the owner's crop; not placed only after the initial arch section",
+      "Finger #5 at opposite end and fingers #2–4 distributed between; continuous aligned skin baseline apart from five tabs",
+      "Both hinged arch halves receive the same intended finger pattern",
+      "Critical first notch preserves sufficient uninterrupted material after wood thickness and kerf allowance, without crossing the hinge hole or lower arch boundary",
+      "Physical 3D registration between 99.17085434mm developed skin and 81.0386596mm current selected arch edge must be reconciled before DXF/SVG production",
+      "No manufacturing approval from 2D linework checks alone"
+    ],
+    "engineering_check": {
+      "first_edge_notch_direct_design": "FAIL without structural change",
+      "nominal_first_notch_span_s_mm": [
+        0,
+        7.25
+      ],
+      "nominal_notch_depth_mm": 4.1,
+      "source_arch_flat_bottom_remnant_at_worst_2d_sample_mm": 0.03,
+      "result": "At start, a 4.1mm-deep receiving notch may break through the thin arch wall. A local gusset/reinforced geometry or revised notch depth/position is necessary.",
+      "reported_minimum_is_sample_based": true,
+      "current_nesting_matches_requirement": false
+    },
+    "status": "OWNER_REQUIREMENT_CAPTURED__REQUIRES_ARCH_REDESIGN"
   }
 }
