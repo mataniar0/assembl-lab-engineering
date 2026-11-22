@@ -1,0 +1,82 @@
+{
+  "version": "MEB-034",
+  "status": "DESIGN_ONLY_G0_REVIEW",
+  "parent": "MEB-033",
+  "material_mm": 4,
+  "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
+  "finger_width_mm": 7,
+  "receiving_notch_arc_width_mm": 7.25,
+  "nominal_arc_width_clearance_mm": 0.25,
+  "finger_engagement_mm": 4,
+  "receiving_notch_normal_depth_mm": 4.1,
+  "hinge_circles_unchanged": true,
+  "roof_lid_curvature_reference": "original MEB-033 curved rim; arc start and development origin registration is an unverified assembly assumption",
+  "centers_mm_from_arch_arc_origin": [
+    20,
+    31,
+    42,
+    53,
+    64
+  ],
+  "R6_lines": 88,
+  "R6_lines_with_adjusted_endpoints": 44,
+  "kerf_free_edge_strip_start_mm": 15.35,
+  "kerf_free_edge_strip_end_mm": 315.35,
+  "notes": "Only three existing part outer contours are modified; 88 existing R6 slits are retained with 44 shortened end segments. SVG and DXF source polygons rewritten using the same numeric geometry. No machine kerf compensation or physical joint fit verification.",
+  "arc_length_mm": {
+    "left": 81.03865959957338,
+    "right": 81.03865960214948
+  },
+  "bounds": {
+    "LID_END_L": [
+      262.43446,
+      328.85,
+      347.93446,
+      360.28478
+    ],
+    "LID_END_R": [
+      348.93446,
+      348.78478,
+      434.43446,
+      380.21957
+    ],
+    "LID_SKIN_RADIAL_4MM": [
+      328,
+      3.35,
+      427.17085,
+      327.35
+    ]
+  },
+  "signed_areas": {
+    "LID_END_L": [
+      -1547.559,
+      -1405.6599
+    ],
+    "LID_END_R": [
+      -1547.559,
+      -1405.6599
+    ],
+    "LID_SKIN_RADIAL_4MM": [
+      -31883.6877,
+      -31494.1554
+    ]
+  },
+  "self_intersections": {
+    "LID_END_L": 0,
+    "LID_END_R": 0,
+    "LID_SKIN_RADIAL_4MM": 0
+  },
+  "QA_2D": {
+    "modified_outer_polylines": 3,
+    "DXF_outline_count": 31,
+    "DXF_R6_line_count": 88,
+    "svg_line_count": 88,
+    "svg_polyline_count": 31,
+    "opening_holes_preserved": true,
+    "three_modified_outlines_are_simple": true,
+    "other_profiles_unchanged": true,
+    "physical_fit": "NOT_RUN",
+    "three_dimensional_fit": "NOT_RUN",
+    "machine_kerf": "NOT_RUN"
+  }
+}
