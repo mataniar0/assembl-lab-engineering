@@ -78,9 +78,32 @@
     "physical_fit": "NOT_RUN",
     "three_dimensional_fit": "NOT_RUN",
     "machine_kerf": "NOT_RUN",
-    "DXF_to_SVG_all_31_contours": "PASS",
-    "DXF_to_SVG_all_88_R6_cutlines": "PASS",
+    "DXF_to_SVG_all_31_contours": "PASS after R2",
+    "DXF_to_SVG_all_88_R6_cutlines": "PASS unchanged",
     "connected_part_interface_3D": "NOT_RUN",
-    "physical_finger_joint_fit": "NOT_RUN"
+    "physical_finger_joint_fit": "NOT_RUN",
+    "roof_front_back_symmetry": "PASS",
+    "only_five_protrusions_per_end": "PASS",
+    "roof_no_extra_edge_steps": "PASS",
+    "roof_outline_self_intersections": "PASS"
+  },
+  "revision": "R2 — 2026-11-22 corrected continuous front and rear lid baselines",
+  "roof_outline": {
+    "status": "FIXED",
+    "front_baseline_y_mm": 7.35,
+    "rear_baseline_y_mm": 323.35,
+    "finger_tips_front_y_mm": 3.35,
+    "finger_tips_rear_y_mm": 327.35,
+    "from_x_mm": 328,
+    "to_x_mm": 427.17085434,
+    "finger_centers_x_mm": [
+      348,
+      359,
+      370,
+      381,
+      392
+    ],
+    "tab_count_each_end": 5,
+    "comment": "Front and rear end baselines are straight, symmetric and uninterrupted except for five rectangular projecting fingers each."
   }
 }
