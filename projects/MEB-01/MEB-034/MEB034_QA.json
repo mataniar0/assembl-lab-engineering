@@ -1,6 +1,6 @@
 {
   "version": "MEB-034",
-  "status": "BLOCKED_OWNER_FIRST_ARC_TAB_AND_GEOMETRIC_FIT",
+  "status": "R3_PRELIMINARY_2D_DESIGN_ONLY",
   "parent": "MEB-033",
   "material_mm": 4,
   "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
@@ -86,14 +86,15 @@
     "only_five_protrusions_per_end": "PASS",
     "roof_no_extra_edge_steps": "PASS",
     "roof_outline_self_intersections": "PASS",
-    "edge_to_edge_fingers": "FAIL R2",
-    "curved_arch_to_skin_registration": "BLOCKED",
+    "edge_to_edge_fingers": "PASS R3 2D layout",
+    "curved_arch_to_skin_registration": "BLOCKED 3D NOT_RUN",
     "end_notch_remaining_web": "BLOCKED (<1mm near first extreme proposed slot center)",
     "DXF_SVG_checks_do_not_establish_assembly_fit": true,
-    "first_finger_at_start_of_curved_arch": "FAIL R2 — engineering redesign required",
-    "first_notch_material_retention": "FAIL for direct unreinforced slot s=0..7.25mm"
+    "first_finger_at_start_of_curved_arch": "R3: receiving notch starts s=7mm from arc start; exact s=0 not cut due weak source wedge",
+    "first_notch_material_retention": "FAIL for direct unreinforced slot s=0..7.25mm",
+    "full_2d_nesting_collision_scan": "NOT_RUN"
   },
-  "revision": "R2 — 2026-11-22 corrected continuous front and rear lid baselines",
+  "revision": "R3 2026-11-22 — owner requested first finger on beginning of arch; 5 roof fingers spread edge to edge",
   "roof_outline": {
     "status": "FIXED",
     "front_baseline_y_mm": 7.35,
@@ -187,5 +188,76 @@
       "current_nesting_matches_requirement": false
     },
     "status": "OWNER_REQUIREMENT_CAPTURED__REQUIRES_ARCH_REDESIGN"
+  },
+  "R3_review": {
+    "requirement": "Five 7mm fingers across full 99.17085434mm roof transverse width on BOTH short edges, and five receiving notches along the beginning-to-end curved arc of BOTH hinged end arches.",
+    "roof_spans": {
+      "tabStartsLocal_mm": [
+        0,
+        23.04271,
+        46.08543,
+        69.12814,
+        92.17085
+      ],
+      "tabEndsLocal_mm": [
+        7,
+        30.04271,
+        53.08543,
+        76.12814,
+        99.17085
+      ],
+      "totalWidth_mm": 99.17085434,
+      "countPerEdge": 5
+    },
+    "curved_arch_stations": {
+      "sourceArcLen_mm": 81.03865959957338,
+      "slotIntervalsArc_mm": [
+        {
+          "left": 7,
+          "right": 14.25
+        },
+        {
+          "left": 23.625,
+          "right": 30.875
+        },
+        {
+          "left": 40.25,
+          "right": 47.5
+        },
+        {
+          "left": 56.875,
+          "right": 64.125
+        },
+        {
+          "left": 73.5,
+          "right": 80.75
+        }
+      ],
+      "firstSlotStart_mm": 7,
+      "lastSlotEnd_mm": 80.75
+    },
+    "first_arch_receiving_notch_begins_at_arc_station_mm": 7,
+    "first_arch_receiving_notch_nominal_depth_mm": 4.1,
+    "first_arch_receiving_notch_position_note": "Begins 7mm along initial curved lip; chosen to avoid near-through-cut at s=0. This does NOT put a notch exactly at the geometric curve endpoint.",
+    "unaltered_R6_kerfs": 88,
+    "sheet_dimensions_mm": [
+      440,
+      800
+    ],
+    "geometric_QA": {
+      "svg_dxf_changed_outline_roundtrip": "PASS 3/3",
+      "unchanged_groups_preserved": true,
+      "self_intersection_count": 0,
+      "roof_finger_count_per_side": 5,
+      "notch_count_per_arch": 5,
+      "notch_locations_left_and_right_identical": true,
+      "notches_within_original_arch_bounds": true
+    },
+    "limitations": [
+      "Flat developed lid edge = 99.17085 mm, arch measured partial curved edge = 81.03866 mm. Different developments require independent 3D registration and bending verification.",
+      "No 3D interpart alignment proof or verified fit/kerf tests.",
+      "Previous edge-to-edge failure R2 superseded by new R3 proposal but source R2 files deliberately retained."
+    ],
+    "release_status": "NOT_APPROVED_FOR_CUTTING"
   }
 }
