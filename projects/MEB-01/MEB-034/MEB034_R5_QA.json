@@ -67,5 +67,20 @@
       76.95948,
       95.67085
     ]
+  },
+  "nesting_kerf_2D": {
+    "r6KerfLines": 88,
+    "minimumDistanceR6CutsToOtherPartOutline_mm": 8.585427170000003,
+    "nearestFeature": {
+      "kerf": [
+        335.58542717,
+        37.35,
+        335.58542717,
+        159.35
+      ],
+      "other": "BODY_FLOOR"
+    },
+    "minimumKerfToStockEdge_mm": 15.35,
+    "condition": "CUT LINE center geometry only; no kerf width applied"
   }
 }
