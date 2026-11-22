@@ -1,6 +1,6 @@
 {
   "version": "MEB-034",
-  "status": "R4_2D_CHECKED__3D_FIT_BLOCKED",
+  "status": "R4_JOINT_REGISTRATION_FAIL__NOT_APPROVED_FOR_CUTTING",
   "parent": "MEB-033",
   "material_mm": 4,
   "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
@@ -96,7 +96,10 @@
     "R3_hole_interference": "FAIL: R3 slots intersected two rectangular beam mortises on each arch (4 hole conflicts)",
     "R4_hole_interference": "PASS 2D, no outer/inner intersections on two arches",
     "R4_equal_spacing": "NOT MET: irregular arch stations required to clear original mortises",
-    "R4_3D_joint_registration": "BLOCKED"
+    "R4_3D_joint_registration": "NOT_RUN — prior R4 2D dimensions already fail nominal pairing",
+    "R4_five_pair_pitch_match": "FAIL",
+    "R4_dxf_svg_roundtrip": "PASS 31/31 contours; 88/88 R6",
+    "production_approval": "BLOCKED"
   },
   "revision": "R4 2026-11-22 — retain five roof tabs edge to edge, reposition curved notches to avoid rail mortise collisions",
   "roof_outline": {
@@ -334,5 +337,74 @@
       "DXF": 88
     },
     "remaining_blocker": "Developed lid edge 99.17085mm vs arched rim 81.03866mm: physical correspondence and 3D assembly not validated; no cut approval."
+  },
+  "release_status": "BLOCKED",
+  "R4_independent_joint_compatibility_audit": {
+    "date": "2026-11-22",
+    "examined_files": [
+      "MEB034_R4_FIVE_FINGERS_CURVED_END_4MM_440x800_DESIGN_ONLY.svg",
+      "MEB034_R4_FIVE_FINGERS_CURVED_END_4MM_440x800_DESIGN_ONLY.dxf"
+    ],
+    "result": "FAIL: 5 lid fingers and 5 receiving arch notches exist but their interval pitch patterns are incompatible. 3D fit has not been validated.",
+    "roof_developed_span_mm": 99.17085434,
+    "verified_both_roof_edges_identical": true,
+    "lid_fingers_per_short_edge": 5,
+    "lid_finger_width_mm": 7,
+    "lid_finger_centers_local_from_x328_mm": [
+      3.5,
+      26.54271359,
+      49.58542717,
+      72.62814076,
+      95.67085434
+    ],
+    "lid_center_to_center_pitch_mm": [
+      23.04271359,
+      23.04271358,
+      23.04271359,
+      23.04271358
+    ],
+    "receiving_arch_source_partial_curved_rim_mm": 81.03865959957338,
+    "receiving_notches_per_arch": 5,
+    "receiving_notch_width_along_arc_mm": 7.25,
+    "receiving_notch_centers_arc_station_mm": [
+      10.625,
+      21.625,
+      31.625,
+      63.625,
+      77.125
+    ],
+    "receiving_notch_center_to_center_pitch_mm": [
+      11,
+      10,
+      32,
+      13.5
+    ],
+    "raw_developed_width_minus_arch_arc_length_mm": 18.13219474,
+    "correspondence_status": "FAIL nominal geometry; correspondence of the developed lid edge to the arch arc in 3D is NOT_VERIFIED",
+    "illustration_normalized_only": {
+      "method": "Map s across arched rim 0..81.03866 linearly to lid width 0..99.17085, not a verified physical bend mapping",
+      "max_indicated_center_offset_mm": 10.884413555,
+      "should_not_be_interpreted_as_measured_physical_fit": true
+    },
+    "raw_cutfile_parity": {
+      "DXF_SVG_contours": "31/31 MATCH",
+      "DXF_SVG_R6_line_entities": "88/88 MATCH"
+    },
+    "inherited_R4_2D_independent_checks": {
+      "outer_self_intersections": 0,
+      "notch_hole_crossings": 0,
+      "nominal_closest_hole_to_outer_profile_mm": 2.565,
+      "structural_strength": "NOT_VERIFIED"
+    },
+    "first_receiving_notch_starts_arc_station_mm": 7,
+    "machine_kerf": "NOT_CALIBRATED",
+    "collision_and_motion_3d": "NOT_RUN",
+    "accept_for_cutting": false,
+    "remediation": [
+      "Model original lid curved section and both end arches as a single 3D assembly to verify actual roof contact length and hinge clearance",
+      "Derive one shared set of five finger/receiving-notch station coordinates from the validated lid-to-arch developed-arc mapping; do not move notch sets independently",
+      "Redesign arch receiving notches, rail mortises, and local strength at the beginning of the arch together, since R4 non-uniform placement was chosen to avoid the two original rail apertures",
+      "Re-nest, independently recheck polygon/hole/kerf/nesting distances and motion, and physically test a fit coupon before any manufacturing approval"
+    ]
   }
 }
