@@ -116,7 +116,9 @@ for name,solid in solids.items():
 assm.save(str(OUT/'MEB035_CONCEPT.step'))
 (OUT/'MEB035_CONCEPT.glb').write_bytes(scene.export(file_type='glb'))
 
-roof_flat=[(ROOF,4)]
+# R6-R2 contour defect fix: previously (ROOF,4) made finger 5 slope diagonally
+# to (ROOF-FINGER,0); full-width tabs must be rectangular at both ends.
+roof_flat=[(ROOF,0)]
 for i in range(4,-1,-1):
     a,b=fingers[i]
     if i<4:roof_flat.extend([(b,4),(b,0)])
@@ -128,6 +130,17 @@ for i,(a,b) in enumerate(fingers):
     roof_flat.append((b,AXIAL))
     if i<4:roof_flat.append((b,AXIAL-4))
 roof_poly=Polygon(roof_flat);assert roof_poly.is_valid
+# Exact regression: five rectangular 7mm finger tips at BOTH ends, no slopes.
+_vertices=list(roof_poly.exterior.coords)[:-1]
+_edges=list(zip(_vertices,_vertices[1:]+_vertices[:1]))
+assert all(abs(a[0]-b[0])<1e-8 or abs(a[1]-b[1])<1e-8 for a,b in _edges)
+def _tip_intervals(y):
+    return sorted((min(a[0],b[0]),max(a[0],b[0])) for a,b in _edges
+                  if abs(a[1]-y)<1e-8 and abs(b[1]-y)<1e-8 and abs(a[0]-b[0])>1e-8)
+_t0,_t1=_tip_intervals(0),_tip_intervals(AXIAL)
+assert len(_t0)==len(_t1)==5 and _t0==_t1
+assert all(abs(y-x-FINGER)<1e-8 for x,y in _t0)
+assert all(abs(x-a)<1e-8 and abs(y-b)<1e-8 for (x,y),(a,b) in zip(_t0,fingers))
 rail_flat=Polygon([(0,-4.5),(4,-4.5),(4,-6.5),(320,-6.5),
  (320,-4.5),(324,-4.5),(324,2.5),(320,2.5),(320,4.5),
  (4,4.5),(4,2.5),(0,2.5)])
