@@ -1,0 +1,89 @@
+{
+  "revision": "MEB-035 R6-R2",
+  "date": "2026-11-22",
+  "state": "DESIGN_ONLY_2D_PASS_PHYSICAL_BENDING_NOT_RUN",
+  "source": {
+    "R6": "MEB-032 original 88 lines",
+    "blob_sha": "b072b18012d56c24f7b59233455a9272a96e4a56",
+    "provisional_3d": "MEB-035 conceptual lid and new arches"
+  },
+  "material": {
+    "plywood_nominal_mm": 4,
+    "measured_plywood_mm": null,
+    "measured_machine_kerf_mm": null
+  },
+  "roof": {
+    "developed_width_mm": 99.17085434,
+    "axial_length_mm": 324,
+    "fingers_per_edge": 5,
+    "nominal_finger_width_mm": 7,
+    "nominal_finger_projection_mm": 4,
+    "front_back_rectangular_tip_match": "PASS 5/5",
+    "unintended_diagonals": 0
+  },
+  "R6": {
+    "rows": 22,
+    "cuts_per_row": 4,
+    "cuts": 88,
+    "bridge_count_per_row": 3,
+    "bridge_width_mm": 4,
+    "row_pitch_mm": 4,
+    "distance_tab_land_to_cut_centerline_R1_mm": 0.58542717,
+    "distance_tab_land_to_cut_centerline_R2_mm": 3.457286415,
+    "R2_design_guard_requirement_mm": 3,
+    "root_strip_behind_finger_mm": 4,
+    "modified_outboard_cut_entities_from_original": 22,
+    "unchanged_entities_from_original": 66,
+    "modified_row_numbers": [
+      1,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18
+    ],
+    "original_R6_crossing_tabs": 12,
+    "new_R2_crossing_tabs": 0,
+    "initial_R1_weakness": "0.585mm nominal sliver between outside edge-open slit and nearest finger land",
+    "change_vs_original_physically_tested_R6": true
+  },
+  "QA": {
+    "roof_only_DXF_SVG_profile_parity": "1/1",
+    "roof_only_R6_parity": "88/88",
+    "five_part_DXF_SVG_profile_parity": "11/11",
+    "five_part_R6_parity": "88/88",
+    "DXF_units_mm": true,
+    "cut_outline_and_R6_layers_separated": true,
+    "roof_contour_valid": true,
+    "five_rectangular_tips_on_each_end": true,
+    "no_sloping_tip_edges": true,
+    "five_part_nesting_nominal_min_gap_mm": 8,
+    "stock_sheet_mm": [
+      440,
+      800
+    ],
+    "deliberate_negative_controls_pass": 5,
+    "format_first_secondary_self_test": "PASS; NOT an independent engineering reviewer",
+    "qa_independence": "SELF_CHECK; INDEPENDENT_QA_PENDING"
+  },
+  "gates": {
+    "G1": "PASS within limited flat 2D R6 geometry and nesting scope",
+    "G2a": "NOT_RUN insertion path",
+    "G2b": "BLOCKED full body/110-degree hinge motion",
+    "G3": "NOT_RUN physical bend, kerf, thickness, durability",
+    "G4": "BLOCKED production release"
+  },
+  "release_approved": false,
+  "download_bundle_sha256": "fee1844fcda2ec8fc845f135d88c7fe846fae91e88898580c39b21000d20d79f",
+  "notes": [
+    "3.0mm is a provisional CAD centerline guard, not a verified safe material threshold",
+    "R2 alters 22 original cut-end segments (vs 12 in R1), so prior physical R6 trial does not prove bending",
+    "STEP/GLB renders are unslitted continuous shells, not mechanics of plywood hinge",
+    "Five-part nest only; 21-piece product sheet must be integrated and independently validated"
+  ]
+}
