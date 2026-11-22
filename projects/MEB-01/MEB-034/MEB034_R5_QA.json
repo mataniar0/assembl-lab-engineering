@@ -82,5 +82,39 @@
     },
     "minimumKerfToStockEdge_mm": 15.35,
     "condition": "CUT LINE center geometry only; no kerf width applied"
+  },
+  "independent_nesting": {
+    "bed_dimensions_mm": [
+      440,
+      800
+    ],
+    "stock_part_groups": 21,
+    "stock_part_pairs": 210,
+    "bounds_of_occupied_material_mm": [
+      3,
+      3,
+      434.43445568,
+      437.697541
+    ],
+    "minimum_part_to_stock_edge_mm": 3,
+    "minimum_distance_between_distinct_outer_part_contours_mm": 1,
+    "exact_pair_checks_optimized_by_bbox": 32,
+    "result": "PASS — 2D outline separations for documented nesting; no physical kerf compensation",
+    "note": "21 complete part polygons checked, 210 pair envelope bounds; exact segment distance computed for the 32 candidate pairs not excluded by bbox lower bounds."
+  },
+  "R6_clearance_2D": {
+    "line_count": 88,
+    "minimum_R6_centerline_to_other_parts_mm": 8.58542717,
+    "nearest_other_part": "BODY_FLOOR",
+    "minimum_R6_centerline_to_stock_edge_mm": 15.35,
+    "result": "PASS nominal cutlines; cutting kerf and material constraints unmeasured"
+  },
+  "digital_scope_disposition": {
+    "G0_reference": "Existing engineering intake G0 review remains required",
+    "G1_profiles": "PASS bounded R5 SVG/DXF and 2D sheet envelope/part distances",
+    "G2_assembly": "BLOCKED: no validated physical 3D lid-to-arch contact geometry or hinge motion",
+    "G3_physical": "BLOCKED: no plywood thickness / kerf / bend-fatigue / fit-test evidence",
+    "G4_cut_files": "NOT_APPROVED — only design-only files can be supplied",
+    "G5_release": "NOT_APPROVED"
   }
 }
