@@ -77,6 +77,10 @@
     "other_profiles_unchanged": true,
     "physical_fit": "NOT_RUN",
     "three_dimensional_fit": "NOT_RUN",
-    "machine_kerf": "NOT_RUN"
+    "machine_kerf": "NOT_RUN",
+    "DXF_to_SVG_all_31_contours": "PASS",
+    "DXF_to_SVG_all_88_R6_cutlines": "PASS",
+    "connected_part_interface_3D": "NOT_RUN",
+    "physical_finger_joint_fit": "NOT_RUN"
   }
 }
