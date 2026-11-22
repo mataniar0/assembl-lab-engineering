@@ -1,0 +1,43 @@
+{
+  "version": "MEB-034-R5",
+  "status": "2D_RECONCILED_ONLY_3D_BLOCKED",
+  "roof_width_mm": 99.17085434,
+  "original_arch_selected_arc_mm": 81.03865959957338,
+  "discrepancy_mm": 18.132194740426627,
+  "roof_centers_local_mm": [
+    3.5,
+    18.746306732932332,
+    32.606585581052634,
+    76.9594778950376,
+    95.67085434
+  ],
+  "receiving_arch_centers_arc_mm": [
+    10.625,
+    21.625,
+    31.625,
+    63.625,
+    77.125
+  ],
+  "mapping": "Affine interpolation between first and last receiving-notch centers. This is NOT a verified physical bend/unfold transformation.",
+  "spacing_roof_mm": [
+    15.246306732932332,
+    13.860278848120302,
+    44.35289231398496,
+    18.71137644496241
+  ],
+  "spacing_arch_mm": [
+    11,
+    10,
+    32,
+    13.5
+  ],
+  "finger_width_mm": 7,
+  "slot_width_mm": 7.25,
+  "digital_file_parity": "Pending independent readback",
+  "manufacturing_approval": false,
+  "reasons": [
+    "Unknown 3D registration of roof developed edge to selected curved-arch lip",
+    "Physical fit and laser kerf calibration missing",
+    "Hinge travel and mechanical strength not independently verified"
+  ]
+}
