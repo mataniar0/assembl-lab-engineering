@@ -1,0 +1,136 @@
+{
+  "project": "MEB-035",
+  "issue": 120,
+  "version": "parametric 4mm lid study / not source MEB033 production geometry",
+  "run_date": "2026-11-22",
+  "runner": "ChatGPT implementation local sandbox; no independent reviewer",
+  "python_environment": {
+    "cadquery": "2.8.0",
+    "shapely": "2.1.2",
+    "scipy": "1.17.0",
+    "trimesh": "4.11.1",
+    "numpy": "2.3.5",
+    "ezdxf": "1.4.4",
+    "lxml": "6.1.1"
+  },
+  "source_under_test": "projects/MEB-01/MEB-035/build_lid_study.py",
+  "source_inputs": {
+    "roof_developed_width_mm": 99.17085434,
+    "arch_overall_width_mm": 85.5,
+    "ply_nominal_mm": 4,
+    "axial_span_mm": 324
+  },
+  "provisional_changes": {
+    "arch_circular_radius_mm": 53.35636900063108,
+    "arch_rise_mm": 21.429270589853047,
+    "arch_lower_flange_mm": 8,
+    "hinge_y_old_local_mm": 75,
+    "hinge_y_new_local_mm": 68,
+    "rail_hole_y_local_mm": [
+      26,
+      58
+    ]
+  },
+  "result": {
+    "local_fixed_pose_overlap_tests": {
+      "total": 14,
+      "pass": 14,
+      "fail": 0,
+      "evidence": [
+        {
+          "pair": "LEFT-1",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "LEFT-2",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "LEFT-3",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "LEFT-4",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "LEFT-5",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RAIL_1-LEFT",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RAIL_2-LEFT",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RIGHT-1",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RIGHT-2",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RIGHT-3",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RIGHT-4",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RIGHT-5",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RAIL_1-RIGHT",
+          "overlap_mm3": 0
+        },
+        {
+          "pair": "RAIL_2-RIGHT",
+          "overlap_mm3": 0
+        }
+      ]
+    },
+    "watertight_GLb_meshed_solids": {
+      "total": 15,
+      "pass": 15
+    },
+    "svg_dxf_contour_roundtrip": {
+      "total": 11,
+      "pass": 11
+    },
+    "partial_nesting": {
+      "parts": 5,
+      "min_part_gap_mm": 8,
+      "sheet_mm": [
+        440,
+        800
+      ]
+    },
+    "correction_cycles": 4
+  },
+  "not_run": [
+    "continuous insertion paths",
+    "whole product/body geometry",
+    "110-degree hinge motion",
+    "R6 living hinge export for new arc",
+    "physical kerf and stock thickness",
+    "strength and cyclic durability",
+    "independent engineering QA",
+    "final 21-piece nesting"
+  ],
+  "gates": {
+    "G1": "BOUNDED PASS local design study",
+    "G2a": "PARTIAL (fixed-pose local intersections only)",
+    "G2b": "BLOCKED",
+    "G3": "BLOCKED",
+    "G4": "BLOCKED",
+    "G5": "NOT_APPLICABLE"
+  },
+  "production_approval": false,
+  "conflict_notice": "This proposed design moves the hinge by 7 mm and rail mortises from MEB033; without body redesign it is not established as compatible with the existing product."
+}
