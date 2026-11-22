@@ -1,0 +1,410 @@
+{
+  "version": "MEB-034",
+  "status": "R4_JOINT_REGISTRATION_FAIL__NOT_APPROVED_FOR_CUTTING",
+  "parent": "MEB-033",
+  "material_mm": 4,
+  "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
+  "finger_width_mm": 7,
+  "receiving_notch_arc_width_mm": 7.25,
+  "nominal_arc_width_clearance_mm": 0.25,
+  "finger_engagement_mm": 4,
+  "receiving_notch_normal_depth_mm": 4.1,
+  "hinge_circles_unchanged": true,
+  "roof_lid_curvature_reference": "original MEB-033 curved rim; arc start and development origin registration is an unverified assembly assumption",
+  "centers_mm_from_arch_arc_origin": [
+    20,
+    31,
+    42,
+    53,
+    64
+  ],
+  "R6_lines": 88,
+  "R6_lines_with_adjusted_endpoints": 44,
+  "kerf_free_edge_strip_start_mm": 15.35,
+  "kerf_free_edge_strip_end_mm": 315.35,
+  "notes": "Only three existing part outer contours are modified; 88 existing R6 slits are retained with 44 shortened end segments. SVG and DXF source polygons rewritten using the same numeric geometry. No machine kerf compensation or physical joint fit verification.",
+  "arc_length_mm": {
+    "left": 81.03865959957338,
+    "right": 81.03865960214948
+  },
+  "bounds": {
+    "LID_END_L": [
+      262.43446,
+      328.85,
+      347.93446,
+      360.28478
+    ],
+    "LID_END_R": [
+      348.93446,
+      348.78478,
+      434.43446,
+      380.21957
+    ],
+    "LID_SKIN_RADIAL_4MM": [
+      328,
+      3.35,
+      427.17085,
+      327.35
+    ]
+  },
+  "signed_areas": {
+    "LID_END_L": [
+      -1547.559,
+      -1405.6599
+    ],
+    "LID_END_R": [
+      -1547.559,
+      -1405.6599
+    ],
+    "LID_SKIN_RADIAL_4MM": [
+      -31883.6877,
+      -31494.1554
+    ]
+  },
+  "self_intersections": {
+    "LID_END_L": 0,
+    "LID_END_R": 0,
+    "LID_SKIN_RADIAL_4MM": 0
+  },
+  "QA_2D": {
+    "modified_outer_polylines": 3,
+    "DXF_outline_count": 31,
+    "DXF_R6_line_count": 88,
+    "svg_line_count": 88,
+    "svg_polyline_count": 31,
+    "opening_holes_preserved": true,
+    "three_modified_outlines_are_simple": true,
+    "other_profiles_unchanged": true,
+    "physical_fit": "NOT_RUN",
+    "three_dimensional_fit": "NOT_RUN",
+    "machine_kerf": "NOT_RUN",
+    "DXF_to_SVG_all_31_contours": "PASS after R2",
+    "DXF_to_SVG_all_88_R6_cutlines": "PASS unchanged",
+    "connected_part_interface_3D": "NOT_RUN",
+    "physical_finger_joint_fit": "NOT_RUN",
+    "roof_front_back_symmetry": "PASS",
+    "only_five_protrusions_per_end": "PASS",
+    "roof_no_extra_edge_steps": "PASS",
+    "roof_outline_self_intersections": "PASS",
+    "edge_to_edge_fingers": "PASS R3 2D layout",
+    "curved_arch_to_skin_registration": "BLOCKED 3D NOT_RUN",
+    "end_notch_remaining_web": "BLOCKED (<1mm near first extreme proposed slot center)",
+    "DXF_SVG_checks_do_not_establish_assembly_fit": true,
+    "first_finger_at_start_of_curved_arch": "R3: receiving notch starts s=7mm from arc start; exact s=0 not cut due weak source wedge",
+    "first_notch_material_retention": "FAIL for direct unreinforced slot s=0..7.25mm",
+    "full_2d_nesting_collision_scan": "NOT_RUN",
+    "R3_hole_interference": "FAIL: R3 slots intersected two rectangular beam mortises on each arch (4 hole conflicts)",
+    "R4_hole_interference": "PASS 2D, no outer/inner intersections on two arches",
+    "R4_equal_spacing": "NOT MET: irregular arch stations required to clear original mortises",
+    "R4_3D_joint_registration": "NOT_RUN — prior R4 2D dimensions already fail nominal pairing",
+    "R4_five_pair_pitch_match": "FAIL",
+    "R4_dxf_svg_roundtrip": "PASS 31/31 contours; 88/88 R6",
+    "production_approval": "BLOCKED"
+  },
+  "revision": "R4 2026-11-22 — retain five roof tabs edge to edge, reposition curved notches to avoid rail mortise collisions",
+  "roof_outline": {
+    "status": "FIXED",
+    "front_baseline_y_mm": 7.35,
+    "rear_baseline_y_mm": 323.35,
+    "finger_tips_front_y_mm": 3.35,
+    "finger_tips_rear_y_mm": 327.35,
+    "from_x_mm": 328,
+    "to_x_mm": 427.17085434,
+    "finger_centers_x_mm": [
+      348,
+      359,
+      370,
+      381,
+      392
+    ],
+    "tab_count_each_end": 5,
+    "comment": "Front and rear end baselines are straight, symmetric and uninterrupted except for five rectangular projecting fingers each."
+  },
+  "edge_to_edge_audit_2026_11_22": {
+    "request": "Five finger joints must be distributed across the full lid width, edge to edge.",
+    "result": "FAIL — R2 tabs cluster over only 51.0 mm and are asymmetrically positioned.",
+    "lid_developed_width_mm": 99.17085434,
+    "current_tab_width_mm": 7,
+    "current_tab_envelope_local_mm": [
+      16.5,
+      67.5
+    ],
+    "current_tab_coverage_mm": 51,
+    "current_margin_start_mm": 16.5,
+    "current_margin_end_mm": 31.67085434,
+    "proposed_symmetric_edge_to_edge_tab_starts_local_mm": [
+      0,
+      23.042713585,
+      46.08542717,
+      69.128140755,
+      92.17085434
+    ],
+    "proposed_symmetric_edge_to_edge_tab_ends_local_mm": [
+      7,
+      30.042713585,
+      53.08542717,
+      76.128140755,
+      99.17085434
+    ],
+    "proposed_nominal_uniform_gaps_mm": 16.042713585,
+    "receiving_arch_length_mm": 81.03865959957338,
+    "developed_width_vs_arch_discrepancy_mm": 18.132194740426627,
+    "receiving_arch_if_edge_distributed": {
+      "nominal_slot_width_mm": 7.25,
+      "nominal_slot_centers_arc_mm": [
+        3.625,
+        22.0721648999,
+        40.5193297998,
+        58.9664946997,
+        77.4136595996
+      ],
+      "first_notch_center_root_remaining_minimum_mm_approx": 0.94,
+      "note": "Check at first arch-end slot center indicates only ~0.94 mm 2D remaining web to other outer edge; insufficient evidence of structural margin. This is a local center sample and not a full cross-section or finite element strength test."
+    },
+    "gating": "No roof or arch cut geometry updated until physical developed-length/curved-edge registration is reconciled. Proposed locations are a layout concept only; cutting, production and PR merge remain BLOCKED.",
+    "required_next_steps": [
+      "Reconcile actual roof skin width to curved arch interface including its end/hinge geometry in 3D",
+      "Redesign first and last arch receiving notches with adequate material retention",
+      "Make 5 matching finger and slot pairs reach both ends with validated 3D alignment",
+      "Run fresh nested part/collision/kerf and bench-fit checks"
+    ]
+  },
+  "latest_owner_requirement_2026_11_22": {
+    "source": "Marked screenshot of left start of orange arched lid-end piece",
+    "requirement": "First of exactly five finger joints must engage very beginning of curved arch, in marked leading-end region; remaining four distributed along entire arc including one near trailing end. Apply to both mirrored hinged arches and both corresponding lid-skin ends.",
+    "design_rationale": "Initial R2 fingers were clustered in midspan and first curved portion had no finger.",
+    "acceptance_conditions": [
+      "Five fingers per lid-skin short end (not six), corresponding to exactly five curved-arch receiving notches per arch",
+      "Finger #1 meets the starting curved section shown in the owner's crop; not placed only after the initial arch section",
+      "Finger #5 at opposite end and fingers #2–4 distributed between; continuous aligned skin baseline apart from five tabs",
+      "Both hinged arch halves receive the same intended finger pattern",
+      "Critical first notch preserves sufficient uninterrupted material after wood thickness and kerf allowance, without crossing the hinge hole or lower arch boundary",
+      "Physical 3D registration between 99.17085434mm developed skin and 81.0386596mm current selected arch edge must be reconciled before DXF/SVG production",
+      "No manufacturing approval from 2D linework checks alone"
+    ],
+    "engineering_check": {
+      "first_edge_notch_direct_design": "FAIL without structural change",
+      "nominal_first_notch_span_s_mm": [
+        0,
+        7.25
+      ],
+      "nominal_notch_depth_mm": 4.1,
+      "source_arch_flat_bottom_remnant_at_worst_2d_sample_mm": 0.03,
+      "result": "At start, a 4.1mm-deep receiving notch may break through the thin arch wall. A local gusset/reinforced geometry or revised notch depth/position is necessary.",
+      "reported_minimum_is_sample_based": true,
+      "current_nesting_matches_requirement": false
+    },
+    "status": "OWNER_REQUIREMENT_CAPTURED__REQUIRES_ARCH_REDESIGN"
+  },
+  "R3_review": {
+    "requirement": "Five 7mm fingers across full 99.17085434mm roof transverse width on BOTH short edges, and five receiving notches along the beginning-to-end curved arc of BOTH hinged end arches.",
+    "roof_spans": {
+      "tabStartsLocal_mm": [
+        0,
+        23.04271,
+        46.08543,
+        69.12814,
+        92.17085
+      ],
+      "tabEndsLocal_mm": [
+        7,
+        30.04271,
+        53.08543,
+        76.12814,
+        99.17085
+      ],
+      "totalWidth_mm": 99.17085434,
+      "countPerEdge": 5
+    },
+    "curved_arch_stations": {
+      "sourceArcLen_mm": 81.03865959957338,
+      "slotIntervalsArc_mm": [
+        {
+          "left": 7,
+          "right": 14.25
+        },
+        {
+          "left": 23.625,
+          "right": 30.875
+        },
+        {
+          "left": 40.25,
+          "right": 47.5
+        },
+        {
+          "left": 56.875,
+          "right": 64.125
+        },
+        {
+          "left": 73.5,
+          "right": 80.75
+        }
+      ],
+      "firstSlotStart_mm": 7,
+      "lastSlotEnd_mm": 80.75
+    },
+    "first_arch_receiving_notch_begins_at_arc_station_mm": 7,
+    "first_arch_receiving_notch_nominal_depth_mm": 4.1,
+    "first_arch_receiving_notch_position_note": "Begins 7mm along initial curved lip; chosen to avoid near-through-cut at s=0. This does NOT put a notch exactly at the geometric curve endpoint.",
+    "unaltered_R6_kerfs": 88,
+    "sheet_dimensions_mm": [
+      440,
+      800
+    ],
+    "geometric_QA": {
+      "svg_dxf_changed_outline_roundtrip": "PASS 3/3",
+      "unchanged_groups_preserved": true,
+      "self_intersection_count": 0,
+      "roof_finger_count_per_side": 5,
+      "notch_count_per_arch": 5,
+      "notch_locations_left_and_right_identical": true,
+      "notches_within_original_arch_bounds": true
+    },
+    "limitations": [
+      "Flat developed lid edge = 99.17085 mm, arch measured partial curved edge = 81.03866 mm. Different developments require independent 3D registration and bending verification.",
+      "No 3D interpart alignment proof or verified fit/kerf tests.",
+      "Previous edge-to-edge failure R2 superseded by new R3 proposal but source R2 files deliberately retained."
+    ],
+    "release_status": "NOT_APPROVED_FOR_CUTTING"
+  },
+  "R4_review": {
+    "roof_fingers": "Same five 7mm fingers at each short end across full 99.17085434mm flat roof width as R3",
+    "curved_notch_arc_starts_mm": [
+      7,
+      18,
+      28,
+      60,
+      73.5
+    ],
+    "curved_notch_arc_ends_mm": [
+      14.25,
+      25.25,
+      35.25,
+      67.25,
+      80.75
+    ],
+    "reason_for_non_uniform_notch_stations": "Existing two rectangular beam mortises cross nominal evenly-spaced s=40.25,56.875 receiving notches. R4 relocates the three internal notches to nonuniform safe positions without altering those beam mortises.",
+    "two_dimensional_arch_contour_QA": [
+      {
+        "name": "LID_END_L",
+        "outerSelfCrossings": 0,
+        "holes": [
+          {
+            "crossings": 0,
+            "minMm": 6.299,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.73,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.565,
+            "inside": true
+          }
+        ]
+      },
+      {
+        "name": "LID_END_R",
+        "outerSelfCrossings": 0,
+        "holes": [
+          {
+            "crossings": 0,
+            "minMm": 6.299,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.73,
+            "inside": true
+          },
+          {
+            "crossings": 0,
+            "minMm": 2.565,
+            "inside": true
+          }
+        ]
+      }
+    ],
+    "profile_counts": {
+      "SVG": 31,
+      "DXF": 31
+    },
+    "R6_counts": {
+      "SVG": 88,
+      "DXF": 88
+    },
+    "remaining_blocker": "Developed lid edge 99.17085mm vs arched rim 81.03866mm: physical correspondence and 3D assembly not validated; no cut approval."
+  },
+  "release_status": "BLOCKED",
+  "R4_independent_joint_compatibility_audit": {
+    "date": "2026-11-22",
+    "examined_files": [
+      "MEB034_R4_FIVE_FINGERS_CURVED_END_4MM_440x800_DESIGN_ONLY.svg",
+      "MEB034_R4_FIVE_FINGERS_CURVED_END_4MM_440x800_DESIGN_ONLY.dxf"
+    ],
+    "result": "FAIL: 5 lid fingers and 5 receiving arch notches exist but their interval pitch patterns are incompatible. 3D fit has not been validated.",
+    "roof_developed_span_mm": 99.17085434,
+    "verified_both_roof_edges_identical": true,
+    "lid_fingers_per_short_edge": 5,
+    "lid_finger_width_mm": 7,
+    "lid_finger_centers_local_from_x328_mm": [
+      3.5,
+      26.54271359,
+      49.58542717,
+      72.62814076,
+      95.67085434
+    ],
+    "lid_center_to_center_pitch_mm": [
+      23.04271359,
+      23.04271358,
+      23.04271359,
+      23.04271358
+    ],
+    "receiving_arch_source_partial_curved_rim_mm": 81.03865959957338,
+    "receiving_notches_per_arch": 5,
+    "receiving_notch_width_along_arc_mm": 7.25,
+    "receiving_notch_centers_arc_station_mm": [
+      10.625,
+      21.625,
+      31.625,
+      63.625,
+      77.125
+    ],
+    "receiving_notch_center_to_center_pitch_mm": [
+      11,
+      10,
+      32,
+      13.5
+    ],
+    "raw_developed_width_minus_arch_arc_length_mm": 18.13219474,
+    "correspondence_status": "FAIL nominal geometry; correspondence of the developed lid edge to the arch arc in 3D is NOT_VERIFIED",
+    "illustration_normalized_only": {
+      "method": "Map s across arched rim 0..81.03866 linearly to lid width 0..99.17085, not a verified physical bend mapping",
+      "max_indicated_center_offset_mm": 10.884413555,
+      "should_not_be_interpreted_as_measured_physical_fit": true
+    },
+    "raw_cutfile_parity": {
+      "DXF_SVG_contours": "31/31 MATCH",
+      "DXF_SVG_R6_line_entities": "88/88 MATCH"
+    },
+    "inherited_R4_2D_independent_checks": {
+      "outer_self_intersections": 0,
+      "notch_hole_crossings": 0,
+      "nominal_closest_hole_to_outer_profile_mm": 2.565,
+      "structural_strength": "NOT_VERIFIED"
+    },
+    "first_receiving_notch_starts_arc_station_mm": 7,
+    "machine_kerf": "NOT_CALIBRATED",
+    "collision_and_motion_3d": "NOT_RUN",
+    "accept_for_cutting": false,
+    "remediation": [
+      "Model original lid curved section and both end arches as a single 3D assembly to verify actual roof contact length and hinge clearance",
+      "Derive one shared set of five finger/receiving-notch station coordinates from the validated lid-to-arch developed-arc mapping; do not move notch sets independently",
+      "Redesign arch receiving notches, rail mortises, and local strength at the beginning of the arch together, since R4 non-uniform placement was chosen to avoid the two original rail apertures",
+      "Re-nest, independently recheck polygon/hole/kerf/nesting distances and motion, and physically test a fit coupon before any manufacturing approval"
+    ]
+  }
+}
