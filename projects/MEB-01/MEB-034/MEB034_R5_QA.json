@@ -1,6 +1,6 @@
 {
   "version": "MEB-034-R5",
-  "status": "2D_RECONCILED_ONLY_3D_BLOCKED",
+  "status": "2D_FILE_QA_PASS__3D_AND_PHYSICAL_BLOCKED",
   "roof_width_mm": 99.17085434,
   "original_arch_selected_arc_mm": 81.03865959957338,
   "discrepancy_mm": 18.132194740426627,
@@ -33,11 +33,39 @@
   ],
   "finger_width_mm": 7,
   "slot_width_mm": 7.25,
-  "digital_file_parity": "Pending independent readback",
+  "digital_file_parity": "PASS 31/31 contours, 88/88 R6 lines",
   "manufacturing_approval": false,
   "reasons": [
     "Unknown 3D registration of roof developed edge to selected curved-arch lip",
     "Physical fit and laser kerf calibration missing",
     "Hinge travel and mechanical strength not independently verified"
-  ]
+  ],
+  "independent_2D_QA": {
+    "status": "PASS BOUNDED",
+    "outlineCountDXF": 31,
+    "outlineCountSVG": 31,
+    "R6CountDXF": 88,
+    "R6CountSVG": 88,
+    "parityMismatches": [],
+    "roofSelfCrossings": 0,
+    "fingerCountEachEnd": [
+      5,
+      5
+    ],
+    "roofEndPatternsEqual": true,
+    "fingerWidths": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "fingerCentersLocal": [
+      3.5,
+      18.74631,
+      32.60659,
+      76.95948,
+      95.67085
+    ]
+  }
 }
