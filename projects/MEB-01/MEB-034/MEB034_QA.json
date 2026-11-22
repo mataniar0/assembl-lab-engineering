@@ -1,6 +1,6 @@
 {
   "version": "MEB-034",
-  "status": "DESIGN_ONLY_G0_REVIEW",
+  "status": "BLOCKED_EDGE_TO_EDGE_AND_ARCH_INTERFACE",
   "parent": "MEB-033",
   "material_mm": 4,
   "interpretation": "5 finger joints at EACH of 2 curved hinged ends (10 fingers and 10 receiving notches total)",
@@ -85,7 +85,11 @@
     "roof_front_back_symmetry": "PASS",
     "only_five_protrusions_per_end": "PASS",
     "roof_no_extra_edge_steps": "PASS",
-    "roof_outline_self_intersections": "PASS"
+    "roof_outline_self_intersections": "PASS",
+    "edge_to_edge_fingers": "FAIL R2",
+    "curved_arch_to_skin_registration": "BLOCKED",
+    "end_notch_remaining_web": "BLOCKED (<1mm near first extreme proposed slot center)",
+    "DXF_SVG_checks_do_not_establish_assembly_fit": true
   },
   "revision": "R2 — 2026-11-22 corrected continuous front and rear lid baselines",
   "roof_outline": {
@@ -105,5 +109,54 @@
     ],
     "tab_count_each_end": 5,
     "comment": "Front and rear end baselines are straight, symmetric and uninterrupted except for five rectangular projecting fingers each."
+  },
+  "edge_to_edge_audit_2026_11_22": {
+    "request": "Five finger joints must be distributed across the full lid width, edge to edge.",
+    "result": "FAIL — R2 tabs cluster over only 51.0 mm and are asymmetrically positioned.",
+    "lid_developed_width_mm": 99.17085434,
+    "current_tab_width_mm": 7,
+    "current_tab_envelope_local_mm": [
+      16.5,
+      67.5
+    ],
+    "current_tab_coverage_mm": 51,
+    "current_margin_start_mm": 16.5,
+    "current_margin_end_mm": 31.67085434,
+    "proposed_symmetric_edge_to_edge_tab_starts_local_mm": [
+      0,
+      23.042713585,
+      46.08542717,
+      69.128140755,
+      92.17085434
+    ],
+    "proposed_symmetric_edge_to_edge_tab_ends_local_mm": [
+      7,
+      30.042713585,
+      53.08542717,
+      76.128140755,
+      99.17085434
+    ],
+    "proposed_nominal_uniform_gaps_mm": 16.042713585,
+    "receiving_arch_length_mm": 81.03865959957338,
+    "developed_width_vs_arch_discrepancy_mm": 18.132194740426627,
+    "receiving_arch_if_edge_distributed": {
+      "nominal_slot_width_mm": 7.25,
+      "nominal_slot_centers_arc_mm": [
+        3.625,
+        22.0721648999,
+        40.5193297998,
+        58.9664946997,
+        77.4136595996
+      ],
+      "first_notch_center_root_remaining_minimum_mm_approx": 0.94,
+      "note": "Check at first arch-end slot center indicates only ~0.94 mm 2D remaining web to other outer edge; insufficient evidence of structural margin. This is a local center sample and not a full cross-section or finite element strength test."
+    },
+    "gating": "No roof or arch cut geometry updated until physical developed-length/curved-edge registration is reconciled. Proposed locations are a layout concept only; cutting, production and PR merge remain BLOCKED.",
+    "required_next_steps": [
+      "Reconcile actual roof skin width to curved arch interface including its end/hinge geometry in 3D",
+      "Redesign first and last arch receiving notches with adequate material retention",
+      "Make 5 matching finger and slot pairs reach both ends with validated 3D alignment",
+      "Run fresh nested part/collision/kerf and bench-fit checks"
+    ]
   }
 }
