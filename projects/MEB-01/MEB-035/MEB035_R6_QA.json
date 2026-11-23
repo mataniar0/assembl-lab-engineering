@@ -1,0 +1,59 @@
+{
+  "revision": "MEB-035-R6-FIT",
+  "date": "2026-11-22",
+  "status": "R6_DIGITAL_PATTERN_PASS__PHYSICAL_BEND_NOT_VALIDATED",
+  "source": "projects/MEB-01/MEB-033/R6_original/MEB032_R6_LID_THREE_WEBS_20MM_REVIEW_ONLY.dxf",
+  "source_blob_sha": "b072b18012d56c24f7b59233455a9272a96e4a56",
+  "nominal_stock_mm": 4,
+  "R6": {
+    "rows": 22,
+    "cuts_per_row": 4,
+    "total_cut_lines": 88,
+    "bridge_count_per_row": 3,
+    "bridge_width_mm": 4,
+    "developed_pitch_mm": 4,
+    "source_first_station_mm": 7.58542717,
+    "source_last_station_mm": 91.58542717,
+    "root_protected_rows_1_based": [
+      5,
+      6,
+      11,
+      12,
+      17,
+      18
+    ],
+    "modified_outer_cut_entities": 12,
+    "unchanged_cut_entities": 76,
+    "original_kerf_lines_crossing_new_finger_lands": 12,
+    "modified_kerf_lines_crossing_finger_lands": 0,
+    "continuous_root_band_behind_4mm_finger_mm": 4,
+    "first_bridge_centres_20_and_24mm_alternating": true,
+    "three_original_bridge_positions_preserved_all_rows": true,
+    "modified_pattern_not_the_same_physically_tested_R6": true,
+    "nominal_shortest_R6_line_to_finger_land_mm": 0.58542717
+  },
+  "exports": {
+    "DXF_SVG_part_outlines": "11/11 PASS",
+    "DXF_SVG_R6_cut_lines": "88/88 PASS",
+    "layer": "R6_KERF_DESIGN_ONLY",
+    "partial_nesting_parts": 5,
+    "partial_stock_width_mm": 440,
+    "partial_stock_height_mm": 800,
+    "min_part_to_part_nominal_gap_mm": 8,
+    "min_R6_line_to_other_part_mm": 25.15,
+    "min_R6_line_to_stock_edge_mm": 9.65
+  },
+  "regression": {
+    "normal_checks": "PASS",
+    "negative_controls": "4/4 expected rejection: removed line, altered bridge, shifted pitch, restored unprotected edge crossing"
+  },
+  "limits": {
+    "G1_R6_flat_geometry": "PASS to limited stated 2D scope",
+    "G2_3D_actual_slashed_wood_bend": "NOT_RUN",
+    "G2_110_degree_motion": "NOT_RUN",
+    "G3_measured_thickness_laser_kerf_physical_bend_strength": "NOT_RUN",
+    "G4_manufacturing_release": "BLOCKED",
+    "independent_human_QA": "PENDING"
+  },
+  "delivery_note": "The MEB035 3D STEP/GLB are ideal continuous shells; physical bending of 4 mm stock with the modified R6 slits is not demonstrated by watertight meshes."
+}
