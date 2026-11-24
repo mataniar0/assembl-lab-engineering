@@ -1,0 +1,17 @@
+﻿interface,screen_gap_mm,status,method
+upper-1-leg-1,6.236235,FAIL_SEPARATED,convex projection screen only
+upper-1-leg-2,6.33102,FAIL_SEPARATED,convex projection screen only
+lower-1-leg-1,4.058121,FAIL_SEPARATED,convex projection screen only
+lower-1-leg-2,4.058121,FAIL_SEPARATED,convex projection screen only
+upper-2-leg-2,6.236234,FAIL_SEPARATED,convex projection screen only
+upper-2-leg-3,6.176669,FAIL_SEPARATED,convex projection screen only
+lower-2-leg-2,4.058121,FAIL_SEPARATED,convex projection screen only
+lower-2-leg-3,4.058123,FAIL_SEPARATED,convex projection screen only
+upper-3-leg-3,6.33102,FAIL_SEPARATED,convex projection screen only
+upper-3-leg-4,6.222405,FAIL_SEPARATED,convex projection screen only
+lower-3-leg-3,4.058122,FAIL_SEPARATED,convex projection screen only
+lower-3-leg-4,4.058121,FAIL_SEPARATED,convex projection screen only
+upper-4-leg-4,6.17667,FAIL_SEPARATED,convex projection screen only
+upper-4-leg-1,6.222405,FAIL_SEPARATED,convex projection screen only
+lower-4-leg-4,4.058122,FAIL_SEPARATED,convex projection screen only
+lower-4-leg-1,4.05812,FAIL_SEPARATED,convex projection screen only
