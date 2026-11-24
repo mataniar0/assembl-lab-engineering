@@ -1,0 +1,114 @@
+{
+  "exports": {
+    "MEB037_CLOSED_DESIGN_ONLY.glb": {
+      "BOM_nodes": 20
+    },
+    "MEB037_OPEN_110_DESIGN_ONLY.glb": {
+      "BOM_nodes": 20
+    },
+    "MEB037_EXPLODED_DESIGN_ONLY.glb": {
+      "BOM_nodes": 20
+    },
+    "MEB037_CLOSED_DESIGN_ONLY.step": {
+      "valid_imported_solids": 20,
+      "max_sorted_solid_volume_error_mm3": 2.3326720111072063e-08
+    }
+  },
+  "partial_insertions_exact_normal_sweep": [
+    {
+      "scope": "body",
+      "moving": "BODY_END_L",
+      "start_offset_xyz_mm": [
+        -15,
+        0,
+        0
+      ],
+      "fixed_sweep_intersection_mm3": {
+        "BODY_FLOOR": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scope": "body",
+      "moving": "BODY_END_R",
+      "start_offset_xyz_mm": [
+        15,
+        0,
+        0
+      ],
+      "fixed_sweep_intersection_mm3": {
+        "BODY_FLOOR": 0,
+        "BODY_END_L": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "scope": "body",
+      "moving": "BODY_FRONT",
+      "start_offset_xyz_mm": [
+        0,
+        -15,
+        0
+      ],
+      "fixed_sweep_intersection_mm3": {
+        "BODY_FLOOR": 0,
+        "BODY_END_L": 0,
+        "BODY_END_R": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scope": "body",
+      "moving": "BODY_BACK",
+      "start_offset_xyz_mm": [
+        0,
+        15,
+        0
+      ],
+      "fixed_sweep_intersection_mm3": {
+        "BODY_FLOOR": 0,
+        "BODY_END_L": 0,
+        "BODY_END_R": 0,
+        "BODY_FRONT": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "scope": "bare_lid_frame",
+      "moving": "LID_END_L",
+      "start_offset_xyz_mm": [
+        -15,
+        0,
+        0
+      ],
+      "fixed_sweep_intersection_mm3": {
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scope": "bare_lid_frame",
+      "moving": "LID_END_R",
+      "start_offset_xyz_mm": [
+        15,
+        0,
+        0
+      ],
+      "fixed_sweep_intersection_mm3": {
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0,
+        "LID_END_L": 0.0
+      },
+      "status": "PASS"
+    }
+  ],
+  "complete_assembly_sequence": "NOT_RUN",
+  "body_test_internal_rectangular_prism_mm": [
+    316.0,
+    69.0,
+    64.8
+  ],
+  "body_test_prism_positive_intersections_mm3": {},
+  "scope": "Rigid nominal reference. Insertion excludes the main skin and hinge stack."
+}
