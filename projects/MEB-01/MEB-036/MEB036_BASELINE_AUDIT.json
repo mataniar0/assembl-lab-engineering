@@ -1,0 +1,422 @@
+{
+  "revision": "MEB-036 G0/G1 source inventory",
+  "date": "2026-11-24",
+  "source": {
+    "svg": "projects/MEB-01/MEB-033/cutting/MEB033_ALL20_PLUS_CURVE_R6_4MM_440x800_GAP1MM_DESIGN_ONLY.svg",
+    "svg_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+    "dxf": "projects/MEB-01/MEB-033/cutting/MEB033_ALL20_PLUS_CURVE_R6_4MM_440x800_GAP1MM_DESIGN_ONLY.dxf",
+    "dxf_blob": "8d9a6a3ee0beddbacb60bbc087dc18c006b92112"
+  },
+  "status": "BASELINE_RECONSTRUCTED_2D__WHOLE_ASSEMBLY_BLOCKED",
+  "counts": {
+    "product_parts": 20,
+    "jigs": 1,
+    "closed_profiles": 31,
+    "r6_cutlines": 88,
+    "svg_dxf_profile_matches": 31,
+    "svg_dxf_line_matches": null,
+    "unverified_product_pairs": 190
+  },
+  "parts": [
+    {
+      "id": "BODY_END_L",
+      "role": "product",
+      "outline_vertices": 127,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        77,
+        71
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 4966.03167103,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "BODY_END_R",
+      "role": "product",
+      "outline_vertices": 127,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        77,
+        71
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 4966.03167103,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "OUTER_FASCIA_L",
+      "role": "product",
+      "outline_vertices": 242,
+      "inner_loops": 1,
+      "flat_extent_mm": [
+        102.43445568,
+        84.1
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 7969.53151876,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "OUTER_FASCIA_R",
+      "role": "product",
+      "outline_vertices": 242,
+      "inner_loops": 1,
+      "flat_extent_mm": [
+        102.43445568,
+        84.1
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 7969.53151906,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "BODY_FRONT",
+      "role": "product",
+      "outline_vertices": 48,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        324,
+        71
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 22164,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "BODY_BACK",
+      "role": "product",
+      "outline_vertices": 48,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        324,
+        68.8
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 21468.8,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "BODY_FLOOR",
+      "role": "product",
+      "outline_vertices": 68,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        324,
+        77
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 23212,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_END_L",
+      "role": "product",
+      "outline_vertices": 248,
+      "inner_loops": 3,
+      "flat_extent_mm": [
+        85.5,
+        31.43478261
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 1433.65121075,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_END_R",
+      "role": "product",
+      "outline_vertices": 248,
+      "inner_loops": 3,
+      "flat_extent_mm": [
+        85.5,
+        31.43478261
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 1433.65121055,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_SKIN_RADIAL_4MM",
+      "role": "product",
+      "outline_vertices": 12,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        99.17085434,
+        324
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 31883.68771352,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_FRONT_RAIL",
+      "role": "product",
+      "outline_vertices": 24,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        322.4,
+        11.84313111
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 3702.00987699,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_BACK_RAIL",
+      "role": "product",
+      "outline_vertices": 24,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        322.4,
+        11.84313111
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 3702.00987699,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_CROSS_RIB_1",
+      "role": "product",
+      "outline_vertices": 99,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        67,
+        18.93478261
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 826.17382626,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "LID_CROSS_RIB_2",
+      "role": "product",
+      "outline_vertices": 99,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        67,
+        18.93478261
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 826.17382647,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "FASCIA_HIDDEN_BACKER_L",
+      "role": "product",
+      "outline_vertices": 242,
+      "inner_loops": 1,
+      "flat_extent_mm": [
+        102.43445568,
+        84.1
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 7952.81151906,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "FASCIA_HIDDEN_BACKER_R",
+      "role": "product",
+      "outline_vertices": 242,
+      "inner_loops": 1,
+      "flat_extent_mm": [
+        102.43445567,
+        84.1
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 7952.81151849,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "CAPTIVE_PIN_L",
+      "role": "product",
+      "outline_vertices": 12,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        12.5,
+        10
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 92.7,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "CAPTIVE_PIN_R",
+      "role": "product",
+      "outline_vertices": 12,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        12.5,
+        10
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 92.7,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "INTERNAL_RAIL_SADDLE_L",
+      "role": "product",
+      "outline_vertices": 12,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        22,
+        15.7
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 293.65,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "INTERNAL_RAIL_SADDLE_R",
+      "role": "product",
+      "outline_vertices": 12,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        22,
+        15.7
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 293.65,
+      "assembly_pose": "UNVERIFIED"
+    },
+    {
+      "id": "MEB029_SINGLE_INVERSE_CURVE_4MM",
+      "role": "jig",
+      "outline_vertices": 172,
+      "inner_loops": 0,
+      "flat_extent_mm": [
+        84.106207,
+        43.597541
+      ],
+      "nominal_thickness_mm": 4,
+      "net_flat_area_mm2": 2130.30421113,
+      "assembly_pose": "UNVERIFIED"
+    }
+  ],
+  "mirrorPairs": [
+    {
+      "left": "BODY_END_L",
+      "right": "BODY_END_R",
+      "same_loop_count": true,
+      "flat_extent_delta_mm": [
+        0,
+        0
+      ],
+      "net_area_delta_mm2": 0,
+      "note": "Matching dimensions and area are not a congruence or assembly proof"
+    },
+    {
+      "left": "OUTER_FASCIA_L",
+      "right": "OUTER_FASCIA_R",
+      "same_loop_count": true,
+      "flat_extent_delta_mm": [
+        0,
+        0
+      ],
+      "net_area_delta_mm2": -3e-7,
+      "note": "Matching dimensions and area are not a congruence or assembly proof"
+    },
+    {
+      "left": "LID_END_L",
+      "right": "LID_END_R",
+      "same_loop_count": true,
+      "flat_extent_delta_mm": [
+        0,
+        0
+      ],
+      "net_area_delta_mm2": 2e-7,
+      "note": "Matching dimensions and area are not a congruence or assembly proof"
+    },
+    {
+      "left": "FASCIA_HIDDEN_BACKER_L",
+      "right": "FASCIA_HIDDEN_BACKER_R",
+      "same_loop_count": true,
+      "flat_extent_delta_mm": [
+        1e-8,
+        0
+      ],
+      "net_area_delta_mm2": 5.7e-7,
+      "note": "Matching dimensions and area are not a congruence or assembly proof"
+    },
+    {
+      "left": "CAPTIVE_PIN_L",
+      "right": "CAPTIVE_PIN_R",
+      "same_loop_count": true,
+      "flat_extent_delta_mm": [
+        0,
+        0
+      ],
+      "net_area_delta_mm2": 0,
+      "note": "Matching dimensions and area are not a congruence or assembly proof"
+    },
+    {
+      "left": "INTERNAL_RAIL_SADDLE_L",
+      "right": "INTERNAL_RAIL_SADDLE_R",
+      "same_loop_count": true,
+      "flat_extent_delta_mm": [
+        0,
+        0
+      ],
+      "net_area_delta_mm2": 0,
+      "note": "Matching dimensions and area are not a congruence or assembly proof"
+    }
+  ],
+  "arch_datum": {
+    "coordinate_origin": "actual original curved lip start; assembly pose not yet verified",
+    "hinge_center_local_mm": [
+      75,
+      2.5
+    ],
+    "hinge_diameter_mm": 8.4,
+    "outer_bbox_width_mm": 85.5,
+    "partial_contact_polyline_end_local_mm": [
+      68.86196072,
+      11.01855648
+    ],
+    "partial_contact_polyline_horizontal_extent_mm": 68.86196072,
+    "partial_contact_polyline_length_mm": 81.0386596,
+    "arch_max_rise_mm": 23.43478261,
+    "note": "85.5 mm includes hinge ear; do not use as curved contact chord."
+  },
+  "source_roof": {
+    "transverse_width_mm": 99.17085434,
+    "axial_envelope_mm": 324,
+    "sections": [
+      {
+        "transverse_interval_mm": [
+          0,
+          13.38702989
+        ],
+        "axial_limits_mm": [
+          8,
+          316
+        ],
+        "axial_span_mm": 308
+      },
+      {
+        "transverse_interval_mm": [
+          13.38702989,
+          97.07856594
+        ],
+        "axial_limits_mm": [
+          0,
+          324
+        ],
+        "axial_span_mm": 324
+      },
+      {
+        "transverse_interval_mm": [
+          97.07856594,
+          99.17085434
+        ],
+        "axial_limits_mm": [
+          8,
+          316
+        ],
+        "axial_span_mm": 308
+      }
+    ],
+    "new_R2_nominal_body_span_mm": 316,
+    "note": "Original central axial span 324 and both side shoulders 308. R2 straight baseline 316 changes these interfaces; not automatically interchangeable."
+  },
+  "release": false
+}
