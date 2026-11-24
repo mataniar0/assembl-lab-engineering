@@ -14,7 +14,7 @@
     "closed_profiles": 31,
     "r6_cutlines": 88,
     "svg_dxf_profile_matches": 31,
-    "svg_dxf_line_matches": null,
+    "svg_dxf_line_matches": 88,
     "unverified_product_pairs": 190
   },
   "parts": [
@@ -418,5 +418,194 @@
     "new_R2_nominal_body_span_mm": 316,
     "note": "Original central axial span 324 and both side shoulders 308. R2 straight baseline 316 changes these interfaces; not automatically interchangeable."
   },
-  "release": false
+  "release": false,
+  "hinge_component_nominal_profiles": [
+    {
+      "id": "LID_END_L",
+      "outerExtent": [
+        85.5,
+        31.434783
+      ],
+      "holes": [
+        {
+          "extent_mm": [
+            8.4,
+            8.4
+          ],
+          "center_from_outline_min_mm": [
+            75,
+            10.5
+          ]
+        },
+        {
+          "extent_mm": [
+            4.5,
+            6.5
+          ],
+          "center_from_outline_min_mm": [
+            45,
+            24.5
+          ]
+        },
+        {
+          "extent_mm": [
+            4.5,
+            6.5
+          ],
+          "center_from_outline_min_mm": [
+            32,
+            24.5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LID_END_R",
+      "outerExtent": [
+        85.5,
+        31.434783
+      ],
+      "holes": [
+        {
+          "extent_mm": [
+            8.4,
+            8.4
+          ],
+          "center_from_outline_min_mm": [
+            75,
+            10.5
+          ]
+        },
+        {
+          "extent_mm": [
+            4.5,
+            6.5
+          ],
+          "center_from_outline_min_mm": [
+            45,
+            24.5
+          ]
+        },
+        {
+          "extent_mm": [
+            4.5,
+            6.5
+          ],
+          "center_from_outline_min_mm": [
+            32,
+            24.5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OUTER_FASCIA_L",
+      "outerExtent": [
+        102.434456,
+        84.1
+      ],
+      "holes": [
+        {
+          "extent_mm": [
+            6.6,
+            4.4
+          ],
+          "center_from_outline_min_mm": [
+            27.434456,
+            78.55
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OUTER_FASCIA_R",
+      "outerExtent": [
+        102.434456,
+        84.1
+      ],
+      "holes": [
+        {
+          "extent_mm": [
+            6.6,
+            4.4
+          ],
+          "center_from_outline_min_mm": [
+            27.434456,
+            78.55
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FASCIA_HIDDEN_BACKER_L",
+      "outerExtent": [
+        102.434456,
+        84.1
+      ],
+      "holes": [
+        {
+          "extent_mm": [
+            10.4,
+            4.4
+          ],
+          "center_from_outline_min_mm": [
+            27.434456,
+            78.55
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FASCIA_HIDDEN_BACKER_R",
+      "outerExtent": [
+        102.434456,
+        84.1
+      ],
+      "holes": [
+        {
+          "extent_mm": [
+            10.4,
+            4.4
+          ],
+          "center_from_outline_min_mm": [
+            27.434456,
+            78.55
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CAPTIVE_PIN_L",
+      "outerExtent": [
+        12.5,
+        10
+      ],
+      "holes": []
+    },
+    {
+      "id": "CAPTIVE_PIN_R",
+      "outerExtent": [
+        12.5,
+        10
+      ],
+      "holes": []
+    },
+    {
+      "id": "INTERNAL_RAIL_SADDLE_L",
+      "outerExtent": [
+        22,
+        15.7
+      ],
+      "holes": []
+    },
+    {
+      "id": "INTERNAL_RAIL_SADDLE_R",
+      "outerExtent": [
+        22,
+        15.7
+      ],
+      "holes": []
+    }
+  ],
+  "interface_gate": "BLOCKED: original local reference recovered but axial stack, insertion, full contact curve, and assembled coordinate transforms not source-verified"
 }
