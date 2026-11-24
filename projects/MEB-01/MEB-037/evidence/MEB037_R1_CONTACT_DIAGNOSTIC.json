@@ -284,5 +284,66 @@
     "Does not include other 18 solids or full motion/assembly/retention.",
     "Original arch's faceted curve, circular candidate and numerical tessellation may give tiny positive overlaps; no physical tolerance inferred.",
     "No manufacturing geometry exported."
-  ]
+  ],
+  "r6_projection_screen": {
+    "source_blob": "1845e224e16f0543826b2f895190bc9b64bb6226",
+    "method": "Screen existing pattern variants against the same virtual bands in actual station direction; axial/transverse segment-to-rectangle distances. This is a diagnostic, not new geometry.",
+    "results": [
+      {
+        "candidate": "full_width_five_band_hypothesis",
+        "pattern": "original",
+        "line_count": 88,
+        "projection_intersections": 12,
+        "left": 6,
+        "right": 6,
+        "minimum_nominal_separation_mm": 0
+      },
+      {
+        "candidate": "full_width_five_band_hypothesis",
+        "pattern": "R1",
+        "line_count": 88,
+        "projection_intersections": 0,
+        "left": 0,
+        "right": 0,
+        "minimum_nominal_separation_mm": 0.58542717
+      },
+      {
+        "candidate": "full_width_five_band_hypothesis",
+        "pattern": "R2",
+        "line_count": 88,
+        "projection_intersections": 0,
+        "left": 0,
+        "right": 0,
+        "minimum_nominal_separation_mm": 3.4572864134277275
+      },
+      {
+        "candidate": "contact_limited_five_band_hypothesis",
+        "pattern": "original",
+        "line_count": 88,
+        "projection_intersections": 16,
+        "left": 8,
+        "right": 8,
+        "minimum_nominal_separation_mm": 0
+      },
+      {
+        "candidate": "contact_limited_five_band_hypothesis",
+        "pattern": "R1",
+        "line_count": 88,
+        "projection_intersections": 14,
+        "left": 7,
+        "right": 7,
+        "minimum_nominal_separation_mm": 0
+      },
+      {
+        "candidate": "contact_limited_five_band_hypothesis",
+        "pattern": "R2",
+        "line_count": 88,
+        "projection_intersections": 12,
+        "left": 6,
+        "right": 6,
+        "minimum_nominal_separation_mm": 0
+      }
+    ],
+    "conclusion": "None of the projections constitutes a verified slot/arch joint. Existing R6 variants were derived for different tab stations; their previous clearance results do not transfer automatically. With original pitch 4 mm and nominal 7 mm band width, interior bands entirely in the edge-open region cannot avoid all original open row stations by translation alone. Preserve the baseline and compare alternatives in CAD; no physical clearance threshold established."
+  }
 }
