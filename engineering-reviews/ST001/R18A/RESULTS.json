@@ -1,0 +1,32 @@
+{
+  "source_sha256": "2830b2374a40229c6aaeca9a067324eb6ef2c68cf33e0fd5c42fb27d3d6c4a37",
+  "source_nodes": 68,
+  "output_layers": 88,
+  "planned_layers": 104,
+  "component_count": 52,
+  "planned_components": 60,
+  "undefined_lock_layers": 16,
+  "width_pass": 88,
+  "closed_pass": 88,
+  "floor_cap_layers_at_zero": 4,
+  "floor_wall_layers_at_zero": 32,
+  "bounds_mm": [
+    [
+      -210.91647446155548,
+      -210.91647446155548,
+      0.0
+    ],
+    [
+      210.91647446155548,
+      210.91647446155548,
+      400.0000059604645
+    ]
+  ],
+  "separated_interfaces": 16,
+  "unresolved_interfaces": 0,
+  "full_overlap": "NOT_RUN",
+  "assembly_paths": "NOT_RUN",
+  "structural": "NOT_RUN",
+  "manufacturing": "BLOCKED",
+  "review_only": true
+}
