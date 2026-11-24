@@ -1,0 +1,110 @@
+{
+  "source": "projects/MEB-01/MEB-033/cutting/MEB033_ALL20_PLUS_CURVE_R6_4MM_440x800_GAP1MM_DESIGN_ONLY.svg",
+  "source_sha": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "loops_checked": 31,
+  "proper_self_intersections": [],
+  "inner_loops_checked": 10,
+  "inner_loop_results": [
+    {
+      "id": "OUTER_FASCIA_L",
+      "loop": 1,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "OUTER_FASCIA_R",
+      "loop": 1,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "LID_END_L",
+      "loop": 1,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "LID_END_L",
+      "loop": 2,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "LID_END_L",
+      "loop": 3,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "LID_END_R",
+      "loop": 1,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "LID_END_R",
+      "loop": 2,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "LID_END_R",
+      "loop": 3,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "FASCIA_HIDDEN_BACKER_L",
+      "loop": 1,
+      "inside": true,
+      "properCrossings": 0
+    },
+    {
+      "id": "FASCIA_HIDDEN_BACKER_R",
+      "loop": 1,
+      "inside": true,
+      "properCrossings": 0
+    }
+  ],
+  "left_right_shape_checks": [
+    {
+      "pair": "BODY_END",
+      "outerTranslatedMatch": true,
+      "holeLoopsMatchIgnoringIndependentTranslation": true,
+      "note": "Local 2D loop shape comparison; does not prove assembled orientation or hole location correspondence"
+    },
+    {
+      "pair": "OUTER_FASCIA",
+      "outerTranslatedMatch": true,
+      "holeLoopsMatchIgnoringIndependentTranslation": true,
+      "note": "Local 2D loop shape comparison; does not prove assembled orientation or hole location correspondence"
+    },
+    {
+      "pair": "LID_END",
+      "outerTranslatedMatch": true,
+      "holeLoopsMatchIgnoringIndependentTranslation": true,
+      "note": "Local 2D loop shape comparison; does not prove assembled orientation or hole location correspondence"
+    },
+    {
+      "pair": "FASCIA_HIDDEN_BACKER",
+      "outerTranslatedMatch": true,
+      "holeLoopsMatchIgnoringIndependentTranslation": true,
+      "note": "Local 2D loop shape comparison; does not prove assembled orientation or hole location correspondence"
+    },
+    {
+      "pair": "CAPTIVE_PIN",
+      "outerTranslatedMatch": false,
+      "holeLoopsMatchIgnoringIndependentTranslation": true,
+      "note": "Local 2D loop shape comparison; does not prove assembled orientation or hole location correspondence"
+    },
+    {
+      "pair": "INTERNAL_RAIL_SADDLE",
+      "outerTranslatedMatch": true,
+      "holeLoopsMatchIgnoringIndependentTranslation": true,
+      "note": "Local 2D loop shape comparison; does not prove assembled orientation or hole location correspondence"
+    }
+  ],
+  "scope": "proper crossing and point containment checks only, not full topology/3D verification",
+  "status": "PASS_BOUNDED",
+  "manufacturing_release": false
+}
