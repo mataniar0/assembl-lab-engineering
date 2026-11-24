@@ -1,0 +1,588 @@
+{
+  "revision": "R18-A-FIX",
+  "scope": "DESIGN_ONLY / NO_CUT / NO_OCCUPANT_USE",
+  "delivery": "PARTIAL",
+  "tools": {
+    "freecad": "1.0.0",
+    "numpy": "2.2.4"
+  },
+  "source_parameters_sha256": "e30d95dd3d657bc3951a453816d8f142df6c5abf398501d1e1e96e6871e272b0",
+  "represented": {
+    "components": 60,
+    "layers": 104,
+    "review_solids_components": 52,
+    "review_solids_layers": 88,
+    "proxy_components": 8,
+    "proxy_layers": 16
+  },
+  "body_bounds_mm": [
+    [
+      -211.027534,
+      -211.027534,
+      0.0
+    ],
+    [
+      211.027534,
+      211.027534,
+      400.0
+    ]
+  ],
+  "cycle_1": {
+    "counts": {
+      "PASS": 5538,
+      "FAIL": 192,
+      "BLOCKED": 8,
+      "NOT_RUN": 0
+    },
+    "failed_by_suite": {
+      "overlap": 128,
+      "isolation": 12,
+      "joint_details": 20,
+      "approach": 32
+    },
+    "legacy_gap_cases": 16
+  },
+  "cycle_2": {
+    "carried_forward_cases": 3064,
+    "failed_cases_resolved": 168,
+    "final_overlap_cases_passed": 5356,
+    "final_pairs_considered": 5356,
+    "aabb_candidates": 604
+  },
+  "unique_cases": 6062,
+  "final_counts": {
+    "PASS": 6021,
+    "FAIL": 24,
+    "BLOCKED": 14,
+    "NOT_RUN": 3
+  },
+  "suites": {
+    "approach": {
+      "PASS": 8,
+      "FAIL": 24,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "counts": {
+      "PASS": 9,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "dimensions": {
+      "PASS": 17,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "glb_readback": {
+      "PASS": 210,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "isolation": {
+      "PASS": 52,
+      "FAIL": 0,
+      "BLOCKED": 8,
+      "NOT_RUN": 0
+    },
+    "joint_details": {
+      "PASS": 36,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "native_readback": {
+      "PASS": 105,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "negative_control": {
+      "PASS": 4,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "nominal_node": {
+      "PASS": 16,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "overlap": {
+      "PASS": 5356,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "ply": {
+      "PASS": 104,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    },
+    "remaining": {
+      "PASS": 0,
+      "FAIL": 0,
+      "BLOCKED": 6,
+      "NOT_RUN": 3
+    },
+    "solid": {
+      "PASS": 104,
+      "FAIL": 0,
+      "BLOCKED": 0,
+      "NOT_RUN": 0
+    }
+  },
+  "remaining": [
+    {
+      "id": "ISO:F01_SIDE1_END1",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE1_END2",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE2_END1",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE2_END2",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE3_END1",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE3_END2",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE4_END1",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "ISO:F01_SIDE4_END2",
+      "suite": "isolation",
+      "status": "BLOCKED",
+      "evidence": "off-body placeholder; touching components: none"
+    },
+    {
+      "id": "PATH:upper-1:below_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -12,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE1_END1_P1": 1239.960962,
+          "E01_SIDE1_END1_P2": 1239.960962,
+          "E01_SIDE1_END2_P1": 1239.960962,
+          "E01_SIDE1_END2_P2": 1239.960962
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-1:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG1_POS_P1": 179.319242,
+          "A02_LEG2_POS_P1": 179.319242
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-1:below_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -336.901,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE1_END1_P1": 2781.344081,
+          "E01_SIDE1_END1_P2": 2781.344081,
+          "E01_SIDE1_END2_P1": 2781.344081,
+          "E01_SIDE1_END2_P2": 2781.344081
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-1:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 63.09899999999999,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG1_POS_P1": 513.124863,
+          "A01_LEG1_POS_P2": 0.480732,
+          "A02_LEG2_POS_P1": 513.124863,
+          "A02_LEG2_POS_P2": 0.480732
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-1:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG1_POS_P1": 213.208306,
+          "A02_LEG2_POS_P1": 213.208306
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-1:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 277.575,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG1_POS_P1": 3952.341484,
+          "A01_LEG1_POS_P2": 2987.021868,
+          "A01_LEG2_NEG_P1": 1430.317908,
+          "A01_LEG2_NEG_P2": 3329.443139,
+          "A02_LEG1_NEG_P1": 767.905813,
+          "A02_LEG1_NEG_P2": 1907.778519,
+          "A02_LEG2_POS_P1": 3952.341484,
+          "A02_LEG2_POS_P2": 2987.021868,
+          "A03_LEG1_HIGH_P1": 65.218566,
+          "A03_LEG2_HIGH_P1": 33.218566
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-2:below_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -12,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE2_END1_P1": 1239.960962,
+          "E01_SIDE2_END1_P2": 1239.960962,
+          "E01_SIDE2_END2_P1": 1239.960962,
+          "E01_SIDE2_END2_P2": 1239.960962
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-2:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG2_POS_P1": 179.319242,
+          "A02_LEG3_POS_P1": 179.319242
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-2:below_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -336.901,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE2_END1_P1": 2781.344081,
+          "E01_SIDE2_END1_P2": 2781.344081,
+          "E01_SIDE2_END2_P1": 2781.344081,
+          "E01_SIDE2_END2_P2": 2781.344081
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-2:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 63.09899999999999,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG2_POS_P1": 513.124863,
+          "A01_LEG2_POS_P2": 0.480732,
+          "A02_LEG3_POS_P1": 513.124863,
+          "A02_LEG3_POS_P2": 0.480732
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-2:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG2_POS_P1": 213.208306,
+          "A02_LEG3_POS_P1": 213.208306
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-2:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 277.575,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG2_POS_P1": 3952.341484,
+          "A01_LEG2_POS_P2": 2987.021868,
+          "A01_LEG3_NEG_P1": 1430.317908,
+          "A01_LEG3_NEG_P2": 3329.443139,
+          "A02_LEG2_NEG_P1": 767.905813,
+          "A02_LEG2_NEG_P2": 1907.778519,
+          "A02_LEG3_POS_P1": 3952.341484,
+          "A02_LEG3_POS_P2": 2987.021868,
+          "A03_LEG2_HIGH_P1": 65.218566,
+          "A03_LEG3_HIGH_P1": 33.218566
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-3:below_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -12,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE3_END1_P1": 1239.960962,
+          "E01_SIDE3_END1_P2": 1239.960962,
+          "E01_SIDE3_END2_P1": 1239.960962,
+          "E01_SIDE3_END2_P2": 1239.960962
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-3:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG3_POS_P1": 179.319242,
+          "A02_LEG4_POS_P1": 179.319242
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-3:below_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -336.901,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE3_END1_P1": 2781.344081,
+          "E01_SIDE3_END1_P2": 2781.344081,
+          "E01_SIDE3_END2_P1": 2781.344081,
+          "E01_SIDE3_END2_P2": 2781.344081
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-3:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 63.09899999999999,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG3_POS_P1": 513.124863,
+          "A01_LEG3_POS_P2": 0.480732,
+          "A02_LEG4_POS_P1": 513.124863,
+          "A02_LEG4_POS_P2": 0.480732
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-3:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG3_POS_P1": 213.208306,
+          "A02_LEG4_POS_P1": 213.208306
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-3:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 277.575,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG3_POS_P1": 3952.341484,
+          "A01_LEG3_POS_P2": 2987.021868,
+          "A01_LEG4_NEG_P1": 1430.317908,
+          "A01_LEG4_NEG_P2": 3329.443139,
+          "A02_LEG3_NEG_P1": 767.905813,
+          "A02_LEG3_NEG_P2": 1907.778519,
+          "A02_LEG4_POS_P1": 3952.341484,
+          "A02_LEG4_POS_P2": 2987.021868,
+          "A03_LEG3_HIGH_P1": 65.218566,
+          "A03_LEG4_HIGH_P1": 33.218566
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-4:below_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -12,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE4_END1_P1": 1239.960962,
+          "E01_SIDE4_END1_P2": 1239.960962,
+          "E01_SIDE4_END2_P1": 1239.960962,
+          "E01_SIDE4_END2_P2": 1239.960962
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-4:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG4_POS_P1": 179.319242,
+          "A02_LEG1_POS_P1": 179.319242
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-4:below_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": -336.901,
+        "blocking_layer_overlap_mm3": {
+          "E01_SIDE4_END1_P1": 2781.344081,
+          "E01_SIDE4_END1_P2": 2781.344081,
+          "E01_SIDE4_END2_P1": 2781.344081,
+          "E01_SIDE4_END2_P2": 2781.344081
+        }
+      }
+    },
+    {
+      "id": "PATH:upper-4:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 63.09899999999999,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG4_POS_P1": 513.124863,
+          "A01_LEG4_POS_P2": 0.480732,
+          "A02_LEG1_POS_P1": 513.124863,
+          "A02_LEG1_POS_P2": 0.480732
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-4:above_local",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 12,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG4_POS_P1": 213.208306,
+          "A02_LEG1_POS_P1": 213.208306
+        }
+      }
+    },
+    {
+      "id": "PATH:lower-4:above_extended",
+      "suite": "approach",
+      "status": "FAIL",
+      "evidence": {
+        "offset_mm": 277.575,
+        "blocking_layer_overlap_mm3": {
+          "A01_LEG1_NEG_P1": 1430.317908,
+          "A01_LEG1_NEG_P2": 3329.443139,
+          "A01_LEG4_POS_P1": 3952.341484,
+          "A01_LEG4_POS_P2": 2987.021868,
+          "A02_LEG1_POS_P1": 3952.341484,
+          "A02_LEG1_POS_P2": 2987.021868,
+          "A02_LEG4_NEG_P1": 767.905813,
+          "A02_LEG4_NEG_P2": 1907.778519,
+          "A03_LEG1_HIGH_P1": 33.218566,
+          "A03_LEG4_HIGH_P1": 65.218566
+        }
+      }
+    },
+    {
+      "id": "OPEN:F01",
+      "suite": "remaining",
+      "status": "BLOCKED",
+      "evidence": "8 positions / 16 proxy plies; shape, retention and installation open"
+    },
+    {
+      "id": "OPEN:A03",
+      "suite": "remaining",
+      "status": "BLOCKED",
+      "evidence": "12 positions for the review; four interpolated mid positions remain unverified"
+    },
+    {
+      "id": "OPEN:FJ",
+      "suite": "remaining",
+      "status": "BLOCKED",
+      "evidence": "Complementary load-bearing EB/FJ, fixing, material tolerances and sequence undefined"
+    },
+    {
+      "id": "OPEN:G2b",
+      "suite": "remaining",
+      "status": "BLOCKED",
+      "evidence": "Whole-model assembly order, leg closure and access remain unresolved"
+    },
+    {
+      "id": "OPEN:G3",
+      "suite": "remaining",
+      "status": "BLOCKED",
+      "evidence": "Professional and physical assessment outside the issue scope"
+    },
+    {
+      "id": "OPEN:G4",
+      "suite": "remaining",
+      "status": "BLOCKED",
+      "evidence": "Production release outside the issue scope"
+    },
+    {
+      "id": "NOT_RUN:physical",
+      "suite": "remaining",
+      "status": "NOT_RUN",
+      "evidence": "Measured fit, thickness, kerf, bond, strength, and stability"
+    },
+    {
+      "id": "NOT_RUN:independent",
+      "suite": "remaining",
+      "status": "NOT_RUN",
+      "evidence": "ChatGPT R18-B independent review pending"
+    },
+    {
+      "id": "NOT_RUN:sequence",
+      "suite": "remaining",
+      "status": "NOT_RUN",
+      "evidence": "Unmodeled retention and final assembly sequence"
+    }
+  ],
+  "independent_qa": "INDEPENDENT_QA_PENDING"
+}

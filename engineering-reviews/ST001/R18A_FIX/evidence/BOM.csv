@@ -1,0 +1,9 @@
+family,expected_components,expected_layers,represented_components,represented_layers,defined_review_components,defined_review_layers,status
+A01,8,16,8,16,8,16,REVIEW_GEOMETRY
+A02,8,16,8,16,8,16,REVIEW_GEOMETRY
+A03,12,12,12,12,12,12,REVIEW_GEOMETRY
+A04,4,8,4,8,4,8,REVIEW_GEOMETRY
+B01,4,4,4,4,4,4,REVIEW_GEOMETRY
+C01,8,16,8,16,8,16,REVIEW_GEOMETRY
+E01,8,16,8,16,8,16,REVIEW_GEOMETRY
+F01,8,16,8,16,0,0,PROXY_ONLY

@@ -1,0 +1,103 @@
+{
+  "archive_sha256": "ffee89ae3ea8369aae7c4e02406c113a7ca36550b31991ef84ebf7bd280a4628",
+  "represented_components": 52,
+  "represented_layers": 88,
+  "reported_interfaces": [
+    {
+      "interface": "upper-1-leg-1",
+      "screen_gap_mm": "6.236235",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-1-leg-2",
+      "screen_gap_mm": "6.33102",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-1-leg-1",
+      "screen_gap_mm": "4.058121",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-1-leg-2",
+      "screen_gap_mm": "4.058121",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-2-leg-2",
+      "screen_gap_mm": "6.236234",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-2-leg-3",
+      "screen_gap_mm": "6.176669",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-2-leg-2",
+      "screen_gap_mm": "4.058121",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-2-leg-3",
+      "screen_gap_mm": "4.058123",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-3-leg-3",
+      "screen_gap_mm": "6.33102",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-3-leg-4",
+      "screen_gap_mm": "6.222405",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-3-leg-3",
+      "screen_gap_mm": "4.058122",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-3-leg-4",
+      "screen_gap_mm": "4.058121",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-4-leg-4",
+      "screen_gap_mm": "6.17667",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "upper-4-leg-1",
+      "screen_gap_mm": "6.222405",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-4-leg-4",
+      "screen_gap_mm": "4.058122",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    },
+    {
+      "interface": "lower-4-leg-1",
+      "screen_gap_mm": "4.05812",
+      "status": "FAIL_SEPARATED",
+      "method": "convex projection screen only"
+    }
+  ]
+}
