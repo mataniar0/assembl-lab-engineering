@@ -106,5 +106,17 @@
   ],
   "scope": "proper crossing and point containment checks only, not full topology/3D verification",
   "status": "PASS_BOUNDED",
-  "manufacturing_release": false
+  "manufacturing_release": false,
+  "pin_profile_transform_check": {
+    "vertex_counts": [
+      12,
+      12
+    ],
+    "matches": [
+      "180_deg",
+      "reflection_x"
+    ],
+    "status": "2D_CONGRUENT_UNDER_LISTED_TRANSFORM",
+    "note": "A successful transform is not verification of pin insertion or retention."
+  }
 }
