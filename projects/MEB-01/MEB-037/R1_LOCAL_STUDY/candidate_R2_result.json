@@ -1,0 +1,27 @@
+{
+  "candidate": "MEB037_R1_B",
+  "candidate_status": "DESIGN_ONLY; archive parameter extract, not full original report",
+  "candidate_tab_station_intervals_mm": [
+    [
+      0,
+      7
+    ],
+    [
+      19.444115808882497,
+      26.444115808882497
+    ],
+    [
+      38.888231617764994,
+      45.888231617764994
+    ],
+    [
+      58.33234742664749,
+      65.33234742664749
+    ],
+    [
+      77.77646323552999,
+      84.77646323552999
+    ]
+  ],
+  "release_approved": false
+}
