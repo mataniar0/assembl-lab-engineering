@@ -123,13 +123,15 @@
       "name": "R6_virtual_QA.json",
       "size_bytes": 1718,
       "sha256": "82a465bf2b3f8478f2eaa903df102e14c07d2bf78b3be2cf8e977c2cf010e818",
-      "repository_status": "NOT_UPLOADED"
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "964d0b4ca350e2d382c4b6d4b240663928a8d6b8"
     },
     {
       "name": "negative_controls_QA.json",
       "size_bytes": 1708,
       "sha256": "006674cccdd1f1d7898f33f3964b7c810fc06a5c1b3a7e1cc318df56c9969e9d",
-      "repository_status": "NOT_UPLOADED"
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "42159096ee6f5b8270d425050e047254754b602a"
     },
     {
       "name": "export_QA.json",
@@ -184,6 +186,7 @@
     "Three reconstruction source files verified against original Git-blob SHA1 hashes.",
     "candidate_R2_result.json on this branch is an extract, not the original report; do not compare it to the original file hash.",
     "The original binary artifacts and remaining source/test evidence are not committed. The reference model under evidence/ remains MEB-037, not R1 B.",
-    "A rerun in the repository environment is pending. No physical release."
+    "A rerun in the repository environment is pending. No physical release.",
+    "2026-11-25: R6 virtual and negative-control raw report content archived; consult per-file status for byte identity. Binary model files remain absent."
   ]
 }
