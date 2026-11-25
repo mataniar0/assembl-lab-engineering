@@ -1,0 +1,189 @@
+{
+  "revision": "MEB-037-R1 B",
+  "status": "DESIGN_ONLY / PARTIAL_ARCHIVE",
+  "original_bundle": {
+    "name": "MEB037_R1_B_CAD_review.zip",
+    "sha256": "379c4db838ab13fe8893afe22abf81fb4bd02bd99a95f186e0e2ef96c45bea4d",
+    "count": 28,
+    "repository_copy": "NOT_UPLOADED"
+  },
+  "original_files": [
+    {
+      "name": "README_HE.md",
+      "size_bytes": 6100,
+      "sha256": "fd0a5d46cb57d42075899d2324ef9c4e8e62e575c59d331ade5c1ca1db323fc7",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "source_profiles_compact.json",
+      "size_bytes": 4250,
+      "sha256": "922d4a59365f8e4051d2034cfeabe52e499370af6502bb9b975a56f94b957182",
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "c1d580ed84b01c4f1a2ab006da6ed361ba70bf2a"
+    },
+    {
+      "name": "review.py",
+      "size_bytes": 5070,
+      "sha256": "b17b952ce783820c0ae2a236b600d37e425c5983d76b42cd24b010357a1b87ff",
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "7c53e4c50547a1df07db3722fcabf7abaf46017c"
+    },
+    {
+      "name": "build_candidate_review.py",
+      "size_bytes": 1858,
+      "sha256": "dcbc1675c18263dcd9213e371f23e3a0c7e456bc92ef1cc6cddc8d14651f2f32",
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "5c9321819d2c4c7a1c94a04e0e5ae3b9d4777b23"
+    },
+    {
+      "name": "candidate_B.py",
+      "size_bytes": 4562,
+      "sha256": "002769ae452336a2b2b52ceedfa0fc1196196a0a6adbc8136139a7fc5dfb4239",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "motion_screen.py",
+      "size_bytes": 5367,
+      "sha256": "ba815e15805d2dc1b11f4b9b29e94e703c5cf7a7f412f2dc4a02f7a0697bba8c",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "assembly_screen.py",
+      "size_bytes": 5706,
+      "sha256": "2f62538d2b834c50bb193f1e59bd7fc73f4e181fddc4b3fab7560749dd323c5f",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "r6_audit.py",
+      "size_bytes": 4133,
+      "sha256": "64e058ad179bca1e150f6dcbccce6efbf3263f022b28aff8eec411cc769a86a1",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "negative_checks.py",
+      "size_bytes": 2692,
+      "sha256": "4703720dcf5bbad43fb7c5de3b488c71f7e1dcb2e38bb789dbe3bf7cd15ee1e1",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "verify_render.py",
+      "size_bytes": 4811,
+      "sha256": "f338ee4a8d8353a67d56e8a46d35fc6a63e82b6a0b96b005e8f888ebb91d51fc",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "reference_recheck.csv",
+      "size_bytes": 8131,
+      "sha256": "072d0d64d8ff03c6b8aae9696abae3bd2dd1588fa3061435b4a3155a263a41a3",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "candidate_recheck.csv",
+      "size_bytes": 7801,
+      "sha256": "5f5fc08902ef2a75f0039eda24f7ac6514783b69ed6a39cab60f46732aba3fa2",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "candidate_R2_recheck.csv",
+      "size_bytes": 7769,
+      "sha256": "c094a58e5979ca14aa2d545d0d3eaab56a6ff911ac49706175dba13cc27752b3",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "candidate_result.json",
+      "size_bytes": 4334,
+      "sha256": "5c07cee55f685aba8935cfca3c8301a814cb6dad45584e295d6887cdf9f38a18",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "candidate_R2_result.json",
+      "size_bytes": 4414,
+      "sha256": "e614d42c8609cea6d143a2fc1ee1c482ab4f7a710af27eb8266dff531abd8fa4",
+      "repository_status": "PARAMETER_EXTRACT_ONLY"
+    },
+    {
+      "name": "contact_review.csv",
+      "size_bytes": 3120,
+      "sha256": "e2bc2b67bc1b0e37707f542bfba60e9001536d2b2af7e2e33d1ce112fe810b26",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "motion_screen.json",
+      "size_bytes": 21503,
+      "sha256": "834da9c0f2dd3f3f3dcba7cd915dba48ca7d34c9abe068755b7e39a3a6280910",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "assembly_screen.json",
+      "size_bytes": 13285,
+      "sha256": "ff5c3a290c97b874b34da524fffc54f9f9e834c56872a99efee0ce2d6605dc12",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "R6_virtual_QA.json",
+      "size_bytes": 1718,
+      "sha256": "82a465bf2b3f8478f2eaa903df102e14c07d2bf78b3be2cf8e977c2cf010e818",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "negative_controls_QA.json",
+      "size_bytes": 1708,
+      "sha256": "006674cccdd1f1d7898f33f3964b7c810fc06a5c1b3a7e1cc318df56c9969e9d",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "export_QA.json",
+      "size_bytes": 9427,
+      "sha256": "eb2fa7c241ed364a3c5569ee8260aa8a92a48c35cdb07882c26a6cfc5e706c6a",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_CLOSED_DESIGN_ONLY.glb",
+      "size_bytes": 1487532,
+      "sha256": "1205ac7350e0538f44839e5dbbfbe6904bcba8226e19592bbec679f92d3ce848",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_CLOSED_DESIGN_ONLY.png",
+      "size_bytes": 111572,
+      "sha256": "b7b888792864ba13cb3aef6707b932a05aeaaf22be56aea34fa9a8cd595ff8ef",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_OPEN_110_DESIGN_ONLY.glb",
+      "size_bytes": 1519812,
+      "sha256": "7bc536398eef5ce8294fef48f00eae812cd4cb05cc658463bf8fefbaa32852f4",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_OPEN_110_DESIGN_ONLY.png",
+      "size_bytes": 157806,
+      "sha256": "67cf3b745586f6995c0e821e955df0f9242e3851915df79a3cf63db4154adc53",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_EXPLODED_DESIGN_ONLY.glb",
+      "size_bytes": 1581004,
+      "sha256": "8a49505016e1d7080163a9fa441869628219d394a6a6b6fd744295f473f3cd2f",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_EXPLODED_DESIGN_ONLY.png",
+      "size_bytes": 108393,
+      "sha256": "b4a95f65630e5ca0f1c49d440736b284463cddc87f02400782b65b25f576d658",
+      "repository_status": "NOT_UPLOADED"
+    },
+    {
+      "name": "MEB037_R1_B_CLOSED_DESIGN_ONLY.step",
+      "size_bytes": 10357300,
+      "sha256": "448eaeb16e866f0c75f4f2017e90f86ee6bc264732b121a6367891d474b1ab56",
+      "repository_status": "NOT_UPLOADED"
+    }
+  ],
+  "notes": [
+    "Three reconstruction source files verified against original Git-blob SHA1 hashes.",
+    "candidate_R2_result.json on this branch is an extract, not the original report; do not compare it to the original file hash.",
+    "The original binary artifacts and remaining source/test evidence are not committed. The reference model under evidence/ remains MEB-037, not R1 B.",
+    "A rerun in the repository environment is pending. No physical release."
+  ]
+}

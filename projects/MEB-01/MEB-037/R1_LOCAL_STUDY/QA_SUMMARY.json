@@ -1,0 +1,48 @@
+{
+  "revision": "MEB037_R1_B",
+  "evidence_scope": "transcribed from verified local review bundle README; not raw CAD outputs",
+  "parts": 20,
+  "closed_pairs": 190,
+  "affected_pairs_recomputed": 54,
+  "unchanged_pair_results_retained": 136,
+  "positive_volume_collisions_above_threshold": 0,
+  "threshold_mm3": 0.0001,
+  "changed_parts": 3,
+  "unchanged_parts": 17,
+  "geometry_correction_cycles": 2,
+  "tab_region_no_positive_volume": 10,
+  "contact_roles_provisional": {
+    "fixed_stack": 12,
+    "moving_frame_support": 6,
+    "moving_fixed_boundary": 8
+  },
+  "rigid_rotation_screen": {
+    "range_deg": [
+      0,
+      110
+    ],
+    "pairs": 99,
+    "x_separated": 54,
+    "projected_distance_bounded": 45
+  },
+  "nominal_paths_pass": 26,
+  "virtual_R6": {
+    "lines": 88,
+    "bridges": 66,
+    "original_conflicts": 16,
+    "prior_R1_conflicts": 14,
+    "prior_R2_conflicts": 12,
+    "virtual_conflicts": 0,
+    "physical_bending": "NOT_RUN"
+  },
+  "negative_controls": {
+    "passed": 8,
+    "not_run": 2
+  },
+  "step_valid_solids": 20,
+  "glb_named_parts_per_view": 20,
+  "independent_QA": "PENDING",
+  "G3": "NOT_RUN",
+  "G4": "BLOCKED",
+  "production_release": false
+}
