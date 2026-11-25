@@ -99,13 +99,15 @@
       "name": "candidate_R2_result.json",
       "size_bytes": 4414,
       "sha256": "e614d42c8609cea6d143a2fc1ee1c482ab4f7a710af27eb8266dff531abd8fa4",
-      "repository_status": "PARAMETER_EXTRACT_ONLY"
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "7854f6463207bd6fd60d56f0af5f7bc6846544fc"
     },
     {
       "name": "contact_review.csv",
       "size_bytes": 3120,
       "sha256": "e2bc2b67bc1b0e37707f542bfba60e9001536d2b2af7e2e33d1ce112fe810b26",
-      "repository_status": "NOT_UPLOADED"
+      "repository_status": "BYTE_IDENTICAL_ARCHIVED",
+      "git_blob": "1eac9de0778a03593c3f18cc741011e2caa63b25"
     },
     {
       "name": "motion_screen.json",
@@ -183,10 +185,11 @@
     }
   ],
   "notes": [
-    "Three reconstruction source files verified against original Git-blob SHA1 hashes.",
-    "candidate_R2_result.json on this branch is an extract, not the original report; do not compare it to the original file hash.",
-    "The original binary artifacts and remaining source/test evidence are not committed. The reference model under evidence/ remains MEB-037, not R1 B.",
-    "A rerun in the repository environment is pending. No physical release.",
-    "2026-11-25: R6 virtual and negative-control raw report content archived; consult per-file status for byte identity. Binary model files remain absent."
-  ]
+    "Seven original archive entries checked against original Git-blob SHA1 hashes; consult per-file status.",
+    "Binary STEP/GLB/PNG and original ZIP are not uploaded. The reference model under evidence/ remains MEB-037, not R1 B.",
+    "Reproducible candidate visualization source and exact candidate parameter report are present; a fresh run from repository has not been performed. Other raw QA/test scripts remain in the local original bundle.",
+    "DESIGN_ONLY, independent QA and G3/G4 remain blocked."
+  ],
+  "archived_byte_identical_count": 7,
+  "unarchived_original_entries": 21
 }
