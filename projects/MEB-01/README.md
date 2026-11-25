@@ -13,3 +13,11 @@ Do not confuse **source-reported 56 passing checks** with a newly completed inde
 
 ## New verification
 Owner requirements: HEIGHT800 × WIDTH440mm stock,110deg opening. See [delivery](reports/MEB-000-DELIVERY.md), [independent QA](reports/MEB-000-INDEPENDENT-QA.md), [run instructions](tools/README.md) and [proposed reference frame](proposals/G0-reference/FRAME_AND_LIMITS.md). Full G0 remains subject to lead review; G1/G2/G3/G4 are not authorized.
+
+## Latest engineering candidate — MEB-037-R1 B (2026-11-25)
+
+- [Current design-study archive](MEB-037/R1_LOCAL_STUDY/README_HE.md) · [local CAD review results](MEB-037/R1_LOCAL_STUDY/LOCAL_REVIEW_RESULTS.md) · [artifact manifest](MEB-037/R1_LOCAL_STUDY/ARTIFACT_MANIFEST.json).
+- [Issue #125](https://github.com/mataniar0/assembl-lab-engineering/issues/125) and [draft PR #128](https://github.com/mataniar0/assembl-lab-engineering/pull/128).
+- Owner-approved direction preserves the original body, hinges and rails. The latest rigid nominal CAD candidate has 20 parts, with no positive-volume interference above the reported threshold in the 190-pair static check. It is not a verified physical assembly.
+- Candidate reconstruction source and selected original QA reports are archived; 7/28 original bundle entries verified byte-identical. The STEP, GLB, PNG and ZIP binaries and other evidence remain outside GitHub. The previous reference artifacts are preserved and are not the R1 B candidate.
+- **DESIGN_ONLY / PARTIAL_ARCHIVE / INDEPENDENT_QA_PENDING; G3 NOT_RUN, G4 BLOCKED.** No production or publication approval.
