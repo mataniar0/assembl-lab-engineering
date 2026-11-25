@@ -1,10 +1,107 @@
 {
-  "candidate": "MEB037_R1_B",
-  "candidate_status": "DESIGN_ONLY; archive parameter extract, not full original report",
+  "source": "MEB-033 original source SVG blob 8644b71371b5c4f02233b65d432ce22136e02199, compact normalized profile reconstruction (approx 1e-7 mm); not original bytes",
+  "CAD": "2.8.0",
+  "reference_20_valid_solids": true,
+  "reference_positive_intersections": [
+    [
+      "LID_END_L",
+      "LID_SKIN_RADIAL_4MM",
+      6.93135513488701
+    ],
+    [
+      "LID_END_R",
+      "LID_SKIN_RADIAL_4MM",
+      6.931355134887113
+    ]
+  ],
+  "straight_baseline_positive_intersections": [],
+  "candidate_positive_intersections": [],
+  "candidate_solids": {
+    "BODY_FLOOR": {
+      "valid": true,
+      "solids": 1
+    },
+    "BODY_FRONT": {
+      "valid": true,
+      "solids": 1
+    },
+    "BODY_BACK": {
+      "valid": true,
+      "solids": 1
+    },
+    "BODY_END_L": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_END_L": {
+      "valid": true,
+      "solids": 1
+    },
+    "FASCIA_HIDDEN_BACKER_L": {
+      "valid": true,
+      "solids": 1
+    },
+    "OUTER_FASCIA_L": {
+      "valid": true,
+      "solids": 1
+    },
+    "CAPTIVE_PIN_L": {
+      "valid": true,
+      "solids": 1
+    },
+    "BODY_END_R": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_END_R": {
+      "valid": true,
+      "solids": 1
+    },
+    "FASCIA_HIDDEN_BACKER_R": {
+      "valid": true,
+      "solids": 1
+    },
+    "OUTER_FASCIA_R": {
+      "valid": true,
+      "solids": 1
+    },
+    "CAPTIVE_PIN_R": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_FRONT_RAIL": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_BACK_RAIL": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_CROSS_RIB_1": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_CROSS_RIB_2": {
+      "valid": true,
+      "solids": 1
+    },
+    "INTERNAL_RAIL_SADDLE_L": {
+      "valid": true,
+      "solids": 1
+    },
+    "INTERNAL_RAIL_SADDLE_R": {
+      "valid": true,
+      "solids": 1
+    },
+    "LID_SKIN_RADIAL_4MM": {
+      "valid": true,
+      "solids": 1
+    }
+  },
   "candidate_tab_station_intervals_mm": [
     [
-      0,
-      7
+      0.0,
+      7.0
     ],
     [
       19.444115808882497,
@@ -23,5 +120,99 @@
       84.77646323552999
     ]
   ],
+  "tab_region_checks": [
+    {
+      "arch": "LID_END_L",
+      "tab": 1,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_L",
+      "tab": 2,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_L",
+      "tab": 3,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_L",
+      "tab": 4,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_L",
+      "tab": 5,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_R",
+      "tab": 1,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_R",
+      "tab": 2,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_R",
+      "tab": 3,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_R",
+      "tab": 4,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    },
+    {
+      "arch": "LID_END_R",
+      "tab": 5,
+      "intersection_mm3": 0,
+      "status": "NO_POSITIVE_VOLUME"
+    }
+  ],
+  "pairs_total": 190,
+  "pairs_recomputed_for_candidate": 54,
+  "changed_parts": [
+    "LID_END_L",
+    "LID_END_R",
+    "LID_SKIN_RADIAL_4MM"
+  ],
+  "retained_parts": 17,
+  "scope": "nominal rigid CAD concept only; edge-open receiving regions at first and last tabs; rear region beyond measured contact remains unverified; R6 slits not represented as solids; assembly and motion not yet certified",
+  "R6_original_slit_count": 88,
+  "R6_intersecting_tab_segments": [
+    13,
+    16,
+    17,
+    20,
+    33,
+    36,
+    37,
+    40,
+    53,
+    56,
+    57,
+    60,
+    73,
+    76,
+    77,
+    80
+  ],
+  "R6_status": "FAIL: original pattern conflicts with tab regions; no modified pattern approved",
+  "candidate_baseline_width_mm": 314.8,
+  "candidate_baseline_gap_per_end_mm": 0.6,
+  "candidate_status": "DESIGN_ONLY; geometry check only",
   "release_approved": false
 }
