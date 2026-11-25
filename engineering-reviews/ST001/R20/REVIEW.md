@@ -1,0 +1,4 @@
+# ST-001 R20 — digital assembly evidence review
+Issue #126; PR #127 baseline f6d732ecf589eda71853d0c3f54d7ae65bcdbed2. PARTIAL. DESIGN_ONLY / NO_CUT / NO_OCCUPANT_USE.
+The 24 failed approach cases are independent of F01 (8 upper-below, 8 upper-above, 8 lower-above). The source test explicitly excludes proxies. These are final-state configuration checks, not proof that every assembly order is impossible.
+Display-only correction: the two active GLB scenes show 88 body layers and hide 16 F01 proxies. Source geometry buffers and CAD/BOM remain unchanged. No actual joint geometry modified. All 56 non-lock interface nominal PASS results remain design BLOCKED. No new solid sweep, full-sequence verification, or physical evaluation performed. All 24 approach failures remain open; G2b/G3/G4 remain blocked. Professional engineering review required before freeze or physical use.
