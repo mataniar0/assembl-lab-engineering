@@ -1,0 +1,68 @@
+{
+  "revision": "R21_VISUAL_CONCEPT",
+  "scope": "DESIGN_ONLY / NO_CUT / NO_OCCUPANT_USE",
+  "source": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+  "visual_correction_cycles": 1,
+  "misaligned_gusset_display_planes_before": 8,
+  "after": 0,
+  "checks": [
+    {
+      "side": 1,
+      "end": 1,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 1,
+      "end": 2,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 2,
+      "end": 1,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 2,
+      "end": 2,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 3,
+      "end": 1,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 3,
+      "end": 2,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 4,
+      "end": 1,
+      "beforeAligned": false,
+      "afterAligned": true
+    },
+    {
+      "side": 4,
+      "end": 2,
+      "beforeAligned": false,
+      "afterAligned": true
+    }
+  ],
+  "active_meshes": 80,
+  "valid_mesh_indices": 80,
+  "upper_visual_groups": 4,
+  "source_geometry_buffer_unchanged": true,
+  "boolean_union": "NOT_RUN",
+  "finger_joint_redesign": "NOT_RUN",
+  "solid_collision": "NOT_RUN",
+  "assembly_sequence": "NOT_RUN",
+  "prior_approach_failures": 24,
+  "production": "BLOCKED"
+}
