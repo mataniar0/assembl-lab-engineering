@@ -1,3 +1,27 @@
+# MEB-01 — current development status (25 Nov 2026)
+
+**Latest candidate:** MEB-037-R1 B · **DESIGN_ONLY / PARTIAL_ARCHIVE / INDEPENDENT_QA_PENDING**  
+**Task:** [#125](https://github.com/mataniar0/assembl-lab-engineering/issues/125) · [Draft PR #128](https://github.com/mataniar0/assembl-lab-engineering/pull/128)  
+**Release:** NOT_APPROVED. Original manufacturing/reference files remain historical; no production replacement.
+
+| Deliverable | State |
+|---|---|
+| CAD candidate | 20-part nominal assembly, 3 changed / 17 retained |
+| Static comparison | 190 pair results; zero positive-volume collisions above 0.0001 mm³ |
+| Joint regions | 10/10 no positive-volume intersection, not physical fit approval |
+| Motion and sequence | Nominal 0–110° rigid-body screen and 26 path checks; limits documented |
+| R6 | Virtual review only; actual material bending NOT_RUN |
+| Independent QA | PENDING |
+| Source archive | Three source files match the local bundle Git blob hashes; parameter extract provided |
+| Binary deliverables | Original STEP, GLBs, PNGs and ZIP remain outside repository; no binary transfer confirmed |
+| Final layout and production | BLOCKED |
+
+**Current entry point:** [MEB-037-R1 B archive](MEB-037/R1_LOCAL_STUDY/README_HE.md), [local QA report](MEB-037/R1_LOCAL_STUDY/LOCAL_REVIEW_RESULTS.md), [artifact manifest](MEB-037/R1_LOCAL_STUDY/ARTIFACT_MANIFEST.json).
+
+The following older status is retained for provenance; it is not the current MEB-037 assessment.
+
+---
+
 # MEB-01 status
 **Source:** V8.2.2 at ebeefe308efaf80329e16e42a84d51557878fd58
 **Task:** Issue16 / Draft PR17 · **Stage:** G0 REVIEW_REQUIRED (full approval BLOCKED) · **Production:** NOT_APPROVED
