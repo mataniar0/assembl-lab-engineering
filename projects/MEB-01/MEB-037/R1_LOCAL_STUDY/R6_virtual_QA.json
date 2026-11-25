@@ -1,0 +1,49 @@
+{
+  "source_blob": "b072b18012d56c24f7b59233455a9272a96e4a56",
+  "candidate": "MEB037_R1_B",
+  "virtual_pattern_only": true,
+  "results": {
+    "ORIGINAL": {
+      "segments": 88,
+      "bridges_preserved_exactly": 66,
+      "tab_intersections": 16,
+      "min_tab_distance_mm": 0.0,
+      "segments_with_portion_outside_candidate_profile": 40,
+      "raw_changed_segment_count": 0,
+      "physical_validation": "NOT_RUN"
+    },
+    "R1": {
+      "segments": 88,
+      "bridges_preserved_exactly": 66,
+      "tab_intersections": 14,
+      "min_tab_distance_mm": 0.0,
+      "segments_with_portion_outside_candidate_profile": 28,
+      "raw_changed_segment_count": 12,
+      "physical_validation": "NOT_RUN"
+    },
+    "R2": {
+      "segments": 88,
+      "bridges_preserved_exactly": 66,
+      "tab_intersections": 12,
+      "min_tab_distance_mm": 0.0,
+      "segments_with_portion_outside_candidate_profile": 18,
+      "raw_changed_segment_count": 22,
+      "physical_validation": "NOT_RUN"
+    },
+    "VIRTUAL_REVIEW": {
+      "segments": 88,
+      "bridges_preserved_exactly": 66,
+      "tab_intersections": 0,
+      "min_tab_distance_mm": 3.0000010000000015,
+      "segments_with_portion_outside_candidate_profile": 0,
+      "raw_changed_segment_count": 40,
+      "physical_validation": "NOT_RUN"
+    }
+  },
+  "virtual_pattern_in_material_shortened_segments": 28,
+  "virtual_pattern_total_in_material_length_reduction_mm": 148.45315405579728,
+  "nominal_guard_not_validated_strength": 3.0,
+  "physical_bending": "NOT_RUN",
+  "release": "BLOCKED",
+  "note": "No actual slit mechanics or manufacturing files; 88/66 topology is not proof of flexural performance. The candidate solid remains the rigid uncut envelope."
+}
