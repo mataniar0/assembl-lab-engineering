@@ -1,0 +1,1235 @@
+{
+  "scope": "DESIGN_ONLY / NO_CUT / NO_OCCUPANT_USE",
+  "model": "New native CAD candidate for digital review",
+  "r30_equivalence": "UNVERIFIED",
+  "freecad_version": "1.0.0",
+  "occt_version": "7.8.1",
+  "source_commits": {
+    "R18": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+    "R21": "b8bfe123f2a77c628f2730af3a9a1c08ed2e6843"
+  },
+  "source_sha256": {
+    "R18_FCStd": "2693fd695f0ee91bf0fbc8b17c9fca725b6e93019bc80025feb2f7fc3364b8a9",
+    "R21_GLB": "f0a7d3815887ef86ba9af7ac6d9337547fe67c7e7352b96109caeb9c4779c5fa"
+  },
+  "display_buffer_reuse": "PASS",
+  "exports": {
+    "native_features": 72,
+    "step_solids": 80
+  },
+  "static_checks": {
+    "pairs_total": 3160,
+    "pairs_boolean": 500,
+    "tolerance_mm3": 1e-05,
+    "positive_overlaps": [],
+    "status": "PASS"
+  },
+  "candidate_interfaces": [
+    {
+      "candidate_interface_id": "upper-1-leg-1",
+      "members": [
+        "B01_SIDE1_1_P1",
+        "E01_SIDE1_END1_P1",
+        "E01_SIDE1_END2_P1"
+      ],
+      "leg": 1,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE1_END1_P1",
+        "A01_LEG1_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE1_1_P1",
+          "wall": "A01_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE1_END1_P1",
+          "wall": "A01_LEG1_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-1-leg-1",
+      "members": [
+        "C01_SIDE1_1_P1",
+        "C01_SIDE1_1_P2",
+        "C01_SIDE1_2_P1",
+        "C01_SIDE1_2_P2"
+      ],
+      "leg": 1,
+      "nominal_min_gap_mm": 3.552713678800501e-15,
+      "nearest_members": [
+        "C01_SIDE1_1_P1",
+        "A01_LEG1_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE1_1_P1",
+          "wall": "A01_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE1_1_P2",
+          "wall": "A01_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE1_2_P1",
+          "wall": "A01_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE1_2_P2",
+          "wall": "A01_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-1-leg-2",
+      "members": [
+        "B01_SIDE1_1_P1",
+        "E01_SIDE1_END1_P1",
+        "E01_SIDE1_END2_P1"
+      ],
+      "leg": 2,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE1_END2_P1",
+        "A02_LEG2_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE1_1_P1",
+          "wall": "A02_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE1_END2_P1",
+          "wall": "A02_LEG2_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-1-leg-2",
+      "members": [
+        "C01_SIDE1_1_P1",
+        "C01_SIDE1_1_P2",
+        "C01_SIDE1_2_P1",
+        "C01_SIDE1_2_P2"
+      ],
+      "leg": 2,
+      "nominal_min_gap_mm": 7.105427357601002e-15,
+      "nearest_members": [
+        "C01_SIDE1_1_P1",
+        "A02_LEG2_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE1_1_P1",
+          "wall": "A02_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE1_1_P2",
+          "wall": "A02_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE1_2_P1",
+          "wall": "A02_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE1_2_P2",
+          "wall": "A02_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-2-leg-2",
+      "members": [
+        "B01_SIDE2_1_P1",
+        "E01_SIDE2_END1_P1",
+        "E01_SIDE2_END2_P1"
+      ],
+      "leg": 2,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE2_END1_P1",
+        "A01_LEG2_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE2_1_P1",
+          "wall": "A01_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE2_END1_P1",
+          "wall": "A01_LEG2_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-2-leg-2",
+      "members": [
+        "C01_SIDE2_1_P1",
+        "C01_SIDE2_1_P2",
+        "C01_SIDE2_2_P1",
+        "C01_SIDE2_2_P2"
+      ],
+      "leg": 2,
+      "nominal_min_gap_mm": 3.552713678800501e-15,
+      "nearest_members": [
+        "C01_SIDE2_1_P1",
+        "A01_LEG2_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE2_1_P1",
+          "wall": "A01_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE2_1_P2",
+          "wall": "A01_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE2_2_P1",
+          "wall": "A01_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE2_2_P2",
+          "wall": "A01_LEG2_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-2-leg-3",
+      "members": [
+        "B01_SIDE2_1_P1",
+        "E01_SIDE2_END1_P1",
+        "E01_SIDE2_END2_P1"
+      ],
+      "leg": 3,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE2_END2_P1",
+        "A02_LEG3_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE2_1_P1",
+          "wall": "A02_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE2_END2_P1",
+          "wall": "A02_LEG3_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-2-leg-3",
+      "members": [
+        "C01_SIDE2_1_P1",
+        "C01_SIDE2_1_P2",
+        "C01_SIDE2_2_P1",
+        "C01_SIDE2_2_P2"
+      ],
+      "leg": 3,
+      "nominal_min_gap_mm": 7.105427357601002e-15,
+      "nearest_members": [
+        "C01_SIDE2_1_P1",
+        "A02_LEG3_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE2_1_P1",
+          "wall": "A02_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE2_1_P2",
+          "wall": "A02_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE2_2_P1",
+          "wall": "A02_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE2_2_P2",
+          "wall": "A02_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-3-leg-3",
+      "members": [
+        "B01_SIDE3_1_P1",
+        "E01_SIDE3_END1_P1",
+        "E01_SIDE3_END2_P1"
+      ],
+      "leg": 3,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE3_END1_P1",
+        "A01_LEG3_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE3_1_P1",
+          "wall": "A01_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE3_END1_P1",
+          "wall": "A01_LEG3_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-3-leg-3",
+      "members": [
+        "C01_SIDE3_1_P1",
+        "C01_SIDE3_1_P2",
+        "C01_SIDE3_2_P1",
+        "C01_SIDE3_2_P2"
+      ],
+      "leg": 3,
+      "nominal_min_gap_mm": 3.552713678800501e-15,
+      "nearest_members": [
+        "C01_SIDE3_1_P1",
+        "A01_LEG3_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE3_1_P1",
+          "wall": "A01_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE3_1_P2",
+          "wall": "A01_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE3_2_P1",
+          "wall": "A01_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE3_2_P2",
+          "wall": "A01_LEG3_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-3-leg-4",
+      "members": [
+        "B01_SIDE3_1_P1",
+        "E01_SIDE3_END1_P1",
+        "E01_SIDE3_END2_P1"
+      ],
+      "leg": 4,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE3_END2_P1",
+        "A02_LEG4_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE3_1_P1",
+          "wall": "A02_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE3_END2_P1",
+          "wall": "A02_LEG4_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-3-leg-4",
+      "members": [
+        "C01_SIDE3_1_P1",
+        "C01_SIDE3_1_P2",
+        "C01_SIDE3_2_P1",
+        "C01_SIDE3_2_P2"
+      ],
+      "leg": 4,
+      "nominal_min_gap_mm": 7.105427357601002e-15,
+      "nearest_members": [
+        "C01_SIDE3_1_P1",
+        "A02_LEG4_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE3_1_P1",
+          "wall": "A02_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE3_1_P2",
+          "wall": "A02_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE3_2_P1",
+          "wall": "A02_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE3_2_P2",
+          "wall": "A02_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-4-leg-4",
+      "members": [
+        "B01_SIDE4_1_P1",
+        "E01_SIDE4_END1_P1",
+        "E01_SIDE4_END2_P1"
+      ],
+      "leg": 4,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE4_END1_P1",
+        "A01_LEG4_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE4_1_P1",
+          "wall": "A01_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE4_END1_P1",
+          "wall": "A01_LEG4_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-4-leg-4",
+      "members": [
+        "C01_SIDE4_1_P1",
+        "C01_SIDE4_1_P2",
+        "C01_SIDE4_2_P1",
+        "C01_SIDE4_2_P2"
+      ],
+      "leg": 4,
+      "nominal_min_gap_mm": 3.552713678800501e-15,
+      "nearest_members": [
+        "C01_SIDE4_1_P1",
+        "A01_LEG4_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE4_1_P1",
+          "wall": "A01_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE4_1_P2",
+          "wall": "A01_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE4_2_P1",
+          "wall": "A01_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE4_2_P2",
+          "wall": "A01_LEG4_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "upper-4-leg-1",
+      "members": [
+        "B01_SIDE4_1_P1",
+        "E01_SIDE4_END1_P1",
+        "E01_SIDE4_END2_P1"
+      ],
+      "leg": 1,
+      "nominal_min_gap_mm": 1.4210854715202004e-14,
+      "nearest_members": [
+        "E01_SIDE4_END2_P1",
+        "A02_LEG1_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "B01_SIDE4_1_P1",
+          "wall": "A02_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.341781955064
+        },
+        {
+          "rail": "E01_SIDE4_END2_P1",
+          "wall": "A02_LEG1_POS_P1",
+          "shared_face_area_mm2": 198.7271843145325
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    },
+    {
+      "candidate_interface_id": "lower-4-leg-1",
+      "members": [
+        "C01_SIDE4_1_P1",
+        "C01_SIDE4_1_P2",
+        "C01_SIDE4_2_P1",
+        "C01_SIDE4_2_P2"
+      ],
+      "leg": 1,
+      "nominal_min_gap_mm": 7.105427357601002e-15,
+      "nearest_members": [
+        "C01_SIDE4_1_P1",
+        "A02_LEG1_POS_P1"
+      ],
+      "touching_pairs": [
+        {
+          "rail": "C01_SIDE4_1_P1",
+          "wall": "A02_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506428
+        },
+        {
+          "rail": "C01_SIDE4_1_P2",
+          "wall": "A02_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE4_2_P1",
+          "wall": "A02_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        },
+        {
+          "rail": "C01_SIDE4_2_P2",
+          "wall": "A02_LEG1_POS_P1",
+          "shared_face_area_mm2": 243.34178195506416
+        }
+      ],
+      "status": "NOMINAL_FACE_CONTACT",
+      "mapping_to_R30": "UNVERIFIED"
+    }
+  ],
+  "omitted_in_R21_scene": [
+    "E01_SIDE1_END1_P2",
+    "E01_SIDE1_END2_P2",
+    "E01_SIDE2_END1_P2",
+    "E01_SIDE2_END2_P2",
+    "E01_SIDE3_END1_P2",
+    "E01_SIDE3_END2_P2",
+    "E01_SIDE4_END1_P2",
+    "E01_SIDE4_END2_P2",
+    "F01_SIDE1_END1_P1",
+    "F01_SIDE1_END1_P2",
+    "F01_SIDE1_END2_P1",
+    "F01_SIDE1_END2_P2",
+    "F01_SIDE2_END1_P1",
+    "F01_SIDE2_END1_P2",
+    "F01_SIDE2_END2_P1",
+    "F01_SIDE2_END2_P2",
+    "F01_SIDE3_END1_P1",
+    "F01_SIDE3_END1_P2",
+    "F01_SIDE3_END2_P1",
+    "F01_SIDE3_END2_P2",
+    "F01_SIDE4_END1_P1",
+    "F01_SIDE4_END1_P2",
+    "F01_SIDE4_END2_P1",
+    "F01_SIDE4_END2_P2"
+  ],
+  "members": {
+    "A01_LEG1_NEG_P1": {
+      "feature": "A01_LEG1_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG1_NEG_P2": {
+      "feature": "A01_LEG1_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG1_POS_P1": {
+      "feature": "A01_LEG1_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG1_POS_P2": {
+      "feature": "A01_LEG1_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG2_NEG_P1": {
+      "feature": "A01_LEG2_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG2_NEG_P2": {
+      "feature": "A01_LEG2_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG2_POS_P1": {
+      "feature": "A01_LEG2_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG2_POS_P2": {
+      "feature": "A01_LEG2_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG3_NEG_P1": {
+      "feature": "A01_LEG3_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG3_NEG_P2": {
+      "feature": "A01_LEG3_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG3_POS_P1": {
+      "feature": "A01_LEG3_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG3_POS_P2": {
+      "feature": "A01_LEG3_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG4_NEG_P1": {
+      "feature": "A01_LEG4_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG4_NEG_P2": {
+      "feature": "A01_LEG4_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG4_POS_P1": {
+      "feature": "A01_LEG4_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A01_LEG4_POS_P2": {
+      "feature": "A01_LEG4_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG1_NEG_P1": {
+      "feature": "A02_LEG1_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG1_NEG_P2": {
+      "feature": "A02_LEG1_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG1_POS_P1": {
+      "feature": "A02_LEG1_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG1_POS_P2": {
+      "feature": "A02_LEG1_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG2_NEG_P1": {
+      "feature": "A02_LEG2_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG2_NEG_P2": {
+      "feature": "A02_LEG2_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG2_POS_P1": {
+      "feature": "A02_LEG2_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG2_POS_P2": {
+      "feature": "A02_LEG2_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG3_NEG_P1": {
+      "feature": "A02_LEG3_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG3_NEG_P2": {
+      "feature": "A02_LEG3_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG3_POS_P1": {
+      "feature": "A02_LEG3_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG3_POS_P2": {
+      "feature": "A02_LEG3_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG4_NEG_P1": {
+      "feature": "A02_LEG4_NEG_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG4_NEG_P2": {
+      "feature": "A02_LEG4_NEG_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG4_POS_P1": {
+      "feature": "A02_LEG4_POS_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A02_LEG4_POS_P2": {
+      "feature": "A02_LEG4_POS_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG1_HIGH_P1": {
+      "feature": "A03_LEG1_HIGH_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG1_LOW_P1": {
+      "feature": "A03_LEG1_LOW_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG1_MID_P1": {
+      "feature": "A03_LEG1_MID_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG2_HIGH_P1": {
+      "feature": "A03_LEG2_HIGH_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG2_LOW_P1": {
+      "feature": "A03_LEG2_LOW_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG2_MID_P1": {
+      "feature": "A03_LEG2_MID_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG3_HIGH_P1": {
+      "feature": "A03_LEG3_HIGH_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG3_LOW_P1": {
+      "feature": "A03_LEG3_LOW_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG3_MID_P1": {
+      "feature": "A03_LEG3_MID_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG4_HIGH_P1": {
+      "feature": "A03_LEG4_HIGH_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG4_LOW_P1": {
+      "feature": "A03_LEG4_LOW_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A03_LEG4_MID_P1": {
+      "feature": "A03_LEG4_MID_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG1_P1": {
+      "feature": "A04_LEG1_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG1_P2": {
+      "feature": "A04_LEG1_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG2_P1": {
+      "feature": "A04_LEG2_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG2_P2": {
+      "feature": "A04_LEG2_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG3_P1": {
+      "feature": "A04_LEG3_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG3_P2": {
+      "feature": "A04_LEG3_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG4_P1": {
+      "feature": "A04_LEG4_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A04_LEG4_P2": {
+      "feature": "A04_LEG4_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE1_1_P1": {
+      "feature": "C01_SIDE1_1_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE1_1_P2": {
+      "feature": "C01_SIDE1_1_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE1_2_P1": {
+      "feature": "C01_SIDE1_2_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE1_2_P2": {
+      "feature": "C01_SIDE1_2_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE2_1_P1": {
+      "feature": "C01_SIDE2_1_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE2_1_P2": {
+      "feature": "C01_SIDE2_1_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE2_2_P1": {
+      "feature": "C01_SIDE2_2_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE2_2_P2": {
+      "feature": "C01_SIDE2_2_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE3_1_P1": {
+      "feature": "C01_SIDE3_1_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE3_1_P2": {
+      "feature": "C01_SIDE3_1_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE3_2_P1": {
+      "feature": "C01_SIDE3_2_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE3_2_P2": {
+      "feature": "C01_SIDE3_2_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE4_1_P1": {
+      "feature": "C01_SIDE4_1_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE4_1_P2": {
+      "feature": "C01_SIDE4_1_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE4_2_P1": {
+      "feature": "C01_SIDE4_2_P1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C01_SIDE4_2_P2": {
+      "feature": "C01_SIDE4_2_P2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "B01_SIDE1_1_P1": {
+      "feature": "R21_Upper_Visual_Group_1",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "E01_SIDE1_END1_P1": {
+      "feature": "R21_Upper_Visual_Group_1",
+      "translation_xyz_mm": [
+        -1.4142133295535944,
+        1.4142133295535944,
+        0
+      ]
+    },
+    "E01_SIDE1_END2_P1": {
+      "feature": "R21_Upper_Visual_Group_1",
+      "translation_xyz_mm": [
+        -1.4142133295535944,
+        1.4142133295535944,
+        0
+      ]
+    },
+    "B01_SIDE2_1_P1": {
+      "feature": "R21_Upper_Visual_Group_2",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "E01_SIDE2_END1_P1": {
+      "feature": "R21_Upper_Visual_Group_2",
+      "translation_xyz_mm": [
+        -1.4142133295535944,
+        -1.4142133295535944,
+        0
+      ]
+    },
+    "E01_SIDE2_END2_P1": {
+      "feature": "R21_Upper_Visual_Group_2",
+      "translation_xyz_mm": [
+        -1.4142133295535944,
+        -1.4142133295535944,
+        0
+      ]
+    },
+    "B01_SIDE3_1_P1": {
+      "feature": "R21_Upper_Visual_Group_3",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "E01_SIDE3_END1_P1": {
+      "feature": "R21_Upper_Visual_Group_3",
+      "translation_xyz_mm": [
+        1.4142133295535944,
+        -1.4142133295535944,
+        0
+      ]
+    },
+    "E01_SIDE3_END2_P1": {
+      "feature": "R21_Upper_Visual_Group_3",
+      "translation_xyz_mm": [
+        1.4142133295535944,
+        -1.4142133295535944,
+        0
+      ]
+    },
+    "B01_SIDE4_1_P1": {
+      "feature": "R21_Upper_Visual_Group_4",
+      "translation_xyz_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "E01_SIDE4_END1_P1": {
+      "feature": "R21_Upper_Visual_Group_4",
+      "translation_xyz_mm": [
+        1.4142133295535944,
+        1.4142133295535944,
+        0
+      ]
+    },
+    "E01_SIDE4_END2_P1": {
+      "feature": "R21_Upper_Visual_Group_4",
+      "translation_xyz_mm": [
+        1.4142133295535944,
+        1.4142133295535944,
+        0
+      ]
+    }
+  },
+  "motion_and_assembly_sequence": "NOT_RUN",
+  "physical_validation": "NOT_RUN"
+}
