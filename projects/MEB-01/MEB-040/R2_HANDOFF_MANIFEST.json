@@ -1,0 +1,15 @@
+{
+  "revision": "MEB-040 R2",
+  "candidate": "MEB-037-R1 B",
+  "archive": "MEB040_R2_PROFESSIONAL_REVIEW.zip",
+  "sha256": "0acf4aaebcd8ea133bf7a3e386a2d2c0d8f34a4a83b53cbb2397d2739333c501",
+  "entries": 17,
+  "crc": "PASS",
+  "payload_hash_check": "PASS",
+  "status": "PROFESSIONAL_REVIEW_ONLY",
+  "repository_archive": "NOT_UPLOADED",
+  "owner_approval": "REPORTED",
+  "geometry_changes": 0,
+  "layout": "NOT_RUN",
+  "production_files": "NOT_GENERATED"
+}
