@@ -1,0 +1,295 @@
+{
+  "revision": "ST-001 R35",
+  "date": "2026-11-26",
+  "issue": "https://github.com/mataniar0/assembl-lab-engineering/issues/132",
+  "scope": [
+    "DESIGN_ONLY",
+    "NO_CUT",
+    "NO_OCCUPANT_USE"
+  ],
+  "provenance_audit": "COMPLETE_FOR_ACCESSIBLE_SOURCES",
+  "exact_r30_cad_verification": "BLOCKED",
+  "decision": {
+    "traceable_original_r30_native_source_available": false,
+    "existence_outside_accessible_sources": "UNDETERMINED",
+    "historical_r18_as_direct_r30_source": "FAIL_FROM_R34",
+    "r30_interfaces_blocked_for_exact_verification": 16
+  },
+  "references": {
+    "prior_r34_pr": "https://github.com/mataniar0/assembl-lab-engineering/pull/131",
+    "r33_summary": "https://github.com/mataniar0/assembl-lab-engineering/issues/129#issuecomment-7184936852",
+    "r30_r32_input_listing": "https://github.com/mataniar0/assembl-lab-engineering/issues/129"
+  },
+  "source_search": {
+    "workspace": [
+      "/workspace",
+      "/workspace/library-files",
+      "/workspace/shared/downloads",
+      "/tmp",
+      "/mnt/data"
+    ],
+    "git": "Fetched origin branches once. Searched reachable Git paths and commit subjects for ST-001 and R22\u2013R30. Inspected the pinned R34 and historical CAD/GLB provenance records.",
+    "linked_records": [
+      "#122",
+      "#126",
+      "#129",
+      "#130",
+      "#131",
+      "#132"
+    ],
+    "cycles": 1
+  },
+  "revisions": [
+    {
+      "revision": "R22",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R23",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R24",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R25",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R26",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R27",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R28",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R29",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": null,
+      "sha256": null,
+      "reason": "No identifiable artifact, version record or source-to-export link in the inspected inputs."
+    },
+    {
+      "revision": "R30",
+      "availability": "MISSING",
+      "original_source": null,
+      "source_revision": null,
+      "change": null,
+      "export": "ST001_R30_RAIL_DISPLAY.glb",
+      "sha256": "fd30d431a07994b09f5b8aab76ad4b78136e7d2ba90b85e35abfbd7e51e03d5f",
+      "hash_basis": "REPORTED_BY_ISSUE_AND_R34_NOT_RECOMPUTED",
+      "reason": "Display export and QA report documented in issue #129 and its R33 update. Native source, original bytes and export manifest were not accessible."
+    }
+  ],
+  "accessible_historical_reference_artifacts": [
+    {
+      "revision": "R18-A",
+      "type": "MESH_DERIVED_TRANSFORM_SCRIPT",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R18A/review_model.py",
+      "commit": "6a176e53bfc9b1d0800e1466c69fc3c6664f96ac",
+      "git_blob": "ad48a77bf1bfb9aeb904baafc1af11c4999adfdf",
+      "sha256": "d2b4737ff9ce27e877ba00993055ac5ccbf150b1f004b63344fe554fae31fde6",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/6a176e53bfc9b1d0800e1466c69fc3c6664f96ac/engineering-reviews/ST001/R18A/review_model.py"
+    },
+    {
+      "revision": "R18-A-FIX",
+      "type": "NATIVE_CAD_GENERATOR",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R18A_FIX/model.py",
+      "commit": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+      "git_blob": "b0af77f31e113ac2716f5badf9f576950a555e4c",
+      "sha256": "75766075738d67ac05d4fe8a0568fc8987dd28669d7844aaf4f418ed8cf0b8b8",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/model.py"
+    },
+    {
+      "revision": "R18-A-FIX",
+      "type": "NATIVE_CAD_GENERATOR_INPUT",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R18A_FIX/parameters.json",
+      "commit": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+      "git_blob": "04e0e962b0be1f2df4b6b44bd7405a2c6dc3a56d",
+      "sha256": "e30d95dd3d657bc3951a453816d8f142df6c5abf398501d1e1e96e6871e272b0",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/parameters.json"
+    },
+    {
+      "revision": "R18-A-FIX",
+      "type": "NATIVE_BREP_SNAPSHOT",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R18A_FIX/evidence/R18A_FIX_REVIEW.FCStd",
+      "commit": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+      "git_blob": "b3f2c4d824d35b3adc5314bac44770a40675f0fe",
+      "sha256": "2693fd695f0ee91bf0fbc8b17c9fca725b6e93019bc80025feb2f7fc3364b8a9",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/evidence/R18A_FIX_REVIEW.FCStd"
+    },
+    {
+      "revision": "R21",
+      "type": "DISPLAY_MESH",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R21_VISUAL/R21_DISPLAY_CONCEPT.glb",
+      "commit": "b8bfe123f2a77c628f2730af3a9a1c08ed2e6843",
+      "git_blob": "20d6ab2d3b58bfbadd01cb6b22a3f4e4313e8aa2",
+      "sha256": "f0a7d3815887ef86ba9af7ac6d9337547fe67c7e7352b96109caeb9c4779c5fa",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/b8bfe123f2a77c628f2730af3a9a1c08ed2e6843/engineering-reviews/ST001/R21_VISUAL/R21_DISPLAY_CONCEPT.glb"
+    },
+    {
+      "revision": "R21",
+      "type": "QA_EVIDENCE",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R21_VISUAL/QA.json",
+      "commit": "b8bfe123f2a77c628f2730af3a9a1c08ed2e6843",
+      "git_blob": "74d127d7976aede105db53fbc2d970f67025362c",
+      "sha256": "226621ad9685b205ce49cba2840bd3f4c2ad6515957d7206c841c628aaed27c6",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/b8bfe123f2a77c628f2730af3a9a1c08ed2e6843/engineering-reviews/ST001/R21_VISUAL/QA.json"
+    },
+    {
+      "revision": "R34",
+      "type": "QA_EVIDENCE",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R34/QA_HE.md",
+      "commit": "ceda1ae9b50e5782eae018ee4bf173646c9cd3f7",
+      "git_blob": "f2f9d9172e075af213e53ee66eae3fce2b988626",
+      "sha256": "8d7e0257cbb236f235e56c97869c248649d79fbd49e4952f1ce7250009f61119",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/ceda1ae9b50e5782eae018ee4bf173646c9cd3f7/engineering-reviews/ST001/R34/QA_HE.md"
+    },
+    {
+      "revision": "R34",
+      "type": "QA_EVIDENCE",
+      "availability": "AVAILABLE",
+      "path": "engineering-reviews/ST001/R34/QA.json",
+      "commit": "ceda1ae9b50e5782eae018ee4bf173646c9cd3f7",
+      "git_blob": "1148268e2afc9f9ee5b35e3ceffb388c9f7d260c",
+      "sha256": "48dd08d8b0a142be45296f4009eab457ddcae24d55eae3bf0962899a5a74acd5",
+      "hash_basis": "COMPUTED_FROM_GIT_BLOB_BYTES",
+      "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/ceda1ae9b50e5782eae018ee4bf173646c9cd3f7/engineering-reviews/ST001/R34/QA.json"
+    }
+  ],
+  "reported_local_artifacts": [
+    {
+      "revision": "R30",
+      "filename": "ST001_R30_RAIL_DISPLAY.glb",
+      "type": "DISPLAY_MESH",
+      "availability": "MISSING",
+      "sha256": "fd30d431a07994b09f5b8aab76ad4b78136e7d2ba90b85e35abfbd7e51e03d5f",
+      "hash_basis": "REPORTED"
+    },
+    {
+      "revision": "R30",
+      "filename": "ST001_R30_RAIL_DISPLAY_QA.json",
+      "type": "QA_EVIDENCE",
+      "availability": "MISSING",
+      "sha256": null,
+      "hash_basis": null
+    },
+    {
+      "revision": "R31",
+      "filename": "ST001_R31_RAIL_MOTION_QA.json",
+      "type": "QA_EVIDENCE",
+      "availability": "MISSING",
+      "sha256": null,
+      "hash_basis": null
+    },
+    {
+      "revision": "R32",
+      "filename": "ST001_R32_FAMILY_DIAGNOSTIC.json",
+      "type": "QA_EVIDENCE",
+      "availability": "MISSING",
+      "sha256": null,
+      "hash_basis": null
+    },
+    {
+      "revision": "R33",
+      "filename": "ST001_R33_STATIC_REVIEW_QA.json",
+      "type": "QA_EVIDENCE",
+      "availability": "MISSING",
+      "sha256": null,
+      "hash_basis": null
+    }
+  ],
+  "documented_historical_link": {
+    "source_revision": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+    "target_revision": "b8bfe123f2a77c628f2730af3a9a1c08ed2e6843",
+    "evidence": "R21 QA.json records R18-A-FIX source commit and one display alignment change.",
+    "scope": "Display lineage for R21 only."
+  },
+  "counts": {
+    "revision_rows": 9,
+    "revisions_with_accessible_artifacts": 0,
+    "named_but_inaccessible_local_artifacts": 5,
+    "historical_reference_artifacts_with_verified_hashes": 8,
+    "reference_sha256_consistency_checks_pass": 2,
+    "unresolved_adjacent_version_links_r21_through_r30": 9,
+    "geometry_checks_run": 0,
+    "documentation_correction_cycles": 0
+  },
+  "gates": {
+    "G0": "BLOCKED",
+    "G1": "BLOCKED",
+    "G2": "BLOCKED",
+    "G3": "BLOCKED",
+    "G4": "BLOCKED"
+  },
+  "required_inputs": [
+    "Original R30 native CAD or revision-pinned native generator and exact inputs.",
+    "R30 source-to-export record linking the original CAD revision to the reported GLB SHA-256.",
+    "Available R22\u2013R29 revision records, and original identifiers and part mapping for the 16 R30 interfaces."
+  ]
+}
