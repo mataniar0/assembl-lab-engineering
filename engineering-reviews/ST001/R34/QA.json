@@ -1,0 +1,1572 @@
+{
+  "issue": "https://github.com/mataniar0/assembl-lab-engineering/issues/130",
+  "revision": "ST-001 R34",
+  "date": "2026-11-26",
+  "scope": [
+    "DESIGN_ONLY",
+    "NO_CUT",
+    "NO_OCCUPANT_USE"
+  ],
+  "status": "BLOCKED",
+  "decision": {
+    "r30_native_brep_accessibility": "BLOCKED",
+    "existence_outside_accessible_sources": "UNDETERMINED",
+    "r18_snapshot_as_exact_matching_source": "FAIL",
+    "reason": "Historical R18 snapshot differs in layer counts and upper rail identifiers; no R30 source-to-export identity chain."
+  },
+  "search": {
+    "workspace_locations": [
+      "/workspace",
+      "/mnt/data",
+      "/tmp"
+    ],
+    "git_remote_tracking_ref_count": 79,
+    "git_method": "Fetch origin heads, inspect reachable ST-001 artifacts and project text for R30 identifiers and SHA prefix, and inspect linked PR head refs.",
+    "native_st001_git_candidate_found": "engineering-reviews/ST001/R18A_FIX/evidence/R18A_FIX_REVIEW.FCStd"
+  },
+  "evidence": {
+    "r18_commit": "f6d732ecf589eda71853d0c3f54d7ae65bcdbed2",
+    "r18_native_github_blob": "b3f2c4d824d35b3adc5314bac44770a40675f0fe",
+    "r18_generator": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/model.py",
+    "r18_artifacts": {
+      "native_snapshot": {
+        "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/evidence/R18A_FIX_REVIEW.FCStd",
+        "sha256": "2693fd695f0ee91bf0fbc8b17c9fca725b6e93019bc80025feb2f7fc3364b8a9"
+      },
+      "layer_catalog": {
+        "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/evidence/LAYERS.csv",
+        "sha256": "76ac49d7a8304e212362b9c6563e776f3539520473654c721d2aa089a11aaf78"
+      },
+      "interface_catalog": {
+        "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/evidence/INTERFACES.csv",
+        "sha256": "26efab487e3679d2204e33b7cd1ef40b44e45306f16445c9fa64c5fd17b9c6c0"
+      },
+      "bom": {
+        "url": "https://github.com/mataniar0/assembl-lab-engineering/blob/f6d732ecf589eda71853d0c3f54d7ae65bcdbed2/engineering-reviews/ST001/R18A_FIX/evidence/BOM.csv",
+        "sha256": "13a254dafe6a3d0de504eb6b6533d41cbdc21b1f18678ac083eea2062dc7efdd"
+      }
+    },
+    "r21_report": "https://github.com/mataniar0/assembl-lab-engineering/blob/b8bfe123f2a77c628f2730af3a9a1c08ed2e6843/engineering-reviews/ST001/R21_VISUAL/QA.json",
+    "r21_reported_active_meshes": 80,
+    "r30_glb_reported_sha256": "fd30d431a07994b09f5b8aab76ad4b78136e7d2ba90b85e35abfbd7e51e03d5f",
+    "r30_glb_current_access": "BLOCKED",
+    "r30_native_brep": null,
+    "r33_public_summary": "https://github.com/mataniar0/assembl-lab-engineering/issues/129#issuecomment-7184936852",
+    "r33_local_qa_json_current_access": "BLOCKED"
+  },
+  "comparison_matrix": [
+    {
+      "criterion": "display layers",
+      "r30": 72,
+      "r18": 104,
+      "status": "FAIL",
+      "detail": "Counts differ; R18 also has 88 layers after excluding proxies."
+    },
+    {
+      "criterion": "EB",
+      "r30": "Required by #129",
+      "r18": "4 perimeter review rows",
+      "status": "PARTIAL",
+      "detail": "R30-to-R18 object mapping unavailable."
+    },
+    {
+      "criterion": "A01/A02",
+      "r30": "Families cited by R32 report summary",
+      "r18": "16 layers per family",
+      "status": "PARTIAL",
+      "detail": "R30 family counts and membership unavailable."
+    },
+    {
+      "criterion": "upper rails",
+      "r30": "B21",
+      "r18": "B01, 4 layers",
+      "status": "FAIL",
+      "detail": "Identifier mismatch; no source-backed equivalence."
+    },
+    {
+      "criterion": "C01",
+      "r30": "Required by #129",
+      "r18": "16 layers",
+      "status": "PARTIAL",
+      "detail": "R30 family count and member mapping unavailable."
+    },
+    {
+      "criterion": "rail interface rows",
+      "r30": "16 reported",
+      "r18": "16 historical upper/lower end-face rows",
+      "status": "PARTIAL",
+      "detail": "Same count; per-row equivalence unproven."
+    },
+    {
+      "criterion": "normalized envelope",
+      "r30": null,
+      "r18": "422.055067 × 422.055067 × 400.000000 mm; no proxies",
+      "status": "BLOCKED",
+      "detail": "R30 envelope and normalization transform unavailable."
+    }
+  ],
+  "r30_interface_count_reported": 16,
+  "r30_interface_slots": [
+    {
+      "register_row": "01",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "02",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "03",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "04",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "05",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "06",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "07",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "08",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "09",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "10",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "11",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "12",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "13",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "14",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "15",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    },
+    {
+      "register_row": "16",
+      "r30_source_interface_id": null,
+      "individual_representation_status": "BLOCKED",
+      "exact_verification_status": "BLOCKED",
+      "exact_geometric_test_run": false,
+      "blocker": "R30 interface identifiers and native CAD-to-display mapping unavailable"
+    }
+  ],
+  "historical_r18_readback": {
+    "freecad_version": "1.0.0",
+    "occt_version": "7.8.1",
+    "python_version": "3.13.5",
+    "status_counts": {
+      "PASS": 104
+    },
+    "roles": {
+      "REVIEW_GEOMETRY": 88,
+      "PROXY_ONLY": 16
+    },
+    "layers_per_family": {
+      "A01": 16,
+      "A02": 16,
+      "A03": 12,
+      "A04": 8,
+      "B01": 4,
+      "C01": 16,
+      "E01": 16,
+      "F01": 16
+    },
+    "non_proxy_extents_xyz_mm": [
+      422.0550671275017,
+      422.0550671275017,
+      400.0
+    ],
+    "max_volume_delta_mm3_vs_historical_catalog": 4.806715878657997e-07,
+    "layers": [
+      {
+        "id": "A01_LEG1_NEG_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.58470356836915e-08
+      },
+      {
+        "id": "A01_LEG1_NEG_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.641456037759781e-08
+      },
+      {
+        "id": "A01_LEG1_POS_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.607986632734537e-08
+      },
+      {
+        "id": "A01_LEG1_POS_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.586158759891987e-08
+      },
+      {
+        "id": "A01_LEG2_NEG_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.58470356836915e-08
+      },
+      {
+        "id": "A01_LEG2_NEG_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.641456037759781e-08
+      },
+      {
+        "id": "A01_LEG2_POS_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.607986632734537e-08
+      },
+      {
+        "id": "A01_LEG2_POS_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.586158759891987e-08
+      },
+      {
+        "id": "A01_LEG3_NEG_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.58470356836915e-08
+      },
+      {
+        "id": "A01_LEG3_NEG_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.641456037759781e-08
+      },
+      {
+        "id": "A01_LEG3_POS_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.607986632734537e-08
+      },
+      {
+        "id": "A01_LEG3_POS_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.586158759891987e-08
+      },
+      {
+        "id": "A01_LEG4_NEG_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.58470356836915e-08
+      },
+      {
+        "id": "A01_LEG4_NEG_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.641456037759781e-08
+      },
+      {
+        "id": "A01_LEG4_POS_P1",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.607986632734537e-08
+      },
+      {
+        "id": "A01_LEG4_POS_P2",
+        "family": "A01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.586158759891987e-08
+      },
+      {
+        "id": "A02_LEG1_NEG_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2147938832640648e-07
+      },
+      {
+        "id": "A02_LEG1_NEG_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2097734725102782e-07
+      },
+      {
+        "id": "A02_LEG1_POS_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2134842108935118e-07
+      },
+      {
+        "id": "A02_LEG1_POS_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.208973117172718e-07
+      },
+      {
+        "id": "A02_LEG2_NEG_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2147938832640648e-07
+      },
+      {
+        "id": "A02_LEG2_NEG_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2097734725102782e-07
+      },
+      {
+        "id": "A02_LEG2_POS_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2134842108935118e-07
+      },
+      {
+        "id": "A02_LEG2_POS_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.208973117172718e-07
+      },
+      {
+        "id": "A02_LEG3_NEG_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2147938832640648e-07
+      },
+      {
+        "id": "A02_LEG3_NEG_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2097734725102782e-07
+      },
+      {
+        "id": "A02_LEG3_POS_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2134842108935118e-07
+      },
+      {
+        "id": "A02_LEG3_POS_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.208973117172718e-07
+      },
+      {
+        "id": "A02_LEG4_NEG_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2147938832640648e-07
+      },
+      {
+        "id": "A02_LEG4_NEG_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2097734725102782e-07
+      },
+      {
+        "id": "A02_LEG4_POS_P1",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.2134842108935118e-07
+      },
+      {
+        "id": "A02_LEG4_POS_P2",
+        "family": "A02",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.208973117172718e-07
+      },
+      {
+        "id": "A03_LEG1_HIGH_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758603608934209e-07
+      },
+      {
+        "id": "A03_LEG1_LOW_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7577668738085777e-07
+      },
+      {
+        "id": "A03_LEG1_MID_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758194336318411e-07
+      },
+      {
+        "id": "A03_LEG2_HIGH_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758603608934209e-07
+      },
+      {
+        "id": "A03_LEG2_LOW_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7577668738085777e-07
+      },
+      {
+        "id": "A03_LEG2_MID_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758194336318411e-07
+      },
+      {
+        "id": "A03_LEG3_HIGH_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758603608934209e-07
+      },
+      {
+        "id": "A03_LEG3_LOW_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7577668738085777e-07
+      },
+      {
+        "id": "A03_LEG3_MID_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758194336318411e-07
+      },
+      {
+        "id": "A03_LEG4_HIGH_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758603608934209e-07
+      },
+      {
+        "id": "A03_LEG4_LOW_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7577668738085777e-07
+      },
+      {
+        "id": "A03_LEG4_MID_P1",
+        "family": "A03",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.758194336318411e-07
+      },
+      {
+        "id": "A04_LEG1_P1",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.757985152537003e-07
+      },
+      {
+        "id": "A04_LEG1_P2",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7579760575899854e-07
+      },
+      {
+        "id": "A04_LEG2_P1",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.757985152537003e-07
+      },
+      {
+        "id": "A04_LEG2_P2",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7579760575899854e-07
+      },
+      {
+        "id": "A04_LEG3_P1",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.757985152537003e-07
+      },
+      {
+        "id": "A04_LEG3_P2",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7579760575899854e-07
+      },
+      {
+        "id": "A04_LEG4_P1",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.757985152537003e-07
+      },
+      {
+        "id": "A04_LEG4_P2",
+        "family": "A04",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.7579760575899854e-07
+      },
+      {
+        "id": "B01_SIDE1_1_P1",
+        "family": "B01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.806715878657997e-07
+      },
+      {
+        "id": "B01_SIDE2_1_P1",
+        "family": "B01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.806715878657997e-07
+      },
+      {
+        "id": "B01_SIDE3_1_P1",
+        "family": "B01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.806715878657997e-07
+      },
+      {
+        "id": "B01_SIDE4_1_P1",
+        "family": "B01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.806715878657997e-07
+      },
+      {
+        "id": "C01_SIDE1_1_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE1_1_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE1_2_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE1_2_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5927798813208938e-07
+      },
+      {
+        "id": "C01_SIDE2_1_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE2_1_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE2_2_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE2_2_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5927798813208938e-07
+      },
+      {
+        "id": "C01_SIDE3_1_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE3_1_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE3_2_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE3_2_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5927798813208938e-07
+      },
+      {
+        "id": "C01_SIDE4_1_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE4_1_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE4_2_P1",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5929254004731774e-07
+      },
+      {
+        "id": "C01_SIDE4_2_P2",
+        "family": "C01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.5927798813208938e-07
+      },
+      {
+        "id": "E01_SIDE1_END1_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE1_END1_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.10216671298258e-07
+      },
+      {
+        "id": "E01_SIDE1_END2_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE1_END2_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102175807929598e-07
+      },
+      {
+        "id": "E01_SIDE2_END1_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE2_END1_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.10216671298258e-07
+      },
+      {
+        "id": "E01_SIDE2_END2_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE2_END2_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102175807929598e-07
+      },
+      {
+        "id": "E01_SIDE3_END1_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE3_END1_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.10216671298258e-07
+      },
+      {
+        "id": "E01_SIDE3_END2_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE3_END2_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102175807929598e-07
+      },
+      {
+        "id": "E01_SIDE4_END1_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE4_END1_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.10216671298258e-07
+      },
+      {
+        "id": "E01_SIDE4_END2_P1",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102139428141527e-07
+      },
+      {
+        "id": "E01_SIDE4_END2_P2",
+        "family": "E01",
+        "role": "REVIEW_GEOMETRY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 4.102175807929598e-07
+      },
+      {
+        "id": "F01_SIDE1_END1_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.7053025658242404e-13
+      },
+      {
+        "id": "F01_SIDE1_END1_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE1_END2_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE1_END2_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.8421709430404007e-13
+      },
+      {
+        "id": "F01_SIDE2_END1_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.7053025658242404e-13
+      },
+      {
+        "id": "F01_SIDE2_END1_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE2_END2_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE2_END2_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.8421709430404007e-13
+      },
+      {
+        "id": "F01_SIDE3_END1_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.7053025658242404e-13
+      },
+      {
+        "id": "F01_SIDE3_END1_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE3_END2_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE3_END2_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.8421709430404007e-13
+      },
+      {
+        "id": "F01_SIDE4_END1_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 1.7053025658242404e-13
+      },
+      {
+        "id": "F01_SIDE4_END1_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE4_END2_P1",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.2737367544323206e-13
+      },
+      {
+        "id": "F01_SIDE4_END2_P2",
+        "family": "F01",
+        "role": "PROXY_ONLY",
+        "status": "PASS",
+        "single_solid": true,
+        "closed": true,
+        "valid": true,
+        "positive_volume": true,
+        "volume_delta_mm3": 2.8421709430404007e-13
+      }
+    ],
+    "historical_rail_interface_evidence": [
+      {
+        "id": "upper-1-leg-1",
+        "members": "B01_SIDE1_1",
+        "counterpart": "LEG1",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-1-leg-2",
+        "members": "B01_SIDE1_1",
+        "counterpart": "LEG2",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-1-leg-1",
+        "members": "C01_SIDE1_1/C01_SIDE1_2",
+        "counterpart": "LEG1",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-1-leg-2",
+        "members": "C01_SIDE1_1/C01_SIDE1_2",
+        "counterpart": "LEG2",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-2-leg-2",
+        "members": "B01_SIDE2_1",
+        "counterpart": "LEG2",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-2-leg-3",
+        "members": "B01_SIDE2_1",
+        "counterpart": "LEG3",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-2-leg-2",
+        "members": "C01_SIDE2_1/C01_SIDE2_2",
+        "counterpart": "LEG2",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-2-leg-3",
+        "members": "C01_SIDE2_1/C01_SIDE2_2",
+        "counterpart": "LEG3",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-3-leg-3",
+        "members": "B01_SIDE3_1",
+        "counterpart": "LEG3",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-3-leg-4",
+        "members": "B01_SIDE3_1",
+        "counterpart": "LEG4",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-3-leg-3",
+        "members": "C01_SIDE3_1/C01_SIDE3_2",
+        "counterpart": "LEG3",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-3-leg-4",
+        "members": "C01_SIDE3_1/C01_SIDE3_2",
+        "counterpart": "LEG4",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-4-leg-4",
+        "members": "B01_SIDE4_1",
+        "counterpart": "LEG4",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "upper-4-leg-1",
+        "members": "B01_SIDE4_1",
+        "counterpart": "LEG1",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-4-leg-4",
+        "members": "C01_SIDE4_1/C01_SIDE4_2",
+        "counterpart": "LEG4",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      },
+      {
+        "id": "lower-4-leg-1",
+        "members": "C01_SIDE4_1/C01_SIDE4_2",
+        "counterpart": "LEG1",
+        "nominal_status": "PASS",
+        "design_status": "BLOCKED"
+      }
+    ]
+  },
+  "historical_readback_method": "Native FCStd opened in FreeCAD without recomputing or changing the document. Each named Part::Feature was checked with OCCT Shape.Solids, isClosed(), isValid() and Volume, compared to the pinned LAYERS.csv. The bounding box is the union of non-proxy solid bounds. No pair booleans, BOP check or sweep were run.",
+  "r33_regression": {
+    "status": "PASS",
+    "scope": "Reported result traceability only; no geometry rerun and no current access to the original R30–R33 files.",
+    "reported_static_status": "PASS_SAMPLED_STATIC_ONLY",
+    "reported_meshes_pass": 72,
+    "reported_unique_pairs": 2556,
+    "reported_sample_comparisons": 28756,
+    "reported_overlaps_above_sample_threshold": 0,
+    "reported_interface_representation": 16,
+    "independent_exact_match": "BLOCKED",
+    "r30_brep_test": "NOT_RUN",
+    "full_assembly_sequence": "NOT_RUN"
+  },
+  "task_status": {
+    "R34-01": "PARTIAL",
+    "R34-02": "PARTIAL",
+    "R34-03": "PARTIAL",
+    "R34-04": "PARTIAL",
+    "R34-05": "PASS"
+  },
+  "counts": {
+    "historical_layer_topology_cases_pass": 104,
+    "historical_layer_topology_cases_fail": 0,
+    "historical_bom_id_match_checks_pass": 1,
+    "historical_envelope_measurements": 1,
+    "historical_interface_records_reviewed": 16,
+    "exact_r30_interface_rows_blocked": 16,
+    "r30_geometric_tests_run": 0,
+    "r33_geometric_tests_rerun": 0,
+    "documentation_correction_cycles": 0,
+    "geometry_correction_cycles": 0
+  },
+  "gates": {
+    "G0": "BLOCKED",
+    "G1": "BLOCKED",
+    "G2": "BLOCKED",
+    "G3": "BLOCKED_OUT_OF_SCOPE",
+    "G4": "BLOCKED_OUT_OF_SCOPE"
+  },
+  "unblock_inputs": [
+    "Revision-pinned original R30 CAD file or parameterized CAD source with its environment and provenance.",
+    "R30 source/export manifest linking the source revision to the reported GLB SHA-256, including layer and family mappings and the normalization transform.",
+    "R30–R33 interface-level evidence with all 16 original identifiers, members, method and thresholds."
+  ]
+}
