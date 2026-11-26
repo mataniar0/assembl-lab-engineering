@@ -1,0 +1,11 @@
+{
+  "revision": "MEB-040",
+  "candidate": "MEB-037-R1 B",
+  "owner_statement": "יש אישור והכל מאומת",
+  "owner_status": "APPROVAL_AND_VERIFICATION_REPORTED",
+  "independent_evidence": "NOT_PROVIDED",
+  "scope": "General owner report; no specific inspection records, professional sign-off or layout evidence supplied in this message. Prior measured QA results unchanged.",
+  "production_files": "NOT_GENERATED",
+  "release_gate": "PENDING_DOCUMENTED_PROFESSIONAL_RELEASE",
+  "geometry_changes": 0
+}
