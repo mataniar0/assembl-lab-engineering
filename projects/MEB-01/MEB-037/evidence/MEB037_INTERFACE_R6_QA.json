@@ -1,0 +1,858 @@
+{
+  "source_svg_git_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "interfaces": {
+    "original_end_mortise1_mortise2_bore_min_exterior_ligaments_mm": {
+      "LID_END_L": [
+        2.730095475533769,
+        2.7300954755337696,
+        6.299156660411218
+      ],
+      "LID_END_R": [
+        2.730095475533769,
+        2.7300954755337696,
+        6.299156660411218
+      ]
+    },
+    "dimensional_dispositions": {
+      "D01": {
+        "MEB033_reference_cad_mm": 75.0,
+        "MEB035_R2_mm": 68,
+        "R2_delta_mm": -7.0,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D02": {
+        "MEB033_reference_cad_mm": 32.0,
+        "MEB035_R2_mm": 26,
+        "R2_delta_mm": -6.0,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D03": {
+        "MEB033_reference_cad_mm": 45.0,
+        "MEB035_R2_mm": 58,
+        "R2_delta_mm": 13.0,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D04": {
+        "MEB033_reference_cad_mm": 16.5,
+        "MEB035_R2_mm": -1,
+        "R2_delta_mm": -17.5,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D05": {
+        "MEB033_reference_cad_mm": 16.5,
+        "MEB035_R2_mm": -1,
+        "R2_delta_mm": -17.5,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D06": {
+        "MEB033_reference_cad_mm": 4.5,
+        "MEB035_R2_mm": 4.3,
+        "R2_delta_mm": -0.2,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D07": {
+        "MEB033_reference_cad_mm": 6.5,
+        "MEB035_R2_mm": 7.3,
+        "R2_delta_mm": 0.8,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D08": {
+        "MEB033_reference_cad_mm": 23.43478261,
+        "MEB035_R2_mm": 21.429271,
+        "R2_delta_mm": -2.00551161,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D09": {
+        "MEB033_reference_cad_mm": 322.4,
+        "MEB035_R2_mm": 324,
+        "R2_delta_mm": 1.6,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "D10": {
+        "MEB033_reference_cad_mm": 11.84313111,
+        "MEB035_R2_mm": 11,
+        "R2_delta_mm": -0.84313111,
+        "status": "R2_REJECTED_REFERENCE_DIMENSION_PRESERVED"
+      },
+      "hinge_height": {
+        "MEB033_reference_cad_mm": 2.5,
+        "MEB035_R2_mm": 2.5,
+        "R2_delta_mm": 0.0,
+        "status": "MATCH"
+      },
+      "hinge_diameter": {
+        "MEB033_reference_cad_mm": 8.400000000000006,
+        "MEB035_R2_mm": 8.4,
+        "R2_delta_mm": -0.0,
+        "status": "MATCH"
+      }
+    },
+    "both_long_rails": {
+      "LID_FRONT_RAIL": {
+        "tenon_section_mm": [
+          4.0,
+          6
+        ],
+        "nominal_per_side_clearance_mm": [
+          0.25,
+          0.25
+        ],
+        "top_pockets_flat_axial_mm": [
+          [
+            104.0,
+            108.4
+          ],
+          [
+            214.0,
+            218.4
+          ]
+        ]
+      },
+      "LID_BACK_RAIL": {
+        "tenon_section_mm": [
+          4.0,
+          6
+        ],
+        "nominal_per_side_clearance_mm": [
+          0.25,
+          0.25
+        ],
+        "top_pockets_flat_axial_mm": [
+          [
+            104.0,
+            108.4
+          ],
+          [
+            214.0,
+            218.4
+          ]
+        ]
+      }
+    },
+    "both_cross_ribs": {
+      "nominal_axial_total_clearance_in_rail_pocket_mm": 0.4,
+      "nominal_total_clearance_across_rail_mm": 0.5,
+      "contact_order": "NOT_RUN"
+    },
+    "hinge": {
+      "reference_axis_YZ_mm": [
+        75.0,
+        75.0
+      ],
+      "tip_cross_section_mm": [
+        4.0,
+        6.2
+      ],
+      "nominal_corner_clearance_in_circular_bore_mm": 0.5108266508606594,
+      "retention_and_path": "NOT_RUN"
+    }
+  },
+  "skin": {
+    "original_continuous_axial_edge_spans_mm": [
+      308.0,
+      324.0
+    ],
+    "R2_straight_baseline_mm": 316,
+    "R2_edge_shift_along_axial_coordinate_from_left_end_at_shoulders_and_center_mm": [
+      -4,
+      4
+    ],
+    "chosen_rear_relief_start_station_mm": 85.7838244437109,
+    "measured_contact_termination_neutral_station_mm": 84.77646323552999,
+    "unsupported_continuation_of_arc_on_end_mm": 14.394391098180918,
+    "historical_skin_ear_area_has_no_verified_continuous_end_contact": true,
+    "source_discrete_tabs_per_end": 0,
+    "verified_new_connections": 0,
+    "site_v3_usage": "Visual context only. Source-curve fit and CAD placements do not use mesh coordinates."
+  },
+  "R6": {
+    "original": {
+      "line_count": 88,
+      "bridges_matching_original_station_and_end_coordinates": 66,
+      "cut_end_changes_row_and_column_candidate_vs_original": [],
+      "tab_intersections": 12,
+      "minimum_tab_clearance_mm": 0.0
+    },
+    "R1": {
+      "line_count": 88,
+      "bridges_matching_original_station_and_end_coordinates": 66,
+      "cut_end_changes_row_and_column_candidate_vs_original": [
+        [
+          5,
+          1,
+          [
+            8.0,
+            23.58542717,
+            18,
+            23.58542717
+          ],
+          [
+            -0.35,
+            23.58542717,
+            18,
+            23.58542717
+          ]
+        ],
+        [
+          5,
+          4,
+          [
+            306,
+            23.58542717,
+            316.0,
+            23.58542717
+          ],
+          [
+            306,
+            23.58542717,
+            324.35,
+            23.58542717
+          ]
+        ],
+        [
+          6,
+          1,
+          [
+            8.0,
+            27.58542717,
+            22,
+            27.58542717
+          ],
+          [
+            -0.35,
+            27.58542717,
+            22,
+            27.58542717
+          ]
+        ],
+        [
+          6,
+          4,
+          [
+            302,
+            27.58542717,
+            316.0,
+            27.58542717
+          ],
+          [
+            302,
+            27.58542717,
+            324.35,
+            27.58542717
+          ]
+        ],
+        [
+          11,
+          1,
+          [
+            8.0,
+            47.58542717,
+            18,
+            47.58542717
+          ],
+          [
+            -0.35,
+            47.58542717,
+            18,
+            47.58542717
+          ]
+        ],
+        [
+          11,
+          4,
+          [
+            306,
+            47.58542717,
+            316.0,
+            47.58542717
+          ],
+          [
+            306,
+            47.58542717,
+            324.35,
+            47.58542717
+          ]
+        ],
+        [
+          12,
+          1,
+          [
+            8.0,
+            51.58542717,
+            22,
+            51.58542717
+          ],
+          [
+            -0.35,
+            51.58542717,
+            22,
+            51.58542717
+          ]
+        ],
+        [
+          12,
+          4,
+          [
+            302,
+            51.58542717,
+            316.0,
+            51.58542717
+          ],
+          [
+            302,
+            51.58542717,
+            324.35,
+            51.58542717
+          ]
+        ],
+        [
+          17,
+          1,
+          [
+            8.0,
+            71.58542717,
+            18,
+            71.58542717
+          ],
+          [
+            -0.35,
+            71.58542717,
+            18,
+            71.58542717
+          ]
+        ],
+        [
+          17,
+          4,
+          [
+            306,
+            71.58542717,
+            316.0,
+            71.58542717
+          ],
+          [
+            306,
+            71.58542717,
+            324.35,
+            71.58542717
+          ]
+        ],
+        [
+          18,
+          1,
+          [
+            8.0,
+            75.58542717,
+            22,
+            75.58542717
+          ],
+          [
+            -0.35,
+            75.58542717,
+            22,
+            75.58542717
+          ]
+        ],
+        [
+          18,
+          4,
+          [
+            302,
+            75.58542717,
+            316.0,
+            75.58542717
+          ],
+          [
+            302,
+            75.58542717,
+            324.35,
+            75.58542717
+          ]
+        ]
+      ],
+      "tab_intersections": 0,
+      "minimum_tab_clearance_mm": 0.58542717
+    },
+    "R2": {
+      "line_count": 88,
+      "bridges_matching_original_station_and_end_coordinates": 66,
+      "cut_end_changes_row_and_column_candidate_vs_original": [
+        [
+          1,
+          1,
+          [
+            8.0,
+            7.58542717,
+            18,
+            7.58542717
+          ],
+          [
+            -0.35,
+            7.58542717,
+            18,
+            7.58542717
+          ]
+        ],
+        [
+          1,
+          4,
+          [
+            306,
+            7.58542717,
+            316.0,
+            7.58542717
+          ],
+          [
+            306,
+            7.58542717,
+            324.35,
+            7.58542717
+          ]
+        ],
+        [
+          5,
+          1,
+          [
+            8.0,
+            23.58542717,
+            18,
+            23.58542717
+          ],
+          [
+            -0.35,
+            23.58542717,
+            18,
+            23.58542717
+          ]
+        ],
+        [
+          5,
+          4,
+          [
+            306,
+            23.58542717,
+            316.0,
+            23.58542717
+          ],
+          [
+            306,
+            23.58542717,
+            324.35,
+            23.58542717
+          ]
+        ],
+        [
+          6,
+          1,
+          [
+            8.0,
+            27.58542717,
+            22,
+            27.58542717
+          ],
+          [
+            -0.35,
+            27.58542717,
+            22,
+            27.58542717
+          ]
+        ],
+        [
+          6,
+          4,
+          [
+            302,
+            27.58542717,
+            316.0,
+            27.58542717
+          ],
+          [
+            302,
+            27.58542717,
+            324.35,
+            27.58542717
+          ]
+        ],
+        [
+          7,
+          1,
+          [
+            8.0,
+            31.58542717,
+            18,
+            31.58542717
+          ],
+          [
+            -0.35,
+            31.58542717,
+            18,
+            31.58542717
+          ]
+        ],
+        [
+          7,
+          4,
+          [
+            306,
+            31.58542717,
+            316.0,
+            31.58542717
+          ],
+          [
+            306,
+            31.58542717,
+            324.35,
+            31.58542717
+          ]
+        ],
+        [
+          10,
+          1,
+          [
+            8.0,
+            43.58542717,
+            22,
+            43.58542717
+          ],
+          [
+            -0.35,
+            43.58542717,
+            22,
+            43.58542717
+          ]
+        ],
+        [
+          10,
+          4,
+          [
+            302,
+            43.58542717,
+            316.0,
+            43.58542717
+          ],
+          [
+            302,
+            43.58542717,
+            324.35,
+            43.58542717
+          ]
+        ],
+        [
+          11,
+          1,
+          [
+            8.0,
+            47.58542717,
+            18,
+            47.58542717
+          ],
+          [
+            -0.35,
+            47.58542717,
+            18,
+            47.58542717
+          ]
+        ],
+        [
+          11,
+          4,
+          [
+            306,
+            47.58542717,
+            316.0,
+            47.58542717
+          ],
+          [
+            306,
+            47.58542717,
+            324.35,
+            47.58542717
+          ]
+        ],
+        [
+          12,
+          1,
+          [
+            8.0,
+            51.58542717,
+            22,
+            51.58542717
+          ],
+          [
+            -0.35,
+            51.58542717,
+            22,
+            51.58542717
+          ]
+        ],
+        [
+          12,
+          4,
+          [
+            302,
+            51.58542717,
+            316.0,
+            51.58542717
+          ],
+          [
+            302,
+            51.58542717,
+            324.35,
+            51.58542717
+          ]
+        ],
+        [
+          13,
+          1,
+          [
+            8.0,
+            55.58542717,
+            18,
+            55.58542717
+          ],
+          [
+            -0.35,
+            55.58542717,
+            18,
+            55.58542717
+          ]
+        ],
+        [
+          13,
+          4,
+          [
+            306,
+            55.58542717,
+            316.0,
+            55.58542717
+          ],
+          [
+            306,
+            55.58542717,
+            324.35,
+            55.58542717
+          ]
+        ],
+        [
+          16,
+          1,
+          [
+            8.0,
+            67.58542717,
+            22,
+            67.58542717
+          ],
+          [
+            -0.35,
+            67.58542717,
+            22,
+            67.58542717
+          ]
+        ],
+        [
+          16,
+          4,
+          [
+            302,
+            67.58542717,
+            316.0,
+            67.58542717
+          ],
+          [
+            302,
+            67.58542717,
+            324.35,
+            67.58542717
+          ]
+        ],
+        [
+          17,
+          1,
+          [
+            8.0,
+            71.58542717,
+            18,
+            71.58542717
+          ],
+          [
+            -0.35,
+            71.58542717,
+            18,
+            71.58542717
+          ]
+        ],
+        [
+          17,
+          4,
+          [
+            306,
+            71.58542717,
+            316.0,
+            71.58542717
+          ],
+          [
+            306,
+            71.58542717,
+            324.35,
+            71.58542717
+          ]
+        ],
+        [
+          18,
+          1,
+          [
+            8.0,
+            75.58542717,
+            22,
+            75.58542717
+          ],
+          [
+            -0.35,
+            75.58542717,
+            22,
+            75.58542717
+          ]
+        ],
+        [
+          18,
+          4,
+          [
+            302,
+            75.58542717,
+            316.0,
+            75.58542717
+          ],
+          [
+            302,
+            75.58542717,
+            324.35,
+            75.58542717
+          ]
+        ]
+      ],
+      "tab_intersections": 0,
+      "minimum_tab_clearance_mm": 3.4572864134277275
+    }
+  },
+  "orientation_regression": {
+    "floor": [
+      {
+        "reflect_x": false,
+        "reflect_y": false,
+        "intersection_mm3": {
+          "BODY_END_L": 0,
+          "BODY_END_R": 0,
+          "BODY_FRONT": 0,
+          "BODY_BACK": 0
+        }
+      },
+      {
+        "reflect_x": false,
+        "reflect_y": true,
+        "intersection_mm3": {
+          "BODY_END_L": 144.0,
+          "BODY_END_R": 144.00000000000307,
+          "BODY_FRONT": 0,
+          "BODY_BACK": 0
+        }
+      },
+      {
+        "reflect_x": true,
+        "reflect_y": false,
+        "intersection_mm3": {
+          "BODY_END_L": 0,
+          "BODY_END_R": 0,
+          "BODY_FRONT": 1599.9999999999998,
+          "BODY_BACK": 1599.9999999999977
+        }
+      },
+      {
+        "reflect_x": true,
+        "reflect_y": true,
+        "intersection_mm3": {
+          "BODY_END_L": 144.0,
+          "BODY_END_R": 144.00000000000307,
+          "BODY_FRONT": 1599.9999999999998,
+          "BODY_BACK": 1599.999999999998
+        }
+      }
+    ],
+    "skin": {
+      "long_relief_front": {
+        "LID_END_L": 120.94608087404451,
+        "CAPTIVE_PIN_L": 36.18983456782928,
+        "LID_END_R": 120.94608082877912,
+        "CAPTIVE_PIN_R": 36.18983456782772
+      },
+      "long_relief_rear": {
+        "LID_END_L": 6.931355218374824,
+        "CAPTIVE_PIN_L": 0,
+        "LID_END_R": 6.931355181186144,
+        "CAPTIVE_PIN_R": 0
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "fault": "shifted_tab",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "incorrect_mortise",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "missing_part",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "hinge_offset",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "incorrect_rail",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "slit_crosses_tab",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "modified_bridge",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "lid_body_interference",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "sheet_overlap",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    },
+    {
+      "fault": "format_mismatch",
+      "baseline_pass": true,
+      "fault_detected": true,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Nominal comparison and targeted detector controls. No accepted revised candidate or physical results."
+}

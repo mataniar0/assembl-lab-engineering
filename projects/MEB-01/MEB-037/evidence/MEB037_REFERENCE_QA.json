@@ -1,0 +1,142 @@
+{
+  "status": "DESIGN_ONLY_SOURCE_RECONSTRUCTION",
+  "source_svg_git_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "units": "mm",
+  "kernel": {
+    "CadQuery": "2.7.0",
+    "OCP": "7.8.1.1.post1",
+    "fuzzy_boolean_mm": 1e-07,
+    "volume_threshold_mm3": 0.0001,
+    "contact_threshold_mm": 1e-05
+  },
+  "pose_evidence": {
+    "BODY_FLOOR": "Registered floor teeth to four bottom edges by checking the four axis-preserving orientations.",
+    "BODY_FRONT": "Registered bottom and corner fingers, short wall at hinge side.",
+    "BODY_BACK": "Registered bottom and corner fingers, short wall at hinge side.",
+    "BODY_END_L": "Registered corner and floor fingers, rear recess faces positive Y.",
+    "LID_END_L": "Matched bore to body recess; axial slab from rail tenon shoulders.",
+    "FASCIA_HIDDEN_BACKER_L": "Square bottom on Z=0 and bore on hinge axis; outside face stack hypothesized.",
+    "OUTER_FASCIA_L": "Square bottom on Z=0 and bore on hinge axis; outside face stack hypothesized.",
+    "CAPTIVE_PIN_L": "4 mm shoulders matched to the 2 fascia layers and narrower tip to bore.",
+    "BODY_END_R": "Registered corner and floor fingers, rear recess faces positive Y.",
+    "LID_END_R": "Matched bore to body recess; axial slab from rail tenon shoulders.",
+    "FASCIA_HIDDEN_BACKER_R": "Square bottom on Z=0 and bore on hinge axis; outside face stack hypothesized.",
+    "OUTER_FASCIA_R": "Square bottom on Z=0 and bore on hinge axis; outside face stack hypothesized.",
+    "CAPTIVE_PIN_R": "4 mm shoulders matched to the 2 fascia layers and narrower tip to bore.",
+    "LID_FRONT_RAIL": "End mortise Y/Z centers; centered original rail length; tenon shoulders at X=4/320.",
+    "LID_BACK_RAIL": "End mortise Y/Z centers; centered original rail length; tenon shoulders at X=4/320.",
+    "LID_CROSS_RIB_1": "Rail pockets set the rib X; matching 13 mm notch spacing sets Y; floors set Z.",
+    "LID_CROSS_RIB_2": "Rail pockets set the rib X; matching 13 mm notch spacing sets Y; floors set Z.",
+    "INTERNAL_RAIL_SADDLE_L": "Hypothesis: lower two-slot saddle mates with the end pockets of both rails, moves with lid.",
+    "INTERNAL_RAIL_SADDLE_R": "Hypothesis: lower two-slot saddle mates with the end pockets of both rails, moves with lid.",
+    "LID_SKIN_RADIAL_4MM": "Historical 308/324/308 spans; long relief towards rear identified by testing both orientations; rigid uncut material envelope."
+  },
+  "contact_curve": {
+    "radius_inner_mm": 43.34239130654945,
+    "center_depth_mm": 38.5,
+    "center_height_mm": 52.5923913026939,
+    "half_angle_rad": 1.0935776816802585,
+    "radius_neutral_mm": 45.34239130654945,
+    "developed_mm": 99.1708543337109,
+    "inner_arc_mm": 94.79654360698987,
+    "outer_arc_mm": 103.54516506043194,
+    "max_radial_fit_residual_mm": 5.465814467697783e-09
+  },
+  "skin_sections_station_to_axial_mm": [
+    [
+      0.0,
+      13.38702989,
+      8.0,
+      316.0
+    ],
+    [
+      13.38702989,
+      97.07856594,
+      0.0,
+      324.0
+    ],
+    [
+      97.07856594,
+      99.17085434,
+      8.0,
+      316.0
+    ]
+  ],
+  "parts": 20,
+  "pairs": 190,
+  "pair_states": {
+    "NO_CONTACT": 146,
+    "INTENDED_NOMINAL_JOINT": 16,
+    "CONTACT_UNASSESSED": 26,
+    "UNAUTHORIZED_INTERFERENCE": 2
+  },
+  "closed_pose_interferences": [
+    [
+      "LID_END_L",
+      "LID_SKIN_RADIAL_4MM",
+      "UNAUTHORIZED_INTERFERENCE",
+      6.9313552183744624
+    ],
+    [
+      "LID_END_R",
+      "LID_SKIN_RADIAL_4MM",
+      "UNAUTHORIZED_INTERFERENCE",
+      6.931355181185841
+    ]
+  ],
+  "closed_positive_intersection_bounds_xyz_mm": {
+    "LID_END_L/LID_SKIN_RADIAL_4MM": [
+      [
+        0.0,
+        4.0,
+        68.8646486225913,
+        71.73454329108426,
+        82.84106646365066,
+        84.97799998219982
+      ]
+    ],
+    "LID_END_R/LID_SKIN_RADIAL_4MM": [
+      [
+        320.0,
+        324.0,
+        68.86464862768551,
+        71.73454328595196,
+        82.84106646365066,
+        84.97799997719864
+      ]
+    ]
+  },
+  "motion_samples": [
+    {
+      "deg": 0,
+      "body_lid_collisions": []
+    },
+    {
+      "deg": 5,
+      "body_lid_collisions": []
+    },
+    {
+      "deg": 15,
+      "body_lid_collisions": []
+    },
+    {
+      "deg": 30,
+      "body_lid_collisions": []
+    },
+    {
+      "deg": 60,
+      "body_lid_collisions": []
+    },
+    {
+      "deg": 90,
+      "body_lid_collisions": []
+    },
+    {
+      "deg": 110,
+      "body_lid_collisions": []
+    }
+  ],
+  "continuous_range": "NOT_RUN",
+  "insertion_paths": "NOT_RUN",
+  "independent_QA": "INDEPENDENT_QA_PENDING"
+}

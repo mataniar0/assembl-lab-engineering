@@ -1,0 +1,27 @@
+part_a,part_b,provisional_role_for_prior_contact,qualification
+BODY_FLOOR,FASCIA_HIDDEN_BACKER_L,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+BODY_FRONT,FASCIA_HIDDEN_BACKER_L,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+BODY_BACK,FASCIA_HIDDEN_BACKER_L,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+BODY_END_L,FASCIA_HIDDEN_BACKER_L,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+FASCIA_HIDDEN_BACKER_L,OUTER_FASCIA_L,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+OUTER_FASCIA_L,CAPTIVE_PIN_L,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; retention not physically verified
+BODY_BACK,LID_END_L,MOVING_FIXED_BOUNDARY,Nominal no positive volume in angular screen; rubbing/axial contact not verified
+LID_END_L,FASCIA_HIDDEN_BACKER_L,MOVING_FIXED_BOUNDARY,Nominal no positive volume in angular screen; axial contact not verified
+LID_END_L,CAPTIVE_PIN_L,MOVING_FIXED_BOUNDARY,Nominal no positive volume in angular screen; friction and retention not verified
+FASCIA_HIDDEN_BACKER_L,LID_SKIN_RADIAL_4MM,MOVING_FIXED_BOUNDARY,Original contact classification only; revised contact area not independently verified
+LID_END_L,INTERNAL_RAIL_SADDLE_L,MOVING_FRAME_SUPPORT,Provisional function; assembly screen clear
+LID_FRONT_RAIL,INTERNAL_RAIL_SADDLE_L,MOVING_FRAME_SUPPORT,Provisional function; assembly screen clear
+LID_BACK_RAIL,INTERNAL_RAIL_SADDLE_L,MOVING_FRAME_SUPPORT,Provisional function; assembly screen clear
+BODY_FLOOR,FASCIA_HIDDEN_BACKER_R,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+BODY_FRONT,FASCIA_HIDDEN_BACKER_R,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+BODY_BACK,FASCIA_HIDDEN_BACKER_R,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+BODY_END_R,FASCIA_HIDDEN_BACKER_R,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+FASCIA_HIDDEN_BACKER_R,OUTER_FASCIA_R,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; bond/contact quality not verified
+OUTER_FASCIA_R,CAPTIVE_PIN_R,FIXED_STACK_NOMINAL_CONTACT,PROVISIONAL_ROLE; retention not physically verified
+BODY_BACK,LID_END_R,MOVING_FIXED_BOUNDARY,Nominal no positive volume in angular screen; rubbing/axial contact not verified
+LID_END_R,FASCIA_HIDDEN_BACKER_R,MOVING_FIXED_BOUNDARY,Nominal no positive volume in angular screen; axial contact not verified
+LID_END_R,CAPTIVE_PIN_R,MOVING_FIXED_BOUNDARY,Nominal no positive volume in angular screen; friction and retention not verified
+FASCIA_HIDDEN_BACKER_R,LID_SKIN_RADIAL_4MM,MOVING_FIXED_BOUNDARY,Original contact classification only; revised contact area not independently verified
+LID_END_R,INTERNAL_RAIL_SADDLE_R,MOVING_FRAME_SUPPORT,Provisional function; assembly screen clear
+LID_FRONT_RAIL,INTERNAL_RAIL_SADDLE_R,MOVING_FRAME_SUPPORT,Provisional function; assembly screen clear
+LID_BACK_RAIL,INTERNAL_RAIL_SADDLE_R,MOVING_FRAME_SUPPORT,Provisional function; assembly screen clear

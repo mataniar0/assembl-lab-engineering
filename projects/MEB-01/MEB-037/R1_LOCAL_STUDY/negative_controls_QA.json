@@ -1,0 +1,77 @@
+{
+  "candidate": "MEB037_R1_B",
+  "status_counts": {
+    "PASS": 8,
+    "FAIL": 0,
+    "NOT_RUN": 2
+  },
+  "cases": [
+    {
+      "case": "shifted_tab",
+      "baseline": 0,
+      "injected": 6.000000000000027,
+      "unit": "mm3",
+      "status": "PASS"
+    },
+    {
+      "case": "incorrect_receiving_region",
+      "baseline": 0,
+      "injected": 7.999999999999904,
+      "unit": "mm3",
+      "status": "PASS"
+    },
+    {
+      "case": "missing_part",
+      "baseline": 0,
+      "injected": 1,
+      "unit": "part_count_error",
+      "status": "PASS"
+    },
+    {
+      "case": "hinge_offset",
+      "baseline": 0,
+      "injected": 9.0401630796468,
+      "unit": "mm3",
+      "status": "PASS"
+    },
+    {
+      "case": "incorrect_rail_placement",
+      "baseline": 0,
+      "injected": 10.37252444000148,
+      "unit": "mm3",
+      "status": "PASS"
+    },
+    {
+      "case": "slit_crosses_tab",
+      "baseline": 0,
+      "injected": 16,
+      "unit": "intersection_count",
+      "status": "PASS"
+    },
+    {
+      "case": "modified_bridge",
+      "baseline": 0,
+      "injected": 1,
+      "unit": "changed_bridge_count",
+      "status": "PASS"
+    },
+    {
+      "case": "lid_body_interference",
+      "baseline": 0.0,
+      "injected": 1077.9985721302291,
+      "unit": "mm3",
+      "status": "PASS"
+    },
+    {
+      "case": "new_layout_overlap",
+      "status": "NOT_RUN",
+      "reason": "No new final nesting generated"
+    },
+    {
+      "case": "new_DXF_SVG_mismatch",
+      "status": "NOT_RUN",
+      "reason": "No new production vector exports generated"
+    }
+  ],
+  "scope": "Targeted detector controls on current CAD/virtual review pattern; no production layout or physical release."
+}

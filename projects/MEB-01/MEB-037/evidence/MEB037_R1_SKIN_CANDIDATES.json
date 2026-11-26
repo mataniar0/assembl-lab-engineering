@@ -1,0 +1,197 @@
+{
+  "status": "CANDIDATE_GEOMETRY_STUDY_ONLY",
+  "source_ref": "d66fce89f05de1b379f1ff4f8e1619b114c4e5f9",
+  "source_svg_sha": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "method": "Independent numerical section-volume estimate on exact 4mm source polygons, original build_reference.py placements, 0.05mm shell station tessellation and Gaussian quadrature. Rigid shell; receiver arch geometry unchanged. No contact/load/insertion or continuous motion validation.",
+  "contact_curve": {
+    "radius_inner_mm": 43.34239130654945,
+    "center_depth_mm": 38.5,
+    "center_height_mm": 52.5923913026939,
+    "half_angle_rad": 1.0935776816802585,
+    "radius_neutral_mm": 45.34239130654945,
+    "developed_mm": 99.1708543337109,
+    "inner_arc_mm": 94.79654360698987,
+    "outer_arc_mm": 103.54516506043194,
+    "max_radial_fit_residual_mm": 5.465814467697783e-9
+  },
+  "verified_original_svg_part_count": 21,
+  "reference_skin_only_pair_count": 19,
+  "result": [
+    {
+      "id": "reference_straight_316",
+      "nominal_envelope_span_mm": 316,
+      "tab_count_per_end": 0,
+      "unsupported_tab_domain": false,
+      "original_r6_lines_crossing_candidate_tab_lands": 0,
+      "skin_vs_19_parts_estimated_intersection_mm3": {
+        "LID_END_L": 0,
+        "BODY_END_L": 0,
+        "FASCIA_HIDDEN_BACKER_L": 0,
+        "OUTER_FASCIA_L": 0,
+        "LID_END_R": 0,
+        "BODY_END_R": 0,
+        "FASCIA_HIDDEN_BACKER_R": 0,
+        "OUTER_FASCIA_R": 0,
+        "LID_CROSS_RIB_1": 0,
+        "LID_CROSS_RIB_2": 0,
+        "INTERNAL_RAIL_SADDLE_L": 0,
+        "INTERNAL_RAIL_SADDLE_R": 0,
+        "CAPTIVE_PIN_L": 4.566984,
+        "CAPTIVE_PIN_R": 4.566984,
+        "BODY_FRONT": 0,
+        "BODY_BACK": 0,
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0,
+        "BODY_FLOOR": 0
+      },
+      "nonzero": [
+        [
+          "CAPTIVE_PIN_L",
+          4.566984
+        ],
+        [
+          "CAPTIVE_PIN_R",
+          4.566984
+        ]
+      ],
+      "receiver_engagement": "NOT_MODELED"
+    },
+    {
+      "id": "clearance_limit_straight",
+      "nominal_envelope_span_mm": 315,
+      "tab_count_per_end": 0,
+      "unsupported_tab_domain": false,
+      "original_r6_lines_crossing_candidate_tab_lands": 0,
+      "skin_vs_19_parts_estimated_intersection_mm3": {
+        "LID_END_L": 0,
+        "BODY_END_L": 0,
+        "FASCIA_HIDDEN_BACKER_L": 0,
+        "OUTER_FASCIA_L": 0,
+        "LID_END_R": 0,
+        "BODY_END_R": 0,
+        "FASCIA_HIDDEN_BACKER_R": 0,
+        "OUTER_FASCIA_R": 0,
+        "LID_CROSS_RIB_1": 0,
+        "LID_CROSS_RIB_2": 0,
+        "INTERNAL_RAIL_SADDLE_L": 0,
+        "INTERNAL_RAIL_SADDLE_R": 0,
+        "CAPTIVE_PIN_L": 0,
+        "CAPTIVE_PIN_R": 0,
+        "BODY_FRONT": 0,
+        "BODY_BACK": 0,
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0,
+        "BODY_FLOOR": 0
+      },
+      "nonzero": [],
+      "receiver_engagement": "NOT_MODELED"
+    },
+    {
+      "id": "clearance_study_straight",
+      "nominal_envelope_span_mm": 314.5,
+      "tab_count_per_end": 0,
+      "unsupported_tab_domain": false,
+      "original_r6_lines_crossing_candidate_tab_lands": 0,
+      "skin_vs_19_parts_estimated_intersection_mm3": {
+        "LID_END_L": 0,
+        "BODY_END_L": 0,
+        "FASCIA_HIDDEN_BACKER_L": 0,
+        "OUTER_FASCIA_L": 0,
+        "LID_END_R": 0,
+        "BODY_END_R": 0,
+        "FASCIA_HIDDEN_BACKER_R": 0,
+        "OUTER_FASCIA_R": 0,
+        "LID_CROSS_RIB_1": 0,
+        "LID_CROSS_RIB_2": 0,
+        "INTERNAL_RAIL_SADDLE_L": 0,
+        "INTERNAL_RAIL_SADDLE_R": 0,
+        "CAPTIVE_PIN_L": 0,
+        "CAPTIVE_PIN_R": 0,
+        "BODY_FRONT": 0,
+        "BODY_BACK": 0,
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0,
+        "BODY_FLOOR": 0
+      },
+      "nonzero": [],
+      "receiver_engagement": "NOT_MODELED"
+    },
+    {
+      "id": "five_tab_full_width_study",
+      "nominal_envelope_span_mm": 314.5,
+      "tab_count_per_end": 5,
+      "unsupported_tab_domain": true,
+      "original_r6_lines_crossing_candidate_tab_lands": 12,
+      "skin_vs_19_parts_estimated_intersection_mm3": {
+        "LID_END_L": 19.898171,
+        "BODY_END_L": 0,
+        "FASCIA_HIDDEN_BACKER_L": 0,
+        "OUTER_FASCIA_L": 0,
+        "LID_END_R": 19.898171,
+        "BODY_END_R": 0,
+        "FASCIA_HIDDEN_BACKER_R": 0,
+        "OUTER_FASCIA_R": 0,
+        "LID_CROSS_RIB_1": 0,
+        "LID_CROSS_RIB_2": 0,
+        "INTERNAL_RAIL_SADDLE_L": 0,
+        "INTERNAL_RAIL_SADDLE_R": 0,
+        "CAPTIVE_PIN_L": 34.252378,
+        "CAPTIVE_PIN_R": 34.252378,
+        "BODY_FRONT": 0,
+        "BODY_BACK": 0,
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0,
+        "BODY_FLOOR": 0
+      },
+      "nonzero": [
+        [
+          "LID_END_L",
+          19.898171
+        ],
+        [
+          "LID_END_R",
+          19.898171
+        ],
+        [
+          "CAPTIVE_PIN_L",
+          34.252378
+        ],
+        [
+          "CAPTIVE_PIN_R",
+          34.252378
+        ]
+      ],
+      "receiver_engagement": "NOT_MODELED"
+    },
+    {
+      "id": "five_tab_supported_arc_study",
+      "nominal_envelope_span_mm": 314.5,
+      "tab_count_per_end": 5,
+      "unsupported_tab_domain": false,
+      "original_r6_lines_crossing_candidate_tab_lands": 16,
+      "skin_vs_19_parts_estimated_intersection_mm3": {
+        "LID_END_L": 0,
+        "BODY_END_L": 0,
+        "FASCIA_HIDDEN_BACKER_L": 0,
+        "OUTER_FASCIA_L": 0,
+        "LID_END_R": 0,
+        "BODY_END_R": 0,
+        "FASCIA_HIDDEN_BACKER_R": 0,
+        "OUTER_FASCIA_R": 0,
+        "LID_CROSS_RIB_1": 0,
+        "LID_CROSS_RIB_2": 0,
+        "INTERNAL_RAIL_SADDLE_L": 0,
+        "INTERNAL_RAIL_SADDLE_R": 0,
+        "CAPTIVE_PIN_L": 0,
+        "CAPTIVE_PIN_R": 0,
+        "BODY_FRONT": 0,
+        "BODY_BACK": 0,
+        "LID_FRONT_RAIL": 0,
+        "LID_BACK_RAIL": 0,
+        "BODY_FLOOR": 0
+      },
+      "nonzero": [],
+      "receiver_engagement": "NOT_MODELED"
+    }
+  ]
+}

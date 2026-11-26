@@ -1,0 +1,281 @@
+{
+  "status": "PRELIMINARY_CLASSIFICATION_NOT_VERIFIED",
+  "reference_commit": "d66fce89f05de1b379f1ff4f8e1619b114c4e5f9",
+  "pairs": 26,
+  "category_counts": {
+    "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE": 8,
+    "CLOSED_STOP_CANDIDATE": 2,
+    "HINGE_AXIAL_FACE_CANDIDATE": 2,
+    "HINGE_BEARING_CANDIDATE": 2,
+    "LID_FRAME_SADDLE_CANDIDATE": 6,
+    "FIXED_LAMINATION_CANDIDATE": 2,
+    "MOVING_FIXED_EDGE_CONTACT": 2,
+    "PIN_RETENTION_CANDIDATE": 2
+  },
+  "rows": [
+    {
+      "part_a": "BODY_FLOOR",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_FLOOR",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_FRONT",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_FRONT",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 5.684341886080802e-14,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "LID_END_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "CLOSED_STOP_CANDIDATE",
+      "reason": "Moving arch touches rear body panel in closed pose; verify intended stop and opening clearance.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "LID_END_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "CLOSED_STOP_CANDIDATE",
+      "reason": "Moving arch touches rear body panel in closed pose; verify intended stop and opening clearance.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 5.684341886080802e-14,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_END_L",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_END_L",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "HINGE_AXIAL_FACE_CANDIDATE",
+      "reason": "Moving arch and stationary inner fascia; axial retention, clearance and continuous motion still open.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_END_L",
+      "part_b": "CAPTIVE_PIN_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "HINGE_BEARING_CANDIDATE",
+      "reason": "Pin and moving arch; nominal touch does not prove rotational fit or axial retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_END_L",
+      "part_b": "INTERNAL_RAIL_SADDLE_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 1.0658141036401503e-14,
+      "candidate_role": "LID_FRAME_SADDLE_CANDIDATE",
+      "reason": "Moving lid frame and saddle; reference placement remains a hypothesis; prove capture and insertion.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_L",
+      "part_b": "OUTER_FASCIA_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_LAMINATION_CANDIDATE",
+      "reason": "Adjacent stationary fascia layers; joint and retention intent must be verified.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_L",
+      "part_b": "LID_SKIN_RADIAL_4MM",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "MOVING_FIXED_EDGE_CONTACT",
+      "reason": "Historical skin edge and stationary fascia; revised skin changes axial position. Recompute on final candidate.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "OUTER_FASCIA_L",
+      "part_b": "CAPTIVE_PIN_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "PIN_RETENTION_CANDIDATE",
+      "reason": "Stationary outer fascia and pin; check capture, assembly access and approved joint intent.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "BODY_END_R",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_BODY_FASCIA_INTERFACE_CANDIDATE",
+      "reason": "Stationary body and backer contact; verify design intent, actual seating and retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_END_R",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "HINGE_AXIAL_FACE_CANDIDATE",
+      "reason": "Moving arch and stationary inner fascia; axial retention, clearance and continuous motion still open.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_END_R",
+      "part_b": "CAPTIVE_PIN_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "HINGE_BEARING_CANDIDATE",
+      "reason": "Pin and moving arch; nominal touch does not prove rotational fit or axial retention.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_END_R",
+      "part_b": "INTERNAL_RAIL_SADDLE_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "LID_FRAME_SADDLE_CANDIDATE",
+      "reason": "Moving lid frame and saddle; reference placement remains a hypothesis; prove capture and insertion.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_R",
+      "part_b": "OUTER_FASCIA_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "FIXED_LAMINATION_CANDIDATE",
+      "reason": "Adjacent stationary fascia layers; joint and retention intent must be verified.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_R",
+      "part_b": "LID_SKIN_RADIAL_4MM",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 5.684341886080802e-14,
+      "candidate_role": "MOVING_FIXED_EDGE_CONTACT",
+      "reason": "Historical skin edge and stationary fascia; revised skin changes axial position. Recompute on final candidate.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "OUTER_FASCIA_R",
+      "part_b": "CAPTIVE_PIN_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "PIN_RETENTION_CANDIDATE",
+      "reason": "Stationary outer fascia and pin; check capture, assembly access and approved joint intent.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_FRONT_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "LID_FRAME_SADDLE_CANDIDATE",
+      "reason": "Moving lid frame and saddle; reference placement remains a hypothesis; prove capture and insertion.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_FRONT_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "LID_FRAME_SADDLE_CANDIDATE",
+      "reason": "Moving lid frame and saddle; reference placement remains a hypothesis; prove capture and insertion.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_BACK_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_L",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "LID_FRAME_SADDLE_CANDIDATE",
+      "reason": "Moving lid frame and saddle; reference placement remains a hypothesis; prove capture and insertion.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    },
+    {
+      "part_a": "LID_BACK_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_R",
+      "reference_volume_mm3": 0,
+      "reference_distance_mm": 0,
+      "candidate_role": "LID_FRAME_SADDLE_CANDIDATE",
+      "reason": "Moving lid frame and saddle; reference placement remains a hypothesis; prove capture and insertion.",
+      "verified_intent": false,
+      "final_retest": "NOT_RUN"
+    }
+  ],
+  "notes": [
+    "The categories are proposed engineering roles based on component names and source placements; contact area, retention, assembly sequence and physical suitability are not established.",
+    "No unresolved contact is silently promoted to PASS. The skin-related contacts may disappear in the revised geometry."
+  ]
+}

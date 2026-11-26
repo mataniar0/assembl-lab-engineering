@@ -1,0 +1,377 @@
+{
+  "revision": "MEB-037-R1 local analytical review",
+  "source_svg_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "reference_commit": "d66fce89f05de1b379f1ff4f8e1619b114c4e5f9",
+  "method": "Independent 2D YZ slice integration using source polygon loops and annular sectors approximated by short convex quadrilaterals; extruded axial intersection length 4mm. No OCC rerun; no slots modeled; no physical or production validation.",
+  "source_parameters": {
+    "developed_mm": 99.1708543337109,
+    "supported_until_mm": 84.77646323552999,
+    "unsupported_tail_mm": 14.394391098180918,
+    "original_rear_relief_station_mm": 85.7838244437109,
+    "neutral_radius_mm": 45.34239130654945
+  },
+  "reference_convergence": [
+    {
+      "step_mm": 0.25,
+      "vol_mm3": 6.932266781156812
+    },
+    {
+      "step_mm": 0.125,
+      "vol_mm3": 6.9314915009559
+    },
+    {
+      "step_mm": 0.0625,
+      "vol_mm3": 6.931383175676217
+    },
+    {
+      "step_mm": 0.03125,
+      "vol_mm3": 6.931361825756255
+    }
+  ],
+  "results": [
+    {
+      "id": "HISTORICAL",
+      "scope": "unmodified reference arches; cross-sectional integration, not full new assembly or receiving notch",
+      "baseline_span_mm": 308,
+      "intervals": [
+        [
+          2.092288393710902,
+          85.7838244437109
+        ]
+      ],
+      "all_10_tab_joints_verified": false,
+      "source_slit_lines_crossing_tab_lands": null,
+      "arch_intersections": [
+        {
+          "part": "LID_END_L",
+          "volume_mm3": 6.931403284332902,
+          "per_interval_mm3": [
+            6.931403284332902
+          ]
+        },
+        {
+          "part": "LID_END_R",
+          "volume_mm3": 6.931403245261379,
+          "per_interval_mm3": [
+            6.931403245261379
+          ]
+        }
+      ],
+      "unsupported_last_tab_length_mm": null
+    },
+    {
+      "id": "STRAIGHT_NO_TABS_CONTROL",
+      "scope": "unmodified reference arches; cross-sectional integration, not full new assembly or receiving notch",
+      "baseline_span_mm": 316,
+      "intervals": [],
+      "all_10_tab_joints_verified": false,
+      "source_slit_lines_crossing_tab_lands": null,
+      "arch_intersections": [
+        {
+          "part": "LID_END_L",
+          "volume_mm3": 0,
+          "per_interval_mm3": []
+        },
+        {
+          "part": "LID_END_R",
+          "volume_mm3": 0,
+          "per_interval_mm3": []
+        }
+      ],
+      "unsupported_last_tab_length_mm": null
+    },
+    {
+      "id": "FIVE_TABS_FULL_DEVELOPED_WIDTH",
+      "scope": "unmodified reference arches; cross-sectional integration, not full new assembly or receiving notch",
+      "baseline_span_mm": 316,
+      "intervals": [
+        [
+          0,
+          7
+        ],
+        [
+          23.042713583427727,
+          30.042713583427727
+        ],
+        [
+          46.08542716685545,
+          53.08542716685545
+        ],
+        [
+          69.12814075028318,
+          76.12814075028318
+        ],
+        [
+          92.1708543337109,
+          99.1708543337109
+        ]
+      ],
+      "all_10_tab_joints_verified": false,
+      "source_slit_lines_crossing_tab_lands": 12,
+      "arch_intersections": [
+        {
+          "part": "LID_END_L",
+          "volume_mm3": 24.489843163750407,
+          "per_interval_mm3": [
+            1.003187719561538e-7,
+            4.686394277086947e-7,
+            6.712816684739664e-7,
+            4.686426109401509e-7,
+            24.48984145486793
+          ]
+        },
+        {
+          "part": "LID_END_R",
+          "volume_mm3": 24.489843175804452,
+          "per_interval_mm3": [
+            1.0031882879957266e-7,
+            4.6845707402098924e-7,
+            6.707014108542353e-7,
+            4.6846071199979633e-7,
+            24.489841467866427
+          ]
+        }
+      ],
+      "unsupported_last_tab_length_mm": 7
+    },
+    {
+      "id": "FIVE_TABS_SUPPORTED_ARC_ONLY",
+      "scope": "unmodified reference arches; cross-sectional integration, not full new assembly or receiving notch",
+      "baseline_span_mm": 316,
+      "intervals": [
+        [
+          0,
+          7
+        ],
+        [
+          19.444115808882497,
+          26.444115808882497
+        ],
+        [
+          38.888231617764994,
+          45.888231617764994
+        ],
+        [
+          58.33234742664749,
+          65.33234742664749
+        ],
+        [
+          77.77646323552999,
+          84.77646323552999
+        ]
+      ],
+      "all_10_tab_joints_verified": false,
+      "source_slit_lines_crossing_tab_lands": 16,
+      "arch_intersections": [
+        {
+          "part": "LID_END_L",
+          "volume_mm3": 0.0000021222523685082706,
+          "per_interval_mm3": [
+            1.003187719561538e-7,
+            4.7285038817790337e-7,
+            6.491454769275151e-7,
+            6.178906915010884e-7,
+            2.8204703994560987e-7
+          ]
+        },
+        {
+          "part": "LID_END_R",
+          "volume_mm3": 0.000002121696724088906,
+          "per_interval_mm3": [
+            1.0031882879957266e-7,
+            4.7266939873225056e-7,
+            6.489981387858279e-7,
+            6.17736077401787e-7,
+            2.8197428036946803e-7
+          ]
+        }
+      ],
+      "unsupported_last_tab_length_mm": 0
+    }
+  ],
+  "contact_groups": [
+    {
+      "part_a": "BODY_FLOOR",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_FLOOR",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_FRONT",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_FRONT",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "LID_END_L",
+      "category": "HINGE_OR_CLOSED_STOP",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "LID_END_R",
+      "category": "HINGE_OR_CLOSED_STOP",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_BACK",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_END_L",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_END_L",
+      "part_b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "HINGE_OR_CLOSED_STOP",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_END_L",
+      "part_b": "CAPTIVE_PIN_L",
+      "category": "HINGE_OR_CLOSED_STOP",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_END_L",
+      "part_b": "INTERNAL_RAIL_SADDLE_L",
+      "category": "MOVING_SADDLE_FRAME",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_L",
+      "part_b": "OUTER_FASCIA_L",
+      "category": "FIXED_FASCIA_STACK",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_L",
+      "part_b": "LID_SKIN_RADIAL_4MM",
+      "category": "MOVING_SKIN_FIXED_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "OUTER_FASCIA_L",
+      "part_b": "CAPTIVE_PIN_L",
+      "category": "FIXED_FASCIA_STACK",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "BODY_END_R",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "FIXED_BODY_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_END_R",
+      "part_b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "HINGE_OR_CLOSED_STOP",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_END_R",
+      "part_b": "CAPTIVE_PIN_R",
+      "category": "HINGE_OR_CLOSED_STOP",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_END_R",
+      "part_b": "INTERNAL_RAIL_SADDLE_R",
+      "category": "MOVING_SADDLE_FRAME",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_R",
+      "part_b": "OUTER_FASCIA_R",
+      "category": "FIXED_FASCIA_STACK",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "FASCIA_HIDDEN_BACKER_R",
+      "part_b": "LID_SKIN_RADIAL_4MM",
+      "category": "MOVING_SKIN_FIXED_BACKER",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "OUTER_FASCIA_R",
+      "part_b": "CAPTIVE_PIN_R",
+      "category": "FIXED_FASCIA_STACK",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_FRONT_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_L",
+      "category": "MOVING_SADDLE_FRAME",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_FRONT_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_R",
+      "category": "MOVING_SADDLE_FRAME",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_BACK_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_L",
+      "category": "MOVING_SADDLE_FRAME",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "part_a": "LID_BACK_RAIL",
+      "part_b": "INTERNAL_RAIL_SADDLE_R",
+      "category": "MOVING_SADDLE_FRAME",
+      "reference_intersection_mm3": 0,
+      "status": "INTENT_HYPOTHESIS_NOT_VERIFIED"
+    }
+  ],
+  "release": "BLOCKED"
+}

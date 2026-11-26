@@ -1,0 +1,17 @@
+{
+  "revision": "MEB-038 contact audit",
+  "input_step_sha256": "448eaeb16e866f0c75f4f2017e90f86ee6bc264732b121a6367891d474b1ab56",
+  "input_glb_sha256": "1205ac7350e0538f44839e5dbbfbe6904bcba8226e19592bbec679f92d3ce848",
+  "imported_valid_solids": 20,
+  "named_matches": 20,
+  "max_matching_bbox_error_mm": 0.003958329457844911,
+  "prior_contacts_rechecked": 26,
+  "counts": {
+    "TOUCHING": 26
+  },
+  "max_intersection_mm3": 0,
+  "bending": "PASS_OWNER_REPORTED for updated slits; exact specimen traceability and independent report not supplied",
+  "scope": "fresh STEP readback and nominal checks on 26 previously unassessed contacts; no physical fit, retention, friction, or manufacturing qualification",
+  "nesting": "NOT_RUN",
+  "release": "BLOCKED"
+}

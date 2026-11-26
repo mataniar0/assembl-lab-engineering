@@ -1,0 +1,349 @@
+{
+  "revision": "MEB-037-R1 local cross-section diagnostic",
+  "source_ref": "976307c691744da0c0f16a841867a2ee7a4ab97c",
+  "svg_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "method": "Independent polygon clipping of original arch outline minus holes against annular sector quadrilaterals; multiply by nominal axial slab. Convergence at three station increments. This is not an exact B-rep boolean or full assembly test.",
+  "baseline_report_mm3": [
+    6.9313552183744624,
+    6.931355181185841
+  ],
+  "candidates": [
+    {
+      "id": "historical_reference",
+      "scope": "original full axial span region",
+      "results": [
+        {
+          "step_mm": 0.2,
+          "left_overlap_mm3": 6.931835476575003,
+          "right_overlap_mm3": 6.931835427084565
+        },
+        {
+          "step_mm": 0.05,
+          "left_overlap_mm3": 6.9313727893757004,
+          "right_overlap_mm3": 6.931372751353621
+        },
+        {
+          "step_mm": 0.0125,
+          "left_overlap_mm3": 6.931356197216502,
+          "right_overlap_mm3": 6.931356159969397
+        }
+      ]
+    },
+    {
+      "id": "full_width_five_band_hypothesis",
+      "scope": "projection-only diagnostic, not slot design",
+      "results": [
+        {
+          "step_mm": 0.2,
+          "left_overlap_mm3": 24.48803970037558,
+          "right_overlap_mm3": 24.488039707003594
+        },
+        {
+          "step_mm": 0.05,
+          "left_overlap_mm3": 24.4900564441501,
+          "right_overlap_mm3": 24.49005645679756
+        },
+        {
+          "step_mm": 0.0125,
+          "left_overlap_mm3": 24.490187662595503,
+          "right_overlap_mm3": 24.49018767553261
+        }
+      ]
+    },
+    {
+      "id": "contact_limited_five_band_hypothesis",
+      "scope": "projection-only diagnostic within measured contact; no receiving notches",
+      "results": [
+        {
+          "step_mm": 0.2,
+          "left_overlap_mm3": 0.00007485985612731838,
+          "right_overlap_mm3": 0.0000748555715688326
+        },
+        {
+          "step_mm": 0.05,
+          "left_overlap_mm3": 3.5297816225465795e-7,
+          "right_overlap_mm3": 3.527617309373454e-7
+        },
+        {
+          "step_mm": 0.0125,
+          "left_overlap_mm3": 1.2911129942949628e-9,
+          "right_overlap_mm3": 1.2788348158210283e-9
+        }
+      ]
+    },
+    {
+      "id": "straight_core_without_tabs_control",
+      "scope": "negative control: no new joints",
+      "results": [
+        {
+          "step_mm": 0.2,
+          "left_overlap_mm3": 0,
+          "right_overlap_mm3": 0
+        },
+        {
+          "step_mm": 0.05,
+          "left_overlap_mm3": 0,
+          "right_overlap_mm3": 0
+        },
+        {
+          "step_mm": 0.0125,
+          "left_overlap_mm3": 0,
+          "right_overlap_mm3": 0
+        }
+      ]
+    }
+  ],
+  "remaining_contact_classification": [
+    {
+      "a": "BODY_FLOOR",
+      "b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_FLOOR",
+      "b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_FRONT",
+      "b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_FRONT",
+      "b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_BACK",
+      "b": "LID_END_L",
+      "category": "CLOSED_STOP_HYPOTHESIS",
+      "reason": "moving/fixed boundary; verify directional clearance through opening",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_BACK",
+      "b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_BACK",
+      "b": "LID_END_R",
+      "category": "CLOSED_STOP_HYPOTHESIS",
+      "reason": "moving/fixed boundary; verify directional clearance through opening",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_BACK",
+      "b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_END_L",
+      "b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_END_L",
+      "b": "FASCIA_HIDDEN_BACKER_L",
+      "category": "MOVING_FASCIA_CONTACT",
+      "reason": "axial face contact; retention/clearance not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_END_L",
+      "b": "CAPTIVE_PIN_L",
+      "category": "PIVOT_CONTACT_HYPOTHESIS",
+      "reason": "pin/arch interface; retention and rotation not verified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_END_L",
+      "b": "INTERNAL_RAIL_SADDLE_L",
+      "category": "SADDLE_CONTACT_HYPOTHESIS",
+      "reason": "saddle role, fit and full insertion unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "FASCIA_HIDDEN_BACKER_L",
+      "b": "OUTER_FASCIA_L",
+      "category": "FASCIA_STACK",
+      "reason": "fixed face stack; bond unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "FASCIA_HIDDEN_BACKER_L",
+      "b": "LID_SKIN_RADIAL_4MM",
+      "category": "MOVING_SKIN_FASCIA_CONTACT",
+      "reason": "must recheck after skin change and through continuous motion",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "OUTER_FASCIA_L",
+      "b": "CAPTIVE_PIN_L",
+      "category": "PIN_RETAINER_HYPOTHESIS",
+      "reason": "retention path unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "BODY_END_R",
+      "b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "BODY_FASCIA_STACK",
+      "reason": "nominal fixed face stack; bond/attachment not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_END_R",
+      "b": "FASCIA_HIDDEN_BACKER_R",
+      "category": "MOVING_FASCIA_CONTACT",
+      "reason": "axial face contact; retention/clearance not established",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_END_R",
+      "b": "CAPTIVE_PIN_R",
+      "category": "PIVOT_CONTACT_HYPOTHESIS",
+      "reason": "pin/arch interface; retention and rotation not verified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_END_R",
+      "b": "INTERNAL_RAIL_SADDLE_R",
+      "category": "SADDLE_CONTACT_HYPOTHESIS",
+      "reason": "saddle role, fit and full insertion unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "FASCIA_HIDDEN_BACKER_R",
+      "b": "OUTER_FASCIA_R",
+      "category": "FASCIA_STACK",
+      "reason": "fixed face stack; bond unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "FASCIA_HIDDEN_BACKER_R",
+      "b": "LID_SKIN_RADIAL_4MM",
+      "category": "MOVING_SKIN_FASCIA_CONTACT",
+      "reason": "must recheck after skin change and through continuous motion",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "OUTER_FASCIA_R",
+      "b": "CAPTIVE_PIN_R",
+      "category": "PIN_RETAINER_HYPOTHESIS",
+      "reason": "retention path unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_FRONT_RAIL",
+      "b": "INTERNAL_RAIL_SADDLE_L",
+      "category": "SADDLE_CONTACT_HYPOTHESIS",
+      "reason": "saddle role, fit and full insertion unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_FRONT_RAIL",
+      "b": "INTERNAL_RAIL_SADDLE_R",
+      "category": "SADDLE_CONTACT_HYPOTHESIS",
+      "reason": "saddle role, fit and full insertion unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_BACK_RAIL",
+      "b": "INTERNAL_RAIL_SADDLE_L",
+      "category": "SADDLE_CONTACT_HYPOTHESIS",
+      "reason": "saddle role, fit and full insertion unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    },
+    {
+      "a": "LID_BACK_RAIL",
+      "b": "INTERNAL_RAIL_SADDLE_R",
+      "category": "SADDLE_CONTACT_HYPOTHESIS",
+      "reason": "saddle role, fit and full insertion unverified",
+      "state": "HYPOTHESIS_NOT_VERIFIED"
+    }
+  ],
+  "contact_count": 26,
+  "gate": "BLOCKED",
+  "limitations": [
+    "Virtual bands have no new receiving notch geometry; zero estimated intersection is not a valid finger joint.",
+    "Does not include other 18 solids or full motion/assembly/retention.",
+    "Original arch's faceted curve, circular candidate and numerical tessellation may give tiny positive overlaps; no physical tolerance inferred.",
+    "No manufacturing geometry exported."
+  ],
+  "r6_projection_screen": {
+    "source_blob": "1845e224e16f0543826b2f895190bc9b64bb6226",
+    "method": "Screen existing pattern variants against the same virtual bands in actual station direction; axial/transverse segment-to-rectangle distances. This is a diagnostic, not new geometry.",
+    "results": [
+      {
+        "candidate": "full_width_five_band_hypothesis",
+        "pattern": "original",
+        "line_count": 88,
+        "projection_intersections": 12,
+        "left": 6,
+        "right": 6,
+        "minimum_nominal_separation_mm": 0
+      },
+      {
+        "candidate": "full_width_five_band_hypothesis",
+        "pattern": "R1",
+        "line_count": 88,
+        "projection_intersections": 0,
+        "left": 0,
+        "right": 0,
+        "minimum_nominal_separation_mm": 0.58542717
+      },
+      {
+        "candidate": "full_width_five_band_hypothesis",
+        "pattern": "R2",
+        "line_count": 88,
+        "projection_intersections": 0,
+        "left": 0,
+        "right": 0,
+        "minimum_nominal_separation_mm": 3.4572864134277275
+      },
+      {
+        "candidate": "contact_limited_five_band_hypothesis",
+        "pattern": "original",
+        "line_count": 88,
+        "projection_intersections": 16,
+        "left": 8,
+        "right": 8,
+        "minimum_nominal_separation_mm": 0
+      },
+      {
+        "candidate": "contact_limited_five_band_hypothesis",
+        "pattern": "R1",
+        "line_count": 88,
+        "projection_intersections": 14,
+        "left": 7,
+        "right": 7,
+        "minimum_nominal_separation_mm": 0
+      },
+      {
+        "candidate": "contact_limited_five_band_hypothesis",
+        "pattern": "R2",
+        "line_count": 88,
+        "projection_intersections": 12,
+        "left": 6,
+        "right": 6,
+        "minimum_nominal_separation_mm": 0
+      }
+    ],
+    "conclusion": "None of the projections constitutes a verified slot/arch joint. Existing R6 variants were derived for different tab stations; their previous clearance results do not transfer automatically. With original pitch 4 mm and nominal 7 mm band width, interior bands entirely in the edge-open region cannot avoid all original open row stations by translation alone. Preserve the baseline and compare alternatives in CAD; no physical clearance threshold established."
+  }
+}

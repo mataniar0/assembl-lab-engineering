@@ -1,0 +1,20 @@
+{
+  "revision": "MEB-038 jig review",
+  "scope": "Nominal 2D curvature and coverage comparison only; not a test of physical jig, strength, placement or manufacturing",
+  "source_svg_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "candidate_review_blob": "7c53e4c50547a1df07db3722fcabf7abaf46017c",
+  "candidate_builder_blob": "5c9321819d2c4c7a1c94a04e0e5ae3b9d4777b23",
+  "arc_points_checked": 170,
+  "maximum_fit_residual_mm": 6.667974403740118e-7,
+  "maximum_mirror_difference_mm": 9.999999974752427e-7,
+  "nominal_radius_difference_mm": 6.559655219007254e-8,
+  "absolute_angular_span_difference_deg": 1.013637942539307e-7,
+  "maximum_polygon_chord_sag_mm": 0.0029701734564966387,
+  "outer_arc_nominal_match": "PASS_BOUNDED",
+  "physical_support_and_clearance": "NOT_RUN",
+  "design_changes": 0,
+  "bending_status": "PASS_OWNER_REPORTED",
+  "independent_QA": "PENDING",
+  "nesting": "NOT_RUN",
+  "G4": "BLOCKED"
+}

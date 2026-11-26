@@ -1,0 +1,6 @@
+cadquery==2.7.0
+cadquery-ocp==7.8.1.1.post1
+matplotlib==3.10.8
+numpy==2.3.5
+shapely==2.1.2
+trimesh==4.11.1

@@ -1,0 +1,43 @@
+{
+  "revision": "MEB-040",
+  "candidate": "MEB-037-R1 B",
+  "status": "REVIEW_HANDOFF_ONLY",
+  "source_archive_sha256": "379c4db838ab13fe8893afe22abf81fb4bd02bd99a95f186e0e2ef96c45bea4d",
+  "source_archive_entries": 28,
+  "source_archive_crc": "PASS",
+  "source_export_sha256": {
+    "step": "448eaeb16e866f0c75f4f2017e90f86ee6bc264732b121a6367891d474b1ab56",
+    "closed_glb": "1205ac7350e0538f44839e5dbbfbe6904bcba8226e19592bbec679f92d3ce848"
+  },
+  "products": 20,
+  "separate_jig": 1,
+  "retained_parts": 17,
+  "modified_parts": 3,
+  "unique_pair_records_verified": 190,
+  "pair_register_positive_intersections": 0,
+  "contact_records_verified": 26,
+  "motion_screen_records_verified": 99,
+  "nominal_assembly_checks_reported": 26,
+  "negative_controls": {
+    "PASS": 8,
+    "FAIL": 0,
+    "NOT_RUN": 2
+  },
+  "virtual_R6_pattern": "PASS_BOUNDED",
+  "physical_bending": "PASS_OWNER_REPORTED; specimen traceability pending",
+  "physical_fit": "NOT_RUN",
+  "jig_curvature": "PASS_BOUNDED per MEB-038 repository report",
+  "jig_physical_support": "NOT_RUN",
+  "layout": "NOT_RUN",
+  "independent_QA": "PENDING",
+  "manufacturing_release": "BLOCKED",
+  "repo_archive_at_review": {
+    "exact_git_blob_matches": 7,
+    "other_present_not_verified": 4,
+    "absent": 17,
+    "total_original_entries": 28
+  },
+  "geometry_changes_this_stage": 0,
+  "scope": "Archive integrity and cross-report consistency only; no new CAD Boolean, motion, or physical testing.",
+  "review_packet_sha256": "8ea92b10e9c966e95a55a0888e7c7b6a5a8690cff48a3c78fbab7cdb6d205381"
+}

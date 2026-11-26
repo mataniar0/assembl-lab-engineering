@@ -1,0 +1,60 @@
+{
+  "scope": "Independent numerical end cross-section screening, not CAD release",
+  "source_svg_blob": "8644b71371b5c4f02233b65d432ce22136e02199",
+  "reference_commit": "d66fce89f05de1b379f1ff4f8e1619b114c4e5f9",
+  "refinement": [
+    {
+      "step": 0.1,
+      "volume": 6.931433702924721
+    },
+    {
+      "step": 0.025,
+      "volume": 6.931359398181598
+    },
+    {
+      "step": 0.00625,
+      "volume": 6.931355405662742
+    }
+  ],
+  "reference_cad_left": 6.9313552183744624,
+  "reference_cad_right": 6.931355181185841,
+  "local_contact_end_mm": 84.77646323552999,
+  "unsupported_continuation_mm": 14.394391098180918,
+  "options": [
+    {
+      "name": "historical",
+      "local_volume_each": 6.93135619721906
+    },
+    {
+      "name": "straight_no_tabs",
+      "local_volume_each": 0,
+      "tab_count": 0
+    },
+    {
+      "name": "five_full_span",
+      "local_volume_each": 24.49018766261871,
+      "original_r6_edge_intersections_both_ends": 12
+    },
+    {
+      "name": "five_contact_span",
+      "local_volume_each": 1.2806680160792894e-9,
+      "original_r6_edge_intersections_both_ends": 16
+    }
+  ],
+  "limited_search": {
+    "crossings_minimum_observed": 10,
+    "global_optimum_not_proven": true
+  },
+  "contacts": {
+    "fixed_stack_proposal": 10,
+    "pin_retention_proposal": 4,
+    "closure_face_proposal": 6,
+    "saddle_proposal": 6,
+    "still_unassessed": 26
+  },
+  "verified_new_mating_joints": 0,
+  "full_assembly_rerun": false,
+  "continuous_motion": "NOT_RUN",
+  "gates": "G2/G3/G4 BLOCKED",
+  "production_release": false
+}
